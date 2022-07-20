@@ -232,77 +232,13 @@ html.search-open .wrapper_header_parallax .quickSearchResultsWrap div.header-sea
 .col-md-12.product_info{padding:0}
 .cart-icon .cartCount,.iwish-icon .iWishCount{min-height:20px;font-size:13px;line-height:20px;text-align:center;padding-left:2px}
 .footer-bottom.container{max-width:100%!important}
-.ooo-instagram-feed{overflow:hidden}
-.ooo-instagram-feed .ooo-instagram-feed__list{position:relative;grid-gap:inherit!important;width:530vw;display:flex!important;align-items:flex-start;padding-top:30px;padding-bottom:40px;animation-name:shiftInstagramImagesDesktop;animation-iteration-count:infinite;animation-direction:alternate;animation-timing-function:cubic-bezier(0.15,0,0.85,1);animation-duration:50s;animation-name:shiftInstagramImagesDesktop}
-@media (max-width: 767px) {
-.ooo-instagram-feed .ooo-instagram-feed__list{animation-name:shiftInstagramImagesMobile}
-}
-@keyframes shiftInstagramImagesDesktop {
-from{transform:translateX(0)}
-to{transform:translateX(-165.75vw)}
-}
-@keyframes shiftInstagramImagesMobile {
-from{transform:translateX(0)}
-to{transform:translateX(-331.5vw)}
-}
-.ooo-instagram-feed .ooo-instagram-media .ooo-instagram-media__overlay{display:none!important}
-.ooo-instagram-feed .ooo-instagram-media:before{display:none!important}
-.ooo-instagram-feed .ooo-instagram-media{position:relative;border-radius:10px}
-.ooo-instagram-feed .ooo-instagram-media:hover{box-shadow:0 15px 30px #000}
-.ooo-instagram-feed .ooo-instagram-media img{transition:box-shadow 0.3s,transform 0.3s,opacity .4s}
-.ooo-instagram-feed .ooo-instagram-media:hover img{transform:scale(1.1)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(1){width:13.4vw;transform:translateX(-7.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(2){width:16.7vw;margin-top:2.8vw;transform:translateX(-4.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(3){width:11.7vw;margin-top:15.7vw;transform:translateX(-35.3vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(4){width:13.47vw;margin-top:.7vw;transform:translateX(-13.3vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(5){width:11.47vw;margin-top:16.5vw;transform:translateX(-26.8vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(6){width:16.4vw;transform:translateX(-21.7vw);margin-top:-1.5vw}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(7){width:20.7vw;margin-top:0;transform:translateX(-18.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(8){width:11.7vw;margin-top:16.7vw;transform:translateX(-55.8vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(9){width:13.47vw;margin-top:-1vw;transform:translateX(-27.3vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(10){width:12.47vw;margin-top:14.5vw;transform:translateX(-40.8vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(11){width:22.9vw;transform:translateX(-37vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(12){width:23.7vw;margin-top:1.8vw;transform:translateX(-34.1vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(13){width:16.7vw;margin-top:31.3vw;transform:translateX(-118.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(14){width:21.47vw;margin-top:.7vw;transform:translateX(-69.3vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(15){width:21.47vw;margin-top:26.5vw;transform:translateX(-90.8vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(16){width:26.9vw;transform:translateX(-86vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(17){width:38.7vw;margin-top:4.8vw;transform:translateX(-81.1vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(18){width:16.7vw;margin-top:31.5vw;transform:translateX(-141.3vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(19){width:21.47vw;margin-top:26vw;transform:translateX(-92.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(20){width:21.47vw;transform:translateX(-114vw)}
-.ooo-instagram-feed .ooo-instagram-media:after{content:'';display:block;padding-bottom:100%}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(1) .instagram__image{transition-delay:.25s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(2) .instagram__image{transition-delay:.5s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(3) .instagram__image{transition-delay:.75s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(4) .instagram__image{transition-delay:1s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(5) .instagram__image{transition-delay:1.25s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(6) .instagram__image{transition-delay:1.5s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(7) .instagram__image{transition-delay:1.75s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(8) .instagram__image{transition-delay:2s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(9) .instagram__image{transition-delay:2.25s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(10) .instagram__image{transition-delay:2.5s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(11) .instagram__image{transition-delay:2.75s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(12) .instagram__image{transition-delay:3s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(13) .instagram__image{transition-delay:3.25s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(14) .instagram__image{transition-delay:3.5s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(15) .instagram__image{transition-delay:3.75s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(16) .instagram__image{transition-delay:4s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(17) .instagram__image{transition-delay:4.25s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(18) .instagram__image{transition-delay:4.5s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(19) .instagram__image{transition-delay:4.75s}
-.ooo-instagram-feed .ooo-instagram-media:nth-child(20) .instagram__image{transition-delay:5s}
-h2.ooo-instagram-header__title{font-size:50px;font-family:serifabold;font-display:swap;letter-spacing:1px;color:#5e0d8b!important;font-weight:400}
+
 div#shopify-section-1620284455a44ab566{display:none}
 div#shopify-section-16212376512f1b2940 a.btn{margin-top:10px}
-.ooo-instagram{background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/plumgoodness_insta-bg.jpg);background-size:cover;padding:0 0 100px!important;margin-bottom:0;background-repeat:no-repeat;margin-top:0!important}
 input.input-group-field.header-search__input{text-transform:lowercase!important}
-.ooo-instagram-container{display:inline-block;width:100%;vertical-align:middle}
-.ooo-instagram-header .ooo-instagram-header__title{margin-top:-38px}
 div#shopify-section-16212376512f1b2940{padding-top:32px}
 div#searchModalContainer{margin:0!important}
 div#instafeed{margin:0}
-.ooo-instagram{margin-bottom:0!important}
 .footer-default .footer-top{padding:50px 0 40px}
 #shopify-section-1575369352128 .homepage-video-section button{width:100%}
 #shopify-section-1575369352128 .homepage-video-section img{width:100%}
@@ -317,8 +253,6 @@ div#instafeed{margin:0}
 .product-shop div#product-variants .review_div .jdgm-widget.jdgm-widget{margin-top:10px;margin-bottom:10px}
 .product-shop div#product-variants .review_div{border-right:1px solid #ccc;margin-right:15px;padding-right:30px}
 .product-shop div#product-variants.addBreak .review_div{border:none;margin-right:0;padding-right:0}
-.ooo-instagram-header .ooo-instagram-header__title{margin-bottom:40px}
-.ooo-instagram{padding:0 0 70px!important}
 .range-link{margin-top:5px;text-transform:capitalize;font-size:25px;line-height:1;font-weight:400;padding-bottom:10px}
 .price-box .price-regular{color:#000}
 .featured-products .inner.product-item{border-radius:10px}
@@ -423,7 +357,6 @@ a.icon-nav.menu-open{left:286px!important}
 .search-open .wrapper-header div.search-form{top:100px}
 }
 @media only screen and (min-width:1400px) {
-.ooo-instagram-feed{max-width:1600px;margin:0 auto}
 .free-shipping-top ul li{padding:0 20px 0 50px !important;position:relative}
 .product-shop .groups-btn{padding:1rem 2rem .5em}
 .header-parallax div.search-form .search-bar{max-width:1240px}
@@ -571,34 +504,7 @@ img.visible_desktop{display:none}
 .product-shop div#product-variants label{width:90px}
 .product.row.product-default{width:100%;max-width:100%;margin:0}
 .product-shop .delivery-time-infos ul .check-pincode{justify-content:center}
-h2.ooo-instagram-header__title{font-size:35px}
-section.ooo-instagram{margin-bottom:0}
 .site-footer .foot-title.newsletter-title{margin-top:20px;font-size:18px}
-.ooo-instagram-feed{padding-bottom:0}
-.ooo-instagram-feed .ooo-instagram-media{margin-left:0!important;margin-right:0!important}
-.ooo-instagram-feed .ooo-instagram-feed__list{width:900vw;padding-top:23px;padding-bottom:30px;animation-name:shiftInstagramImagesMobile}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(1){width:43.9vw;transform:translateX(-33.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(2){width:65vw;margin-top:4.8vw;transform:translateX(-26vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(3){width:30.1vw;margin-top:52.7vw;transform:translateX(-102vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(4){width:39.17vw;margin-top:.7vw;transform:translateX(-48.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(5){width:39.17vw;margin-top:46.5vw;transform:translateX(-87.7vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(6){width:43.9vw;transform:translateX(-79.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(7){width:65vw;margin-top:4.8vw;transform:translateX(-72.1vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(8){width:30.1vw;margin-top:52.7vw;transform:translateX(-174.6vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(9){width:39.17vw;margin-top:.7vw;transform:translateX(-93.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(10){width:39.17vw;margin-top:46.5vw;transform:translateX(-132.7vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(11){width:43.9vw;transform:translateX(-124.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(12){width:65vw;margin-top:4.8vw;transform:translateX(-117.1vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(13){width:30.1vw;margin-top:52.7vw;transform:translateX(-219.6vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(14){width:39.17vw;margin-top:.7vw;transform:translateX(-139.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(15){width:39.17vw;margin-top:46.5vw;transform:translateX(-178.7vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(16){width:43.9vw;transform:translateX(-171.4vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(17){width:65vw;margin-top:4.8vw;transform:translateX(-164.8vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(18){width:30.1vw;margin-top:52.7vw;transform:translateX(-266.6vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(19){width:39.17vw;margin-top:.7vw;transform:translateX(-187.5vw)}
-.ooo-instagram-feed .ooo-instagram-media:nth-of-type(20){width:39.17vw;margin-top:46.5vw;transform:translateX(-226.7vw)}
-div#shopify-section-16212376512f1b2940{padding-top:30px}
-.ooo-instagram-header .ooo-instagram-header__title{margin-top:-26px}
 .featured-products .inner.product-item{margin-bottom:30px}
 .featured-products .col-12.col-md-12{padding-bottom:95px}
 .product-shop div#product-variants label{width:100px}
@@ -800,7 +706,6 @@ body.searchtap .wrapper-header.wrapper_header_parallax{min-height:82px!important
 .icon-search img{max-height:25px}
 .cart-icon img{max-height:26px}
 .header-bottom a.icon-search{top:-4px}
-.ooo-instagram{padding:0 0 20px!important}
 div#shopify-section-1574945752414{padding-top:15px}
 body .footer-bottom.container{padding-top:15px!important;padding-bottom:15px!important}
 .site-nav li a .icon-dropdown{opacity:1}
