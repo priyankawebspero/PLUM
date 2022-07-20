@@ -1,0 +1,12 @@
+<div class="share_toolbox">  
+  {% if section.settings.share_text != blank %}
+  	{% include 'multilang' with section.settings.share_text %}
+  {% endif %}
+  <!----- www.addthis.com/dashboard ----->
+  <div class="addthis_inline_share_toolbox"></div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-595b0ea2fb9c5869"></script>
+  
+  <a href="https://www.facebook.com/sharer.php?u={{ canonical_url }}" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/intent/tweet?text='{{page_title}}'&amp;url={{ canonical_url }}&amp;via=plumspeak" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ canonical_url }}" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>

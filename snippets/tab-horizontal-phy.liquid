@@ -1,0 +1,145 @@
+{% assign show_custom_tab = false %}
+{% if section.settings.display_custom_tab %}
+{% if section.settings.custom_tab_type == 'all' %}
+{% assign show_custom_tab = true %}
+{% elsif product.description contains '[custom tab]' %}
+{% assign show_custom_tab = true %}
+{% endif %}
+{% endif %}
+
+{% if section.settings.display_product_detail_description or  section.settings.display_goodness_inside or section.settings.display_how_to_use or show_custom_tab %}
+<div class="tabs__product-page horizontal-tabs{% if section.settings.show_tab == 'horizontal_center' %} horizontal-tabs-center{% endif %} container-padd60 fw-section product-section-tab">
+  {% if section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == true %}
+  {% assign tab2_active = true %}
+  {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false %}
+  {% assign tab3_active = true %}
+  {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false and section.settings.display_how_to_use == false %}
+  {% assign tab4_active = true %}
+  {% endif %}
+  <ul class="list-tabs">
+    {% if section.settings.display_product_detail_description %}
+    <li class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab1" class="tab-links active">
+        {% include 'multilang' with section.settings.product_description_title %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if section.settings.display_goodness_inside %}
+    <li class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab2" class="tab-links {% if tab2_active%}active{% endif %}">
+        {% include 'multilang' with section.settings.product_goodness_title %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if section.settings.display_how_to_use %}
+    <li class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab3" class="tab-links {% if tab3_active%}active{% endif %}">
+        {% include 'multilang' with section.settings.how_to_use_title %}
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+
+  <div class="wrapper-tab-content">
+    {% if section.settings.display_product_detail_description %}
+
+    {% assign des = product.description %}
+    {% if des contains '[countdown]' or product.description contains '[custom tab]' %}
+    {% assign des = product.description | split:'[/countdown]</p>' | last %}
+    {% assign des = des | split:'[custom tab]' | first | split:'<iframe' | first %}
+    {% endif %}
+ 
+    {% comment %}
+    <div class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab1" class="tab-links active">
+        {% include 'multilang' with section.settings.product_description_title %}
+        <span class="icon-dropdown">
+          <i class="fa fa-angle-down"></i>
+        </span>
+      </a>
+    </div>
+    {% endcomment %}
+
+    <div class="tab-content active" data-TabContent id="collapse-tab1">
+      <div class="parduct-page__horizontal-description">
+        <div class="inside_tab flex-display">
+          <div class="product-description">
+            <div class="description-wrapper">
+              {{ product.description }}
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+        </div>
+      </div>
+
+      <div>
+      </div>
+      <div class="read_more">Read More<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+      <div class="read_less" style="display:none;">Read less<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+
+    </div>
+    {% endif %}
+
+    {% if section.settings.display_goodness_inside %}
+    {% comment %}
+    <div class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab2" class="tab-links {% if tab2_active%}active{% endif %}">
+        {% include 'multilang' with section.settings.product_goodness_title %}
+        <span class="icon-dropdown">
+          <i class="fa fa-angle-down"></i>
+        </span>
+      </a>
+    </div>
+	{% endcomment %}
+    
+    <div class="tab-content {% if tab2_active%}active{% endif %}" data-TabContent id="collapse-tab2">
+        <div class="three-sections">
+          {% if collection.title == 'Bundles of Goodness' %}
+          {% else %}
+          {% include "goodness-inside" %}
+          {% endif %}
+        </div>
+     <div class="read_more">Read More<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+     <div class="read_less" style="display:none;">Read less<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+    </div>
+    {% endif %}
+
+    {% if section.settings.display_how_to_use %}
+    {% comment %}
+    <div class="tab-title">
+      <a href="#" data-tapTop data-target="#collapse-tab3" class="tab-links {% if tab3_active%}active{% endif %}">
+        {% include 'multilang' with section.settings.how_to_use_title %}
+        <span class="icon-dropdown">
+          <i class="fa fa-angle-down"></i>
+        </span>
+      </a>
+    </div>
+    {% endcomment %}
+
+    <div class="tab-content {% if tab3_active%}active{% endif %}" data-TabContent id="collapse-tab3">
+          {% include "how-to-use" %}
+        <div class="read_more">Read More<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+        <div class="read_less" style="display:none;">Read less<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><title>right arrow</title><path d="M.874 0L0 .937 4.262 5.5 0 10.073.864 11l4.694-5.037L6 5.5l-.442-.463z" class="css-1sx9h1w"></path></svg></span></div>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+
+<script>
+$('.horizontal-tabs .read_more').on('click', function(){
+    $(this).closest('.tab-content').addClass('readmore');
+    $(this).hide();
+    $('.active .read_less').show();
+})
+$('.horizontal-tabs .read_less').on('click', function(){
+    $(this).closest('.tab-content').removeClass('readmore');
+    $(this).hide();
+    $('.active .read_more').show();
+})
+</script>

@@ -1,0 +1,62 @@
+.form_sec{padding-top:30px}
+.form_sec h3{text-align:center;color:#000;font-weight:600}
+.counter_text>span.side_text{display:inline-block;vertical-align:middle;font-family:serifabold;font-size:36px;color:#fff;line-height:normal;margin-top:-40px}
+.counter_text p + span.side_text{font-size:24px}
+.counter_text{display:flex;justify-content:center;padding:30px 0 10px;align-items:center;background:#5e0c8c}
+.counter_text p{display:flex;margin:0 80px}
+.counter_text p .countdown span.ocount{background:#fff;min-width:65px;display:block;font-size:37px;line-height:normal;border-radius:10px;padding:12px 5px;font-family:serifabold;color:#5e0c8c}
+.counter_text p hr{display:none}
+.counter_text p .countdown .inner{color:#fff;font-size:16px;display:block;padding-top:5px}
+.counter_text p .countdown{margin:0 9px;display:inline-block;font-size:0;vertical-align:top;position:relative}
+.counter_text p .hours.countdown:after{content:":";position:absolute;right:-15px;color:#fff;top:15px;font-size:60px}
+.counter_text p .minutes.countdown:after{content:":";position:absolute;right:-15px;color:#fff;top:15px;font-size:60px}
+.signup-mail-outer .desktop-form.right br{display:none}
+.form_sec{padding-top:40px}
+.signup-mail-outer{width:100%;max-width:800px;margin:0 auto 50px}
+.signup-mail-outer .desktop-form.right{display:flex;margin:0 -15px}
+.signup-mail-outer .desktop-form.right button{display:inline-block;background:#5e0c8c;color:#fff;border-radius:5px;padding:5px 30px;border:none;font-size:17px;margin:0 15px;cursor:pointer}
+.signup-mail-outer .desktop-form.right button:hover{background:#8901bd!important;color:#fff}
+.signup-mail-outer .desktop-form.right input{width:300px;display:inline-block;margin:0 15px;border:1px solid #5e0c8c;background:#5e0c8c;height:45px;border-radius:5px;color:#fff;font-weight:500;font-size:17px;padding:10px 15px}
+.signup-mail-outer .desktop-form.right input::-webkit-input-placeholder{color:#fff}
+.signup-mail-outer .desktop-form.right input::-moz-placeholder{color:#fff}
+.signup-mail-outer .desktop-form.right input:-ms-input-placeholder{color:#fff}
+.signup-mail-outer .desktop-form.right input:-moz-placeholder{color:#fff}
+.page-tpl>.container-fluid{max-width:100%;padding-left:0;padding-right:0}
+.page-tpl>.container-fluid .row{margin:0;margin:0;background:#5e0c8c}
+.form_sec h3{padding:0 15px}
+.page-tpl{overflow:hidden}
+#landing-page-teaser main.main-content{padding-bottom:0}
+img.teaser_desktop{width:100%}
+@media only screen and (max-width:850px) {
+.signup-mail-outer .desktop-form.right{justify-content:center}
+.signup-mail-outer .desktop-form.right input{width:250px;margin:0 10px}
+.signup-mail-outer .desktop-form.right button{margin:0 10px}
+.counter_text p .countdown span.ocount{min-width:50px;font-size:28px}
+.counter_text p .countdown .inner{font-size:13px}
+.counter_text p .hours.countdown:after,.counter_text p .minutes.countdown:after{right:-14px;top:13px;font-size:47px}
+.counter_text p{margin:0 40px}
+}
+@media only screen and (max-width:767px) {
+.form_sec h3{font-size:20px}
+.counter_text>span.side_text{font-size:24px}
+.counter_text p+span.side_text{font-size:18px}
+.counter_text p .countdown span.ocount{min-width:42px;font-size:22px}
+.counter_text p .countdown .inner{font-size:11px}
+.counter_text p .hours.countdown:after,.counter_text p .minutes.countdown:after{right:-12px;top:11px;font-size:35px}
+.counter_text p{margin:0 20px}
+.signup-mail-outer .desktop-form.right{justify-content:center;flex-direction:column;align-items:center}
+.signup-mail-outer .desktop-form.right input{width:100%;margin:0 0 17px}
+.signup-mail-outer .desktop-form.right button{margin:5px 0 0;padding:10px 30px}
+.form_sec h3{font-size:18px}
+img.teaser_desktop{display:none}
+img.teaser_mobile{display:block!important}
+}
+@media only screen and (max-width:575px) {
+.counter_text{display:block;padding:30px 0}
+.counter_text>span.side_text{margin-top:0;display:block}
+.counter_text p{margin:30px 0 0;justify-content:center}
+.signup-mail-outer .desktop-form.right{margin:0}
+.signup-mail-outer{padding:0 15px}
+.counter_text p .countdown span.ocount{min-width:50px;font-size:30px}
+.counter_text p .countdown .inner{font-size:13px}
+}
