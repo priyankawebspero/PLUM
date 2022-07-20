@@ -6,10 +6,6 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>    <!-- head_meta -->
     {% include 'head_meta' %}
-        <!-- Styles -->
-    {% include 'head_styles' %}
-    <!-- Scripts -->
-    {% include 'head_scripts' %}
      <!-- SEOManganer -->
     <link rel="dns-prefetch" href="https://shopify.thirdwatch.ai">
     <link rel="dns-prefetch" href="https://widget.as.criteo.com">
@@ -25,7 +21,12 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://platform.loyaltylion.com">
     <link rel="dns-prefetch" href="https://q.quora.com"> 
-  
+
+    <!-- Styles -->
+    {% include 'head_styles' %}
+    <!-- Scripts -->
+    {% include 'head_scripts' %}
+    
     <!-- Header hook for plugins ================================ -->
       {% include 'sca.freegifts' %}
 
@@ -93,7 +94,7 @@
   
     <!-- Product meta ================================================== -->
  
-    {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+    {%- if request.page_type == 'collection' -%}
     {%- unless template contains 'boost-pfs-original' -%}
     <link rel="preconnect" href="https://services.mybcapps.com/bc-sf-filter/filter  " />
     <link rel="dns-prefetch" href="https://services.mybcapps.com/bc-sf-filter/filter" />
@@ -103,11 +104,12 @@
     <link rel="preload" href="{{ 'boost-pfs-init.js' | asset_url }}" as="script">
     {%- endunless -%}
     {%- endif -%}
-   {% include 'gokwik' %}
-  {% include 'judgeme_core' %}
-  {% include "loyaltylion" %}
-  {% render 'gsf-conversion-pixels' %}
-  {% include 'quora' %}
+
+    {% include 'gokwik' %}
+    {% include 'judgeme_core' %}
+    {% include "loyaltylion" %}
+    {% render 'gsf-conversion-pixels' %}
+    {% include 'quora' %}
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
