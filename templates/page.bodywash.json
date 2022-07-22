@@ -44,57 +44,6 @@
         "auto_playvideo": true
       }
     },
-    "165849166859714bea": {
-      "type": "home-spotlight-slider",
-      "blocks": {
-        "1658491667146acd20-0": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "1658491667146acd20-1": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "1658491667146acd20-2": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "3c112c6b-9774-48cf-a976-e07acca43778": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        }
-      },
-      "block_order": [
-        "1658491667146acd20-0",
-        "1658491667146acd20-1",
-        "1658491667146acd20-2",
-        "3c112c6b-9774-48cf-a976-e07acca43778"
-      ],
-      "settings": {
-        "layout": "default",
-        "display_padding": true,
-        "bg_color": "#f5f5f5",
-        "spotlight_block_title": "#Spotlight",
-        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
-        "spotlight_block_btn": "",
-        "spotlight_block_url": "",
-        "title_style": "style_2",
-        "margin_bottom_mb": 0,
-        "margin_bottom": 0
-      }
-    },
     "16584917577bd45e70": {
       "type": "bodywash-collection",
       "blocks": {
@@ -159,12 +108,211 @@
         "title_style": "style_1",
         "margin_bottom": 0
       }
+    },
+    "165849166859714bea": {
+      "type": "home-spotlight-slider",
+      "blocks": {
+        "1658491667146acd20-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "1658491667146acd20-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "1658491667146acd20-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "3c112c6b-9774-48cf-a976-e07acca43778": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "1658491667146acd20-0",
+        "1658491667146acd20-1",
+        "1658491667146acd20-2",
+        "3c112c6b-9774-48cf-a976-e07acca43778"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": true,
+        "bg_color": "#f5f5f5",
+        "spotlight_block_title": "#Spotlight",
+        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+        "spotlight_block_btn": "",
+        "spotlight_block_url": "",
+        "title_style": "style_2",
+        "margin_bottom_mb": 0,
+        "margin_bottom": 0
+      }
+    },
+    "165849178800ddd9bd": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "Trending Now",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "Shop Now",
+        "link1": "",
+        "collection_results_per_row1": "5",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "16584918030acc40e3": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "Trending Now",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "Shop Now",
+        "link1": "",
+        "collection_results_per_row1": "5",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "1658491814eed6d5bf": {
+      "type": "bodylovin-custom-content",
+      "settings": {
+        "code": "<div class=\"row\">\n    <div class=\"col-sm-12\"> <div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n\n          <span>\n            Watch &amp; Buy\n          <\/span>\n\n        <\/span>\n      <\/h3>\n\n      <\/div>\n\n      <fw-embed-feed channel=\"plum_goodness\" playlist=\"oNNdlo\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\"><\/fw-embed-feed>\n    <\/div>\n  <\/div>",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": "",
+        "hidden_section": false
+      }
+    },
+    "1658491933c6609cea": {
+      "type": "home-spotlight-slider",
+      "blocks": {
+        "165849193388c38449-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "165849193388c38449-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "165849193388c38449-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "1d00ade4-c06f-4b90-bab3-07aedc5e2da4": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "165849193388c38449-0",
+        "165849193388c38449-1",
+        "165849193388c38449-2",
+        "1d00ade4-c06f-4b90-bab3-07aedc5e2da4"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": true,
+        "bg_color": "#f5f5f5",
+        "spotlight_block_title": "#Spotlight",
+        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+        "spotlight_block_btn": "",
+        "spotlight_block_url": "",
+        "title_style": "style_2",
+        "margin_bottom_mb": 0,
+        "margin_bottom": 0
+      }
+    },
+    "165849199828298fc8": {
+      "type": "home-brands",
+      "blocks": {
+        "dcb89c3f-7095-4824-a53e-6c1e0cdb84ba": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        },
+        "e65493a7-9a0d-4a6d-ac6b-8026ad78a113": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        },
+        "fdfd1678-2c3b-4855-b4bc-7b7e6b367a62": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "dcb89c3f-7095-4824-a53e-6c1e0cdb84ba",
+        "e65493a7-9a0d-4a6d-ac6b-8026ad78a113",
+        "fdfd1678-2c3b-4855-b4bc-7b7e6b367a62"
+      ],
+      "settings": {
+        "layout": "default",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "display_brand_border": true,
+        "brand_title": "",
+        "brand_des": "",
+        "banner_button": "Shop Now",
+        "btn_link": "",
+        "title_style": "style_1",
+        "brand_rows": "5"
+      }
     }
   },
   "order": [
     "style-check",
     "16584916565597b9d2",
+    "16584917577bd45e70",
     "165849166859714bea",
-    "16584917577bd45e70"
+    "165849178800ddd9bd",
+    "16584918030acc40e3",
+    "1658491814eed6d5bf",
+    "1658491933c6609cea",
+    "165849199828298fc8"
   ]
 }
