@@ -168,12 +168,73 @@
         "spotlight_block_title": "#Featured On Ella",
         "spotlight_block_des": ""
       }
+    },
+    "1658489800cc294a87": {
+      "type": "phy-social",
+      "blocks": {
+        "1658489800fa98594d-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "68c19a9a-8eab-48b3-97bf-f1cca600a8da": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "65eb7c2f-b5b4-467c-ae6e-cf6136b3d96c": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "142e3366-0557-4b0f-822c-ec2c757516c6": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "139414e8-e3a1-45c7-9580-498ea54fbb4f": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658489800fa98594d-0",
+        "68c19a9a-8eab-48b3-97bf-f1cca600a8da",
+        "65eb7c2f-b5b4-467c-ae6e-cf6136b3d96c",
+        "142e3366-0557-4b0f-822c-ec2c757516c6",
+        "139414e8-e3a1-45c7-9580-498ea54fbb4f"
+      ],
+      "settings": {
+        "heading": "PHY on social"
+      }
+    },
+    "165848980769f53267": {
+      "type": "phy-video",
+      "settings": {
+        "show_homepage_videos_section": true,
+        "video_title": "Latest Posts",
+        "description": "",
+        "video_link1": "_9VUPq3SxOc",
+        "read_more_button_name": "",
+        "read_more_button_link": "",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "style-check",
     "165848928552c70b4a",
     "16584896238e3d691b",
-    "16584893325e6e9c34"
+    "16584893325e6e9c34",
+    "1658489800cc294a87",
+    "165848980769f53267"
   ]
 }
