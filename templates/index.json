@@ -92,7 +92,7 @@
         "dots_opacity": false,
         "arrow_color": "#666d6d",
         "arrow_border_color": "#666d6d",
-        "arrow_bg_color": "#fff",
+        "arrow_bg_color": "#ffffff",
         "position_slick_arrow": "10%",
         "min_width_banner_button": "",
         "bg_video": "#866965",
@@ -144,6 +144,57 @@
         "section_padding_bottom": "",
         "section_padding_left": "",
         "hidden_section": false
+      }
+    },
+    "1658490722f9e82fc3": {
+      "type": "home-spotlight-slider",
+      "blocks": {
+        "16584907220bd4bb17-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "16584907220bd4bb17-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "16584907220bd4bb17-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "4744bf0e-b7dd-45c5-b411-1df8de8cc83c": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "16584907220bd4bb17-0",
+        "16584907220bd4bb17-1",
+        "16584907220bd4bb17-2",
+        "4744bf0e-b7dd-45c5-b411-1df8de8cc83c"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": true,
+        "bg_color": "#f5f5f5",
+        "spotlight_block_title": "#Spotlight",
+        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+        "spotlight_block_btn": "",
+        "spotlight_block_url": "",
+        "title_style": "style_2",
+        "margin_bottom_mb": 0,
+        "margin_bottom": 0
       }
     },
     "1658485170941c47bc": {
@@ -200,6 +251,7 @@
     "165848492042e89e2c",
     "1658485109ce9a8560",
     "165848513210ac1823",
+    "1658490722f9e82fc3",
     "1658485170941c47bc"
   ]
 }
