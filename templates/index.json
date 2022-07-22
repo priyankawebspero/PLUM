@@ -1,13 +1,205 @@
 {
-  	"name": "plum-home",
-  	"sections": {
-    	"home-list-collections": {
-      	"type": "home-list-collections",
-      	"settings": {
-      	}
-    	}
-  	},
-  	"order": [
-    	"home-list-collections"
-  	]
+  "sections": {
+    "home-list-collections": {
+      "type": "home-list-collections",
+      "blocks": {
+        "e26a98f9-c74a-486d-aa60-835b82ee495b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "7f28725e-b547-477c-8668-d160a4829795": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "490e6eee-a94a-4e2a-a360-da862c5fe12f": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "09425903-eb04-42b5-8a70-7d242ff3dfe1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "a1a766b5-7263-42ac-8d42-fd09d7bb1de8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "e26a98f9-c74a-486d-aa60-835b82ee495b",
+        "7f28725e-b547-477c-8668-d160a4829795",
+        "490e6eee-a94a-4e2a-a360-da862c5fe12f",
+        "09425903-eb04-42b5-8a70-7d242ff3dfe1",
+        "a1a766b5-7263-42ac-8d42-fd09d7bb1de8"
+      ],
+      "settings": {
+        "display_padding": true,
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0
+      }
+    },
+    "1658484860c65081e1": {
+      "type": "home-slideshow",
+      "blocks": {
+        "165848486091642f98-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "link": "",
+            "alignment": "left"
+          }
+        },
+        "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "link": "",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "165848486091642f98-0",
+        "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#fff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "165848492042e89e2c": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "Trending Now",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "Shop Now",
+        "link1": "",
+        "collection_results_per_row1": "5",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "1658485109ce9a8560": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "Trending Now",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "Shop Now",
+        "link1": "",
+        "collection_results_per_row1": "5",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "165848513210ac1823": {
+      "type": "bodylovin-custom-content",
+      "settings": {
+        "code": "<div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n          \n<span>\n  watch &amp; buy\n<\/span>\n\n        <\/span>\n      <\/h3>\n      \n    <\/div>\n<div class=\"widget-plum\" style=\"padding-top:20px;\">\n\n    <fw-embed-feed channel=\"plum_goodness\" playlist=\"5aMdk5\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\" player_placement=\"bottom-right\"><\/fw-embed-feed>\n<\/div>\n<style>\n.gl_custom_162979546848c9e2fa.gl_content_html {\n    min-height: 400px !important;\n}\n<\/style>",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": "",
+        "hidden_section": false
+      }
+    },
+    "1658485170941c47bc": {
+      "type": "home-brands",
+      "blocks": {
+        "30ae1571-a96a-4cbb-90be-c29c38bdb904": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        },
+        "506abdc0-0a8e-4d81-be1f-645de298d77f": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        },
+        "6e5f7af8-8bdf-406b-974c-c5497e2efac7": {
+          "type": "image",
+          "settings": {
+            "title": "Loremous",
+            "description_band": "Loremous",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "30ae1571-a96a-4cbb-90be-c29c38bdb904",
+        "506abdc0-0a8e-4d81-be1f-645de298d77f",
+        "6e5f7af8-8bdf-406b-974c-c5497e2efac7"
+      ],
+      "settings": {
+        "layout": "default",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "display_brand_border": true,
+        "brand_title": "",
+        "brand_des": "",
+        "banner_button": "Shop Now",
+        "btn_link": "",
+        "title_style": "style_1",
+        "brand_rows": "5"
+      }
+    }
+  },
+  "order": [
+    "home-list-collections",
+    "1658484860c65081e1",
+    "165848492042e89e2c",
+    "1658485109ce9a8560",
+    "165848513210ac1823",
+    "1658485170941c47bc"
+  ]
 }
