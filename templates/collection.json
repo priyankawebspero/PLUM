@@ -1,12 +1,17 @@
 {
     "sections": {
-      "main-collection": {
+      "collection-header": {
+        "type": "collection-header",
+        "settings": {
+        }
+      },"main-collection": {
         "type": "main-collection",
         "settings": {
         }
       }
     },
     "order": [
+      "collection-header",
       "main-collection"
     ]
   }
