@@ -1,13 +1,120 @@
 {
-  "name": "plum-home",
   "sections": {
     "style-check": {
       "type": "style-check",
       "settings": {
       }
+    },
+    "165848928552c70b4a": {
+      "type": "home-slideshow",
+      "blocks": {
+        "1658489285fe1ce5d1-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "link": "",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1658489285fe1ce5d1-0"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#fff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "16584893325e6e9c34": {
+      "type": "phy-collection-boxes",
+      "blocks": {
+        "1658489332d0b82a4f-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "1658489332d0b82a4f-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "1658489332d0b82a4f-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "900a40c5-d04f-441d-8ed7-e8cdcfa3fa4e": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "c4e8b61b-aaf2-4ff4-86df-de5fc17b5cd9": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "e83a3d4a-cd2c-42be-95b3-cbc624da4553": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658489332d0b82a4f-0",
+        "1658489332d0b82a4f-1",
+        "1658489332d0b82a4f-2",
+        "900a40c5-d04f-441d-8ed7-e8cdcfa3fa4e",
+        "c4e8b61b-aaf2-4ff4-86df-de5fc17b5cd9",
+        "e83a3d4a-cd2c-42be-95b3-cbc624da4553"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "#Featured On Ella",
+        "spotlight_block_des": ""
+      }
     }
   },
   "order": [
-    "style-check"
+    "style-check",
+    "165848928552c70b4a",
+    "16584893325e6e9c34"
   ]
 }
