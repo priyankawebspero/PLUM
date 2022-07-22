@@ -111,7 +111,7 @@
 			products_per_page: {% if product_per_page %} {{ product_per_page | json }} {% else %} 24 {% endif %},
 			products_per_row: {% if section.settings.collection_results_per_row %} {{ section.settings.collection_results_per_row }} {% else %} 4 {% endif %},
 			grid_item_width: {% if grid_item_width %} {{ grid_item_width | json}} {% else %} "col-md-3" {% endif %},
-			image_size: {% if image_size %} {{ image_sizefilter %} {{ settings.time_lazy_load }} {% else %} 100 {% endif %},
+			image_size: {% if image_size %} {{ image_sizefilter }} {{ settings.time_lazy_load }} {% else %} 100 {% endif %},
 			show_vendor: {% if settings.show_vendor %} {{ settings.show_vendor | json }} {% else %} false {% endif %},
 			enable_quick_view: {% if settings.enable_quick_view %} {{ settings.enable_quick_view | json }} {% else %} false {% endif %},
 			enable_size_swatch: {% if settings.display_item_size %} {{ settings.display_item_size | json }} {% else %} false {% endif %},
