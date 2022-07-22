@@ -4,9 +4,167 @@
       "type": "style-check",
       "settings": {
       }
+    },
+    "16584916565597b9d2": {
+      "type": "home-slideshow",
+      "blocks": {
+        "1658491656e56f97db-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "link": "",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1658491656e56f97db-0"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#fff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "165849166859714bea": {
+      "type": "home-spotlight-slider",
+      "blocks": {
+        "1658491667146acd20-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "1658491667146acd20-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "1658491667146acd20-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        },
+        "3c112c6b-9774-48cf-a976-e07acca43778": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "link_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "1658491667146acd20-0",
+        "1658491667146acd20-1",
+        "1658491667146acd20-2",
+        "3c112c6b-9774-48cf-a976-e07acca43778"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": true,
+        "bg_color": "#f5f5f5",
+        "spotlight_block_title": "#Spotlight",
+        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+        "spotlight_block_btn": "",
+        "spotlight_block_url": "",
+        "title_style": "style_2",
+        "margin_bottom_mb": 0,
+        "margin_bottom": 0
+      }
+    },
+    "16584917577bd45e70": {
+      "type": "bodywash-collection",
+      "blocks": {
+        "1658491757cabdd493-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "1658491757cabdd493-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "1658491757cabdd493-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "efbec7f0-aa34-4ef4-8017-435428f807b7": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "8f404b86-f33e-4104-92c5-5dd49ff5d245": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": "",
+            "columns": "one half size"
+          }
+        }
+      },
+      "block_order": [
+        "1658491757cabdd493-0",
+        "1658491757cabdd493-1",
+        "1658491757cabdd493-2",
+        "efbec7f0-aa34-4ef4-8017-435428f807b7",
+        "8f404b86-f33e-4104-92c5-5dd49ff5d245"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "#Featured On Ella",
+        "spotlight_block_des": "",
+        "title_style": "style_1",
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
-    "style-check"
+    "style-check",
+    "16584916565597b9d2",
+    "165849166859714bea",
+    "16584917577bd45e70"
   ]
 }
