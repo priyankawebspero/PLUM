@@ -169,6 +169,55 @@
         "spotlight_block_des": ""
       }
     },
+    "1658489924c67e5460": {
+      "type": "phy-4-boxes",
+      "blocks": {
+        "16584899246c14d070-0": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "16584899246c14d070-1": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "16584899246c14d070-2": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        },
+        "a3abd272-70e8-4edc-8627-48e7c79cf5e5": {
+          "type": "image",
+          "settings": {
+            "title": "Lorem De Dorus",
+            "sub_title": "NULLAM DAPIBUS LIBEROS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16584899246c14d070-0",
+        "16584899246c14d070-1",
+        "16584899246c14d070-2",
+        "a3abd272-70e8-4edc-8627-48e7c79cf5e5"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "#Featured On Ella",
+        "spotlight_block_des": ""
+      }
+    },
     "1658489800cc294a87": {
       "type": "phy-social",
       "blocks": {
@@ -234,6 +283,7 @@
     "165848928552c70b4a",
     "16584896238e3d691b",
     "16584893325e6e9c34",
+    "1658489924c67e5460",
     "1658489800cc294a87",
     "165848980769f53267"
   ]
