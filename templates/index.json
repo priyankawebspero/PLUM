@@ -1,0 +1,13 @@
+{
+  	"name": "plum-home",
+  	"sections": {
+    	"home-list-collections": {
+      	"type": "home-list-collections",
+      	"settings": {
+      	}
+    	}
+  	},
+  	"order": [
+    	"home-list-collections"
+  	]
+}
