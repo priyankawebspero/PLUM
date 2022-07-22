@@ -1,0 +1,13 @@
+{
+  "name": "plum-home",
+  "sections": {
+    "style-check": {
+      "type": "style-check",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "style-check"
+  ]
+}
