@@ -8,7 +8,7 @@
         {% capture collection_title %}{{ collection.title | escape }}{% endcapture %}
         <div class="collection-item">
           <div class="img-box banner-item">
-            <a href="{{ collection.url }}" title="{{ collection_title }}">
+            <a href="{%- if collection == blank -%} {{ block.settings.url }} {%- else -%} {{ collection.url }} {%- endif -%}" title="{{ collection_title }}">
               {% if block.settings.image != blank %}
               {%- assign img_url = block.settings.image | img_url: 'orignal' -%}
               <img data-src="{{ img_url }}"
@@ -147,6 +147,11 @@
                         "label": "Collection",
                         "id": "collection",
                         "type": "collection"
+                    },
+                    {
+                        "label": "url",
+                        "id": "url",
+                        "type": "url"
                     },
                     {
                         "label": "Title",
