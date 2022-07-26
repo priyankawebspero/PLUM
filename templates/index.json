@@ -74,7 +74,9 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/HP-Banner_Raksha-Bnadhan_Desktop_9c96509e-7cab-433a-8efe-3a1214891957.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP-Banner_Raksha-Bnadhan_Mobile_c6149edd-3de3-4600-9ba2-dcf3d574bfa5.gif",
+            "link": "https:\/\/plumgoodness.com\/collections\/festive-combos",
             "alignment": "left"
           }
         },
@@ -82,14 +84,38 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/HP_Desktop_Matte-In-Heaven-Liquid-Lipstick_1920X500_1a650cee-4c95-4c93-9f0f-9441b95bd846.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP_Mobile_Matte-In-Heaven-Liquid-Lipstick_767X475_d0f99ac6-0eda-45d2-aa8b-7e4ebfd51f9f.jpg",
+            "link": "https:\/\/plumgoodness.com\/products\/matte-in-heaven-liquid-lipstick?variant=39846762872892",
+            "alignment": "left"
+          }
+        },
+        "f0188917-06a6-4e38-a16f-f663af2d2627": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Pimple-Care_HP-banner_1_724140ab-94bb-4ca4-9e12-5732ca27ec44.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Pimple-Care_HP-Mobile-banner_1_0d7a2f79-c583-457b-9997-e01293f18eeb.jpg",
+            "link": "shopify:\/\/collections\/green-tea",
+            "alignment": "left"
+          }
+        },
+        "f5cca3d3-6e8e-49fe-8ec2-3019bb8e85de": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Avocado-Shampoo_HP-Desk-Banner_04c50e17-3889-4307-9dae-398ec5e7cece.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Avocado-Shampoo_HP-Mobile-Banner_ed44356e-357f-429e-bf98-0e9837c82071.jpg",
+            "link": "shopify:\/\/collections\/frizz",
             "alignment": "left"
           }
         }
       },
       "block_order": [
         "165848486091642f98-0",
-        "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e"
+        "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
+        "f0188917-06a6-4e38-a16f-f663af2d2627",
+        "f5cca3d3-6e8e-49fe-8ec2-3019bb8e85de"
       ],
       "settings": {
         "layout": "full",
