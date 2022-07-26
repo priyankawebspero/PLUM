@@ -159,6 +159,7 @@
     },
     "1658485109ce9a8560": {
       "type": "home-featured-products",
+      "disabled": true,
       "settings": {
         "featured_products_title": "Trending Now",
         "featured_products_des": "",
