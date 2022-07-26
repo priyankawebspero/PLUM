@@ -2394,53 +2394,6 @@
           "blog_show_date": true
         }
       },
-      "sidebar-filter": {
-        "type": "sidebar-filter",
-        "blocks": {
-          "1543546642200": {
-            "type": "filter_text",
-            "settings": {
-              "enable": true,
-              "title": "category",
-              "list_tags": "face wash,face scrubs,toners - face mists,face mask,facial moisturizer,sun-protection-spf, face oils - serums"
-            }
-          },
-          "1575713616995": {
-            "type": "filter_text",
-            "settings": {
-              "enable": true,
-              "title": "skin concern",
-              "list_tags": "acne - oil-control,ageingskin,dryness, tanned-dull skin,Sun Protection,sensitivity,tanned-dull skin"
-            }
-          },
-          "1575713636851": {
-            "type": "filter_text",
-            "settings": {
-              "enable": true,
-              "title": "skin type",
-              "list_tags": "acne - oil-control,dry skin,normal skin,sensitivity,mature skin"
-            }
-          },
-          "1543546687010": {
-            "type": "filter_text",
-            "settings": {
-              "enable": true,
-              "title": "ingredients",
-              "list_tags": "green tea,hello aloe,Chamomile - White Tea,Grape seed & Sea buckthorn,bright years,Vitamin E"
-            }
-          }
-        },
-        "block_order": [
-          "1543546642200",
-          "1575713616995",
-          "1575713636851",
-          "1543546687010"
-        ],
-        "settings": {
-          "display_sidebar": true,
-          "sidebar_heading": "Filter"
-        }
-      },
       "GDPR-modal": {
         "type": "GDPR-modal",
         "settings": {
@@ -4257,11 +4210,6 @@
           "title_style": "style_2",
           "margin_bottom_mb": 40,
           "margin_bottom": 0
-        }
-      },
-      "collection-template-boost-pfs-filter": {
-        "type": "collection-template-boost-pfs-filter",
-        "settings": {
         }
       },
       "teaser-second-section": {
