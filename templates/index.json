@@ -8,6 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Circle-Icons_Gift-box_small_7eb9c370-3def-478d-940f-ac0264b44594.png",
             "collection": "festive-combos",
+            "url": "",
             "title": "Gifting"
           }
         },
@@ -16,6 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/01_Skin_Category_Icons_small_c7456b58-14b3-484b-ae5d-fd4a9fbeb744.png",
             "collection": "skincare",
+            "url": "",
             "title": "Skincare"
           }
         },
@@ -24,6 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/02_Category_Icons_Body_small_c9d13915-cef6-4b25-a6a3-8aac572cb169.png",
             "collection": "",
+            "url": "https:\/\/plumgoodness.com\/pages\/plum-bodylovin",
             "title": "Bodycare"
           }
         },
@@ -31,7 +34,8 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/03_Hair_Category_Icons_small_daf59a34-2690-4f3b-a69c-995172b13be4.png",
-            "collection": "",
+            "collection": "hair-offers",
+            "url": "",
             "title": "Haircare"
           }
         },
@@ -39,7 +43,8 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/04_Make-Up_Category_Icons_small_f3f9be9f-2d8c-4a69-a1ca-9890c5bc337f.png",
-            "collection": "",
+            "collection": "makeup",
+            "url": "",
             "title": "Makeup"
           }
         },
@@ -48,6 +53,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Phy_Category_Icons_small_8068dedb-3f98-46cd-9f0b-ceda48cbb90e.png",
             "collection": "",
+            "url": "https:\/\/plumgoodness.com\/pages\/phy",
             "title": "PHY ( for guys )"
           }
         }
