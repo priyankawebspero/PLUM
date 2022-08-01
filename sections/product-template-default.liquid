@@ -113,6 +113,13 @@
                 {% endfor %}
               </select>
               
+              {% comment %}
+              {% if settings.use_color_swatch %}
+              {% for option in product.options %}
+              {% include 'item-swatch' with option %}
+              {% endfor %}
+              {% endif %}
+                {% endcomment %}
               {% if product.available %}
               <div class="quantity">
                 <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
@@ -173,10 +180,13 @@
               <div class="tooltip price-manufacturer2">
                 <img class="lazyautosizes lazyload" data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976" src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976" class="info-icon">
                 <span class="tooltiptext">
+
                   <div class="manufacturer-box">
                     <p class="manufact-text">Name & address of manufacturer</p>
                     <p class="manufact-add">{{ name_address_of_manufacturer }}</p>
                   </div>
+
+
                   {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
                   {% if countries_of_origin != 0 and countries_of_origin != blank %}
                   <div class="manufacturer-box">
@@ -184,6 +194,7 @@
                     <p class="manufact-add">{{ countries_of_origin }}</p>
                   </div>
                   {% endif %}
+
                   {% assign category = product.metafields.product['category'] %}
                   {% if category != 0 and category != blank %}
                   <div class="manufacturer-box">
@@ -191,6 +202,7 @@
                     <p class="manufact-add">{{ category }}</p>
                   </div>
                   {% endif %}
+
                   {% assign number_of_items = product.metafields.product['number of items'] %}
                   {% if number_of_items != 0 and number_of_items != blank %}
                   <div class="manufacturer-box">
@@ -198,6 +210,7 @@
                     <p class="manufact-add">{{ number_of_items }}</p>
                   </div>
                   {% endif %}
+
                   {% assign expiry_date = product.metafields.product['expiry date'] %}
                   {% if expiry_date != 0 and expiry_date != blank %}
                   <div class="manufacturer-box">
@@ -205,6 +218,7 @@
                     <p class="manufact-add">{{ expiry_date }}</p>
                   </div>
                   {% endif %}
+
                   {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
                   {% if dimension_of_product != 0 and dimension_of_product != blank %}
                   <div class="manufacturer-box">
@@ -212,6 +226,14 @@
                     <p class="manufact-add">{{ dimension_of_product }}</p>
                   </div>
                   {% endif %}
+                  {% comment %}
+                  {% if Grammage != 0 and Grammage != blank %}
+                  <div class="manufacturer-box">
+                    <p class="manufact-text">Grammage </p>    
+                    <p class="manufact-add">{{ Grammage }}</p>
+                  </div>
+                  {% endif %}
+                  {% endcomment %}
                 </span>
               </div>
               {% endif %}
@@ -242,6 +264,7 @@
                   </div>
                   {% endif %}
 
+                  
                   {% if notRecommended != 0 and notRecommended != blank %}
                   <div class="product-type no-recom">
                     <label>Not advised for</label>
@@ -271,7 +294,8 @@
               {{ form | payment_button }}
               {% endif %}
           </div>
-            {% include 'iwish_v2' with 'iWish_Login_Msgs' %} 
+            {% include 'iwish_v2' with 'iWish_Login_Msgs' %}   
+
         </div>  
 
           <div class="section-3">
@@ -296,7 +320,8 @@
       </div> 
 
          {% if section.settings.display_product_detail_tag %}
-          <div class="tags">        
+          <div class="tags">
+        
             <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{%endif%}>{{ 'blogs.article.tags' | t }}:</strong>
             {% for tag in product.tags %}
             <span class="separator">/</span>
@@ -316,16 +341,17 @@
           <div class="visible_mobile" style="display:none;">
             <div class="row">
               <div class="short-desc-datas">
-              {% if product.metafields.Product['Short Description'] != blank %}
-                {{ product.metafields.Product['Short Description'] }}
-                 {% else %}
-                {{ product.metafields.Product['Short Description '] }}              
-              {% endif %}
+            {% if product.metafields.Product['Short Description'] != blank %}
+            {{ product.metafields.Product['Short Description'] }}
+            {% else %}
+            {{ product.metafields.Product['Short Description '] }}
+              
+            {% endif %}
               </div>
             </div>
           </div>
         <div class="col-md-12 product_gift_bx">
-          <!--Free shipping offer text start -->
+                    <!--Free shipping offer text start -->
           {% if section.settings.display-free-text %}
           <br>
           <div class="free-shipping-top" style="list-style-type: none;">
@@ -336,6 +362,7 @@
               {% endif %}
               {% if section.settings.offer_2 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
+
               {% endif %}
               {% if section.settings.offer_3 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
@@ -359,7 +386,7 @@
       {% include 'image-product-CRG' %}     
       {% include 'tab-horizontal' %}
       {% include 'melt-section-image' %}
-      {% include 'Review-question-tab' %} 
+      {% include 'Review-question-tab' %}   
     
     {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
       <div class="container-padd60 product-related-outer fw-section">
@@ -676,8 +703,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 "id": "number_of_related_products",
 "label": "Number of related products",
 "default": "8"
-}
-]
 }
 ]
 }
