@@ -3,6 +3,32 @@
     "product-template-default": {
       "type": "product-template-default",
       "settings": {
+        "style_moreview": "horizontal",
+        "enable_payment_button": true,
+        "image_planet_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.svg",
+        "image_planet_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.png?v=1620658181",
+        "display-free-text": true,
+        "offer_1": "",
+        "offer_2": "",
+        "offer_3": "",
+        "offer_4": "",
+        "offer_5": "",
+        "display_crg_image": true,
+        "image_product_svg": "",
+        "image_product_mob_svg": "",
+        "show_desc": "short",
+        "show_tab": "horizontal",
+        "display_product_detail_description": true,
+        "product_description_title": "Description",
+        "display_goodness_inside": true,
+        "product_goodness_title": "Goodness Inside",
+        "display_how_to_use": true,
+        "how_to_use_title": "How To Use",
+        "display_custom_tab": true,
+        "display_image_melt": true,
+        "display_related_products": true,
+        "related_products_title": "Related Products",
+        "number_of_related_products": "8"
       }
     }
   },
