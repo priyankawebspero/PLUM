@@ -1,7 +1,7 @@
 {
   "sections": {
-    "product-template-min-parent": {
-      "type": "product-template-min-parent",
+    "product-template-phy": {
+      "type": "product-template-phy",
       "settings": {
         "style_moreview": "horizontal",
         "enable_payment_button": true,
@@ -34,6 +34,6 @@
     }
   },
   "order": [
-    "product-template-min-parent"
+    "product-template-phy"
   ]
 }
