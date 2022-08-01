@@ -878,6 +878,23 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 },
 {
 "type": "header",
+"content": "Video Product"
+},
+{
+"type": "checkbox",
+"id": "video_product",
+"label": "Enable Video Product",
+"default": true
+},
+{
+"type": "color",
+"id": "video_product_icon",
+"label": "Icon color",
+"default": "#c1c1c1",
+"info": "Default Value: #c1c1c1"
+},
+{
+"type": "header",
 "content": "dynamic checkout button"
 },
 {
@@ -906,17 +923,17 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "default" : true
 },
 {
-"type" : "html",
+"type" : "text",
 "id" : "offer_1",
 "label" : "First Text"
 },
 {
-"type" : "html",
+"type" : "text",
 "id" : "offer_2",
 "label" : "Second Text"
 },
 {
-"type" : "html",
+"type" : "text",
 "id" : "offer_3",
 "label" : "Third Text"
 },
@@ -926,7 +943,7 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "label" : "Fourth Text"
 },
 {
-"type" : "html",
+"type" : "text",
 "id" : "offer_5",
 "label" : "Fifth Text"
 },
@@ -935,10 +952,20 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "id" : "display_crg_image",
 "label" : "Display CRG Image",
 "default" : true
+},
+{   
+"type":"image_picker",
+"id":"image_product",
+"label":"Image For Desktop"
 },{   
 "type":"url",
 "id":"image_product_svg",
 "label":"Image For Desktop SVG"
+},
+{   
+"type":"image_picker",
+"id":"image_product_mob",
+"label":"Image For Mobile"
 },
 {   
 "type":"url",
@@ -964,6 +991,37 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 }
 ],
 "default": "short"
+},
+
+{
+"type": "checkbox",
+"id": "display_subtotal",
+"label": "Display Subtotal?",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "display_product_detail_tag",
+"label": "Display Tags?",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "display_product_detail_share",
+"label": "Display Product Share?",
+"default": true
+},
+{
+"type": "text",
+"id": "share_text",
+"label": "Share Text",
+"default": "Share"
+},
+{
+"type": "checkbox",
+"id": "display_trust_img",
+"label": "Display Trust Image?",
+"default": true
 },
 {
 "type": "header",
@@ -1044,6 +1102,12 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "label" : "Display Image For Melt Section"
 },
 {
+"type" : "text",
+"id" : "melt_text",
+"label" : "Add Text To Melt Section",
+"default" : "Add Text Here"
+},
+{
 "type": "header",
 "content": "Related Products"
 },
@@ -1064,6 +1128,76 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "id": "number_of_related_products",
 "label": "Number of related products",
 "default": "8"
+},
+{
+"type": "header",
+"content": "Lookbook Description in Product Detail"
+},
+{
+"type": "checkbox",
+"id": "dpl_lookbook_description",
+"label": "Display Lookbook Description?",
+"default": true
+},
+{
+"type": "radio",
+"id": "style_lookbook_description",
+"label": "Style",
+"options": [
+{
+"value": "all_product",
+"label": "Use for all products"
+},
+{
+"value": "different_product",
+"label": "Use for different product"
+}
+],
+"default": "all_product",
+"info":"If you would like to use different Lookbook Description for products, you no need to edit these contents (Quote Title, Quote Description)"
+},
+{
+"type": "text",
+"id": "quote_title",
+"label": "Quote Title 1"
+},
+{
+"type": "textarea",
+"id": "quote_des",
+"label": "Quote Description 1"
+},
+{
+"type": "text",
+"id": "quote_title_2",
+"label": "Quote Title 2"
+},
+{
+"type": "textarea",
+"id": "quote_des_2",
+"label": "Quote Description 2"
+}
+],
+"blocks" : [
+{
+"type": "regime",
+"name": "Products Banners",
+"settings":[
+{
+"type" : "product",
+"id" : "regime_product",
+"label" : "Select Product"
+},
+{
+"type" : "image_picker",
+"id" : "regime_banner_desk",
+"label" : "Banner desktop for product"
+},
+{
+"type" : "image_picker",
+"id" : "regime_banner_mob",
+"label" : "Banner mobile for product"
+}
+]
 }
 ]
 }

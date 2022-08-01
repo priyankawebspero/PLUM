@@ -1,12 +1,12 @@
 {
-    "sections": {
-      "main-bundlebuilder": {
-        "type": "main-bundlebuilder",
-        "settings": {
-        }
+  "sections": {
+    "main-bundlebuilder": {
+      "type": "main-bundlebuilder",
+      "settings": {
       }
-    },
-    "order": [
-      "main-bundlebuilder"
-    ]
-  }
+    }
+  },
+  "order": [
+    "main-bundlebuilder"
+  ]
+}
