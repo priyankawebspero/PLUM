@@ -1,6 +1,6 @@
 {
   "sections": {
-    "product-template-default": {
+    "product-template-min-parent": {
       "type": "product-template-min-parent",
       "settings": {
         "style_moreview": "horizontal",
