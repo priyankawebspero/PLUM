@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "valentine": {
+      "type": "valentine",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "valentine"
+  ]
+}

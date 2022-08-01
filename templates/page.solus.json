@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main-solus": {
+      "type": "main-solus",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-solus"
+  ]
+}

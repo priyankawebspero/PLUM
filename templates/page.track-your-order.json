@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "track-your-order": {
+      "type": "track-your-order",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "track-your-order"
+  ]
+}
