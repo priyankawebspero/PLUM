@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "video-page-section": {
+      "type": "video-page-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "video-page-section"
+  ]
+}
+
