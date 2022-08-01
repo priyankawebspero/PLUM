@@ -17,7 +17,7 @@
         "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/4_icons_1.svg?v=1646131912",
         "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/Mobile_version.svg?v=1623045215",
         "show_desc": "short",
-        "show_tab": "horizontal",
+        "show_tab": "horizontal_center",
         "display_product_detail_description": true,
         "product_description_title": "Reasons to love",
         "display_goodness_inside": true,
