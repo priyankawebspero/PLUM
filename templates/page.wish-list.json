@@ -1,14 +1,13 @@
 {
     "sections": {
-      "search-page": {
-        "type": "search-page",
+      "wishlist-page": {
+        "type": "wishlist-page",
         "settings": {
         }
       }
     },
     "order": [
-      "search-page"
+      "wishlist-page"
     ]
   }
-  
   
