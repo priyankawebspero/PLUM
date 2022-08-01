@@ -113,13 +113,6 @@
                 {% endfor %}
               </select>
               
-              {% comment %}
-              {% if settings.use_color_swatch %}
-              {% for option in product.options %}
-              {% include 'item-swatch' with option %}
-              {% endfor %}
-              {% endif %}
-                {% endcomment %}
               {% if product.available %}
               <div class="quantity">
                 <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
@@ -180,13 +173,10 @@
               <div class="tooltip price-manufacturer2">
                 <img class="lazyautosizes lazyload" data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976" src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976" class="info-icon">
                 <span class="tooltiptext">
-
                   <div class="manufacturer-box">
                     <p class="manufact-text">Name & address of manufacturer</p>
                     <p class="manufact-add">{{ name_address_of_manufacturer }}</p>
                   </div>
-
-
                   {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
                   {% if countries_of_origin != 0 and countries_of_origin != blank %}
                   <div class="manufacturer-box">
@@ -194,7 +184,6 @@
                     <p class="manufact-add">{{ countries_of_origin }}</p>
                   </div>
                   {% endif %}
-
                   {% assign category = product.metafields.product['category'] %}
                   {% if category != 0 and category != blank %}
                   <div class="manufacturer-box">
@@ -202,7 +191,6 @@
                     <p class="manufact-add">{{ category }}</p>
                   </div>
                   {% endif %}
-
                   {% assign number_of_items = product.metafields.product['number of items'] %}
                   {% if number_of_items != 0 and number_of_items != blank %}
                   <div class="manufacturer-box">
@@ -210,7 +198,6 @@
                     <p class="manufact-add">{{ number_of_items }}</p>
                   </div>
                   {% endif %}
-
                   {% assign expiry_date = product.metafields.product['expiry date'] %}
                   {% if expiry_date != 0 and expiry_date != blank %}
                   <div class="manufacturer-box">
@@ -218,7 +205,6 @@
                     <p class="manufact-add">{{ expiry_date }}</p>
                   </div>
                   {% endif %}
-
                   {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
                   {% if dimension_of_product != 0 and dimension_of_product != blank %}
                   <div class="manufacturer-box">
@@ -226,14 +212,6 @@
                     <p class="manufact-add">{{ dimension_of_product }}</p>
                   </div>
                   {% endif %}
-                  {% comment %}
-                  {% if Grammage != 0 and Grammage != blank %}
-                  <div class="manufacturer-box">
-                    <p class="manufact-text">Grammage </p>    
-                    <p class="manufact-add">{{ Grammage }}</p>
-                  </div>
-                  {% endif %}
-                  {% endcomment %}
                 </span>
               </div>
               {% endif %}
@@ -264,7 +242,6 @@
                   </div>
                   {% endif %}
 
-                  
                   {% if notRecommended != 0 and notRecommended != blank %}
                   <div class="product-type no-recom">
                     <label>Not advised for</label>
@@ -294,8 +271,7 @@
               {{ form | payment_button }}
               {% endif %}
           </div>
-            {% include 'iwish_v2' with 'iWish_Login_Msgs' %}   
-
+            {% include 'iwish_v2' with 'iWish_Login_Msgs' %} 
         </div>  
 
           <div class="section-3">
@@ -320,8 +296,7 @@
       </div> 
 
          {% if section.settings.display_product_detail_tag %}
-          <div class="tags">
-        
+          <div class="tags">        
             <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{%endif%}>{{ 'blogs.article.tags' | t }}:</strong>
             {% for tag in product.tags %}
             <span class="separator">/</span>
@@ -341,17 +316,16 @@
           <div class="visible_mobile" style="display:none;">
             <div class="row">
               <div class="short-desc-datas">
-            {% if product.metafields.Product['Short Description'] != blank %}
-            {{ product.metafields.Product['Short Description'] }}
-            {% else %}
-            {{ product.metafields.Product['Short Description '] }}
-              
-            {% endif %}
+              {% if product.metafields.Product['Short Description'] != blank %}
+                {{ product.metafields.Product['Short Description'] }}
+                 {% else %}
+                {{ product.metafields.Product['Short Description '] }}              
+              {% endif %}
               </div>
             </div>
           </div>
         <div class="col-md-12 product_gift_bx">
-                    <!--Free shipping offer text start -->
+          <!--Free shipping offer text start -->
           {% if section.settings.display-free-text %}
           <br>
           <div class="free-shipping-top" style="list-style-type: none;">
@@ -362,7 +336,6 @@
               {% endif %}
               {% if section.settings.offer_2 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
-
               {% endif %}
               {% if section.settings.offer_3 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
@@ -386,7 +359,7 @@
       {% include 'image-product-CRG' %}     
       {% include 'tab-horizontal' %}
       {% include 'melt-section-image' %}
-      {% include 'Review-question-tab' %}   
+      {% include 'Review-question-tab' %} 
     
     {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
       <div class="container-padd60 product-related-outer fw-section">
@@ -517,23 +490,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 },
 {
 "type": "header",
-"content": "Video Product"
-},
-{
-"type": "checkbox",
-"id": "video_product",
-"label": "Enable Video Product",
-"default": true
-},
-{
-"type": "color",
-"id": "video_product_icon",
-"label": "Icon color",
-"default": "#c1c1c1",
-"info": "Default Value: #c1c1c1"
-},
-{
-"type": "header",
 "content": "dynamic checkout button"
 },
 {
@@ -591,50 +547,16 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 "id" : "display_crg_image",
 "label" : "Display CRG Image",
 "default" : true
-},
-{   
-"type":"image_picker",
-"id":"image_product",
-"label":"Image For Desktop"
 },{   
 "type":"url",
 "id":"image_product_svg",
 "label":"Image For Desktop SVG"
 },
 {   
-"type":"image_picker",
-"id":"image_product_mob",
-"label":"Image For Mobile"
-},
-{   
 "type":"url",
 "id":"image_product_mob_svg",
 "label":"Image For Mobile SVG"
 },
-{
-"type" : "header",
-"content" : "Customers viewing"
-},
-{
-"type" : "checkbox",
-"id" : "dpl_customers_view",
-"label" : "Display Customers viewing",
-"default" : true
-},
-{
-"type" : "text",
-"id" : "title_view",
-"label" : "Title",
-"default" : "customers are viewing this product"
-},
-{
-"type" : "textarea",
-"id" : "number_view",
-"label" : "Number of customers viewing",
-"default" : "283, 100, 59, 11, 14, 185, 193, 165, 50, 38, 99, 112, 46, 10, 125, 200, 250, 18",
-"info" : "Please enter the number"
-},
-
 {
 "type": "radio",
 "id": "show_desc",
@@ -654,37 +576,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 }
 ],
 "default": "short"
-},
-
-{
-"type": "checkbox",
-"id": "display_subtotal",
-"label": "Display Subtotal?",
-"default": true
-},
-{
-"type": "checkbox",
-"id": "display_product_detail_tag",
-"label": "Display Tags?",
-"default": true
-},
-{
-"type": "checkbox",
-"id": "display_product_detail_share",
-"label": "Display Product Share?",
-"default": true
-},
-{
-"type": "text",
-"id": "share_text",
-"label": "Share Text",
-"default": "Share"
-},
-{
-"type": "checkbox",
-"id": "display_trust_img",
-"label": "Display Trust Image?",
-"default": true
 },
 {
 "type": "header",
@@ -765,12 +656,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 "label" : "Display Image For Melt Section"
 },
 {
-"type" : "text",
-"id" : "melt_text",
-"label" : "Add Text To Melt Section",
-"default" : "Add Text Here"
-},
-{
 "type": "header",
 "content": "Related Products"
 },
@@ -791,566 +676,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 "id": "number_of_related_products",
 "label": "Number of related products",
 "default": "8"
-},
-{
-"type": "header",
-"content": "Lookbook Description in Product Detail"
-},
-{
-"type": "checkbox",
-"id": "dpl_lookbook_description",
-"label": "Display Lookbook Description?",
-"default": true
-},
-{
-"type": "radio",
-"id": "style_lookbook_description",
-"label": "Style",
-"options": [
-{
-"value": "all_product",
-"label": "Use for all products"
-},
-{
-"value": "different_product",
-"label": "Use for different product"
-}
-],
-"default": "all_product",
-"info":"If you would like to use different Lookbook Description for products, you no need to edit these contents (Quote Title, Quote Description)"
-},
-{
-"type": "text",
-"id": "quote_title",
-"label": "Quote Title 1"
-},
-{
-"type": "textarea",
-"id": "quote_des",
-"label": "Quote Description 1"
-},
-{
-"type": "text",
-"id": "quote_title_2",
-"label": "Quote Title 2"
-},
-{
-"type": "textarea",
-"id": "quote_des_2",
-"label": "Quote Description 2"
-},
-
-{
-"type": "header",
-"content": "LookBook Gallery in Product Detail"
-},
-{
-"type": "checkbox",
-"id": "dpl_gallery_lookbook",
-"label": "Display LookBook Gallery?",
-"default": true
-},
-{
-"type": "radio",
-"id": "style_lookbook_gallery",
-"label": "Style",
-"options": [
-{
-"value": "all_product",
-"label": "Use for all products"
-},
-{
-"value": "different_product",
-"label": "Use for different product"
-}
-],
-"default": "all_product",
-"info":"If you would like to use 1 LookBook Gallery the same for all of products, you just need to setup only 1 LookBook Gallery."
-},
-{
-"type" : "header",
-"content" : "Upsell Bundled Products"
-},
-{
-"type" : "checkbox",
-"id" : "dpl_grouped_product",
-"label" : "Display Grouped Product",
-"default" : true
-},
-{
-"type": "text",
-"id": "grouped_title",
-"label": "Grouped Title",
-"default": "Frequently Bought Together",
-"info": "Use for Grouped Product Style 2"
-},
-{
-"type": "textarea",
-"id": "grouped_choose_options_text",
-"label": "Grouped Choose Options Text",
-"default": "Please choose options for all selected products"
-},
-{
-"type": "text",
-"id": "choose_options",
-"label": "Choose Options Button",
-"default": "Choose Options"
-},
-{
-"type": "checkbox",
-"id": "enable_bundle_discount",
-"label": "Enable Bundle Discount",
-"default": true
-},
-{
-"type": "textarea",
-"id": "bundle_discount_text",
-"label": "Bundle Discount Text",
-"default": "Get a [discount]% discount buying these products together | Erhalten Sie einen Rabatt von [discount]%, wenn Sie diese Produkte zusammen kaufen ",
-"info":"Use [discount] to show discount rate"
-},
-{
-"type": "header",
-"content": "Blog"
-},
-{
-"id": "blog_posts",
-"type": "blog",
-"label": "Blog Posts"
-}
-],
-
-"blocks" : [
-{
-"type": "image",
-"name": "LookBook Gallery",
-"settings":[
-{
-"type" : "product",
-"id" : "main_pr_look",
-"label" : "Select the product needs to display Loobook",
-"info": "Choose if you want to show the different lookbook gallery for each of product."
-},
-{
-"type": "header",
-"content": "Gallery width Lookbook",
-"info" : "======================="
-},
-{
-"type" : "header",
-"content" : "Image 1"
-},
-{
-"type": "image_picker",
-"id": "image_1",
-"label" : "Select Image",
-"info": "Recommended Image: Width x Height (290 x 387)px"
-},
-{
-"type" : "header",
-"content" : "Product 1"
-},
-{
-"type" : "product",
-"id" : "lb_product_1_1",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_1_1",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_1_1",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_1_1",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_1_1",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_1_1",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 2"
-},
-{
-"type" : "product",
-"id" : "lb_product_1_2",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_1_2",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_1_2",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_1_2",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_1_2",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_1_2",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 3"
-},
-{
-"type" : "product",
-"id" : "lb_product_1_3",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_1_3",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_1_3",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_1_3",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_1_3",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_1_3",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Image 2"
-},
-{
-"type": "image_picker",
-"id": "image_2",
-"label" : "Select Image",
-"info": "Recommended Image: Width x Height (290 x 387)px"
-},
-{
-"type" : "header",
-"content" : "Product 1"
-},
-{
-"type" : "product",
-"id" : "lb_product_2_1",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_2_1",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_2_1",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_2_1",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_2_1",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_2_1",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 2"
-},
-{
-"type" : "product",
-"id" : "lb_product_2_2",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_2_2",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_2_2",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_2_2",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_2_2",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_2_2",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 3"
-},
-{
-"type" : "product",
-"id" : "lb_product_2_3",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_2_3",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_2_3",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_2_3",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_2_3",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_2_3",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Image 3"
-},
-{
-"type": "image_picker",
-"id": "image_3",
-"label" : "Select Image",
-"info": "Recommended Image: Width x Height (290 x 387)px"
-},
-{
-"type" : "header",
-"content" : "Product 1"
-},
-{
-"type" : "product",
-"id" : "lb_product_3_1",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_3_1",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_3_1",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_3_1",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_3_1",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_3_1",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 2"
-},
-{
-"type" : "product",
-"id" : "lb_product_3_2",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_3_2",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_3_2",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_3_2",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_3_2",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_3_2",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
-},
-
-{
-"type" : "header",
-"content" : "Product 3"
-},
-{
-"type" : "product",
-"id" : "lb_product_3_3",
-"label" : "Select Product"
-},
-{
-"type" : "text",
-"id" : "top_position_3_3",
-"label" : "Top Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "text",
-"id" : "left_position_3_3",
-"label" : "Left Position",
-"default" : "10",
-"info" : "Unit %"
-},
-{
-"type" : "color",
-"id" : "dots_color_3_3",
-"label" : "Select Icon Color",
-"default" : "#fff"
-},
-{
-"type" : "color",
-"id" : "dots_bg_color_3_3",
-"label" : "Select Icon Background color",
-"default" : "#323232"
-},
-{
-"type" : "color",
-"id" : "dots_shadow_color_3_3",
-"label" : "Select Icon Shadow Color",
-"default" : "#fff",
-"info" : "======================="
 }
 ]
 }
