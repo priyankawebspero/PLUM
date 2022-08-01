@@ -284,16 +284,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2_e262916c-2b27-4893-b6dc-e476fc34a35c.jpg",
             "title": "",
-            "description_band": "Loremous",
-            "link": ""
+            "description_band": "Your hair needs a boost & there's no better candidate that the Plum Mega Moisturizing Hair Mask",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         },
         "6e5f7af8-8bdf-406b-974c-c5497e2efac7": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
-            "description_band": "Loremous",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/3_15c64781-e279-4a2f-a165-26fee8de3e07.png",
+            "title": "",
+            "description_band": "This clay-based face mask has AHAs to exfoliate and Green Tea to heal and prevent acne",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         }
       },
