@@ -967,6 +967,31 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 ],
 "default": "short"
 },
+
+{
+"type": "checkbox",
+"id": "display_subtotal",
+"label": "Display Subtotal?",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "display_product_detail_tag",
+"label": "Display Tags?",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "display_product_detail_share",
+"label": "Display Product Share?",
+"default": true
+},
+{
+"type": "text",
+"id": "share_text",
+"label": "Share Text",
+"default": "Share"
+},
 {
 "type": "checkbox",
 "id": "display_trust_img",
@@ -1052,6 +1077,12 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "label" : "Display Image For Melt Section"
 },
 {
+"type" : "text",
+"id" : "melt_text",
+"label" : "Add Text To Melt Section",
+"default" : "Add Text Here"
+},
+{
 "type": "header",
 "content": "Related Products"
 },
@@ -1084,6 +1115,34 @@ $("#product-selectors-option-0 option").each(function(i,el){var color=$(this).va
 "id": "number_of_regime_products",
 "label": "Number of regime products",
 "default": "8"
+}
+],
+"blocks" : [
+{
+"type": "regime",
+"name": "Products Regime",
+"settings":[
+{
+"type" : "product",
+"id" : "regime_product",
+"label" : "Select Product"
+},
+{
+"type" : "collection",
+"id" : "regime_collection",
+"label" : "Select Regime Collection for Above Product"
+},
+{
+"type" : "image_picker",
+"id" : "regime_banner_desk",
+"label" : "Banner desktop for product"
+},
+{
+"type" : "image_picker",
+"id" : "regime_banner_mob",
+"label" : "Banner mobile for product"
+}
+]
 }
 ]
 }
