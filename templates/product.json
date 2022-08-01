@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "product-template-default": {
+      "type": "product-template-default",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "product-template-default"
+  ]
+}
