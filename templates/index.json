@@ -150,14 +150,16 @@
     "165848492042e89e2c": {
       "type": "home-featured-products",
       "settings": {
-        "featured_products_title": "Trending Now",
+        "image_1": "shopify:\/\/shop_images\/flat-25_-off_Category-heder_Desktop_8cfc8f17-1395-440f-bdce-784febb5bd82.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/flat-25_-off_Category-heder_Mobile_6c57f209-c156-471f-bfb7-d17b2e3d949a.png",
+        "featured_products_title": "",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "Shop Now",
-        "link1": "",
-        "collection_results_per_row1": "5",
+        "show_slider_featured_collection": "festive-combos",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "view more",
+        "link1": "shopify:\/\/collections\/festive-combos",
+        "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
         "margin_bottom": 0
@@ -165,16 +167,34 @@
     },
     "1658485109ce9a8560": {
       "type": "home-featured-products",
-      "disabled": true,
       "settings": {
-        "featured_products_title": "Trending Now",
+        "image_1": "shopify:\/\/shop_images\/bestsellers_Category-hederbestsellers_Desktop_0a5f179b-e2c8-42d4-ab98-6d55cde10e4f.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/bestsellers_Category-heder_Mobile_b5e9191d-1382-49f7-a2dd-67ce53c472f9.png",
+        "featured_products_title": "",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "Shop Now",
-        "link1": "",
-        "collection_results_per_row1": "5",
+        "show_slider_featured_collection": "all-in-stock",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "view more",
+        "link1": "shopify:\/\/collections\/all-in-stock",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "1659332028c131fd1a": {
+      "type": "Best-sellers-bday",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
+        "image_mobile": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
+        "featured_products_title": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "just-launched",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "view more",
+        "link1": "shopify:\/\/collections\/just-launched",
+        "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
         "margin_bottom": 0
@@ -199,22 +219,25 @@
         "16584907220bd4bb17-0": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/beauty_that_is.png",
+            "title": "beauty <br> that is",
+            "link_text": ""
           }
         },
         "16584907220bd4bb17-1": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/clean_38d9c868-276b-4dd5-a26a-e2d169df6ab7.png",
+            "title": "Clean",
+            "link_text": "no nasties, <br> no animal<br> ingredients"
           }
         },
         "16584907220bd4bb17-2": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/real_0f1a7377-89e4-4568-9543-7a658ac07883.png",
+            "title": "real",
+            "link_text": "no lies, <br> no beauty<br> standards"
           }
         },
         "4744bf0e-b7dd-45c5-b411-1df8de8cc83c": {
@@ -250,15 +273,17 @@
         "30ae1571-a96a-4cbb-90be-c29c38bdb904": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
-            "description_band": "Loremous",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/1_2416682d-0f61-420a-8325-319aa006ee07.png",
+            "title": "",
+            "description_band": "We love the fact that these formulations are vegan, cruelty-free & paraben-free",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         },
         "506abdc0-0a8e-4d81-be1f-645de298d77f": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
+            "image": "shopify:\/\/shop_images\/2_e262916c-2b27-4893-b6dc-e476fc34a35c.jpg",
+            "title": "",
             "description_band": "Loremous",
             "link": ""
           }
@@ -279,16 +304,16 @@
       ],
       "settings": {
         "layout": "default",
-        "margin_bottom_mb": 0,
-        "margin_bottom_tab": 0,
-        "margin_bottom": 0,
+        "margin_bottom_mb": 5,
+        "margin_bottom_tab": 25,
+        "margin_bottom": 60,
         "display_brand_border": true,
         "brand_title": "",
         "brand_des": "",
-        "banner_button": "Shop Now",
-        "btn_link": "",
-        "title_style": "style_1",
-        "brand_rows": "5"
+        "banner_button": "view more",
+        "btn_link": "shopify:\/\/pages\/plum-feature",
+        "title_style": "style_2",
+        "brand_rows": "3"
       }
     }
   },
@@ -297,6 +322,7 @@
     "1658484860c65081e1",
     "165848492042e89e2c",
     "1658485109ce9a8560",
+    "1659332028c131fd1a",
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "1658485170941c47bc"

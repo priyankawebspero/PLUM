@@ -1,13 +1,12 @@
 {
-    "sections": {
-      "404-section": {
-        "type": "404-section",
-        "settings": {
-        }
+  "sections": {
+    "404-section": {
+      "type": "404-section",
+      "settings": {
       }
-    },
-    "order": [
-      "404-section"
-      
-    ]
-  }
+    }
+  },
+  "order": [
+    "404-section"
+  ]
+}
