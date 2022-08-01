@@ -219,22 +219,25 @@
         "16584907220bd4bb17-0": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/beauty_that_is.png",
+            "title": "beauty <br> that is",
+            "link_text": ""
           }
         },
         "16584907220bd4bb17-1": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/clean_38d9c868-276b-4dd5-a26a-e2d169df6ab7.png",
+            "title": "Clean",
+            "link_text": "no nasties, <br> no animal<br> ingredients"
           }
         },
         "16584907220bd4bb17-2": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/real_0f1a7377-89e4-4568-9543-7a658ac07883.png",
+            "title": "real",
+            "link_text": "no lies, <br> no beauty<br> standards"
           }
         },
         "4744bf0e-b7dd-45c5-b411-1df8de8cc83c": {
