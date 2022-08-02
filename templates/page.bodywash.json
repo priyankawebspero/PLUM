@@ -12,13 +12,26 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Desktop_60578468-e940-43ea-ac38-21805ccca861.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Mobile_8710c13e-5add-4def-bd70-8a8886829fab.jpg",
+            "link": "shopify:\/\/products\/plum-bodylovin-himalayan-caramel-popcorn-snack-pack",
+            "alignment": "left"
+          }
+        },
+        "fa47f221-d80c-47f2-a262-f01cf96649f6": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
+            "link": "shopify:\/\/collections\/minions-goin-bananas",
             "alignment": "left"
           }
         }
       },
       "block_order": [
-        "1658491656e56f97db-0"
+        "1658491656e56f97db-0",
+        "fa47f221-d80c-47f2-a262-f01cf96649f6"
       ],
       "settings": {
         "layout": "full",
@@ -35,7 +48,7 @@
         "dots_opacity": false,
         "arrow_color": "#666d6d",
         "arrow_border_color": "#666d6d",
-        "arrow_bg_color": "#fff",
+        "arrow_bg_color": "#ffffff",
         "position_slick_arrow": "10%",
         "min_width_banner_button": "",
         "bg_video": "#866965",
@@ -50,45 +63,54 @@
         "1658491757cabdd493-0": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": "",
+            "image_desk": "shopify:\/\/shop_images\/1_400x_1e0f4b78-06c3-48a7-9aca-fef7e1aef603.png",
+            "image_mob": "shopify:\/\/shop_images\/shower_gels_mobile_400x_8a479d62-7d55-453d-ab63-2f0f72f8cb9b.jpg",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-shower-gels",
             "columns": "one fourth size"
           }
         },
         "1658491757cabdd493-1": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": "",
+            "image_desk": "shopify:\/\/shop_images\/2_400x_26c9cd51-3868-49ed-b320-b5d7f562d5ad.png",
+            "image_mob": "shopify:\/\/shop_images\/body_mists_mobile_400x_22032998-5913-48b7-8074-4f4a8be72c3f.jpg",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists",
             "columns": "one fourth size"
           }
         },
         "1658491757cabdd493-2": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": "",
+            "image_desk": "shopify:\/\/shop_images\/3_400x_fda490ac-7ee2-4d27-b7e8-881b0f3824e9.png",
+            "image_mob": "shopify:\/\/shop_images\/body_oils_mobile_400x_1ed277e2-1b8e-41bf-9f00-002e46e1fc87.jpg",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-lotions",
             "columns": "one fourth size"
           }
         },
         "efbec7f0-aa34-4ef4-8017-435428f807b7": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": "",
+            "image_desk": "shopify:\/\/shop_images\/4_400x_6af1887a-baf3-4a57-bb5b-c065ae5c5fda.png",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-de-odorizing-pit-creams",
             "columns": "one fourth size"
           }
         },
         "8f404b86-f33e-4104-92c5-5dd49ff5d245": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": "",
+            "image_desk": "shopify:\/\/shop_images\/gift_sets_tile_-_home_page_1_770x_655fbf1a-9e2b-4344-9eba-3be1b879843a.png",
+            "image_mob": "shopify:\/\/shop_images\/gift_sets_mobile_800x_976caf91-cd80-437d-94dc-4519ae503fb2.jpg",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin-gift-sets",
             "columns": "one half size"
           }
         }

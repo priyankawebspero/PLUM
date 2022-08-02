@@ -642,32 +642,6 @@
           "collection_results_per_row1": "4"
         }
       },
-      "contact-us-2-template": {
-        "type": "contact-us-2-template",
-        "settings": {
-          "contact_title": "Drop Us A Line",
-          "contact_text_desc": "We’re here to quickly provide you with the info and services you need & answer any question you may have",
-          "form_title": "Send us an email:",
-          "form_subtitle": "ASK US ANYTHING! WE'LL GET BACK TO YOU WITHIN 24-48 HOURS.",
-          "contact_your_name": "",
-          "contact_phone_number": "",
-          "contact_your_email": "",
-          "display_location": true,
-          "background_color": "#fafafa",
-          "top_title": "Chat with us:",
-          "top_content": "IF YOU HAVE AN ISSUE OR QUESTION THAT REQUIRES IMMEDIATE ASSISTANCE, YOU CAN CLICK BELOW TO CHAT LIVE WITH A CUSTOMER SERVICE REPRESENTATIVE. IF WE AREN'T AVAILABLE, DROP US AN EMAIL TO THE LEFT AND WE'LL RESPOND WITHIN 24-48 HOURS.",
-          "email_button": "Message us",
-          "email": "",
-          "email_button_bgc": "rgba(250,250,250,0)",
-          "email_button_txtc": "#232323",
-          "email_button_bdc": "#232323",
-          "email_button_bgc_h": "#232323",
-          "email_button_txtc_h": "#fff",
-          "email_button_bdc_h": "#232323",
-          "bot_title": "Chat with us:",
-          "bot_content": "<p>Call Toll-Free<\/p>\n<p>+1.900.000.6690<\/p>\n<p>Monday to Saturday: 9am - 10pm<\/p>\n<p>Sundays: 10am - 6pm<\/p>\n<p>Or you can reach us via email at support@halothemes.com <br> and expect a response within 24-48 hours.<\/p>"
-        }
-      },
       "sidebar-blog": {
         "type": "sidebar-blog",
         "blocks": {
@@ -3017,37 +2991,6 @@
           "overlay_opacity": "0.7"
         }
       },
-      "password-section-02": {
-        "type": "password-section-02",
-        "settings": {
-          "header_text": "Special Offer Sale Up to 70% OFF",
-          "brand_type": "image",
-          "brand_text": "",
-          "brand_text_color": "#000",
-          "logo_pc": "",
-          "max_height_logo_pc": "44px",
-          "logo_mb": "",
-          "max_height_logo_mb": "25px",
-          "banner": "",
-          "heading": "<span class=\"demo\">Special Offer:<\/span><br> Sale Up to 70% OFF",
-          "heading_size": "30",
-          "subtitle": "Phasellus lorem malesuada de pulvinar commodo maecenas.",
-          "subtitle_size": "13",
-          "text_color": "#ffffff",
-          "display_countdown": true,
-          "countdown_time": "2019\/06\/10 11:10",
-          "display_newsletter": true,
-          "newsletter_background_color": "#f5f5f5",
-          "newsletter_title": "First Order? Save 15% Off",
-          "newsletter_title_size": "24",
-          "newsletter_title_color": "#232323",
-          "newsletter_subtitle": "Join our emails today and save 15% on your first order. Subscribe Now",
-          "newsletter_subtitle_size": "12",
-          "newsletter_subtitle_color": "#232323",
-          "success_message": "Thanks for contacting us. We'll get back to you as soon as possible",
-          "footer_address_code": "© 2018 Ella Demo. All Rights Reserved. Ecommerce Software by Shopify.<a href=\"https:\/\/www.halothemes.com\/template_category\/shopify-templates\/\" title=\"Shopify Themes\">Shopify Themes<\/a> by <a href=\"http:\/\/halothemes.com\/\" title=\"HaloThemes.com\">HaloThemes.com<\/a>."
-        }
-      },
       "bodylovin-header-parallax": {
         "type": "bodylovin-header-parallax",
         "settings": {
@@ -3846,24 +3789,6 @@
           "spotlight_block_des": "",
           "title_style": "style_1",
           "margin_bottom": 30
-        }
-      },
-      "bday-insta": {
-        "type": "bday-insta",
-        "settings": {
-          "show_instagram": true,
-          "layout": "default",
-          "display_border_top": false,
-          "instagram_bg": "#fafafa",
-          "instagram_title": "",
-          "instagram_des": "",
-          "title_style": "style_2",
-          "username": "plumgoodness",
-          "limit": "20",
-          "images_per_row": "4",
-          "margin_bottom_mb": 40,
-          "margin_bottom_tab": 40,
-          "margin_bottom": 50
         }
       },
       "bodylovin-block-banner-H1": {
@@ -4711,8 +4636,6 @@
         "type": "product-template-swatch",
         "settings": {
           "style_moreview": "horizontal",
-          "video_product": false,
-          "video_product_icon": "#c1c1c1",
           "image_planet_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.svg",
           "image_planet_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.png?v=1620658181",
           "display-free-text": true,
@@ -4724,10 +4647,6 @@
           "display_crg_image": true,
           "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/4_icons.svg?v=1623045215",
           "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/Mobile_version.svg?v=1623045215",
-          "display_product_detail_tag": false,
-          "display_product_detail_share": true,
-          "share_text": "",
-          "display_trust_img": true,
           "show_tab": "horizontal_center",
           "display_product_detail_description": true,
           "product_description_title": "Reasons to love",
@@ -4738,7 +4657,6 @@
           "display_custom_tab": true,
           "display_image_melt": true,
           "image_melt": "shopify:\/\/shop_images\/PP_Review.jpg",
-          "melt_text": "",
           "display_related_products": true,
           "related_products_title": "you may also like",
           "number_of_related_products": "14"
