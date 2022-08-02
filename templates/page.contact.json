@@ -1,12 +1,12 @@
 {
-    "sections": {
-      "contact-template": {
-        "type": "contact-template",
-        "settings": {
-        }
+  "sections": {
+    "contact-template": {
+      "type": "contact-template",
+      "settings": {
       }
-    },
-    "order": [
-      "contact-template"
-    ]
-  }
+    }
+  },
+  "order": [
+    "contact-template"
+  ]
+}

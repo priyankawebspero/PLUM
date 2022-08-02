@@ -1,12 +1,12 @@
 {
-	"sections": {
-	  "pagefly-acaf7f5a": {
-		"type": "pagefly-acaf7f5a",
-		"settings": {
-		}
-	  }
-	},
-	"order": [
-	  "pagefly-acaf7f5a"
-	]
-  }
+  "sections": {
+    "pagefly-acaf7f5a": {
+      "type": "pagefly-acaf7f5a",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pagefly-acaf7f5a"
+  ]
+}
