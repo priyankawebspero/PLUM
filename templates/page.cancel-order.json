@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "cancel-order": {
+      "type": "cancel-order",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "cancel-order"
+  ]
+}

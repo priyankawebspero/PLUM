@@ -1,0 +1,18 @@
+
+    
+    {% section 'brands-page' %}
+  </div>
+</div>
+
+{
+  "sections": {
+    "brands-page": {
+      "type": "brands-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "brands-page"
+  ]
+}

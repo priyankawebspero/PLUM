@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "plum-basket": {
+      "type": "plum-basket",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "plum-basket"
+  ]
+}

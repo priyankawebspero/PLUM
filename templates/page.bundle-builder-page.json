@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "builder-page": {
+      "type": "builder-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "builder-page"
+  ]
+}

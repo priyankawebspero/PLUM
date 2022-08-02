@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "order-management": {
+      "type": "order-management",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "order-management"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "page-careers": {
+      "type": "page-careers",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "page-careers"
+  ]
+}
