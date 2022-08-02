@@ -1,19 +1,18 @@
 {
-	"sections": {
-	  "pm-offers": {
-		"type": "pm-offers",
-		"settings": {
-		}
-	  },
-	  "simple-banner": {
-		"type": "simple-banner",
-		"settings": {
-		}
-	  }
-	},
-	"order": [
-	  "pm-offers",
-	  "simple-banner"
-	]
+  "sections": {
+    "pm-offers": {
+      "type": "pm-offers",
+      "settings": {
+      }
+    },
+    "simple-banner": {
+      "type": "simple-banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pm-offers",
+    "simple-banner"
+  ]
 }
-  

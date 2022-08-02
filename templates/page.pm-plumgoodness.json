@@ -1,19 +1,21 @@
 {
-	"sections": {
-	  "pm-offers": {
-		"type": "pm-offers",
-		"settings": {
-		}
-	  },
-	  "simple-banner": {
-		"type": "simple-banner",
-		"settings": {
-		}
-	  }
-	},
-	"order": [
-	  "pm-offers",
-	  "simple-banner"
-	]
+  "sections": {
+    "simple-banner": {
+      "type": "simple-banner",
+      "settings": {
+        "link": "",
+        "banner-title": "",
+        "des": "Phasellus lorem malesuada ligula pulvino commodo maecenas"
+      }
+    },
+    "pm-offers": {
+      "type": "pm-offers",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "simple-banner",
+    "pm-offers"
+  ]
 }
-  

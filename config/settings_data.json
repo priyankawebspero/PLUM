@@ -2362,23 +2362,6 @@
           "cart_notes": false
         }
       },
-      "home-blog-posts": {
-        "type": "home-blog-posts",
-        "settings": {
-          "layout": "default",
-          "blog_posts": "plumblogs",
-          "blog_results_per_row": "4",
-          "post_limit": 4,
-          "blog_show_author": false,
-          "blog_show_date": false,
-          "blog_post_title": "our blogs",
-          "blog_post_des": "",
-          "title_style": "style_1",
-          "margin_bottom_mb": 20,
-          "margin_bottom_tab": 20,
-          "margin_bottom": 35
-        }
-      },
       "sidebar-section": {
         "type": "sidebar-section",
         "blocks": {
@@ -3669,38 +3652,6 @@
           "margin_bottom_mb": 25,
           "margin_bottom_tab": 30,
           "margin_bottom": 30
-        }
-      },
-      "collection-slider": {
-        "type": "collection-slider",
-        "settings": {
-          "display_banner": false,
-          "banner_is": "left",
-          "banner_heading": "#CAMPAIGNS",
-          "font_size_banner_heading": "40px",
-          "color_banner_heading": "#ffffff",
-          "banner_sub_heading": "Spring Summer’08",
-          "font_size_banner_sub_heading": "13px",
-          "color_banner_sub_heading": "#ffffff",
-          "banner_des": "Phasellus lorem malesuada ligula pulvinar de cosmopolis",
-          "font_size_banner_des": "12px",
-          "color_banner_des": "#ffffff",
-          "banner_button": "Shop Now",
-          "link": "",
-          "bg_banner_button": "#ffffff",
-          "border_banner_button": "#ffffff",
-          "color_banner_button": "#232323",
-          "featured_products_title": "Lip Balms",
-          "featured_products_des": "",
-          "title_style": "style_1",
-          "show_slider_featured_collection": "lip-balms",
-          "slider_featured_limit_all": 20,
-          "shop_now_button": "Shop Now",
-          "link1": "shopify:\/\/collections\/bestsellers",
-          "collection_results_per_row1": "4",
-          "margin_bottom_mb": 40,
-          "margin_bottom_tab": 40,
-          "margin_bottom": 0
         }
       },
       "16017992266ee66e02": {
@@ -6300,25 +6251,6 @@
         "settings": {
         }
       },
-      "slide-section-pm": {
-        "type": "slide-section-pm",
-        "blocks": {
-          "94af2b29-822f-4293-a6b5-3be38b4933f3": {
-            "type": "image",
-            "settings": {
-              "desk_image": "shopify:\/\/shop_images\/PM-HP-Banner_02_1_e2e68e94-cd78-41db-bb2d-5fa75dca6491.jpg",
-              "mob_image": "shopify:\/\/shop_images\/PM-HP-Mobile-Banner_02_1_8e04b000-a050-456f-ac13-41d1eae74e63.jpg",
-              "slideurl": ""
-            }
-          }
-        },
-        "block_order": [
-          "94af2b29-822f-4293-a6b5-3be38b4933f3"
-        ],
-        "settings": {
-          "layout": "full"
-        }
-      },
       "pm-offers": {
         "type": "pm-offers",
         "blocks": {
@@ -6407,94 +6339,6 @@
           "cfbbd904-64dd-4a9d-81fe-9d7f42ec8079",
           "8b59cbe6-b77c-4b57-a8a6-23ac3fa721b9",
           "485d6cc2-6874-4b23-bcdc-02657842e170"
-        ],
-        "settings": {
-        }
-      },
-      "slide-section-pm-plum": {
-        "type": "slide-section-pm-plum",
-        "blocks": {
-          "80122bb3-8b54-421f-9418-f9a6531ddfd8": {
-            "type": "image",
-            "settings": {
-              "desk_image": "shopify:\/\/shop_images\/HP-banner-Desktop_Secret-SALE_15_OFF_1920X500_584cd073-69e8-493f-9921-f2671b3d3eb2.jpg",
-              "mob_image": "shopify:\/\/shop_images\/HP-banner-Mobile_Secret-SALE_15_OFF_767X475_cc0a91e7-4d91-4bf8-96fa-a2cfa1024fd5.jpg",
-              "slideurl": ""
-            }
-          }
-        },
-        "block_order": [
-          "80122bb3-8b54-421f-9418-f9a6531ddfd8"
-        ],
-        "settings": {
-          "layout": "full"
-        }
-      },
-      "pm-offers-plum": {
-        "type": "pm-offers-plum",
-        "blocks": {
-          "d272c6db-768f-4b92-ad53-b72d1a4565fd": {
-            "type": "image-slide",
-            "settings": {
-              "top_banner_image_desktop": "shopify:\/\/shop_images\/Skin-Care_Landing-page_V2_18b47e57-37c7-4a08-978c-2166e54ad1ed.jpg",
-              "top_banner_image_mobile": "shopify:\/\/shop_images\/Skin-Care_Landing-page_475X238_3f2d72f1-a55f-48da-939b-6c6bf69fd764.jpg"
-            }
-          },
-          "edcfd069-1376-4b5f-b20e-952a82c77a8d": {
-            "type": "product-slide",
-            "settings": {
-              "show_slider_featured_collection": "skincare-offers"
-            }
-          },
-          "1921f734-8fb6-4aa1-9e65-8c7605a02b2a": {
-            "type": "image-slide",
-            "settings": {
-              "top_banner_image_desktop": "shopify:\/\/shop_images\/Hair-Care_Landing-page_V2_69de79a3-4803-42c1-96f0-d5b9d5c188f1.jpg",
-              "top_banner_image_mobile": "shopify:\/\/shop_images\/Hair-Care_Landing-page_475X238_885adbd0-0c3d-4bcc-97b5-25b8927e421d.jpg"
-            }
-          },
-          "95d26a3b-86b6-422b-9b33-e914f0351295": {
-            "type": "product-slide",
-            "settings": {
-              "show_slider_featured_collection": "haircare-offers"
-            }
-          },
-          "05668c80-cd8f-4552-9696-843ff08d08a4": {
-            "type": "image-slide",
-            "settings": {
-              "top_banner_image_desktop": "shopify:\/\/shop_images\/Body-Care_Landing-page_V2_b21c7c3b-93e1-47e1-88f7-908ce7d0a347.jpg",
-              "top_banner_image_mobile": "shopify:\/\/shop_images\/Body-Care_Landing-page_475X238_5ef1b0ca-6540-46fb-8c13-f7e93669027f.jpg"
-            }
-          },
-          "52182340-9bfa-4f3c-86b1-0fd8ea52bb2e": {
-            "type": "product-slide",
-            "settings": {
-              "show_slider_featured_collection": "bodycare-offers"
-            }
-          },
-          "93bc01aa-5fb7-4a4f-878d-b6d0ee044ef2": {
-            "type": "image-slide",
-            "settings": {
-              "top_banner_image_desktop": "shopify:\/\/shop_images\/Make-up_Landing-page_V2_74e54172-5be2-4b07-b542-d3fdabf8fc63.jpg",
-              "top_banner_image_mobile": "shopify:\/\/shop_images\/Make-up_Landing-page_475X238_e04ece59-f114-4c0b-9d0a-2f19999c990e.jpg"
-            }
-          },
-          "fd8b849b-85e2-446e-a47d-1de159eeaf4d": {
-            "type": "product-slide",
-            "settings": {
-              "show_slider_featured_collection": "makeup-offers"
-            }
-          }
-        },
-        "block_order": [
-          "d272c6db-768f-4b92-ad53-b72d1a4565fd",
-          "edcfd069-1376-4b5f-b20e-952a82c77a8d",
-          "1921f734-8fb6-4aa1-9e65-8c7605a02b2a",
-          "95d26a3b-86b6-422b-9b33-e914f0351295",
-          "05668c80-cd8f-4552-9696-843ff08d08a4",
-          "52182340-9bfa-4f3c-86b1-0fd8ea52bb2e",
-          "93bc01aa-5fb7-4a4f-878d-b6d0ee044ef2",
-          "fd8b849b-85e2-446e-a47d-1de159eeaf4d"
         ],
         "settings": {
         }
