@@ -1,0 +1,13 @@
+{
+	"sections": {
+	  "pm-offers": {
+		"type": "pm-offers",
+		"settings": {
+		}
+	  }
+	},
+	"order": [
+	  "pm-offers"
+	]
+}
+  
