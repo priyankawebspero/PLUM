@@ -12,8 +12,9 @@
     }
   },
   "order": [
-    "pm-offers",
-    "simple-banner"
+	"simple-banner",
+    "pm-offers"
+    
   ]
 }
 
