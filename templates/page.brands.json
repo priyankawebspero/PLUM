@@ -1,9 +1,3 @@
-
-    
-    {% section 'brands-page' %}
-  </div>
-</div>
-
 {
   "sections": {
     "brands-page": {

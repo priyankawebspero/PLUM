@@ -16,7 +16,10 @@
   <div class="row">
     <div class="col-sm-12">
       <div class="video-popup">
-        <button type="button" class="" data-toggle="modal" data-target="#size-chart" style="border: 0; padding: 0;"> <img data-src="{{section.settings.image_slide | img_url:'master'}}" src="{{section.settings.image_slide | img_url:'master'}}" style="border-radius: 8px;cursor:pointer" class="lazyautosizes lazyloaded"> </button>
+        <button type="button" class="" data-toggle="modal" data-target="#size-chart" style="border: 0; padding: 0;">
+          <img data-src="{{section.settings.image_slide | img_url:'master'}}" src="{{section.settings.image_slide | img_url:'master'}}" style="border-radius: 8px;cursor:pointer" class="lazyautosizes lazyload slide-pc"> 
+          <img data-src="{{section.settings.image_slide_mb | img_url:'master'}}" src="{{section.settings.image_slide_mb | img_url:'master'}}" style="border-radius: 8px;cursor:pointer" class="lazyautosizes lazyload slide-mobile"> 
+        </button>
        
         <!-- Start here -->
         <div class="remodal" data-remodal-id="size-chart{{product_id}}" data-remodal-options="hashTracking: false">
@@ -42,15 +45,6 @@
       </div>
 
     </div>
-    {% comment %}
-    <div class="view_more_videos text-center">
-      <a href="{{ section.settings.read_more_button_link }}" class="btn grey_btn">{{ section.settings.read_more_button_name }}
-        <span>
-        </span>
-      </a>
-    </div>
-    {% endcomment %}
-
   </div>
 </div>
 <script>
@@ -138,7 +132,13 @@
 {
 "type": "image_picker",
 "id": "image_slide",
-"label" : "Select Image",
+"label" : "Select Image For Desktop",
+"info": "Recommended Image: Width x Height (1880 x 720)px"
+},
+{
+"type": "image_picker",
+"id": "image_slide_mb",
+"label" : "Select Image For Mobile",
 "info": "Recommended Image: Width x Height (1880 x 720)px"
 },
 {
