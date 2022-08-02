@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main-Shipping-privacy-policy": {
-      "type": "main-Shipping-privacy-policy",
+    "main-Shipping-privacy": {
+      "type": "main-Shipping-privacy",
       "settings": {
       }
     }
   },
   "order": [
-    "main-Shipping-privacy-policy"
+    "main-Shipping-privacy"
   ]
 }
