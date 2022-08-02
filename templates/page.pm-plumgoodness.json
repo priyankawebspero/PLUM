@@ -4,10 +4,16 @@
 		"type": "pm-offers",
 		"settings": {
 		}
+	  },
+	  "simple-banner": {
+		"type": "simple-banner",
+		"settings": {
+		}
 	  }
 	},
 	"order": [
-	  "pm-offers"
+	  "pm-offers",
+	  "simple-banner"
 	]
 }
   

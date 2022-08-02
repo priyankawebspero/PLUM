@@ -6,7 +6,7 @@
 		}
 	  },
 	  "simple-banner": {
-		"type": "pm-offers",
+		"type": "simple-banner",
 		"settings": {
 		}
 	  }
