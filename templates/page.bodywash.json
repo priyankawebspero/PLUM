@@ -148,6 +148,23 @@
         "margin_bottom": 0
       }
     },
+    "16595312593661f02c": {
+      "type": "home-featured-products",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BG_1_copy_a5736540-6147-418e-bccd-749ab73e632e.jpg",
+        "featured_products_title": "bestsellers",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "bodycare",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "view more",
+        "link1": "https:\/\/plumgoodness.com\/collections\/bodycare",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "165849166859714bea": {
       "type": "home-spotlight-slider",
       "blocks": {
@@ -316,6 +333,7 @@
     "16584916565597b9d2",
     "16584917577bd45e70",
     "16584918030acc40e3",
+    "16595312593661f02c",
     "165849166859714bea",
     "1658491814eed6d5bf",
     "1658491933c6609cea",
