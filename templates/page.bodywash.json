@@ -171,22 +171,25 @@
         "1658491667146acd20-0": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/Tile_1_340x_e5744d99-f119-49c1-9f9d-165466733ebf.png",
+            "title": "",
+            "link_text": ""
           }
         },
         "1658491667146acd20-1": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/Tile_2_340x_472f1764-21c3-4a42-a447-7725e30d5c2f.png",
+            "title": "",
+            "link_text": ""
           }
         },
         "1658491667146acd20-2": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
+            "image": "shopify:\/\/shop_images\/Tile_3_340x_8b0683ce-c1ef-459f-943f-8ac90e72895a.png",
+            "title": "",
+            "link_text": ""
           }
         },
         "3c112c6b-9774-48cf-a976-e07acca43778": {
@@ -206,11 +209,11 @@
       "settings": {
         "layout": "default",
         "display_padding": true,
-        "bg_color": "#f5f5f5",
-        "spotlight_block_title": "#Spotlight",
-        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
-        "spotlight_block_btn": "",
-        "spotlight_block_url": "",
+        "bg_color": "#ffa0b9",
+        "spotlight_block_title": "",
+        "spotlight_block_des": "",
+        "spotlight_block_btn": "#cleanrealgood >",
+        "spotlight_block_url": "https:\/\/plumgoodness.com\/pages\/cleanrealgood",
         "title_style": "style_2",
         "margin_bottom_mb": 0,
         "margin_bottom": 0
