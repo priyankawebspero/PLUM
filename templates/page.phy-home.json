@@ -68,113 +68,67 @@
         "auto_playvideo": true
       }
     },
-    "16584896238e3d691b": {
-      "type": "phy-collections-row",
-      "blocks": {
-        "1658489623c7828a1e-0": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
-          }
-        },
-        "1658489623c7828a1e-1": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
-          }
-        },
-        "1658489623c7828a1e-2": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
-          }
-        },
-        "546b8be7-289b-441d-803f-755b5e1a2c2c": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
-          }
-        },
-        "fadf2eca-305e-4e4c-ae5e-e6030c7d29cc": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1658489623c7828a1e-0",
-        "1658489623c7828a1e-1",
-        "1658489623c7828a1e-2",
-        "546b8be7-289b-441d-803f-755b5e1a2c2c",
-        "fadf2eca-305e-4e4c-ae5e-e6030c7d29cc"
-      ],
-      "settings": {
-        "layout": "default",
-        "display_padding": false,
-        "spotlight_block_title": "#Featured On Ella",
-        "spotlight_block_des": ""
-      }
-    },
     "16584893325e6e9c34": {
       "type": "phy-collection-boxes",
       "blocks": {
         "1658489332d0b82a4f-0": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Face_985b726e-ab4b-4102-a235-e47cbb19579b.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Face_985b726e-ab4b-4102-a235-e47cbb19579b.jpg",
+            "title": "FACE",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-face"
           }
         },
         "1658489332d0b82a4f-1": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Body_e69c98df-eeb8-4f58-bdbf-f0bc5b921395.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Body_e69c98df-eeb8-4f58-bdbf-f0bc5b921395.jpg",
+            "title": "BODY",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-body"
           }
         },
         "1658489332d0b82a4f-2": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Fragrance_4787d44b-30d5-4b51-9c29-7885198f48d9.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Fragrance_4787d44b-30d5-4b51-9c29-7885198f48d9.jpg",
+            "title": "FRAGRANCE",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-fragrances"
           }
         },
         "900a40c5-d04f-441d-8ed7-e8cdcfa3fa4e": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Hair_8825e8c1-ecfd-445d-ab3b-2d9b6fc9ba0a.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Hair_8825e8c1-ecfd-445d-ab3b-2d9b6fc9ba0a.jpg",
+            "title": "HAIR",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-hair"
           }
         },
         "c4e8b61b-aaf2-4ff4-86df-de5fc17b5cd9": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Beard_f384942d-44dd-442e-a38e-d921157e65e8.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Beard_f384942d-44dd-442e-a38e-d921157e65e8.jpg",
+            "title": "BEARD",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-beard"
           }
         },
         "e83a3d4a-cd2c-42be-95b3-cbc624da4553": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Merchandise_68813c00-eb7b-420a-a0bf-d00cdbcc82ce.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Merchandise_68813c00-eb7b-420a-a0bf-d00cdbcc82ce.jpg",
+            "title": "MERCHANDISE",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-merchandize"
           }
         }
       },
@@ -185,6 +139,64 @@
         "900a40c5-d04f-441d-8ed7-e8cdcfa3fa4e",
         "c4e8b61b-aaf2-4ff4-86df-de5fc17b5cd9",
         "e83a3d4a-cd2c-42be-95b3-cbc624da4553"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "self care. it's a guy thing.",
+        "spotlight_block_des": ""
+      }
+    },
+    "16584896238e3d691b": {
+      "type": "phy-collections-row",
+      "blocks": {
+        "1658489623c7828a1e-0": {
+          "type": "image",
+          "settings": {
+            "title": "FACE",
+            "sub_title": "",
+            "link": ""
+          }
+        },
+        "1658489623c7828a1e-1": {
+          "type": "image",
+          "settings": {
+            "title": "BODY",
+            "sub_title": "",
+            "link": ""
+          }
+        },
+        "1658489623c7828a1e-2": {
+          "type": "image",
+          "settings": {
+            "title": "FRAGRANCE",
+            "sub_title": "",
+            "link": ""
+          }
+        },
+        "546b8be7-289b-441d-803f-755b5e1a2c2c": {
+          "type": "image",
+          "settings": {
+            "title": "HAIR",
+            "sub_title": "",
+            "link": ""
+          }
+        },
+        "fadf2eca-305e-4e4c-ae5e-e6030c7d29cc": {
+          "type": "image",
+          "settings": {
+            "title": "BEARD",
+            "sub_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658489623c7828a1e-0",
+        "1658489623c7828a1e-1",
+        "1658489623c7828a1e-2",
+        "546b8be7-289b-441d-803f-755b5e1a2c2c",
+        "fadf2eca-305e-4e4c-ae5e-e6030c7d29cc"
       ],
       "settings": {
         "layout": "default",
@@ -305,8 +317,8 @@
   "order": [
     "style-check",
     "165848928552c70b4a",
-    "16584896238e3d691b",
     "16584893325e6e9c34",
+    "16584896238e3d691b",
     "1658489924c67e5460",
     "1658489800cc294a87",
     "165848980769f53267"
