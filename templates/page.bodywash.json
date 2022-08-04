@@ -290,9 +290,10 @@
         "dcb89c3f-7095-4824-a53e-6c1e0cdb84ba": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
-            "description_band": "Loremous",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/1_05804868-f9c4-41af-a540-e63b478145dd.png",
+            "title": "",
+            "description_band": "<p style=\"text-decoration:underline;\">Vanilla Vibes Body Mist<\/p>\nCupcakes, pastries, and all things deliciously sweet are what you smell when you spray this strong and sugary body mist.",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         },
         "e65493a7-9a0d-4a6d-ac6b-8026ad78a113": {
