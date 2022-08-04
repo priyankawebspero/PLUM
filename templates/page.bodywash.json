@@ -20,6 +20,7 @@
         },
         "fa47f221-d80c-47f2-a262-f01cf96649f6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
