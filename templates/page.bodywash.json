@@ -192,20 +192,12 @@
             "title": "",
             "link_text": ""
           }
-        },
-        "3c112c6b-9774-48cf-a976-e07acca43778": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
         }
       },
       "block_order": [
         "1658491667146acd20-0",
         "1658491667146acd20-1",
-        "1658491667146acd20-2",
-        "3c112c6b-9774-48cf-a976-e07acca43778"
+        "1658491667146acd20-2"
       ],
       "settings": {
         "layout": "default",
@@ -235,6 +227,7 @@
     },
     "1658491933c6609cea": {
       "type": "home-spotlight-slider",
+      "disabled": true,
       "blocks": {
         "165849193388c38449-0": {
           "type": "image",
