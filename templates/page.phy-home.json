@@ -12,13 +12,37 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/Home-pg_desktop_709edcc2-c742-40cc-94ff-7230228ea69d.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/Home-pg_mobile_6c614163-b40c-4945-a115-f7eaf731a754.png",
+            "link": "shopify:\/\/collections\/phy-x-plum",
+            "alignment": "left"
+          }
+        },
+        "c3f198e1-81e8-4a17-a8c4-c421ba55b313": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/PhyLandingPage_EDT_Social_14c1931e-2972-44d0-8fbd-8c44452ada95.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/Mobile_PhyLandingPage_EDT_Social_71150fb5-11ed-45ee-a253-4db84ab04df2.png",
+            "link": "shopify:\/\/collections\/phy-x-plum",
+            "alignment": "left"
+          }
+        },
+        "ec268120-afe5-4c69-9a68-c16159abe295": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/PhyLandingPage_Ha_Face_Gel_1dd2dfbd-d75b-4441-aef8-7820f8a91600.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/Mobile_PhyLandingPage_Ha_Face_Gel_1596c07d-04d9-4383-a911-bc4b1714b652.png",
+            "link": "shopify:\/\/collections\/phy-x-plum",
             "alignment": "left"
           }
         }
       },
       "block_order": [
-        "1658489285fe1ce5d1-0"
+        "1658489285fe1ce5d1-0",
+        "c3f198e1-81e8-4a17-a8c4-c421ba55b313",
+        "ec268120-afe5-4c69-9a68-c16159abe295"
       ],
       "settings": {
         "layout": "full",
