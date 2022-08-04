@@ -299,17 +299,19 @@
         "e65493a7-9a0d-4a6d-ac6b-8026ad78a113": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
-            "description_band": "Loremous",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/2_a21ac3b6-9f93-4c6c-a138-bbf360eb5bfe.jpg",
+            "title": "",
+            "description_band": "<p style=\"text-decoration:underline;\">Hawaiian Rumba Shower Gel<\/p>\nA fragrance so heavenly, you'll have to remind yourself it's not a beach-side cocktail.",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         },
         "fdfd1678-2c3b-4855-b4bc-7b7e6b367a62": {
           "type": "image",
           "settings": {
-            "title": "Loremous",
-            "description_band": "Loremous",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Cosmopolitan_logo_200x_4e2118e7-0b87-4ee3-b223-d652a1c77e49.webp",
+            "title": "",
+            "description_band": "<p style=\"text-decoration:underline;\">Vanilla Vibes Sugar Body Scrub<\/p>\nWith its delicious vanilla aroma, this cruelty-free and vegan scrub is sure to get you hooked in no time!",
+            "link": "shopify:\/\/pages\/plum-feature"
           }
         }
       },
