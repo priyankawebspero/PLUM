@@ -977,7 +977,12 @@ div#shopify-section-1652875393aa0bfb00 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.homepage-video-section img.lazyautosizes.slide-mobile.lazyloaded {
+
+
+@media only screen and (min-width: 768px){
+.homepage-video-section img.slide-mobile{
     display: none;
 }
+}
+
 /*-17-08-2022-*/
