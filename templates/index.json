@@ -76,6 +76,16 @@
     "1658484860c65081e1": {
       "type": "home-slideshow",
       "blocks": {
+        "97c74f42-d31a-430d-98d4-0ac7407b2f96": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Desk_HP_Banner_V4_fe8c3690-352f-4c96-96e7-5fa71baa7b9b.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/Mob_CP_Banner_V2_ae3eb12d-811d-4033-906b-e5514fa8ca2e.jpg",
+            "link": "",
+            "alignment": "left"
+          }
+        },
         "165848486091642f98-0": {
           "type": "image",
           "settings": {
@@ -128,6 +138,7 @@
         }
       },
       "block_order": [
+        "97c74f42-d31a-430d-98d4-0ac7407b2f96",
         "165848486091642f98-0",
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
         "f0188917-06a6-4e38-a16f-f663af2d2627",
