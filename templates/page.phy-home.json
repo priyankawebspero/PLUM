@@ -260,7 +260,7 @@
       "settings": {
         "layout": "default",
         "display_padding": false,
-        "spotlight_block_title": "<i class=\"fa fa-star\" aria-hidden=\"true\"><\/i> the world of phy",
+        "spotlight_block_title": "the world of phy",
         "spotlight_block_des": ""
       }
     },
