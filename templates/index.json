@@ -135,6 +135,16 @@
             "link": "",
             "alignment": "left"
           }
+        },
+        "954be5d8-b6dc-41fd-afb6-9997a2b99974": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Onion_Range-Dektop_Banner_1920_x_500pxl_1.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Onion_Range_Mobile_Banner_767_x_474pxl_copy.jpg",
+            "link": "",
+            "alignment": "left"
+          }
         }
       },
       "block_order": [
@@ -143,7 +153,8 @@
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
         "f0188917-06a6-4e38-a16f-f663af2d2627",
         "f5cca3d3-6e8e-49fe-8ec2-3019bb8e85de",
-        "b6b2242a-1db7-4784-a4ab-e131a35d015c"
+        "b6b2242a-1db7-4784-a4ab-e131a35d015c",
+        "954be5d8-b6dc-41fd-afb6-9997a2b99974"
       ],
       "settings": {
         "layout": "full",
