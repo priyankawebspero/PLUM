@@ -184,8 +184,27 @@
         "margin_bottom": 0
       }
     },
+    "1660732889a3929fc1": {
+      "type": "home-featured-products",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/new-launches_Category-heder_Desktop_V2_88eb8cfa-f9d0-476c-bdb4-e8443e1e4f69.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "new-launches",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "View More",
+        "link1": "shopify:\/\/collections\/just-launched",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "1659332028c131fd1a": {
       "type": "Best-sellers-bday",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/new-launches_Category-heder_Desktop_V2_88eb8cfa-f9d0-476c-bdb4-e8443e1e4f69.png",
         "image_mobile": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
@@ -318,24 +337,6 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "1660732889a3929fc1": {
-      "type": "home-featured-products",
-      "settings": {
-        "image_1": "shopify:\/\/shop_images\/new-launches_Category-heder_Desktop_V2_88eb8cfa-f9d0-476c-bdb4-e8443e1e4f69.png",
-        "image_picker_mobile": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
-        "featured_products_title": "",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "new-launches",
-        "slider_featured_limit_all": 6,
-        "shop_now_button": "View More",
-        "link1": "shopify:\/\/collections\/just-launched",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -343,10 +344,10 @@
     "1658484860c65081e1",
     "165848492042e89e2c",
     "1658485109ce9a8560",
+    "1660732889a3929fc1",
     "1659332028c131fd1a",
     "165848513210ac1823",
     "1658490722f9e82fc3",
-    "1658485170941c47bc",
-    "1660732889a3929fc1"
+    "1658485170941c47bc"
   ]
 }
