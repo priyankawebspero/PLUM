@@ -98,6 +98,7 @@
         },
         "165848486091642f98-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HP-Banner_Raksha-Bnadhan_Desktop_9c96509e-7cab-433a-8efe-3a1214891957.gif",
@@ -108,6 +109,7 @@
         },
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HP_Desktop_Matte-In-Heaven-Liquid-Lipstick_1920X500_1a650cee-4c95-4c93-9f0f-9441b95bd846.jpg",
@@ -118,6 +120,7 @@
         },
         "f0188917-06a6-4e38-a16f-f663af2d2627": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/Pimple-Care_HP-banner_1_724140ab-94bb-4ca4-9e12-5732ca27ec44.jpg",
@@ -128,6 +131,7 @@
         },
         "f5cca3d3-6e8e-49fe-8ec2-3019bb8e85de": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/Avocado-Shampoo_HP-Desk-Banner_04c50e17-3889-4307-9dae-398ec5e7cece.jpg",
@@ -138,10 +142,21 @@
         },
         "b6b2242a-1db7-4784-a4ab-e131a35d015c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/Desk_HP_Banner_V4_fe8c3690-352f-4c96-96e7-5fa71baa7b9b.gif",
             "image_slide_mb": "shopify:\/\/shop_images\/Mob_CP_Banner_V2_ae3eb12d-811d-4033-906b-e5514fa8ca2e.jpg",
+            "link": "",
+            "alignment": "left"
+          }
+        },
+        "ba96a9ed-ac4b-4360-ae11-c66881b50ffe": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/HP-Banner_Desktop_Vit-C-Range_11a633ee-2d57-473e-be61-36da9676a94d.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP-Banner_Mobile_Vit-C-Range_e666ca7c-7b5c-46d2-b928-5217d80f10d3.gif",
             "link": "",
             "alignment": "left"
           }
@@ -154,7 +169,8 @@
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
         "f0188917-06a6-4e38-a16f-f663af2d2627",
         "f5cca3d3-6e8e-49fe-8ec2-3019bb8e85de",
-        "b6b2242a-1db7-4784-a4ab-e131a35d015c"
+        "b6b2242a-1db7-4784-a4ab-e131a35d015c",
+        "ba96a9ed-ac4b-4360-ae11-c66881b50ffe"
       ],
       "settings": {
         "layout": "full",
