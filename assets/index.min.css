@@ -977,7 +977,11 @@ div#shopify-section-1652875393aa0bfb00 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+.video-popup button[type="button"] {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
 
 @media only screen and (min-width: 768px){
 .homepage-video-section img.slide-mobile{
