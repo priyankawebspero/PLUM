@@ -964,7 +964,7 @@ div#shopify-section-1652875393aa0bfb00 {
 }
 
 /*-17-08-2022-*/
-.video-popup button[type="button"]:after {
+.video-popup button[data-toggle="modal"]:after {
     content: "";
     background: url(https://cdn.shopify.com/s/files/1/0390/2985/files/video_icon_bg.png);
     width: 80px;
