@@ -202,6 +202,22 @@
         "margin_bottom": 0
       }
     },
+    "16607344139c06e896": {
+      "type": "video",
+      "settings": {
+        "show_homepage_videos_section": true,
+        "video_title": "Rashmika recommends",
+        "description": "",
+        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
+        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
+        "video_link1": "sxCoJPealQI",
+        "read_more_button_name": "",
+        "read_more_button_link": "",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "1659332028c131fd1a": {
       "type": "Best-sellers-bday",
       "disabled": true,
@@ -337,22 +353,6 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "16607344139c06e896": {
-      "type": "video",
-      "settings": {
-        "show_homepage_videos_section": true,
-        "video_title": "Rashmika recommends",
-        "description": "",
-        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
-        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
-        "video_link1": "sxCoJPealQI",
-        "read_more_button_name": "",
-        "read_more_button_link": "",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -361,10 +361,10 @@
     "165848492042e89e2c",
     "1658485109ce9a8560",
     "1660732889a3929fc1",
+    "16607344139c06e896",
     "1659332028c131fd1a",
     "165848513210ac1823",
     "1658490722f9e82fc3",
-    "1658485170941c47bc",
-    "16607344139c06e896"
+    "1658485170941c47bc"
   ]
 }
