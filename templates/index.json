@@ -149,6 +149,7 @@
     },
     "165848492042e89e2c": {
       "type": "home-featured-products",
+      "disabled": true,
       "settings": {
         "image_1": "shopify:\/\/shop_images\/flat-25_-off_Category-heder_Desktop_8cfc8f17-1395-440f-bdce-784febb5bd82.png",
         "image_picker_mobile": "shopify:\/\/shop_images\/flat-25_-off_Category-heder_Mobile_6c57f209-c156-471f-bfb7-d17b2e3d949a.png",
