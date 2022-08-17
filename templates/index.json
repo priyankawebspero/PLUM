@@ -259,12 +259,12 @@
         "layout": "default",
         "display_padding": true,
         "bg_color": "#c290de",
-        "spotlight_block_title": "#Spotlight",
-        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
-        "spotlight_block_btn": "",
-        "spotlight_block_url": "",
+        "spotlight_block_title": "",
+        "spotlight_block_des": "",
+        "spotlight_block_btn": "#cleanrealgood >",
+        "spotlight_block_url": "https:\/\/plumgoodness.com\/pages\/cleanrealgood",
         "title_style": "style_2",
-        "margin_bottom_mb": 0,
+        "margin_bottom_mb": 40,
         "margin_bottom": 0
       }
     },
