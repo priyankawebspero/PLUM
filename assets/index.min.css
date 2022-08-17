@@ -962,3 +962,22 @@ div#shopify-section-1652875393aa0bfb00 {
     margin-bottom: 30px;
 }
 }
+
+/*-17-08-2022-*/
+.video-popup button[type="button"]:after {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0390/2985/files/video_icon_bg.png);
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.homepage-video-section img.lazyautosizes.slide-mobile.lazyloaded {
+    display: none;
+}
+/*-17-08-2022-*/
