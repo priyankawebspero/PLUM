@@ -288,6 +288,8 @@
         "68c19a9a-8eab-48b3-97bf-f1cca600a8da": {
           "type": "image",
           "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Category-button-Accessories.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Category-button-Accessories.jpg",
             "link": ""
           }
         },
