@@ -276,6 +276,8 @@
         "1658489800fa98594d-0": {
           "type": "image",
           "settings": {
+            "image_desk": "shopify:\/\/shop_images\/WhatsApp_Image_2022-08-17_at_9.41.05_PM.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WhatsApp_Image_2022-08-17_at_9.41.05_PM.jpg",
             "link": ""
           }
         },
@@ -321,6 +323,7 @@
         "show_homepage_videos_section": true,
         "video_title": "Latest Posts",
         "description": "",
+        "image_slide": "shopify:\/\/shop_images\/HP-banner_Freebies-on-order-Rs-999_03.gif",
         "video_link1": "_9VUPq3SxOc",
         "read_more_button_name": "",
         "read_more_button_link": "",
