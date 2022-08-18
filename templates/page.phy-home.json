@@ -310,7 +310,9 @@
         "139414e8-e3a1-45c7-9580-498ea54fbb4f": {
           "type": "image",
           "settings": {
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Category-button-Beard.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Category-button-Beard.jpg",
+            "link": "https:\/\/www.instagram.com\/p\/Cb-L90Ksx1p\/?igshid=YmMyMTA2M2Y%3D"
           }
         }
       },
