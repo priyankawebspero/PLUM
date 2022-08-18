@@ -345,9 +345,9 @@
         "brand_title": "",
         "brand_des": "",
         "banner_button": "Shop Now",
-        "btn_link": "",
-        "title_style": "style_1",
-        "brand_rows": "5"
+        "btn_link": "shopify:\/\/pages\/plum-feature",
+        "title_style": "style_2",
+        "brand_rows": "3"
       }
     }
   },
