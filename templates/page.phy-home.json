@@ -243,10 +243,11 @@
         "16584899246c14d070-2": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/gift.jpg",
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Most_Loved.jpg",
+            "image_mob": "shopify:\/\/shop_images\/most.jpg",
+            "title": "MOST LOVED",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-most-loved"
           }
         },
         "a3abd272-70e8-4edc-8627-48e7c79cf5e5": {
