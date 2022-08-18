@@ -333,10 +333,10 @@
       "type": "phy-video",
       "settings": {
         "show_homepage_videos_section": true,
-        "video_title": "Latest Posts",
+        "video_title": "",
         "description": "",
-        "image_slide": "shopify:\/\/shop_images\/HP-banner_Freebies-on-order-Rs-999_03.gif",
-        "video_link1": "_9VUPq3SxOc",
+        "image_slide": "shopify:\/\/shop_images\/video-imge.jpg",
+        "video_link1": "7guDIU03zIw",
         "read_more_button_name": "",
         "read_more_button_link": "",
         "margin_bottom_mb": 40,
