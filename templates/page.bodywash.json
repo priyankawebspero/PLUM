@@ -175,14 +175,14 @@
     "16584918030acc40e3": {
       "type": "home-featured-products",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BG_2_4c12c512-b1a6-4e36-8b95-12d9c319de25.jpg",
+        "image": "shopify:\/\/shop_images\/BG_1_copy_a5736540-6147-418e-bccd-749ab73e632e.jpg",
         "featured_products_title": "what's new",
         "featured_products_des": "",
         "title_style": "style_1",
         "show_slider_featured_collection": "pbl-new-launches",
         "slider_featured_limit_all": 10,
         "shop_now_button": "view more",
-        "link1": "",
+        "link1": "shopify:\/\/collections\/pbl-new-launches",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
