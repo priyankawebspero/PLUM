@@ -18,6 +18,16 @@
             "alignment": "left"
           }
         },
+        "4f955b9b-59c3-460d-9e5e-83fe602dec24": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
+            "link": "",
+            "alignment": "left"
+          }
+        },
         "1658491656e56f97db-0": {
           "type": "image",
           "disabled": true,
@@ -39,23 +49,13 @@
             "link": "shopify:\/\/collections\/minions-goin-bananas",
             "alignment": "left"
           }
-        },
-        "4f955b9b-59c3-460d-9e5e-83fe602dec24": {
-          "type": "image",
-          "settings": {
-            "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
-            "link": "",
-            "alignment": "left"
-          }
         }
       },
       "block_order": [
         "8f169b0e-2280-43d8-b645-0cb17b1ba10f",
+        "4f955b9b-59c3-460d-9e5e-83fe602dec24",
         "1658491656e56f97db-0",
-        "fa47f221-d80c-47f2-a262-f01cf96649f6",
-        "4f955b9b-59c3-460d-9e5e-83fe602dec24"
+        "fa47f221-d80c-47f2-a262-f01cf96649f6"
       ],
       "settings": {
         "layout": "full",
@@ -155,6 +155,23 @@
         "margin_bottom": 0
       }
     },
+    "16595312593661f02c": {
+      "type": "home-featured-products",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BG_2_4c12c512-b1a6-4e36-8b95-12d9c319de25.jpg",
+        "featured_products_title": "bestsellers",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "bodycare",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "view more",
+        "link1": "https:\/\/plumgoodness.com\/collections\/bodycare",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "16584918030acc40e3": {
       "type": "home-featured-products",
       "settings": {
@@ -166,23 +183,6 @@
         "slider_featured_limit_all": 10,
         "shop_now_button": "view more",
         "link1": "",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
-    "16595312593661f02c": {
-      "type": "home-featured-products",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BG_1_copy_a5736540-6147-418e-bccd-749ab73e632e.jpg",
-        "featured_products_title": "bestsellers",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "bodycare",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "view more",
-        "link1": "https:\/\/plumgoodness.com\/collections\/bodycare",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
@@ -355,8 +355,8 @@
     "style-check",
     "16584916565597b9d2",
     "16584917577bd45e70",
-    "16584918030acc40e3",
     "16595312593661f02c",
+    "16584918030acc40e3",
     "165849166859714bea",
     "1658491814eed6d5bf",
     "1658491933c6609cea",
