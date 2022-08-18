@@ -8,6 +8,16 @@
     "16584916565597b9d2": {
       "type": "home-slideshow",
       "blocks": {
+        "8f169b0e-2280-43d8-b645-0cb17b1ba10f": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Desktop_without-offer_7dc31413-05bd-49c1-8b10-4894bffe4420.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Mobile_without-offer.jpg",
+            "link": "",
+            "alignment": "left"
+          }
+        },
         "1658491656e56f97db-0": {
           "type": "image",
           "disabled": true,
@@ -30,29 +40,21 @@
             "alignment": "left"
           }
         },
-        "8f169b0e-2280-43d8-b645-0cb17b1ba10f": {
-          "type": "image",
-          "settings": {
-            "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Desktop_without-offer_7dc31413-05bd-49c1-8b10-4894bffe4420.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Mobile_without-offer.jpg",
-            "link": "",
-            "alignment": "left"
-          }
-        },
         "4f955b9b-59c3-460d-9e5e-83fe602dec24": {
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
             "link": "",
             "alignment": "left"
           }
         }
       },
       "block_order": [
+        "8f169b0e-2280-43d8-b645-0cb17b1ba10f",
         "1658491656e56f97db-0",
         "fa47f221-d80c-47f2-a262-f01cf96649f6",
-        "8f169b0e-2280-43d8-b645-0cb17b1ba10f",
         "4f955b9b-59c3-460d-9e5e-83fe602dec24"
       ],
       "settings": {
