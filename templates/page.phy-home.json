@@ -10,6 +10,7 @@
       "blocks": {
         "1658489285fe1ce5d1-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HP-banner_Freebies-on-order-Rs-999_03.gif",
@@ -42,7 +43,6 @@
         },
         "eea8f0a0-18f6-4597-9726-a301e70bb262": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/Home-pg_desktop_709edcc2-c742-40cc-94ff-7230228ea69d.png",
