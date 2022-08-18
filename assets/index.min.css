@@ -990,3 +990,24 @@ div#shopify-section-1652875393aa0bfb00 {
 }
 
 /*-17-08-2022-*/
+
+
+/*-18-08-2022-*/
+div#shopify-section-phy-video div#featured-video-phy-video .video-popup>button:before {
+    position: absolute;
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/ezgif.com-gif-maker.png);
+    width: 125px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-position: center center;
+    margin: 0 auto;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*-18-08-2022-*/
