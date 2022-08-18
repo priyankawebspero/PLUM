@@ -12,8 +12,8 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Home-pg_desktop_709edcc2-c742-40cc-94ff-7230228ea69d.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/Home-pg_mobile_6c614163-b40c-4945-a115-f7eaf731a754.png",
+            "image_slide": "shopify:\/\/shop_images\/HP-banner_Freebies-on-order-Rs-999_03.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/Mobile-CP-banner_Freebies-on-order-Rs-999.jpg",
             "link": "shopify:\/\/collections\/phy-x-plum",
             "alignment": "left"
           }
