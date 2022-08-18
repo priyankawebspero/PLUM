@@ -189,6 +189,19 @@
         "margin_bottom": 0
       }
     },
+    "1658491814eed6d5bf": {
+      "type": "bodylovin-custom-content",
+      "settings": {
+        "code": "<div class=\"row\">\n    <div class=\"col-sm-12\"> <div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n\n          <span>\n            Watch &amp; Buy\n          <\/span>\n\n        <\/span>\n      <\/h3>\n\n      <\/div>\n\n      <fw-embed-feed channel=\"plum_goodness\" playlist=\"oNNdlo\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\"><\/fw-embed-feed>\n    <\/div>\n  <\/div>",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": "",
+        "hidden_section": false
+      }
+    },
     "165849166859714bea": {
       "type": "home-spotlight-slider",
       "blocks": {
@@ -233,19 +246,6 @@
         "title_style": "style_2",
         "margin_bottom_mb": 0,
         "margin_bottom": 0
-      }
-    },
-    "1658491814eed6d5bf": {
-      "type": "bodylovin-custom-content",
-      "settings": {
-        "code": "<div class=\"row\">\n    <div class=\"col-sm-12\"> <div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n\n          <span>\n            Watch &amp; Buy\n          <\/span>\n\n        <\/span>\n      <\/h3>\n\n      <\/div>\n\n      <fw-embed-feed channel=\"plum_goodness\" playlist=\"oNNdlo\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\"><\/fw-embed-feed>\n    <\/div>\n  <\/div>",
-        "section_margin_top": "",
-        "section_margin_bottom": "",
-        "section_padding_top": "",
-        "section_padding_right": "",
-        "section_padding_bottom": "",
-        "section_padding_left": "",
-        "hidden_section": false
       }
     },
     "1658491933c6609cea": {
@@ -357,8 +357,8 @@
     "16584917577bd45e70",
     "16595312593661f02c",
     "16584918030acc40e3",
-    "165849166859714bea",
     "1658491814eed6d5bf",
+    "165849166859714bea",
     "1658491933c6609cea",
     "165849199828298fc8"
   ]
