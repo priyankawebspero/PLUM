@@ -224,6 +224,7 @@
           "type": "image",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Combos.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Untitled_design_9.jpg",
             "title": "COMBO",
             "sub_title": "",
             "link": "https:\/\/plumgoodness.com\/collections\/phycombo"
