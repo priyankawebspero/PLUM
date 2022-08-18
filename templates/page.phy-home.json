@@ -296,7 +296,9 @@
         "65eb7c2f-b5b4-467c-ae6e-cf6136b3d96c": {
           "type": "image",
           "settings": {
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Category-button-Shave.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Category-button-Shave.jpg",
+            "link": "https:\/\/www.instagram.com\/p\/Cc99xcMOWLD\/?igshid=YmMyMTA2M2Y%3D"
           }
         },
         "142e3366-0557-4b0f-822c-ec2c757516c6": {
