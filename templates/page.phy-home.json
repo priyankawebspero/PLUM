@@ -233,6 +233,8 @@
         "16584899246c14d070-1": {
           "type": "image",
           "settings": {
+            "image_desk": "shopify:\/\/shop_images\/WhatsApp_Image_2022-08-17_at_9.41.05_PM.jpg",
+            "image_mob": "shopify:\/\/shop_images\/WhatsApp_Image_2022-08-17_at_9.41.05_PM.jpg",
             "title": "Lorem De Dorus",
             "sub_title": "NULLAM DAPIBUS LIBEROS",
             "link": ""
