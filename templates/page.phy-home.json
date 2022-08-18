@@ -253,9 +253,11 @@
         "a3abd272-70e8-4edc-8627-48e7c79cf5e5": {
           "type": "image",
           "settings": {
-            "title": "Lorem De Dorus",
-            "sub_title": "NULLAM DAPIBUS LIBEROS",
-            "link": ""
+            "image_desk": "shopify:\/\/shop_images\/Fresh.jpg",
+            "image_mob": "shopify:\/\/shop_images\/fresh_7abe3864-a95a-42ee-a617-e538e10c7420.jpg",
+            "title": "FRESH DROPS",
+            "sub_title": "",
+            "link": "https:\/\/plumgoodness.com\/collections\/phy-freshdrops"
           }
         }
       },
