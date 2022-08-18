@@ -243,6 +243,7 @@
         "16584899246c14d070-2": {
           "type": "image",
           "settings": {
+            "image_desk": "shopify:\/\/shop_images\/gift.jpg",
             "title": "Lorem De Dorus",
             "sub_title": "NULLAM DAPIBUS LIBEROS",
             "link": ""
