@@ -2,6 +2,35 @@
   "sections": {
     "video-page-section": {
       "type": "video-page-section",
+      "blocks": {
+        "ccacff76-93d4-456c-80c7-e2f995d175ba": {
+          "type": "Video",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cat_EYE_PNG_ba888c0e-eaac-4797-b1b5-d6e41c781baa.png",
+            "description": "",
+            "link": "https:\/\/youtube.com\/embed\/QVluMzj3_Ro"
+          }
+        },
+        "8ff6ea53-f0c9-491d-bfa3-bc505702f3c1": {
+          "type": "Video",
+          "settings": {
+            "description": "Lorem De Dorus",
+            "link": ""
+          }
+        },
+        "79e42972-cccb-4249-b1d4-fcdf778f755e": {
+          "type": "Video",
+          "settings": {
+            "description": "Lorem De Dorus",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ccacff76-93d4-456c-80c7-e2f995d175ba",
+        "8ff6ea53-f0c9-491d-bfa3-bc505702f3c1",
+        "79e42972-cccb-4249-b1d4-fcdf778f755e"
+      ],
       "settings": {
       }
     }
@@ -10,4 +39,3 @@
     "video-page-section"
   ]
 }
-
