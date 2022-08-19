@@ -339,9 +339,9 @@
       ],
       "settings": {
         "layout": "default",
-        "margin_bottom_mb": 0,
-        "margin_bottom_tab": 0,
-        "margin_bottom": 0,
+        "margin_bottom_mb": 5,
+        "margin_bottom_tab": 25,
+        "margin_bottom": 60,
         "display_brand_border": true,
         "brand_title": "",
         "brand_des": "",
