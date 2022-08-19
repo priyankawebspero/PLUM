@@ -26,12 +26,19 @@
           "settings": {
             "show_slider_featured_collection": "hair-care"
           }
+        },
+        "b11d67fb-6aeb-40a9-b95a-9566fc29b0a2": {
+          "type": "product-slide",
+          "settings": {
+            "show_slider_featured_collection": "haircare"
+          }
         }
       },
       "block_order": [
         "cad1c8a3-3ca1-4b39-9fa2-0f0954d5da68",
         "f7962603-d869-4a6e-9677-341ac0790776",
-        "21dda2ee-f75e-459b-addb-4b626a99aff9"
+        "21dda2ee-f75e-459b-addb-4b626a99aff9",
+        "b11d67fb-6aeb-40a9-b95a-9566fc29b0a2"
       ],
       "settings": {
       }
