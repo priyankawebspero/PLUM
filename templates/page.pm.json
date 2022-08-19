@@ -1,21 +1,44 @@
 {
   "sections": {
-    "pm-offers": {
-      "type": "pm-offers",
-      "settings": {
-      }
-    },
     "simple-banner": {
       "type": "simple-banner",
+      "settings": {
+        "link": "",
+        "banner-title": "",
+        "des": "Phasellus lorem malesuada ligula pulvino commodo maecenas"
+      }
+    },
+    "pm-offers": {
+      "type": "pm-offers",
+      "blocks": {
+        "cad1c8a3-3ca1-4b39-9fa2-0f0954d5da68": {
+          "type": "image-slide",
+          "settings": {
+          }
+        },
+        "f7962603-d869-4a6e-9677-341ac0790776": {
+          "type": "image-slide",
+          "settings": {
+          }
+        },
+        "21dda2ee-f75e-459b-addb-4b626a99aff9": {
+          "type": "product-slide",
+          "settings": {
+            "show_slider_featured_collection": "hair-care"
+          }
+        }
+      },
+      "block_order": [
+        "cad1c8a3-3ca1-4b39-9fa2-0f0954d5da68",
+        "f7962603-d869-4a6e-9677-341ac0790776",
+        "21dda2ee-f75e-459b-addb-4b626a99aff9"
+      ],
       "settings": {
       }
     }
   },
   "order": [
-	"simple-banner",
+    "simple-banner",
     "pm-offers"
-    
   ]
 }
-
-
