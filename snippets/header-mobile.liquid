@@ -12,8 +12,8 @@
     <h1 class="header-logo">
       {% if section.settings.brand_type == 'image' and section.settings.logo != bank %}
       <a class="logo-img left" href="/" title="Logo">
-        <img data-src="{{ section.settings.logo | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
-             src="{{ section.settings.logo | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
+        <img data-src="{{ section.settings.logo | img_url: 'master' }}"
+             src="{{ section.settings.logo | img_url: 'master' }}"
              alt="{{ section.settings.logo.alt | default: shop.name }}" itemprop="logo" class="lazyautosizes  header-sticky-logo" data-sizes="auto" width="119" height="70">
       </a>
       {% endif %}
@@ -99,21 +99,21 @@
     <h1 class="header-logo">
       {% if section.settings.brand_type == 'image' and section.settings.logo != bank %}
       <a class="logo-img left" href="/" title="Logo">
-        <img data-src="{{ section.settings.logo | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
-             src="{{ section.settings.logo | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
+        <img data-src="{{ section.settings.logo | img_url: 'master' }}"
+             src="{{ section.settings.logo | img_url: 'master' }}"
              alt="{{ section.settings.logo.alt | default: shop.name }}" itemprop="logo" class="lazyautosizes  header-sticky-logo" data-sizes="auto" width="80" height="50">
       </a>
       {% if section.settings.logo_body != bank %}
       <a class="logo-img right" href="{{section.settings.logo_body_url}}" title="Logo">
-        <img data-src="{{ section.settings.logo_body | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in' }}"
-             src="{{ section.settings.logo_body | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in' }}"
+        <img data-src="{{ section.settings.logo_body | img_url: 'master'  }}"
+             src="{{ section.settings.logo_body | img_url: 'master'  }}"
              alt="{{ section.settings.logo_body.alt | default: shop.name }}" itemprop="logo" class="lazyautosizes  header-sticky-logo" data-sizes="auto" width="80" height="50">
       </a>
       {% endif %}
        {% if section.settings.logo_phy != bank %}
       <a class="logo-img phy-logo" href="{{section.settings.logo_phy_url}}" title="Logo">
-        <img data-src="{{ section.settings.logo_phy | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
-             src="{{ section.settings.logo_phy | img_url: 'master' | replace:'cdn.shopify.com', 'ps4301vt.cdn.imgeng.in'}}"
+        <img data-src="{{ section.settings.logo_phy | img_url: 'master' }}"
+             src="{{ section.settings.logo_phy | img_url: 'master' }}"
              alt="{{ section.settings.logo_phy.alt | default: shop.name }}" itemprop="logo" class="lazyautosizes  header-sticky-logo" data-sizes="auto" width="80" height="50">
       </a>
       {% endif %}
