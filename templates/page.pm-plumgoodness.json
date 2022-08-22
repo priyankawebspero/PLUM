@@ -54,6 +54,12 @@
           "settings": {
             "top_banner_image_desktop": "shopify:\/\/shop_images\/makeup.webp"
           }
+        },
+        "ca843616-a94a-4e75-b8c5-4a5298026ac2": {
+          "type": "product-slide",
+          "settings": {
+            "show_slider_featured_collection": "makeup-offers"
+          }
         }
       },
       "block_order": [
@@ -63,7 +69,8 @@
         "4f84f0c6-0b9a-4d78-b137-498a8b99a3dc",
         "7bc82d0d-8e42-466a-854e-f67cbb1cbec5",
         "544ca9a3-bec5-414a-b3ee-2eff2c666e68",
-        "2278a0aa-f96b-4163-8c58-c35868c3acd0"
+        "2278a0aa-f96b-4163-8c58-c35868c3acd0",
+        "ca843616-a94a-4e75-b8c5-4a5298026ac2"
       ],
       "settings": {
       }
