@@ -12,6 +12,17 @@
     },
     "pm-offers": {
       "type": "pm-offers",
+      "blocks": {
+        "6f909101-a587-4b0f-a9b4-0a2a0425c545": {
+          "type": "image-slide",
+          "settings": {
+            "top_banner_image_desktop": "shopify:\/\/shop_images\/skin-carre.webp"
+          }
+        }
+      },
+      "block_order": [
+        "6f909101-a587-4b0f-a9b4-0a2a0425c545"
+      ],
       "settings": {
       }
     }
