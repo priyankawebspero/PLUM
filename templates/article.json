@@ -12,8 +12,8 @@
         "sidebar_link_title": "Categories",
         "style_categories": "style_little",
         "link_list": "main-menu",
-        "sidebar_recent_art": true,
-        "sidebar_blog_tags": true,
+        "sidebar_recent_art": false,
+        "sidebar_blog_tags": false,
         "related_blog_posts": "plumblogs"
       }
     }
