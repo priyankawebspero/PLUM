@@ -30,7 +30,6 @@
                 {% if comment and comment.created_at %}
                 {% assign number_of_comments = article.comments_count | plus: 1 %}
                 {% endif %}
-                <div id="shopify-section-article-template" class="shopify-section col-12 col-xl-8">
                     <div class="blog-detail">
                     <h1 class="article-title">
                     {% include 'multilang' with article.title %}
@@ -524,7 +523,6 @@
                     {% endif %}
         </div> 
       </div>   
-    </div>
     <div class="detail-page-blog-sec">
         <div class="container-padd60">
           <h2 class="heading-use">Related posts</h2>
