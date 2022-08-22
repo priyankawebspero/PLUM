@@ -18,10 +18,24 @@
           "settings": {
             "top_banner_image_desktop": "shopify:\/\/shop_images\/skin-carre.webp"
           }
+        },
+        "53c94aed-6602-46d8-af97-aa45a343ff44": {
+          "type": "product-slide",
+          "settings": {
+            "show_slider_featured_collection": ""
+          }
+        },
+        "3ef618e2-31a8-4ba1-9f65-8633a9b3f2e0": {
+          "type": "image-slide",
+          "settings": {
+            "top_banner_image_desktop": "shopify:\/\/shop_images\/Hair-Care_Landing-page.webp"
+          }
         }
       },
       "block_order": [
-        "6f909101-a587-4b0f-a9b4-0a2a0425c545"
+        "6f909101-a587-4b0f-a9b4-0a2a0425c545",
+        "53c94aed-6602-46d8-af97-aa45a343ff44",
+        "3ef618e2-31a8-4ba1-9f65-8633a9b3f2e0"
       ],
       "settings": {
       }
