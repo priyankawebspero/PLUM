@@ -19,9 +19,16 @@
             "top_banner_image_desktop": "shopify:\/\/shop_images\/skin-care-landingg.webp"
           }
         },
+        "0ec07b1f-9c1d-40db-9c9a-07a679b5cc74": {
+          "type": "product-slide",
+          "settings": {
+            "show_slider_featured_collection": "pm-skincare"
+          }
+        },
         "f7962603-d869-4a6e-9677-341ac0790776": {
           "type": "image-slide",
           "settings": {
+            "top_banner_image_desktop": "shopify:\/\/shop_images\/skin-care-landingg.webp"
           }
         },
         "21dda2ee-f75e-459b-addb-4b626a99aff9": {
@@ -49,6 +56,7 @@
       },
       "block_order": [
         "cad1c8a3-3ca1-4b39-9fa2-0f0954d5da68",
+        "0ec07b1f-9c1d-40db-9c9a-07a679b5cc74",
         "f7962603-d869-4a6e-9677-341ac0790776",
         "21dda2ee-f75e-459b-addb-4b626a99aff9",
         "b11d67fb-6aeb-40a9-b95a-9566fc29b0a2",
