@@ -1,0 +1,13 @@
+{
+	"sections": {
+	  "article.plum-preview-unsubscribe": {
+		"type": "article.plum-preview-unsubscribe",
+		"settings": {
+		}
+	  }
+	},
+	"order": [
+	  "article.plum-preview-unsubscribe"
+	]
+  }
+  
