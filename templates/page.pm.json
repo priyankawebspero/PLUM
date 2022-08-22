@@ -3,6 +3,8 @@
     "simple-banner": {
       "type": "simple-banner",
       "settings": {
+        "banner-id": "shopify:\/\/shop_images\/PMM.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/PM-HPP-MB.webp",
         "link": "",
         "banner-title": "",
         "des": "Phasellus lorem malesuada ligula pulvino commodo maecenas"
