@@ -34,7 +34,7 @@
         "4f84f0c6-0b9a-4d78-b137-498a8b99a3dc": {
           "type": "product-slide",
           "settings": {
-            "show_slider_featured_collection": ""
+            "show_slider_featured_collection": "haircare-offers"
           }
         },
         "7bc82d0d-8e42-466a-854e-f67cbb1cbec5": {
@@ -46,7 +46,7 @@
         "544ca9a3-bec5-414a-b3ee-2eff2c666e68": {
           "type": "product-slide",
           "settings": {
-            "show_slider_featured_collection": "haircare-offers"
+            "show_slider_featured_collection": "bodycare-offers"
           }
         },
         "2278a0aa-f96b-4163-8c58-c35868c3acd0": {
