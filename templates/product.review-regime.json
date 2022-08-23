@@ -7,7 +7,9 @@
           "type": "regime",
           "settings": {
             "regime_product": "green-tea-minis-acne-fighting-duo-face-wash-night-gel",
-            "regime_collection": "regime"
+            "regime_collection": "regime",
+            "regime_banner_desk": "shopify:\/\/shop_images\/Collectionn-page.webp",
+            "regime_banner_mob": "shopify:\/\/shop_images\/Collectionn-Page-Try-before-you-buy_Mobile.webp"
           }
         },
         "996c5bc1-d2a6-4295-b00e-0308f1febba3": {
