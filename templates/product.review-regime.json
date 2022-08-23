@@ -24,8 +24,10 @@
         "c1d2074c-284d-4f55-b367-35a044d06f14": {
           "type": "regime",
           "settings": {
-            "regime_product": "",
-            "regime_collection": ""
+            "regime_product": "best-bodycare-mini-trio",
+            "regime_collection": "pbl-regime",
+            "regime_banner_desk": "shopify:\/\/shop_images\/Minions-_996.webp",
+            "regime_banner_mob": "shopify:\/\/shop_images\/Minions-_997-Creatives_CollectionPage_Mobile_New.webp"
           }
         }
       },
