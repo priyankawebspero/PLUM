@@ -15,8 +15,10 @@
         "996c5bc1-d2a6-4295-b00e-0308f1febba3": {
           "type": "regime",
           "settings": {
-            "regime_product": "",
-            "regime_collection": ""
+            "regime_product": "green-tea-minis-duo-toner-moisturizer",
+            "regime_collection": "min-parent",
+            "regime_banner_desk": "shopify:\/\/shop_images\/Collectionn-page.webp",
+            "regime_banner_mob": "shopify:\/\/shop_images\/Collectionn-Page-Try-before-you-buy_Mobile.webp"
           }
         },
         "c1d2074c-284d-4f55-b367-35a044d06f14": {
