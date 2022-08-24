@@ -517,7 +517,7 @@ div#shopify-section-phy-video div#featured-video-phy-video .video-popup img {
     padding: 0;
     margin: 0;
 }
-.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
+.sub-page-banner-section .row .col-sm-2 {
     max-width: 9.5em;
     flex: 0 0 9.5em;
     padding-left: 2px;
@@ -563,7 +563,7 @@ div#shopify-section-footer-phy {
 body#phy-home main.main-content {
     padding-top: 136px;
 }
-  .sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
+  .sub-page-banner-section .row .col-sm-2 {
     max-width: 6.5em;
     flex: 0 0 6.5em;
 }
@@ -618,7 +618,7 @@ body#phy-home main.main-content {
     font-size: 14px;
     padding-bottom: 15px;
 }
-  .sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
+  .sub-page-banner-section .row .col-sm-2 {
     padding-left: 2px;
     padding-right: 2px;
 }
@@ -630,7 +630,7 @@ body#phy-home main.main-content {
 }
 }
 @media screen and (max-width: 360px) {
-#phy-home h3.box-title, .sub-page-banner-section .widget-title h3.box-title {
+#phy-home h3.box-title, .widget-title h3.box-title {
     font-size: 15px;
 }
   
