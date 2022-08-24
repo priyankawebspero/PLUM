@@ -1,10 +1,6 @@
-{% if template contains 'phy-home'%}
 {{ 'phy-home.css' | asset_url | stylesheet_tag }}
-{% endid %}
-{% if template contains 'bodywash'%}
-{{ 'slick.min.js' | asset_url | script_tag }}
-{{ 'bodywash_home.css' | asset_url | stylesheet_tag }} 
-{% endid %}
+
+{{ 'bodywash_home.css' | asset_url | stylesheet_tag }}  
 
 {% schema %}
     {
