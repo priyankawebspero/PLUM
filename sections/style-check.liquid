@@ -1,5 +1,11 @@
+
 {{ 'phy-home.css' | asset_url | stylesheet_tag }}
- 
+
+{% if template.name == "bodywash" %} 
+{{ 'bodywash_home.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+
 
 {% schema %}
     {
