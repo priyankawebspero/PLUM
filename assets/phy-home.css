@@ -152,15 +152,15 @@ div#shopify-section-phy-collections-row .phy-collection-row .img-box h5.sub-titl
 }
 
 /**self-care section***/
-div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
-div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
 }
-div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
     width: 100%;
 }
@@ -367,7 +367,7 @@ ul.slick-dots {
   div#shopify-section-phy-video div#featured-video-phy-video {
     margin-bottom: 0;
 }
-  div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks {
+  .phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks {
     padding: 0 10px;
 }
   div#shopify-section-phy-collections-row .row.spotlight-5-blocks {
@@ -563,10 +563,10 @@ body#phy-home main.main-content {
 div#shopify-section-phy-collections-row .container-padd60 {
     padding: 0;
 }
-div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks, div#shopify-section-phy-collections-row .row.spotlight-5-blocks, div#shopify-section-phy-collections-four-boxes .phy-collection-boxes .row.spotlight-4-blocks {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks, div#shopify-section-phy-collections-row .row.spotlight-5-blocks, div#shopify-section-phy-collections-four-boxes .phy-collection-boxes .row.spotlight-4-blocks {
     padding: 0;
 }
-  div#shopify-section-phy-collection-boxes .phy-collection-boxes {
+  .phy-collection-boxes .phy-collection-boxes {
     padding: 0 50px;
 }
   div#shopify-section-phy-collections-four-boxes .phy-collection-boxes {
@@ -602,7 +602,7 @@ div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-
     padding-left: 10px;
     padding-bottom: 10px;
 }
-  div#shopify-section-phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
+  .phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 4px;
