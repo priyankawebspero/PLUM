@@ -65,9 +65,9 @@ a.btn{background:#d6006d;color:#fff!important;font-size:20px;border-radius:7px;p
 a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 #shopify-section-bodywash-branda.btn:focus,#shopify-section-bodywash-branda.btn:active{background:#f36b8f!important;background-image:inherit!important}
 .addresses-page .btn-edit-delete .site-footer .newsletter a,.addresses-page .btn-edit-delete a:not(:disabled):not(.disabled).active,.addresses-page .btn-edit-delete a:not(:disabled):not(.disabled):active,.btn:not(:disabled):not(.disabled).active,.btn:not(:disabled):not(.disabled):active,.product-shop .shopify-payment-button .shopify-payment-button__button:not(:disabled):not(.disabled).active,.product-shop .shopify-payment-button .shopify-payment-button__button:not(:disabled):not(.disabled):active,.product-shop .shopify-payment-button .site-footer .newsletter .shopify-payment-button__button,.site-footer .newsletter .addresses-page .btn-edit-delete a,.site-footer .newsletter .btn,.site-footer .newsletter .product-shop .shopify-payment-button .shopify-payment-button__button,.site-footer .newsletter .tabs__product-page .spr-container .spr-summary-actions-newreview,.tabs__product-page .spr-container .site-footer .newsletter .spr-summary-actions-newreview,.tabs__product-page .spr-container .spr-summary-actions-newreview:not(:disabled):not(.disabled).active,.tabs__product-page .spr-container .spr-summary-actions-newreview:not(:disabled):not(.disabled):active{background:#f36b8f!important;color:#fff}
-#shopify-section-bodywash-brand .brand_div{margin-bottom:35px}
-#shopify-section-bodywash-brand .container{max-width:1100px}
-#shopify-section-bodywash-brand .slick-slider img{max-width:150px;width:100%}
+.home-brands-new-sections .brand_div{margin-bottom:35px}
+.home-brands-new-sections .container{max-width:1100px}
+.home-brands-new-sections .slick-slider img{max-width:150px;width:100%}
 .brand_div .tooltip{width:100%;padding:20px 30px 25px;margin-bottom:40px;background:#ebe0f0;max-width:300px;border-radius:10px;font-size:16px;font-weight:400}
 .brand_div .tooltip:after{content:"";position:absolute;bottom:-16px;left:50%;border-left:17px solid transparent;border-right:17px solid transparent;border-top:17px solid #EBE0F0;transform:translateX(-50%)}
 .featured-products .inner.product-item{background:#fff}
