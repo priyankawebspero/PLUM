@@ -5,12 +5,15 @@
 .home-slideshow-sections .slick-arrow.slick-next{right:15px!important}
 .home-featured-products-sections {padding-bottom: 30px;}
 .home-videos-sections {padding-top: 30px;}
-
 .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
 .homepage-video-section .row{margin:0}
 .homepage-video-section .col-sm-12{padding:0}
 .homepage-video-section button{border-radius:0!important}
 .homepage-video-section img{border-radius:0!important}
+.gl_custom_html_home {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
 
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 div#home-spotlight-slider-1620290641d371d9ab .slick-list{padding:0!important}
