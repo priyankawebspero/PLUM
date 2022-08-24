@@ -150,7 +150,15 @@ span.paddingR20.fs14:nth-child(4){padding-right:0}
 a.btn,.home-spotlight-slider a.btn,.content .btn{min-width:225px}
 .featured-products .inner.product-item{margin-left:0;margin-right:0}
 .featured-products .widget-product .slick-list.draggable{margin-left:0;margin-right:0}
+
+.homepage-video-section .video-popup .modal-dialog {
+    width: 95%;
+    max-width: 900px;
 }
+  
+}
+
+
 @media (min-width:1024px) {
 .featured-products .widget-product .slick-list.draggable{padding:0!important}
 div.home-spotlight-slider .col-12.col-md-6.col-lg-4.item:first-child{display:none}
