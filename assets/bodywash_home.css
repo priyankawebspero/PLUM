@@ -174,9 +174,7 @@ a.btn,#home-spotlight-slider-bodywash-CRG a.btn,.content .btn{min-width:225px}
 @media ( max-width: 1023px ) {
 div#home-spotlight-slider-bodywash-CRG .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 35px;font-size:37px;margin-top:-50px;color:#252525;font-display:swap}
 }
-@media only screen and (max-width: 1023px) and (min-width:768px) {
-div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-80px}
-}
+
 @media ( max-width: 991px ) {
 #shopify-section-bodywash-collection .col-12.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .featured-products button.btn.add-to-cart-btn.cartbutton{margin-bottom:0}
@@ -205,7 +203,6 @@ div#shopify-section-bodywash-featured div#featured-products-bodywash-featured{ma
 div#shopify-section-bodywash-collection{padding-bottom:50px}
 .featured-products .col-12.col-md-12{padding-top:30px;padding-bottom:80px}
 div.home-spotlight-slider-sections:after{display:none}
-div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-125px;position:relative;z-index:1}
 #home-spotlight-slider-bodywash-CRG .widget-title .box-title .title{font-size:50px}
 #shopify-section-bodywash-collection .spotlight-item .spotlight-inner h3.title{font-size:22px}
 #shopify-section-bodywash-brand .slick-dots li button{border:2px solid #d6006d}
@@ -269,7 +266,6 @@ div#featured-products-bodywash-new-products{margin-bottom:0!important}
 }
 div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
 #home-spotlight-slider-bodywash-CRG{background-color:#fad5df!important}
-div.home-spotlight-slider-sections{margin-top:-20px}
 div#bodywash-spotlight-2-bodywash-collection{padding-top:20px}
 @media (max-width:768px) {
 div.home-spotlight-slider-sections{margin-top:-27px}
