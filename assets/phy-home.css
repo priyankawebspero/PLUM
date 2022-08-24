@@ -57,7 +57,8 @@ div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-body if
 }
 div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-image.teaser_mobile {
     display: none;
-}div#shopify-section-phy-video .modal .modal-dialog .modal-content {
+}
+div#shopify-section-phy-video .modal .modal-dialog .modal-content {
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
