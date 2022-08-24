@@ -379,10 +379,10 @@ ul.slick-dots {
     bottom: 0;
     max-height: unset;
 }
-  .phy-videos-sections .phy-video-section {
-    margin-bottom: 0;
+ .phy-videos-sections .phy-video-section {
+    margin-bottom: 0 !important;
 }
-  .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks {
+  .phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks {
     padding: 0 10px;
 }
   .phy-collection-row .row.spotlight-5-blocks {
