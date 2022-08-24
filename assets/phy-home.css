@@ -419,7 +419,7 @@ ul.slick-dots {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-  .sub-page-banner-section .widget-title h3.box-title {
+  #phy-home .sub-page-banner-section .widget-title h3.box-title {
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -474,7 +474,7 @@ div#shopify-section-footer-phy .row.mobile {
     font-size: 30px;
     margin-bottom: 20px;
 }
-  .sub-page-banner-section .widget-title h3.box-title {
+  #phy-home .sub-page-banner-section .widget-title h3.box-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -582,7 +582,7 @@ body#phy-home main.main-content {
   #phy-home h3.box-title span.title {
     padding: 0 5px;
 }
-#phy-home h3.box-title, .sub-page-banner-section .widget-title h3.box-title {
+#phy-home h3.box-title, #phy-home .sub-page-banner-section .widget-title h3.box-title {
     font-size: 18px;
     line-height: 1;
 }
@@ -597,7 +597,7 @@ body#phy-home main.main-content {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-  .sub-page-banner-section .widget-title h3.box-title i {
+  #phy-home .sub-page-banner-section .widget-title h3.box-title i {
     padding-right: 10px;
     padding-left: 10px;
 }
