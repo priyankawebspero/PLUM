@@ -4,9 +4,11 @@
     {% if section.settings.spotlight_block_title != blank %}
     <div class="widget-title{% if section.settings.title_style == 'style_2' %} not-before{% endif %}{% unless section.settings.spotlight_block_des != blank %} no-des{% endunless %}">   
       <h3 class="box-title">
+       <i class="fa fa-star" aria-hidden="true"></i>
         <span class="title"> 
           {% include 'multilang' with section.settings.spotlight_block_title %}
         </span>
+       <i class="fa fa-star" aria-hidden="true"></i>
       </h3>
       {% if section.settings.spotlight_block_des != blank %}
       <p>
