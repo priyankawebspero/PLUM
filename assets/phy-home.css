@@ -223,7 +223,7 @@ div#shopify-section-footer-phy .row.mobile {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.sub-page-banner-section .widget-title h3.box-title {
+#phy-home .sub-page-banner-section .widget-title h3.box-title {
     font-size: 50px;
     margin-bottom: 50px;
     color: #fff;
@@ -234,7 +234,7 @@ div#shopify-section-footer-phy .row.mobile {
     letter-spacing: 1px;
     text-transform: lowercase;
 }
-.sub-page-banner-section .widget-title h3.box-title i {
+#phy-home .sub-page-banner-section .widget-title h3.box-title i {
     padding-right: 24px;
     color: #fff;
     padding-left: 24px;
