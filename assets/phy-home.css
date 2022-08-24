@@ -434,12 +434,12 @@ ul.slick-dots {
   div#shopify-section-footer-phy {
     padding: 30px 30px 20px;
 }
-  div#shopify-section-phy-video div#featured-video-phy-video .video-popup > button:before {
+  .phy-videos-sections .phy-video-section .video-popup > button:before {
     width: 100px;
 }
 }
 @media screen and (max-width: 991px) {
-div#shopify-section-phy-video .modal .modal-dialog {
+.phy-videos-sections .phy-video-section .modal .modal-dialog {
     width: 95%;
 }
 }
@@ -478,7 +478,7 @@ div#shopify-section-footer-phy .row.mobile {
     font-size: 30px;
     margin-bottom: 20px;
 }
-div#shopify-section-phy-video div#featured-video-phy-video .video-popup img {
+.phy-videos-sections .phy-video-section .video-popup img {
     height: 310px;
     object-fit: cover;
 }
@@ -490,7 +490,7 @@ div#shopify-section-phy-video div#featured-video-phy-video .video-popup img {
     padding-left: 15px;
     padding-bottom: 20px;
 }
-  div#shopify-section-phy-video div#featured-video-phy-video .video-popup > button:before {
+  .phy-videos-sections .phy-video-section .video-popup > button:before {
     width: 80px;
 }
   .phy-collection-row .phy-collection-row .img-box a.animate-scale .desktop_collection_image {
