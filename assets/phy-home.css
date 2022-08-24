@@ -9,7 +9,7 @@ i.fa {
 }
 
 
-div#shopify-section-phy-video .modal .modal-dialog {
+.phy-videos-sections .modal .modal-dialog {
     width: 100%;
     max-width: 960px;
     top: 50%;
@@ -23,7 +23,7 @@ div#shopify-section-phy-video .modal .modal-dialog {
     transform: translate(-50%,-50%) !important;
     -webkit-transform: translate(-50%,-50%) !important;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-header button.close {
+.phy-videos-sections .modal .modal-dialog .modal-content .modal-header button.close {
     position: absolute;
     right: 16px;
     top: 16px;
@@ -37,17 +37,17 @@ div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-header 
     z-index: 22;
     padding: 0;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-header {
+.phy-videos-sections .modal .modal-dialog .modal-content .modal-header {
     padding: 0;
   border: none;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-body {
+.phy-videos-sections .modal .modal-dialog .modal-content .modal-body {
     padding: 0;
     position: relative;
     padding-bottom: 66.66%;
     overflow: hidden;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-body iframe {
+.phy-videos-sections .modal .modal-dialog .modal-content .modal-body iframe {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -58,12 +58,12 @@ div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-body if
 div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-image.teaser_mobile {
     display: none;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content {
+.phy-videos-sections .modal .modal-dialog .modal-content {
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content {
+.phy-videos-sections .modal .modal-dialog .modal-content {
     border: none !important;
     box-shadow: none !important;
     background: transparent !important;
