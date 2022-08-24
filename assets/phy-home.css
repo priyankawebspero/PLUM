@@ -69,10 +69,10 @@ div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-imag
     width: 100%;
     height: 50.7vw;
 }
-div#shopify-section-banner-phy-slider img.slide-pc {
+.home-slideshow-sections img.slide-pc {
     height: auto;
 }
-div#shopify-section-banner-phy-slider .slick-dots li.slick-active button {
+.home-slideshow-sections .slick-dots li.slick-active button {
     background: #464748;
     border-color: transparent;
 }
@@ -444,10 +444,10 @@ div#shopify-section-footer-phy .row.mobile {
     display: block!important;
     margin-top: -2px;
 }
-  div#shopify-section-banner-phy-slider .slide-mobile {
+  .home-slideshow-sections .slide-mobile {
     width: 100%;
 }
-div#shopify-section-banner-phy-slider ul.slick-dots {
+.home-slideshow-sections ul.slick-dots {
     margin-top: -20px;
     z-index: 999;
     position: relative;
