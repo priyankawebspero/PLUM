@@ -218,12 +218,12 @@ div#shopify-section-footer-phy .row.mobile {
     font-size:25px;
 }
 /**Social media sec**/
-div#shopify-section-phy-social {
+.sub-page-banner-section {
     background: #055CA7;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-div#shopify-section-phy-social .widget-title h3.box-title {
+.sub-page-banner-section .widget-title h3.box-title {
     font-size: 50px;
     margin-bottom: 50px;
     color: #fff;
@@ -234,21 +234,21 @@ div#shopify-section-phy-social .widget-title h3.box-title {
     letter-spacing: 1px;
     text-transform: lowercase;
 }
-div#shopify-section-phy-social .widget-title h3.box-title i {
+.sub-page-banner-section .widget-title h3.box-title i {
     padding-right: 24px;
     color: #fff;
     padding-left: 24px;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
     max-width: 20%;
     flex: 0 0 20%;
     padding-left: 12px;
     padding-right: 12px;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 a {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 a {
     position: relative;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 a:hover:before {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 a:hover:before {
     content: " ";
     position: absolute;
     top: 0;
@@ -259,7 +259,7 @@ div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 a:
     opacity: .5;
     z-index: 1;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 a:hover:after {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 a:hover:after {
     content: " ";
     position: absolute;
     top: 0;
@@ -275,7 +275,7 @@ div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 a:
     background-size: 25px 25px;
     background-position: center center;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 img.banner-image.desktop-xs {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 img.banner-image.desktop-xs {
     width: 100%;
 }
 /**Video Section***/
@@ -415,11 +415,11 @@ ul.slick-dots {
     padding-bottom: 50px;
 }
  
-  div#shopify-section-phy-social {
+  .sub-page-banner-section {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-  div#shopify-section-phy-social .widget-title h3.box-title {
+  .sub-page-banner-section .widget-title h3.box-title {
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -482,7 +482,7 @@ div#shopify-section-footer-phy .row.mobile {
     font-size: 30px;
     margin-bottom: 20px;
 }
-  div#shopify-section-phy-social .widget-title h3.box-title {
+  .sub-page-banner-section .widget-title h3.box-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -519,13 +519,13 @@ div#shopify-section-phy-video div#featured-video-phy-video .video-popup img {
     padding: 0;
     margin: 0;
 }
-  div#shopify-section-phy-social .row{
+  .sub-page-banner-section .row{
     flex-wrap: nowrap;
     overflow-x: scroll;
     padding: 0;
     margin: 0;
 }
-div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 {
+.sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
     max-width: 9.5em;
     flex: 0 0 9.5em;
     padding-left: 2px;
@@ -571,7 +571,7 @@ div#shopify-section-footer-phy {
 body#phy-home main.main-content {
     padding-top: 136px;
 }
-  div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 {
+  .sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
     max-width: 6.5em;
     flex: 0 0 6.5em;
 }
@@ -590,7 +590,7 @@ body#phy-home main.main-content {
   #phy-home h3.box-title span.title {
     padding: 0 5px;
 }
-#phy-home h3.box-title, div#shopify-section-phy-social .widget-title h3.box-title {
+#phy-home h3.box-title, .sub-page-banner-section .widget-title h3.box-title {
     font-size: 18px;
     line-height: 1;
 }
@@ -601,11 +601,11 @@ body#phy-home main.main-content {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-  div#shopify-section-phy-social {
+  .sub-page-banner-section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-  div#shopify-section-phy-social .widget-title h3.box-title i {
+  .sub-page-banner-section .widget-title h3.box-title i {
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -626,7 +626,7 @@ body#phy-home main.main-content {
     font-size: 14px;
     padding-bottom: 15px;
 }
-  div#shopify-section-phy-social section.sub-page-banner-section .row .col-sm-2 {
+  .sub-page-banner-section section.sub-page-banner-section .row .col-sm-2 {
     padding-left: 2px;
     padding-right: 2px;
 }
@@ -638,7 +638,7 @@ body#phy-home main.main-content {
 }
 }
 @media screen and (max-width: 360px) {
-#phy-home h3.box-title, div#shopify-section-phy-social .widget-title h3.box-title {
+#phy-home h3.box-title, .sub-page-banner-section .widget-title h3.box-title {
     font-size: 15px;
 }
   
