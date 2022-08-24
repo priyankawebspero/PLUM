@@ -9,12 +9,15 @@
 .homepage-video-section .row{margin:0}
 .homepage-video-section .col-sm-12{padding:0}
 .homepage-video-section button{border-radius:0!important}
-.homepage-video-section img{border-radius:0!important}
+.homepage-video-section img{border-radius:0!important; width:100%;}
 .gl_custom_html_home {
     margin-top: 40px !important;
     margin-bottom: 70px !important;
 }
-
+.homepage-video-section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 .home-spotlight-slider-sections .home-spotlight-slider {
     padding-bottom: 30px !important;
     margin-bottom: 30px !important;
