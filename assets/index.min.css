@@ -150,7 +150,12 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
 }
-  
+ .featured-products img.slide-mobile {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+} 
 span.paddingR20.fs14:nth-child(4){padding-right:0}
 a.btn,.home-spotlight-slider a.btn,.content .btn{min-width:225px}
 .featured-products .inner.product-item{margin-left:0;margin-right:0}
@@ -215,6 +220,7 @@ a.btn,.content .btn,.home-spotlight-slider a.btn{font-size:18px;border-radius:7p
 .home-spotlight-slider{margin-bottom:40px!important;padding-bottom:30px!important}
 .home-brands-new-sections{padding-top:20px}
 .home-brands-new-sections{margin-bottom:10px}
+  
 }
 @media only screen and (max-width:575px) {
 .home-spotlight-slider p span{font-size:19px}
