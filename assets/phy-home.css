@@ -181,6 +181,10 @@ div#shopify-section-phy-collections-row .phy-collection-row .img-box h5.sub-titl
     font-family: 'Segoe Pro';
 }
 
+.phy-collection-boxes .spotlight-item {
+    position: relative;
+}
+
 /**World of phy****/
 
 
