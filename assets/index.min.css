@@ -22,6 +22,10 @@
 
 .home-spotlight-slider .row.spotlight-4-blocks{margin-top:-140px;position:relative;z-index:1}
 
+.home-spotlight-slider .widget-title {
+    margin-bottom: 20px !important;
+}
+
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 .home-spotlight-slider .slick-list{padding:0!important}
 .home-spotlight-slider .widget-title .box-title .title{font-family:serifabold;font-size:60px;background:none!important;font-display:swap}
