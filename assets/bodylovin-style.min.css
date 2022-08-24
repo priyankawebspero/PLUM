@@ -201,6 +201,9 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
 @media (min-width: 1200px) {
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-next.slick-arrow{right:-30px}
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-prev.slick-arrow{left:-30px}
+  .body-plumb-fea-outer .container {
+    max-width: 1200px;
+}
 }
 @media (min-width: 1310px) {
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-next.slick-arrow{right:-40px}
