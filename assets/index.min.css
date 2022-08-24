@@ -144,13 +144,12 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .featured-products h3.box-title{margin-bottom:0}
 .featured-products .inner.product-item{margin-left:7px;margin-right:7px}
 .featured-products .widget-product .slick-list.draggable{margin-left:-7px;margin-right:-7px}
-}
-@media ( max-width: 768px ) {
-
-.home-slideshow-sections ul.slick-dots {
+  .home-slideshow-sections ul.slick-dots {
     display: none !important;
 }
- .featured-products img.slide-mobile {
+}
+@media ( max-width: 768px ) {
+.featured-products img.slide-mobile {
     display: block !important;
     margin-left: auto;
     margin-right: auto;
