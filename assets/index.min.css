@@ -373,9 +373,6 @@ div#shopify-section-1646893558c77f7d42 .row .col-4.col-md-4.col-lg-4 {
     padding: 0 !important;
 }
 
-div#shopify-section-1652875393aa0bfb00 {
-    background: #d9c4e3;
-}
 
 div#shopify-section-1652875482ba2af2bb {
     background: #d9c4e3;
@@ -960,12 +957,6 @@ div#shopify-section-1656658339051e56b2 {
     padding-bottom: 20px;
     padding-left: 5px;
     padding-right: 5px;
-}
-}
-
-@media only screen and (min-width: 767px){
-div#shopify-section-1652875393aa0bfb00 {
-    margin-bottom: 30px;
 }
 }
 
