@@ -1,12 +1,12 @@
 {
   "sections": {
-    "builder-page": {
-      "type": "builder-page",
+    "build-a-box": {
+      "type": "build-a-box",
       "settings": {
       }
     }
   },
   "order": [
-    "builder-page"
+    "build-a-box"
   ]
 }
