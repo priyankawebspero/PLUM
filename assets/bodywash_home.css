@@ -1,4 +1,4 @@
-.home-spotlight-slider-sections .col-12.col-md-6.col-lg-4.item:first-child{display:none}
+
 .homepage-video-section .modal-header .close{background:#d6006d!important}
 #bodywash .jas-mb-style .header-links .customer-links .acc-links{color:#d6006d}
 #bodywash .wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{color:#d6006d!important}
@@ -156,7 +156,6 @@ a.btn,#home-spotlight-slider-bodywash-CRG a.btn,.content .btn{min-width:225px}
 }
 @media (min-width:1024px) {
 .featured-products .widget-product .slick-list.draggable{padding:0!important}
-.home-spotlight-slider-sections .col-12.col-md-6.col-lg-4.item:first-child{display:none}
 .home-spotlight-slider-sections .container{max-width:1100px}
 .home-spotlight-slider-sections .img-box-ratio{position:relative;overflow:hidden;padding-bottom:120.66%;border-radius:0}
 .home-spotlight-slider-sections .img-box-ratio img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;border-radius:0}
