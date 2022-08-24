@@ -202,6 +202,8 @@ div#shopify-section-footer-phy .row.mobile {
     padding-bottom: 50px;
 }
 
+.phy-collection-four-boxes .phy-collection-four-boxes{padding-top:0;padding-bottom:0;}
+
 .phy-collection-four-boxes .phy-collection-four-boxes .col-6 {
     padding-left: 5px;
     padding-right: 5px;
