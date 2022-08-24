@@ -28,12 +28,12 @@
               {% if block.settings.image_desk != blank %}
               <img data-src="{{ img_url }}"
                    src="https:{{ img_url }}" alt="{{ block.settings.image.alt | default: shop.name }}" itemprop="logo"
-                   class="lazyautosizes lazyload mobile_collection_image" data-sizes="auto">
+                   class="lazyautosizes lazyload desktop_collection_image" data-sizes="auto">
               {% endif %}
               {% if block.settings.image_mob != blank %}
               <img data-src="{{ img_url_1 }}"
                    src="https:{{ img_url_1 }}" alt="{{ block.settings.image.alt | default: shop.name }}" itemprop="logo"
-                   class="lazyautosizes lazyload desktop_collection_image" data-sizes="auto">
+                   class="lazyautosizes lazyload mobile_collection_image" data-sizes="auto">
               {% endif %}
               {% else %}
 
