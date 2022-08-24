@@ -186,7 +186,13 @@ div#shopify-section-phy-collections-row .phy-collection-row .img-box h5.sub-titl
     position: relative;
 }
 
-.phy-collection-boxes
+.phy-collection-boxes .phy-collection-boxes {
+    padding-top: 0;
+}
+
+.phy-collection-boxes {
+    padding-top: 40px;
+}
 
 /**World of phy****/
 
