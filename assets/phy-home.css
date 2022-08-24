@@ -360,7 +360,7 @@ section#slideshow-banner-phy-slider .slick-arrow {
     height: 14px;
     stroke-width: 4px;
 }
-div#shopify-section-phy-video .modal .modal-dialog .modal-content .modal-header button.close {
+.phy-videos-sections .modal .modal-dialog .modal-content .modal-header button.close {
     background: #464748;
 
 }
@@ -379,7 +379,7 @@ ul.slick-dots {
     bottom: 0;
     max-height: unset;
 }
-  div#shopify-section-phy-video div#featured-video-phy-video {
+  .phy-videos-sections .phy-video-section {
     margin-bottom: 0;
 }
   .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks {
