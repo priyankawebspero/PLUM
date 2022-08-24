@@ -119,6 +119,24 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
     transform: translate(0,40%);
 }
 
+.homepage-video-section .video-popup .modal-dialog .modal-body {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.66%;
+}
+
+.homepage-video-section .video-popup .modal-dialog .modal-body iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0 !important;
+}
+
+
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
 .home-brands-new-sections{padding-top:20px}
@@ -159,6 +177,9 @@ a.btn,.home-spotlight-slider a.btn,.content .btn{min-width:225px}
 .homepage-video-section .video-popup .modal-dialog {
     width: 95%;
     max-width: 900px;
+}
+.homepage-video-section .video-popup .modal-dialog .modal-header {
+    padding: 0;
 }
   
 }
