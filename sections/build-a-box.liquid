@@ -1,4 +1,6 @@
-{% if section.settings.banner_image != blank %}            
+{{ 'build-a-box.css' | asset_url | stylesheet_tag }} 
+<div class="page-tpl">
+  <div class="container-fluid">{% if section.settings.banner_image != blank %}            
   {%- assign img_url = section.settings.banner_image | img_url: 'master' -%}
   {%- assign img_url_mobile = section.settings.banner_image_mb | img_url: 'master' -%}
   <img data-src="{{ img_url }}"
@@ -90,11 +92,12 @@
   </div>
 </div>
 {% endif %}
-
+  </div>
+</div>
 
 {% schema %}
   {
-    "name": "Builder banner",
+    "name": "builder-page",
     "class": "builder-banner",
     "max_blocks": 10,
     "settings": [      
