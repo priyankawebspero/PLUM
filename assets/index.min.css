@@ -4,9 +4,13 @@
 .home-slideshow-sections .slick-arrow.slick-prev{left:15px!important}
 .home-slideshow-sections .slick-arrow.slick-next{right:15px!important}
 .home-featured-products-sections {padding-bottom: 30px;}
-.home-videos-sections {
-    padding-top: 30px;
-}
+.home-videos-sections {padding-top: 30px;}
+
+.homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
+.homepage-video-section .row{margin:0}
+.homepage-video-section .col-sm-12{padding:0}
+.homepage-video-section button{border-radius:0!important}
+.homepage-video-section img{border-radius:0!important}
 
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 div#home-spotlight-slider-1620290641d371d9ab .slick-list{padding:0!important}
@@ -34,12 +38,8 @@ div#shopify-section-1620290641d371d9ab:after{content:"";background:#EBE0F0;width
 .content .btn{color:#5e0d8b!important;background:#fff!important;font-size:20px;border-radius:7px;padding:15px;min-width:195px;font-weight:700}
 .content .btn:hover{background:#5e0d8b!important;color:#fff!important}
 #shopify-section-1574945356494 .featured-products{margin-bottom:0}
-#shopify-section-162019507759499575 .widget-title .box-title .title{background-color:inherit}
-#shopify-section-1575369352128 .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
-#shopify-section-1575369352128 .homepage-video-section .row{margin:0}
-#shopify-section-1575369352128 .homepage-video-section .col-sm-12{padding:0}
-#shopify-section-1575369352128 .homepage-video-section button{border-radius:0!important}
-#shopify-section-1575369352128 .homepage-video-section img{border-radius:0!important}
+.widget-title .box-title .title{background-color:inherit}
+
 div#shopify-section-162019507759499575{margin-bottom:0}
 div#shopify-section-1574945752414{margin-bottom:70px}
 div#shopify-section-1620284455a44ab566 .home-instagram{padding-top:40px}
