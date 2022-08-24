@@ -54,10 +54,10 @@ div.home-spotlight-slider-sections:after{content:"";background:#fad5df;width:100
 .featured-products{margin-bottom:0}
 .featured-products .widget-title .box-title .title{background-color:inherit}
 #shopify-section-bodywash-video .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
-#shopify-section-bodywash-video .homepage-video-section .row{margin:0}
-#shopify-section-bodywash-video .homepage-video-section .col-sm-12{padding:0}
-#shopify-section-bodywash-video .homepage-video-section button{border-radius:0!important;width:100%}
-#shopify-section-bodywash-video .homepage-video-section img{border-radius:0!important}
+.gl_custom_html_home .row{margin:0}
+.gl_custom_html_home .row .col-sm-12{padding:0}
+.gl_custom_html_home .row button{border-radius:0!important;width:100%}
+.gl_custom_html_home img{border-radius:0!important}
 div#shopify-section-162019507759499575{margin-bottom:0}
 .home-brands-new-sections{margin-bottom:70px}
 div#shopify-section-1620284455a44ab566 .home-instagram{padding-top:40px}
