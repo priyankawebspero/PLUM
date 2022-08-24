@@ -279,20 +279,20 @@ div#shopify-section-footer-phy .row.mobile {
     width: 100%;
 }
 /**Video Section***/
-div#shopify-section-phy-video div#featured-video-phy-video {
+.phy-videos-sections .phy-video-section {
     max-width: 100%;
     padding: 0;
 }
-div#shopify-section-phy-video div#featured-video-phy-video .video-popup > button {
+.phy-videos-sections .phy-video-section .video-popup > button {
     width: 100%;
     max-width: 100%;
 }
-div#shopify-section-phy-video div#featured-video-phy-video .video-popup img {
+.phy-videos-sections .phy-video-section .video-popup img {
     border-radius: 0 !important;
       width: 100%;
     max-width: 100%;
 }
-div#shopify-section-phy-video div#featured-video-phy-video .video-popup > button:before {
+.phy-videos-sections .phy-video-section .video-popup > button:before {
     position: absolute;
     content: "";
     background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/ezgif.com-gif-maker.png);
@@ -309,7 +309,7 @@ div#shopify-section-phy-video div#featured-video-phy-video .video-popup > button
     background-repeat: no-repeat;
     cursor: pointer;
 }
-div#shopify-section-phy-video div#featured-video-phy-video .video-popup .remodal .modal {
+.phy-videos-sections .phy-video-section .video-popup .remodal .modal {
     background: rgba(0,0,0,.65);
 }
 body#phy-home main.main-content {
