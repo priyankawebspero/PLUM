@@ -168,6 +168,11 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .homepage-video-section .video-popup .modal-dialog .modal-header {
     padding: 0;
 }
+
+.homepage-video-section .video-popup .modal-dialog .modal-header button.close {
+    z-index: 11;
+    /* border-radius: 0 6px 0px 0px; */
+}
   
 }
 @media ( max-width: 768px ) {
