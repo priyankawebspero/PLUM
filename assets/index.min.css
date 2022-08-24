@@ -3,6 +3,8 @@
 .home-slideshow-sections .home-slideshow .slick-arrow{width:36px;height:36px;opacity:1!important;background-color:#5e0d8b!important;color:#fff!important;padding-top:4px}
 .home-slideshow-sections .slick-arrow.slick-prev{left:15px!important}
 .home-slideshow-sections .slick-arrow.slick-next{right:15px!important}
+.home-featured-products-sections {padding-bottom: 30px;}
+
 
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 div#home-spotlight-slider-1620290641d371d9ab .slick-list{padding:0!important}
@@ -932,9 +934,7 @@ div#shopify-section-1656591340e9344a68 {
     padding-bottom: 10px;
     padding-top: 40px;
 }
-div#shopify-section-1652875239c74c95aa {
-    padding-bottom: 30px;
-}
+
 div#shopify-section-1656658339051e56b2 {
     padding-top: 50px;
     padding-bottom: 20px;
