@@ -26,6 +26,11 @@
     margin-bottom: 20px !important;
 }
 
+i.fa {
+    font-family: fontawesome!important;
+    font-weight: normal;
+}
+
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 .home-spotlight-slider .slick-list{padding:0!important}
 .home-spotlight-slider .widget-title .box-title .title{font-family:serifabold;font-size:60px;background:none!important;font-display:swap}
