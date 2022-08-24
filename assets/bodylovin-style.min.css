@@ -2,6 +2,7 @@
 @font-face{font-family:'Braxton';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/100/assets/Braxton.eot?#iefix) format("embedded-opentype"),url(//cdn.shopify.com/s/files/1/0390/2985/t/100/assets/Braxton.otf) format("opentype"),url(//cdn.shopify.com/s/files/1/0390/2985/t/100/assets/Braxton.woff) format("woff"),url(//cdn.shopify.com/s/files/1/0390/2985/t/100/assets/Braxton.ttf) format("truetype"),url(//cdn.shopify.com/s/files/1/0390/2985/t/100/assets/Braxton.svg#Braxton) format("svg");font-weight:400;font-style:normal}
 .fa {
     font-family: fontawesome!important;
+    font-weight: 400 !important;
 }
 .instafeed{margin:30px 0}
 #bodylovin_instagram .slick-slide{position:relative}
