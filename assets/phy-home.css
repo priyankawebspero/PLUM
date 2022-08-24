@@ -153,15 +153,15 @@ div#shopify-section-footer-phy .row.mobile {
 }
 
 /**self-care section***/
-.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
-.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
 }
-.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
     width: 100%;
 }
@@ -182,15 +182,15 @@ div#shopify-section-footer-phy .row.mobile {
     font-family: 'Segoe Pro';
 }
 
-.phy-collection-four-boxes .spotlight-item {
+.phy-collection-boxes .phy-collection-boxes .spotlight-item {
     position: relative;
 }
 
-.phy-collection-four-boxes .phy-collection-four-boxes {
+.phy-collection-boxes .phy-collection-boxes {
     padding-top: 0;
 }
 
-.phy-collection-four-boxes {
+.phy-collection-boxes {
     padding-top: 40px;
 }
 
