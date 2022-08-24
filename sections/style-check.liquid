@@ -2,10 +2,9 @@
 {{ 'phy-home.css' | asset_url | stylesheet_tag }}
 
 
-{% if template == 'bodywash' %}
-{{ 'bodywash_home.css' | asset_url | stylesheet_tag }}
+{% if page.url == '/pages/plum-bodylovin' %}
+     {{ 'bodywash_home.css' | asset_url | stylesheet_tag }}
 {% endif %}
-
 
 
 
