@@ -153,15 +153,15 @@ div#shopify-section-footer-phy .row.mobile {
 }
 
 /**self-care section***/
-.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
+.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
-.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
 }
-.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 .img-box img {
+.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 .img-box img {
     border-radius: 0;
     width: 100%;
 }
@@ -182,15 +182,15 @@ div#shopify-section-footer-phy .row.mobile {
     font-family: 'Segoe Pro';
 }
 
-.phy-collection-boxes .spotlight-item {
+.phy-collection-four-boxes .spotlight-item {
     position: relative;
 }
 
-.phy-collection-boxes .phy-collection-boxes {
+.phy-collection-four-boxes .phy-collection-four-boxes {
     padding-top: 0;
 }
 
-.phy-collection-boxes {
+.phy-collection-four-boxes {
     padding-top: 40px;
 }
 
@@ -202,12 +202,12 @@ div#shopify-section-footer-phy .row.mobile {
     padding-bottom: 50px;
 }
 
-.phy-collection-four-boxes .phy-collection-boxes .col-6 {
+.phy-collection-four-boxes .phy-collection-four-boxes .col-6 {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
-.phy-collection-four-boxes .phy-collection-boxes .col-6 .img-box img {
+.phy-collection-four-boxes .phy-collection-four-boxes .col-6 .img-box img {
     width: 100%;
     border-radius: 0;
     max-width: 100%;
@@ -380,13 +380,13 @@ ul.slick-dots {
   div#shopify-section-phy-video div#featured-video-phy-video {
     margin-bottom: 0;
 }
-  .phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks {
+  .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks {
     padding: 0 10px;
 }
   .phy-collection-row .row.spotlight-5-blocks {
     padding: 0 10px;
 }
-  .phy-collection-four-boxes .phy-collection-boxes .row.spotlight-4-blocks {
+  .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-4-blocks {
     padding: 0 10px;
 }
 }
@@ -468,7 +468,7 @@ div#shopify-section-footer-phy .row.mobile {
     z-index: 999;
     position: relative;
 }
-  .phy-collection-four-boxes .phy-collection-boxes .col-6 {
+  .phy-collection-four-boxes .phy-collection-four-boxes .col-6 {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 4px;
@@ -576,13 +576,13 @@ body#phy-home main.main-content {
 .phy-collection-row .container-padd60 {
     padding: 0;
 }
-.phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks, .phy-collection-row .row.spotlight-5-blocks, .phy-collection-four-boxes .phy-collection-boxes .row.spotlight-4-blocks {
+.phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks, .phy-collection-row .row.spotlight-5-blocks, .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-4-blocks {
     padding: 0;
 }
-  .phy-collection-boxes .phy-collection-boxes {
+  .phy-collection-four-boxes .phy-collection-four-boxes {
     padding: 0 50px;
 }
-  .phy-collection-four-boxes .phy-collection-boxes {
+  .phy-collection-four-boxes .phy-collection-four-boxes {
     padding: 0 50px;
 }
   #phy-home h3.box-title span.title {
@@ -615,7 +615,7 @@ body#phy-home main.main-content {
     padding-left: 10px;
     padding-bottom: 10px;
 }
-  .phy-collection-boxes .phy-collection-boxes .row.spotlight-6-blocks .col-4 {
+  .phy-collection-four-boxes .phy-collection-four-boxes .row.spotlight-6-blocks .col-4 {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 4px;
