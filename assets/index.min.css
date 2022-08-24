@@ -114,6 +114,11 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-brands-block2 button.slick-next.slick-arrow{background:#5c0f8b;color:#fff}
 .home-spotlight-slider .widget-title h3.box-title{padding:0;font-size:0;margin:0}
 
+.homepage-video-section .video-popup .modal.show .modal-dialog {
+    -webkit-transform: translate(0,40%);
+    transform: translate(0,40%);
+}
+
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
 .home-brands-new-sections{padding-top:20px}
