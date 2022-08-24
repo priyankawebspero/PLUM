@@ -119,6 +119,11 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 #shopify-section-16017992266ee66e02 .img-box a{display:block}
 .featured-products .jdgm-prev-badge__text{display:none}
 
+.home-brands-block2 button.slick-prev.slick-arrow.slick-disabled{background:#5c0f8b;color:#fff}
+.home-brands-block2 button.slick-prev.slick-arrow{background:#5c0f8b;color:#fff}
+.home-brands-block2 button.slick-next.slick-arrow{background:#5c0f8b;color:#fff}
+.home-spotlight-slider .widget-title h3.box-title{padding:0;font-size:0;margin:0}
+
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
 .home-brands-new-sections{padding-top:20px}
@@ -238,10 +243,7 @@ div#shopify-section-16017992266ee66e02{padding-bottom:20px}
 div#shopify-section-16017992266ee66e02 .widget-title .box-title .title{padding:0!important}
 div#shopify-section-16017992266ee66e02 h3.box-title{padding:0 15px}
 }
-.home-brands-block2 button.slick-prev.slick-arrow.slick-disabled{background:#5c0f8b;color:#fff}
-.home-brands-block2 button.slick-prev.slick-arrow{background:#5c0f8b;color:#fff}
-.home-brands-block2 button.slick-next.slick-arrow{background:#5c0f8b;color:#fff}
-.home-spotlight-slider .widget-title h3.box-title{padding:0;font-size:0;margin:0}
+
 @media only screen and (min-width:768px) {
 #shopify-section-16017992266ee66e02 .img-box .mobile_collection_image{display:none}
 }
