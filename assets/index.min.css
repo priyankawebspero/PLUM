@@ -15,6 +15,11 @@
     margin-bottom: 60px !important;
 }
 
+.home-spotlight-slider-sections .home-spotlight-slider {
+    padding-bottom: 30px !important;
+    margin-bottom: 30px !important;
+}
+
 .brand_div .tooltip{position:relative;text-align:center;margin:auto;color:#000;width:45%;opacity:1;padding:30px;margin-bottom:20px;background:#fde}
 div#home-spotlight-slider-1620290641d371d9ab .slick-list{padding:0!important}
 #home-spotlight-slider-1620290641d371d9ab .widget-title .box-title .title{font-family:serifabold;font-size:60px;background:none!important;font-display:swap}
@@ -24,6 +29,8 @@ div#shopify-section-1620290641d371d9ab{position:relative}
 #home-spotlight-slider-1620290641d371d9ab a.btn{background:#fff!important;border-radius:7px;padding:15px 35px;font-size:20px;color:#5e0d8b!important;min-width:inherit;font-weight:700}
 #home-spotlight-slider-1620290641d371d9ab a.btn:hover{color:#fff!important;background:#5e0d8b!important}
 #shopify-section-1620290641d371d9ab .row.spotlight-4-blocks{margin-top:-140px;position:relative;z-index:1}
+
+
 .home-spotlight-slider .spotlight-item{position:relative}
 .home-spotlight-slider .spotlight-inner{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);margin-top:50px}
 .home-spotlight-slider .spotlight-inner h3.title{color:#5c0f8b;font-family:candy_chicksregular;font-size:90px;font-weight:400;text-transform:lowercase;margin-bottom:10px;max-height:inherit;white-space:normal;text-overflow:inherit;font-display:swap}
