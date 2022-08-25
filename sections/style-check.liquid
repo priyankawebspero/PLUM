@@ -1,7 +1,7 @@
 
+{% if page.url == '/pages/phy' %}   
 {{ 'phy-home.css' | asset_url | stylesheet_tag }}
-
-
+{% endif %}
 {% if page.url == '/pages/plum-bodylovin' %}
      {{ 'bodywash_home.css' | asset_url | stylesheet_tag }}
 {% endif %}
