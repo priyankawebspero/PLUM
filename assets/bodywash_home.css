@@ -1,5 +1,15 @@
 
 .homepage-video-section .modal-header .close{background:#d6006d!important}
+.home-slideshow-sections .slick-arrow {
+    color: #666d6d;
+    border: 1px solid #666d6d;
+    background-color: #ffffff;
+    width: 36px;
+    height: 36px;
+    opacity: 1 !important;
+    padding-top: 4px;
+}
+
 #bodywash .jas-mb-style .header-links .customer-links .acc-links{color:#d6006d}
 #bodywash .wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{color:#d6006d!important}
 #bodywash .icon-nav.menu-open span.icon-line:after,#bodywash .icon-nav.menu-open span.icon-line:before{background:#d6006d!important}
