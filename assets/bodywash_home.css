@@ -296,10 +296,7 @@ section#slideshow-bodywash-slideshow ul.slick-dots{top:-30px!important;position:
 
 @media (min-width:769px) {
 
-  section#slideshow-bodywash-slideshow ul.slick-dots {
-    display: none !important;
-}
-  
+.home-slideshow ul.slick-dots{ display: none !important;} 
 }
 
 /*-----------product-layout-mobile-css------------------*/
