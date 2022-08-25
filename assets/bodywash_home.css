@@ -7,7 +7,20 @@
     width: 36px;
     height: 36px;
     opacity: 1 !important;
-    padding-top: 4px;
+    padding-top: 5px;
+}
+.home-slideshow-sections .slick-arrow svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 1px;
+}
+
+.home-slideshow-sections .slick-prev.slick-arrow {
+    left: 15px !important;
+}
+
+.home-slideshow-sections .slick-next.slick-arrow {
+    right: 15px !important;
 }
 
 #bodywash .jas-mb-style .header-links .customer-links .acc-links{color:#d6006d}
