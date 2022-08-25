@@ -275,13 +275,13 @@ div#shopify-section-bodywash-collection{padding-bottom:20px}
 .home-spotlight-slider-sections .bodywash-crg-block{margin-bottom:30px!important}
 @media only screen and (min-width:768px) {
 .bodywash-slideshow .slide-image .slide-mobile{display:none}
-#shopify-section-bodywash-collection .img-box .mobile_collection_image{display:none}
+.bodywash-custom-collection-sections .img-box img.mobile_collection_image{display:none}
 }
 @media only screen and (max-width:767px) {
 .home-spotlight-slider-sections .bodywash-crg-block .widget-title.no-des{margin-bottom:10px}
 .product-label .label.sale-label{font-size:14px;text-align:center;text-transform:lowercase;top:-1px}
 .product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:10px}
-#shopify-section-bodywash-collection .img-box .desktop_collection_image{display:none}
+.bodywash-custom-collection-sections .img-box .desktop_collection_image{display:none}
 .video-popup img.lazyautosizes.lazyloaded.desktop{display:none}
 .video-popup img.lazyautosizes.lazyloaded.mobile{display:block!important}
 div#featured-products-bodywash-new-products{margin-bottom:0!important}
