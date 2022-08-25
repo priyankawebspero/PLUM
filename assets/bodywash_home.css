@@ -288,7 +288,9 @@ div#featured-products-bodywash-new-products{margin-bottom:0!important}
 }
 div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
 #home-spotlight-slider-bodywash-CRG{background-color:#fad5df!important}
-div#bodywash-spotlight-2-bodywash-collection{padding-top:20px}
+.bodywash-custom-collection-sections .bodywash-spotlight-block {
+    padding-top: 20px;
+}
 @media (max-width:768px) {
 div.home-spotlight-slider-sections{margin-top:-27px}
 .home-slideshow ul.slick-dots{top:-30px!important;position:relative;margin-top:-10px!important}
