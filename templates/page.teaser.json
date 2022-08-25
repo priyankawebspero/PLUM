@@ -5,11 +5,6 @@
       "settings": {
       }
     },
-      "teaser-top-banner-new": {
-        "type": "teaser-top-banner-new",
-        "settings": {
-        }
-      },
         "counter-bottom": {
           "type": "counter-bottom",
           "settings": {
@@ -18,7 +13,6 @@
   },
   "order": [
     "style-check",
-    "teaser-top-banner-new",
     "counter-bottom"
   ]
 }
