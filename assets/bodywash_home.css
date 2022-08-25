@@ -31,6 +31,9 @@
     margin: 0;
     padding: 0;
 }
+.home-spotlight-slider-sections .home-spotlight-slider {
+    padding-bottom: 60px !important;
+}
 
 #bodywash .jas-mb-style .header-links .customer-links .acc-links{color:#d6006d}
 #bodywash .wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{color:#d6006d!important}
