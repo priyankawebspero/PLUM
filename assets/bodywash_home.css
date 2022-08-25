@@ -63,13 +63,13 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-140px;pos
 .featured-products .container-padd60{max-width:100%!important;width:100%;padding-left:15px!important;padding-right:15px!important}
 .featured-products .col-12.col-md-12{padding-top:30px;padding-bottom:50px}
 .widget-title .box-title{font-size:60px;font-family:'serifabold';letter-spacing:1px;font-display:swap}
-#shopify-section-bodywash-collection .home-spotlight-block .widget-title.no-des{margin-bottom:25px}
-#shopify-section-bodywash-collection{padding-bottom:30px}
-#shopify-section-bodywash-collection .spotlight-item{position:relative;margin-bottom:30px}
-#shopify-section-bodywash-collection .spotlight-item .spotlight-inner{position:absolute;bottom:0;right:0;left:0;text-align:center}
-#shopify-section-bodywash-collection .spotlight-item .spotlight-inner h3.title{font-size:30px}
-#shopify-section-bodywash-collection .spotlight-item .img-box img{width:100%}
-#shopify-section-bodywash-collection .widget-title.no-des{margin-bottom:30px!important}
+.bodywash-custom-collection-sections .home-spotlight-block .widget-title.no-des{margin-bottom:25px}
+.bodywash-custom-collection-sections{padding-bottom:30px}
+.bodywash-custom-collection-sections .spotlight-item{position:relative;margin-bottom:30px}
+.bodywash-custom-collection-sections .spotlight-item .spotlight-inner{position:absolute;bottom:0;right:0;left:0;text-align:center}
+.bodywash-custom-collection-sections .spotlight-item .spotlight-inner h3.title{font-size:30px}
+.bodywash-custom-collection-sections .spotlight-item .img-box img{width:100%}
+.bodywash-custom-collection-sections .widget-title.no-des{margin-bottom:30px!important}
 .widget-title .box-title{color:#d6006d}
 .content .btn{color:#d6006d!important;background:#fff!important;font-size:20px;border-radius:7px;padding:15px;min-width:195px;font-weight:700}
 .content .btn:hover,.content .btn:focus{background:#d6006d!important;color:#fff!important}
