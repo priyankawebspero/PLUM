@@ -73,7 +73,7 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-140px;pos
 .content .btn:hover,.content .btn:focus{background:#d6006d!important;color:#fff!important}
 .featured-products{margin-bottom:0}
 .featured-products .widget-title .box-title .title{background-color:inherit}
-#shopify-section-bodywash-video .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
+.gl_custom_html_home .bodylin_videos_inner{padding:0;width:100%!important;max-width:100%!important}
 .gl_custom_html_home .row{margin:0}
 .gl_custom_html_home .row .col-sm-12{padding:0}
 .gl_custom_html_home .row button{border-radius:0!important;width:100%}
@@ -130,7 +130,7 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 .products-grid .product-image .product-grid-image{min-height:inherit;padding-bottom:66.66%;overflow:hidden}
 .featured-products .slick-arrow.slick-prev{left:-10px}
 .featured-products .slick-arrow.slick-next{right:-10px}
-#shopify-section-bodywash-video .homepage-video-section{ padding-top: 30px; padding-bottom: 50px;}
+.gl_custom_html_home .bodylin_videos_inner{ padding-top: 30px; padding-bottom: 50px;}
 .featured-products .price-box{font-size:18px}
 .products-grid .product-image .product-grid-image:after{display:none!important}
 .home-spotlight-slider-sections .img-box-ratio{border-radius:15px!important;box-shadow:0 2px 7px #da2e6b42}
@@ -151,10 +151,10 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 @media (min-width:1024px) {
 #shopify-section-bodywash-brand .brand_div{margin-bottom:15px}
 .home-brands-new-sections{padding-top:20px}
-#shopify-section-bodywash-video .homepage-video-section img{width:100%;height:auto;object-fit:cover}
+.gl_custom_html_home .bodylin_videos_inner img{width:100%;height:auto;object-fit:cover}
 }
 @media only screen and (min-width: 1400px) {
-#shopify-section-bodywash-video .homepage-video-section img{width:100%;height:auto;object-fit:cover}
+.gl_custom_html_home .bodylin_videos_inner img{width:100%;height:auto;object-fit:cover}
 .featured-products .widget-product .slick-arrow.slick-prev{left:-40px!important}
 .featured-products .widget-product .slick-arrow.slick-next{right:-40px!important}
 .featured-products .widget-product{max-width:1270px;width:100%;max-width:1270px;margin:0 auto;padding:0 15px}
@@ -173,7 +173,7 @@ span.paddingR20.fs14:nth-child(4){padding-right:0}
 a.btn,#home-spotlight-slider-bodywash-CRG a.btn,.content .btn{min-width:225px}
 .featured-products .inner.product-item{margin-left:0;margin-right:0}
 .featured-products .widget-product .slick-list.draggable{margin-left:0;margin-right:0}
-#shopify-section-bodywash-video .homepage-video-section{ padding-top: 20px; padding-bottom: 20px;}
+.gl_custom_html_home .bodylin_videos_inner{ padding-top: 20px; padding-bottom: 20px;}
 }
 @media (min-width:1024px) {
 .featured-products .widget-product .slick-list.draggable{padding:0!important}
