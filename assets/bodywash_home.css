@@ -212,7 +212,7 @@ a.btn,#home-spotlight-slider-bodywash-CRG a.btn,.content .btn{min-width:225px}
 .home-spotlight-slider-sections a.btn, .content .btn, a.btn{margin-bottom:0!important}
 }
 @media ( max-width: 767px ) {
-div#shopify-section-bodywash-featured div#featured-products-bodywash-featured{margin-bottom:0}
+.featured-products{margin-bottom:0 !important;}
 .home-slideshow-sections .slide-image img.slide-pc{display:none}
 .featured-products ul.slick-dots{position:relative;bottom:-90px;left:-2.5%}
 .featured-products .widget-product{padding:0}
