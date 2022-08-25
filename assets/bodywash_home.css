@@ -15,6 +15,11 @@
     stroke-width: 1px;
 }
 
+.home-slideshow .item img {
+    min-height: inherit;
+}
+
+
 .home-slideshow-sections .slick-prev.slick-arrow {
     left: 15px !important;
 }
