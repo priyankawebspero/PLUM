@@ -288,14 +288,6 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
 @media (max-width:768px) {
 div.home-spotlight-slider-sections{margin-top:-27px}
 .home-slideshow ul.slick-dots{top:-30px!important;position:relative;margin-top:-10px!important}
-.home-slideshow .slick-dots li button {
-    border-color: #707979;
-    background: #707979;
-    border-width: 1.5px;}
-.home-slideshow .slick-dots li.slick-active button {
-    background: #505656;
-    border-color: #505656;
-}
 }
 
 @media (min-width:769px) {
