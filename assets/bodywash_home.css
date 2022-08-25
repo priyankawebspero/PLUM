@@ -29,9 +29,7 @@
 #bodywash span.or-text{color:#d6006d}
 #bodywash .wrapper_header_parallax ul.site-nav .menu-lv-1>a>span>b{color:#d6006d!important}
 #bodywash .header-top{background-color:#d6006d!important}
-#shopify-section-bodywash-slideshow{margin-top:-2px}
-#shopify-section-bodywash-slideshow .container-fluid{max-width:100%}
-#shopify-section-bodywash-slideshow .slide-image img{width:100%}
+.home-slideshow-sections .slide-image img{width:100%}
 body .featured-products .action a.btn{background:#d6006d!important}
 body .featured-products .action a.btn:hover,body .featured-products .action a.btn:focus{color:#fff!important;background:#f36b8f!important}
 .cart-icon .cartCount,.iwish-icon .iWishCount{background:#d6006d!important}
