@@ -196,9 +196,6 @@ a.btn,#home-spotlight-slider-bodywash-CRG a.btn,.content .btn{min-width:225px}
 .bodywash-spotlight-slider .spotlight-inner h3.title{font-size:70px}
 .bodywash-spotlight-slider .spotlight-inner a.shop_link{font-size:26px}
 }
-@media ( max-width: 1023px ) {
-div#home-spotlight-slider-bodywash-CRG .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 35px;font-size:37px;margin-top:-50px;color:#252525;font-display:swap}
-}
 
 @media ( max-width: 991px ) {
 .bodywash-custom-collection-sections .col-12.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
