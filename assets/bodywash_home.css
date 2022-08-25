@@ -34,6 +34,9 @@
 .home-spotlight-slider-sections .home-spotlight-slider {
     padding-bottom: 60px !important;
 }
+.home-spotlight-slider-sections a.btn {
+    margin-top: 30px;
+}
 
 #bodywash .jas-mb-style .header-links .customer-links .acc-links{color:#d6006d}
 #bodywash .wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{color:#d6006d!important}
