@@ -1937,6 +1937,11 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
  .inner.product-item .price-box:before {
     margin: 0 auto 3px;
 }
+
+.all-specialists-products-sections .container-padd60 {
+    padding-left: 2px;
+    padding-right: 2px;
+}
   
 }
 
