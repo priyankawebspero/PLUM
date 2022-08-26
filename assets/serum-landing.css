@@ -1084,7 +1084,7 @@ color: #fff!important;
     padding-right: 0;
 }
 
-#shopify-section-Serum-banner .slide.desktop img + img {
+.serum-first-new .slide.desktop img + img {
     padding: 0 15px;
 }
 
