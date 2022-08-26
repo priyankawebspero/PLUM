@@ -1666,8 +1666,9 @@ img.slide.aff_mobile {
 }
   
   .concern-flipbox-slider-sections .concern-products h3 .title {
-    padding: 0;
-    font-size: 35px;
+   padding: 0;
+    font-size: 30px;
+    letter-spacing: 0;
 }
   
  
