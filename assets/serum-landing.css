@@ -1691,8 +1691,9 @@ img.slide.aff_mobile {
 }
   
   .concern-flipbox-slider-sections h3 .title {
-    font-size: 35px;
+    font-size: 30px;
     padding: 0;
+     letter-spacing: 0;
 }
   
   .concern-flipbox-slider-sections .description {
@@ -1708,7 +1709,8 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
 }
   
   .featured-products h3.box-title span.title {
-    font-size: 35px;
+    font-size: 30px;
+    letter-spacing: 0;
 }
   
   div#featured-products-slider-product .col-12.col-md-12 {
