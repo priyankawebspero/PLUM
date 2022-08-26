@@ -652,10 +652,14 @@ a.pro_shop_feature {
     padding: 0!important;
 }
 
-
-    img.mobile {
-        display: none !important;
-    }
+.sub-page-banner-section img.banner-image.desktop-xs {
+    display: block !important;
+}
+.sub-page-banner-section img.banner-image.teaser_mobile {
+    display: none !important;
+}
+  
+img.mobile {display: none !important;}
   
   .sale-products .featured-products .widget-product .slick-arrow {
     top: -moz-calc(50% - 35px);
