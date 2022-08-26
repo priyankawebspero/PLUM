@@ -861,6 +861,11 @@ img.mobile {display: none !important;}
     font-size: 30px;
     letter-spacing: 0;
 }
+
+  .deal-of-the-day h3 {
+    font-size: 30px;
+    letter-spacing: 0;
+}
     
   }
 
@@ -903,7 +908,7 @@ img.mobile {display: none !important;}
 }
   
 .sale-products .text-center {
-    font-size: 35px;
+    font-size: 30px;
  
 }
   
