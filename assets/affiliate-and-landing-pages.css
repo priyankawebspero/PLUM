@@ -856,6 +856,11 @@ img.mobile {display: none !important;}
  #shopify-section-slide-section-pm .container-fluid .row.spotlight-2-blocks {
     padding-left: 0 !important;
 }
+
+  .sale-products .text-center {
+    font-size: 30px;
+    letter-spacing: 0;
+}
     
   }
 
