@@ -1052,7 +1052,7 @@ img.mobile {display: none !important;}
 }
    
 .sale-products .product-item .product-bottom, .deal-of-the-day .product-item .product-bottom {
-    padding: 5px 5px 15px;
+    padding: 5px 5px 0px 5px;
     justify-content: flex-start;
     min-height: 185px;
 }
