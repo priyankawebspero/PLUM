@@ -92,7 +92,9 @@
     font-family: serifabold;
     letter-spacing: 1px;
 }
-
+.featured-products .widget-title .box-title {
+    margin-bottom: 20px;
+}
 .concern-flipbox-slider-sections h3.box-title {
     margin-bottom: 15px;
 }
