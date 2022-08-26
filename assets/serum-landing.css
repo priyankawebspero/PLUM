@@ -1753,7 +1753,13 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
  .concern-flipbox-slider-sections .jdgm-widget.jdgm-widget .jdgm-rev-widg {
     margin: 45px 0 20px 0;
 }
-  
+.col-md-12.column-product .widget-product {
+    padding-bottom: 0;
+} 
+
+.all-specialists-products-sections {
+    padding: 25px 0 !important;
+}
   
 }
 
