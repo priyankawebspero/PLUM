@@ -73,7 +73,7 @@
     background: #f8f5ff;
 }
 
-#shopify-section-Serum-banner .col-12.col-md-12 {
+.serum-first-new .col-12.col-md-12 {
     padding: 0;
 }
 
@@ -1592,7 +1592,7 @@ div#shopify-section-slider-product .widget-product {
     display: block !important;
 }
   
-#shopify-section-Serum-banner .slide.mobile img.slide + img.slide {
+.serum-first-new .slide.mobile img.slide + img.slide {
     padding: 25px;
 }
   
