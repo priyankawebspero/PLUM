@@ -1715,12 +1715,12 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
     padding-right: 0;
 }
  
- #shopify-section-Serum-banner .slide.mobile img.slide {
+ .serum-first-new .slide.mobile img.slide {
     display: block;
     margin: 0 auto;
 }
 
-  #shopify-section-Serum-banner .slide.mobile img.slide:first-child {
+  .serum-first-new .slide.mobile img.slide:first-child {
     width: 100%;
 }
   
