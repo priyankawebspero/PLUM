@@ -248,7 +248,7 @@
     margin: 0 auto;
 }
 
-div#shopify-section-serum-concern-section img.slide {
+.serum_con_section img.slide {
     border-radius: 10px;
 }
 
@@ -1722,7 +1722,7 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
     width: 100%;
 }
   
-div#shopify-section-serum-concern-section img.slide {
+.serum_con_section img.slide {
     margin: 0 auto;
 }
   
@@ -1876,7 +1876,7 @@ div#shopify-section-serum-concern-section img.slide {
     vertical-align: middle;
 }
   
-div#shopify-section-serum-concern-section {
+.serum_con_section {
     padding: 45px 0 40px;
 }
   
