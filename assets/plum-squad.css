@@ -83,8 +83,8 @@ div#shopify-section-video-image-banner .video-section h3{font-size:40px}
 }
 @media only screen and (max-width:767px) {
 div#shopify-section-video-image-banner .video-section h3.desktop{display:none}
-#shopify-section-plum-squad-image-sec img.slide-desktop{display:none}
-#shopify-section-plum-squad-image-sec img.slide-mobile{display:block!important;width:100%}
+.taeser-banner img.slide-desktop{display:none}
+.taeser-banner img.slide-mobile{display:block!important;width:100%}
 div#shopify-section-video-image-banner{background:#f6eafe}
 div#shopify-section-video-image-banner .video-section h3.mobile{font-size:40px;margin-bottom:0;padding-top:0}
 .innner-wrppaer-squad .slide{margin-bottom:38px}
