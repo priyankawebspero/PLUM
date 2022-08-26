@@ -85,7 +85,7 @@
 }
 
 .concern-flipbox-slider-sections h3 .title {
-    background: none;
+    background: none !important;
     display: block;
     font-size: 50px;
     margin-bottom: 10px;
