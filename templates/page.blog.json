@@ -3,6 +3,26 @@
     "blog-page-tab-section": {
       "type": "blog-page-tab-section",
       "settings": {
+        "blog_post_title1": "What's new",
+        "blog_posts1": "whats-new",
+        "blog_post_title2": "Skincare",
+        "blog_posts2": "skincare",
+        "blog_post_title3": "",
+        "blog_posts3": "",
+        "blog_post_title4": "",
+        "blog_posts4": "",
+        "blog_post_title5": "",
+        "blog_posts5": "",
+        "blog_post_title6": "",
+        "blog_posts6": "",
+        "blog_post_title7": "",
+        "blog_posts7": "",
+        "blog_post_title8": "",
+        "blog_posts8": "",
+        "blog_post_title9": "",
+        "blog_posts9": "",
+        "blog_post_title10": "",
+        "blog_posts10": ""
       }
     }
   },
