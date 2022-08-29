@@ -739,6 +739,14 @@ div#solus-trending-plum {
     margin-bottom: 50px !important;
 }
 
+.home-spotlight-slider .widget-title {
+    margin-bottom: 10px !important;
+}
+
+.home-spotlight-slider .spotlight-item {
+    margin-bottom: 20px;
+}
+
 }
 
 
