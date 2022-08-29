@@ -134,7 +134,33 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
     border: none;
     border-radius: 0 !important;
 }
+div#solus-trending-plum .re_cols_product {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
+
+/*-17-08-2022-*/
+.video-popup button[data-toggle="modal"]:after {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0390/2985/files/video_icon_bg.png);
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.video-popup button[type="button"] {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*-17-08-2022-*/
 
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
@@ -896,32 +922,6 @@ a.btn, .content .btn{
 
 
 
-div#solus-trending-plum .re_cols_product {
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
-
-/*-17-08-2022-*/
-.video-popup button[data-toggle="modal"]:after {
-    content: "";
-    background: url(https://cdn.shopify.com/s/files/1/0390/2985/files/video_icon_bg.png);
-    width: 80px;
-    height: 80px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.video-popup button[type="button"] {
-    position: relative;
-    cursor: pointer;
-    width: 100%;
-}
-
-/*-17-08-2022-*/
 
 
