@@ -244,7 +244,7 @@ a.btn,.content .btn, .home-spotlight-slider-sections a.btn{font-size:18px;border
 .home-spotlight-slider-sections a.btn p span{font-size:19px}
 .home-spotlight-slider-sections .widget-title .box-title+p{margin-bottom:17px}
 /*.featured-products .widget-title .box-title{margin-bottom:-33px}*/
-.widget-title .box-title{font-size:35px}
+.widget-title .box-title{font-size:35px; letter-spacing: 0;}
 .bodywash-custom-collection-sections{padding-bottom:35px}
 .featured-products{overflow:hidden}
 .featured-products .container-padd60{padding-left:0!important;padding-right:0!important}
