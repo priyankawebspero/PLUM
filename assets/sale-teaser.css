@@ -1,6 +1,6 @@
 .form_sec{padding-top:30px}
 .form_sec h3{text-align:center;color:#000;font-weight:600}
-.counter_text>span.side_text{display:inline-block;vertical-align:middle;font-family:serifabold;font-size:36px;color:#fff;line-height:normal;margin-top:-40px}
+.counter_text>span.side_text{display:inline-block;vertical-align:middle;font-family:serifabold;font-size:36px;color:#fff;line-height:normal;margin-top:0px}
 .counter_text p + span.side_text{font-size:24px}
 .counter_text{display:flex;justify-content:center;padding:30px 0 10px;align-items:center;background:#5e0c8c}
 .counter_text p{display:flex;margin:0 80px}
