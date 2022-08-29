@@ -225,6 +225,10 @@ max-width:1270px
 }
 
 main.main-content {
-    padding-bottom: 0;
+    padding-bottom: 30px;
 }
+.video_blocks li.listing-vlog {
+    margin-bottom: 15px;
+}
+  
 }
