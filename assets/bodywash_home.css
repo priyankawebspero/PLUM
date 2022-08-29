@@ -314,6 +314,22 @@ div.home-spotlight-slider-sections{margin-top:-27px}
     -moz-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+.spotlight-3-blocks > .col-md-6:last-of-type {
+    -ms-flex:33.33%;
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding-right: 15px;
+}
+.spotlight-3-blocks > .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-right: 0;
+    padding: 0 15px;
+}
+  
 }
 
 @media (min-width:769px) {
