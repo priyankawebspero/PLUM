@@ -301,7 +301,6 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
 /*-19-08-2022-*/
 
 @media (max-width:768px) {
-div.home-spotlight-slider-sections{margin-top:-27px}
 .home-slideshow ul.slick-dots{top:-30px!important;position:relative;margin-top:-10px!important}
 }
 
