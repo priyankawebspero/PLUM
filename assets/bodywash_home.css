@@ -305,6 +305,17 @@ div.home-spotlight-slider-sections{margin-top:-27px}
 .home-slideshow ul.slick-dots{top:-30px!important;position:relative;margin-top:-10px!important}
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+.spotlight-3-blocks {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+}
+
 @media (min-width:769px) {
 
 .home-slideshow ul.slick-dots{ display: none !important;} 
