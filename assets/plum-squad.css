@@ -11,7 +11,7 @@ div#shopify-section-video-image-banner .video-section{width:100%;max-width:1270p
 div#shopify-section-video-image-banner .video-section h3.mobile{font-size:47px;margin-bottom:0;padding-top:10px}
 div#shopify-section-video-image-banner .video-section h3.mobile img{margin-left:15px}
 div#shopify-section-video-image-banner .video-section h3.desktop img{vertical-align:top;margin-left:15px}
-#taeser-plum-squad-image-sec .container-fluid{max-width:100%!important}
+.squad-main-banner .taeser-banner .container-fluid{max-width:100%!important}
 div#shopify-section-step-section{padding:60px 0;padding:60px 0;display:inline-block;width:100%;vertical-align:top}
 div#shopify-section-step-section .banner.desktop{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 div#shopify-section-step-section .banner.desktop .item>img{margin-bottom:15px}
