@@ -726,7 +726,9 @@ div#solus-trending-plum {
 .featured-products .col-12.col-md-12 {
     padding-bottom: 0;
 }
-
+.featured-products {
+    margin-bottom: 0 !important;
+}
 
 }
 
