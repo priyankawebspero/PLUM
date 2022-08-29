@@ -286,6 +286,20 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
 .bodywash-custom-collection-sections .bodywash-spotlight-block {
     padding-top: 20px;
 }
+
+/*-19-08-2022-*/
+.brand_div .tooltip {
+    width: 100%;
+    padding: 20px 30px 25px;
+    margin-bottom: 40px;
+    background: #ebe0f0;
+    max-width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*-19-08-2022-*/
+
 @media (max-width:768px) {
 div.home-spotlight-slider-sections{margin-top:-27px}
 .home-slideshow ul.slick-dots{top:-30px!important;position:relative;margin-top:-10px!important}
@@ -381,15 +395,4 @@ div.home-spotlight-slider-sections{margin-top:-27px}
 }
   
 }
-/*-19-08-2022-*/
-.brand_div .tooltip {
-    width: 100%;
-    padding: 20px 30px 25px;
-    margin-bottom: 40px;
-    background: #ebe0f0;
-    max-width: 300px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 400;
-}
-/*-19-08-2022-*/
+
