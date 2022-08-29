@@ -229,6 +229,9 @@ div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spo
 .featured-products .price-box{font-size:15px}
 .featured-products .jdgm-preview-badge .jdgm-star.jdgm-star{font-size:13px}
 .featured-products .jdgm-prev-badge__text{font-size:13px}
+  .home-featured-products-sections {
+    padding-bottom: 0;
+}
 }
 @media ( max-width: 767px ) {
 .homepage-video-section img.slide-pc{display:none !important;}
