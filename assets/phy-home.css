@@ -591,11 +591,11 @@ body#phy-home main.main-content {
 }
   .phy-collection-four-boxes {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
-  .sub-page-banner-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+ .sub-page-banner-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
   #phy-home .sub-page-banner-section .widget-title h3.box-title i {
     padding-right: 10px;
