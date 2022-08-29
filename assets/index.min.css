@@ -773,6 +773,10 @@ div#solus-trending-plum {
     margin-bottom: 20px;
 }
 
+.bodylin_videos_inner .widget-plum {
+    padding-top: 10px !important;
+}
+
 }
 
 
