@@ -162,10 +162,6 @@ div#solus-trending-plum .re_cols_product {
 
 /*-17-08-2022-*/
 
-.header-bottom div.header-mb .iwish-icon {
-    display: none;
-}
-
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
 .home-brands-new-sections{padding-top:20px}
