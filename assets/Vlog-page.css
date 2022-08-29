@@ -205,20 +205,7 @@ overflow:hidden
 .popup-tbl-pg-inner button.close {
 z-index:22
 }
-.faqs-page header.page-header h1.blog-headline {
-    margin-bottom: 25px;
-}
-.faqs-page header.page-header + p {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    color: #5e0c8c;
-}
-.faqs-page header.page-header + p a {
-    text-decoration: underline;
-    color: #5e0c8c;
-}
+
 
 @media only screen and (min-width: 1400px) {
 .page-tpl .container {
