@@ -111,6 +111,10 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     background: #8901bd!important;
 }
 
+.footer-social li a i {
+    line-height: 37px;
+}
+
 #bodylovin #shopify-section-bodylovin-featured-product .row .col-12.col-md-12{padding-bottom:0}
 #bodylovin .blog-item{position:relative}
 #bodylovin .article-img{position:relative}
