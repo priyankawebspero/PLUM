@@ -219,4 +219,8 @@ max-width:1270px
     margin-bottom: 10px;
     padding-top: 10px !important;
 }
+
+.breadcrumb {
+    padding: 10px 0 0;
+}
 }
