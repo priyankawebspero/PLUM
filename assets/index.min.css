@@ -870,7 +870,10 @@ a.btn, .content .btn{
 .template-index .featured-products .container-padd60 .col-12.col-md-12 {
     padding-top: 0;
 }
- 
+
+.home-videos-sections {
+    padding-top: 0;
+}
 
 }
 
