@@ -4,6 +4,10 @@
 .halo-product-content {
     overflow: inherit;
 }
+.template-product .jdgm-rev-widg.jdgm-rev-widg {
+    padding-bottom: 0;
+}
+
 .phy_product_outer{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:-moz-calc(100%);max-width:-webkit-calc(100%);max-width:-ms-calc(100%);max-width:100%}
 .phy_product_outer .product-upper-section.container-padd60{background:#f7f7f7!important;padding:50px !important;}
 .phy_product_outer .product-upper-section .product_top .col-md-7.product-shop{background:none}
