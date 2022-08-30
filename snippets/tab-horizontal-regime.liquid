@@ -193,18 +193,13 @@
 
   {% endif %}
 </div>
-
-
-<style>
-    
-@media (max-width: 767px){
-.product-template .tabs__product-page ul.list-tabs {
-    display: none !important;
-}
-  .product-template .tabs__product-page .wrapper-tab-content .tab-content .three-sections {
-    height: 100% !important;
-    overflow: visible !important;
-}
-}
-</style>
+ <style>
+        @media(max-width:767px){
+        .horizontal-tabs .wrapper-tab-content .tab-title:first-child + .tab-content {
+          display: none;
+        }
+          
+        }
+               
+        </style>
 
