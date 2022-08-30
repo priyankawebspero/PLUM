@@ -150,6 +150,8 @@ section.related-products-phy div#slider-related{padding:0 7%}
 .related-products-phy .slick-arrow.slick-prev{left:5px!important}
 section.related-products-phy div#slider-related{padding:0}
 section.related-products-phy div#slider-related .slick-list{padding:0 7%}
+.phy_product_outer #add-to-cart-form .iwishAddWrap a.iWishAdd.wishlist {
+    color: #ffffff!important; background: #464748!important;}
 }
 
 
