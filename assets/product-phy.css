@@ -155,6 +155,11 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
   .product-img-box .p-slider-n {
     display: none!important;
 }
+
+.phy_product_outer .product-shop .price_info_box .price-review.price-manufacturer1 {
+    border: none !important;
+}
+  
 }
 
 
