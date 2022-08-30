@@ -4305,6 +4305,22 @@ main.main-content {
 
 }
 
+@media (min-width: 768px) and (max-width: 1199px){
+  
+.header-bottom .header-mb {
+    padding: 0 !important;
+}
+
+main.main-content {
+    padding-top: 102px;
+}
+
+.header-mb-right.header-mb-items .search-mb.svg-mb .st-search-bar.hidden-mobile {
+    margin-top: -4px;
+}
+  
+}
+
 @media only screen and (max-width:767px){
   
   .header-bottom div.header-mb {
