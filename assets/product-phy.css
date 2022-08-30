@@ -137,7 +137,7 @@ section.related-products-phy div#slider-related{padding:0 7%}
 .phy_product_outer .tabs__product-page.horizontal-tabs.horizontal-tabs-center.container-padd60.fw-section .tab-content.active{background:none}
 .phy_product_outer .tabs__product-page .tab-links.active .icon-dropdown .fa:before{background:#294899}
 .phy_product_outer .product-template.product-template-default .tabs__product-page.horizontal-tabs.horizontal-tabs-center.container-padd60.fw-section.product-section-tab{padding:40px 0 0}
-.phy_product_outer .product-shop .groups-btn{background:#fff}
+.phy_product_outer .product-shop .groups-btn{background: #464748;padding: 6px 0 !important;}
 .phy_product_outer .product-upper-section.container-padd60{padding:20px 0 0 !important;}
 .phy_product_outer .product-shop #add-to-cart-form .section-3{margin-left:-15px;margin-right:-15px}
 .product-template.product-template-default .melt_goodness{background-color:#241f21}
