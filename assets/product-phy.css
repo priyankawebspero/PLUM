@@ -152,6 +152,9 @@ section.related-products-phy div#slider-related{padding:0}
 section.related-products-phy div#slider-related .slick-list{padding:0 7%}
 .phy_product_outer #add-to-cart-form .iwishAddWrap a.iWishAdd.wishlist {
     color: #ffffff!important; background: #464748!important;}
+  .product-img-box .p-slider-n {
+    display: none!important;
+}
 }
 
 
@@ -190,8 +193,6 @@ body .halo-product-content .pro-page .phy_product_outer .tabs__product-page .lis
 .product-template .tabs__product-page ul.list-tabs .tab-title .tab-links.active:after {
     background-color: #294899 !important;
 } 
-  
-}
 
 @media only screen and (max-width:450px)
 {
