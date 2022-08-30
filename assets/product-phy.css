@@ -171,6 +171,11 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
     padding-top: 0;
     padding-bottom: 10px;
 }
+
+.product-template .breadcrumb .arrow {
+    font-size: 16px;
+    line-height: 1;
+}
   
 }
 
