@@ -159,6 +159,18 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
 .phy_product_outer .product-shop .price_info_box .price-review.price-manufacturer1 {
     border: none !important;
 }
+
+.product-template-default .breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 15px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
   
 }
 
