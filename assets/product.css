@@ -1000,6 +1000,11 @@ div#shopify-section-product-template-review-regime .row {
     margin-left: 0;
     margin-right: 0;
 }
+
+.template-product .main-content .shopify-section.col-12.col-xl-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
   
 }
 
