@@ -137,6 +137,10 @@ section.related-products-phy{width:100%;max-width:1200px;margin-left:auto;margin
   .product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
     padding: 40px 13px 0;
 }
+.phy_product_outer .product-template.product-template-default .product.row.product-default .product_bottom.product-pge-tabs {
+    padding: 0 13px 30px;
+}
+  
 }
 @media (max-width: 767px) {
 .related-products-phy h2{font-size:34px;margin-top:-24px}
