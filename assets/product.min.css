@@ -365,6 +365,14 @@ div.how-to-use-steps-section{margin-bottom:0}
     padding-left: 0;
     padding-right: 0;
 }
+
+.product-img-box .slick-arrow.slick-next {
+    right: 8px;
+}
+
+.product-img-box .slick-arrow.slick-prev {
+    left: 8px;
+}
   
 }
 @media (max-width: 501px) {
