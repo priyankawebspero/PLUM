@@ -103,6 +103,10 @@
 .related-products-phy .slick-arrow.slick-prev{left:-40px!important}
 .related-products-phy .slick-arrow.slick-next{right:-40px!important}
 section.related-products-phy{width:100%;max-width:1270px;margin-left:auto;margin-right:auto;padding:0}
+.template-product .product-upper-section .product-photos {
+    padding-right: 15px;
+}
+  
 }
 @media (min-width: 768px) {
 .related-products-phy .slick-arrow,.related-products-phy .slick-arrow{top:-moz-calc(50% - 35px);top:-webkit-calc(50% - 35px);top:-ms-calc(50% - 35px);top:calc(50% - 35px)}
