@@ -3286,34 +3286,25 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     top: 2px;
 }
   
-.product-template .tabs__product-page .wrapper-tab-content .tab-content .three-sections {
+/*.product-template .tabs__product-page .wrapper-tab-content .tab-content .three-sections {
     height: 280px;
-    /* position: absolute; */
     overflow: hidden;
 }
+  .product-template .tabs__product-page .wrapper-tab-content .tab-content .how-to-use-steps-section {
+    height: 280px;
+    overflow: hidden;
+}
+ .product-template .tabs__product-page .wrapper-tab-content .tab-content .three-sections {
+    height: 280px;
+    overflow: hidden;
+}*/
   
   .product-template .tabs__product-page .wrapper-tab-content .tab-content.readmore .three-sections {
-    height: auto;
-   
-}
-  
-  .product-template .tabs__product-page .wrapper-tab-content .tab-content .three-sections {
-    height: 280px;
-    /* position: absolute; */
-    overflow: hidden;
-}
+    height: auto;}
   
   .product-template .tabs__product-page .wrapper-tab-content .tab-content.readmore .three-sections {
-    height: auto;
-   
-}
-  
- .product-template .tabs__product-page .wrapper-tab-content .tab-content .how-to-use-steps-section {
-    height: 280px;
-    /* position: absolute; */
-    overflow: hidden;
-}
-  
+    height: auto;}
+ 
 .product-template .tabs__product-page .wrapper-tab-content .tab-content.readmore .how-to-use-steps-section {
     height: auto;
    
