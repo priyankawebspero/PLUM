@@ -203,6 +203,11 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
     font-size: 16px;
     line-height: 1;
 }
+
+.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
+    padding: 40px 0px 0;
+    background: #fff !important;
+}
   
 }
 
