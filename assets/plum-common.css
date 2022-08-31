@@ -4345,6 +4345,14 @@ main.main-content {
 .product-template .tabs__product-page ul.list-tabs {
     display: none!important;
 }
+
+.product-related-outer .slick-arrow.slick-next {
+    right: 5px;
+}
+
+.product-related-outer .slick-arrow.slick-prev {
+    left: 5px;
+}
   
   }
 
