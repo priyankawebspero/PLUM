@@ -203,7 +203,7 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
    margin-left:0
 
   }
-  .pro-page .phy_product_outer .image__block_inner-blg {
+  .phy_product_outer  .pro-page .image__block_inner-blg {
     background: #fff;
 }
   
