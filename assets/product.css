@@ -828,6 +828,13 @@ div#slider-related .action a.btn:hover {
     margin-right: 0;
 }
 
+.product-template .breadcrumb {
+    background: #fff;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
 @media only screen and (min-width:1200px){
 
  .tabs__product-page .list-tabs li.tab-title a {
