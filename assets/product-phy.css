@@ -110,6 +110,10 @@ section.related-products-phy{width:100%;max-width:1270px;margin-left:auto;margin
 @media (max-width: 1399px) {
 section.related-products-phy{width:100%;max-width:1200px;margin-left:auto;margin-right:auto;padding:0}
 .phy_product_outer .product-template.product-template-default .tabs__product-page.horizontal-tabs.horizontal-tabs-center.container-padd60.fw-section.product-section-tab{background:#f7f7f7!important;max-width:1200px!important;padding:40px 50px 0;border-top:1px solid #707070}
+.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
+    max-width: 1200px!important;
+}
+
 }
 @media (max-width: 1199px) {
 .phy_product_outer .product_form_desciption{padding-left:1rem}
