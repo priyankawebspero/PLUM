@@ -361,6 +361,11 @@ div.how-to-use-steps-section{margin-bottom:0}
 .product-upper-section .product_top .col-md-7.product-shop .wrapper_div .row {
     margin: 0;
 }
+.template-product .product-upper-section .product-photos {
+    padding-left: 0;
+    padding-right: 0;
+}
+  
 }
 @media (max-width: 501px) {
 .mrp{font-size:20px}
