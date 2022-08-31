@@ -415,7 +415,16 @@ span.compare-price .money{font-size:14px!important}
 .product-img-box .p-slider-n .item{margin:0 5px}
 .quantity_varients.color .selector-wrapper label[for="product-selectors-option-0"] {display: block !important;}
 .quantity_varients.color label[for="product-selectors-option-0"] {display: none;}
-
+.product-template .breadcrumb {
+    background: #fff;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.product-template .breadcrumb a {
+    color: #511687;
+    font-weight: 600;
+}
 
 @media (max-width: 575px) {
   
