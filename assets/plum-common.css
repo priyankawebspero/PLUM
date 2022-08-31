@@ -4370,6 +4370,10 @@ main.main-content {
 }
 
 /*----------------template-article-css----------*/
+.product-shop .groups-btn .shopify-payment-button {
+    display: none;
+}
+
 .template-article main.main-content>.shopify-section.col-12.col-xl-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
