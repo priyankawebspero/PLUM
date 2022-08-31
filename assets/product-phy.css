@@ -87,7 +87,7 @@
 .phy_product_outer .product-shop #add-to-cart-form .section-3{margin-left:-3rem;margin-right:-50px}
 .product-template a.range-link{display:none!important}
 
-.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page.fw-section {
+.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
     background: #f7f7f7!important;
     max-width: 1270px!important;
     padding: 40px 50px 0;
