@@ -94,6 +94,11 @@
     border-top: 1px solid #707070;
 }
 
+.product-template .breadcrumb {
+    background: none;
+    padding-top: 0;
+}
+
 @media only screen and (min-width: 1400px) {
 .related-products-phy .slick-arrow.slick-prev{left:-40px!important}
 .related-products-phy .slick-arrow.slick-next{right:-40px!important}
