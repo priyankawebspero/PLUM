@@ -149,6 +149,10 @@ a.jdgm-paginate__page.jdgm-paginate__next-page,a.jdgm-paginate__page.jdgm-pagina
 #add-to-cart-form input#product-add-to-cart{line-height:20px}
 .product-shop .product_gift_bx .free-shipping-top ul li a{font-size:15px}
 .product-shop .free-shipping-top ul li i{position:absolute;left:9px;font-size:29px!important;top:0}
+.product-item .product-bottom div .btn {
+    margin-bottom: 0;
+}
+
 @media (min-width:768px) {
 .product-shop .groups-btn .iwishAddWrap a.wishlist i.fa,.product-shop .groups-btn .iwishAddWrap p{display:none}
 .product-shop .groups-btn{position:relative!important;bottom:0!important;z-index:1!important}
