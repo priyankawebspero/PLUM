@@ -4351,6 +4351,10 @@ main.main-content {
     margin-left: 0;
     margin-right: 0;
 }
+
+.product-template .tabs__product-page ul.list-tabs {
+    display: none!important;
+}
   
   }
 
@@ -4374,3 +4378,4 @@ main.main-content {
     padding-left: 0;
     padding-right: 0;
 }
+
