@@ -1013,6 +1013,14 @@ div#shopify-section-product-template-review-regime .row {
     padding-left: 0;
     padding-right: 0;
 }
+
+.product-img-box .slick-arrow.slick-next {
+    right: 8px;
+}
+
+.product-img-box .slick-arrow.slick-prev {
+    left: 8px;
+}
   
 }
 
