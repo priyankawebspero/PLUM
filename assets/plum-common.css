@@ -3231,11 +3231,10 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     padding-bottom: 0px;
 }
   
-  .product-template .tabs__product-page .wrapper-tab-content .tab-content .parduct-page__horizontal-description {
+  /*.product-template .tabs__product-page .wrapper-tab-content .tab-content .parduct-page__horizontal-description {
     height: 280px;
-    /* position: absolute; */
     overflow: hidden;
-}
+}*/
   
   .product-template .tabs__product-page .wrapper-tab-content .tab-content.readmore .parduct-page__horizontal-description {
     height: auto;
