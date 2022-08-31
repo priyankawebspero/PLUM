@@ -32,6 +32,9 @@ a.jdgm-paginate__page.jdgm-paginate__prev-page,a.jdgm-paginate__page.jdgm-pagina
 .related-products .product-item .action{max-width:100%}
 button.btn.add-to-cart-btn{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;width:auto;padding:10px 15px;font-size:18px;box-shadow:none!important;min-width:165px}
 button.btn.add-to-cart-btn{margin-bottom:0;}
+.product-item .product-bottom div .btn {
+    margin-bottom: 0;
+}
 button.btn.add-to-cart-btn:hover{color:#fff!important;background:#8901bd!important}
 .related-products .price-box{font-size:18px;font-weight:500;margin-bottom:10px;margin-top:10px}
 .product_bottom.product-pge-tabs{margin-bottom:0!important}
