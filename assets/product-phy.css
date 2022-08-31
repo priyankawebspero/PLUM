@@ -121,6 +121,9 @@ section.related-products-phy{width:100%;max-width:1200px;margin-left:auto;margin
 .phy_product_outer .product-template.product-template-default .tabs__product-page.horizontal-tabs.horizontal-tabs-center.container-padd60.fw-section.product-section-tab{padding:40px 28px 0}
 .phy_product_outer .product-template.product-template-default .product.row.product-default .product_bottom.product-pge-tabs{padding:0 28px 50px}
 .phy_product_outer .product-shop #add-to-cart-form .section-3{margin-left:-1rem;margin-right:-28px}
+.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
+    padding: 40px 28px 0;
+}
 }
 @media (max-width: 991px) {
 .phy_product_outer .col-md-5.product-photos{padding-bottom:0}
