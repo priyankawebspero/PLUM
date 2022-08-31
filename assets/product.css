@@ -834,6 +834,10 @@ div#slider-related .action a.btn:hover {
     font-size: 14px;
     padding-top: 10px;
 }
+.product-template .breadcrumb a {
+    color: #511687;
+    font-weight: 600;
+}
 
 @media only screen and (min-width:1200px){
 
