@@ -208,6 +208,10 @@ section.related-products-phy div#slider-related .slick-list{padding:0 7%}
     padding: 40px 0px 0;
     background: #fff !important;
 }
+
+.product-upper-section .product_top .col-md-7.product-shop .wrapper_div .row {
+    margin: 0 -15px;
+}
   
 }
 
