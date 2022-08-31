@@ -352,7 +352,11 @@ div.how-to-use-steps-section{margin-bottom:0}
 .parduct-page__horizontal-description .product-full-description ul li::before{color:#5e0d8b!important}
 .product-template.product-template-default .melt_goodness{min-height:220px!important;background-size:140%!important}
 .product-photos .product-label{top:0}
-.product-img-box .p-slider-n {display: none !important;}  
+.product-img-box .p-slider-n {display: none !important;}
+  .template-product .main-content .shopify-section.col-12.col-xl-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 }
 @media (max-width: 501px) {
 .mrp{font-size:20px}
