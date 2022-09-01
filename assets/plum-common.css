@@ -4381,3 +4381,8 @@ main.main-content {
     padding-right: 0;
 }
 
+.halo-blog-content.article-content .blog-detail .action-btn {
+    position: relative;
+    bottom: 0;
+}
+
