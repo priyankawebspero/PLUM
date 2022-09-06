@@ -376,6 +376,10 @@ div.how-to-use-steps-section{margin-bottom:0}
 .product-img-box .slick-arrow.slick-prev {
     left: 8px;
 }
+
+.template-product .main-content {
+    overflow: hidden;
+}
   
 }
 @media (max-width: 501px) {
