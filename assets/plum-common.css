@@ -3693,6 +3693,13 @@ li#dta-6942660034620 a.product-name::after, li#dta-6783600787516 a.product-name:
 }
 
 @media only screen and (min-width: 1200px) {
+
+  .header-bottom .header-mb .header-mb-middle.header-mb-items li.menu-lv-1>.sub-menu-mobile {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    left: 0;
+}
   
   .header-mb-middle nav.nav-bar .site-nav li.menu-lv-1 {
     margin: 0 6px;
