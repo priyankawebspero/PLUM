@@ -8,7 +8,11 @@
     {% when 'image-slide' %}
     <div class="sale_banner" id="section-{{block.id}}">
       <img class="desktop" src="{{ block.settings.top_banner_image_desktop | img_url: 'master' }}"  alt="{{block.settings.top_banner_image_desktop.alt}}">
+      {% if block.settings.top_banner_image_mobile != blank %}
       <img class="mobile" src="{{ block.settings.top_banner_image_mobile | img_url: 'master' }}"  alt="{{block.settings.top_banner_image_mobile.alt}}">
+        {% else %}
+      <img class="mobile" src="{{ block.settings.top_banner_image_desktop | img_url: 'master' }}"  alt="{{block.settings.top_banner_image_mobile.alt}}">
+        {% endif %}
     </div>
     {% when 'product-slide' %} 
     <div class="sale-products" id="section-{{block.id}}">
