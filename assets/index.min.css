@@ -75,6 +75,7 @@ i.fa {
 .home-brands-new-sections {
     padding-top: 0;
     margin-top: 50px;
+   margin-bottom: 50px;
 }
 a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:700}
 a.btn:hover{background:#9000c5;background-image:inherit!important}
