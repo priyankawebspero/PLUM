@@ -12,6 +12,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.home-slideshow-sections {
+    margin-bottom: 30px;
+}
+
 .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
 .homepage-video-section .row{margin:0}
 .homepage-video-section .col-sm-12{padding:0}
