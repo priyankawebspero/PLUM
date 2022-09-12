@@ -65,7 +65,10 @@ i.fa {
 .content .btn{color:#5e0d8b!important;background:#fff!important;font-size:20px;border-radius:7px;padding:15px;min-width:195px;font-weight:700}
 .content .btn:hover{background:#5e0d8b!important;color:#fff!important}
 .widget-title .box-title .title{background-color:inherit}
-.home-brands-new-sections{margin-bottom:70px}
+.home-brands-new-sections {
+    padding-top: 0;
+    margin-top: 50px;
+}
 a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:700}
 a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-brands-new-sections .brand_div{margin-bottom:35px}
@@ -98,7 +101,6 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .content .title{max-height:inherit!important;white-space:normal!important;text-overflow:inherit!important}
 .brands-block .slick-slide{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .featured-products button.btn.add-to-cart-btn.cartbutton{text-transform:lowercase!important}
-.home-brands-new-sections{padding-top:40px;margin-bottom:0}
 .template-index .featured-products a.product-title{display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;position:relative;max-height:42px;min-height:42px;margin-bottom:0;line-height:1.3;font-size:15px;padding-bottom:0}
 .widget-title .box-title{font-size:50px;margin-bottom:10px}
 .featured-products .widget-product{width:100%;max-width:1200px;margin:0 auto;padding:0 15px}
@@ -169,7 +171,6 @@ div#solus-trending-plum .re_cols_product {
 
 @media (min-width:1024px) {
 .home-brands-new-sections .brand_div{margin-bottom:15px}
-.home-brands-new-sections{padding-top:20px}
 }
 @media only screen and (min-width: 1400px) {
 .featured-products .widget-product .slick-arrow.slick-prev{left:-40px!important}
@@ -277,12 +278,9 @@ div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spo
 .home-spotlight-slider .widget-title .box-title .title{font-size:50px}
 .home-brands-new-sections .slick-dots li button{border:2px solid #7806ac}
 .row.brands-slider{padding-bottom:25px}
-.home-brands-new-sections{margin-bottom:30px}
 a.btn,.content .btn,.home-spotlight-slider a.btn{font-size:18px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:175px;font-weight:700}
 .home-spotlight-slider p span{font-size:22px}
 .home-spotlight-slider{margin-bottom:40px!important;padding-bottom:30px!important}
-.home-brands-new-sections{padding-top:20px}
-.home-brands-new-sections{margin-bottom:10px}
   
 }
 @media only screen and (max-width:575px) {
