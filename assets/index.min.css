@@ -743,6 +743,7 @@ div#solus-trending-plum {
 
  .featured-products .content .btn {
     margin-top: 12px;
+    margin-bottom: 0;
 }
 
 .home-spotlight-slider .widget-title {
