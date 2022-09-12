@@ -16,7 +16,7 @@
 .homepage-video-section img{border-radius:0!important; width:100%;}
 .gl_custom_html_home {
     margin-top: 30px !important;
-    margin-bottom: 50px !important;
+    margin-bottom: 30px !important;
 }
 .homepage-video-section {
     padding-left: 0 !important;
@@ -47,7 +47,10 @@ i.fa {
 .home-spotlight-slider .slick-list{padding:0!important}
 .home-spotlight-slider .widget-title .box-title .title{font-family:serifabold;font-size:60px;background:none!important;font-display:swap}
 .home-spotlight-slider-sections .widget-title h3.box-title{margin-bottom:15px;padding-top:40px;padding-bottom:20px}
-.home-spotlight-slider-sections{position:relative}
+.home-spotlight-slider-sections {
+    position: relative;
+    margin: 30px 0;
+}
 .home-spotlight-slider-sections p span{font-size:27px}
 .home-spotlight-slider-sections a.btn{background:#fff!important;border-radius:7px;padding:15px 35px;font-size:20px;color:#5e0d8b!important;min-width:inherit;font-weight:700}
 .home-spotlight-slider-sections a.btn:hover{color:#fff!important;background:#5e0d8b!important}
@@ -744,11 +747,6 @@ div#solus-trending-plum {
 
 .home-videos-sections .homepage-video-section {
     margin-bottom: 0 !important;
-}
-
-.gl_custom_html_home {
-    margin-top: 30px !important;
-    margin-bottom: 50px !important;
 }
 
 .home-spotlight-slider .widget-title {
