@@ -784,6 +784,10 @@ div#solus-trending-plum {
     margin: 0 0 30px 0 !important;
 }
 
+.template-index .featured-products .container-padd60 .col-12.col-md-12 {
+    padding-bottom: 0;
+}
+
 }
 
 
