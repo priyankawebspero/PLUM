@@ -580,6 +580,10 @@ div#solus-trending-plum {
 
 /*---solus-css-end-------*/
 
+.home-slideshow-sections .slick-slider img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 1400px){
 .re_cols_product .widget-product .slick-arrow.slick-prev {
     left: -40px!important;
