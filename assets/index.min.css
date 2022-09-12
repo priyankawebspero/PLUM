@@ -764,7 +764,7 @@ div#solus-trending-plum {
 @media only screen and (max-width:767px) and (min-width:576px){
   
 .template-index .featured-products .container-padd60 .col-12.col-md-12 {
-    padding: 20px 15px;
+    padding: 0px 15px;
 }
   
 }
