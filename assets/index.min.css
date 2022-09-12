@@ -780,6 +780,9 @@ div#solus-trending-plum {
 .home-slideshow-sections {
     margin-bottom: 25px;
 }
+  .featured-products {
+    margin: 0 0 30px 0 !important;
+}
 
 }
 
