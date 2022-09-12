@@ -4,7 +4,11 @@
 .home-slideshow-sections .slick-arrow.slick-prev{left:15px!important}
 .home-slideshow-sections .slick-arrow.slick-next{right:15px!important}
 .home-featured-products-sections {padding-bottom: 30px;}
-.home-videos-sections {padding-top: 30px;}
+.home-videos-sections {
+    padding-top: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .homepage-video-section{padding:0;width:100%!important;max-width:100%!important}
 .homepage-video-section .row{margin:0}
 .homepage-video-section .col-sm-12{padding:0}
@@ -20,7 +24,6 @@
 }
 .home-spotlight-slider-sections .home-spotlight-slider {
     padding-bottom: 30px !important;
-    margin-bottom: 30px !important;
 }
 
 .home-spotlight-slider .row.spotlight-4-blocks{margin-top:-140px;position:relative;z-index:1}
