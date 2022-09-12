@@ -246,12 +246,6 @@ div.home-spotlight-slider .col-12.col-md-6.col-lg-4.item:first-child{display:non
 .home-spotlight-slider .spotlight-inner h3.title{font-size:70px}
 .home-spotlight-slider .spotlight-inner a.shop_link{font-size:26px}
 }
-@media (max-width:1199px) and (min-width:768px) {
-.featured-products {
-    margin-bottom: 0 !important;
-}
-}
-
 
 @media ( max-width: 1023px ) {
 div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 35px;font-size:37px;margin-top:-50px;color:#252525;font-display:swap}
