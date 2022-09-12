@@ -763,6 +763,11 @@ div#solus-trending-plum {
     height: 50px;
 }
 
+.home-brands-new-sections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 }
 
 
@@ -851,9 +856,6 @@ div#solus-trending-plum {
 }
   
   
-/* .featured-products {
-    padding-bottom: 30px !important;
-} */
 .featured-products .widget-title h3 .title {
     padding-left: 10px;
 }
