@@ -489,7 +489,13 @@ span.compare-price .money{font-size:14px!important}
 
 /*----------------share-btn-product---------------*/
 
+span#mobile-share-button + i.fa {
+    display: none;
+}
+
 @media only screen and (min-width:768px){
+
+span#mobile-share-button{display:none;}
 
 .product-shop .share.icons span#share_now_btn {
     background: #D9C4E3;
