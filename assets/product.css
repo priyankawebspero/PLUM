@@ -1042,7 +1042,7 @@ div#shopify-section-product-template-review-regime .row {
 /*----------------share-btn-product---------------*/
 
 @media only screen and (min-width:768px){
-
+span#mobile-share-button{display:none;}
 .product-shop .share.icons span#share_now_btn {
     background: #D9C4E3;
     color: #5e0c8c;
