@@ -9,6 +9,7 @@
     {%- assign current_variant = product.selected_or_first_available_variant -%}
     {% assign variantCount = sca_product_variantCount %}
     <div class="product-upper-section container-padd60">
+    {% include 'breadcrumb' %}
       <div class="row product_top">
          <div class="col-md-5 product-photos {% if product.tags contains 'birthday20' %} birthday20{% endif %} {% if product.tags contains 'birthday40' %} birthday40{% endif %} {% if product.tags contains 'birthday50' %} birthday50{% endif %} {% if product.tags contains 'Plum 999' %} plum_999{% endif %}" data-more-view-product>
           <div class="product-img-box{% if section.settings.style_moreview == 'horizontal' %} horizontal-moreview{% elsif section.settings.style_moreview == 'left_vertical' %} left-vertical-moreview vertical-moreview{% else %} right-vertical-moreview vertical-moreview{% endif %}{% if settings.product_image_border%} grid-item-border{% endif %}">
