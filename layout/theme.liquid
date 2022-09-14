@@ -235,6 +235,29 @@
    </script>  
     
   {% include 'social-login' %}
+
+     {% if template contains 'product' %}
+      <!-- share button  -->
+    <span id='mobile-share-button'><i class="fa fa-share-alt" aria-hidden="true"></span>
+    <script type="text/javascript">
+    $('#mobile-share-button').on('click', () => {
+    console.log('touch');  
+    if (navigator.share) {
+    console.log('saddddddd');
+      navigator.share({
+          title: '{{ product.title }}',
+          url: '{{ canonical_url }}'
+        })
+        .then(() => console.log('Successful share'))
+        .catch((error) => console.log('Error sharing', error));
+    } else {
+      console.log('Share not supported on this browser, do it the old way.');
+    }
+    });
+    </script>
+   {% endif %}
+
+     
 </body>
 
 <script>    
