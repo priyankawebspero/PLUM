@@ -289,6 +289,9 @@
               {% endif %}           
               {% include 'iwish_v2' with 'iwishproduct' %}
               {% include 'wishlist-product' %}
+             <div class="share icons">
+                {% include 'share' %}
+            </div>
               {% if section.settings.enable_payment_button and current_variant.available %}
               {{ form | payment_button }}
               {% endif %}
