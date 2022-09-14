@@ -486,3 +486,261 @@ span.compare-price .money{font-size:14px!important}
 }
   
 }
+
+/*----------------share-btn-product---------------*/
+
+@media only screen and (min-width:768px){
+
+.product-shop .share.icons span#share_now_btn {
+    background: #D9C4E3;
+    color: #5e0c8c;
+    min-width: 52px;
+    min-height: 48px;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 48px;
+    margin-right: 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.product-shop .share.icons span#share_now_btn:hover{
+  background: #5e248c;
+    color: #fff;
+  
+}
+
+.product-shop .share.icons .share_toolbox {
+    position: relative;
+}
+
+.product-shop .share.icons .share_buttons {
+    position: absolute;
+    right: -50px;
+    background: #fff;
+    top: -80%;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    z-index: 11;
+	opacity: 0;
+    visibility: hidden;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons a {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons span.copy_btn {
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding: 5px;
+	 cursor: pointer;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons span.copy_btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e248c;
+    color: #fff;
+    padding: 6px;
+    border-radius: 27px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+	cursor: pointer;
+}
+
+.product-shop .share.icons .share_toolbox:hover .share_buttons {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons a:hover i {
+    background: #8901bd ;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons span.copy_btn:hover i{
+    background: #8901bd ;
+}
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text {
+    position: relative;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text span.cp {
+    position: absolute;
+    left: -160%;
+    background: #5e0c8c;
+    width: 65px;
+    top: -60%;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+  .product-shop .share.icons .share_toolbox .share_buttons .copied_text.show_cp span.cp{
+  opacity: 1;
+    visibility: visible;
+    
+  }
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text span.cp:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    left: 44%;
+    bottom: -3px;
+    transform: rotate(45deg);
+    background: #5e0c8c;
+    border: 1px solid #5e0c8c;
+    border-top: none;
+    border-left: none;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons a {
+    position: relative;
+}
+
+  
+.product-shop .share.icons .share_toolbox .share_buttons a.facebook:before {
+    content: "Share on Facebook";
+    font-size: 11px;
+    position: absolute;
+    top: -22px;
+    left: -35px;
+    background: #dbc3e4;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 3px;
+   opacity: 0; 
+    visibility: hidden;
+    width: 105px;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons a:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: -3px;
+    left: 45%;
+    background: #dbc3e4;
+    transform: rotate(45deg);
+  opacity:0;
+  visibility:hidden;
+}
+
+  .product-shop .share.icons .share_toolbox .share_buttons a.facebook:hover:before{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons a.facebook:hover:after{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons a.whatsapp:before {
+    content: "Share on Whatsapp";
+    font-size: 11px;
+    position: absolute;
+     top: -22px;
+    left: -35px;
+    background: #dbc3e4;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 3px;
+  opacity:0;
+  visibility:hidden;
+  width: 105px;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons a.whatsapp:hover:before{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons a.whatsapp:hover:after{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text:before {
+    content: "Copy the URL";
+    font-size: 11px;
+    position: absolute;
+    top: -20px;
+    left: -38px;
+    background: #dbc3e4;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 3px;
+    width: 75px;
+  opacity:0;
+  visibility:hidden;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: -1px;
+    left: -18%;
+    background: #dbc3e4;
+    transform: rotate(45deg);
+  opacity:0;
+  visibility:hidden;
+}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text:hover:before{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text:hover:after{opacity:1;visibility:visible;}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text.show_cp:before{
+  opacity:0;
+  visibility:hidden;}
+
+.product-shop .share.icons .share_toolbox .share_buttons .copied_text.show_cp:after{
+  opacity:0;
+  visibility:hidden;
+}
+  
+}
+
+@media only screen and (max-width:1050px) and (min-width:992px){
+.product-shop .share.icons .share_buttons {
+    right: -40px;
+}
+
+}
+
+@media only screen and (max-width:767px){
+
+.product-shop .share.icons {
+    display: none !important;
+}
+
+span#mobile-share-button {
+    position: fixed;
+    right: 0;
+    z-index: 9;
+    top: 240px;
+    width: 50px;
+    height: 45px;
+    background: #5c0f8b;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 7px 0 0 7px!important;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+  cursor: pointer;
+}
+
+.template-search span#mobile-share-button {
+    display: none;
+}
+
+}
+
+
+
+
