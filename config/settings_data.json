@@ -728,8 +728,8 @@
         ],
         "settings": {
           "display_header_top": true,
-          "top_message_text": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\">Get BodyLovin' Duo + Beauty Organizer worth Rs 1199 FREE on orders above Rs 1199\n <\/a>",
-          "top_message_text1": "<a href=\"https:\/\/plumgoodness.com\/pages\/track-your-order-2\">Click here to track your order <\/a>",
+          "top_message_text": "⚡limited period offer : FREE body wash on all orders",
+          "top_message_text1": "",
           "top_message_text2": "",
           "top_message_text3": "",
           "enable_timer": false,
