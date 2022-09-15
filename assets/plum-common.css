@@ -4281,6 +4281,11 @@ main.main-content {
     color: #5e0c8c;
 }
 
+.tracking_order .account_div {
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
 /*-----------header-css-updated-------------*/
 
 .header-bottom div.header-mb .iwish-icon {
