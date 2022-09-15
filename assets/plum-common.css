@@ -4281,6 +4281,13 @@ main.main-content {
     color: #5e0c8c;
 }
 
+/*-----------header-css-updated-------------*/
+
+.header-bottom div.header-mb .iwish-icon {
+    display: none;
+}
+
+
 
 @media only screen and (max-width:1400px) and (min-width:1200px){
 
