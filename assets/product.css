@@ -124,6 +124,11 @@ p.iWishLoginMsg a{color:#5e248c}
 .product-shop #product-variants .swatch .swatch-element.sold-out .soldout_swatch{transition:all .5s ease-in-out}
 .product-shop #product-variants .swatch .swatch-element.sold-out.active_rdo .soldout_swatch{padding-top:4px}
 .how-to-use-steps p{margin-bottom:7px!important}
+.template-product .main-content>.shopify-section.col-12.col-xl-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media only screen and (max-device-width: 480px) {
 .img-responsive{display:none}
 .img-responsive.mobile{display:block}
