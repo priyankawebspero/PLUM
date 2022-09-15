@@ -4245,8 +4245,8 @@ main.main-content {
 }
 
 .tracking_order a.tracking {
-    margin-top: 4px;
-    margin-left: 5px;
+    margin-top: 0;
+    margin-left: 10px;
 }
 
 .tracking_order {
