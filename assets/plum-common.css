@@ -4390,6 +4390,15 @@ main.main-content {
 .product-related-outer .slick-arrow.slick-prev {
     left: 5px;
 }
+
+.header-mb .header-mb-right .tracking_order a img {
+    width: 41px!important;
+}
+
+.tracking_order .account_div {
+    margin-right: 0;
+    margin-left: 2px;
+}
   
   }
 
