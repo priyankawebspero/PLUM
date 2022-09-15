@@ -127,7 +127,7 @@ p.iWishLoginMsg a{color:#5e248c}
 .template-product .main-content>.shopify-section.col-12.col-xl-12 {
     padding-left: 0;
     padding-right: 0;
-}
+}          
 
 @media only screen and (max-device-width: 480px) {
 .img-responsive{display:none}
