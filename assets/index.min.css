@@ -322,15 +322,11 @@ div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spo
 .product-label .label.sale-label{font-size:14px;text-align:center;text-transform:lowercase;top:-1px}
 .product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:10px}
 .home-slideshow-sections .home-slideshow .slick-dots,#shopify-section-1593430796829 .lookbook-slideshow .slick-dots{top:-30px;position:relative;margin-top:-10px!important}
+.product-label .label.sale-label{font-size:14px;text-align:center;text-transform:lowercase;top:-1px}
+.product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:10px}
 }
 .home-spotlight-slider-sections:after{display:none!important}
 .home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0!important}
-@media only screen and (max-width:767px) {
-.product-label .label.sale-label{font-size:14px;text-align:center;text-transform:lowercase;top:-1px}
-.product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:10px}
-  
-}
-
 
 /*-----------product_home_reduce_height-------*/
 
@@ -651,6 +647,20 @@ div#solus-trending-plum {
   
 .featured-products .widget-title + a.btn.desktop {
     display: none !important;
+}
+
+.featured-products {
+    margin: 50px 0 !important;
+}
+
+.home-videos-sections {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gl_custom_html_home {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
 }
 
 }
