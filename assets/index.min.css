@@ -790,7 +790,7 @@ div#solus-trending-plum {
 
 .gl_custom_html_home {
     margin-top: 30px !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 30px !important;
 }
 
 .home-videos-sections .homepage-video-section {
@@ -798,10 +798,10 @@ div#solus-trending-plum {
 }
 
 .home-slideshow-sections {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
-  .featured-products {
-    margin: 0 0 30px 0 !important;
+ .featured-products {
+    margin: 30px 0 30px 0 !important;
 }
 
 .template-index .featured-products .container-padd60 .col-12.col-md-12 {
