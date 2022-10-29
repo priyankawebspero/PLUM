@@ -206,7 +206,7 @@
         "title_style": "style_1",
         "show_slider_featured_collection": "makeup",
         "slider_featured_limit_all": 6,
-        "shop_now_button": "View More",
+        "shop_now_button": "view more",
         "link1": "shopify:\/\/collections\/makeup",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
@@ -214,17 +214,26 @@
         "margin_bottom": 0
       }
     },
-    "16607344139c06e896": {
-      "type": "video",
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
+      "type": "home-game-banner",
       "settings": {
-        "show_homepage_videos_section": true,
-        "video_title": "Rashmika recommends",
-        "description": "",
-        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
-        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
-        "video_link1": "sxCoJPealQI",
-        "read_more_button_name": "",
-        "read_more_button_link": "",
+        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
+        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
+        "banner-class": ""
+      }
+    },
+    "0fd8eb31-9fba-4705-9ea6-0d80f9301689": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "plum-bodylovin-all-in-stock",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "view more",
+        "link1": "",
+        "collection_results_per_row1": "5",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
         "margin_bottom": 0
@@ -298,6 +307,23 @@
         "margin_bottom": 0
       }
     },
+    "16607344139c06e896": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "show_homepage_videos_section": true,
+        "video_title": "Rashmika recommends",
+        "description": "",
+        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
+        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
+        "video_link1": "sxCoJPealQI",
+        "read_more_button_name": "",
+        "read_more_button_link": "",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "1658485170941c47bc": {
       "type": "home-brands",
       "blocks": {
@@ -355,9 +381,11 @@
     "c5183f7b-7b83-4a28-a10a-c3849d483b97",
     "1658485109ce9a8560",
     "1660732889a3929fc1",
-    "16607344139c06e896",
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa",
+    "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
     "165848513210ac1823",
     "1658490722f9e82fc3",
+    "16607344139c06e896",
     "1658485170941c47bc"
   ]
 }
