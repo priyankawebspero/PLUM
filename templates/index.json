@@ -169,18 +169,27 @@
         "auto_playvideo": true
       }
     },
+    "c5183f7b-7b83-4a28-a10a-c3849d483b97": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
+        "link": "",
+        "banner-class": "PLAY123"
+      }
+    },
     "1658485109ce9a8560": {
       "type": "home-featured-products",
       "settings": {
-        "image_1": "shopify:\/\/shop_images\/bestsellers_Category-hederbestsellers_Desktop_0a5f179b-e2c8-42d4-ab98-6d55cde10e4f.png",
-        "image_picker_mobile": "shopify:\/\/shop_images\/bestsellers_Category-heder_Mobile_b5e9191d-1382-49f7-a2dd-67ce53c472f9.png",
+        "image_1": "shopify:\/\/shop_images\/Heade_bestsellers_Desktop.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/Heade_bestsellers_Mob.png",
         "featured_products_title": "",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "bestsellers",
+        "show_slider_featured_collection": "single-products-offer",
         "slider_featured_limit_all": 6,
         "shop_now_button": "view more",
-        "link1": "https:\/\/plumgoodness.com\/collections\/bestsellers",
+        "link1": "shopify:\/\/collections\/single-products-offer",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
@@ -190,15 +199,15 @@
     "1660732889a3929fc1": {
       "type": "home-featured-products",
       "settings": {
-        "image_1": "shopify:\/\/shop_images\/new-launches_Category-heder_Desktop_V2_88eb8cfa-f9d0-476c-bdb4-e8443e1e4f69.png",
-        "image_picker_mobile": "shopify:\/\/shop_images\/new-launches_Category-heder_Mobile_9a79fefb-765c-4b9e-b272-a855023af03f.png",
+        "image_1": "shopify:\/\/shop_images\/Make-up_Desktop.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/Make-up_Mob.png",
         "featured_products_title": "",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "new-launches",
+        "show_slider_featured_collection": "makeup",
         "slider_featured_limit_all": 6,
         "shop_now_button": "View More",
-        "link1": "shopify:\/\/collections\/just-launched",
+        "link1": "shopify:\/\/collections\/makeup",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
@@ -343,6 +352,7 @@
   "order": [
     "home-list-collections",
     "1658484860c65081e1",
+    "c5183f7b-7b83-4a28-a10a-c3849d483b97",
     "1658485109ce9a8560",
     "1660732889a3929fc1",
     "16607344139c06e896",
