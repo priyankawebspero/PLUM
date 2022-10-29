@@ -119,12 +119,11 @@
         },
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/HP_Desktop_Matte-In-Heaven-Liquid-Lipstick_1920X500_1a650cee-4c95-4c93-9f0f-9441b95bd846.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/HP_Mobile_Matte-In-Heaven-Liquid-Lipstick_767X475_d0f99ac6-0eda-45d2-aa8b-7e4ebfd51f9f.jpg",
-            "link": "https:\/\/plumgoodness.com\/products\/matte-in-heaven-liquid-lipstick?variant=39846762872892",
+            "image_slide": "shopify:\/\/shop_images\/festive.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/CP_Gifting-combos_Diwali_Mob_455853e7-6dcb-4141-87f5-6c6cd84018da.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/festive-combos",
             "alignment": "left"
           }
         },
