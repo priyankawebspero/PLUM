@@ -91,9 +91,9 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Desk_HP_Banner_V4_fe8c3690-352f-4c96-96e7-5fa71baa7b9b.gif",
-            "image_slide_mb": "shopify:\/\/shop_images\/Mob_CP_Banner_V2_ae3eb12d-811d-4033-906b-e5514fa8ca2e.jpg",
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/HP-D_1.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/CP-M_2.jpg",
+            "link": "https:\/\/plumgoodness.com\/products\/color-affair-nail-polish-all-that-glitters-collection",
             "alignment": "left"
           }
         },
@@ -101,9 +101,9 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Onion_Range-Dektop_Banner_1920_x_500pxl_1.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/Onion_Range_Mobile_Banner_767_x_474pxl_copy.jpg",
-            "link": "",
+            "image_slide": "shopify:\/\/shop_images\/BAU-Offer_HP-Banner_02_3_3419b1a5-51c1-46a4-82f2-bc82cbb91255.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/BAU-Offer_HP-Banner_Mob_3.gif",
+            "link": "https:\/\/plumgoodness.com\/collections\/single-products-offer",
             "alignment": "left"
           }
         },
