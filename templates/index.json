@@ -132,9 +132,9 @@
           "disabled": true,
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Pimple-Care_HP-banner_1_724140ab-94bb-4ca4-9e12-5732ca27ec44.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/Pimple-Care_HP-Mobile-banner_1_0d7a2f79-c583-457b-9997-e01293f18eeb.jpg",
-            "link": "shopify:\/\/collections\/green-tea",
+            "image_slide": "shopify:\/\/shop_images\/HP-Banner_04Diwali_Desk.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP-Banner__04_Diwali_Mob.gif",
+            "link": "shopify:\/\/collections\/new-launches",
             "alignment": "left"
           }
         },
