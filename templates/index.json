@@ -109,12 +109,11 @@
         },
         "165848486091642f98-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/HP-Banner_Raksha-Bnadhan_Desktop_9c96509e-7cab-433a-8efe-3a1214891957.gif",
-            "image_slide_mb": "shopify:\/\/shop_images\/HP-Banner_Raksha-Bnadhan_Mobile_c6149edd-3de3-4600-9ba2-dcf3d574bfa5.gif",
-            "link": "https:\/\/plumgoodness.com\/collections\/festive-combos",
+            "image_slide": "shopify:\/\/shop_images\/CP-D.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/CP-M.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/makeup",
             "alignment": "left"
           }
         },
