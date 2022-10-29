@@ -239,6 +239,70 @@
         "margin_bottom": 0
       }
     },
+    "3db694fd-7636-4497-9460-50a299545216": {
+      "type": "collection-caraousel",
+      "blocks": {
+        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Pimple_Real-images_216X216_981511f6-894f-4322-b8c7-b6f2210ec149.png",
+            "title": "pimple",
+            "collection": "acne-treatment"
+          }
+        },
+        "42af8d86-d39e-4301-ad7d-2336ad526529": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dullness_Real-images_170X170_fa327b89-a9c1-45dc-a32c-a78a44822beb.png",
+            "title": "dull skin",
+            "collection": "dull-skin"
+          }
+        },
+        "8c1ada3a-111c-48ef-a960-197d07d05689": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dandruff_Real-images_170X170_918bbdcd-54bd-4316-a0cc-e7dd9c42cefc.png",
+            "title": "dandruff",
+            "collection": "dandruff"
+          }
+        },
+        "03f3cfb7-1933-4e43-8453-4f1da766c109": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dry-lips_Real-images_170X170_abc25453-4088-4763-9326-af0a66408a89.png",
+            "title": "dry lips",
+            "collection": "lip-balms"
+          }
+        },
+        "4c37f1fc-3ac7-4288-899e-1485e79ebd58": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Frizzy-Hair_Real-images_170X170_6781118a-4ef1-4cf2-ac8a-267c4437c421.png",
+            "title": "Frizzy hair",
+            "collection": "frizz"
+          }
+        },
+        "00c6b304-f23c-43ca-8114-37e053d09c62": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Hair-fall_Real-images_170X170_8bc90e8d-413f-421c-8719-c6d4badbc507.png",
+            "title": "hairfall",
+            "collection": "hairfall"
+          }
+        }
+      },
+      "block_order": [
+        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0",
+        "42af8d86-d39e-4301-ad7d-2336ad526529",
+        "8c1ada3a-111c-48ef-a960-197d07d05689",
+        "03f3cfb7-1933-4e43-8453-4f1da766c109",
+        "4c37f1fc-3ac7-4288-899e-1485e79ebd58",
+        "00c6b304-f23c-43ca-8114-37e053d09c62"
+      ],
+      "settings": {
+        "banner_heading": "#CAMPAIGNS"
+      }
+    },
     "165848513210ac1823": {
       "type": "bodylovin-custom-content",
       "settings": {
@@ -383,6 +447,7 @@
     "1660732889a3929fc1",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
+    "3db694fd-7636-4497-9460-50a299545216",
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
