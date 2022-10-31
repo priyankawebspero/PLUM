@@ -200,7 +200,7 @@ body{font-family: 'DIN Next Rounded LT Pro';font-weight:400;font-display:swap}
 .product-shop .groups-btn .iwishAddWrap a.wishlist:after{content:"ADD TO WISHLIST";font-size:15px}
 .site-footer .foot-title{letter-spacing:1px;font-weight:700}
 .site-footer .foot-link{color:#000}
-.page-header,.btn,.product-shop .shopify-payment-button .shopify-payment-button__button,.tabs__product-page .spr-container .spr-summary-actions-newreview,.addresses-page .btn-edit-delete a,.product-shop .product-title{font-family:'Segoe Pro';font-display:swap}
+.page-header,.btn,.product-shop .shopify-payment-button .shopify-payment-button__button,.tabs__product-page .spr-container .spr-summary-actions-newreview,.addresses-page .btn-edit-delete a,.product-shop .product-title{/*font-family:'Segoe Pro';*/  font-family: 'DIN Next Rounded LT Pro'; font-display:swap}
 .cartbutton{padding-bottom:9px}
 .icon-nav .icon-line:before,.icon-nav .icon-line:after,.icon-nav .icon-line{background-color:#511687;width:24px;height:2px}
 .wrapper_header_parallax .cart-icon{width:34px;padding-right:12px}
