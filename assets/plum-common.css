@@ -3792,17 +3792,15 @@ li#dta-6942660034620 a.product-name::after, li#dta-6783600787516 a.product-name:
   
   
 body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a span {
-    font-size: 20px!important;
-    font-family: Segoe Pro;
-    /*color: #000 !important;*/
+    font-size: 18px!important;
   font-weight: 600;
-  font-family: serifabold;
+  /* font-family: serifabold;*/
+  font-family: 'Varela Round';
 }
   
 body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a span {
     position: relative;
     display: block;
-    /* line-height: normal; */
 }
   
   body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a:hover span{
