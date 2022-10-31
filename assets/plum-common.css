@@ -19,6 +19,23 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'DIN Next Rounded LT Pro';
+    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/114/DINNextRoundedLTPro-Medium.woff2') format('woff2'),
+        url('//cdn.shopify.com/s/files/1/0390/2985/t/114/DINNextRoundedLTPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Next Rounded LT Pro';
+    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/114/DINNextRoundedLTPro-Regular.woff2') format('woff2'),
+        url('//cdn.shopify.com/s/files/1/0390/2985/t/114/DINNextRoundedLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 
