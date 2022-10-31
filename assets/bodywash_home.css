@@ -102,7 +102,7 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 .home-brands-new-sections .brand_div{margin-bottom:35px}
 .home-brands-new-sections .container{max-width:1100px}
 .home-brands-new-sections .slick-slider img{max-width:150px;width:100%}
-.brand_div .tooltip{width:100%;padding:20px 30px 25px;margin-bottom:40px;background:#ebe0f0;max-width:300px;border-radius:10px;font-size:16px;font-weight:400}
+.brand_div .tooltip{font-family: 'DIN Next Rounded LT Pro';width:100%;padding:20px 30px 25px;margin-bottom:40px;background:#ebe0f0;max-width:300px;border-radius:10px;font-size:16px;font-weight:300}
 .brand_div .tooltip:after{content:"";position:absolute;bottom:-16px;left:50%;border-left:17px solid transparent;border-right:17px solid transparent;border-top:17px solid #EBE0F0;transform:translateX(-50%)}
 .featured-products .inner.product-item{background:#fff}
 .featured-products .inner.product-item .product-item .product-bottom{padding:0 20px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;flex-direction:column}
