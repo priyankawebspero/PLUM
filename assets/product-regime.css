@@ -102,9 +102,10 @@ div#slider-related .action a.btn:hover {
 
 #shopify-section-product-template-review-regime h3.box-title {
     font-size: 50px;
-    font-family: serifabold;
+    font-family: 'DIN Next Rounded LT Pro';
     line-height: normal;
     color: #5b0f8b;
+  font-weight:bold;
 }
 
 
