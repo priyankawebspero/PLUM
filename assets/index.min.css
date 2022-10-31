@@ -262,7 +262,7 @@ div.home-spotlight-slider .col-12.col-md-6.col-lg-4.item:first-child{display:non
 }
 
 @media ( max-width: 1023px ) {
-div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 35px;font-size:37px;margin-top:-50px;color:#252525;font-display:swap}
+div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family: 'DIN Next Rounded LT Pro';font-weight:400;padding:0 35px;font-size:37px;margin-top:-50px;color:#252525;font-display:swap}
 }
 @media only screen and (max-width: 1023px) and (min-width:768px) {
 .home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-80px}
@@ -318,7 +318,7 @@ a.btn,.content .btn,.home-spotlight-slider a.btn{font-size:18px;border-radius:7p
 div.home-spotlight-slider .slick-list{padding:0 40px 0 0 !important}
 .home-spotlight-slider .slick-list .item.slick-slide{padding:0 5px}
 .home-spotlight-slider-sections .row{margin-left:-5px}
-div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 15px;font-size:30px;margin-top:-50px;color:#252525;font-display:swap}
+div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family: 'DIN Next Rounded LT Pro';font-weight:400;padding:0 15px;font-size:30px;margin-top:-50px;color:#252525;font-display:swap}
 .featured-products button.btn.add-to-cart-btn.cartbutton{max-width:90%}
 .home-spotlight-slider .spotlight-inner{margin-top:37px}
 .home-spotlight-slider-sections .spotlight-item .img-box img{min-height:275px}
