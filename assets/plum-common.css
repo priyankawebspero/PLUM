@@ -379,6 +379,10 @@ header.page-header h1{text-transform:lowercase}
 .empties_good .video-and-tab-sec{padding-top:10px}
 .empties_good .video-and-tab-sec h3{font-weight:500!important;padding-bottom:10px}
 .empties_good .empties-tab-section ul.tabs li span:first-child{font-weight:500;font-size:24px}
+.article-template .blog-detail h1.article-title {
+    font-family: 'DIN Next Rounded LT Pro' !important;
+}
+
 @media only screen and (min-width:501px) {
 .header-mb-left.header-mb-items{width:auto!important}
 .hamburger-icon.svg-mb{width:auto}
