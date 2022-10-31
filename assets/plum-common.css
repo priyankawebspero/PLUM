@@ -630,7 +630,7 @@ main.main-content{padding-top:116px;}
 .home-slideshow .container-fluid{max-width:100%!important;width:100%!important}
 div#dropdown-cart{z-index:99999999!important}
 .translate-overlay .header-mb-right.header-mb-items{pointer-events:none}
-.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-family:serifabold;font-size:18px;color:#511687!important;text-transform:lowercase;font-display:swap}
+.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-family: 'DIN Next Rounded LT Pro';font-weight: 600;font-size:18px;color:#511687!important;text-transform:lowercase;font-display:swap}
 body .footer-bottom.container{width:100%!important;max-width:100%!important}
 header.site-header.header-parallax.stickyHeader{background:#fff}
 .body-full .container,.container-padd60{max-width:1270px;padding:0 15px}
