@@ -65,7 +65,7 @@ i.fa {
     margin: 30px 0;
 }
 .home-spotlight-slider-sections p span{font-size:27px}
-.home-spotlight-slider-sections a.btn{background:#fff!important;border-radius:7px;padding:15px 35px;font-size:20px;color:#5e0d8b!important;min-width:inherit;font-weight:700}
+.home-spotlight-slider-sections a.btn{background:#fff!important;border-radius:7px;padding:15px 35px;font-size:20px;color:#5e0d8b!important;min-width:inherit;font-weight:500}
 .home-spotlight-slider-sections a.btn:hover{color:#fff!important;background:#5e0d8b!important}
 .home-spotlight-slider .spotlight-item{position:relative}
 .home-spotlight-slider .spotlight-inner{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);margin-top:50px}
@@ -83,7 +83,7 @@ i.fa {
     margin-top: 50px;
    margin-bottom: 50px;
 }
-a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:700}
+a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:500}
 a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-brands-new-sections .brand_div{margin-bottom:35px}
 .home-brands-new-sections .container{max-width:1100px}
@@ -294,7 +294,7 @@ div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spo
 .home-spotlight-slider .widget-title .box-title .title{font-size:50px}
 .home-brands-new-sections .slick-dots li button{border:2px solid #7806ac}
 .row.brands-slider{padding-bottom:25px}
-a.btn,.content .btn,.home-spotlight-slider a.btn{font-size:18px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:175px;font-weight:700}
+a.btn,.content .btn,.home-spotlight-slider a.btn{font-size:18px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:175px;font-weight:500}
 .home-spotlight-slider p span{font-size:22px}
 .home-spotlight-slider{margin-bottom:40px!important;padding-bottom:30px!important}
   
