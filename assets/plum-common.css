@@ -859,7 +859,7 @@ body .search-div-on-error .search-bar .input-group-field{border-radius:5px}
 body .error_page .content-infos a.btn{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;min-width:inherit;font-weight:500;min-height:inherit;width:auto;box-shadow:none;margin-top:0;max-width:300px;width:100%;margin-left:auto;margin-right:auto}
 body .error_page .content-infos a.btn:hover{color:#fff!important;background:#8901bd!important}
 .cart-template .cart-check{border-radius:0;font-weight:700;margin-bottom:30px}
-.cart-check{font-weight:600;padding:15px 20px;border-radius:6px;margin-top:20px;margin-bottom:20px;text-align:center;font-size:15px;font-weight:600;font-family:'Segoe Pro';color:#5e0c8c;border:1px solid #5e0c8c;font-weight:bold}
+.cart-check{font-weight:600;padding:15px 20px;border-radius:6px;margin-top:20px;margin-bottom:20px;text-align:center;font-size:15px;font-weight:500;font-family:'Segoe Pro';color:#5e0c8c;border:1px solid #5e0c8c;font-weight:bold}
 .grid-item .product-item,.st-products .product-item{position:relative;overflow:hidden}
 .header-search__results-wrapper .product-vendor{display:none}
 .product_form_desciption span.span_taxes{display:block;font-size:15px}
