@@ -181,6 +181,14 @@ div#solus-trending-plum .re_cols_product {
     width: 100%;
 }
 
+.home-game-banner-section img.banner-image {
+    margin: auto;
+}
+
+.home-game-banner-section {
+    padding: 0 15px;
+}
+
 /*-17-08-2022-*/
 
 @media (min-width:1024px) {
