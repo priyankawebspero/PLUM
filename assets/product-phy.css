@@ -58,7 +58,7 @@
 .template-product #simpAskQuestion .product-faq-sec{background:none}
 #simpAskQuestion .product-faq-sec,#simpAskQuestion .product-faq-sec .simp-ask-question-header{background:none}
 .phy_product_outer .product-related-outer{margin-top:90px}
-.related-products-phy h2{text-align:center;font-size:50px;font-family:serifabold;font-display:swap;line-height:normal;color:#294899;margin-top:-36px}
+.related-products-phy h2{text-align:center;font-size:50px;font-weight:bold;font-display:swap;line-height:normal;color:#294899;margin-top:-36px}
 .related-products-phy .btn{background:#464748!important}
 .related-products-phy .btn:hover,.related-products-phy .btn:focus{background:#2c2c2c!important}
 .related-products-phy button.btn.add-to-cart-btn:hover{color:#fff!important;background:#2c2c2c!important}
