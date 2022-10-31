@@ -28,7 +28,7 @@ p.manufact-add{text-align:end;width:55%;font-size:14px}
 main.main-content.sticky_body{padding-top:0}
 .product-shop .product_gift_bx .free-shipping-top ul li a img{float:left}
 #judgeme_product_reviews .jdgm-paginate{margin-bottom:20px}
-a.jdgm-paginate__page.jdgm-paginate__prev-page,a.jdgm-paginate__page.jdgm-paginate__next-page{display:inline-flex;padding:9px 30px 10px;justify-content:center;align-items:center;background:#5e0d8b;color:#fff;font-family:'Segoe Pro';font-size:17px;font-weight:700;text-transform:lowercase;margin:0 5px;border-radius:6px;font-display:swap}
+a.jdgm-paginate__page.jdgm-paginate__prev-page,a.jdgm-paginate__page.jdgm-paginate__next-page{display:inline-flex;padding:9px 30px 10px;justify-content:center;align-items:center;background:#5e0d8b;color:#fff;font-family: 'DIN Next Rounded LT Pro';font-size:17px;font-weight:700;text-transform:lowercase;margin:0 5px;border-radius:6px;font-display:swap}
 .related-products .product-item .action{max-width:100%}
 button.btn.add-to-cart-btn{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;width:auto;padding:10px 15px;font-size:18px;box-shadow:none!important;min-width:165px}
 button.btn.add-to-cart-btn:hover{color:#fff!important;background:#8901bd!important}
@@ -73,21 +73,21 @@ button.btn.add-to-cart-btn:hover{color:#fff!important;background:#8901bd!importa
 .product-related-outer .products-grid .product-image .product-grid-image:after{display:none!important}
 .how-to-use-steps-section .how-to-use-steps .col-sm-6{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .product-faq-sec .simpAskQuestionForm-btnOpen.btn{color:#fff;border-color:transparent;border-radius:7px;box-shadow:none;border:none;padding:8px 15px;border:none;background:#5e0d8b!important;font-weight:700;text-transform:lowercase}
-#simpAskQuestion #askQuestion input.button,#simpAskQuestion .simpAskSubmitForm .simpAskForm-cancel-btn.button{background:#5e0d8b!important;font-weight:700;font-size:16px!important;font-family:'Segoe Pro';font-display:swap}
+#simpAskQuestion #askQuestion input.button,#simpAskQuestion .simpAskSubmitForm .simpAskForm-cancel-btn.button{background:#5e0d8b!important;font-weight:700;font-size:16px!important;font-family: 'DIN Next Rounded LT Pro';font-display:swap}
 .product-faq-sec .simPagination a.simp-next:after{content:"next";font-size:17px;color:#fff}
-.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family:'Segoe Pro';font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
+.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family: 'DIN Next Rounded LT Pro';font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
 .product-faq-sec .simPagination a.simp-previous:after{content:"prev";font-size:17px;color:#fff}
 .range-link{font-size:20px}
 span.compare-price .money{font-size:26px!important}
 #loyaltylion .lion-loyalty-widget_position_left{bottom:auto!important;right:0!important;left:auto!important;top:105px;z-index:1111}
 .template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title{font-size:0;position:relative;transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);transform-origin:right bottom;float:left;border-radius:7px 7px 0 0!important;padding-left:45px!important;min-height:45px;text-align:center}
-.template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:15px;text-transform:uppercase;display:block;text-transform:uppercase;font-family:'Segoe Pro';font-display:swap;position:relative;top:7px}
+.template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:15px;text-transform:uppercase;display:block;text-transform:uppercase;font-family: 'DIN Next Rounded LT Pro';font-display:swap;position:relative;top:7px}
 .template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title span.lion-loyalty-widget__icon:after{display:none!important}
 .template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title .lion-loyalty-widget__icon{display:block;background-size:contain;position:absolute;bottom:5px;left:10px;filter:invert(1)}
 .template-product .header-mb-right.header-mb-items{position:relative;z-index:9999}
 .product_title_box h1.product-title{min-height:inherit}
 .slick-arrow.slick-next:hover,.slick-arrow.slick-prev:hover{background:#5c0f8b;color:#fff}
-.goodness-inside h4.text{font-family:'Segoe Pro';font-display:swap}
+.goodness-inside h4.text{font-family: 'DIN Next Rounded LT Pro';font-display:swap}
 .goodness-inside p{cursor:default}
 .translate-overlay #loyaltylion .lion-loyalty-widget_position_left{z-index:1}
 .product-shop div#product-variants .quantity_varients .selector-wrapper .single-option-selector{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;background-image:url(https://cdn.shopify.com/s/files/1/0390/2985/files/select-arrow.svg);background-size:10px;background-repeat:no-repeat;background-position:96% 16px;padding-right:20px!important;background-color:#fff}
@@ -131,10 +131,12 @@ p.manufact-text{text-align:left;width:50%;color:#878787;margin-bottom:0}
 .manufacturer-box{display:flex;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #cccccc3d;border-bottom-style:dotted}
 .tooltip .tooltiptext{width:333px}
 }
-a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'}
+a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'; font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 400;}
 a.jdgm-paginate__page.jdgm-paginate__first-page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__last-page{display:none}
-a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'}
+a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'; font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 400;}
 a.jdgm-paginate__page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__next-page,a.jdgm-paginate__page.jdgm-paginate__prev-page{display:inline-block!important}
 .product-shop .free-shipping-top p.offers_sec{font-size:30px;font-display:swap;padding:0 0 30px}
