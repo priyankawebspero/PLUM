@@ -255,7 +255,7 @@ a.btn,.content .btn, .home-spotlight-slider-sections a.btn{font-size:18px;border
 .featured-products .products-grid .grid-item{padding-left:10px;padding-right:10px}
 .home-spotlight-slider-sections .slick-list{padding:0 40px 0 0 !important}
 .home-spotlight-slider-sections .slick-list .item.slick-slide{padding:0 5px}
-.home-spotlight-slider-sections .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family:'Segoe Pro';font-weight:400;padding:0 15px;font-size:30px;margin-top:-50px;color:#252525;font-display:swap}
+.home-spotlight-slider-sections .slick-list .col-12.col-md-6.col-lg-4:first-child .spotlight-item .spotlight-inner h3.title{font-family: 'DIN Next Rounded LT Pro';font-weight:400;padding:0 15px;font-size:30px;margin-top:-50px;color:#252525;font-display:swap}
 .featured-products button.btn.add-to-cart-btn.cartbutton{max-width:90%}
 .bodywash-spotlight-slider .spotlight-inner{margin-top:37px}
 .bodywash-spotlight-slider .spotlight-item .img-box img{min-height:275px}
