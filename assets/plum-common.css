@@ -198,7 +198,7 @@ body{font-family: 'DIN Next Rounded LT Pro';font-weight:400;font-display:swap}
 .product-shop .shopify-product-form .quantity_varients.color .quantity{margin-top:0}
 .product-shop div#product-variants .quantity_varients.color label{font-size:13px;text-transform:uppercase;white-space:nowrap}
 .product-shop .groups-btn .iwishAddWrap a.wishlist:after{content:"ADD TO WISHLIST";font-size:15px}
-.site-footer .foot-title{letter-spacing:1px;font-weight:700}
+.site-footer .foot-title{letter-spacing:1px;font-weight:500}
 .site-footer .foot-link{color:#000}
 .page-header,.btn,.product-shop .shopify-payment-button .shopify-payment-button__button,.tabs__product-page .spr-container .spr-summary-actions-newreview,.addresses-page .btn-edit-delete a,.product-shop .product-title{/*font-family: 'DIN Next Rounded LT Pro';*/  font-family: 'DIN Next Rounded LT Pro'; font-display:swap}
 .cartbutton{padding-bottom:9px}
