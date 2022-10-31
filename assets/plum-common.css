@@ -1310,7 +1310,7 @@ h3.promo_heading{color:#fff;font-size:26px;margin-bottom:18px}
 .promobanner.slide .text_block{padding:20px;flex:1}
 .promopopup span.closepromo{position:absolute;right:0;color:#fff;top:0;font-size:30px;padding:20px;line-height:30px;cursor:pointer}
 .header-top{background:#5e248c;color:#fff;padding:2px 0}
-.header-top p.header-pramotion{color:#fff!important;cursor:pointer}
+.header-top p.header-pramotion{color:#fff!important;cursor:pointer; font-weight: 300;}
 .best-deal-section{padding:50px 0}
 .home-best-deal-block .col-4.col-md-4.col-lg-4{padding-left:5px;padding-right:5px}
 .tracking_order{position:relative}
