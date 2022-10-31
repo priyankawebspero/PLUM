@@ -381,6 +381,12 @@ header.page-header h1{text-transform:lowercase}
 .empties_good .empties-tab-section ul.tabs li span:first-child{font-weight:500;font-size:24px}
 .article-template .blog-detail h1.article-title {
     font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 500;
+}
+
+.halo-blog-content.article-content .sidebar-blog .widget .widget-title .sidebar-title {
+    font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 500;
 }
 
 @media only screen and (min-width:501px) {
