@@ -231,7 +231,8 @@ div#shopify-section-footer-phy .row.mobile {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: serifabold;
+    font-family: 'DIN Next Rounded LT Pro';
+  font-weight: bold;
     letter-spacing: 1px;
     text-transform: lowercase;
 }
