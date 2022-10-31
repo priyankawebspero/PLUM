@@ -308,7 +308,7 @@ div#simpAskQuestion .accordionSimpQA ul li p.simpAnswerHolder{font-weight:300!im
 .product-item .product-label img{display:none}
 .product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:15px}
 .product-label .label.sale-label{line-height:1!important}
-.product-item .product-label .label{font-size:17px;color:#5e0c8c;font-family:'serifabold';font-display:swap;position:relative;line-height:1!important;width:100%;min-width:inherit;left:0}
+.product-item .product-label .label{font-size:17px;color:#5e0c8c;font-family: 'DIN Next Rounded LT Pro';font-display:swap;position:relative;line-height:1!important;width:100%;min-width:inherit;left:0}
 .footer-social .social-icons{padding-top:0!important}
 a.social_media{border-left:1px solid #505050;padding-left:14px;font-weight:700;color:#000}
 .footer-social .mobile_no a.social_media{color:#000!important;font-size:14px}
