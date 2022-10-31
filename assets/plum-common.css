@@ -365,9 +365,9 @@ body .iwishProducts.products-grid .product-image img{min-height:inherit!importan
 .contact-grid .text-wrap h4{font-weight:600!important}
 header.page-header h1{text-transform:lowercase}
 #shopify-section-contact-template .formbox h2{font-weight:500}
-#shopify-section-contact-template .assistance-form .field input[type="text"],#shopify-section-contact-template .assistance-form .field input[type="email"],#shopify-section-contact-template .assistance-form .field input[type="phone"]{border:1px solid #ccc!important;line-height:1;height:46px;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family:'Segoe Pro'!important;font-display:swap}
-#shopify-section-contact-template .assistance-form .field textarea{border:1px solid #ccc!important;line-height:1;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family:'Segoe Pro'!important;font-display:swap}
-#shopify-section-contact-template .assistance-form .field input[type="submit"]{background:#5e0d8b!important;color:#fff!important;font-size:18px!important;border-radius:5px!important;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto!important;box-shadow:none;min-width:165px!important;font-family:'Segoe Pro'!important;text-transform:lowercase;font-display:swap}
+#shopify-section-contact-template .assistance-form .field input[type="text"],#shopify-section-contact-template .assistance-form .field input[type="email"],#shopify-section-contact-template .assistance-form .field input[type="phone"]{border:1px solid #ccc!important;line-height:1;height:46px;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap}
+#shopify-section-contact-template .assistance-form .field textarea{border:1px solid #ccc!important;line-height:1;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap}
+#shopify-section-contact-template .assistance-form .field input[type="submit"]{background:#5e0d8b!important;color:#fff!important;font-size:18px!important;border-radius:5px!important;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto!important;box-shadow:none;min-width:165px!important;font-family: 'DIN Next Rounded LT Pro' !important;text-transform:lowercase;font-display:swap}
 #shopify-section-contact-template .assistance-form .field input[type="submit"]:hover{color:#fff!important;background:#8901bd!important}
 #shopify-section-contact-template ul.social li{margin:0 5px!important}
 #shopify-section-contact-template ul.social li a{background:#333;width:36px;height:36px;display:block;line-height:36px;border-radius:30px;color:#fff!important;font-size:18px!important}
@@ -645,12 +645,12 @@ body .footer-bottom.container{width:100%!important;max-width:100%!important}
 header.site-header.header-parallax.stickyHeader{background:#fff}
 .body-full .container,.container-padd60{max-width:1270px;padding:0 15px}
 div#instafeed{margin:0;display:none}
-.page-careers .content .text-wrap p{font-family:'Segoe Pro'!important;font-display:swap}
-.careers-banner h2{font-family:serifabold!important;font-size:60px!important;font-display:swap}
-.page-careers .content .text-wrap h2{font-weight:600!important;font-family:'Segoe Pro'!important;font-display:swap}
-.faqs-page header.page-header h1.blog-headline span{font-family:serifabold!important;font-size:60px;font-display:swap}
+.page-careers .content .text-wrap p{font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap}
+.careers-banner h2{font-family: 'DIN Next Rounded LT Pro' !important;font-size:60px!important;font-display:swap}
+.page-careers .content .text-wrap h2{font-weight:600!important;font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap}
+.faqs-page header.page-header h1.blog-headline span{font-family: 'DIN Next Rounded LT Pro' !important;font-size:60px;font-display:swap}
 .faqs-page header.page-header h1.blog-headline{margin-bottom:55px;margin-top:15px}
-.des_faqs span{font-family:serifabold;font-size:37px!important;font-display:swap}
+.des_faqs span{font-size:37px!important;font-display:swap; font-weight: bold;font-family: 'DIN Next Rounded LT Pro';}
 .faqs-page .des_faqs{margin-bottom:25px}
 .faqs-page .panel-group .panel-title a{border-bottom:1px solid #ccc;padding-right:25px;padding-left:0}
 .jas-mb-style .header-links .customer-links .acc-links{color:#5e0d8b;font-weight:500;text-decoration:underline}
@@ -976,7 +976,7 @@ div#pagination-container{padding-bottom:10px}
 .bxp-progress-number{font-size:21px!important;text-transform:lowercase!important;margin-top:12px!important;line-height:1.5!important}
 #bxp-progress .bxp-step-current .bxp-progress-number{color:#5e0c8c!important}
 .bxp-progress-title{font-size:20px;font-weight:400;text-transform:lowercase}
-h3.bxp-bldr-wizard-header{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family:serifabold!important;letter-spacing:1px!important}
+h3.bxp-bldr-wizard-header{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: 'DIN Next Rounded LT Pro' !important;letter-spacing:1px!important}
 main#bxp-bldr-main{background:#ebe0f0!important;padding-bottom:50px}
 .bxp-bldr-container{padding-top:60px!important}
 .bxp-step{opacity:1!important}
@@ -1001,7 +1001,7 @@ main#bxp-bldr-main{background:#ebe0f0!important;padding-bottom:50px}
 #bxp-progress .bxp-step-complete .bxp-circle{background:#5e0c8c!important;border-color:#5e0c8c!important}
 #bxp-progress .bxp-step-complete .bxp-circle:after{opacity:1}
 #bxp-progress .bxp-step-complete .bxp-progress-number,#bxp-progress .bxp-step-complete .bxp-progress-title{color:#5e0c8c}
-.bxp-bldr-question_title h3{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family:serifabold!important;letter-spacing:1px!important}
+.bxp-bldr-question_title h3{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: 'DIN Next Rounded LT Pro' !important;letter-spacing:1px!important}
 .bxp-styled-select select{border:none!important;font-weight:500;border-radius:7px!important}
 .bxp-styled-select{font-weight:500;border-radius:7px;border:none!important}
 .bxp-bldr-question_title h3,.bxp-bldr-question_title h3{text-transform:lowercase}
@@ -1039,10 +1039,10 @@ div#bxp-steps{pointer-events:none}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8{-ms-flex:0 0 100%!important;flex:0 0 100%!important;max-width:100%!important;margin:0}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-step-box-imgs{text-align:center;padding-bottom:10px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container{border:1px solid #ccc;padding:15px;background:#fff;margin-top:20px;margin-bottom:0}
-.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container .bxp-thumbnail-qty{background:#d9c5e3;color:#000;font-size:17px;color:#5e0c8c;font-family:serifabold;border-radius:0 0 4px 4px;min-width:24px}
+.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container .bxp-thumbnail-qty{background:#d9c5e3;color:#000;font-size:17px;color:#5e0c8c;font-family: 'DIN Next Rounded LT Pro' !important;border-radius:0 0 4px 4px;min-width:24px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list{background:#fff;padding:25px;border-radius:10px}
-.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list h5{font-family:serifabold;letter-spacing:1px;color:#5e0d8b;font-size:35px;letter-spacing:0;font-weight:400;margin-bottom:20px}
+.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list h5{font-family: 'DIN Next Rounded LT Pro' !important;letter-spacing:1px;color:#5e0d8b;font-size:35px;letter-spacing:0;font-weight:400;margin-bottom:20px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list ul.bxp-box-list li{border-top:1px solid #ccc;padding:10px 45px;position:relative;text-align:left;margin:0 -25px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list ul.bxp-box-list li:last-child{border-bottom:1px solid #ccc}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list ul.bxp-box-list li:nth-of-type(odd){background:#f8f8f8}
@@ -1683,7 +1683,7 @@ div#flash-sale .counter_text .side_text {
 }
 
 div#flash-sale .counter_text .side_text {
-    font-family: serifabold;
+    font-family: 'DIN Next Rounded LT Pro';
     font-weight: 600;
     font-size: 18px;
 }
@@ -2661,7 +2661,7 @@ div#dropdown-cart {
    pointer-events: none !important;
 }
 .template-cart .cart-template .best-sell-product .box-title {
-    font-family: 'serifabold';
+    font-family: 'DIN Next Rounded LT Pro';
     letter-spacing: 1px;
     font-size: 40px;
     font-weight: 700;
@@ -2752,7 +2752,7 @@ div#dropdown-cart {
 }
 
 #dropdown-cart .best-sell-product .widget-title .box-title {
-    font-family: 'serifabold' !important;
+   font-family: 'DIN Next Rounded LT Pro' !important;
 }
 
 @media only screen and (max-width:767px){
@@ -2958,7 +2958,7 @@ div#flash-sale .counter_text .side_text {
 }
 
 div#flash-sale .counter_text .side_text {
-    font-family: serifabold;
+    font-family: 'DIN Next Rounded LT Pro';
     font-weight: 600;
     font-size: 18px;
 }
@@ -3390,7 +3390,7 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     padding-top: 45px !important;
 }
 .st-result-inner {
-    font-family: Segoe Pro;
+    font-family: 'DIN Next Rounded LT Pro';
 }
 #searchModal div#noResults {
     background: #5b0c8b!important;
@@ -3399,7 +3399,7 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     padding: 12px 18px 14px!important;
     text-transform: lowercase !important;
     font-size: 17px !important;
-    font-family: Segoe Pro !important;
+    font-family: 'DIN Next Rounded LT Pro' !important;
     line-height: 1.2;
     max-width: 180px!important;
 }
@@ -4081,7 +4081,7 @@ div#shopify-section-1655883262101dbbf0 {
 .home-list-collections .title-collection a span {
     font-size: 12px;
     line-height: normal;
-    font-family: Segoe Pro;
+    font-family: 'DIN Next Rounded LT Pro';
 }
   
 .home-list-collections .row .grid-item.col-3 {
