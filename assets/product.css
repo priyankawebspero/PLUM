@@ -140,10 +140,12 @@ p.manufact-text{text-align:left;width:50%;color:#878787;margin-bottom:0}
 .manufacturer-box{display:flex;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #cccccc3d;border-bottom-style:dotted}
 .tooltip .tooltiptext{width:333px}
 }
-a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'}
+a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'; font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 400;}
 a.jdgm-paginate__page.jdgm-paginate__first-page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__last-page{display:none}
-a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'}
+a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'; font-family: 'DIN Next Rounded LT Pro' !important;
+    font-weight: 400;}
 a.jdgm-paginate__page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__next-page,a.jdgm-paginate__page.jdgm-paginate__prev-page{display:inline-block!important}
 .product-shop .free-shipping-top p.offers_sec{font-size:30px;font-family:'serifabold';font-display:swap;padding:0 0 30px}
