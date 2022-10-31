@@ -361,7 +361,7 @@ body .iwishProducts.products-grid .product-image img{min-height:inherit!importan
 .iwishProducts a.iwishRemoveBtn{text-transform:lowercase}
 .iwishProducts .grid-item .inner.product-item{box-shadow:0 2px 10px #000}
 .inner-page.page-contact .contact-banner h2{text-transform:lowercase}
-.contact-grid .text-wrap span,.contact-grid .text-wrap a{font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap}
+.contact-grid .text-wrap span,.contact-grid .text-wrap a{font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap; font-weight: 400;}
 .contact-grid .text-wrap h4{font-weight:600!important}
 header.page-header h1{text-transform:lowercase}
 #shopify-section-contact-template .formbox h2{font-weight:500}
