@@ -119,8 +119,8 @@ body{font-family: 'DIN Next Rounded LT Pro';font-weight:400;font-display:swap}
 .product-shop .delivery-time-infos{background:#D9C4E3;width:100%;max-width:100%;padding:15px 3rem 10px}
 .product-shop .delivery-time-infos ul{margin-bottom:0}
 .product-shop .delivery-time-infos ul li .check-pincode{border:none!important}
-.product-shop .delivery-time-infos ul li .check-pincode input#pincode_input{border-radius:5px;padding:10px 15px;font-size:15px;font-family:Nunito,"Arial","sans-serif";font-display:swap}
-.product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit{width:auto;background:#fff;height:40px;line-height:40px;border-radius:5px;padding:0 25px;margin-left:15px;font-size:15px;font-family:Nunito,"Arial","sans-serif";font-display:swap;cursor:pointer;color:#5e0c8c;font-weight:400}
+.product-shop .delivery-time-infos ul li .check-pincode input#pincode_input{border-radius:5px;padding:10px 15px;font-size:15px;font-family: 'DIN Next Rounded LT Pro';font-display:swap}
+.product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit{width:auto;background:#fff;height:40px;line-height:40px;border-radius:5px;padding:0 25px;margin-left:15px;font-size:15px;font-family: 'DIN Next Rounded LT Pro';font-display:swap;cursor:pointer;color:#5e0c8c;font-weight:400}
 .product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit b{font-weight:900}
 .product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit:hover{background:#5e0c8c;color:#fff}
 .product-shop .planet_div img{max-width:40px}
