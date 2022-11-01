@@ -107,6 +107,9 @@ if ((typeof Shopify.getCart) === 'undefined') {
      
     .on('shopify:section:load', ella.initSliderFeaturedProductsHome)
     .on('shopify:section:unload', ella.initSliderFeaturedProductsHome)
+
+    .on('shopify:section:load', ella.initSliderFeaturedcat)
+    .on('shopify:section:unload', ella.initSliderFeaturedcat)
     
     .on('shopify:section:load', ella.initSliderFeaturedProductsNew)
     .on('shopify:section:unload', ella.initSliderFeaturedProductsNew)    
@@ -165,6 +168,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
       this.addEventShowOptions();
       this.changeQuantityAddToCart();
       this.changeQuantityAddToCartNew();
+      this.initSliderFeaturedcat();
       this.initAddToCart();
       this.changeQuantity();
       this.frequentlyBrougtTogether();
