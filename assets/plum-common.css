@@ -15,6 +15,26 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 
 
 @font-face {
+    font-family: 'din_next_rounded_lt_promedium';
+    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-medium-webfont.woff2') format('woff2'),
+         url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din_next_rounded_lt_proRg';
+    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-regular-webfont.woff2') format('woff2'),
+         url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
     font-family: 'Varela Round';
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/t/163/assets/VarelaRound-Regular.woff2') format('woff2'),
         url('https://cdn.shopify.com/s/files/1/0390/2985/t/163/assets/VarelaRound-Regular.woff') format('woff');
@@ -60,23 +80,6 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 
 
 
-@font-face {
-    font-family: 'din_next_rounded_lt_promedium';
-    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-medium-webfont.woff2') format('woff2'),
-         url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'din_next_rounded_lt_proRg';
-    src: url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-regular-webfont.woff2') format('woff2'),
-         url('//cdn.shopify.com/s/files/1/0390/2985/t/163/assets/dinnextroundedltpro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body{font-family: 'din_next_rounded_lt_proRg';font-weight:400;font-display:swap}
 .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5}
