@@ -949,6 +949,163 @@ if ((typeof Shopify.getCart) === 'undefined') {
           });
         };
       });
+    },
+    initSliderFeaturedcat: function () {
+      var featuredcat = $('[data-featured-cat]');
+
+      featuredcat.each(function () {
+        var self = $(this),
+            productGrid = self.find('.products-grid'),
+            gridItemWidth = productGrid.data('row'),
+            hasRightSidebar = $('.halo-product-content .pro-page [data-has-right-sidebar]');
+
+        if(productGrid.not('.slick-initialized')) {
+          productGrid.slick({
+            get slidesToShow() {
+              if (hasRightSidebar.length) {
+                return this.slidesToShow = 5;
+              } else {
+                return this.slidesToShow = productGrid.data('row');
+              }
+            },
+
+            get vertical() {
+              if(productGrid.hasClass('verticle')) {
+                return this.vertical = true;
+              }else {
+                return this.vertical = false;
+              }
+            },
+
+            get slidesToScroll() {
+              if(productGrid.hasClass('verticle')) {
+                return this.slidesToScroll = 1;
+              }else {
+                return this.slidesToScroll = productGrid.data('row');
+              }
+            },
+
+            speed: 800,
+            infinite: false,
+
+            get dots() {
+              if(self.hasClass('has-banner')) {
+                return this.dots = true;
+              }else {
+                return this.dots = true;
+              };
+            },
+
+            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+            responsive: [
+              {
+                breakpoint: 1400,
+                settings: {
+                  get slidesToShow() {
+                    if(self.hasClass('has-banner')) {
+                      return this.slidesToShow = 3;
+                    }else {
+                      if(gridItemWidth > 5) {
+                        return this.slidesToShow = 5;
+                      }
+                      else {
+                        return this.slidesToShow = productGrid.data('row');
+                      }
+                    }
+                  },
+                  get slidesToScroll() {
+                    if (self.hasClass('has-banner')) {
+                      return this.slidesToScroll = 3;
+                    }else {
+                      if(productGrid.hasClass('verticle')) {
+                        return this.slidesToScroll = 1;
+                      }else {
+                        if(gridItemWidth >= 4) {
+                          return this.slidesToScroll = 5;
+                        }else if(gridItemWidth = 3) {
+                          return this.slidesToScroll = 3;
+                        }else {
+                          return this.slidesToScroll = 2;
+                        }
+                      }
+                    };
+                  }
+                }
+              },
+              {
+                breakpoint: 1200,
+                settings: {
+                  dots: true,
+                  arrows: true,
+                  vertical: false,
+                  get slidesToShow() {
+                    if(self.hasClass('has-banner')) {
+                      return this.slidesToShow = 2;
+                    }else {
+                      if(gridItemWidth >= 4) {
+                        return this.slidesToShow = 5;
+                      }else if(gridItemWidth = 3) {
+                        return this.slidesToShow = 3
+                      }else {
+                        return this.slidesToShow = 2
+                      }
+                    }
+                  },
+                  get slidesToScroll() {
+                    if (self.hasClass('has-banner')) {
+                      return this.slidesToScroll = 2;
+                    }else {
+                      if(gridItemWidth >= 4) {
+                        return this.slidesToScroll = 5;
+                      }else if(gridItemWidth = 3) {
+                        return this.slidesToScroll = 3
+                      }else {
+                        return this.slidesToScroll = 2
+                      }
+                    };
+                  }
+                }
+              },
+              {
+                breakpoint: 992,
+                settings: {
+                  dots: true,
+                  arrows: true,
+                  vertical: false,
+                  get slidesToShow() {
+                    if(gridItemWidth >= 3) {
+                      return this.slidesToShow = 3;
+                    }else {
+                      return this.slidesToShow = 2
+                    }
+                  },
+                  get slidesToScroll() {
+                    if(gridItemWidth >= 3) {
+                      return this.slidesToScroll = 3;
+                    }else {
+                      return this.slidesToScroll = 2
+                    }
+                  }
+                }
+              },
+              {
+                breakpoint: 767,
+                settings: {
+                  slidesToShow: 2,
+                  centerMode: true,
+                  infinite: true,
+                  slidesToScroll: 2,
+                  arrows: true,
+                  vertical: false,
+                  autoplay: true,
+                  dots: true
+                }
+              }
+            ]
+          });
+        };
+      });
     }, initSliderFeaturedProductsNew: function () {
       var featuredProduct = $('[data-featured-products-slide]');
 
