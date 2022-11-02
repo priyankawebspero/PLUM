@@ -14,12 +14,12 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
 
 @font-face {font-family: "DIN Next Rounded LT Pro Bold";
-  src: url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot");
-  src: url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot?#iefix") format("embedded-opentype"),
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff2") format("woff2"),
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff") format("woff"),
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.ttf") format("truetype"), 
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.svg#DIN Next Rounded LT Pro Bold") format("svg");
+  src: url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot);
+  src: url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot?#iefix) format("embedded-opentype"),
+  url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff2) format("woff2"),
+  url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff) format("woff"),
+  url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.ttf) format("truetype"), 
+  url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.svg#DIN Next Rounded LT Pro Bold) format("svg");
 }
 
 
