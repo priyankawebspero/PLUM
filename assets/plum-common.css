@@ -15,11 +15,11 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 
 @font-face {font-family: "DIN Next Rounded LT Pro Bold";
   src: url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot"); /* IE9*/
-  src: url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff2") format("woff2"), /* chrome、firefox */
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff") format("woff"), /* chrome、firefox */
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.svg#DIN Next Rounded LT Pro Bold") format("svg"); /* iOS 4.1- */
+  src: url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.eot?#iefix") format("embedded-opentype"),
+  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff2") format("woff2"),
+  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.woff") format("woff"),
+  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.ttf") format("truetype"), 
+  url("//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/6f1a075af8afe852f3e3c8a75e49bc31.svg#DIN Next Rounded LT Pro Bold") format("svg");
 }
 
 
