@@ -614,6 +614,32 @@ div#solus-trending-plum {
     box-shadow: 0 0 5px #00000059;
 }
 
+.home-collection-carousel .products-grid .block-wrapper>a {
+    position: relative;
+    padding-bottom: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.home-collection-carousel .products-grid .block-wrapper>a img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-collection-carousel .widget-product .block-wrapper span.title_block {
+    display: block;
+    text-align: center;
+    background: #ebe0f0;
+    padding: 10px 7px;
+    font-weight: 600;
+    border-top: 1px solid #5b0c8b;
+    text-transform: capitalize;
+    color: #5b0c8b;
+}
+
 @media only screen and (min-width: 1400px){
 .re_cols_product .widget-product .slick-arrow.slick-prev {
     left: -40px!important;
