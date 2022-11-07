@@ -337,13 +337,11 @@ header.page-header h1{text-transform:lowercase}
 .empties_good .video-and-tab-sec h3{font-weight:500!important;padding-bottom:10px}
 .empties_good .empties-tab-section ul.tabs li span:first-child{font-weight:500;font-size:24px}
 .article-template .blog-detail h1.article-title {
-    font-family: 'DIN Next Rounded LT Pro' !important;
-    font-weight: 500;
+  font-family: "DINNextRoundedLTPro-Medium" !important;
 }
 
 .halo-blog-content.article-content .sidebar-blog .widget .widget-title .sidebar-title {
-    font-family: 'DIN Next Rounded LT Pro' !important;
-    font-weight: 500;
+   font-family: "DINNextRoundedLTPro-Medium" !important;
 }
 
 @media only screen and (min-width:501px) {
@@ -364,7 +362,7 @@ a.icon-nav.menu-open{left:286px!important}
 .search-open .wrapper-header .search-form{display:block}
 .wrapper-navigation .jas-mb-style nav.nav-bar{max-height:100vh;overflow:auto;position:relative;padding-bottom:70px}
 .site-nav .sub-menu-mobile{overflow:visible}
-.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-family: "DINNextRoundedLTW01-Regular";font-size:23px!important;font-display:swap}
+.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-size:23px!important;font-display:swap}
 }
 @media (max-width:779px) {
 .search-open .wrapper-header div.search-form{top:100px}
