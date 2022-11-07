@@ -362,7 +362,7 @@ a.icon-nav.menu-open{left:286px!important}
 .search-open .wrapper-header .search-form{display:block}
 .wrapper-navigation .jas-mb-style nav.nav-bar{max-height:100vh;overflow:auto;position:relative;padding-bottom:70px}
 .site-nav .sub-menu-mobile{overflow:visible}
-.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-size:23px!important;font-display:swap}
+.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-size:23px!important;}
 }
 @media (max-width:779px) {
 .search-open .wrapper-header div.search-form{top:100px}
