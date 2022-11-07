@@ -602,6 +602,11 @@ div#solus-trending-plum {
     width: 100%;
 }
 
+/*-----------campaign-css-start---------------*/
+.home-collection-carousel .slick-arrow {
+    display: none !important;
+}
+
 @media only screen and (min-width: 1400px){
 .re_cols_product .widget-product .slick-arrow.slick-prev {
     left: -40px!important;
