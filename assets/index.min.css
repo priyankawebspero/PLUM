@@ -82,6 +82,7 @@ i.fa {
     letter-spacing: 1px;
     color: #5ea54b;
     text-transform: lowercase;
+  margin-bottom: 20px;
 }
 .content .btn{color:#5e0d8b!important;background:#fff!important;font-size:20px;border-radius:7px;padding:15px;min-width:195px;font-weight:500}
 .content .btn:hover{background:#5e0d8b!important;color:#fff!important}
