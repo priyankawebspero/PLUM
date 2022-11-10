@@ -104,7 +104,7 @@ a.btn:hover{background:#9000c5;background-image:inherit!important}
 .template-index .featured-products .product-item .product-bottom{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;flex-direction:column}
 .template-index .featured-products .inner.product-item .jdgm-widget.jdgm-widget{order:5;margin-bottom:0;z-index:1;left:0;right:0}
 .product-item .product-bottom .product-title,.product-item .product-bottom .product-name{padding-bottom:15px}
-.featured-products .price-box{font-size:16px;font-weight:500}
+.featured-products .price-box{font-size:19px;font-weight:500; font-family: "DINNextRoundedLTPro-Medium";}
 .featured-products .price-box .special-price{color:#000}
 .featured-products .product-item .action{order:6;max-width:100%;width:100%;margin-top:10px;margin-bottom:5px}
 .template-index .featured-products .product-item .product-bottom{text-align:center;min-height:220px;padding-bottom:15px;position:relative;padding-left:20px;padding-right:20px;align-items:center;justify-content:flex-end}
