@@ -1,6 +1,9 @@
-#phy-home .page-tpl>.container-fluid {
+.page-tpl>.container-fluid {
     max-width: 100%;
     padding: 0;
+}
+div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-image {
+    width: 100%;
 }
 
 i.fa {
