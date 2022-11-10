@@ -3544,133 +3544,6 @@ div#shopify-section-165657527665cfd359 img.slide-pc {
     padding-right: 5px;
 }
 }
-/* button[disabled="disabled"] {
-    opacity: 0.4 !important;
-    pointer-events: none;
-}
-
-.new-label {
-    display: none;
-}
-
-.inner.product-item.birthday20 .inner-top .product-top:after {
-    content: "";
-    display: block !important;
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Template_Wbsite_20_OFF_03_1.png?v=1656490859');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40px;
-    height: 60px;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    z-index: 11;
-}
-.inner.product-item.birthday40 .inner-top .product-top:after {
-    content: "";
-    display: block !important;
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Template_Wbsite_40_OFF_03_857213ed-a6ec-413d-ac62-22cdc6d539e9.png?v=1656490859');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40px;
-    height: 60px;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    z-index: 11;
-}
-.inner.product-item.birthday50 .inner-top .product-top:after {
-    content: "";
-    display: block !important;
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Template_Wbsite_50_OFF_V3_7ee33a39-d871-4a73-9afc-7bbf4ddc9c57.png?v=1656490859');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40px;
-    height: 60px;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    z-index: 11;
-}
-
-.template-collection .inner.product-item.birthday50 .inner-top .product-top:after, 
-.template-collection .inner.product-item.birthday40 .inner-top .product-top:after,
-.template-collection .inner.product-item.birthday20 .inner-top .product-top:after
-{
-left: -9px;
-    top: -5px;
-
-}
-
-
-.birthday20 .product-top .product-label, .birthday40 .product-top .product-label, .birthday50 .product-top .product-label {
-    display: none !important;
-}
-
-.birthday50.product-photos .product-label {
-    display: none;
-}
-
-.product-photos .product-photo-container.p-slider-s .thumb {
-    position: relative;
-} */
-
-/* .birthday40.product-photos .product-photo-container.p-slider-s .thumb:before {
-    content: "";
-    display: block !important;
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Template_Wbsite_40_OFF_03_857213ed-a6ec-413d-ac62-22cdc6d539e9.png?v=1656490859');
-    background-repeat: no-repeat;
-    background-size: contain;
-     width: 60px;
-    height: 70px;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    z-index: 11;
-}
-
-.birthday20.product-photos .product-photo-container.p-slider-s .thumb:before {
-    content: "";
-    display: block !important;
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Template_Wbsite_20_OFF_03_1.png?v=1656490859');
-    background-repeat: no-repeat;
-    background-size: contain;
-     width: 60px;
-    height: 70px;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    z-index: 11;
-}
-
-.product-photos .product-label{display:none !important;}
-
-#dropdown-cart .cart-title h5 {
-    font-family: Segoe Pro;
-} */
-
-/* @media only screen and (max-width:575px){
-
-.template-collection .inner.product-item.birthday50 .inner-top .product-top:after, .template-collection .inner.product-item.birthday40 .inner-top .product-top:after, .template-collection .inner.product-item.birthday20 .inner-top .product-top:after {
-   left: 0px;
-    top: 3px;
-}
-  
-.inner.product-item.birthday50 .inner-top .product-top:after {
-    width: 40px;
-    height: 60px;
-}
-  
-.inner.product-item.birthday20 .inner-top .product-top:after {
-   width: 40px;
-    height: 60px;
-}
-.inner.product-item.birthday40 .inner-top .product-top:after {
-   width: 40px;
-    height: 60px;
-}
-} */
-
 
 /*------------new-css-added-------------*/
 
@@ -3758,9 +3631,8 @@ li#dta-6942660034620 a.product-name::after, li#dta-6783600787516 a.product-name:
   
   
 body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a span {
-    font-size: 19px!important;
-  /* font-family: serifabold;*/
- font-family: "DINNextRoundedLTPro-Medium";
+    font-size: 20px!important;
+ font-family: "DIN Next";
   font-weight: normal;
 }
   
