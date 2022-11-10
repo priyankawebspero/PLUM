@@ -640,6 +640,7 @@ div#solus-trending-plum {
     border-top: 1px solid #5b0c8b;
     text-transform: capitalize;
     color: #5b0c8b;
+  font-size: 17px;
 }
 .home-collection-carousel ul.slick-dots {
     margin-top: 15px;
