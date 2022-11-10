@@ -432,6 +432,8 @@ div.home-spotlight-slider .slick-list .col-12.col-md-6.col-lg-4:first-child .spo
     background: none !important;
     color: #5e0d8b !important;
     border: 2px solid #5e0d8b !important;
+  font-size: 22px;
+    font-family: "DIN Next";
 }
 
 .featured-products .content .btn:hover, .featured-products .content .btn:focus  {
