@@ -237,7 +237,7 @@ div#shopify-section-footer-phy .row.mobile {
     max-width: 100%;
 }
 .phy-collection-four-boxes .content.spotlight-inner h3.title {
-    font-size:25px;
+    font-size:25px;font-family: "DINNextRoundedLTPro-Medium";
 }
 /**Social media sec**/
 .sub-page-banner-section {
@@ -252,8 +252,7 @@ div#shopify-section-footer-phy .row.mobile {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'DIN Next Rounded LT Pro';
-  font-weight: bold;
+    font-family: "DIN Next";
     letter-spacing: 1px;
     text-transform: lowercase;
 }
