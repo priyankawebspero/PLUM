@@ -92,6 +92,12 @@ i.fa {
     margin-top: 50px;
    margin-bottom: 50px;
 }
+
+.brands-block a.btn {
+    font-size: 22px;
+    font-family: "DIN Next";
+}
+
 a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:500}
 a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-brands-new-sections .brand_div{margin-bottom:35px}
