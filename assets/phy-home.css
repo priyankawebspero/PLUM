@@ -14,6 +14,16 @@ div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-imag
     font-family: "DIN Next";
 }
 
+.sub-page-banner-section .widget-title .box-title i.fa {
+    padding: 0 24px;
+}
+
+.sub-page-banner-section .widget-title .box-title {
+    font-family: "DIN Next";
+    color: #fff;
+    font-size: 50px;
+}
+
 i.fa {
     font-family: font-awesome !important;
     font-family: fontawesome!important;
