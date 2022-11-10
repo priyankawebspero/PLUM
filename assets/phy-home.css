@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden !important;
+}
+
 .page-tpl>.container-fluid {
     max-width: 100%;
     padding: 0;
