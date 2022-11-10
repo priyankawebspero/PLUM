@@ -92,7 +92,7 @@ i.fa {
     margin-top: 50px;
    margin-bottom: 50px;
 }
-a.btn{background:#5e0d8b;color:#fff!important;font-size:20px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:500}
+a.btn{font-family: "DIN Next"; background:#5e0d8b;color:#fff!important;font-size:22px;border-radius:7px;padding-top:14px;padding-bottom:14px;min-width:195px;font-weight:500}
 a.btn:hover{background:#9000c5;background-image:inherit!important}
 .home-brands-new-sections .brand_div{margin-bottom:35px}
 .home-brands-new-sections .container{max-width:1100px}
