@@ -10,6 +10,10 @@ div#shopify-section-banner-phy section.sub-page-banner-section a img.banner-imag
     width: 100%;
 }
 
+.widget-title .box-title .title {
+    font-family: "DIN Next";
+}
+
 i.fa {
     font-family: font-awesome !important;
     font-family: fontawesome!important;
