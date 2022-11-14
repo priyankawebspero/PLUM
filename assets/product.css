@@ -1,5 +1,5 @@
 .short-desc-datas ul{list-style:disc;padding-left:20px}
-.related-products .product-item .action .btn{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;width:auto;padding:10px 15px;font-size:18px;box-shadow:none!important;min-width:165px}
+.related-products .product-item .action .btn{font-family: "DINNextRoundedLTPro-Medium"; border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:500;width:auto;padding:10px 15px;font-size:19px;box-shadow:none!important;min-width:165px}
 .related-products .product-item .action .btn:hover{color:#fff!important;background:#8901bd!important}
 .manufacturer-box:nth-last-child(1){border-bottom:0}
 .manufacturer-box{display:flex;padding-bottom:0;margin-bottom:12px;border-bottom:1px solid #cccccc3d;border-bottom-style:dotted}
