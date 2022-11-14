@@ -79,7 +79,7 @@ button.btn.add-to-cart-btn:hover{color:#fff!important;background:#8901bd!importa
 .product-faq-sec .simpAskQuestionForm-btnOpen.btn{color:#fff;border-color:transparent;border-radius:7px;box-shadow:none;border:none;padding:8px 15px;border:none;background:#5e0d8b!important;font-weight:700;text-transform:lowercase}
 #simpAskQuestion #askQuestion input.button,#simpAskQuestion .simpAskSubmitForm .simpAskForm-cancel-btn.button{background:#5e0d8b!important;font-weight:700;font-size:16px!important;font-family: 'DIN Next Rounded LT Pro';font-display:swap}
 .product-faq-sec .simPagination a.simp-next:after{content:"next";font-size:17px;color:#fff}
-.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family: 'DIN Next Rounded LT Pro';font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
+.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
 .product-faq-sec .simPagination a.simp-previous:after{content:"prev";font-size:17px;color:#fff}
 .range-link{font-size:20px}
 span.compare-price .money{font-size:26px!important}
