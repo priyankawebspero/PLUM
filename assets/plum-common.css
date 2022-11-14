@@ -1079,7 +1079,7 @@ div#bxp-steps{display:flex!important;flex-wrap:wrap!important;justify-content:ce
 strong.label.new-label span.new{color:transparent}
 .qty-group.newtab i.fa.fa-trash{color:#5e248b;font-size:18px}
 .qty-group.newtab{border:1px solid grey;border-radius:6px;max-width:120px!important;margin:auto;padding-left:5px}
-div#slider-related .action a.btn{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;width:auto;padding:10px 15px;font-size:18px;box-shadow:none!important;min-width:165px}
+div#slider-related .action a.btn{font-family: "DINNextRoundedLTPro-Medium"; border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:500;width:auto;padding:10px 15px;font-size:19px;box-shadow:none!important;min-width:165px}
 div#shopify-section-1640244312dab9e4af{padding:50px 0}
 #slideshow-1640244312dab9e4af .slick-arrow.slick-prev{left:-40px!important;background:#5c0f8b;color:#fff;width:36px;height:36px;border:none;opacity:1!important}
 #slideshow-1640244312dab9e4af .slick-arrow.slick-prev svg{stroke-width:4px;width:14px;height:14px;position:relative;top:-3px}
