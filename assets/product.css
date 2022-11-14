@@ -28,7 +28,7 @@ p.manufact-add{text-align:end;width:55%;font-size:14px}
 main.main-content.sticky_body{padding-top:0}
 .product-shop .product_gift_bx .free-shipping-top ul li a img{float:left}
 #judgeme_product_reviews .jdgm-paginate{margin-bottom:20px}
-a.jdgm-paginate__page.jdgm-paginate__prev-page,a.jdgm-paginate__page.jdgm-paginate__next-page{display:inline-flex;padding:9px 30px 10px;justify-content:center;align-items:center;background:#5e0d8b;color:#fff;font-family: 'DIN Next Rounded LT Pro';font-size:17px;font-weight:700;text-transform:lowercase;margin:0 5px;border-radius:6px;font-display:swap}
+a.jdgm-paginate__page.jdgm-paginate__prev-page,a.jdgm-paginate__page.jdgm-paginate__next-page{display:inline-flex;padding:9px 30px 10px;justify-content:center;align-items:center;background:#5e0d8b;color:#fff;font-family: "DINNextRoundedLTW01-Regular";font-size:17px;font-weight:700;text-transform:lowercase;margin:0 5px;border-radius:6px;font-display:swap}
 .related-products .product-item .action{max-width:100%}
 button.btn.add-to-cart-btn{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;width:auto;padding:10px 15px;font-size:18px;box-shadow:none!important;min-width:165px}
 button.btn.add-to-cart-btn{margin-bottom:0;}
