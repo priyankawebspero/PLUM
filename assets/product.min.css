@@ -75,7 +75,7 @@ button.btn.add-to-cart-btn:hover{color:#fff!important;background:#8901bd!importa
 .product-faq-sec .simpAskQuestionForm-btnOpen.btn{color:#fff;border-color:transparent;border-radius:7px;box-shadow:none;border:none;padding:8px 15px;border:none;background:#5e0d8b!important;font-weight:700;text-transform:lowercase}
 #simpAskQuestion #askQuestion input.button,#simpAskQuestion .simpAskSubmitForm .simpAskForm-cancel-btn.button{background:#5e0d8b!important;font-weight:700;font-size:16px!important;font-family: 'DIN Next Rounded LT Pro';font-display:swap}
 .product-faq-sec .simPagination a.simp-next:after{content:"next";font-size:17px;color:#fff}
-.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family: 'DIN Next Rounded LT Pro';font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
+.product-faq-sec .simPagination a{padding:9px 30px 10px;background:#5e0d8b;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;font-weight:700;text-transform:lowercase;margin:0 5px!important;border-radius:6px;font-size:0;line-height:1;color:#fff}
 .product-faq-sec .simPagination a.simp-previous:after{content:"prev";font-size:17px;color:#fff}
 .range-link{font-size:20px}
 span.compare-price .money{font-size:26px!important}
@@ -87,7 +87,7 @@ span.compare-price .money{font-size:26px!important}
 .template-product .header-mb-right.header-mb-items{position:relative;z-index:9999}
 .product_title_box h1.product-title{min-height:inherit}
 .slick-arrow.slick-next:hover,.slick-arrow.slick-prev:hover{background:#5c0f8b;color:#fff}
-.goodness-inside h4.text{font-family: 'DIN Next Rounded LT Pro';font-display:swap}
+.goodness-inside h4.text{font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
 .goodness-inside p{cursor:default}
 .translate-overlay #loyaltylion .lion-loyalty-widget_position_left{z-index:1}
 .product-shop div#product-variants .quantity_varients .selector-wrapper .single-option-selector{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;background-image:url(https://cdn.shopify.com/s/files/1/0390/2985/files/select-arrow.svg);background-size:10px;background-repeat:no-repeat;background-position:96% 16px;padding-right:20px!important;background-color:#fff}
@@ -131,11 +131,11 @@ p.manufact-text{text-align:left;width:50%;color:#878787;margin-bottom:0}
 .manufacturer-box{display:flex;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #cccccc3d;border-bottom-style:dotted}
 .tooltip .tooltiptext{width:333px}
 }
-a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'; font-family: 'DIN Next Rounded LT Pro' !important;
+a.jdgm-paginate__page.jdgm-paginate__prev-page::before{content:'Prev'; font-family: "DINNextRoundedLTW01-Regular" !important; 
     font-weight: 400;}
 a.jdgm-paginate__page.jdgm-paginate__first-page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__last-page{display:none}
-a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'; font-family: 'DIN Next Rounded LT Pro' !important;
+a.jdgm-paginate__page.jdgm-paginate__next-page::before{content:'Next'; font-family: "DINNextRoundedLTW01-Regular" !important;
     font-weight: 400;}
 a.jdgm-paginate__page{display:none}
 a.jdgm-paginate__page.jdgm-paginate__next-page,a.jdgm-paginate__page.jdgm-paginate__prev-page{display:inline-block!important}
