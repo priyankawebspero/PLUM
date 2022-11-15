@@ -4382,6 +4382,11 @@ header.page-header h2, header.page-header h2 span {
     font-weight: 500 !important;
 }
 
+.gokwik-checkout button > span.btn-text > span:first-child {
+    font-weight: 700;
+    font-family: "DIN Next";
+}
+
 .breadcrumb {
     font-size: 16px;
 }
