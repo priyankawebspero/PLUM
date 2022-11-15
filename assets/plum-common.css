@@ -2696,11 +2696,11 @@ div#dropdown-cart {
 .template-cart .cart-template .best-sell-product .widget-product .grid-item .product-item .inner-top .product-bottom .action .btn {
     background: #5e0d8b!important;
     color: #fff!important;
-    font-size: 18px;
+    font-size: 19px;
     border-radius: 5px;
     padding: 10px 15px;
     min-width: inherit;
-    font-weight: 700;
+    font-family: "DIN Next";
     min-height: inherit;
     width: auto;
     box-shadow: none;
