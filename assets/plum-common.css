@@ -280,7 +280,7 @@ a.social_media{border-left:1px solid #505050;padding-left:14px;font-weight:700;c
 .modal-open header.site-header.header-parallax{z-index:1}
 .homepage-video-section .modal-header{border:none}
 .homepage-video-section .modal-header .close{position:absolute;right:0;top:0;background:#5e0c8c;width:35px!important;height:35px!important;color:#fff!important;text-shadow:none!important;padding:0;line-height:35px;margin:0}
-#dropdown-cart .actions .button .btn-view-cart{color:#000!important;min-width:inherit!important;font-size:14px;background-image:inherit!important}
+#dropdown-cart .actions .button .btn-view-cart{font-family: "DIN Next"; color:#000!important;min-width:inherit!important;font-size:15px;background-image:inherit!important}
 #dropdown-cart .actions .button .btn-view-cart:hover{background-color:#5e0c8c!important;color:#fff!important;border-color:#5e0c8c!important}
 #dropdown-cart .btn.btn-checkout{background-color:#5e0c8c!important;font-weight:700;font-size:15px;font-family: "DINNextRoundedLTW01-Regular";text-transform:lowercase;font-display:swap;background-image:inherit!important;padding-top:12px;padding-bottom:12px}
 span#emailerror{color:#000;font-size:14px}
