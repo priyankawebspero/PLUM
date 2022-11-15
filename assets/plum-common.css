@@ -4327,6 +4327,10 @@ main.main-content {
 }
 
 /*----------------template-article-css----------*/
+header.page-header h2, header.page-header h2 span {
+    font-family: "DIN Next";
+}
+
 .product-shop .groups-btn .shopify-payment-button {
     display: none;
 }
