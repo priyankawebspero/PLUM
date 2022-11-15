@@ -4406,6 +4406,9 @@ header.page-header h2, header.page-header h2 span {
     min-width: 20px !important;
     font-family: "DINNextRoundedLTPro-Medium";
 }
+.privacy_policy ol {
+    margin-left: 0 !important;
+}
 
 .breadcrumb {
     font-size: 16px;
