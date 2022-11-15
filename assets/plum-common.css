@@ -4344,6 +4344,9 @@ header.page-header h2, header.page-header h2 span {
 .widget-title .box-title {
     font-family: "DIN Next";
 }
+.featured-products .price-box {
+    font-family: "DINNextRoundedLTPro-Medium";
+}
 
 .homepage-blog-tab-sec .blog-tab-sec-data .tab_container .list-blog li.blog-item .article-details .article-title a {
     font-family: "DIN Next";
