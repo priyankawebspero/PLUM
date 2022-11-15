@@ -629,6 +629,10 @@ div#instafeed{margin:0;display:none}
     font-family: "DINNextRoundedLTPro-Medium";
   font-weight: normal;
 }
+.cart-template .wrapper-cart-template .total .price {
+    font-family: "DINNextRoundedLTPro-Medium";
+}
+
 .cart-template .wrapper-cart-template .box-title{color:#000;text-transform:lowercase}
 .cart-template .wrapper-cart-template .cart-list .remove,#dropdown-cart .mini-products-list .item .btn-remove{text-transform:lowercase}
 .jas-mb-style .header-links .customer-links .acc-links{text-transform:lowercase}
