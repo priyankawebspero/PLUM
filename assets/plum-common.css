@@ -4402,6 +4402,10 @@ header.page-header h2, header.page-header h2 span {
     font-size: 17px;
     line-height: 1.5;
 }
+.privacy_policy li:before {
+    min-width: 20px !important;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
 
 .breadcrumb {
     font-size: 16px;
