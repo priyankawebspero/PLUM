@@ -1896,11 +1896,11 @@ h3.artticle-point-headinds {
     content: "";
     counter-increment: section;
     content: "0"counter(section);
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     left: 0;
     top: 0;
-    font-weight: 600;
+    font-family: "DINNextRoundedLTPro-Medium";
     color: #5e248c;
 }
 
