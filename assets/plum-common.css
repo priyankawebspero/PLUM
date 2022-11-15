@@ -4354,6 +4354,10 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DINNextRoundedLTPro-Medium";
 }
 
+.sidebar-links .widget-content li a {
+    font-size: 17px;
+}
+
 .halo-blog-content.article-content .article-details .rte p {
     font-size: 17px;
 }
