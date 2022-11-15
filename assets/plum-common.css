@@ -931,7 +931,7 @@ div#pagination-container{padding-bottom:10px}
 .bxp-progress-number{font-size:21px!important;text-transform:lowercase!important;margin-top:12px!important;line-height:1.5!important}
 #bxp-progress .bxp-step-current .bxp-progress-number{color:#5e0c8c!important}
 .bxp-progress-title{font-size:20px;font-weight:400;text-transform:lowercase}
-h3.bxp-bldr-wizard-header{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: 'DIN Next Rounded LT Pro' !important;letter-spacing:1px!important}
+h3.bxp-bldr-wizard-header{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: "DIN Next" !important;letter-spacing:1px!important}
 main#bxp-bldr-main{background:#ebe0f0!important;padding-bottom:50px}
 .bxp-bldr-container{padding-top:60px!important}
 .bxp-step{opacity:1!important}
