@@ -909,7 +909,7 @@ div#pagination-container li a,div#pagination-container li span{color:#252525;pad
 div#pagination-container li:first-child{margin-left:0}
 div#pagination-container li:first-child span:before,div#pagination-container li:first-child a:before{content:"\f104";font-size:20px!important;font-weight:600!important;position:relative;top:3px;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-right:6px}
 div#pagination-container li:last-child a:after,div#pagination-container li:last-child span:after{content:"\f105";font-size:20px!important;font-weight:600!important;position:relative;top:3px;display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-left:6px}
-.blog-tab-sec-data p.text-center a.btn{font-size:18px!important;max-width:100%!important;min-width:170px;padding:15px}
+.blog-tab-sec-data p.text-center a.btn{text-transform: lowercase; font-size:22px!important;max-width:100%!important;min-width:170px;padding:15px}
 .blog-tab-sec-data a.btn{border-radius:5px!important;background:#5b0c8b!important;padding:10px 25px}
 .blog-tab-sec-data a.btn:hover,.blog-tab-sec-data a.btn:focus{background:#9000c5!important;color:#fff}
 @media only screen and (max-width:767px) {
