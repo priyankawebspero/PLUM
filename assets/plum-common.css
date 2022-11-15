@@ -2711,6 +2711,7 @@ div#dropdown-cart {
 
 #dropdown-cart .best-sell-product .inner-top .product-bottom .price-box {
     text-align: left !important;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 #dropdown-cart .best-sell-product .grid-item .inner.product-item .price-box:before {
