@@ -2480,7 +2480,10 @@ div#dropdown-cart {
     line-height: 1.5;
   font-family: "DINNextRoundedLTPro-Medium";
 }
-
+.special_offer span {
+    font-weight: normal !important;
+    font-family: "DIN Next";
+}
 #dropdown-cart .mini-products-list .item .quantity-box {
     margin-bottom: 0;
 }
