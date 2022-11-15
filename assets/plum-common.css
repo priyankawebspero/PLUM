@@ -615,13 +615,13 @@ div#instafeed{margin:0;display:none}
 .empties-faqs-section h3{text-transform:lowercase;font-weight:500!important}
 .rte{font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
 .cart-template .page-header h1{text-transform:lowercase!important}
-.cart-template .wrapper-cart-template .cart-list .group-action .update{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;font-weight:700;box-shadow:none;text-transform:lowercase!important}
+.cart-template .wrapper-cart-template .cart-list .group-action .update{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;box-shadow:none;text-transform:lowercase!important}
 .cart-template .wrapper-cart-template .cart-list .group-action .update:hover{color:#fff!important;background:#8901bd!important}
 .cart-template .wrapper-cart-template .cart-list .qty-group{border-radius:5px}
 #dropdown-cart .mini-products-list .item .quantity-box{border-radius:5px}
 #dropdown-cart .mini-products-list .item .quantity-box .dec.button,#dropdown-cart .mini-products-list .item .quantity-box .inc.button{height:38px;line-height:34px}
 .cart-template .wrapper-cart-template .cart-list .remove{color:#5e0c8c}
-.cart-template .wrapper-cart-template .btn-actions .btn-checkout{padding:10px 15px 12px;width:100%;background:#5e0c8c;max-width:100%;color:#fff;border-radius:50px;line-height:24px;text-transform:lowercase;font-weight:700;font-size:18px;border:1px solid #5e0c8c;border-radius:5px}
+.cart-template .wrapper-cart-template .btn-actions .btn-checkout{padding:10px 15px 12px;width:100%;background:#5e0c8c;max-width:100%;color:#fff;border-radius:50px;line-height:24px;text-transform:lowercase;font-size:18px;border:1px solid #5e0c8c;border-radius:5px}
 .cart-template .wrapper-cart-template .btn-actions .btn-checkout:hover{background:#8901bd!important;color:#fff!important}
 .cart-template .free_delivery{margin:15px 0!important}
 .cart-template .wrapper-cart-template .cart-list .cart-details .pro-name-and-price-infos .price-box{color:#000}
