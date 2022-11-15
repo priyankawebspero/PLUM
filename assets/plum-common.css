@@ -624,7 +624,10 @@ div#instafeed{margin:0;display:none}
 .cart-template .wrapper-cart-template .btn-actions .btn-checkout{font-family: DIN Next;padding:10px 15px 12px;width:100%;background:#5e0c8c;max-width:100%;color:#fff;border-radius:50px;line-height:24px;text-transform:lowercase;font-size:18px;border:1px solid #5e0c8c;border-radius:5px}
 .cart-template .wrapper-cart-template .btn-actions .btn-checkout:hover{background:#8901bd!important;color:#fff!important}
 .cart-template .free_delivery{margin:15px 0!important}
-.cart-template .wrapper-cart-template .cart-list .cart-details .pro-name-and-price-infos .price-box{color:#000}
+.cart-template .wrapper-cart-template .cart-list .cart-details .pro-name-and-price-infos .price-box {
+    color: #000;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
 .cart-template .wrapper-cart-template .box-title{color:#000;text-transform:lowercase}
 .cart-template .wrapper-cart-template .cart-list .remove,#dropdown-cart .mini-products-list .item .btn-remove{text-transform:lowercase}
 .jas-mb-style .header-links .customer-links .acc-links{text-transform:lowercase}
