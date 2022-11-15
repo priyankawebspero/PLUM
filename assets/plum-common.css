@@ -4335,6 +4335,9 @@ header.page-header h2, header.page-header h2 span {
     font-size: 20px;
     line-height: normal;
 }
+.blog-page-info .blog-tab-sec-data .list-blog li.blog-item  .article-excerpt .des {
+    font-size: 16px !important;
+}
 
 .product-shop .groups-btn .shopify-payment-button {
     display: none;
