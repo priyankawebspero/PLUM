@@ -956,7 +956,7 @@ main#bxp-bldr-main{background:#ebe0f0!important;padding-bottom:50px}
 #bxp-progress .bxp-step-complete .bxp-circle{background:#5e0c8c!important;border-color:#5e0c8c!important}
 #bxp-progress .bxp-step-complete .bxp-circle:after{opacity:1}
 #bxp-progress .bxp-step-complete .bxp-progress-number,#bxp-progress .bxp-step-complete .bxp-progress-title{color:#5e0c8c}
-.bxp-bldr-question_title h3{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: 'DIN Next Rounded LT Pro' !important;letter-spacing:1px!important}
+.bxp-bldr-question_title h3{font-size:50px!important;margin-bottom:10px!important;color:#5e0d8b!important;font-family: "DIN Next" !important;letter-spacing:1px!important}
 .bxp-styled-select select{border:none!important;font-weight:500;border-radius:7px!important}
 .bxp-styled-select{font-weight:500;border-radius:7px;border:none!important}
 .bxp-bldr-question_title h3,.bxp-bldr-question_title h3{text-transform:lowercase}
