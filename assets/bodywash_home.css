@@ -158,6 +158,8 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 }
 .featured-products .product-item .product-label{background:#fdc8d6}
 .featured-products .product-item .product-label .label{color:#d6006d}
+.btn{font-family: "DIN Next";}
+
 @media (min-width:1024px) {
 .home-brands-new-sections{padding-top:20px}
 .gl_custom_html_home .bodylin_videos_inner img{width:100%;height:auto;object-fit:cover}
