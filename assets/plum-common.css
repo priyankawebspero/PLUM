@@ -4340,8 +4340,12 @@ header.page-header h2, header.page-header h2 span {
 }
 
 .blog-page-info .list-blog li.blog-item a.btn {
-    font-size: 16px !important;
+    font-size: 17px !important;
     font-family: "DINNextRoundedLTPro-Medium";
+}
+
+body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
+    text-transform: lowercase !important;
 }
 
 .product-shop .groups-btn .shopify-payment-button {
