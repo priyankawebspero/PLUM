@@ -4397,6 +4397,12 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DIN Next";
 }
 
+.privacy_policy li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
 .breadcrumb {
     font-size: 16px;
 }
