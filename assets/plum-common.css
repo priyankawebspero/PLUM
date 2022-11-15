@@ -629,7 +629,7 @@ div#instafeed{margin:0;display:none}
 .cart-template .wrapper-cart-template .cart-list .remove,#dropdown-cart .mini-products-list .item .btn-remove{text-transform:lowercase}
 .jas-mb-style .header-links .customer-links .acc-links{text-transform:lowercase}
 .login-register-page-info h2.main-title-name{font-size:60px;text-transform:lowercase!important;padding-left:15px;padding-right:15px;font-family:serifabold!important;font-display:swap}
-.login-register-page-info .login-box .account_content_info h3.title-name{font-size:28px;text-transform:lowercase;font-family: 'DIN Next Rounded LT Pro' !important;font-weight:500;font-display:swap}
+.login-register-page-info .login-box .account_content_info h3.title-name{font-size:28px;text-transform:lowercase;font-family: "DINNextRoundedLTPro-Medium" !important;font-weight:500;font-display:swap}
 .login-register-page-info input{border-radius:5px!important;border-color:#ccc!important}
 .login-register-page-info input:focus{border-color:#333!important}
 .login-register-page-info .login-box .account_content_info input.btn.action_button{font-weight: 500;background:#5e0d8b!important;color:#fff!important;font-size:18px!important;border-radius:5px;padding:10px 15px 12px!important;font-weight:700;box-shadow:none;text-transform:lowercase!important;border-color:#5e0d8b!important;border-radius:5px!important;line-height:1!important}
