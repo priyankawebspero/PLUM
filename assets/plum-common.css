@@ -4402,7 +4402,7 @@ header.page-header h2, header.page-header h2 span {
     font-size: 17px;
     line-height: 1.5;
 }
-.privacy_policy li:before {
+.privacy_policy li:before, #terms-amp-conditions .page-tpl ol li {
     min-width: 20px !important;
     font-family: "DINNextRoundedLTPro-Medium";
 }
@@ -4419,6 +4419,10 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
     font-size: 26px;
+}
+
+#terms-amp-conditions .page-tpl ul li {
+    font-size: 17px;
 }
 
 .breadcrumb {
