@@ -2645,6 +2645,7 @@ div#dropdown-cart {
     font-size: 40px;
     font-weight: 700;
     pointer-events: none;
+  margin-bottom: 20px;
 } 
 
 .template-cart .cart-template .best-sell-product .widget-product {
