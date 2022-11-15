@@ -4341,6 +4341,10 @@ main.main-content {
 header.page-header h2, header.page-header h2 span {
     font-family: "DIN Next";
 }
+.widget-title .box-title {
+    font-family: "DIN Next";
+}
+
 .homepage-blog-tab-sec .blog-tab-sec-data .tab_container .list-blog li.blog-item .article-details .article-title a {
     font-family: "DIN Next";
     font-size: 20px;
