@@ -2709,7 +2709,7 @@ div#dropdown-cart {
 }
 
 #dropdown-cart .best-sell-product .widget-title .box-title {
-   font-family: 'DIN Next Rounded LT Pro' !important;
+   font-family: "DINNextRoundedLTPro-Medium" !important;
 }
 
 @media only screen and (max-width:767px){
