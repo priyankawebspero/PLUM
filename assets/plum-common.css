@@ -2686,6 +2686,7 @@ div#dropdown-cart {
 .template-cart .cart-template .best-sell-product .widget-product .grid-item .product-item .inner-top .product-bottom .price-box {
     padding: 0 10px;
     margin-bottom: 0;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 .template-cart .cart-template .best-sell-product .widget-product .grid-item .product-item .inner-top .product-bottom .action {
