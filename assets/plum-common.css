@@ -4339,6 +4339,11 @@ header.page-header h2, header.page-header h2 span {
     font-size: 16px !important;
 }
 
+.blog-page-info .list-blog li.blog-item a.btn {
+    font-size: 16px !important;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
+
 .product-shop .groups-btn .shopify-payment-button {
     display: none;
 }
