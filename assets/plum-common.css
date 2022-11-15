@@ -2112,7 +2112,7 @@ div#shopify-section-related-blod-sec {
 
 #shopify-section-article-template .product_section h3 + p {
     font-size: 20px;
-    font-weight: 600;
+   font-family: "DINNextRoundedLTPro-Medium";
 }
 
 .template-article .product_section .inner.product-item .inner-top {
