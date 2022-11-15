@@ -291,7 +291,7 @@ html{padding-bottom:0!important}
 #dropdown-cart .btn.btn-continue{font-weight: 500;background:#5e0d8b!important;color:#fff!important;font-size:18px;min-width:inherit;text-transform:lowercase}
 .search-open .wrapper-header .close-search{color:#5e0c8c}
 .wrapper-header .close-search svg{width:26px;height:26px}
-.inner-page.page-contact .contact-banner h2{font-weight:bold;font-family: 'DIN Next Rounded LT Pro' !important;font-display:swap;font-size:60px}
+.inner-page.page-contact .contact-banner h2{font-family: "DIN Next" !important;font-display:swap;font-size:60px}
 #dropdown-cart .no-items{padding:0 14px}
 #dropdown-cart .actions .button .btn-view-cart{text-transform:lowercase!important}
 .site-footer section.newsletter input.btn{font-size: 18px;text-transform:lowercase}
