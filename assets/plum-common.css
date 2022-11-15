@@ -2060,6 +2060,12 @@ div#shopify-section-related-blod-sec {
     color: #fff!important;
 }
 
+.product_section .inner.product-item .inner-top .product-bottom .btn[disabled="disabled"] {
+    /* opacity: 0.3; */
+    background: #c1c1c1!important;
+    border-color: #c1c1c1!important;
+}
+
 #shopify-section-article-template  .product_section .inner.product-item .price-box {
     font-size: 16px;
     font-weight: 500;
