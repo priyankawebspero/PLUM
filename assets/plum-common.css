@@ -4376,6 +4376,10 @@ header.page-header h2, header.page-header h2 span {
     font-weight: 500 !important;
 }
 
+.breadcrumb {
+    font-size: 16px;
+}
+
 .sidebar-links .widget-content li a {
     font-size: 17px;
 }
