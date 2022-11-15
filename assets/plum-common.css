@@ -1916,9 +1916,10 @@ h3.artticle-point-headinds {
 }
 
 .article-blog-inner-cs h3 {
-    font-size: 24px;
+    font-size: 26px;
     color: #5e248c;
     font-weight: 600;
+  font-family: "DIN Next";
 }
 
 .article-blog-inner-cs h4 {
