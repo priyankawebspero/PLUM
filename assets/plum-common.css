@@ -4410,11 +4410,12 @@ header.page-header h2, header.page-header h2 span {
     margin-left: 0 !important;
 }
 
-#terms-amp-conditions p {
+#terms-amp-conditions .page-tpl p {
     margin-bottom: 15px;
+    font-size: 17px;
 }
 
-#terms-amp-conditions p>strong {
+#terms-amp-conditions .page-tpl p>strong {
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
     font-size: 26px;
