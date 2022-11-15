@@ -2060,10 +2060,11 @@ div#shopify-section-related-blod-sec {
 }
 
 #shopify-section-article-template  .product_section .inner.product-item .price-box {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 5px;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 #shopify-section-article-template  .product_section .inner.product-item .price-box:before {
