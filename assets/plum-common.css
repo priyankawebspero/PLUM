@@ -2427,7 +2427,7 @@ div#dropdown-cart {
 
 #dropdown-cart .product-details .product-name {
     line-height: 15px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #dropdown-cart .mini-products-list .item .pro-name-and-price .price {
@@ -2499,7 +2499,7 @@ div#dropdown-cart {
     min-height: 35px;
     margin-bottom: 0;
     line-height: 1.3;
-    font-size: 13px;
+    font-size: 14px;
     padding-bottom: 0;
 }
 
