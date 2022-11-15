@@ -4410,6 +4410,16 @@ header.page-header h2, header.page-header h2 span {
     margin-left: 0 !important;
 }
 
+#terms-amp-conditions p {
+    margin-bottom: 15px;
+}
+
+#terms-amp-conditions p>strong {
+    font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: normal;
+    font-size: 26px;
+}
+
 .breadcrumb {
     font-size: 16px;
 }
