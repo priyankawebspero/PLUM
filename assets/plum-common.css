@@ -2346,11 +2346,11 @@ div#shopify-section-related-blod-sec {
 #dropdown-cart .best-sell-product .inner-top .product-bottom .action .btn {
     background: #5e0d8b!important;
     color: #fff!important;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 5px;
     padding: 4px 12px;
     min-width: inherit;
-    font-weight: 700;
+    font-family: "DIN Next";
     min-height: inherit;
     width: auto;
     box-shadow: none;
