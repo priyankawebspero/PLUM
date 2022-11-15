@@ -2478,6 +2478,7 @@ div#dropdown-cart {
     margin: 15px 20px;
     font-size: 14px;
     line-height: 1.5;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 #dropdown-cart .mini-products-list .item .quantity-box {
