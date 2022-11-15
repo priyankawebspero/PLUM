@@ -4348,6 +4348,12 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DINNextRoundedLTPro-Medium";
 }
 
+.detail-page-blog-sec ul.list-blog li .article-details .actions a {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
+
 .halo-blog-content.article-content .article-details .rte p {
     font-size: 17px;
 }
