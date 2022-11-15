@@ -4346,6 +4346,10 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DINNextRoundedLTPro-Medium";
 }
 
+.halo-blog-content.article-content .article-details .rte p {
+    font-size: 17px;
+}
+
 body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
     text-transform: lowercase !important;
 }
