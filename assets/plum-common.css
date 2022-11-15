@@ -4368,6 +4368,14 @@ header.page-header h2, header.page-header h2 span {
     font-family: "DINNextRoundedLTPro-Medium";
 }
 
+.faqs-page .panel-group .panel-title {
+    font-size: 19px;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
+.faqs-page .panel-group .panel-title span {
+    font-weight: 500 !important;
+}
+
 .sidebar-links .widget-content li a {
     font-size: 17px;
 }
