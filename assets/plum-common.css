@@ -2479,6 +2479,7 @@ div#dropdown-cart {
     font-size: 14px;
     line-height: 1.5;
   font-family: "DINNextRoundedLTPro-Medium";
+  font-weight: normal !important;
 }
 .special_offer span {
     font-weight: normal !important;
