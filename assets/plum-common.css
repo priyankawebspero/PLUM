@@ -2039,11 +2039,10 @@ div#shopify-section-related-blod-sec {
 .product_section .inner.product-item .inner-top .product-bottom .btn {
     background: #5e0d8b!important;
     color: #fff!important;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 5px;
     padding: 8px 6px;
     min-width: inherit;
-    font-weight: 700;
     min-height: inherit;
     width: auto;
     box-shadow: none;
@@ -2052,6 +2051,7 @@ div#shopify-section-related-blod-sec {
     width: 100%;
     max-width: 100%;
   margin-bottom:0 !important;
+  font-family: "DIN Next";
 }
 
 .product_section .inner.product-item .inner-top .product-bottom .btn:hover {
