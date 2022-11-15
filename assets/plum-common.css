@@ -1375,8 +1375,8 @@ ul.site-nav-dropdown li.menu-lv-3 a span{color:#3c3c3c}
 #valentine-39-s-special-gifts-for-her .grid-item .inner.product-item .inner-top{position:relative}
 #valentine-gifts-for-him .grid-item .inner.product-item .inner-top{position:relative}
 #valentine-gifts-for-him .grid-item .inner.product-item .inner-top:before{content:"";display:block;background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/Valentines-day-offer-unit-icon.png);position:absolute;left:-12px;top:-12px;width:65px;height:60px;z-index:1;background-repeat:no-repeat;background-size:contain}
-span.old-price span{color:darkgrey;font-weight:600!important;text-decoration:line-through!important;width:100%;float:left}
-span.price.dgdfdh span span{color:darkgrey;font-weight:600!important;text-decoration:line-through!important;width:100%;float:left}
+span.old-price span{color:darkgrey;font-weight:500!important;text-decoration:line-through!important;width:100%;float:left}
+span.price.dgdfdh span span{color:darkgrey;font-weight:500!important;text-decoration:line-through!important;width:100%;float:left}
 @media only screen and (min-width: 768px) {
 .site-nav .no-mega-menu .menu-lv-2 .sub-menu-mobile{left:-moz-calc(0% + 3px);left:-webkit-calc(0% + 3px);left:-ms-calc(0% + 3px);left:calc(0% + 3px);top:0}
 a.menu__moblie.active-menu span{color:#5e248c}
