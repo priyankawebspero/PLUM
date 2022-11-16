@@ -4475,3 +4475,10 @@ body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
 }
 
 
+@media (max-width: 1199px) and (min-width:992px){
+.homepage-blog-tab-sec .blog-tab-sec-data ul.tabs li {
+    font-size: 16px;
+}
+
+}
+
