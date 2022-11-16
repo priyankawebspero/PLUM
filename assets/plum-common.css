@@ -12,14 +12,6 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
-@font-face {
-  font-family: 'DIN Next';
-  src: url('{{ "dinnextroundedltpro-medium-webfont.woff" | asset_url }}') format('woff');
-}
-
-h1, h1 a, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a { 
-  font-family:"DIN Next" !important;
-}
 
 body{ font-family: "DINNextRoundedLTW01-Regular";font-weight:400;font-display:swap}
 .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5}
