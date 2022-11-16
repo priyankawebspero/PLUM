@@ -4288,6 +4288,11 @@ main.main-content {
 }
 
 @media only screen and (max-width:767px){
+
+  .homepage-blog-tab-sec .blog-tab-sec-data .tab_container .tab_drawer_heading {
+    font-weight: normal;
+    font-family: "DINNextRoundedLTPro-Medium";
+}
   
   .header-bottom div.header-mb {
     justify-content: space-between;
