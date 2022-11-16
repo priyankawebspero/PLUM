@@ -13,12 +13,12 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}
 @font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
 @font-face {
-  font-family: 'DINNextRoundedLTPro-Medium';
+  font-family: 'DIN Next';
   src: url('{{ "dinnextroundedltpro-medium-webfont.woff" | asset_url }}') format('woff');
 }
 
 h1, h1 a, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a { 
-  font-family:"DINNextRoundedLTPro-Medium" !important;
+  font-family:"DIN Next" !important;
 }
 
 body{ font-family: "DINNextRoundedLTW01-Regular";font-weight:400;font-display:swap}
