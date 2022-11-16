@@ -673,6 +673,7 @@ span.st-brand-outer{display:none}
 .page-orders .yellow_btn,.template-customers-account .yellow_btn,.template-customers-addresses .yellow_btn,.template-customers-order .yellow_btn{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:12px 25px;font-weight:700;box-shadow:none;text-transform:lowercase!important;display:inline-block;margin-top:15px;text-align:center;height:auto!important;line-height:normal!important}
 .page-orders .yellow_btn:hover,.template-customers-account .yellow_btn:hover,.template-customers-addresses .yellow_btn:hover,.template-customers-order .yellow_btn:hover{color:#fff!important;background:#8901bd!important}
 #lion-loyalty-panel-custom-css span.lion-loyalty-widget__points{display:none!important}
+.price-box{font-family: "DINNextRoundedLTPro-Medium";}
 @media (min-width: 780px) {
 .header-bottom .header-mb{height:auto!important;transition:all .5s ease-in-out}
 }
