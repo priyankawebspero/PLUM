@@ -4229,6 +4229,14 @@ main.main-content {
   
 }
 
+@media (min-width: 768px){
+
+.homepage-blog-tab-sec .blog-tab-sec-data .tab_container {
+    margin-bottom: 0;
+}
+
+}
+
 @media only screen and (max-width:1400px) and (min-width:1200px){
 
 .header-bottom .header-mb .header-mb-middle.header-mb-items nav.nav-bar {
