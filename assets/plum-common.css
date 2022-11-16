@@ -4420,7 +4420,9 @@ header.page-header h2, header.page-header h2 span {
     min-width: 20px !important;
     font-family: "DINNextRoundedLTPro-Medium";
 }
-
+.homepage-blog-tab-sec .blog-tab-sec-data ul.tabs li {
+    font-family: "DINNextRoundedLTPro-Medium";
+}
 
 #terms-amp-conditions .page-tpl p {
     margin-bottom: 15px;
