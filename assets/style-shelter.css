@@ -205,7 +205,7 @@ img {
   font-size: 19px;
   font-family: "DINNextRoundedLTW01-Regular";
   color: rgb(91, 16, 139);
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-transform: uppercase;
   line-height: 1.038;
   text-align: left;
