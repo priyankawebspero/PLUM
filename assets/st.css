@@ -222,7 +222,7 @@ span.st-sorting-btn{border:none;color:#000;background-color:#fff;font-size:16px;
 #searchModal .filter-container .outer-checkbox label input[type=checkbox]:checked+.st-checkbox{background:#5e0d8b!important;border:1px solid rgba(0,0,0,.2)}
 #searchModal .filter-container .outer-checkbox label .st-checkbox:before{opacity:0;content:'';width:9px;height:6px;border:2px solid #fff;border-top:none;border-right:none;background:0 0;-ms-transform:rotate(-50deg);-webkit-transform:rotate(-50deg);transform:rotate(-50deg);-ms-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;top:2px;left:2px}
 #searchModal .filter-container .outer-checkbox label input[type=checkbox]:checked+.st-checkbox:before{opacity:1}
-#searchModal .filter-container h4{font-family:'Segoe Pro';font-weight:700;font-size:14px;line-height:1.5;color:#252525;text-transform:uppercase;display:block;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-bottom:0;padding:12px 0}
+#searchModal .filter-container h4{font-family: "DINNextRoundedLTPro-Medium";font-weight:700;font-size:14px;line-height:1.5;color:#252525;text-transform:uppercase;display:block;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-bottom:0;padding:12px 0}
 #searchModal .st-product-outer .col-md-2{width:20.5%}
 #searchModal .st-product-outer .col-md-10{width:79.5%}
 #searchModal .filter-container h4.main-filter-title .fa{float:right;margin-top:0;padding-right:0;font-size:25px;margin-top:-1px}
