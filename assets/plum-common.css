@@ -608,7 +608,7 @@ div#instafeed{margin:0;display:none}
 .des_faqs span{font-size:37px!important;font-display:swap; font-weight: bold;font-family: "DINNextRoundedLTW01-Regular";}
 .faqs-page .des_faqs{margin-bottom:25px}
 .faqs-page .panel-group .panel-title a{border-bottom:1px solid #ccc;padding-right:25px;padding-left:0}
-.jas-mb-style .header-links .customer-links .acc-links{color:#5e0d8b;font-weight:500;text-decoration:underline}
+.jas-mb-style .header-links .customer-links .acc-links{font-family: "DINNextRoundedLTPro-Medium";color:#5e0d8b;font-weight:500;text-decoration:underline}
 #dropdown-cart .sezzle-checkout-button-wrapper .sezzle-button-text{max-width:100%!important;margin-bottom:15px}
 #dropdown-cart .mini-products-list .item .btn-remove{color:#5e0c8c}
 #dropdown-cart .total{background:#f8f8f8}
