@@ -33,13 +33,13 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Light.otf?v=1668674334') format("opentype");
 }
 
-body{ font-family: "DINNextRoundedLTW01-Regular";font-weight:400;font-display:swap}
+body{  font-family: "DINNextRoundedLTPro-Regular";font-weight:400;font-display:swap}
 .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5}
 .featured-products .product-item .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5;order:7}
 .template-collection p.btn_disable_add_to.cart{position:absolute;bottom:0;left:0;right:0;margin-bottom:0;margin-top:7px}
 .translate-overlay .doubly-wrapper{pointer-events:none}
 .melt_goodness .image_section{width:100%;display:flex;flex-wrap:wrap;height:100%;align-items:center;justify-content:center}
-.melt_goodness .image_section p{font-size:65px;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;line-height:normal;color:#5b0f8b;width:100%;max-width:100%;margin:0 auto;display:block;text-align:center;padding:50px 0;line-height:1.1}
+.melt_goodness .image_section p{font-size:65px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;line-height:normal;color:#5b0f8b;width:100%;max-width:100%;margin:0 auto;display:block;text-align:center;padding:50px 0;line-height:1.1}
 .product-pge-tabs .tabs{margin-top:-52px;border:none}
 .product-pge-tabs .tabs ul.tabs{margin-top:0;margin-top:0;text-align:center}
 .product-pge-tabs .tabs ul.tabs li{float:none;display:inline-block;vertical-align:middle;background:#e0e0e0;color:#000;font-family: "DINNextRoundedLTPro-Medium" !important; font-display:swap;font-size:18px;padding:14px 10px;width:auto;min-width:165px;overflow:visible;margin:0 6px;border-radius:10px 10px 0 0;}
@@ -96,8 +96,8 @@ body{ font-family: "DINNextRoundedLTW01-Regular";font-weight:400;font-display:sw
 .product-shop .delivery-time-infos{background:#D9C4E3;width:100%;max-width:100%;padding:15px 3rem 10px}
 .product-shop .delivery-time-infos ul{margin-bottom:0}
 .product-shop .delivery-time-infos ul li .check-pincode{border:none!important}
-.product-shop .delivery-time-infos ul li .check-pincode input#pincode_input{border-radius:5px;padding:10px 15px;font-size:15px;font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
-.product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit{width:auto;background:#fff;height:40px;line-height:40px;border-radius:5px;padding:0 25px;margin-left:15px;font-size:15px;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;cursor:pointer;color:#5e0c8c;font-weight:400}
+.product-shop .delivery-time-infos ul li .check-pincode input#pincode_input{border-radius:5px;padding:10px 15px;font-size:15px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap}
+.product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit{width:auto;background:#fff;height:40px;line-height:40px;border-radius:5px;padding:0 25px;margin-left:15px;font-size:15px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;cursor:pointer;color:#5e0c8c;font-weight:400}
 .product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit b{font-weight:900}
 .product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit:hover{background:#5e0c8c;color:#fff}
 .product-shop .planet_div img{max-width:40px}
@@ -224,7 +224,7 @@ ul.social-icons li a{width:100%;height:100%;display:flex;justify-content:center;
 div.email_add{font-size:12px;padding:5px 19px 0;text-align:center}
 .product-shop div#product-variants .quantity_varients{width:100%;display:flex}
 .product-upper-section .product_top .col-md-7.product-shop{background:#F5F0F7;padding:15px 0}
-.product-shop .product_title_box .range-link{font-size:24px;text-transform:capitalize;color:#e33a5a;font-weight:500;font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
+.product-shop .product_title_box .range-link{font-size:24px;text-transform:capitalize;color:#e33a5a;font-weight:500;font-family: "DINNextRoundedLTPro-Regular";font-display:swap}
 p.now_at{display:inline-block}
 .now_at span.price.on-sale{font-size:28px;color:#000;font-weight:600}
 .product-shop .price_info_box .price-manufacturer .sezzle-shopify-info-button{margin:0!important;display:inline-flex;align-items:center}
@@ -235,7 +235,7 @@ p.now_at{display:inline-block}
 .product .col-md-12 .product-infor .product-type.no-recom{border-right:none}
 #add-to-cart-form input#product-add-to-cart{width:auto!important;border-radius:5px;padding:12px;min-width:150px;display:inline-block!important;margin:0 5px;background:#5e0c8c}
 #add-to-cart-form .iwishAddWrap{width:auto;display:inline-block;margin:0 5px}
-#add-to-cart-form .iwishAddWrap a{border-radius:5px;padding:12px;min-width:150px;line-height:20px;background:#fff;font-size:16px;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;font-weight:700;text-transform:lowercase;color:#8d01c1;margin:0!important}
+#add-to-cart-form .iwishAddWrap a{border-radius:5px;padding:12px;min-width:150px;line-height:20px;background:#fff;font-size:16px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;font-weight:700;text-transform:lowercase;color:#8d01c1;margin:0!important}
 #add-to-cart-form .iwishAddWrap a.iWishAdd.wishlist{color:#8e01c3;background:#fff!important;text-align:center;display:block!important}
 .hamburger-icon span.icon-line:before,.hamburger-icon span.icon-line:after{width:24px;height:2px}
 html.search-open .wrapper_header_parallax div.quickSearchResultsWrap{top:55px;width:calc(100% - 30px);margin:0 auto;position:relative;max-width:1170px}
@@ -285,7 +285,7 @@ div#simpAskQuestion .accordionSimpQA ul li p.simpAnswerHolder{font-weight:300!im
 .product-item .product-label img{display:none}
 .product-item .product-label{padding-top:19px;background:#d9c5e3;width:45px;text-align:center;border-radius:0 0 10px 10px;right:15px}
 .product-label .label.sale-label{line-height:1!important}
-.product-item .product-label .label{font-size:17px;color:#5e0c8c;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;position:relative;line-height:1!important;width:100%;min-width:inherit;left:0}
+.product-item .product-label .label{font-size:17px;color:#5e0c8c;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;position:relative;line-height:1!important;width:100%;min-width:inherit;left:0}
 .footer-social .social-icons{padding-top:0!important}
 a.social_media{border-left:1px solid #505050;padding-left:14px;font-weight:700;color:#000}
 .footer-social .mobile_no a.social_media{color:#000!important;font-size:14px}
@@ -294,7 +294,7 @@ a.social_media{border-left:1px solid #505050;padding-left:14px;font-weight:700;c
 .price-box .special-price{color:#000}
 #loyaltylion .lion-action-button,#loyaltylion .lion-action-button{background:#5e0d8b!important;color:#fff!important;padding:7px 25px 11px!important;font-size:19px!important;text-transform:lowercase!important;font-weight:600!important}
 #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title{font-size:0;position:relative;border-radius:10px 10px 0 0!important;padding:8px 15px!important;min-height:inherit;text-align:center}
-#loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:14px;display:inline-block;text-transform:uppercase;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;position:relative;top:2px;vertical-align:middle;padding-left:5px}
+#loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:14px;display:inline-block;text-transform:uppercase;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;position:relative;top:2px;vertical-align:middle;padding-left:5px}
 #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title .lion-loyalty-widget__icon{background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/gift-box1.svg);background-repeat:no-repeat;display:inline-block;width:31px;height:31px;background-size:contain;vertical-align:middle;filter:invert(1)}
 #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title span.lion-loyalty-widget__icon:after{display:none!important}
 .modal-open header.site-header.header-parallax{z-index:1}
@@ -314,7 +314,7 @@ html{padding-bottom:0!important}
 .inner-page.page-contact .contact-banner h2{font-family: "DIN Next" !important;font-display:swap;font-size:60px}
 #dropdown-cart .no-items{padding:0 14px}
 #dropdown-cart .actions .button .btn-view-cart{text-transform:lowercase!important}
-.site-footer section.newsletter input.btn{font-family: "DINNextRoundedLTW01-Regular";font-size: 17px;text-transform:lowercase}
+.site-footer section.newsletter input.btn{font-family: "DINNextRoundedLTPro-Regular";font-size: 17px;text-transform:lowercase}
 .site-footer section.newsletter .input-group-field{text-transform:lowercase}
 .iwishWrapper .collection-header h1{font-family:serifabold!important;font-size:60px;margin-bottom:20px;font-display:swap}
 .iwishShareContainer{padding:0 15px}
@@ -601,7 +601,7 @@ div.goodness-inside{padding:15px 0 0}
 #add-to-cart-form .selector-wrapper{flex:1;justify-content:end}
 .product-shop div#product-variants .quantity_varients > *{margin:5px 0}
 .product-shop div#product-variants .quantity_varients{flex-direction:column}
-.product-shop .product_title_box .range-link{font-size:24px;text-transform:capitalize;color:#e33a5a;font-weight:500;font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
+.product-shop .product_title_box .range-link{font-size:24px;text-transform:capitalize;color:#e33a5a;font-weight:500;font-family: "DINNextRoundedLTPro-Regular";font-display:swap}
 }
 @media (max-width: 575px) {
 .featured-products .product-item .btn_disable_add_to.cart{max-width:90%}
@@ -615,7 +615,7 @@ main.main-content{padding-top:116px;}
 .home-slideshow .container-fluid{max-width:100%!important;width:100%!important}
 div#dropdown-cart{z-index:99999999!important}
 .translate-overlay .header-mb-right.header-mb-items{pointer-events:none}
-.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-family: "DINNextRoundedLTW01-Regular";font-size:18px;color:#511687!important;text-transform:lowercase;font-display:swap}
+.wrapper_header_parallax ul.site-nav .menu-lv-1>a>span{font-family: "DINNextRoundedLTPro-Regular";font-size:18px;color:#511687!important;text-transform:lowercase;font-display:swap}
 body .footer-bottom.container{width:100%!important;max-width:100%!important}
 header.site-header.header-parallax.stickyHeader{background:#fff}
 .body-full .container,.container-padd60{max-width:1270px;padding:0 15px}
@@ -625,7 +625,7 @@ div#instafeed{margin:0;display:none}
 .page-careers .content .text-wrap h2{font-weight:600!important;font-family: "DIN Next" !important;font-display:swap}
 .faqs-page header.page-header h1.blog-headline span{font-family: "DIN Next" !important;font-size:60px;font-display:swap}
 .faqs-page header.page-header h1.blog-headline{margin-bottom:55px;margin-top:15px}
-.des_faqs span{font-size:37px!important;font-display:swap; font-weight: bold;font-family: "DINNextRoundedLTW01-Regular";}
+.des_faqs span{font-size:37px!important;font-display:swap; font-weight: bold;font-family: "DINNextRoundedLTPro-Regular";}
 .faqs-page .des_faqs{margin-bottom:25px}
 .faqs-page .panel-group .panel-title a{border-bottom:1px solid #ccc;padding-right:25px;padding-left:0}
 .jas-mb-style .header-links .customer-links .acc-links{font-family: "DINNextRoundedLTPro-Medium";color:#5e0d8b;font-weight:500;text-decoration:underline}
@@ -633,7 +633,7 @@ div#instafeed{margin:0;display:none}
 #dropdown-cart .mini-products-list .item .btn-remove{color:#5e0c8c}
 #dropdown-cart .total{background:#f8f8f8}
 .empties-faqs-section h3{text-transform:lowercase;font-weight:500!important}
-.rte{font-family: "DINNextRoundedLTW01-Regular";font-display:swap}
+.rte{font-family: "DINNextRoundedLTPro-Regular";font-display:swap}
 .cart-template .page-header h1{text-transform:lowercase!important}
 .cart-template .wrapper-cart-template .cart-list .group-action .update{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;box-shadow:none;text-transform:lowercase!important}
 .cart-template .wrapper-cart-template .cart-list .group-action .update:hover{color:#fff!important;background:#8901bd!important}
@@ -664,7 +664,7 @@ div#instafeed{margin:0;display:none}
 .login-register-page-info .login-box .account_content_info input.btn.action_button:hover{color:#fff!important;background:#8901bd!important;border-color:#8901bd!important}
 .login-register-page-info .login-box .account_content_info .forgot-pwd{color:#333;text-decoration:underline;text-transform:lowercase}
 .template-search #searchModalContainer{background:#ebe0f0;padding-top:60px}
-.template-search #searchModalContainer .st-filter-title{border:1px solid #5e0c8c;font-family: "DINNextRoundedLTW01-Regular";font-weight:400;font-size:15px;font-display:swap}
+.template-search #searchModalContainer .st-filter-title{border:1px solid #5e0c8c;font-family: "DINNextRoundedLTPro-Regular";font-weight:400;font-size:15px;font-display:swap}
 .template-search #searchModalContainer .inner.product-item{background:#fff;padding:15px 15px 20px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;height:100%;border-radius:10px;width:100%;margin-bottom:0}
 .template-search #searchModalContainer .col-lg-4.st-products{margin-bottom:30px}
 .template-search #searchModal .product-item .product-top{min-height:inherit}
@@ -853,7 +853,7 @@ body .search-div-on-error .search-bar .input-group-field{border-radius:5px}
 body .error_page .content-infos a.btn{background:#5e0d8b!important;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;min-width:inherit;font-weight:500;min-height:inherit;width:auto;box-shadow:none;margin-top:0;max-width:300px;width:100%;margin-left:auto;margin-right:auto}
 body .error_page .content-infos a.btn:hover{color:#fff!important;background:#8901bd!important}
 .cart-template .cart-check{border-radius:0;font-weight:700;margin-bottom:30px}
-.cart-check{font-weight:500;padding:15px 20px;border-radius:6px;margin-top:20px;margin-bottom:20px;text-align:center;font-size:15px;font-weight:500;font-family: "DINNextRoundedLTW01-Regular";color:#5e0c8c;border:1px solid #5e0c8c;font-weight:bold}
+.cart-check{font-weight:500;padding:15px 20px;border-radius:6px;margin-top:20px;margin-bottom:20px;text-align:center;font-size:15px;font-weight:500;font-family: "DINNextRoundedLTPro-Regular";color:#5e0c8c;border:1px solid #5e0c8c;font-weight:bold}
 .grid-item .product-item,.st-products .product-item{position:relative;overflow:hidden}
 .header-search__results-wrapper .product-vendor{display:none}
 .product_form_desciption span.span_taxes{display:block;font-size:15px}
@@ -1016,7 +1016,7 @@ button.bxp-bldr-backward,button.bxp-bldr-forward,button.bxp-bldr-add,button.bxp-
 .bxp-bldr-body #loyaltylion .lion-loyalty-widget_position_left{bottom:auto!important;right:0!important;left:auto!important;top:105px;z-index:1111}
 .bxp-bldr-body #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title{font-size:0;position:relative;transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);transform-origin:right bottom;float:left;border-radius:7px 7px 0 0!important;padding-left:45px!important;min-height:45px;text-align:center}
 .bxp-bldr-body #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title .lion-loyalty-widget__icon{background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/gift-box1.svg);background-repeat:no-repeat;display:inline-block;width:31px;height:31px;background-size:contain;vertical-align:middle;filter:invert(1);display:block;background-size:contain;position:absolute;bottom:5px;left:10px;filter:invert(1)}
-.bxp-bldr-body #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:15px;text-transform:uppercase;display:block;text-transform:uppercase;font-family: "DINNextRoundedLTW01-Regular";font-display:swap;position:relative;top:7px}
+.bxp-bldr-body #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title:after{content:"Goodness Land Rewards";font-size:15px;text-transform:uppercase;display:block;text-transform:uppercase;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;position:relative;top:7px}
 div#bxp-steps{pointer-events:none}
 .cart-template .wrapper-cart-template .cart-list .details{flex-wrap:wrap}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-box_general{padding:0;opacity:0;height:0;visibility:hidden}
@@ -1667,7 +1667,7 @@ div#flash-sale .counter_text .side_text {
 }
 
 div#flash-sale .counter_text .side_text {
-    font-family: "DINNextRoundedLTW01-Regular";
+    font-family: "DINNextRoundedLTPro-Regular";
     font-weight: 600;
     font-size: 18px;
 }
@@ -2961,7 +2961,7 @@ div#flash-sale .counter_text .side_text {
 }
 
 div#flash-sale .counter_text .side_text {
-    font-family: "DINNextRoundedLTW01-Regular";
+    font-family: "DINNextRoundedLTPro-Regular";
     font-weight: 600;
     font-size: 18px;
 }
@@ -3393,7 +3393,7 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     padding-top: 45px !important;
 }
 .st-result-inner {
-    font-family: "DINNextRoundedLTW01-Regular";
+    font-family: "DINNextRoundedLTPro-Regular";
 }
 #searchModal div#noResults {
     background: #5b0c8b!important;
@@ -3956,7 +3956,7 @@ div#shopify-section-1655883262101dbbf0 {
 .home-list-collections .title-collection a span {
     font-size: 12px;
     line-height: normal;
-    font-family: "DINNextRoundedLTW01-Regular";
+    font-family: "DINNextRoundedLTPro-Regular";
 }
   
 .home-list-collections .row .grid-item.col-3 {
