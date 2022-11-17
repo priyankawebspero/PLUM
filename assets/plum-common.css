@@ -704,7 +704,7 @@ span.st-brand-outer{display:none}
 .template-product .product-upper-section .product-photos{-ms-flex:0 0 48.5%;flex:0 0 48.5%!important;max-width:48.5%!important}
 .template-product .product-upper-section .product-shop{-ms-flex:0 0 51.5%!important;flex:0 0 51.5%!important;max-width:51.5%!important}
 .footer-default .footer-top .footer-col-left .col-footer.col-12.col-md-4 .col-footer-outer{text-align:left}
-.footer-default .footer-top .footer-col-right div.email_add{clear:both;float:right;width:100%;max-width:375px}
+.footer-default .footer-top .footer-col-right div.email_add{font-family: "DINNextRoundedLTPro-Regular";clear:both;float:right;width:100%;max-width:375px}
 .site-footer .footer-newsletter{float:right}
 .site-footer .footer-social{clear:both;float:right;width:100%}
 }
