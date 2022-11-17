@@ -338,12 +338,12 @@ body .iwishProducts.products-grid .product-image img{min-height:inherit!importan
 .iwishProducts a.iwishRemoveBtn{text-transform:lowercase}
 .iwishProducts .grid-item .inner.product-item{box-shadow:0 2px 10px #000}
 .inner-page.page-contact .contact-banner h2{text-transform:lowercase}
-.contact-grid .text-wrap span,.contact-grid .text-wrap a{font-family: "DINNextRoundedLTW01-Regular" !important;font-display:swap; font-weight: 400 !important;}
+.contact-grid .text-wrap span,.contact-grid .text-wrap a{font-family: "DINNextRoundedLTPro-Regular" !important;font-display:swap; font-weight: 400 !important;}
 .contact-grid .text-wrap h4{font-family: "DINNextRoundedLTPro-Medium";}
 header.page-header h1{text-transform:lowercase}
 #shopify-section-contact-template .formbox h2{font-weight:500}
-#shopify-section-contact-template .assistance-form .field input[type="text"],#shopify-section-contact-template .assistance-form .field input[type="email"],#shopify-section-contact-template .assistance-form .field input[type="phone"]{border:1px solid #ccc!important;line-height:1;height:46px;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: "DINNextRoundedLTW01-Regular" !important;font-display:swap}
-#shopify-section-contact-template .assistance-form .field textarea{border:1px solid #ccc!important;line-height:1;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: "DINNextRoundedLTW01-Regular" !important; font-display:swap}
+#shopify-section-contact-template .assistance-form .field input[type="text"],#shopify-section-contact-template .assistance-form .field input[type="email"],#shopify-section-contact-template .assistance-form .field input[type="phone"]{border:1px solid #ccc!important;line-height:1;height:46px;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: "DINNextRoundedLTPro-Regular" !important;font-display:swap}
+#shopify-section-contact-template .assistance-form .field textarea{border:1px solid #ccc!important;line-height:1;color:#000;background:#fff;border-radius:5px!important;padding:10px!important;font-family: "DINNextRoundedLTPro-Regular" !important; font-display:swap}
 #shopify-section-contact-template .assistance-form .field input[type="submit"]{background:#5e0d8b!important;color:#fff!important;font-size:18px!important;border-radius:5px!important;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto!important;box-shadow:none;min-width:165px!important;font-family: "DINNextRoundedLTPro-Medium" !important;text-transform:lowercase;font-display:swap}
 #shopify-section-contact-template .assistance-form .field input[type="submit"]:hover{color:#fff!important;background:#8901bd!important}
 #shopify-section-contact-template ul.social li{margin:0 5px!important}
@@ -620,7 +620,7 @@ body .footer-bottom.container{width:100%!important;max-width:100%!important}
 header.site-header.header-parallax.stickyHeader{background:#fff}
 .body-full .container,.container-padd60{max-width:1270px;padding:0 15px}
 div#instafeed{margin:0;display:none}
-.page-careers .content .text-wrap p{font-family: "DINNextRoundedLTW01-Regular" !important;font-display:swap}
+.page-careers .content .text-wrap p{font-family: "DINNextRoundedLTPro-Regular" !important;font-display:swap}
 .careers-banner h2{font-family: "DIN Next" !important;font-size:60px!important;font-display:swap}
 .page-careers .content .text-wrap h2{font-weight:600!important;font-family: "DIN Next" !important;font-display:swap}
 .faqs-page header.page-header h1.blog-headline span{font-family: "DIN Next" !important;font-size:60px;font-display:swap}
@@ -1023,7 +1023,7 @@ div#bxp-steps{pointer-events:none}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8{-ms-flex:0 0 100%!important;flex:0 0 100%!important;max-width:100%!important;margin:0}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-step-box-imgs{text-align:center;padding-bottom:10px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container{border:1px solid #ccc;padding:15px;background:#fff;margin-top:20px;margin-bottom:0}
-.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container .bxp-thumbnail-qty{background:#d9c5e3;color:#000;font-size:17px;color:#5e0c8c;font-family: "DINNextRoundedLTW01-Regular" !important;border-radius:0 0 4px 4px;min-width:24px}
+.bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-8 .bxp-summary-container .bxp-thumbnail-qty{background:#d9c5e3;color:#000;font-size:17px;color:#5e0c8c;font-family: "DINNextRoundedLTPro-Regular" !important;border-radius:0 0 4px 4px;min-width:24px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list{background:#fff;padding:25px;border-radius:10px}
 .bxp-bldr-step.bxp-bldr-submit:last-child .bxp-bldr-col-lg-4 .bxp-step-box-list h5{font-family: "DINNextRoundedLTPro-Medium" !important;letter-spacing:1px;color:#5e0d8b;font-size:35px;letter-spacing:0;font-weight:400;margin-bottom:20px}
