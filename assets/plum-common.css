@@ -4851,5 +4851,128 @@ body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
 
 /*------------home-tbas-section-end----------------*/
 
+/*-------saver-product-design----------------*/
+.saver-products-sections {
+    /* margin: 50px 0; */
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    vertical-align: top;
+}
+
+.saver-products-sections div#flash-sale .counter_text {
+   width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+  margin-bottom: 10px;
+  /*background: green;*/
+  background: linear-gradient(270deg, #5e0d8b 23.86%, #8e0ad7 47.06%, #5e0d8b 66.05%);
+  background-size: 50%;
+ animation: anime 2s linear infinite;
+}
+
+
+@keyframes anime {
+  0% {
+    background-position: 0%;
+  }
+ 50% {
+    background-position: 50%;
+  }
+  
+  100% {
+    background-position: 100%;
+  }
+}
+
+
+
+.saver-products-sections div#flash-sale .counter_text .side_text {
+    padding-right: 1px;
+    letter-spacing: 1px;
+}
+
+.saver-products-sections div#flash-sale .counter_text p {
+    margin: 0;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+    font-size: 20px;
+    margin: 0 2px;
+    min-width: 36px;
+  justify-content: center;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown:after {
+    display: none;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown span.inner {
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown .ocount {
+    font-size: 20px;
+    font-weight: normal;
+}
+.saver-products-sections .featured-products .inner.product-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.saver-products-sections div#flash-sale .counter_text .side_text img {
+    max-width: 22px;
+    vertical-align: top;
+    filter: invert(1);
+}
+
+@media only screen and (max-width:767px){
+
+.saver-products-sections div#flash-sale .counter_text {
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown {
+    font-size: 17px;
+    min-width: 29px;
+}
+
+.saver-products-sections div#flash-sale .counter_text p .countdown .ocount, .saver-products-sections div#flash-sale .counter_text p .countdown span.inner {
+    font-size: 16px;
+    font-weight: normal;
+}
+.saver-products-sections div#flash-sale .counter_text p .sup_seconds.countdown {
+    margin-right: 0;
+}
+
+.saver-products-sections div#flash-sale .counter_text {
+    width: 100%;
+    max-width: 290px;
+    padding: 7px;
+    margin-bottom: 10px;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.saver-products-sections div#flash-sale .counter_text .side_text {
+    padding-right: 1px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+
+}
+
+/*-------saver-product-designend----------------*/
 
 
