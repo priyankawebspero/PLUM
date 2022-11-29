@@ -4974,5 +4974,100 @@ body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
 }
 
 /*-------saver-product-designend----------------*/
+/*--------------plum-firday-css------------*/
 
+.inner.product-item.plum850:after, .template-search .inner.product-item span.plum850{display:none !important;}
+#dropdown-cart .mini-products-list li.plum850 .product-image:before {display:none !important;}
+
+.product-item span.plum-friday {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    background: #5e248c;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
+    padding: 6px 4px;
+    line-height: 1;
+  z-index: 9;
+}
+.template-index .product-item span.plum-friday {
+    top: 10px;
+    left: 0;
+}
+
+.wrapper-images span.plum-friday {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#5e248c;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
+   padding: 6px 4px;
+    line-height: 1;
+  z-index: 9;
+}
+
+.template-search .product-item span.plum-friday {
+    top: 10px;
+    left: 0;
+    z-index: 9;
+}
+
+#dropdown-cart .mini-products-list .product-image span.plum-friday {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #5e248c;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 5px 5px 0;
+    padding: 4px 3px;
+    line-height: 1;
+    z-index: 9;
+}
+span.plum-friday i.fa {
+    color: #feff38;
+}
+
+@media only screen and (max-width:767px){
+.wrapper-images span.plum-friday {
+    right: 0;
+    left: auto;
+    border-radius: 5px 0px 0px 5px;
+}
+}
+
+@media only screen and (max-width:575px){
+
+.product-item span.plum-friday {
+    top: -3px;
+    left: -5px;
+    width: 42px;
+  border-radius: 0 0 5px 5px;
+}
+
+.template-index .product-item span.plum-friday {
+   top: 0;
+    left: 0px;
+    border-radius: 0 0 5px 5px;
+}
+
+.template-search .product-item span.plum-friday {
+   top: 0;
+    left: 0px;
+    border-radius: 0 0 5px 5px;
+}
+#dropdown-cart .mini-products-list .product-image span.plum-friday {
+    left: -10px;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 3px 3px;
+    width: 34px;
+    text-align: center;
+}
+  
+}
+/*--------------plum-firday-css-end------------*/
 
