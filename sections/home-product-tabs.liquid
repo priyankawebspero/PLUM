@@ -30,7 +30,7 @@
             <ul class="list-product-tabs{% if section.settings.tabs_style == 'style_2' %} product-tabs-style2{% elsif section.settings.tabs_style == 'style_3' %} product-tabs-style3{% endif %}">
                 {% for block in section.blocks %}
                 <li>
-                <a href="#" data-target="#product-tab-{{ block.id }}" data-product-tabTop data-href="/collections/{{ block.settings.collection }}?view=json" class="tab-links{% if forloop.first %} active{% endif %}">
+                <a href="#" data-target="#product-tab-{{ block.id }}" data-product-tabTop class="tab-links{% if forloop.first %} active{% endif %}">
                     {% include 'multilang' with block.settings.title %}
                 </a>
                 </li>
@@ -39,10 +39,17 @@
             
             <div class="product-tabs-content">
                 {% for block in section.blocks %}
-                <div class="tab-content{% if forloop.first %} active{% endif %}" data-product-TabContent id="product-tab-{{ block.id }}">
-                    <div class="products-grid row {{ row }}" data-row="{{ section.settings.collection_results_per_row }}">
-                        <div class="loading col-12"></div>
+                <div class="tab-content{% if forloop.first %} active{% endif %}" data-product-TabContent id="product-tab-{{ block.id }}">                    
+                  <div class="products-grid row {{ row }}">
+                        <div class="products-grid row four-items">
+                         {% for product in collections[block.settings.collection].products limit:4 %} 
+                          <div class="col-3">
+                            {% include 'product-grid-item' %}
+                           </div>
+                         {% endfor %}
+                        </div>
                     </div>
+                  <a href="/collections/{{ block.settings.collection }}"> View more </a>
                 </div>
                 {% endfor %}
             </div>
