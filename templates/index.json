@@ -169,8 +169,59 @@
         "auto_playvideo": true
       }
     },
+    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac": {
+      "type": "home-product-tabs",
+      "blocks": {
+        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "Bestsellers",
+            "collection": "single-products-offer"
+          }
+        },
+        "a182cbe3-bad8-4303-891d-d9993e718f3c": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "super savers",
+            "collection": "supersavers"
+          }
+        },
+        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7": {
+          "type": "ProductTabs",
+          "disabled": true,
+          "settings": {
+            "title": "Trending",
+            "collection": "trending-now"
+          }
+        },
+        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "new launches",
+            "collection": "new-launches"
+          }
+        }
+      },
+      "block_order": [
+        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67",
+        "a182cbe3-bad8-4303-891d-d9993e718f3c",
+        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7",
+        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16"
+      ],
+      "settings": {
+        "product_tabs_title": "best of plum",
+        "product_tabs_des": "",
+        "title_style": "style_1",
+        "collection_results_per_row": "4",
+        "tabs_style": "style_1",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 10
+      }
+    },
     "c5183f7b-7b83-4a28-a10a-c3849d483b97": {
       "type": "home-game-banner",
+      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
@@ -437,61 +488,12 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac": {
-      "type": "home-product-tabs",
-      "blocks": {
-        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67": {
-          "type": "ProductTabs",
-          "settings": {
-            "title": "Bestsellers",
-            "collection": "single-products-offer"
-          }
-        },
-        "a182cbe3-bad8-4303-891d-d9993e718f3c": {
-          "type": "ProductTabs",
-          "settings": {
-            "title": "super savers",
-            "collection": "supersavers"
-          }
-        },
-        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7": {
-          "type": "ProductTabs",
-          "disabled": true,
-          "settings": {
-            "title": "Trending",
-            "collection": "trending-now"
-          }
-        },
-        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16": {
-          "type": "ProductTabs",
-          "settings": {
-            "title": "new launches",
-            "collection": "new-launches"
-          }
-        }
-      },
-      "block_order": [
-        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67",
-        "a182cbe3-bad8-4303-891d-d9993e718f3c",
-        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7",
-        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16"
-      ],
-      "settings": {
-        "product_tabs_title": "best of plum",
-        "product_tabs_des": "",
-        "title_style": "style_1",
-        "collection_results_per_row": "4",
-        "tabs_style": "style_1",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 10
-      }
     }
   },
   "order": [
     "home-list-collections",
     "1658484860c65081e1",
+    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
     "c5183f7b-7b83-4a28-a10a-c3849d483b97",
     "1658485109ce9a8560",
     "1660732889a3929fc1",
@@ -501,7 +503,6 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc",
-    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac"
+    "1658485170941c47bc"
   ]
 }
