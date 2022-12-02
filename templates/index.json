@@ -514,6 +514,14 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
+        "link": "",
+        "banner-class": ""
+      }
     }
   },
   "order": [
@@ -531,6 +539,7 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539"
   ]
 }
