@@ -437,6 +437,39 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac": {
+      "type": "home-product-tabs",
+      "blocks": {
+        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "Bestsellers",
+            "collection": "single-products-offer"
+          }
+        },
+        "a182cbe3-bad8-4303-891d-d9993e718f3c": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "super savers",
+            "collection": "supersavers"
+          }
+        }
+      },
+      "block_order": [
+        "390f1115-9afa-4b5a-b2f9-1ee0848b3b67",
+        "a182cbe3-bad8-4303-891d-d9993e718f3c"
+      ],
+      "settings": {
+        "product_tabs_title": "New Arrivals",
+        "product_tabs_des": "",
+        "title_style": "style_1",
+        "collection_results_per_row": "5",
+        "tabs_style": "style_1",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 10
+      }
     }
   },
   "order": [
@@ -451,6 +484,7 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac"
   ]
 }
