@@ -301,9 +301,7 @@
     "1660732889a3929fc1": {
       "type": "home-featured-products",
       "settings": {
-        "image_1": "shopify:\/\/shop_images\/Make-up_Desktop.png",
-        "image_picker_mobile": "shopify:\/\/shop_images\/Make-up_Mob.png",
-        "featured_products_title": "",
+        "featured_products_title": "buy 2 get 1 free",
         "featured_products_des": "",
         "title_style": "style_1",
         "show_slider_featured_collection": "makeup",
