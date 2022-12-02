@@ -519,6 +519,7 @@
       "type": "home-game-banner",
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
         "link": "",
         "banner-class": ""
       }
