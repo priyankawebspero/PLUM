@@ -273,6 +273,15 @@
         "margin_bottom": 0
       }
     },
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
+        "link": "",
+        "banner-class": ""
+      }
+    },
     "1660732889a3929fc1": {
       "type": "home-featured-products",
       "settings": {
@@ -514,15 +523,6 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
-      "type": "home-game-banner",
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
-        "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
-        "link": "",
-        "banner-class": ""
-      }
     }
   },
   "order": [
@@ -533,6 +533,7 @@
     "1658485109ce9a8560",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
     "954b5c4b-c198-4894-928c-c5a114a9a6e1",
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "1660732889a3929fc1",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
@@ -540,7 +541,6 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc",
-    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539"
+    "1658485170941c47bc"
   ]
 }
