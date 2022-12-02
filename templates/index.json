@@ -221,7 +221,6 @@
     },
     "c5183f7b-7b83-4a28-a10a-c3849d483b97": {
       "type": "home-game-banner",
-      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
