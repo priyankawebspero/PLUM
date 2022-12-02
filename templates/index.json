@@ -523,6 +523,22 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "7ac60142-d97e-48da-b3ec-aefb32d99903": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "skincare",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "skincare",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "view more",
+        "link1": "https:\/\/plumgoodness.com\/collections\/skincare",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -541,6 +557,7 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "7ac60142-d97e-48da-b3ec-aefb32d99903"
   ]
 }
