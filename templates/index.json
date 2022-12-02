@@ -461,12 +461,20 @@
             "title": "Trending",
             "collection": "trending-now"
           }
+        },
+        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "new launches",
+            "collection": "new-launches"
+          }
         }
       },
       "block_order": [
         "390f1115-9afa-4b5a-b2f9-1ee0848b3b67",
         "a182cbe3-bad8-4303-891d-d9993e718f3c",
-        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7"
+        "d425ca12-8863-43a8-bb21-c55ab7e7dfe7",
+        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16"
       ],
       "settings": {
         "product_tabs_title": "New Arrivals",
