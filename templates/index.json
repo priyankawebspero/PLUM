@@ -22,6 +22,15 @@
             "title": "Skincare"
           }
         },
+        "490e6eee-a94a-4e2a-a360-da862c5fe12f": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_Category_Icons_Body_small_c9d13915-cef6-4b25-a6a3-8aac572cb169.png",
+            "collection": "",
+            "url": "https:\/\/plumgoodness.com\/pages\/plum-bodylovin",
+            "title": "Bodycare"
+          }
+        },
         "b73b72ed-803d-4a51-a14f-3b788ab3ca60": {
           "type": "collection",
           "settings": {
@@ -38,15 +47,6 @@
             "collection": "makeup",
             "url": "",
             "title": "Makeup"
-          }
-        },
-        "490e6eee-a94a-4e2a-a360-da862c5fe12f": {
-          "type": "collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02_Category_Icons_Body_small_c9d13915-cef6-4b25-a6a3-8aac572cb169.png",
-            "collection": "",
-            "url": "https:\/\/plumgoodness.com\/pages\/plum-bodylovin",
-            "title": "Bodycare"
           }
         },
         "09425903-eb04-42b5-8a70-7d242ff3dfe1": {
@@ -71,9 +71,9 @@
       "block_order": [
         "e26a98f9-c74a-486d-aa60-835b82ee495b",
         "7f28725e-b547-477c-8668-d160a4829795",
+        "490e6eee-a94a-4e2a-a360-da862c5fe12f",
         "b73b72ed-803d-4a51-a14f-3b788ab3ca60",
         "a1a766b5-7263-42ac-8d42-fd09d7bb1de8",
-        "490e6eee-a94a-4e2a-a360-da862c5fe12f",
         "09425903-eb04-42b5-8a70-7d242ff3dfe1",
         "10205151-6403-48d8-80a8-e8b316cf9135"
       ],
