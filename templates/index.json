@@ -400,6 +400,13 @@
             "title": "hairfall",
             "collection": "hairfall"
           }
+        },
+        "f2287042-0ecb-4a92-a8c9-c6769f473ff2": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "ageing-skin"
+          }
         }
       },
       "block_order": [
@@ -409,7 +416,8 @@
         "8c1ada3a-111c-48ef-a960-197d07d05689",
         "03f3cfb7-1933-4e43-8453-4f1da766c109",
         "4c37f1fc-3ac7-4288-899e-1485e79ebd58",
-        "00c6b304-f23c-43ca-8114-37e053d09c62"
+        "00c6b304-f23c-43ca-8114-37e053d09c62",
+        "f2287042-0ecb-4a92-a8c9-c6769f473ff2"
       ],
       "settings": {
         "banner_heading": "find solutions for"
