@@ -231,6 +231,7 @@
     },
     "1658485109ce9a8560": {
       "type": "home-featured-products",
+      "disabled": true,
       "settings": {
         "image_1": "shopify:\/\/shop_images\/Heade_bestsellers_Desktop.png",
         "image_picker_mobile": "shopify:\/\/shop_images\/Heade_bestsellers_Mob.png",
