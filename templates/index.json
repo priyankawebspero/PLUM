@@ -257,6 +257,22 @@
         "banner-class": ""
       }
     },
+    "954b5c4b-c198-4894-928c-c5a114a9a6e1": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "winter-moisturisation",
+        "slider_featured_limit_all": 10,
+        "shop_now_button": "view more",
+        "link1": "shopify:\/\/collections\/winter-moisturisation",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "1660732889a3929fc1": {
       "type": "home-featured-products",
       "settings": {
@@ -498,22 +514,6 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "954b5c4b-c198-4894-928c-c5a114a9a6e1": {
-      "type": "home-featured-products",
-      "settings": {
-        "featured_products_title": "",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "winter-moisturisation",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "view more",
-        "link1": "shopify:\/\/collections\/winter-moisturisation",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -523,6 +523,7 @@
     "c5183f7b-7b83-4a28-a10a-c3849d483b97",
     "1658485109ce9a8560",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
+    "954b5c4b-c198-4894-928c-c5a114a9a6e1",
     "1660732889a3929fc1",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
@@ -530,7 +531,6 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc",
-    "954b5c4b-c198-4894-928c-c5a114a9a6e1"
+    "1658485170941c47bc"
   ]
 }
