@@ -360,6 +360,14 @@
             "collection": "dull-skin"
           }
         },
+        "97ce33a4-8328-48ea-8f69-401172cbaf30": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dry-Skin_Concern-Images_Desktop_224X224_1.jpg",
+            "title": "",
+            "collection": "dry-skin"
+          }
+        },
         "8c1ada3a-111c-48ef-a960-197d07d05689": {
           "type": "collection",
           "settings": {
@@ -391,24 +399,16 @@
             "title": "hairfall",
             "collection": "hairfall"
           }
-        },
-        "97ce33a4-8328-48ea-8f69-401172cbaf30": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Dry-Skin_Concern-Images_Desktop_224X224_1.jpg",
-            "title": "",
-            "collection": "dry-skin"
-          }
         }
       },
       "block_order": [
         "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0",
         "42af8d86-d39e-4301-ad7d-2336ad526529",
+        "97ce33a4-8328-48ea-8f69-401172cbaf30",
         "8c1ada3a-111c-48ef-a960-197d07d05689",
         "03f3cfb7-1933-4e43-8453-4f1da766c109",
         "4c37f1fc-3ac7-4288-899e-1485e79ebd58",
-        "00c6b304-f23c-43ca-8114-37e053d09c62",
-        "97ce33a4-8328-48ea-8f69-401172cbaf30"
+        "00c6b304-f23c-43ca-8114-37e053d09c62"
       ],
       "settings": {
         "banner_heading": "find solutions for"
