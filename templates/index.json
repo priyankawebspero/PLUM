@@ -487,6 +487,15 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/winter_store_Slider_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/winter_store_Slider_Mob.webp",
+        "link": "",
+        "banner-class": ""
+      }
     }
   },
   "order": [
@@ -502,6 +511,7 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "1f788b1a-a711-4b96-9914-c02f0b9316f4"
   ]
 }
