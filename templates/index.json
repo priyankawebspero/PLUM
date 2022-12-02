@@ -457,6 +457,7 @@
         },
         "d425ca12-8863-43a8-bb21-c55ab7e7dfe7": {
           "type": "ProductTabs",
+          "disabled": true,
           "settings": {
             "title": "Trending",
             "collection": "trending-now"
