@@ -221,6 +221,7 @@
     },
     "c5183f7b-7b83-4a28-a10a-c3849d483b97": {
       "type": "home-game-banner",
+      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
@@ -244,6 +245,15 @@
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
         "margin_bottom": 0
+      }
+    },
+    "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/winter_store_Slider_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/winter_store_Slider_Mob.webp",
+        "link": "",
+        "banner-class": ""
       }
     },
     "1660732889a3929fc1": {
@@ -487,15 +497,6 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
-    },
-    "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
-      "type": "home-game-banner",
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/winter_store_Slider_Desk.webp",
-        "image_mobile": "shopify:\/\/shop_images\/winter_store_Slider_Mob.webp",
-        "link": "",
-        "banner-class": ""
-      }
     }
   },
   "order": [
@@ -504,6 +505,7 @@
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
     "c5183f7b-7b83-4a28-a10a-c3849d483b97",
     "1658485109ce9a8560",
+    "1f788b1a-a711-4b96-9914-c02f0b9316f4",
     "1660732889a3929fc1",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
@@ -511,7 +513,6 @@
     "165848513210ac1823",
     "1658490722f9e82fc3",
     "16607344139c06e896",
-    "1658485170941c47bc",
-    "1f788b1a-a711-4b96-9914-c02f0b9316f4"
+    "1658485170941c47bc"
   ]
 }
