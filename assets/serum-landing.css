@@ -902,8 +902,9 @@ body .right_area .inner.product-item .inner-top .product-image .product-grid-ima
 }
 
 .concern-flipbox-slider-sections .jdgm-rev__content .jdgm-rev__title {
-    font-weight: 600;
+    font-weight: normal;
     font-size: 16px;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 
