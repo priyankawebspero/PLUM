@@ -176,6 +176,11 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
 }
+.bodylovin .footer-newsletter.desktop-xs {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 992px) {
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-next.slick-arrow{right:-15px}
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-prev.slick-arrow{left:-15px}
