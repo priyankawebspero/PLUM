@@ -144,8 +144,8 @@
         "banner-class": ""
       }
     },
-    "main-collection": {
-      "type": "main-collection",
+    "main-collection-offer": {
+      "type": "main-collection-offer",
       "settings": {
         "display_sidebar": false,
         "sidebar_heading": "",
@@ -163,6 +163,6 @@
     "038cefed-259d-43cb-9b43-1f2f966e00e1",
     "6e0283d5-4326-4bf1-83c1-ffa608da31e3",
     "eea272a2-a949-4b89-875c-fa6eeeaaf4e5",
-    "main-collection"
+    "main-collection-offer"
   ]
 }
