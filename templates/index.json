@@ -142,7 +142,8 @@
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HP-Banner-Desk_Buy-3-_30_-OFF_V.gif",
-            "link": "",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP-Banne-Mob_Buy-3-_30_-OFF_V3_1.gif",
+            "link": "https:\/\/plumgoodness.com\/collections\/single-products-offer",
             "alignment": "left"
           }
         }
