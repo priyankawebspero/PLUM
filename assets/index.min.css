@@ -649,10 +649,14 @@ div#solus-trending-plum {
   font-size: 17px;
 }
 .home-collection-carousel ul.slick-dots {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .home-collection-carousel ul.slick-dots li {
+    width: 12px;
+    height: 12px;
+}
+.home-collection-carousel ul.slick-dots li button {
     width: 12px;
     height: 12px;
 }
