@@ -169,7 +169,13 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
 #bodylovin #shopify-section-bodylovin-four-banner .heading h3:before{content:"";display:block;position:relative;width:100px;height:3px;background:#d6006d;margin:0 auto;margin-bottom:30px}
 #bodylovin #shopify-section-bodylovin-four-banner{padding-bottom:25px}
 #bodylovin #shopify-section-bodylovin-four-banner .animate-scale:after{content:"";position:absolute;left:12px;right:12px;bottom:12px;top:12px;border:1px solid #fff}
-#bodylovin #sub-banner-bodylovin-four-banner .banner-title{font-size:17px;text-transform:capitalize;letter-spacing:.5px}
+#bodylovin #sub-banner-bodylovin-four-banner .banner-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: normal;
+}
 @media (min-width: 992px) {
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-next.slick-arrow{right:-15px}
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-prev.slick-arrow{left:-15px}
