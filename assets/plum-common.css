@@ -3889,6 +3889,12 @@ body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a span {
   
 }
 
+@media (min-width: 1200px) and (max-width: 1450px){
+body .wrapper_header_parallax .header-mb-middle ul.site-nav .menu-lv-1>a span {
+    font-size: 18px!important;
+}
+}
+
 
 @media only screen and (max-width:1250px) and (min-width:1200px) {
   
