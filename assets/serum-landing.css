@@ -113,7 +113,7 @@
     color: #5e0c8c;
     font-size: 28px;
     line-height: normal;
-    font-family: 'gothammediumregular';
+    font-family: "DINNextRoundedLTPro-Regular";
   padding-right: 10px;
 }
 
@@ -944,7 +944,7 @@ a.jdgm-paginate__page.jdgm-paginate__next-page, a.jdgm-paginate__page.jdgm-pagin
     align-items: center;
     background: #5e0d8b;
     color: #fff;
-    font-family: 'Segoe Pro';
+    font-family: "DINNextRoundedLTPro-Bold";
     font-size: 17px;
     font-weight: 700;
     text-transform: lowercase;
