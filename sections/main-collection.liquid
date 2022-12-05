@@ -1,6 +1,6 @@
   {% if collection.handle == "best-offers-on-plum" %}
      {{ 'best-offer-collection.css' | asset_url | stylesheet_tag }}
-  {% endif %}
+  {% else %}
 <header class="collection-header collection-header-sections">
   <div class="container">
     <div class="collection_navigation">
@@ -67,6 +67,7 @@
     </h1>
   </div>    
 </div>
+{% endif %} 
 <div id="{{collection.handle}}" class="collection-template collection-template-default">
     {% if collection.handle == 'all-in-stock' or collection.handle == 'all-in-stock-pbl' %}
         {% include 'count-down-b2g2' %}
