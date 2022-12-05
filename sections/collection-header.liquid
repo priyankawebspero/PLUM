@@ -12,8 +12,8 @@
   {% if section.settings.display_collection_image %}
 
   {% if collection.image %}
-  {%- assign img_url = collection.image | img_url: 'master' , format: 'pjpg'-%}
-  {%- assign img_url_mobile = collection.image | img_url: '768x' , format: 'pjpg'-%}
+  {%- assign img_url = collection.image | img_url: 'master'-%}
+  {%- assign img_url_mobile = collection.image | img_url: '768x'-%}
 
   {% elsif collection.description contains 'img' %}
   {%- assign img_url = collection.description | split: '<img' | last | split: '>' | first -%}
