@@ -10,9 +10,9 @@
     padding-top: 5px;
 }
 .home-slideshow-sections .slick-arrow svg {
-    width: 18px;
-    height: 18px;
-    stroke-width: 1px;
+    width: 14px;
+    height: 14px;
+    stroke-width: 3px;
 }
 
 .home-slideshow .item img {
