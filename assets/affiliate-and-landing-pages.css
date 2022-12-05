@@ -16,7 +16,7 @@ div#shopify-section-affiliate-offers #affiliate_top_banner {
 }
 
 .affiliate-products h4 {
-   font-family: "DIN Next";
+   font-family: "DINNextRoundedLTPro-Bold";
     font-size: 60px;
     text-transform: lowercase;
     margin-bottom: 0;
@@ -202,7 +202,7 @@ a.range-link {
 }
 
 .customer_review_affiliates h4 {
-    font-family: "DIN Next";
+    font-family: "DINNextRoundedLTPro-Bold";
     font-size: 60px;
     text-transform: lowercase;
     margin-bottom: 0;
@@ -403,7 +403,7 @@ a.range-link {
     text-align: center;
     font-size: 50px;
     color: #fff;
-    font-family: "DIN Next";
+    font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
@@ -437,7 +437,7 @@ a.range-link {
     font-weight: 700;
     display: inline-block;
     color: #5e0d8b;
-  font-family: "DIN Next";
+  font-family: "DINNextRoundedLTPro-Bold";
 }
 
 .deal-of-the-day-banner {
@@ -509,7 +509,7 @@ a.range-link {
 .sale-products .text-center {
     width: 100%;
     font-size: 50px;
-   font-family: "DIN Next";
+   font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: #5e0d8b;
