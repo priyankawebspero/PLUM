@@ -1014,20 +1014,13 @@ div#trending_week_recomendations .slick-dots li button, .widget-product .slick-d
 .featured-products .widget-title h3 .title {
     padding-left: 10px;
 }
-  
-  .featured-products .widget-title .box-title {
-    font-size: 35px;
-}
+
   
 .featured-products .widget-title h3 .title {
     padding-left: 10px;
     padding-right: 10px;
 }
-  
-  .featured-products .widget-title .box-title {
-    letter-spacing: 0;
-}
-  
+
   
  .featured-products button.btn.add-to-cart-btn {
     font-size: 16px;
