@@ -183,6 +183,7 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
 
 .bodylovin .footer-newsletter.desktop-xs p.newsletter-des {
     order: 2;
+    padding-top: 0;
 }
 
 .bodylovin .footer-newsletter.desktop-xs section.newsletter {
