@@ -1006,8 +1006,8 @@ div#trending_week_recomendations .slick-dots li button, .widget-product .slick-d
 }
   
 .featured-products .widget-title h3 {
-    margin-top: 4px !important;
-    margin-bottom: 5px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
 }
   
   

@@ -1,0 +1,45 @@
+{% if section.settings.image_1 != blank %}
+<div class="uns_hero_static" {% if section.settings.image != blank %} style="background-image:url({{ section.settings.image | img_url:"master" }});{% endif %}">
+  <img src="{{ section.settings.image_1 | img_url:'master' }}" class="slide-desktop">
+   <img src="{{ section.settings.image_picker_mobile | img_url:'master' }}" class="slide-mobile" style="display:none;">
+   {% if section.settings.text != blank %}<span class="text_sec">{{ section.settings.text }}</span>{% endif %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Over Image",
+  "settings": [
+  {
+      "id": "image_1",
+      "type": "image_picker",
+      "label": "Image Desktop"
+    },{
+      "id": "image_picker_mobile",
+      "type": "image_picker",
+      "label": "Image Mobile"
+    }, {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Background Image"
+    }, {
+      "id": "text",
+      "type": "html",
+      "label": "Enter Text"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Over Image",
+      "category": "Over Image"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
