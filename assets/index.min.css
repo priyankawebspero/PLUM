@@ -902,13 +902,7 @@ div#home-spotlight-slider-template--14835773440060__1658490722f9e82fc3 {
     font-size: 16px;
 }
 
-.featured-products .content .btn {
-    font-size: 18px;
-}
 
-.brands-block a.btn {
-    font-size: 18px;
-}
 
 }
 
@@ -922,7 +916,7 @@ div#home-spotlight-slider-template--14835773440060__1658490722f9e82fc3 {
 }
 
 @media only screen and (max-width: 575px){
-  
+
   .featured-products .widget-title h3 .title {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -1032,10 +1026,18 @@ div#home-spotlight-slider-template--14835773440060__1658490722f9e82fc3 {
 }
   
 a.btn, .content .btn{
-    font-size: 17px;
+    font-size: 18px;
     padding-top: 11px;
     padding-bottom: 11px;
     min-width: 165px;
+}
+
+.featured-products .content .btn {
+    font-size: 18px;
+}
+
+.brands-block a.btn {
+    font-size: 18px;
 }
   
 .template-index .featured-products .container-padd60 .col-12.col-md-12 {
