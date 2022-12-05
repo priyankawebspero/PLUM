@@ -1,12 +1,310 @@
+{% if section.blocks.size > 0 %}
+
+{% assign- autoplay = section.settings.autoplay -%}
+{% assign- autoplaySpeed = section.settings.slideshow_speed -%}
+{% assign- fade = section.settings.slideshow_transition -%}
+{% assign- dots =  section.settings.dots -%}
+
+<section class="home-slideshow" id="slideshow-{{section.id}}">
+    <div class="{% if section.settings.layout == 'default' %}container{% elsif section.settings.layout == 'padd_60' %}container-padd60{% else %}container-fluid{% endif %}">
+        <div class="row">
+            <div class ="no-padd col-12">
+              {% if section.settings.heading_slider != blank %}
+              <div class="widget-title no-des">   
+                <h3 class="box-title">
+                  <span class="title"> 
+                    <span>
+                      {{section.settings.heading_slider}}
+                    </span>
+                  </span>
+                </h3>
+              </div>
+              {% endif %}
+                <div class="slideshow" data-auto-video="{{ section.settings.auto_playvideo }}"{% if section.blocks.size > 1 %} data-init-slideshow data-dots="{{ dots }}" data-autoplay="{{ autoplay }}" data-autoplay-speed="{{ autoplaySpeed }}" data-fade="{{ fade }}"{% endif %}>
+               {% for block in section.blocks %}
+                <div class="item">
+                    <div class="images-contain container-padd60">
+                       <div class="testimonial-inner">
+                           <div class="testimonial-avatar">
+                              {%- if block.settings.avatar != blank -%}
+                              {%- assign image = block.settings.avatar -%}
+                                 <img class="testimonial-avatar-image" src="{{ image | img_url: '200x', crop: 'center' , format: 'pjpg'}}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}" title="{{ image.alt }}">                 
+                              {%- endif -%}
+                              {%- if block.settings.author != blank -%}
+                              		<header>
+                              			<span class="author_name">{{ block.settings.author }}</span>
+                              			{%- if block.settings.user_title != blank -%}
+                              					<span class="testimonial_title">{{block.settings.user_title}}</span>
+                              			{%- endif -%}
+                              		</header>
+
+                              {%- endif -%}
+                           </div>
+                           <div class="testimonial-content">
+                              {%- if block.settings.quote != blank -%}{{ block.settings.quote | strip_html }}{%- endif -%}         
+                           </div>
+                        </div>
+                    </div>
+               
+                </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+        "name": "Slideshow Testimonals",
+        "class": "testimonal-slideshow-sections",
+        "max_blocks": 10,
+        "settings": [
+            {
+                "type": "select",
+                "id": "layout",
+                "label": "Slideshow Layout:",
+                "options": [
+                    {
+                        "value": "default",
+                        "label": "Default"
+                    },
+                    {
+                        "value": "padd_60",
+                        "label": "Boxed"
+                    },
+                    {
+                        "value": "full",
+                        "label": "Full Width"
+                    }
+                ],
+                "default": "full"
+            },
+            {
+                "type": "text",
+                "id": "heading_slider",
+                "label": "Heading"
+            },
+            {
+                "type": "header",
+                "content": "Margin Bottom:"
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom_mb",
+                "label": "Mobile",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom_tab",
+                "label": "Tablet",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom",
+                "label": "Desktop",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "default": 30
+            },
+            {
+                "type": "header",
+                "content": "Settings for Slideshow"
+            },
+            {
+                "type": "checkbox",
+                "id": "autoplay",
+                "label": "Slideshow Auto Play",
+                "default": true
+            },
+            {
+                "type": "select",
+                "id": "slideshow_speed",
+                "label": "Change slides every",
+
+                "options": [
+                    { "value": "5000", "label": "5 seconds" },
+                    { "value": "6000", "label": "6 seconds" },
+                    { "value": "7000", "label": "7 seconds" },
+                    { "value": "8000", "label": "8 seconds" },
+                    { "value": "9000", "label": "9 seconds" },
+                    { "value": "10000", "label": "10 seconds" }
+                ],
+                "default": "5000"
+            },
+            {
+                "type": "select",
+                "id": "slideshow_transition",
+                "label": "Slideshow transition effect",
+                "options": [
+                    {
+                    "value": "false",
+                    "label": "Slide"
+                    },
+                    {
+                    "value": "true",
+                    "label": "Fade"
+                    }
+                ],
+                "default": "true"
+            },
+            {
+                "type" : "radio",
+                "id" : "dots",
+                "label" : "Show Dots for Slideshow (Desktop)",
+                "options": [
+                    {
+                        "value": "true",
+                        "label": "True"
+                    },
+                    {
+                        "value": "false",
+                        "label": "False"
+                    }
+                ],
+                "default": "true"
+            },
+            {
+                "type": "color",
+                "id": "dots_color",
+                "label": "Dots color",
+                "default": "#707979",
+                "info": "Default Value: #707979"
+            },
+            {
+                "type": "color",
+                "id": "dots_active_color",
+                "label": "Dots Active color",
+                "default": "#505656",
+                "info": "Default Value: #505656"
+            },
+            {
+                "type": "checkbox",
+                "id": "dots_opacity",
+                "label": "Dots Opacity (80%)",
+                "default": false,
+                "info": "================="
+            },
+            {
+                "type": "color",
+                "id": "arrow_color",
+                "label": "Arrow color",
+                "default": "#666d6d",
+                "info": "Default Value: #666d6d"
+            },
+            {
+                "type": "color",
+                "id": "arrow_border_color",
+                "label": "Arrow Border color",
+                "default": "#666d6d",
+                "info": "Default Value: #666d6d"
+            },
+            {
+                "type": "color",
+                "id": "arrow_bg_color",
+                "label": "Arrow background color",
+                "default": "#fff",
+                "info": "Default Value: #fff"
+            },
+            {
+                "type" : "text",
+                "id" : "position_slick_arrow",
+                "label" : "Position Arrow - Unit % or px",
+                "default" : "10%"
+            },
+            {
+                "type" : "text",
+                "id" : "min_width_banner_button",
+                "label" : "Banner Button Width",
+                "info": "Ex: 270px"
+            },
+            {
+                "type": "header",
+                "content": "Settings for Video"
+            },
+            {
+                "type" : "color",
+                "id" : "bg_video",
+                "label" : "Background Color video",
+                "default" : "#866965"
+            },
+            {
+                "type": "range",
+                "id": "bg_overlay_opacity",
+                "label":"Opacity",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "%",
+                "default": 40
+            },
+            {
+                "type": "text",
+                "id": "video_height",
+                "label": "Slideshow Video Height",
+                "default": "41.7%",
+                "info": "You can adjust the height of video to be fit with slider image by %. Example: 30%, 47.25%, 51%."
+            },
+            {
+                "type": "checkbox",
+                "id": "auto_playvideo",
+                "label": "Autoplay video",
+                "default": true
+            }
+        ],
+
+        "blocks" : [
+            {
+                "type": "image",
+               "name": "Testimonial",
+             "settings": [
+                    {
+                       "type": "text",
+                       "id": "author",
+                       "label": "Author",
+                       "info": "User name",
+                       "default": "Author's name"
+                    },
+                    {
+                       "type": "text",
+                       "id": "user_title",
+                       "label": "Title",
+                       "info": "User title",
+                       "default": "User title"
+                    },
+                    {
+                      "type": "image_picker",
+                      "id": "avatar",
+                      "label": "User Avatar (100x100)"
+                    },
+                    {
+                       "type": "textarea",
+                       "id": "quote",
+                       "label": "Text",
+                       "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+                    }
+                ]
+            }
+            
+        ],
+        "presets": [{
+            "name": "Slideshow Testimonals",
+            "category": "Slideshow Testimonals",
+            "blocks": [
+                {
+                    "type": "image"
+                }
+            ]
+        }]
+    }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
