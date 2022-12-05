@@ -1,12 +1,288 @@
 {
   "sections": {
-    "main-page": {
-      "type": "main-page",
+    "blackboard": {
+      "type": "Blackboard",
       "settings": {
+      }
+    },
+    "f8f10881-bcd1-47e8-8e6f-81994ff65cb4": {
+      "type": "over-image",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/plum-logo.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/plum-logo.png",
+        "image": "shopify:\/\/shop_images\/top_main_bg_lg.jpg",
+        "text": "Making a million dreams come alive, one girl child at a time"
+      }
+    },
+    "fff98773-dae4-4182-9fe5-5b9f1898fcdd": {
+      "type": "section_image_text",
+      "blocks": {
+        "template--15037447045180__fff98773-dae4-4182-9fe5-5b9f1898fcdd-1667378746a76e361a-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/2-Girl_s.png",
+            "image_alignment_one": "center"
+          }
+        },
+        "template--15037447045180__fff98773-dae4-4182-9fe5-5b9f1898fcdd-1667378746a76e361a-1": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text_heading": "ABOUT PROJECT BLACKBOARD",
+            "content": "Plum is a brand that has goodness in its DNA.\nFrom its vegan products to its recycling practices,\nthe brand is committed to giving back. And with this intent\nthey started Project Blackboard, an initiative to\neducate the girl child.<br>\n<br>\nThis initiative is in collaboration with Save the Children,\nIndia’s leading independent child rights’ NGO. Since\nits inception they have changed the lives of\nmore than 14 million children across 16 states.\nAnd with Project Blackboard this number will multiply \nmanifolds.",
+            "button_label": "",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15037447045180__fff98773-dae4-4182-9fe5-5b9f1898fcdd-1667378746a76e361a-0",
+        "template--15037447045180__fff98773-dae4-4182-9fe5-5b9f1898fcdd-1667378746a76e361a-1"
+      ],
+      "settings": {
+        "head_title": "",
+        "section_bg_image": "shopify:\/\/shop_images\/about_project_bg_new.jpg",
+        "section_bg_color": "",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": ""
+      }
+    },
+    "81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2": {
+      "type": "section_image_text",
+      "disabled": true,
+      "blocks": {
+        "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-1": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text_heading": "why girl child education",
+            "content": "In recent years India has made significant progress in improving access to education. However, there’s an increasing rate of drop-out at the elementary level, which is particularly worse off among girls.  What can we do to reverse this effect?",
+            "button_label": "",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        },
+        "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/girl-edcucation_im.png",
+            "image_alignment_one": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-1",
+        "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-0"
+      ],
+      "settings": {
+        "head_title": "",
+        "section_bg_image": "shopify:\/\/shop_images\/why-girl-child-education-_Bg.jpg",
+        "section_bg_color": "",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": ""
+      }
+    },
+    "d621f256-e830-49ee-9fda-a60ec5b4ca66": {
+      "type": "home-slideshow",
+      "blocks": {
+        "template--15037447045180__d621f256-e830-49ee-9fda-a60ec5b4ca66-1667387982097a564f-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_first.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_first.png",
+            "link": ""
+          }
+        },
+        "370b2766-5cfe-45cd-9683-b85a9dbfa06e": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_scnd.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_scnd.png",
+            "link": ""
+          }
+        },
+        "56a3feae-2a88-410f-aec6-fefb0666b650": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_third.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_third.png",
+            "link": ""
+          }
+        },
+        "f802c2f6-7bb8-406b-b4ff-119b3db14397": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_four.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_four.png",
+            "link": ""
+          }
+        },
+        "766b3031-c8af-49c5-b4fa-4d8e19bfcff8": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_five.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_five.png",
+            "link": ""
+          }
+        },
+        "a71c1117-d3d2-41d4-95fe-9039ed6f91f3": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_six.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_six.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15037447045180__d621f256-e830-49ee-9fda-a60ec5b4ca66-1667387982097a564f-0",
+        "370b2766-5cfe-45cd-9683-b85a9dbfa06e",
+        "56a3feae-2a88-410f-aec6-fefb0666b650",
+        "f802c2f6-7bb8-406b-b4ff-119b3db14397",
+        "766b3031-c8af-49c5-b4fa-4d8e19bfcff8",
+        "a71c1117-d3d2-41d4-95fe-9039ed6f91f3"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "Why Girl child education",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "8000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "c15b28e3-599c-4c1f-ad8f-428bc0af057b": {
+      "type": "section_image_video",
+      "blocks": {
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/pure-white-background-85a2a7fd.jpg",
+            "image_alignment_one": "center",
+            "video_id": "Wm2xVus1F2M"
+          }
+        },
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-1": {
+          "type": "text",
+          "settings": {
+            "Image_title": "shopify:\/\/shop_images\/Our-Mission-font.png",
+            "text_title": "",
+            "text_heading": "More girls in school = a better future for us all",
+            "content": "Every time one girl goes to school, another girl starts to dream of education too. Through Project Blackboard, we wish to do our best to make these dreams come true!",
+            "button_label": "WHY GIRL CHILD EDUCATION",
+            "button_link": "#",
+            "button_label_2": "ABOUT PROJECT BLACKBOARD",
+            "button_link_2": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0",
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-1"
+      ],
+      "settings": {
+        "head_title": "",
+        "section_bg_image": "shopify:\/\/shop_images\/video_section_bg_new.jpg",
+        "section_bg_color": "",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": ""
+      }
+    },
+    "ac73c289-e525-4ce7-bca5-8638c5a2ce14": {
+      "type": "testimonal-slider",
+      "disabled": true,
+      "blocks": {
+        "template--15037447045180__ac73c289-e525-4ce7-bca5-8638c5a2ce14-1667391019f279ed66-0": {
+          "type": "image",
+          "settings": {
+            "author": "Naina from Dimasa",
+            "user_title": "",
+            "avatar": "shopify:\/\/shop_images\/naina-img.png",
+            "quote": "<p>inspired her three cousins\nto also get enrolled in the nearest school.<\/p>"
+          }
+        },
+        "a1dd0afc-cadc-40b8-9072-6b0fa94ccaab": {
+          "type": "image",
+          "settings": {
+            "author": "Naina from Dimasa",
+            "user_title": "",
+            "avatar": "shopify:\/\/shop_images\/naina-img.png",
+            "quote": "<p>inspired her three cousins\nto also get enrolled in the nearest school.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15037447045180__ac73c289-e525-4ce7-bca5-8638c5a2ce14-1667391019f279ed66-0",
+        "a1dd0afc-cadc-40b8-9072-6b0fa94ccaab"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "Testimonials",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "8000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
       }
     }
   },
   "order": [
-    "main-page"
+    "blackboard",
+    "f8f10881-bcd1-47e8-8e6f-81994ff65cb4",
+    "fff98773-dae4-4182-9fe5-5b9f1898fcdd",
+    "81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2",
+    "d621f256-e830-49ee-9fda-a60ec5b4ca66",
+    "c15b28e3-599c-4c1f-ad8f-428bc0af057b",
+    "ac73c289-e525-4ce7-bca5-8638c5a2ce14"
   ]
 }
