@@ -892,6 +892,11 @@ div#home-spotlight-slider-template--14835773440060__1658490722f9e82fc3 {
     margin: 0 !important;
 }
 
+.widget-title .box-title, .home-custom-carousel .banner-heading{
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
 }
 
 
