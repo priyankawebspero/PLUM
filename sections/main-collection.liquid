@@ -1,3 +1,6 @@
+  {% if collection.handle == "best-offers-on-plum" %}
+     {{ 'best-offer-collection.css' | asset_url | stylesheet_tag }}
+  {% endif %}
 <header class="collection-header collection-header-sections">
   <div class="container">
     <div class="collection_navigation">
