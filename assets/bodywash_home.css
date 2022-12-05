@@ -15,6 +15,11 @@
     stroke-width: 3px;
 }
 
+
+.home-slideshow-sections .slick-dots li.slick-active button {
+    background: #d6006d;
+}
+
 .home-slideshow .item img {
     min-height: inherit;
 }
