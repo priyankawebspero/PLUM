@@ -906,7 +906,13 @@ div#home-spotlight-slider-template--14835773440060__1658490722f9e82fc3 {
     font-size: 16px;
 }
 
-
+.template-index .featured-products ul.slick-dots {
+    display: block !important;
+    bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left: 0;
+}
 
 }
 
