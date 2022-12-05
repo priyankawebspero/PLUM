@@ -24,7 +24,7 @@
  <img src="{{ regimebanner_mob | img_url: 'master' }}" alt="{{ regimebanner_mob.alt | escape }}" class="lazyautosizes lazyload">
 </div>
  {% endif %}
-<div data-section-id="{{ section.id }}" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="/collections/{{collection.handle}}?view=related">
+<div data-section-id="collection-template-parent" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="/collections/{{collection.handle}}?view=related">
   <div class="product row product-default">
     {%- assign current_variant = product.selected_or_first_available_variant -%}
     {% assign variantCount = sca_product_variantCount %}
