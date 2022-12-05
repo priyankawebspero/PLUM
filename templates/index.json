@@ -146,6 +146,16 @@
             "link": "shopify:\/\/collections\/new-launches",
             "alignment": "left"
           }
+        },
+        "b41868ad-5829-4ba1-980d-74e12acddf4f": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Home_HP_Banner_Desk_Makeup_Payday.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Home_HP_Banner_Mob_Makeup_Payday.jpg",
+            "link": "",
+            "alignment": "left"
+          }
         }
       },
       "block_order": [
@@ -154,7 +164,8 @@
         "954be5d8-b6dc-41fd-afb6-9997a2b99974",
         "165848486091642f98-0",
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
-        "f0188917-06a6-4e38-a16f-f663af2d2627"
+        "f0188917-06a6-4e38-a16f-f663af2d2627",
+        "b41868ad-5829-4ba1-980d-74e12acddf4f"
       ],
       "settings": {
         "layout": "full",
