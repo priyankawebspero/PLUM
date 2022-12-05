@@ -1,0 +1,183 @@
+.home-game-banner-section img {
+    margin: auto;
+}
+.home-game-banner-section {
+    padding: 40px 0;
+    margin: auto;
+}
+.collection-template div#shopify-section-collection-template-default {
+     width: 100%!important; 
+     max-width: 100%!important; 
+}
+div#shopify-section-sidebar-filter {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.home-slideshow-sections .slick-arrow {
+    width: 36px;
+    height: 36px;
+    opacity: 1!important;
+    background-color: #5e0d8b!important;
+    color: #fff!important;
+    padding-top: 4px;
+}
+
+.home-slideshow-sections .slick-prev.slick-arrow {
+    left: 15px !important;
+}
+
+.home-slideshow-sections .slick-next.slick-arrow {
+    right: 15px !important;
+}
+
+.home-slideshow-sections .slick-arrow svg {
+    width: 14px;
+    height: 14px;
+    stroke-width: 4px;
+}
+
+.home-slideshow-sections ul.slick-dots {
+    top: -30px;
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.collection_inner_content .boost-pfs-filter-load-more-total {
+    border-top: none;
+    padding-top: 0;
+}
+
+span.shade-sizes {
+    display: none;
+}
+
+/*--------------collection-thumbs-slider-csss-----------*/
+
+@media only screen and (min-width:768px){
+  
+.home-list-collections {
+    display: block;
+}
+
+.home-list-collections .row .grid-item.col-3 {
+    flex: inherit;
+    max-width: inherit;
+    padding: 0 15px;
+    min-width: 145px;
+  width:auto;
+  display: inline-block;
+    vertical-align: top;
+}
+
+ .home-list-collections .row {
+    -moz-column-count: inherit;
+    -webkit-column-count: inherit;
+    column-count: inherit;
+    display: block;
+    justify-content: center;
+    padding-bottom: 7px;
+    white-space: nowrap;
+    overflow-x: auto;
+    flex-wrap: inherit;
+    text-align: center;
+}
+
+
+/*.home-list-collections .row .grid-item.col-3 .collection-item {
+    width: 135px;
+}*/
+
+.home-list-collections .title-collection {
+    text-transform: inherit !important;
+  font-weight: 500;
+    font-size: 14px;
+}
+
+.home-list-collections .title-collection a span {
+    color: #5c0f8b;
+}
+
+.home-list-collections .row::-webkit-scrollbar {
+  height: 5px;
+}
+
+.home-list-collections .row::-webkit-scrollbar-track {
+  border-radius:5px;
+}
+
+.home-list-collections .row::-webkit-scrollbar-thumb {
+  height: 5px;
+  background-color: #ccc;
+  border-radius:5px;
+}
+
+.home-list-collections .row::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(92, 13, 140);
+}
+
+.home-list-collections .row::-webkit-scrollbar:vertical {
+  display: none;
+}
+  
+}
+
+@media only screen and (max-width:1199px) and (min-width:768px){
+
+.home-list-collections .row .grid-item.col-3 {
+    padding: 0 15px;
+    min-width: 125px;
+}
+
+.home-list-collections {
+    padding-top: 10px;
+}
+
+}
+
+@media only screen and (min-width:768px){
+.home-slideshow-sections ul.slick-dots {
+    display: none !important;
+}
+  
+}
+
+
+@media only screen and (max-width:767px){
+
+.home-game-banner-section {
+    padding: 20px 15px;
+}
+
+.collection-template.collection-template-default {
+    padding-top: 20px;
+}
+  
+}
+
+@media only screen and (max-width:575px){
+
+.collection-template.collection-template-default .row {
+    margin: 0 -13px;
+}
+
+.collection-template.collection-template-default .products-grid .grid-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.inner.product-item .btn {
+    width: 100%;
+    min-width: inherit;
+    max-width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.inner.product-item .price-box {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+}
