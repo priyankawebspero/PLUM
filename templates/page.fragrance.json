@@ -1,12 +1,305 @@
 {
   "sections": {
-    "main-page": {
-      "type": "main-page",
+    "home-slideshow": {
+      "type": "home-slideshow",
+      "blocks": {
+        "19a21c8f-7eed-473d-90b5-6f240fb319ab": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/100ml-BM_Desktop-Slider_14b3e4c6-936e-48f2-a8c9-6812b9372e67.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/100ml-BM_Mobile-Slider_489fcb70-0a49-4b52-8ca9-d782917378b1.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists"
+          }
+        },
+        "60784a88-82c9-41e2-9b84-73c1dcbec088": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/PBL_B2G1-Desktop-HP-banner_1920X500_5c8e1066-a645-4b95-b024-b5e8694eafe1.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/PBL_B2G1-Mobile-HP-banner_767X475_d516dcc1-5068-4a34-a10b-dc0f2a892ca1.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin-single-product-offer"
+          }
+        },
+        "fe0a98cf-f035-43ee-ac8f-7a6cf50b5141": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Shop_for_999_Desktop_Slider.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Shop_for_999_Mobile_Slider_PLUM.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists"
+          }
+        },
+        "ec7f115d-af23-4cad-94f1-5ba37983c7fc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Fragrance_landing_page_Desktop_1.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Fragrance_landing_page_Mobile.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/eau-de-parfum"
+          }
+        },
+        "09189c41-17be-47c5-85a1-55a1b42f5c1a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/Gifting_Desktop-Slider_PLUM-New.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Shop-for-999_Mobile-Slider_PLUM.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "19a21c8f-7eed-473d-90b5-6f240fb319ab",
+        "60784a88-82c9-41e2-9b84-73c1dcbec088",
+        "fe0a98cf-f035-43ee-ac8f-7a6cf50b5141",
+        "ec7f115d-af23-4cad-94f1-5ba37983c7fc",
+        "09189c41-17be-47c5-85a1-55a1b42f5c1a"
+      ],
       "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "166140264172cb755e": {
+      "type": "bodylovin-custom-content",
+      "settings": {
+        "code": "<b>Use Code : FUN10 <br> for additional 10% off on all fragrances<b><\/b><\/b>",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": "",
+        "hidden_section": false
+      }
+    },
+    "166133223823e22b98": {
+      "type": "home-featured-products",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Pick_From_Desktop.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/Pick_From_9d432c4b-9d04-4d82-ac60-0608f5ce8207.png",
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "bodylovin-body-mists",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "Shop Now",
+        "link1": "shopify:\/\/collections\/bodylovin-body-mists",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "16613322829a9469ac": {
+      "type": "home-featured-products",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Ananya_s_Faves_Desktop.png",
+        "image_picker_mobile": "shopify:\/\/shop_images\/Ananya_s_Faves_0ce96c49-5679-4454-865d-bf4068438b4b.png",
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "ananaya-pandey",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "Shop Now",
+        "link1": "shopify:\/\/collections\/ananaya-pandey",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "16613339083dfbf881": {
+      "type": "phy-video",
+      "settings": {
+        "show_homepage_videos_section": true,
+        "video_title": "",
+        "description": "",
+        "image_slide": "shopify:\/\/shop_images\/AP_1920x500_copy_818e22d7-9243-43bb-8d9f-791f31fe75cd.jpg",
+        "video_link1": "mNIsgRkjK0I",
+        "read_more_button_name": "",
+        "read_more_button_link": "",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
+    "1661333552836697b9": {
+      "type": "home-game-banner",
+      "disabled": true,
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/AP_1920x500_copy.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/AP_767x475_copy_2.jpg",
+        "link": "https:\/\/www.youtube.com\/watch?v=mNIsgRkjK0I",
+        "banner-class": ""
+      }
+    },
+    "1661335202dc4c9cef": {
+      "type": "bodylovin-four-banner",
+      "blocks": {
+        "166133520226283ec8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gifting_Under1000_Mobile.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/gifting-under-1000"
+          }
+        },
+        "166133520226283ec8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gifting_Under2000_Mobile.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/gifting-under-2000"
+          }
+        }
+      },
+      "block_order": [
+        "166133520226283ec8-0",
+        "166133520226283ec8-1"
+      ],
+      "settings": {
+        "display_sub_banner": true,
+        "layout": "default",
+        "heading": "get giftin'",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "font_size_title": "16px",
+        "display_padding": true
+      }
+    },
+    "1663227535f1c92a5d": {
+      "type": "bodylovin-four-banner",
+      "disabled": true,
+      "blocks": {
+        "1663227535ff5f2c65-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gamification-Banner_Mobile_TTT_1.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": ""
+          }
+        },
+        "1663227535ff5f2c65-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gamification-Banner_Mobile_SM_1.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663227535ff5f2c65-0",
+        "1663227535ff5f2c65-1"
+      ],
+      "settings": {
+        "display_sub_banner": true,
+        "layout": "default",
+        "heading": "play to win",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "font_size_title": "16px",
+        "display_padding": true
+      }
+    },
+    "1661335229e3335651": {
+      "type": "bodylovin-four-banner",
+      "blocks": {
+        "16613352295aabdd06-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All-in-stock_Banner_Body_Mist.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists"
+          }
+        },
+        "16613352295aabdd06-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All-in-stock_Banner_Perfumes.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/eau-de-parfum"
+          }
+        },
+        "16613352295aabdd06-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All-in-stock_Banner_Candle.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/scented-candles"
+          }
+        },
+        "dd441230-b176-4782-b591-b9cbcb3383f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All-in-stock_Banner_Gifting.jpg",
+            "title": "",
+            "color_title": "#ffffff",
+            "link": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin-gift-sets"
+          }
+        }
+      },
+      "block_order": [
+        "16613352295aabdd06-0",
+        "16613352295aabdd06-1",
+        "16613352295aabdd06-2",
+        "dd441230-b176-4782-b591-b9cbcb3383f0"
+      ],
+      "settings": {
+        "display_sub_banner": true,
+        "layout": "default",
+        "heading": "all categories",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "font_size_title": "16px",
+        "display_padding": true
       }
     }
   },
   "order": [
-    "main-page"
+    "home-slideshow",
+    "166140264172cb755e",
+    "166133223823e22b98",
+    "16613322829a9469ac",
+    "16613339083dfbf881",
+    "1661333552836697b9",
+    "1661335202dc4c9cef",
+    "1663227535f1c92a5d",
+    "1661335229e3335651"
   ]
 }
