@@ -801,10 +801,13 @@ body .right_area .inner.product-item .inner-top .product-image .product-grid-ima
     color: #231f20;
     font-size: 18px;
     padding-top: 12px;
-    font-family: 'gothambook';
+    font-family: "DINNextRoundedLTPro-Regular";
 }
 
-
+.left_area p b {
+   font-family: "DINNextRoundedLTPro-Medium";
+  font-weight:normal;
+}
 
 
 /*--------------revie-design-----------*/
