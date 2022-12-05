@@ -5,6 +5,9 @@
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>    <!-- head_meta -->
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {%- endif -%}   
     {% include 'head_meta' %}
      <!-- SEOManganer -->
     <link rel="dns-prefetch" href="https://shopify.thirdwatch.ai">
