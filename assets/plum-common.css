@@ -1453,109 +1453,10 @@ span.promo-code.active p:after{position:absolute;content:"Copied";font-size:13px
   
 
 
-/*-------------lipstick-color-css-------*/
-
-/*#dropdown-cart .mini-products-list .product-image:before {
-    content: "";
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/b2b.png');
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 45px;
-    height: 18px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-
-#dropdown-cart .mini-products-list .product-image.Lipstick:before {
-    content: "";
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/thumbnail-min.png');
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 45px;
-    height: 18px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}*/
 
 #dropdown-cart .mini-products-list .product-image {
     position: relative;
 }
-
-/* .plum-Lipstick strong.label.new-label {
-    display: none !important;
-} */
-
-/*.inner-top strong.label.new-label {
-    display: none;
-}*/
-
-
-/*.inner-top:after {
-    content: "";
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/b2b.png');
-    display: block;
-    position: absolute;
-    left: 3px;
-    top: 4px;
-    width: 85px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}*/
-
-/*.plum-Lipstick .inner-top:after {
-    content: "";
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/thumbnail-min.png');
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 10px;
-    width: 95px;
-    height: 35px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}*/
-
-
-
-/*.template-product .product-upper-section .product-photos .product-img-box:before {
-    content: "";
-    background: url(https://cdn.shopify.com/s/files/1/0390/2985/files/b2b.png);
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 5px;
-    width: 95px;
-    height: 35px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 1;
-}*/
-
-/*.template-product .product-upper-section .product-photos.Lipstick .product-img-box:before {
-   content: "";
-    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/thumbnail-min.png');
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 5px;
-    width: 115px;
-    height: 45px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    z-index: 1;
-}*/
-
-
-
-/* .product-photos.Lipstick strong.label.new-label {
-    display: none !important;
-} */
 
 .cart-template .product-img.Lipstick {
     position: relative;
