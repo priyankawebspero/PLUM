@@ -1,9 +1,9 @@
 
 .homepage-video-section .modal-header .close{background:#d6006d!important}
 .home-slideshow-sections .slick-arrow {
-    color: #666d6d;
-    border: 1px solid #666d6d;
-    background-color: #ffffff;
+    color: #fff;
+    border: 1px solid #d6006d;
+    background-color: #d6006d;
     width: 36px;
     height: 36px;
     opacity: 1 !important;
