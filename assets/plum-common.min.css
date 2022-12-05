@@ -1497,8 +1497,6 @@ i.fa.fa-check{padding-right:10px}
 @media(max-width:1024px) {
 .success-msg{position:fixed;bottom:0;left:0;width:100%;text-align:center;z-index:100}
 .thankyoumessage{max-width:100%}
-}iframe#preview-bar-iframe {
-    display: none !important;
 }
 .text-continue{margin:0 auto;justify-content:center;text-align:center}
 a.btn.btn-continue{max-width:79%}
