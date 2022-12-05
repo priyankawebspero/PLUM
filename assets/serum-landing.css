@@ -62,7 +62,9 @@
     max-width: 100%;
     padding: 0;
 }
-
+#plum-specialist-serums main.main-content {
+    padding-bottom: 0;
+}
 
 .page-tpl .container-fluid .row {
     margin-left: 0;
