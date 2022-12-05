@@ -1,7 +1,33 @@
+
+@font-face {
+    font-family: "Justaword";
+    src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/Justaword.ttf?v=1668678243') format("TrueType");
+	}
+
+@font-face {
+    font-family: "DINNextRoundedLTPro-Medium";
+    src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Medium.otf?v=1668673437') format("opentype");
+	}
+@font-face {
+    font-family: "DINNextRoundedLTPro-Bold";
+    src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Bold.otf?v=1668674272') format("opentype");
+	}
+
+@font-face {
+    font-family: "DINNextRoundedLTPro-Regular";
+    src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Regular.otf?v=1668674333') format("opentype");
+	}
+
+@font-face {
+    font-family: "DINNextRoundedLTPro-Light";
+    src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Light.otf?v=1668674334') format("opentype");
+	}
+
 main.main-content {
     background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/full-page-bg.jpg');
     background-size: cover;
 }
+
 .uns_hero_static {
     display: flex;
     align-items: center;
