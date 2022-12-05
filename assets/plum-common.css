@@ -1451,9 +1451,6 @@ span.promo-code:before{position:absolute;content:"";left:-20px;top:0;display:blo
 span.promo-code.active p{position:relative;visibility:hidden}
 span.promo-code.active p:after{position:absolute;content:"Copied";font-size:13px;text-transform:uppercase;left:0;visibility:visible}
   
-
-
-
 #dropdown-cart .mini-products-list .product-image {
     position: relative;
 }
