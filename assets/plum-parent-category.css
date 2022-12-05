@@ -744,9 +744,9 @@ span.discount-tag-col {
 }
 
 div#categoryxconcern .boost-pfs-filter-tree-v .boost-pfs-filter-option-title-heading {
-    font-size: 17px;
+    font-size: 19px;
     flex: 1;
-    /* text-align: left; */
+    font-family: "DINNextRoundedLTPro-Medium";
     color: #5e248c;
 }
 
