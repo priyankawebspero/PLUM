@@ -181,6 +181,14 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     flex-direction: column;
 }
 
+.bodylovin .footer-newsletter.desktop-xs p.newsletter-des {
+    order: 2;
+}
+
+.bodylovin .footer-newsletter.desktop-xs section.newsletter {
+    order: 3;
+}
+
 @media (min-width: 992px) {
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-next.slick-arrow{right:-15px}
 #bodylovin #shopify-section-bodylovin_Testimonials button.slick-prev.slick-arrow{left:-15px}
