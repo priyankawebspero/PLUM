@@ -1,12 +1,168 @@
 {
   "sections": {
+    "038cefed-259d-43cb-9b43-1f2f966e00e1": {
+      "type": "home-list-collections",
+      "blocks": {
+        "04f6ffc8-41ea-4f9c-b56c-68b30286ebcb": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_01_All.png",
+            "collection": "",
+            "url": "#",
+            "title": "All"
+          }
+        },
+        "1728d243-78f4-4c0a-8fae-6ca51ff802de": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_02_all.png",
+            "collection": "",
+            "url": "#",
+            "title": "Collection"
+          }
+        },
+        "8cdcb3fc-506e-4fc7-8a48-b89012792c55": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_03_Hydration.png",
+            "collection": "",
+            "url": "#",
+            "title": "Hydration"
+          }
+        },
+        "b1eb56fe-f05c-4174-a433-790b915879be": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_04_Glow_Boosting.png",
+            "collection": "",
+            "url": "#",
+            "title": "Collection"
+          }
+        },
+        "196eb72b-d05a-4426-8cc0-da5e0c0e2614": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_05_Anti_Ageing_v2.png",
+            "collection": "",
+            "url": "#",
+            "title": "Collection"
+          }
+        },
+        "4b29e6a0-5d27-4db7-9486-d914869b0dc6": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_06_Sun_protection_v4.png",
+            "collection": "",
+            "url": "#",
+            "title": "Collection"
+          }
+        },
+        "e95393e5-e2fb-4fe2-b617-63ad464a8da1": {
+          "type": "collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off_07_Skin_clarifying_v2.png",
+            "collection": "",
+            "url": "#",
+            "title": "Collection"
+          }
+        }
+      },
+      "block_order": [
+        "04f6ffc8-41ea-4f9c-b56c-68b30286ebcb",
+        "1728d243-78f4-4c0a-8fae-6ca51ff802de",
+        "8cdcb3fc-506e-4fc7-8a48-b89012792c55",
+        "b1eb56fe-f05c-4174-a433-790b915879be",
+        "196eb72b-d05a-4426-8cc0-da5e0c0e2614",
+        "4b29e6a0-5d27-4db7-9486-d914869b0dc6",
+        "e95393e5-e2fb-4fe2-b617-63ad464a8da1"
+      ],
+      "settings": {
+        "display_padding": true,
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0
+      }
+    },
+    "6e0283d5-4326-4bf1-83c1-ffa608da31e3": {
+      "type": "banner-phy-slider",
+      "blocks": {
+        "template--15038814584892__6e0283d5-4326-4bf1-83c1-ffa608da31e3-1667471797c221da9b-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/1920x500_Retinol_NC_HP_Banner_Desk_v3_a330c406-0940-4a11-b6ad-9398acd9f517.gif",
+            "image_slide_mb": "shopify:\/\/shop_images\/767x475_Retinol_NC_HP_Banner_Mob_v2_862cb353-1d6c-4cf7-8406-84004151f706.gif",
+            "link": "",
+            "alignment": "left"
+          }
+        },
+        "d0bd4ccf-369a-440a-a025-762b6159e58a": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/HP-banner_Master_World-Vegan-Day_V02_1.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP-Mob-banner_World-Vegan-Day_1.jpg",
+            "link": "",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--15038814584892__6e0283d5-4326-4bf1-83c1-ffa608da31e3-1667471797c221da9b-0",
+        "d0bd4ccf-369a-440a-a025-762b6159e58a"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "8000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "eea272a2-a949-4b89-875c-fa6eeeaaf4e5": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
+        "link": "",
+        "banner-class": ""
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "settings": {
+        "display_sidebar": false,
+        "sidebar_heading": "",
+        "display_collection_image": false,
+        "display_collection_des": false,
+        "limited_view": false,
+        "view_as_enable": false,
+        "sort_enable": false,
+        "collection_results_per_row": "3",
+        "collection_results_per_page": "20"
       }
     }
   },
   "order": [
+    "038cefed-259d-43cb-9b43-1f2f966e00e1",
+    "6e0283d5-4326-4bf1-83c1-ffa608da31e3",
+    "eea272a2-a949-4b89-875c-fa6eeeaaf4e5",
     "main-collection"
   ]
 }
