@@ -15,7 +15,10 @@
     stroke-width: 3px;
 }
 
-
+.home-slideshow .slick-dots li button {
+    border: 1px solid #d6006d;
+    background: none;
+}
 .home-slideshow-sections .slick-dots li.slick-active button {
     background: #d6006d;
 }
