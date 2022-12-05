@@ -4974,3 +4974,7 @@ span.plum-friday i.fa {
     top: 0;
     padding: 9px;
 }
+
+.error_page .content-infos h2 {
+    font-family: "DINNextRoundedLTPro-Bold" !important;
+}
