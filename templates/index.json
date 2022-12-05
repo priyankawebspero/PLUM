@@ -136,6 +136,15 @@
             "link": "shopify:\/\/collections\/new-launches",
             "alignment": "left"
           }
+        },
+        "419c191a-9d3b-4d3e-95da-f1c5fafe9b17": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/HP-Banner-Desk_Buy-3-_30_-OFF_V.gif",
+            "link": "",
+            "alignment": "left"
+          }
         }
       },
       "block_order": [
@@ -143,7 +152,8 @@
         "954be5d8-b6dc-41fd-afb6-9997a2b99974",
         "165848486091642f98-0",
         "fdcfe39d-016a-4ac0-8e69-179d4efc2c9e",
-        "f0188917-06a6-4e38-a16f-f663af2d2627"
+        "f0188917-06a6-4e38-a16f-f663af2d2627",
+        "419c191a-9d3b-4d3e-95da-f1c5fafe9b17"
       ],
       "settings": {
         "layout": "full",
