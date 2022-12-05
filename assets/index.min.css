@@ -923,6 +923,10 @@ div#trending_week_recomendations .slick-dots li button, .widget-product .slick-d
     height: 14px;
 }
 
+.home-collection-carousel .slick-list.draggable {
+    padding: 0 !important;
+}
+
 }
 
 
