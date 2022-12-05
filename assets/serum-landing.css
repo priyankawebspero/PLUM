@@ -568,7 +568,8 @@
     color: #000;
     margin-bottom: 12px;
     line-height: .8;
-    font-family: 'gothamblackregular';
+    /*font-family: 'gothamblackregular';*/
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 #dullness-pigmentation .left_area h2.heading_serum {
