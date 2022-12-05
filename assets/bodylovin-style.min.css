@@ -176,6 +176,10 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
 }
+
+
+@media (min-width: 787px) {
+
 .bodylovin .footer-newsletter.desktop-xs {
     display: flex;
     flex-direction: column;
@@ -188,6 +192,8 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
 
 .bodylovin .footer-newsletter.desktop-xs section.newsletter {
     order: 3;
+}
+
 }
 
 @media (min-width: 992px) {
