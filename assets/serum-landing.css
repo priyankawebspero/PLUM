@@ -804,7 +804,7 @@ body .right_area .inner.product-item .inner-top .product-image .product-grid-ima
     font-family: "DINNextRoundedLTPro-Regular";
 }
 
-.left_area p b {
+.left_area p strong {
   font-family: "DINNextRoundedLTPro-Bold";
   font-weight:normal;
 }
