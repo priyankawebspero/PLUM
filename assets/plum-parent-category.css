@@ -748,6 +748,7 @@ div#categoryxconcern .boost-pfs-filter-tree-v .boost-pfs-filter-option-title-hea
     flex: 1;
     font-family: "DINNextRoundedLTPro-Medium";
     color: #5e248c;
+  font-weight: normal;
 }
 
 .boost-pfs-filter-tree-v .boost-pfs-filter-option-title {
