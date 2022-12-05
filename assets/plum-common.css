@@ -4973,7 +4973,7 @@ span.plum-friday i.fa {
 
 .search-div-on-error .search-bar .icon-search {
     top: 0;
-    padding: 9px;
+    padding: 9px !important;
 }
 
 .error_page .content-infos h2 {
