@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main-collection": {
-      "type": "main-collection",
+    "main-parents-collection": {
+      "type": "main-parents-collection",
       "settings": {
       }
     }
   },
   "order": [
-    "main-collection"
+    "main-parents-collection"
   ]
 }
