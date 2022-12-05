@@ -121,9 +121,10 @@
     color: #000;
     font-size: 16px;
    font-weight: normal;
-    font-family: 'gothambook';
+    /*font-family: 'gothambook';*/
     padding-left: 8px;
     padding-right: 8px;
+  font-family: "DINNextRoundedLTPro-Regular";
 }
 
 .concern-flipbox-slider-sections .container {
