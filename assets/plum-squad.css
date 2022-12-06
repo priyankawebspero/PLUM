@@ -27,7 +27,7 @@ div#shopify-section-video-image-banner .video-section h3.desktop img{vertical-al
 .nml-steps-section .banner.desktop .step.richtext p{line-height:normal;font-size:22px}
 .nml-steps-section .banner.desktop .step.richtext p strong{color:#5a108c;display:block}
 .squad-footer-section{background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/squad_bg_new_footer.jpg);background-size:cover;padding-top:100px;padding-bottom:11.5%;text-align:center;background-repeat:no-repeat;background-position:center}
-.squad-footer-section .paragraph{font-size:35px;line-height:normal;color:#5e0d8b;margin-bottom:50px;display:block;padding-top:15px}
+.squad-footer-section .paragraph{font-family: "DINNextRoundedLTPro-Regular";font-size:35px;line-height:normal;color:#5e0d8b;margin-bottom:50px;display:block;padding-top:15px}
 .squad-footer-section .paragraph sup{font-size:20px;top:-.7em}
 .squad-footer-section .text_area{ font-family: "DINNextRoundedLTPro-Bold"; font-size:30px;font-weight:700;line-height:normal;color:#5e0d8b;letter-spacing:0;padding-bottom:5px}
 .squad-footer-section .textarea p a{display:inline-block;border-bottom:1px solid #000;font-size:22px;line-height:normal;margin-bottom:50px}
