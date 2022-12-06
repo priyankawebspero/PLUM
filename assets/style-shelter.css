@@ -1674,6 +1674,7 @@ top: 0px;
     color: rgb(255 255 255);
     font-weight: 400;
     text-transform: lowercase;
+   font-family: "DINNextRoundedLTPro-Regular";
 }
 .media-box .colon-img{
  position: absolute;
