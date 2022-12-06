@@ -12,7 +12,7 @@
 }
 
 .featured-products .box-title {
-    font-family: 'serifabold';
+    font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     font-size: 50px;
     margin-bottom: 20px;
@@ -204,7 +204,7 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
 }
 
 .home-sub-banner-sections h3 {
-    font-family: 'serifabold';
+    font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     font-size: 50px;
     margin-bottom: 30px;
@@ -225,7 +225,7 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
 }
 
 .phy-videos-sections .phy-video-section .widget-title .box-title {
-    font-family: 'serifabold';
+    font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     font-size: 50px;
     margin-bottom: 20px;
