@@ -506,6 +506,7 @@ input:focus-visible {
   -ms-transform: matrix( 0.89794427271238,0,0,0.89794427271238,0,0);
   position: relative;
   z-index: 92;
+  font-family: "DINNextRoundedLTPro-Bold";
 }
 .step_1 {
   font-size: 51px;
