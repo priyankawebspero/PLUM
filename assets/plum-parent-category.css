@@ -202,6 +202,7 @@ body .top-tabs .tabs .btn:not(:disabled):not(.disabled):active {
 
 .boost-pfs-filter-tree-v .boost-pfs-filter-option.boost-pfs-filter-option-pick-a-product-for-your-skin-concern .boost-pfs-filter-button .boost-pfs-filter-option-value {
     font-size: 14px;
+  font-family: "DINNextRoundedLTPro-Regular";
 }
 
 div#parent_class .col-main {
