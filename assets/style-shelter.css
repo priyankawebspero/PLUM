@@ -785,7 +785,7 @@ top: -30px;
 .fill-details-text1 {
   font-size: 36px;
   color: rgb(251, 195, 55);
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 1.396;
   text-align: center;
@@ -795,6 +795,7 @@ top: -30px;
   position: relative;
   z-index: 48;
   top: 50px;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 .fill-details-text2 {
   font-size: 26px;
@@ -1656,7 +1657,7 @@ top: 0px;
 .fill-details-text1 {
   font-size: 60px;
   color: rgb(251, 195, 55);
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 1.396;
   text-align: center;
@@ -1666,6 +1667,7 @@ top: 0px;
   position: relative;
   top: 125px;
   z-index: 48;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 .fill-details-text2 {
     font-size: 60px;
