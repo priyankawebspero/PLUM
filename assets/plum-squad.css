@@ -39,7 +39,7 @@ div#shopify-section-video-image-banner .video-section h3.desktop img{vertical-al
 .innner-wrppaer-squad .slide a{font-family: "DINNextRoundedLTPro-Medium"; display:block;background:#5e2d88;color:#fff;font-size:24px;line-height:1.5;border-radius:5px;font-weight:500;padding:10px 20px 11px;cursor:pointer;box-shadow:6px 0 14px #000}
 .innner-wrppaer-squad .slide a:hover{color:#fff!important;background:#8901bd!important}
 .innner-wrppaer-squad .col-12.col-md-12.col-lg-12{clear:both}
-.slide-button{display:block;background:#5e2d88;color:#fff;font-size:24px;line-height:1.5;border-radius:5px;font-weight:600;padding:10px 20px 11px;cursor:pointer;box-shadow:6px 0 14px #000;width:305px;max-width:100%;margin:auto;text-align:center}
+.slide-button{font-family: "DINNextRoundedLTPro-Medium"; display:block;background:#5e2d88;color:#fff;font-size:24px;line-height:1.5;border-radius:5px;font-weight:500;padding:10px 20px 11px;cursor:pointer;box-shadow:6px 0 14px #000;width:305px;max-width:100%;margin:auto;text-align:center}
 .slide-button-bg{padding:30px;background-image:url(https://cdn.shopify.com/s/files/1/0390/2985/files/02_Part_Desk_V3.jpg?v=1642659199);background-size:contain}
 .slide-button:hover{color:#fff!important;background:#8901bd!important}
 .slide-button svg{float:right;width:22px;height:22px;position:relative;top:10px}
