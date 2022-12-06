@@ -802,7 +802,7 @@ top: -30px;
   color: rgb(255 255 255);
   font-weight: 400;
   text-transform: lowercase;
-  font-family: "DINNextRoundedLTPro-Regular";
+  font-family: "DINNextRoundedLTPro-Light";
 }
 .submit-style img{
   padding-left: 10px;
@@ -1675,7 +1675,7 @@ top: 0px;
     color: rgb(255 255 255);
     font-weight: 400;
     text-transform: lowercase;
-   font-family: "DINNextRoundedLTPro-Regular";
+   font-family: "DINNextRoundedLTPro-Light";
 }
 .media-box .colon-img{
  position: absolute;
