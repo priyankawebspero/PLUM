@@ -24,7 +24,7 @@
 }
 
 .colx-box-swap .row h3 {
-    font-family: "DIN Next";
+    font-family: "DINNextRoundedLTPro-Bold";
     margin-bottom: 20px;
     color: #5e248c;
 }
@@ -37,7 +37,7 @@
     font-size: 20px;
     border-radius: 5px;
     padding: 10px 15px;
-    font-family: "DIN Next";
+    font-family: "DINNextRoundedLTPro-Bold";
     box-shadow: none;
     min-width: 165px;
     text-transform: lowercase!important;
