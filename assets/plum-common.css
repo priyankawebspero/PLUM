@@ -2353,8 +2353,8 @@ div#dropdown-cart {
 }
 
 #dropdown-cart .mini-products-list .item .pro-name-and-price .price {
-   
-    font-weight: 600;
+   font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: 500;
     font-size: 14px;
 }
 
