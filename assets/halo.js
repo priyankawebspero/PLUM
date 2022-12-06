@@ -1972,7 +1972,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
     changeQuantityAddToCartNew: function() { 
       $(document).on('click', '.button.quantity', function(e){
         var a = $(this).closest('form').find(".product_id").attr("data-id");
-       // var oldValue = $('body').find('#cart-item-'+a+' .quantity').val();
         var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
         console.log(oldValue);
         if ($(this).hasClass('plus') ){
