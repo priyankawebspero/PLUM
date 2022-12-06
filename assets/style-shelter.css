@@ -106,7 +106,8 @@ img {
   -ms-transform: matrix( 0.89937798704747,0,0,0.89937798704747,0,0);
   position: relative;
   z-index: 9;
-  font-weight: 900;
+  font-weight: 500;
+  font-family: "DINNextRoundedLTPro-Bold";
 }
 .text2 {
   font-size: 30px;
