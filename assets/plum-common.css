@@ -3077,11 +3077,11 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     vertical-align: top;
 }
 #dropdown-cart .total .price {
-    font-weight: 600;
+   font-family: "DINNextRoundedLTPro-Medium"; font-weight: 500;
 }
 
 #dropdown-cart .drop-cart_discount .savings_price {
-    font-weight: 600;
+    font-family: "DINNextRoundedLTPro-Medium"; font-weight: 500;
 }
 
 @media only screen and (max-width:991px) and (min-width:768px){
