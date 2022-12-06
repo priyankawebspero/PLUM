@@ -5,7 +5,7 @@
 #shopify-section-affiliate-first-section .spotlight-item{margin-bottom:10px}
 .download_area_custom p span{color:#5e2d88;padding-right:0}
 .download_area_custom p *{font-size:24px;font-weight:500}
-.download_area_custom p a{font-weight:700;color:#000;margin:0 20px}
+.download_area_custom p a{font-family: "DINNextRoundedLTPro-Medium"; font-weight:500;color:#000;margin:0 20px}
 #shopify-section-affiliate-fourth-section .slide img,#shopify-section-affiliate-third-section .slide img,#shopify-section-affiliate-second-section .slide img{width:100%}
 .page-affiliate-landing .container-fluid .row{margin:0}
 #shopify-section-affiliate-first-section .img-box img{width:100%}
