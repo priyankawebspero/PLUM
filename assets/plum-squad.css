@@ -29,7 +29,7 @@ div#shopify-section-video-image-banner .video-section h3.desktop img{vertical-al
 .squad-footer-section{background:url(https://cdn.shopify.com/s/files/1/0390/2985/files/squad_bg_new_footer.jpg);background-size:cover;padding-top:100px;padding-bottom:11.5%;text-align:center;background-repeat:no-repeat;background-position:center}
 .squad-footer-section .paragraph{font-size:35px;line-height:normal;color:#5e0d8b;margin-bottom:50px;display:block;padding-top:15px}
 .squad-footer-section .paragraph sup{font-size:20px;top:-.7em}
-.squad-footer-section .text_area{font-size:30px;font-weight:700;line-height:normal;color:#5e0d8b;letter-spacing:0;padding-bottom:5px}
+.squad-footer-section .text_area{ font-family: "DINNextRoundedLTPro-Bold"; font-size:30px;font-weight:700;line-height:normal;color:#5e0d8b;letter-spacing:0;padding-bottom:5px}
 .squad-footer-section .textarea p a{display:inline-block;border-bottom:1px solid #000;font-size:22px;line-height:normal;margin-bottom:50px}
 .squad-footer-section .textarea p a:hover{border-bottom:1px solid #5e0d8b;color:#5e0d8b}
 .squad-footer-section .download_area_custom a{font-family: "DINNextRoundedLTPro-Medium";display:inline-block;margin:15px;font-size:24px;color:#000;font-weight:500;line-height:normal;margin-top:0}
