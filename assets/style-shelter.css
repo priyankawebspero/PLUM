@@ -795,13 +795,14 @@ top: -30px;
   position: relative;
   z-index: 48;
   top: 50px;
-  font-family: "DINNextRoundedLTPro-Medium";
+  font-family: "DINNextRoundedLTPro-Bold";
 }
 .fill-details-text2 {
   font-size: 26px;
   color: rgb(255 255 255);
   font-weight: 400;
   text-transform: lowercase;
+  font-family: "DINNextRoundedLTPro-Regular";
 }
 .submit-style img{
   padding-left: 10px;
