@@ -4987,3 +4987,44 @@ span.plum-friday i.fa {
 .error_page .content-infos ul li a span {
     font-family: "DINNextRoundedLTPro-Light";
 }
+
+/*--------------collection-navigation--------------*/
+
+.collection_navigation {
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+.collection_navigation ul.collection_nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.collection_navigation ul.collection_nav li {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.collection_navigation ul.collection_nav li a {
+    text-decoration: none;
+    line-height: 1;
+    width: max-content;
+    text-align: center;
+    color: #5e248c;
+    font-weight: 600;
+    padding: 8px 12px;
+    display: inline-block;
+    vertical-align: top;
+    background: #d9c5e3;
+    border-radius: 4px;
+    font-size: 15px;
+}
