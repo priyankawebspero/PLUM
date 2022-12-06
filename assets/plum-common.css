@@ -4997,6 +4997,8 @@ span.plum-friday i.fa {
     padding: 0;
 }
 
+.collection_navigation::-webkit-scrollbar{display:none;}
+
 .collection_navigation ul.collection_nav {
     display: -webkit-box;
     display: -moz-box;
@@ -5028,3 +5030,10 @@ span.plum-friday i.fa {
     border-radius: 4px;
     font-size: 15px;
 }
+
+@media only screen and (min-width:768px){
+.collection_navigation{display:none;}
+  
+}
+
+/*-------------collection_nav_for_mobile-end------------*/
