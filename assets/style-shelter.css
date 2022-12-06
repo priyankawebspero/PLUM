@@ -326,6 +326,7 @@ input:focus-visible {
     z-index: 36;
     text-decoration: none;
     padding: 10px;
+  font-family: "DINNextRoundedLTPro-Medium";
 }
 
 .submit-style{
