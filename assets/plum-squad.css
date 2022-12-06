@@ -32,7 +32,7 @@ div#shopify-section-video-image-banner .video-section h3.desktop img{vertical-al
 .squad-footer-section .text_area{font-size:30px;font-weight:700;line-height:normal;color:#5e0d8b;letter-spacing:0;padding-bottom:5px}
 .squad-footer-section .textarea p a{display:inline-block;border-bottom:1px solid #000;font-size:22px;line-height:normal;margin-bottom:50px}
 .squad-footer-section .textarea p a:hover{border-bottom:1px solid #5e0d8b;color:#5e0d8b}
-.squad-footer-section .download_area_custom a{display:inline-block;margin:15px;font-size:24px;color:#000;font-weight:700;line-height:normal;margin-top:0}
+.squad-footer-section .download_area_custom a{font-family: "DINNextRoundedLTPro-Medium";display:inline-block;margin:15px;font-size:24px;color:#000;font-weight:500;line-height:normal;margin-top:0}
 .squad-footer-section .download_area_custom a:hover{color:#5e0d8b}
 #plum-squad main.main-content{padding-bottom:0!important}
 .innner-wrppaer-squad{width:100%;max-width:690px;margin:0 auto}
