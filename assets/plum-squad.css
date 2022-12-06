@@ -6,7 +6,7 @@ div#shopify-section-video-image-banner .video-section .video-container .js-video
 #shopify-section-video-image-banner .play i{height:auto!important;z-index:22!important}
 div#shopify-section-video-image-banner .video-section .video-container .js-video iframe{position:absolute;width:100%;height:100%;background:none;top:0;left:0;border-radius:10px}
 div#shopify-section-video-image-banner .video-section .video-container .js-video{position:relative;padding-bottom:56.1%;overflow:hidden;border-radius:10px}
-div#shopify-section-video-image-banner .video-section h3{text-align:center;padding:45px 0 15px;margin-bottom:0;font-size:50px;color:#5b108b;font-weight:700}
+div#shopify-section-video-image-banner .video-section h3{font-family: "DINNextRoundedLTPro-Medium"; text-align:center;padding:45px 0 15px;margin-bottom:0;font-size:50px;color:#5b108b;font-weight:500}
 div#shopify-section-video-image-banner .video-section{width:100%;max-width:1270px;margin:0 auto;padding:0 15px}
 div#shopify-section-video-image-banner .video-section h3.mobile{font-size:47px;margin-bottom:0;padding-top:10px}
 div#shopify-section-video-image-banner .video-section h3.mobile img{margin-left:15px}
