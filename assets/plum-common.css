@@ -3077,6 +3077,10 @@ a.btn.user_not_vaild_button:hover{background:#e3abf9!important}
     width: 100%;
     vertical-align: top;
 }
+#dropdown-cart .drop-cart_discount .savings_label {
+    font-family: "DINNextRoundedLTPro-Regular";
+}
+
 #dropdown-cart .total .price {
    font-family: "DINNextRoundedLTPro-Medium"; font-weight: 500;
 }
