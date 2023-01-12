@@ -1,5 +1,4 @@
 var bcElla;
-
 $slideshow = $('.header-top-slider').slick({
       dots:false,
       autoplay:true,
@@ -9,10 +8,6 @@ $slideshow = $('.header-top-slider').slick({
       slidesToShow:1,
       slidesToScroll:1
     });
-
-// jQuery.getJSON('/cart.js', function (cart, textStatus) {
-//    Shopify.onCartUpdate(cart);
-// });
 
 if((typeof Shopify.getCart) === 'undefined'){
   Shopify.getCart = function(callback, cart){
@@ -37,19 +32,12 @@ if((typeof Shopify.getCart) === 'undefined'){
 $('input[type="search"]').on('keypress',function(e) {
   let searc_url = $('.header-search__see-more').attr('href');
     if(e.which == 13) {      
-      if(searc_url === undefined){
-        
+      if(searc_url === undefined){        
       }else{
        window.location = 'https://plumgoodness.com' + searc_url;
       }
     }
 });
-
-
-$('.filter_area .sidebar-heading').on('click', function(){
-    $('.filter_area').toggleClass('active');
-});
-
 if ((typeof Shopify) === 'undefined') { window.Shopify = {}; }
 // Get from cart.js returns the cart in JSON
 if ((typeof Shopify.getCart) === 'undefined') {
