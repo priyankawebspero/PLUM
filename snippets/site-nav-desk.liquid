@@ -1,14 +1,8 @@
-{% comment %}
-List out your main-menu linklist (default)
-More info on linklists:
-- http://docs.shopify.com/themes/liquid-variables/linklists
-{% endcomment %}
-
 <ul class="site-nav">
     {% if section.settings.horizontal_linklist != blank %}
-    {% assign menu = linklists[desktop-menus].links %}
+    {% assign menu = linklists[new-main-menu].links %}
     {% else %}
-    {% assign menu = linklists.desktop-menus.links %}
+    {% assign menu = linklists.new-main-menu.links %}
     {% endif %}
 
     {% for link in menu %}
