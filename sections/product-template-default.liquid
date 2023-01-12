@@ -46,7 +46,7 @@
           {% if product.metafields.Product['Short Description'] != blank %}
           {{ product.metafields.Product['Short Description'] }}
           {% else %}
-          {{ product.metafields.Product['Short Description '] }}
+          {{ product.metafields.Product['Short Description'] }}
             
           {% endif %}
             </div>
@@ -59,7 +59,7 @@
           {% assign Range_url = product.metafields.Product['Range_url'] %}
           {% assign rangeText =  product.metafields.Product["Range"] %}
           {% if rangeText == blank %}
-          {% assign rangeText =  product.metafields.Product["Range "] %}
+          {% assign rangeText =  product.metafields.Product["Range"] %}
           {% endif %}
           {% if Range_url != blank %}
           {% if rangeText != blank %}
@@ -337,7 +337,7 @@
           {% if product.metafields.Product['Short Description'] != blank %}
           {{ product.metafields.Product['Short Description'] }}
           {% else %}
-          {{ product.metafields.Product['Short Description '] }}
+          {{ product.metafields.Product['Short Description'] }}
             
           {% endif %}
             </div>
