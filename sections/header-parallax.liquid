@@ -72,8 +72,7 @@
             </div>                   
 
 </header>
-
-  {% if section.settings.display_header_top %}
+{% if section.settings.display_header_top %}
 <div class="promopopup" style="display:none;">
   <div class="container">
     <span class="closepromo">x</span>
@@ -87,7 +86,7 @@
           <div class="image_block">
             <img data-src="{{ block.settings.promo_image | img_url: 'large' , format: 'pjpg'}}"
                      src="{{ block.settings.promo_image | img_url: 'large' , format: 'pjpg'}}"
-                     alt="{{ block.settings.promo_image.alt | default: shop.name }}" class="lazyautosizes lazyloaded" data-sizes="auto">
+                     alt="{{ block.settings.promo_image.alt | default: shop.name }}" class="lazyautosizes lazyload" data-sizes="auto">
           </div>
           {% endif %}
           <div class="text_block">
@@ -103,7 +102,7 @@
          <a href="{{block.settings.promo_link_slide}}">         
           <img data-src="{{ block.settings.promo_image_slide | img_url: 'large' , format: 'pjpg'}}"
                src="{{ block.settings.promo_image_slide | img_url: 'large' , format: 'pjpg'}}"
-               alt="{{ block.settings.promo_image_slide.alt | default: shop.name }}" class="lazyautosizes lazyloaded" data-sizes="auto">
+               alt="{{ block.settings.promo_image_slide.alt | default: shop.name }}" class="lazyautosizes lazyload" data-sizes="auto">
          </a>
          {% endif %}
       </div>
@@ -114,59 +113,8 @@
    {% endif %}
 
 <script asyn>
-  $(document).ready(function(){
-    $(".promo-code").click(function(event){
-      event.preventDefault();
-      var $tempElement = $("<input>");
-      $("body").append($tempElement);
-      $tempElement.val($.trim($(this).text())).select();
-      $(".promo-code").removeClass('active');
-      $(this).addClass('active')
-      setTimeout(function() {
-        $(".promo-code").removeClass('active');
-      },3000);  
-      document.execCommand("Copy");
-      $tempElement.remove();
-    });
-  });
+$(document).ready((function(){$(".promo-code").click((function(e){e.preventDefault();var o=$("<input>");$("body").append(o),o.val($.trim($(this).text())).select(),$(".promo-code").removeClass("active"),$(this).addClass("active"),setTimeout((function(){$(".promo-code").removeClass("active")}),3e3),document.execCommand("Copy"),o.remove()}))}));
 </script>
-
- {% comment %}
-
-  {% if section.settings.timer_date != blank %}
-<script>
-  // Set the date we're counting down to
-  var countDownDatet = new Date(Date.parse("{{section.settings.timer_date}}")).getTime();
-
-     // Update the count down every 1 second
-     var xt = setInterval(function() {
-
-    // Get today's date and time
-    var nowt = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distancet = countDownDatet - nowt;
-
-    // Time calculations for days, hours, minutes and seconds
-    var dayst = Math.floor(distancet / (1000 * 60 * 60 * 24));
-    var hourst = Math.floor((distancet % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutest = Math.floor((distancet % (1000 * 60 * 60)) / (1000 * 60));
-    var secondst = Math.floor((distancet % (1000 * 60)) / 1000);
-
-    // Output the result in an element with id="demo"
-    document.getElementById("countdown_tt").innerHTML =  "<span class='days countdown'><span class='ocount'>" + dayst + "</span><span class='inner'> DAYS </span> : </span><hr/>" + "<span class='hours countdown'><span class='ocount'>" + hourst + "</span><span class='inner'> HOURS</span> : </span><hr/> <span class='minutes countdown'><span class='ocount'>"
-    + minutest + "</span><span class='inner'> MINUTES</span> : </span><hr><span class='seconds countdown'><span class='ocount'>" + secondst + "</span><span class='inner'>  SECONDS</span></span><hr> ";
-
-    // If the count down is over, write some text 
-    if (distancet < 0) {
-      clearInterval(xt);
-      document.getElementById("countdown_tt").innerHTML = "Sale Over!!";
-    }
-  }, 1000);
-</script>   
-{% endif %}
-
- {% endcomment %}
 {% schema %}
 {
 "name": "Header 01",
@@ -253,58 +201,6 @@
 "id": "logo",
 "label": "Logo image for Mobile",
 "info": "95px x 44px recommended"
-},
-{
-"type": "image_picker",
-"id": "logo_body",
-"label": "Bodylovin Logo image for Mobile",
-"info": "95px x 44px recommended"
-},
-{
-"type": "url",
-"id": "logo_body_url",
-"label": "PHY bodylovin URL"
-},
-{
-"type": "image_picker",
-"id": "logo_phy",
-"label": "PHY Logo image for Mobile",
-"info": "95px x 44px recommended"
-},
-{
-"type": "url",
-"id": "logo_phy_url",
-"label": "PHY Logo URL"
-},
-{
-"type": "text",
-"id": "max_height_logo_mb",
-"label": "Max Height of Logo Mobile",
-"default": "26px" 
-},
-{
-"type": "image_picker",
-"id": "logo_pc",
-"label": "Logo image for PC",
-"info": "95px x 44px recommended"
-},
-{
-"type": "image_picker",
-"id": "logo_body_pc",
-"label": "Bodylovin Logo image for PC",
-"info": "95px x 44px recommended"
-},
-{
-"type": "image_picker",
-"id": "logo_phy_pc",
-"label": "PHY Logo image for PC",
-"info": "95px x 44px recommended"
-},
-{
-"type": "text",
-"id": "max_height_logo_pc",
-"label": "Max Height of Logo PC",
-"default": "33px" 
 },
 {
 "type": "header",
