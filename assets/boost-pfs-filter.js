@@ -28,7 +28,7 @@ var boostPFSTemplate = {
 						'<ul class="dropdown-menu">{{showLimitItems}}</ul>',
 
 	// Grid Template
-	'productGridItemHtml': '<div class="grid-item ghj ' + boostPFSConfig.custom.grid_item_width + ' {{itemGridBorderClass}}">' +
+	'productGridItemHtml': '<div class="grid-item ' + boostPFSConfig.custom.grid_item_width + ' {{itemGridBorderClass}}">' +
 								'<div class="inner product-item {{itemSoldOutClass}} {{itemSaleClass}} " data-product-id="product-{{itemId}}" data-json-product={{itemJson}}>' +
 									'<div class="inner-top">' +
 										'<div class="product-top">' +
@@ -54,7 +54,7 @@ var boostPFSTemplate = {
 												'{{itemVendor}}' +
 												'{{itemCompare}}' +
 											'</div>' +
-											'<h3 class="title_h3"><a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a></h3>' +
+											'<a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a>' +
 											'{{shades}}' +
 											'{{sizes}}' +
 											'<div class="price-box">{{itemPrice}}</div>' +
@@ -67,7 +67,7 @@ var boostPFSTemplate = {
 										// Product Detail
 										'<div class="product-details">' +
 											'{{itemVendor}}' +
-											'<h3 class="title_h3"><a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a></h3>' +
+											'<a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a>' +
 											'{{itemReview}}' +
 											'<div class="short-description">{{itemDescription}}</div>' +
 											'<div class="price-box">{{itemPrice}}</div>' +
@@ -106,7 +106,7 @@ var boostPFSTemplate = {
 											'<div class="wrapper-compare">' +
 												'{{itemColorSwatches}}' + 
 											'</div>' +
-											'<h3 class="title_h3"><a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a></h3>' +
+											'<a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a>' +
 											'<div class="price-box">{{itemPrice}}</div>' +
 											'<div class="wrapper-size">' + 
 												'{{itemSizeSwatches}}' +
@@ -117,7 +117,7 @@ var boostPFSTemplate = {
 										// Product Detail
 										'<div class="product-details">' +
 											'{{itemVendor}}' +
-											'<h3 class="title_h3"><a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a></h3>' +
+											'<a class="product-title" href="{{itemUrl}}">{{itemTitleMultilang}}</a>' +
 											'{{itemReview}}' +
 											'<div class="short-description">{{itemDescription}}</div>' +
 											'<div class="price-box">{{itemPrice}}</div>' +
@@ -140,7 +140,7 @@ var boostPFSTemplate = {
 								'</div>' +
 
 								'<div class="product-details">' +
-									'<h3 class="title_h3"><a class="product-title" href="{{itemUrl}}">{{itemTitle}}</a></h3>' +
+									'<a class="product-title" href="{{itemUrl}}">{{itemTitle}}</a>' +
 									'{{itemVendor}}' +
 									'{{itemReview}}' +
 									'<div class="short-description">{{itemDescription}}</div>' +
@@ -189,7 +189,6 @@ var boostPFSTemplate = {
 		// Displaying price base on the policy of Shopify, have to multiple by 100
 		var soldOut = !data.available; // Check a product is out of stock
 		var onSale = data.compare_at_price_min > data.price_min; // Check a product is on sale
-        var tags = data.tags; // Check a product is on sale
 		var priceVaries = data.price_min != data.price_max; // Check a product has many prices
 		// Get First Variant (selected_or_first_available_variant)
 		var firstVariant = data['variants'][0];
@@ -274,79 +273,27 @@ var boostPFSTemplate = {
 		itemHtml = itemHtml.replace(/{{itemFlipImageUrl}}/g, itemFlipImageUrl);
 
 		// Add Label
-		// var itemLabelsHtml = '';
-		// if (onSale || soldOut) {
-  //         var percentSale = (firstVariant.compare_at_price - firstVariant.price) * 100 / firstVariant.compare_at_price;
-  //         if (percentSale == 0  || percentSale == 'Infinity') {
+		var itemLabelsHtml = '';
+		if (onSale || soldOut) {
+          var percentSale = (firstVariant.compare_at_price - firstVariant.price) * 100 / firstVariant.compare_at_price;
+          if (percentSale == 0  || percentSale == 'Infinity') {
           
-  //         } else {
-		// 	itemLabelsHtml += '<div class="product-label two">';
-  //           if (onSale) {
-  //             if (boostPFSThemeConfig.custom.type_label_sale == 'label_sale') {
-  //               itemLabelsHtml += '<strong class="label sale-label">' + boostPFSConfig.label.sale + '</strong>';
-  //             } else {                	
-  //               itemLabelsHtml += '<img src="https://cdn.shopify.com/s/files/1/0390/2985/files/sale_new.png?v=1579003407">';
-  //               itemLabelsHtml += '<strong class="label sale-label">' + Math.floor(percentSale) + '% Off</strong>';
-  //             }
-  //           }
-  //         }
-		// 	if (soldOut) {
-		// 		itemLabelsHtml += '<strong class="label sold-out-label">' + boostPFSConfig.label.sold_out + '</strong>';
-		// 	}
-		// 	itemLabelsHtml += '</div>';
-		// }
-		// itemHtml = itemHtml.replace(/{{itemLabels}}/g, itemLabelsHtml);
-
-         var itemLabelsHtml = '';
-
-        var percentSale = (firstVariant.compare_at_price - firstVariant.price) * 100 / firstVariant.compare_at_price;
-        
-        if (onSale) {
-          itemLabelsHtml += '<div class="product-label two">';
-          if (boostPFSThemeConfig.custom.type_label_sale == 'label_sale') {
-            itemLabelsHtml += '<strong class="label sale-label">' + boostPFSConfig.label.sale + '</strong>';
-          } else {                	
-            itemLabelsHtml += '<img src="https://cdn.shopify.com/s/files/1/0390/2985/files/sale_new.png?v=1579003407">';
-            itemLabelsHtml += '<strong class="label sale-label">' + Math.floor(percentSale) + '% Off</strong>';
+          } else {
+			itemLabelsHtml += '<div class="product-label two">';
+            if (onSale) {
+              if (boostPFSThemeConfig.custom.type_label_sale == 'label_sale') {
+                itemLabelsHtml += '<strong class="label sale-label">' + boostPFSConfig.label.sale + '</strong>';
+              } else {                	
+                itemLabelsHtml += '<img src="https://cdn.shopify.com/s/files/1/0390/2985/files/sale_new.png?v=1579003407">';
+                itemLabelsHtml += '<strong class="label sale-label">' + Math.floor(percentSale) + '% Off</strong>';
+              }
+            }
           }
-          itemLabelsHtml += '</div>';
-           if(data.tags.includes('b2g1') || data.tags.includes('B2G1')) {
-              itemLabelsHtml += '<span class="discount-tag-col pink">BUY 2 GET 1 FREE</span>';
-            }
-           if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
-              itemLabelsHtml += '<span class="discount-tag-col blue">BUY 2 GET 2 FREE</span>';
-           } 
-          if(data.tags.includes('supersaver') || data.tags.includes('supersaver')) {
-              itemLabelsHtml += '<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>';
-            }
-          if(data.tags.includes('gurleen') || data.tags.includes('Gurleen')) {
-              // itemLabelsHtml += '<span class="discount-tag-col pink">any 3 at 1099</span>';
-            }
-        }
-		else {
-            // if(data.tags.includes('bestseller') || data.tags.includes('Bestseller')) {
-            //   itemLabelsHtml += '';
-            // }
-            // if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
-            //   itemLabelsHtml += '';
-            // }
-            if(data.tags.includes('b2g1') || data.tags.includes('B2G1')) {
-              itemLabelsHtml += '<span class="discount-tag-col pink">BUY 2 GET 1 FREE</span>';
-            }
-          if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
-              itemLabelsHtml += '<span class="discount-tag-col blue">BUY 2 GET 2 FREE</span>';
-           }
-          if(data.tags.includes('supersaver') || data.tags.includes('supersaver')) {
-              itemLabelsHtml += '<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>';
-            }
-          if(data.tags.includes('gurleen') || data.tags.includes('Gurleen')) {
-              // itemLabelsHtml += '<span class="discount-tag-col pink">any 3 at 1099</span>';
-            }
-        }
-        if (soldOut) {
-		  itemLabelsHtml += '<strong class="label sold-out-label">' + boostPFSConfig.label.sold_out + '</strong>';
-    	}	
-		
+			if (soldOut) {
+				itemLabelsHtml += '<strong class="label sold-out-label">' + boostPFSConfig.label.sold_out + '</strong>';
+			}
+			itemLabelsHtml += '</div>';
+		}
 		itemHtml = itemHtml.replace(/{{itemLabels}}/g, itemLabelsHtml);
 
 		// Add Price
@@ -457,38 +404,30 @@ var boostPFSTemplate = {
 		var shadesHtml = '';
 		var sizes = [];
 		var sizesHtml = '';
-        var variantLength = data.variants.length; 
-        if (variantLength > 1) {
-          if (data.template_suffix == 'swatch') {
-            shadesHtml += '<span class="shade-list">' + variantLength + ' shades</span>'; 
-          } else {
-            sizesHtml += '<span class="shade-sizes">' + variantLength + ' sizes</span>'
-          }
-        }
-		// if (boostPFSConfig.general.collection_id == 261609422908) {
-		// 	data.variants.forEach(v => {
-		// 		if (v.option_color && !shades.includes(v.option_color)) shades.push(v.option_color);
-		// 	});
-		// 	if (shades.length == 1) {
-		// 		shadesHtml = '<span class="shade-list">1 shade</span>'
-		// 	} else if (shades.length > 1) {
-		// 		shadesHtml = '<span class="shade-list">'+shades.length+' shades</span>'
-		// 	} else {
-		// 		shadesHtml = '';
-		// 	}
-		// } else if (boostPFSConfig.general.collection_id == 261802786876) {
-		// 	data.variants.forEach(v => {
-		// 		var size = v.merged_options.find(o => o.includes('size:'));
-		// 		if(size && !sizes.includes(size)) sizes.push(size)
-		// 	});
-		// 	if (sizes.length == 1) {
-		// 		sizesHtml = '<span class="size-list">1 size</span>'
-		// 	} else if (sizes.length > 1) {
-		// 		sizesHtml = '<span class="size-list">'+sizes.length+' sizes</span>'
-		// 	} else {
-		// 		sizesHtml = '';
-		// 	}
-		// }
+		if (boostPFSConfig.general.collection_id == 261609422908) {
+			data.variants.forEach(v => {
+				if (v.option_color && !shades.includes(v.option_color)) shades.push(v.option_color);
+			});
+			if (shades.length == 1) {
+				shadesHtml = '<span class="shade-list">1 shade</span>'
+			} else if (shades.length > 1) {
+				shadesHtml = '<span class="shade-list">'+shades.length+' shades</span>'
+			} else {
+				shadesHtml = '';
+			}
+		} else if (boostPFSConfig.general.collection_id == 261802786876) {
+			data.variants.forEach(v => {
+				var size = v.merged_options.find(o => o.includes('size:'));
+				if(size && !sizes.includes(size)) sizes.push(size)
+			});
+			if (sizes.length == 1) {
+				sizesHtml = '<span class="size-list">1 size</span>'
+			} else if (sizes.length > 1) {
+				sizesHtml = '<span class="size-list">'+sizes.length+' sizes</span>'
+			} else {
+				sizesHtml = '';
+			}
+		}
 		itemHtml = itemHtml.replace(/{{shades}}/g, shadesHtml);
 		itemHtml = itemHtml.replace(/{{sizes}}/g, sizesHtml);
 		/*End of 82240*/
@@ -666,7 +605,7 @@ var boostPFSTemplate = {
 		itemHtml = itemHtml.replace(/{{itemHandle}}/g, data.handle);
 		itemHtml = itemHtml.replace(/{{itemTitle}}/g, data.title);
 		itemHtml = itemHtml.replace(/{{itemUrl}}/g, Utils.buildProductItemUrl(data));
-       //console.log(Utils.buildProductItemUrl(data));
+
 		return itemHtml;
 	}
 
@@ -1057,7 +996,6 @@ var boostPFSTemplate = {
       }else if($('#build-your-own-regime-exfoliate').length){
       }else if($('#build-your-own-regime-toner').length){
       }else if($('#build-your-own-regime-facewash').length){
-      }else if($('#flat-50').length){
       }
       else{
         $.each(productsIn, function(key, templateProduct) {
@@ -1082,18 +1020,6 @@ var boostPFSTemplate = {
             //console.log(productID);
             //console.log('data-id="['+ productID +']"');
             $('div[data-id="'+ productID +'"] .product-item').addClass('birthday20');
-          }
-            if(jQuery.inArray("Plum 999", myarray) !== -1)
-          {
-            let productID = templateProduct.id;
-            //console.log(productID);
-            //console.log('data-id="['+ productID +']"');
-            $('div[data-id="'+ productID +'"] .product-item').addClass('plum_999');
-          }
-            if(jQuery.inArray("b1g1", myarray) !== -1)
-          {
-            let productID = templateProduct.id;
-            $('div[data-id="'+ productID +'"] .product-item').addClass('b1g1');
           }
            if(jQuery.inArray("birthday40", myarray) !== -1)
           {
@@ -1154,27 +1080,6 @@ var boostPFSTemplate = {
         }
         return price;
     }
-
-    /* start-boost-custom */
-    /* #boost-139047: remove button not working when navigating back from product page */    
-    jQ(document).on('click', '.btn-remove-item', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var productIdNew = jQ(this).parents('form').attr('data-id');
-        var productIdE = jQ(this).attr('data-id');
-        productIdE = $.trim(productIdE);
-        productIdE = productIdE.match(/\d+/g);
-        Shopify.removeItem(productIdE, function (cart) {
-          bcElla.doUpdateDropdownCart(cart);
-        });
-         
-        productIdNew = productIdNew.replace("product-actions-","");
-        console.log(productIdNew);
-        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
-        $('.variants.grid-product-form--'+productIdNew+' .cart').show();
-        $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
-      });
-     /* end-boost-custom */
 
     
 })();
