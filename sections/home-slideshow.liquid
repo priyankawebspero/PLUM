@@ -28,9 +28,7 @@
 
                     <div class="images-contain">
                         {% if block.settings.image_slide != blank %}
-
-                        {%- assign img_url = block.settings.image_slide | img_url: 'master' -%}
- 
+                        {%- assign img_url = block.settings.image_slide | img_url: 'master' -%} 
                         <a {% if block.settings.lb_product_1 != blank or block.settings.lb_product_2 != blank or block.settings.lb_product_3 != blank %}href="javascript:void(0)"{% else %}href="{{ block.settings.link }}"{% endif %} class="slide-image home_banner">
                             <img data-src="{{ img_url }}"
                                 src="https:{{ img_url }}" alt="{{ block.settings.image_slide.alt | default: shop.name }}" itemprop="logo"
@@ -63,7 +61,23 @@
         </div>
     </div>
 </section>
-{% include 'count-down-b2g2' %}
+{% if template contains 'index'%}
+  {% include 'count-down-b2g2' %}
+<script>
+$(".slide-image").click(function() {
+window.dataLayer = window.dataLayer || [];
+var bannerSrc = $(this).find("img").attr("src");
+var bannerTitle = $(this).find("img").attr("alt");
+var dhref = $(this).attr('href');
+  window.dataLayer.push({
+            'event':'home_banner_click',
+            'bannerSrc':bannerSrc,
+            'bannerTitle':bannerTitle,
+            'dhref':dhref
+          })
+});
+</script>
+{% endif %}
 {% endif %}
 
 {% schema %}
@@ -301,26 +315,6 @@
                         "type" : "url",
                         "id" : "link",
                         "label" : "Slide link"
-                    },
-                    {
-                        "type": "select",
-                        "id": "alignment",
-                        "label": "Text alignment",
-                        "default": "left",
-                        "options": [
-                        {
-                            "value": "left",
-                            "label": "Left"
-                        },
-                        {
-                            "value": "center",
-                            "label": "Center"
-                        },
-                        {
-                            "value": "right",
-                            "label": "Right"
-                        }
-                        ]
                     }
                 ]
             }
@@ -337,22 +331,3 @@
         }]
     }
 {% endschema %}
-
-<script>
-$(".slide-image").click(function() {
-// ev.preventDefault();
-window.dataLayer = window.dataLayer || [];
-var bannerSrc = $(this).find("img").attr("src");
-var bannerTitle = $(this).find("img").attr("alt");
-var dhref = $(this).attr('href');
-
-  window.dataLayer.push({
-            'event':'home_banner_click',
-            'bannerSrc':bannerSrc,
-            'bannerTitle':bannerTitle,
-            'dhref':dhref
-          })
-//$(location).prop('href', dhref);
-});
-
-</script>
