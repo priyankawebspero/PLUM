@@ -893,7 +893,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                     if(self.hasClass('has-banner')) {
                       return this.slidesToShow = 2;
                     }else {
-                      if(gridItemWidth >= 5) {
+                      if(gridItemWidth >= 4) {
                         return this.slidesToShow = 5;
                       }else if(gridItemWidth = 3) {
                         return this.slidesToShow = 3
@@ -906,7 +906,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                     if (self.hasClass('has-banner')) {
                       return this.slidesToScroll = 2;
                     }else {
-                      if(gridItemWidth >= 5) {
+                      if(gridItemWidth >= 4) {
                         return this.slidesToScroll = 5;
                       }else if(gridItemWidth = 3) {
                         return this.slidesToScroll = 3
@@ -1685,8 +1685,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
         var productIdNew = $(this).parents('.item').attr('data-id');
         $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
         $('.variants.grid-product-form--'+productIdNew+' .cart').show();
-           $('.variants.grid-product-form--'+productIdNew+' .cart button').text('Add to Cart'); 
-        $('.variants.grid-product-form--'+productIdNew+' .cart button').val('Add to Cart');
         $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
          setTimeout(function() {
             $('.added_product.modal').html('Product removed from cart!').show(); 
@@ -1834,7 +1832,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
           item = item.replace(/\{PRICE\}/g, Shopify.formatMoney((cart.items[i].price)*cart.items[i].quantity, window.money_format));
           item = item.replace(/\{TAG\}/g, cart.items[i].product_type);
           // item = item.replace(/\{DISCOUNT\}/g, cart.items[i].discounts[0].title);
-          // if(cart.items[i].discounts.length > 0){if(cart.items[i].discounts[0].title == '"Buy 3 @ Rs. 1099" discount has been applied') {item = item.replace(/\{DISCOUNT\}/g, 'plum1099');}else{item = item.replace(/\{DISCOUNT\}/g, '');}}
+          // if(cart.items[i].discounts.length > 0){if(cart.items[i].discounts[0].title == '"Buy 2 @ Rs. 849" discount has been applied') {item = item.replace(/\{DISCOUNT\}/g, 'plum850');}else{item = item.replace(/\{DISCOUNT\}/g, '');}}
 
           $('.savings_price').html('- ' + Shopify.formatMoney(total_saving, window.money_format));
           var subtotal = total_saving + cart.total_price;
@@ -1859,12 +1857,10 @@ if ((typeof Shopify.getCart) === 'undefined') {
        // if(typeof ACSCurrency !== "undefined" && typeof ACSCurrency.moneyFormats !== "undefined") {mlvedaload();}  
       $('.clear_cart').addClass('active');
       $('.best-sell-product').removeClass('disable');      
-      $('#flash-sale-new').show();
-      }
-      else{
+
+      }else{
        $('.clear_cart').removeClass('active');
        $('.best-sell-product').addClass('disable');
-       $('#flash-sale-new').hide();
       }
       
       ella.checkItemsInDropdownCart();
@@ -1976,7 +1972,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
     changeQuantityAddToCartNew: function() { 
       $(document).on('click', '.button.quantity', function(e){
         var a = $(this).closest('form').find(".product_id").attr("data-id");
-       // var oldValue = $('body').find('#cart-item-'+a+' .quantity').val();
         var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
         console.log(oldValue);
         if ($(this).hasClass('plus') ){
@@ -3880,8 +3875,8 @@ initBlogPostSlider: function() {
            $('body').find('.variants.grid-product-form--'+productID+' .cart').hide();
           // ella.changeQuantityAddToCartNew();
            setTimeout(function(){ 
-             $('body').find('.product_form_desciption .add-to-cart-btnload').text('Add to Cart'); 
-             $('body').find('.product_form_desciption .add-to-cart-btnload').val('Add to Cart');
+            $('body').find('#grid-product-form--'+productID+' .add-to-cart-btnload').text('Add to Cart'); 
+            $('body').find('#product-add-to-cart').val('Add to Cart');
             $('.added_product.modal').html('Product added to cart!').show(); 
             },1000); 
              setTimeout(function() {
