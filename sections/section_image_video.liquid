@@ -108,6 +108,26 @@
       {%- endif -%}
     {%- endcase -%}
   {%- endfor -%}
+    
+     {% if section.settings.bottom_text != blank %}<div class="bottom_content">{{ section.settings.bottom_text }}</div>{% endif %}
+
+    <div class="bottom_content">
+     {% if section.settings.bottom_text_heading != blank %}<h3>{{ section.settings.bottom_text_heading }}</h3>{% endif %}
+      {% if page.template_suffix == "blackborad" %}
+        <div class="signup-mail-outer">		
+          <div class="outter">			
+            <div class="desktop_view">
+              <div class="desktop-form right">
+                <div class="aign-text-frm"><label for="text">name</label><input type="text" oninput="validatePhone(); yourFunction()" id="desktop-name" name="name" placeholder="" required=""></div>
+                <div class="aign-text-frm"><label for="text">email</label><input type="email" oninput="validateEmail(); yourFunction()" id="desktop-email" name="email" placeholder="" required=""></div>
+                <button id="signup_button_desktop" style="" onclick="submit()" value="Sign me up" disabled="">submit</button>
+              </div>
+              <div class="confirm" style="display:none;height:auto">Thanks for your support!!</div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+     </div>
 </div>
 </div>
      </div>
@@ -139,6 +159,18 @@
         "id": "section_bg_color",
         "label": "Background color"
       },
+    	{
+    	  "type": "text",
+    	  "id": "bottom_text",
+    	  "label": "Bottom Text",
+    	  "default":"lorem ipsum"
+    	},
+    	{
+    	  "type": "text",
+    	  "id": "bottom_text_heading",
+    	  "label": "Bottom Heading",
+    	  "default":"lorem ipsum"
+    	},
       {
         "type": "text",
         "id": "section_margin_top",
@@ -282,8 +314,67 @@
     ]
   }
 {% endschema %}
-     <script>
-  $(".close").click(function(){
- $('.youtube_frame')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
-}); 
-  </script>
+		<script type="text/javascript">
+           function validatePhone() {
+				var x, text;
+				var phoneno = /^[a-zA-Z\s]*$/;
+				x = document.getElementById("desktop-name").value;
+				if (phoneno.test(x)) {
+                   console.log(x);
+					document.getElementById("desktop-name").style.borderColor = "green";
+					return true
+				}
+				else {
+					document.getElementById("desktop-name").style.borderColor = "red";
+					return false
+				}
+			}
+			function validateEmail() {
+				var y, text;
+				y = document.getElementById("desktop-email").value;
+				if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(y)) {
+				    console.log(y);
+					document.getElementById("desktop-email").style.borderColor = "green";
+					return true
+                }
+				else {
+					document.getElementById("desktop-email").style.borderColor = "red";
+					return false
+				}
+			}			
+			function yourFunction() {
+				if (validatePhone() && validateEmail()) {
+					//alert("here")
+					document.getElementById("signup_button_desktop").disabled = false
+					document.getElementById("signup_button_desktop").style.background = "#5c248c";
+				}
+				else{
+					document.getElementById("signup_button_desktop").disabled = true
+					document.getElementById("signup_button_desktop").style.background = "gray";
+				}
+			}
+			function submit(){
+				var email_clever = document.getElementById("desktop-email").value;
+                var name_clever = document.getElementById("desktop-name").value;
+                if (email_clever  ===  "" || name_clever  === "")
+              {
+                document.getElementById("desktop-email").style.borderColor = "red";
+                document.getElementById("desktop-name").style.borderColor = "red";
+              }
+            
+                clevertap.event.push("Project girl education", {
+                  "Email": email_clever,
+                  "Name": name_clever
+                });	
+               document.getElementById("desktop-email").value = "";
+              document.getElementById("desktop-name").value = "";
+              document.getElementsByClassName("confirm")[0].style.display = "block";
+
+
+			}
+		</script>
+     <script> 
+       $(".close").click(function(){
+       $('.youtube_frame')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+  }); 
+     </script>
