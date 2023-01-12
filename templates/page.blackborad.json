@@ -7,6 +7,7 @@
     },
     "f8f10881-bcd1-47e8-8e6f-81994ff65cb4": {
       "type": "over-image",
+      "disabled": true,
       "settings": {
         "image_1": "shopify:\/\/shop_images\/plum-logo.png",
         "image_picker_mobile": "shopify:\/\/shop_images\/plum-logo.png",
@@ -16,6 +17,7 @@
     },
     "fff98773-dae4-4182-9fe5-5b9f1898fcdd": {
       "type": "section_image_text",
+      "disabled": true,
       "blocks": {
         "template--15037447045180__fff98773-dae4-4182-9fe5-5b9f1898fcdd-1667378746a76e361a-0": {
           "type": "image",
@@ -55,14 +57,13 @@
     },
     "81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2": {
       "type": "section_image_text",
-      "disabled": true,
       "blocks": {
         "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-1": {
           "type": "text",
           "settings": {
             "text_title": "",
-            "text_heading": "why girl child education",
-            "content": "In recent years India has made significant progress in improving access to education. However, there’s an increasing rate of drop-out at the elementary level, which is particularly worse off among girls.  What can we do to reverse this effect?",
+            "text_heading": "When a little girl can read this, <b> she can write a better future.<\/b>",
+            "content": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/project_blackborad_logo_min.png?v=1670396187\">\n<span class=\"advance\">Advancing a million lives by educating the girl child.<\/span>",
             "button_label": "",
             "button_link": "",
             "button_label_2": "",
@@ -72,7 +73,7 @@
         "template--15037447045180__81094ebf-6ca9-4aaf-aa38-c3cdd7ab62a2-1667378746a76e361a-0": {
           "type": "image",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/girl-edcucation_im.png",
+            "block_image": "shopify:\/\/shop_images\/girls_smile_image.png",
             "image_alignment_one": "center"
           }
         }
@@ -83,7 +84,7 @@
       ],
       "settings": {
         "head_title": "",
-        "section_bg_image": "shopify:\/\/shop_images\/why-girl-child-education-_Bg.jpg",
+        "section_bg_image": "shopify:\/\/shop_images\/new-blackboard_bg_top.jpg",
         "section_bg_color": "",
         "section_margin_top": "",
         "section_margin_bottom": "",
@@ -96,21 +97,12 @@
     "d621f256-e830-49ee-9fda-a60ec5b4ca66": {
       "type": "home-slideshow",
       "blocks": {
-        "template--15037447045180__d621f256-e830-49ee-9fda-a60ec5b4ca66-1667387982097a564f-0": {
-          "type": "image",
-          "settings": {
-            "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_first.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_first.png",
-            "link": ""
-          }
-        },
         "370b2766-5cfe-45cd-9683-b85a9dbfa06e": {
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_scnd.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_scnd.png",
+            "image_slide": "shopify:\/\/shop_images\/about_map_blackboard-dsk-im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/slde-about_map_mobile-im.png",
             "link": ""
           }
         },
@@ -118,8 +110,8 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_third.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_third.png",
+            "image_slide": "shopify:\/\/shop_images\/ncpcr-according_blackboard-dsk-im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/slde-according-toncpr-mobile.png",
             "link": ""
           }
         },
@@ -127,17 +119,8 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_four.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_four.png",
-            "link": ""
-          }
-        },
-        "766b3031-c8af-49c5-b4fa-4d8e19bfcff8": {
-          "type": "image",
-          "settings": {
-            "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_five.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_five.png",
+            "image_slide": "shopify:\/\/shop_images\/around-girls_blackboard-dsk-im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/slde-arrong-girls_mobile-im.png",
             "link": ""
           }
         },
@@ -145,18 +128,16 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/blackboard_slide_six.png",
-            "image_slide_mb": "shopify:\/\/shop_images\/blackboard_slide_six.png",
+            "image_slide": "shopify:\/\/shop_images\/increase-girl_billion-desktop.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/slde-increase-girl-mobile-im.png",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--15037447045180__d621f256-e830-49ee-9fda-a60ec5b4ca66-1667387982097a564f-0",
         "370b2766-5cfe-45cd-9683-b85a9dbfa06e",
         "56a3feae-2a88-410f-aec6-fefb0666b650",
         "f802c2f6-7bb8-406b-b4ff-119b3db14397",
-        "766b3031-c8af-49c5-b4fa-4d8e19bfcff8",
         "a71c1117-d3d2-41d4-95fe-9039ed6f91f3"
       ],
       "settings": {
@@ -186,35 +167,34 @@
     "c15b28e3-599c-4c1f-ad8f-428bc0af057b": {
       "type": "section_image_video",
       "blocks": {
-        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0": {
-          "type": "image",
-          "settings": {
-            "block_image": "shopify:\/\/shop_images\/pure-white-background-85a2a7fd.jpg",
-            "image_alignment_one": "center",
-            "video_id": "Wm2xVus1F2M"
-          }
-        },
         "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-1": {
           "type": "text",
           "settings": {
-            "Image_title": "shopify:\/\/shop_images\/Our-Mission-font.png",
             "text_title": "",
-            "text_heading": "More girls in school = a better future for us all",
-            "content": "Every time one girl goes to school, another girl starts to dream of education too. Through Project Blackboard, we wish to do our best to make these dreams come true!",
-            "button_label": "WHY GIRL CHILD EDUCATION",
-            "button_link": "#",
-            "button_label_2": "ABOUT PROJECT BLACKBOARD",
+            "text_heading": "about Project Blackboard",
+            "content": "When one girl goes to school, a billion Indians leap ahead, With this thought, we have launched Project Blackboard, an initiative to educate the girl child.\n<br><br>\nEvery time you choose to purchase a Plum product, a part of the proceeds goes towards girl child education.\n<br><br>\nThis initiative is in collaboration with Save the Children, India's leading independent child rights' NGO.",
+            "button_label": "",
+            "button_link": "",
+            "button_label_2": "",
             "button_link_2": "#"
+          }
+        },
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/maxresdefault.jpg",
+            "image_alignment_one": "center",
+            "video_id": "uo4If4LLslk"
           }
         }
       },
       "block_order": [
-        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0",
-        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-1"
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-1",
+        "template--15037447045180__c15b28e3-599c-4c1f-ad8f-428bc0af057b-166738912644693676-0"
       ],
       "settings": {
         "head_title": "",
-        "section_bg_image": "shopify:\/\/shop_images\/video_section_bg_new.jpg",
+        "section_bg_image": "shopify:\/\/shop_images\/bottom_video_bg.png",
         "section_bg_color": "",
         "section_margin_top": "",
         "section_margin_bottom": "",
