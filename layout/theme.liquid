@@ -225,46 +225,7 @@ $(".st-search-bar input").on("keypress", function() {
 		Terms: e,
 		Date: new Date
 	})
-});
-  
-  {% if customer %}
-  ('#wzrk-confirm').on('click', function(event){
-    clevertap.event.push("AllowedNotification", {
-      phone: '{{ customer.phone }}',
-      email: '{{ customer.email }}',
-      name: '{{ customer.name }}',
-      id: parseInt('{{ customer.id }}'),
-      lastName: '{{ customer.last_name }}',
-      firstName: '{{ customer.first_name }}',
-      city: '{{ customer.default_address.city }}',
-      acceptsMarketing: '{{ customer.accepts_marketing }}',
-      hasAccount: '{{ customer.has_account }}',
-      ordersCount: parseInt('{{ customer.orders_count }}'),
-      taxExempt: '{{ customer.tax_exempt }}',
-      totalSpent:  (parseFloat('{{ customer.total_spent }}') / 100).toFixed(2)
-    }); 
-  });
-
-
-  var customer_email = '{{ customer.email }}'
-  var first_name='{{customer.first_name}}'
-  var last_name='{{customer.last_name}}'
-  if (customer_email!=''){
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      'first_name':first_name,
-      'last_name':last_name,
-      'event':'login_email',
-      'login_email':customer_email
-    });
-
-    {% else %}
-    var UserID = clevertap.getCleverTapID();
-    clevertap.event.push("AllowedNotification", {
-      id : UserID
-    }); 
-    {% endif %}
-       
+});      
 </script>
 <script>
     // Import the functions you need from the SDKs you need
