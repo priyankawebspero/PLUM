@@ -117,14 +117,6 @@
               {%endunless%}
               {% endfor %}
             </select>
-            
-            {% comment %}
-            {% if settings.use_color_swatch %}
-            {% for option in product.options %}
-            {% include 'item-swatch' with option %}
-            {% endfor %}
-            {% endif %}
-              {% endcomment %}
             {% if product.available %}
             <div class="quantity">
               <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
@@ -431,7 +423,6 @@
         maxPrice: 600000,
     };
 </script>
-<script src="https://widget.sezzle.in/v1/javascript/price-widget?uuid=d10e122f-087c-4284-8df4-6b13a53abb9c"></script>
 <!--script to push datalayer data in GTM-->
 <script defer>
   $( document ).ready(function() {
