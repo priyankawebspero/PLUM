@@ -9,10 +9,11 @@
    {%- endif -%}
 {%- endcapture -%}
 {{ style_block_section }}
-<div class="gl_custom_{{section.id}}"{%- if section.settings.section_bg_image != blank %} data-bgset="{%- include 'bgset', image: section.settings.section_bg_image -%}" data-sizes="auto" data-parent-fit="cover" style="background-image: url('{{ section.settings.section_bg_image | img_url: '50x50' }}')"{%- endif -%}>
+<div class="gl_custom_{{section.id}}"{%- if section.settings.section_bg_image != blank %} data-bgset="{%- include 'bgset', image: section.settings.section_bg_image -%}" data-sizes="auto" data-parent-fit="cover" style="background-image: url('{{ section.settings.section_bg_image | img_url: 'master' }}')"{%- endif -%}>
 	{%- if section.settings.head_title != blank -%}
 		<div class="heading"><h3>{{ section.settings.head_title }}</h3></div>
 	{%- endif -%}
+     <div class="container-padd60  {{ section.settings.class }}">
 <div class="row">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
@@ -25,8 +26,13 @@
                   <div class="pr gl_single_image-wrapper gl_box_border_grey {{ block.settings.image_style_one }}">
                     {%- if block.settings.block_image != blank -%}
                     {%- assign image = block.settings.block_image -%}
-                    {%- assign img_url = image | img_url: '600x', crop: 'center' -%}
-                    <img data-src="{{ img_url }}" src="{{ img_url }}" alt="{{ block.settings.image.alt | default: shop.name }}" class="lazyautosizes lazyloaded" data-sizes="auto">
+                    {%- if block.settings.block_image_mob != blank -%}
+                      {%- assign image_mb = block.settings.block_image_mob -%}
+                      {%- assign img_url_mb = image_mb | img_url: 'master'-%}
+                       <img data-src="{{ img_url_mb }}" src="{{ img_url_mb }}" alt="{{ block.settings.block_image_mob.alt | default: shop.name }}" class="lazyautosizes lazyloaded  mb-slide" data-sizes="auto">                     
+                    {%- endif -%}
+                    {%- assign img_url = image | img_url: 'master' -%}
+                    <img data-src="{{ img_url }}" src="{{ img_url }}" alt="{{ block.settings.image.alt | default: shop.name }}" class="lazyautosizes lazyloaded {%- if block.settings.block_image_mob != blank -%} pc-slide{%- endif -%}" data-sizes="auto">
                     {%- else -%}
                     <img width="600" height="442" src="https://cdn.shopify.com/s/files/1/1933/6253/files/portfolio-placeholder_555x555_crop_center.jpg?12790048884060573015">                            
                     {%- endif -%}
@@ -90,13 +96,14 @@
   {%- endfor -%}
 </div>
 </div>
+</div>
 {%- unless section.settings.row_stretch == 'default' -%}
   <div class="gl_row-full-width gl_clearfix"></div>
   {%- endunless -%}
 {%- schema -%}
   {
     "name": "Image with text",
-    "class": "index-section section_image_text_4 container-padd60",
+    "class": "index-section section_image_text_4",
     "settings": [
      {
         "type": "header",
@@ -107,6 +114,11 @@
 	  "id": "head_title",
 	  "label": "Title",
 	  "default":"Heading"
+	},
+	{
+	  "type": "text",
+	  "id": "class",
+	  "label": "Class"
 	},
      {
         "type": "image_picker",
@@ -164,7 +176,12 @@
              {
               "type": "image_picker",
               "id": "block_image",
-              "label": "Image"
+              "label": "Image Desktop"
+            }, 
+          {
+              "type": "image_picker",
+              "id": "block_image_mob",
+              "label": "Image Mobile"
             },
             {
            "type": "select",
