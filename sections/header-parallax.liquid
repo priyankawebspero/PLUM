@@ -16,38 +16,6 @@
             </div>
             {% endif %}
           </div>
-        {% comment %}
-        <div class="slider header-top-slider">
-            {% if section.settings.top_message_text != blank %}
-            <div class="slide">
-              <p class="header-pramotion">
-                {% include 'multilang' with section.settings.top_message_text %}
-              </p>
-            </div>
-            {% endif %}
-            {% if section.settings.top_message_text1 != blank %}
-            <div class="slide">
-              <p class="header-pramotion">
-                {% include 'multilang' with section.settings.top_message_text1 %}
-              </p>
-            </div>
-            {% endif %}
-            {% if section.settings.top_message_text2 != blank %}
-            <div class="slide">
-              <p class="header-pramotion">
-                {% include 'multilang' with section.settings.top_message_text2 %}
-              </p>
-            </div>
-            {% endif %}
-            {% if section.settings.top_message_text3 != blank %}
-            <div class="slide">
-              <p class="header-pramotion">
-                {% include 'multilang' with section.settings.top_message_text3 %}
-              </p>
-            </div>
-            {% endif %}
-           </div>
-          {% endcomment %}
         </div>
       </div>
     </div>
@@ -236,16 +204,6 @@
 "id": "top_message_text3",
 "label": "Top Message Text",
 "default": "Mid-Season Sale Up to 70% OFF."
-},{
-"type": "checkbox",
-"id": "enable_timer",
-"label": "Enable Timer",
-"default": true
-},{
-"type": "text",
-"id": "timer_date",
-"label": "Enter Timer Date",
-"default": "July 4, 2022 15:37:25"
 },
 {
 "type": "checkbox",
