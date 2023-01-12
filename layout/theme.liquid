@@ -25,11 +25,9 @@
     <!-- Styles -->
     {% include 'head_styles' %}
     <!-- Scripts -->
-    {% include 'head_scripts' %}
-    
+    {% include 'head_scripts' %}    
     <!-- Header hook for plugins ================================ -->
       {% include 'sca.freegifts' %}
-
       {% assign scripttags = content_for_header | split: 'var urls = ["' %}
       {% if scripttags.size > 1 %}
         {% assign scripttags = scripttags[1] %}
@@ -39,7 +37,6 @@
           {% assign scripttags = scripttags | split: '","' %}
         {% endif %}
       {% endif %}
-
       {% assign fg_script_url = "" %}
       {% assign shopifyorderlimits_script_url = "" %}
       {% for url in scripttags %}
@@ -52,27 +49,21 @@
       {% endfor %}
       {% if fg_script_url !="" %}
         {% assign content_for_header = content_for_header | remove: fg_script_url %}
-      {% endif %}
-     
+      {% endif %}     
       {% if shopifyorderlimits_script_url !="" %}    
   		  {% assign content_for_header = content_for_header | remove: shopifyorderlimits_script_url %}
-
-        {% endif %}
-  
-      {{ content_for_header }}
-        
+        {% endif %}  
+      {{ content_for_header }}        
   <script async>
     window.mlvedaShopCurrency = "{{ shop.currency }}";
     window.shopCurrency = "{{ shop.currency }}";
     window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
   </script>  
-  {% include 'scapp-customerinfo' %} 
-  
+  {% include 'scapp-customerinfo' %}   
   {% if template contains 'product' %}
   {% include 'linked-options' %} 
   <!-- starapps_scripts_start -->
-  {% render "starapps-product-json", product: product, starapps_app: "VIA", starapps_attribute: "sa-product-json" %}
-   
+  {% render "starapps-product-json", product: product, starapps_app: "VIA", starapps_attribute: "sa-product-json" %}   
  <script type="text/javascript" src="https://bcdn.starapps.studio/apps/via/plumgoodness-2/script-1648025066.js?shop={{shop.permanent_domain}}" async></script>
   <!-- starapps_scripts_end -->  
   {% endif %}
@@ -87,10 +78,7 @@
       if(atgId) {
         localStorage.setItem('atgSessionId', atgId);
       }
-    </script>
-  
-    <!-- Product meta ================================================== -->
- 
+    </script>  
     {%- if request.page_type == 'collection' -%}
     {%- unless template contains 'boost-pfs-original' -%}
     <link rel="preconnect" href="https://services.mybcapps.com/bc-sf-filter/filter  " />
@@ -114,11 +102,10 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "c9ztfyhvec");
 </script> 
-
  </head>
 
 
-<body id="{{ page_title | handle }}" class="{{ header_class }} {{ layout_class }} {% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if template.suffix == 'bodylovin' %} bodylovin{% endif %}{% if template.suffix == 'bday_offer' %} bday_offer{% endif %}{% if template.suffix == 'teaser' %} teaser{% endif %}" {% if settings.enable_rtl_lang_1 or settings.enable_rtl_lang_2 %}style="opacity: 0"{% endif %}>{% include 'mc-limit' %}
+<body id="{{ page_title | handle }}" class="{{ header_class }} {{ layout_class }} {% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if template.suffix == 'bodylovin' %} bodylovin{% endif %}{% if template.suffix == 'bday_offer' %} bday_offer{% endif %}{% if template.suffix == 'teaser' %} teaser{% endif %}" {% if settings.enable_rtl_lang_1 or settings.enable_rtl_lang_2 %}style="opacity: 0"{% endif %}>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7N3BVB"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -136,8 +123,7 @@
                   {% include 'user-valisation' %}
           {% endif %}
         {{ content_for_layout }}
-      </main> 
-    
+      </main>     
         {% if template.suffix == 'bodylovin' %}
         {% section 'bodylovin-footer' %}        
         {% elsif template.suffix == 'phy-home' %}
@@ -152,34 +138,25 @@
         </a>
       </div>  
     </div>
-  {% if settings.header_layout == 'default' %}
-  {% else %}
-  <div class="translate-header" data-translate-header>
-    {% include 'wrapper-top-cart' %}
-  </div>
-  {% endif %}
-
+  <div class="translate-header" data-translate-header> {% include 'wrapper-top-cart' %}</div>
    {% include 'message-modal' %}
-
   <div class="wrapper-overlay"></div>
   <!--   Add to cart button Disable COVID-19 -->
   <!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
   {% render 'hextom_usb_main', product: product, customer: customer %}
   <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
-
     {% include 'swin-widgets' %}
- {% if template contains 'collection' %}
-<!--begin-boost-pfs-js-->
-  {% render 'boost-pfs' %}
-<!--end-boost-pfs-js-->
-  {% endif %} 
+   {% if template contains 'collection' %}
+    <!--begin-boost-pfs-js-->
+      {% render 'boost-pfs' %}
+    <!--end-boost-pfs-js-->
+   {% endif %} 
    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
    <script>
     window.renderOptIn=function(){window.gapi.load('surveyoptin',function(){window.gapi.surveyoptin.render({"merchant_id":101052751,"order_id":"ORDER_ID","email":"CUSTOMER_EMAIL","delivery_country":"COUNTRY_CODE","estimated_delivery_date":"YYYY-MM-DD","products":[{"gtin":"GTIN1"},{"gtin":"GTIN2"}]});});}
-   </script>  
-    
+   </script>
+  {% include 'mc-limit' %}
   {% include 'social-login' %}
-
   {% if template contains 'product' %}
       <!-- share button  -->
     <span id='mobile-share-button'><i class="fa fa-share-alt" aria-hidden="true"></span>
@@ -198,11 +175,8 @@
     }
     });
     </script>
-  {% endif %}
-
-     
+  {% endif %} 
 </body>
-
 <script type="text/javascript">    
 $(".st-search-bar input").on("keypress",(function(){var e=this.value;e.length>2&&clevertap.event.push("Searched Product",{Terms:e,Date:new Date})}));
 $(".clear_cart").on("click",(function(){$.ajax({type:"POST",url:"/cart/clear.js",data:"",dataType:"json",success:function(){location.reload()},error:function(a,c){}})}));
