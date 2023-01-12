@@ -5,9 +5,7 @@
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>    <!-- head_meta -->
-    {%- if settings.favicon -%}
-      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
-    {%- endif -%}   
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">  
     {% include 'head_meta' %}
      <!-- SEOManganer -->
     <link rel="dns-prefetch" href="https://shopify.thirdwatch.ai">
@@ -32,7 +30,6 @@
     
     <!-- Header hook for plugins ================================ -->
       {% include 'sca.freegifts' %}
-
       {% assign scripttags = content_for_header | split: 'var urls = ["' %}
       {% if scripttags.size > 1 %}
         {% assign scripttags = scripttags[1] %}
@@ -42,7 +39,6 @@
           {% assign scripttags = scripttags | split: '","' %}
         {% endif %}
       {% endif %}
-
       {% assign fg_script_url = "" %}
       {% assign shopifyorderlimits_script_url = "" %}
       {% for url in scripttags %}
@@ -55,19 +51,13 @@
       {% endfor %}
       {% if fg_script_url !="" %}
         {% assign content_for_header = content_for_header | remove: fg_script_url %}
-      {% endif %}
-     
+      {% endif %}     
       {% if shopifyorderlimits_script_url !="" %}    
   		  {% assign content_for_header = content_for_header | remove: shopifyorderlimits_script_url %}
-
-        {% endif %}
-  
-      {{ content_for_header }}
-        
+        {% endif %}  
+      {{ content_for_header }}        
   <script async>
-    window.mlvedaShopCurrency = "{{ shop.currency }}";
-    window.shopCurrency = "{{ shop.currency }}";
-    window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+    window.mlvedaShopCurrency = "{{ shop.currency }}"; window.shopCurrency = "{{ shop.currency }}"; window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
   </script>  
   {% include 'scapp-customerinfo' %} 
   
@@ -81,18 +71,13 @@
 	<!-- CLEVERTAP INTEGRATION VARIABLES -->
 	{% include 'clevertap_variables_generator' %}
   <!-- CLEVERTAP INTEGRATION VARIABLES -->
-  <script>
-      const params = new Proxy(new URLSearchParams(window.location.search), {
-        get: (searchParams, prop) => searchParams.get(prop),
-      });
-      let atgId = params.atgSessionId;
-      if(atgId) {
-        localStorage.setItem('atgSessionId', atgId);
-      }
+    <script>
+        const params = new Proxy(new URLSearchParams(window.location.search), { get: (searchParams, prop) => searchParams.get(prop),});
+        let atgId = params.atgSessionId;
+        if(atgId) {localStorage.setItem('atgSessionId', atgId);}
     </script>
-  
-    <!-- Product meta ================================================== -->
- 
+    
+    <!-- Product meta ================================================== --> 
     {%- if request.page_type == 'collection' -%}
     {%- unless template contains 'boost-pfs-original' -%}
     <link rel="preconnect" href="https://services.mybcapps.com/bc-sf-filter/filter  " />
@@ -109,13 +94,13 @@
     {% include "loyaltylion" %}
     {% render 'gsf-conversion-pixels' %}
     {% include 'quora' %}
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "c9ztfyhvec");
-</script> 
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "c9ztfyhvec");
+    </script> 
 </head>
 
 
@@ -216,16 +201,12 @@
 
      
 </body>
-
-<script>    
+<script type="text/javascript">    
   // script for searchTap and diable right click on site
-$(".st-search-bar input").on("keypress", function() {
-	var e = this.value;
-	e.length > 2 && clevertap.event.push("Searched Product", {
-		Terms: e,
-		Date: new Date
-	})
-});      
+    $(".st-search-bar input").on("keypress", function() {
+        var e = this.value;
+        e.length > 2 && clevertap.event.push("Searched Product", {Terms: e, Date: new Date})
+    });
 </script>
 <script>
     // Import the functions you need from the SDKs you need
