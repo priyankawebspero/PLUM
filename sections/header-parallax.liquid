@@ -42,23 +42,19 @@
                       <a class="acc-links text-hover acc-title" href="/account"{% if settings.enable_multilang %} data-translate="customer.account.title"{% endif %}>
                         {{ 'customer.account.title' | t }}
                       </a>
-
-                      {% else %}  
-
+                      {% else %} 
                       <a data-dropdown-user class="acc-links text-hover acc-sign-in" id="customer_login_link" href="/account/login" {% if settings.enable_multilang %}data-translate="customer.login.sign_in"{% endif %}>
                         {{ 'customer.login.sign_in' | t }}
                       </a>
-                      <span class="or-text"{% if settings.enable_multilang %} data-translate="wishlist.general.or"{% endif %}>
-                        /
-                      </span>
-                      <a class="acc-links text-hover acc-regis" id="customer_register_link" href="/account/register"{% if settings.enable_multilang %} data-translate="layout.customer.create_account"{% endif %}>
-                        {{ 'layout.customer.create_account' | t }}
-                      </a>
+                      <span class="or-text"{% if settings.enable_multilang %} data-translate="wishlist.general.or"{% endif %}> /</span>
+                        <a class="acc-links text-hover acc-regis" id="customer_register_link" href="/account/register"{% if settings.enable_multilang %} data-translate="layout.customer.create_account"{% endif %}>{{ 'layout.customer.create_account' | t }}</a>
                       {% endif %}                                   
                     </div>
                     <div class="iwish-icon svg-mb mobile-wishlist">
-                        {% include 'iwish_v2' with 'iwishlink' %}
-                      </div>
+                      <a class="iWishView" title="Wishlist" href="/pages/wishlist">
+                          <img class=" lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/wishlist_icon.svg?v=1620044145" src="https://cdn.shopify.com/s/files/1/0390/2985/files/wishlist_icon.svg?v=1620044145">
+                       </a> 
+                     </div>
                  </div> 
                   <nav class="nav-bar" role="navigation">
                     {% include 'site-nav' %}
