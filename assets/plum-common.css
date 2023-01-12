@@ -4,35 +4,22 @@ html.wf-nunito-n1-active.wf-nunito-n2-active.wf-nunito-n3-active.wf-nunito-n6-ac
 .product-item .product-top br{display:none}
 .row.image_section.melt_goodness.container-padd60{min-height:500px;background-size:cover}
 .addresses-page .btn-edit-delete .product-item a,.product-item .addresses-page .btn-edit-delete a,.product-item .btn,.product-item .product-shop .shopify-payment-button .shopify-payment-button__button,.product-item .tabs__product-page .spr-container .spr-summary-actions-newreview,.product-shop .shopify-payment-button .product-item .shopify-payment-button__button,.tabs__product-page .spr-container .product-item .spr-summary-actions-newreview{border-radius:5px}
-
-
-@font-face{font-family:'serifabold';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/serifabt-bold-webfont.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/serifabt-bold-webfont.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:'candy_chicksregular';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/candy_chicks-webfont.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/candy_chicks-webfont.woff) format("woff");font-weight:400;font-style:normal:normal;font-display:swap}
-@font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Bold.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Bold.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Semibold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}
-@font-face{font-family:'Segoe Pro';src:url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff2) format("woff2"),url(//cdn.shopify.com/s/files/1/0390/2985/t/114/assets/SegoePro-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
-
 @font-face {
     font-family: "DINNextRoundedLTPro-Medium";
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Medium.otf?v=1668673437') format("opentype");
 }
-
 @font-face {
     font-family: "DINNextRoundedLTPro-Bold";
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Bold.otf?v=1668674272') format("opentype");
 }
-
 @font-face {
     font-family: "DINNextRoundedLTPro-Regular";
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Regular.otf?v=1668674333') format("opentype");
 }
-
 @font-face {
     font-family: "DINNextRoundedLTPro-Light";
     src: url('https://cdn.shopify.com/s/files/1/0390/2985/files/DINNextRoundedLTPro-Light.otf?v=1668674334') format("opentype");
 }
-
 body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swap}
 .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5}
 .featured-products .product-item .btn_disable_add_to.cart{border-radius:5px;background:#5b0c8b;text-transform:lowercase;font-weight:700;padding:9px 15px;font-size:17px;box-shadow:none!important;max-width:165px;color:#fff;margin:10px auto 5px;width:100%;opacity:.5;order:7}
