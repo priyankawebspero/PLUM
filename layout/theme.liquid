@@ -135,8 +135,7 @@
     <span id='mobile-share-button'><i class="fa fa-share-alt" aria-hidden="true"></span>
     <script type="text/javascript">
     $('#mobile-share-button').on('click', () => {
-    console.log('touch');  
-    if (navigator.share) {
+   if (navigator.share) {
       navigator.share({
           title: '{{ product.title }}',
           url: '{{ canonical_url }}'
