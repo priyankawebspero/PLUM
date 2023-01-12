@@ -185,7 +185,7 @@ body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swa
 .icon-nav.menu-open{-webkit-transition:opacity .5s ease 0.25s,-webkit-transform .5s ease .25s;transition:opacity .5s ease 0.25s,-webkit-transform .5s ease .25s;transition:opacity .5s ease 0.25s,transform .5s ease .25s;transition:opacity .5s ease 0.25s,transform .5s ease 0.25s,-webkit-transform .5s ease .25s}
 .wrapper-navigation .jas-mb-style nav.nav-bar{opacity:0;-webkit-transition:opacity .5s ease 0.25s,-webkit-transform .5s ease .25s;transition:opacity .5s ease 0.25s,-webkit-transform .5s ease .25s;transition:opacity .5s ease 0.25s,transform .5s ease .25s;transition:opacity .5s ease 0.25s,transform .5s ease 0.25s,-webkit-transform .5s ease .25s;-webkit-transform:translateX(-65px);transform:translateX(-65px)}
 .translate-overlay .wrapper-navigation .jas-mb-style nav.nav-bar{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
-.header-links{padding:16px;display:flex;padding-top:14px;border-bottom:1px solid #ebebeb;background:#eeeeee63}
+.header-links{padding:16px;display:flex;padding-top:16px;border-bottom:1px solid #ebebeb;background:#eeeeee63}
 .site-nav .menu-lv-1{border-bottom:0 solid #ebebeb;width:100%;position:relative;margin:0}
 .menu-open + div + .is_parallax{display:block}
 .is_parallax{display:none}
