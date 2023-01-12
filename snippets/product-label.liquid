@@ -49,21 +49,16 @@
   {% endif %}
 {% endif %}
 <div class="product-label {% if on_sale %}{% else %}deactive{% endif %}">
-  
- 
-  {% if on_sale %}
+ {% if on_sale %}
   {% if settings.type_label_sale == 'label_sale' %}
   <strong class="label sale-label" {% if settings.enable_multilang %}data-translate="products.product.sale"{% endif %}>
     {{ 'products.product.sale' | t }} Off
   </strong>
-
   {% else %}
   <strong class="label sale-label">
     {{ product.variants[0].compare_at_price | minus:product.variants[0].price | times:100 | divided_by:product.variants[0].compare_at_price | money_without_currency | times: 100 | replace: '.0', '' }}%
   off </strong>
-
-  {% endif %}
-  
+  {% endif %}  
   {% endif %}
   {% if sold_out %}
 <!--   <strong class="label sold-out-label" {% if settings.enable_multilang %}data-translate="products.product.sold_out"{% endif %}>
