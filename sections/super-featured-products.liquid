@@ -108,7 +108,7 @@
               {% include 'multilang' with section.settings.featured_products_title %}
             </span>
           </h3>
-          <div class="row" id="flash-sale">
+          <div class="row flash-sale-saver" id="flash-sale">
                 <div class="col-12 col-md-12 col-lg-12 text-center">
                   <div class="counter_text"><span class="side_text"><i class="fa fa-bolt" aria-hidden="true"></i> {{section.settings.sale_timer}}</span><span class="side_text"></span><p id="supersavor"></p></div>
                 </div>
@@ -326,30 +326,24 @@
 <script>
   // Set the date we're counting down to
   var sup_countDownDate = new Date(Date.parse("{{section.settings.sale_timer_date}}")).getTime();
-
      // Update the count down every 1 second
      var sup_x = setInterval(function() {
-
     // Get today's date and time
     var sup_now = new Date().getTime();
-
     // Find the sup_distance between sup_now and the count down date
     var sup_distance = sup_countDownDate - sup_now;
-
     // Time calculations for sup_days, sup_hours, sup_minutes and sup_seconds
     var sup_days = Math.floor(sup_distance / (1000 * 60 * 60 * 24));
     var sup_hours = Math.floor((sup_distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var sup_minutes = Math.floor((sup_distance % (1000 * 60 * 60)) / (1000 * 60));
     var sup_seconds = Math.floor((sup_distance % (1000 * 60)) / 1000);
-
     // Output the result in an element with id="supersavor"
     document.getElementById("supersavor").innerHTML =  "<span class='sup_days countdown'><span class='ocount'>" + sup_days + "</span><span class='inner'> d </span> : </span><hr/>" + "<span class='sup_hours countdown'><span class='ocount'>" + sup_hours + "</span><span class='inner'> h</span> : </span><hr/> <span class='sup_minutes countdown'><span class='ocount'>"
     + sup_minutes + "</span><span class='inner'> m</span> : </span><hr><span class='sup_seconds countdown'><span class='ocount'>" + sup_seconds + "</span><span class='inner'>  s</span></span><hr> ";
-
     // If the count down is over, write some tesup_xt 
     if (sup_distance < 0) {
       clearInterval(sup_x);
-      document.getElementById("supersavor").innerHTML = "{{settings.Timer_tesup_xt_after}}";
+       document.getElementsByClassName("flash-sale-saver")[0].remove();
     }
   }, 1000);
 </script> 
