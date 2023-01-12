@@ -31,7 +31,6 @@
     </h5>
     <h5 class="clear_cart{% if cart.total_price > 100 %} active {%endif%}">clear cart</h5>
   </div>
-
   <div class="no-items">
     <p class="cart_empty" {% if settings.enable_multilang %}data-translate="cart.general.empty"{% endif %} >
       {{ 'cart.general.empty' | t }}
@@ -46,9 +45,12 @@
   <div class="has-items">
     <ol class="mini-products-list">
       {% for item in cart.items %}
-      <li class="item dta-{{item.product_id}}  {% if item.product.tags contains 'Plum 999' %} plum_999{% endif %} " id="cart-item-{{item.id}}" data-price="{{item.price}}">
+      <li class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} " id="cart-item-{{item.id}}" data-price="{{item.price}}">
         <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
           <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
+        {% if item.product.tags contains 'supersaver' %}<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>{% endif %} 
+          {% comment %}{% if item.product.tags contains 'gurleen' %}<span class="discount-tag-col pink">any 3 at 1099</span>{% endif %}{% endcomment %}
+         {% if item.product.tags contains 'b2g1' or item.product.tags contains 'B2G1'%}<span class="discount-tag-col pink">buy 2 get 1</span>{% endif %}
         </a>
         <div class="product-details">
           <div class="pro-name-and-price">
@@ -104,14 +106,39 @@
   {%else%}
   {% include 'cart-best-sellers'%}
   {%endif%}
-  <div class="actions">
+  
+   {% if settings.show_flash_sale %}
+      {% include 'flash-sale-counter'%}
+    {%endif%}
+    <div class="actions">
+<!--       {% if cart.total_price > 109900 %}<p class="freegift">To change the gift please click on remove</p>{% else %} <p class="freegift">Pick any 2 products for FREE on orders above Rs 1099 from the gift popup </p> {% endif %} -->
     <div class="summary">
       
         <div class="total_cs_custom_dropcart">
+         <span class="price_summary">Price Summary</span> 
+      <div class="sub total">
+        <span class="label">
+          <span {% if settings.enable_multilang %}data-translate="cart.label.total"{% endif %}>
+            Subtotal
+          </span>
+        </span> 
+        <span class="price" data-subtotal-price="{{ total_saving | plus: cart.total_price}}">
+          <span class="price-cart"> </span>
+          {{ total_saving | plus: cart.total_price | money}}
+        </span>
+      </div>
+      <div class="drop-cart_discount">
+        <span class="savings_label">Savings:</span>
+        <span class="savings_price">- {{ total_saving | money }}</span></div>
+      </div>
+       <div class="drop-cart-shipping">
+        <span class="shipping_label">Shipping:</span>
+        <span class="shipping_price">calculated at checkout</span>
+      </div>
       <div class="total">
         <span class="label">
           <span {% if settings.enable_multilang %}data-translate="cart.label.total"{% endif %}>
-            Total
+            Grand Total
           </span>
         </span> 
         <span class="price" data-total-price="{{cart.total_price}}" id="total_order_Price">
@@ -119,26 +146,43 @@
           {{cart.total_price | money}}
         </span>
       </div>
-      <div class="drop-cart_discount"> <span class="savings_label">Savings:</span>
-        <span class="savings_price">{{ total_saving | money }}</span></div>
-      </div>
       {% include 'special_offer' %}
     </div>
     
     
     <div class="button">
       <div class="a-button">
-        <a href="/collections/all-in-stock" class="btn btn-view-cart">
+<!--         <a href="/collections/all-in-stock" class="btn btn-view-cart">
           Continue shopping
-        </a>
+        </a> -->
         <a class="btn btn-view-cart" href="/cart" {% if settings.enable_multilang %}data-translate="cart.general.view_cart"{% endif %}>
           {{ 'cart.general.view_cart' | t }}
         </a>
       </div>
       {% render 'gokwik-checkout' %}
       <button class="btn btn-checkout {% if cart.total_price > 1400000 %} disable {%- endif -%}" id="btncheckout" name="checkout" onclick="window.location='/checkout'" {% if settings.enable_multilang %}data-translate="cart.general.checkout"{% endif %}>
-        {% if settings.btnTxt%}{{settings.gk-merchant-btnText}}{%else%}PAY VIA CREDIT/DEBIT CARDS/OTHERS{%endif%}
+        {% if settings.btnTxt%}{{settings.gk-merchant-btnText}}{%else%}Pay Via Cards/Netbanking{%endif%}
       </button>
     </div>
   </div>
 </div>
+<section class="popup" style="display:none;">
+  <div class="popup__content">
+    <div class="close">
+      <span>close</span>
+    </div><p>FREE Shipping on orders above Rs 299</p>
+     <p>Rs 99 shipping fee is applicable on orders below Rs 299</p>
+  </div>
+</section>
+<script type="text/javascript">
+  $(".shipping_price").click(function() {
+  $(".popup").fadeIn(500);
+  $(".popup").addclass('active');
+    $(".body").addclass('shipping_price_popup');
+  });
+  $(".close").click(function() {
+    $(".popup").fadeOut(500);
+     $(".popup").removeClass('active');
+    $(".body").removeClass('shipping_price_popup');
+  });
+  </script>
