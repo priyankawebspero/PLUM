@@ -4,24 +4,11 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
-<head>    <!-- head_meta -->
+<head>  
+  <!-- head_meta -->
     {% include 'head_meta' %}
      <!-- SEOManganer -->
-    <link rel="dns-prefetch" href="https://shopify.thirdwatch.ai">
-    <link rel="dns-prefetch" href="https://widget.as.criteo.com">
-    <link rel="dns-prefetch" href="https://init.grizzlyapps.com">
-    <link rel="dns-prefetch" href="https://platform.loyaltylion.com">
-    <link rel="dns-prefetch" href="https://bs.serving-sys.com">
-    <link rel="dns-prefetch" href="https://monorail-edge.shopifysvc.com">
-    <link rel="dns-prefetch" href="https://sdk-static.loyaltylion.net">
-    <link rel="dns-prefetch" href="https://bs.serving-sys.com">
-    <link rel="dns-prefetch" href="https://sdk.loyaltylion.net">
-    <link rel="dns-prefetch" href="https://secure-ds.serving-sys.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://platform.loyaltylion.com">
-    <link rel="dns-prefetch" href="https://q.quora.com"> 
-
+    <link rel="dns-prefetch" href="https://shopify.thirdwatch.ai"> <link rel="dns-prefetch" href="https://widget.as.criteo.com"> <link rel="dns-prefetch" href="https://init.grizzlyapps.com"> <link rel="dns-prefetch" href="https://platform.loyaltylion.com"> <link rel="dns-prefetch" href="https://bs.serving-sys.com"><link rel="dns-prefetch" href="https://monorail-edge.shopifysvc.com"> <link rel="dns-prefetch" href="https://sdk-static.loyaltylion.net"><link rel="dns-prefetch" href="https://bs.serving-sys.com"><link rel="dns-prefetch" href="https://sdk.loyaltylion.net"><link rel="dns-prefetch" href="https://secure-ds.serving-sys.com"><link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com"><link rel="dns-prefetch" href="https://platform.loyaltylion.com"><link rel="dns-prefetch" href="https://q.quora.com"> 
     <!-- Styles -->
     {% include 'head_styles' %}
     <!-- Scripts -->
@@ -59,7 +46,8 @@
     window.shopCurrency = "{{ shop.currency }}";
     window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
   </script>  
-  {% include 'scapp-customerinfo' %}   
+  {% include 'scapp-customerinfo' %}  
+  
   {% if template contains 'product' %}
   {% include 'linked-options' %} 
   <!-- starapps_scripts_start -->
@@ -75,9 +63,7 @@
         get: (searchParams, prop) => searchParams.get(prop),
       });
       let atgId = params.atgSessionId;
-      if(atgId) {
-        localStorage.setItem('atgSessionId', atgId);
-      }
+      if(atgId) {localStorage.setItem('atgSessionId', atgId);}
     </script>  
     {%- if request.page_type == 'collection' -%}
     {%- unless template contains 'boost-pfs-original' -%}
