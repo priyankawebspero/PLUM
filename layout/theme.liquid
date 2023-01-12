@@ -204,7 +204,7 @@
      
 </body>
 
-<script>    
+<script type="text/javascript">    
   // script for searchTap and diable right click on site
 $(".st-search-bar input").on("keypress", function() {
 	var e = this.value;
@@ -212,9 +212,23 @@ $(".st-search-bar input").on("keypress", function() {
 		Terms: e,
 		Date: new Date
 	})
-});      
+});
+  $('.clear_cart').on('click', function(){
+   $.ajax({
+    type: "POST",
+    url: '/cart/clear.js',
+    data: '',
+    dataType: 'json',
+    success: function() { 
+      location.reload();
+    },
+    error: function(XMLHttpRequest, textStatus) {
+      /* error code */
+    }
+  });
+}) 
 </script>
-<script>
+<script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js";
@@ -231,7 +245,7 @@ $(".st-search-bar input").on("keypress", function() {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
 </script>
-<script>
+<script type="text/javascript">
  window.addEventListener('message', (event) => {
   if (event.data && event.data.type && event.data.type.startsWith('fw:')) {
     if(event.data.type == "fw:player:quit" ||
@@ -245,22 +259,6 @@ $(".st-search-bar input").on("keypress", function() {
        }, 300);
     }
   }      
-})
- 
-$('.clear_cart').on('click', function(){
-   $.ajax({
-    type: "POST",
-    url: '/cart/clear.js',
-    data: '',
-    dataType: 'json',
-    success: function() { 
-      location.reload();
-    },
-    error: function(XMLHttpRequest, textStatus) {
-      /* error code */
-    }
-  });
 }) 
- 
 </script>
 </html>
