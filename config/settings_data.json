@@ -115,7 +115,7 @@
     "popup_newsletter_text_note": "",
     "newssletter_success_text": "",
     "display_popup_social": false,
-    "enable_wishlist": false,
+    "enable_wishlist": true,
     "image_swap": true,
     "product_image_border": false,
     "product_image_border_color": "#e6e6e6",

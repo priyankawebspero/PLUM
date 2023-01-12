@@ -246,35 +246,6 @@
         "margin_bottom": 10
       }
     },
-    "c5183f7b-7b83-4a28-a10a-c3849d483b97": {
-      "type": "home-game-banner",
-      "disabled": true,
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
-        "link": "",
-        "banner-class": "PLAY123"
-      }
-    },
-    "1658485109ce9a8560": {
-      "type": "home-featured-products",
-      "disabled": true,
-      "settings": {
-        "image_1": "shopify:\/\/shop_images\/Heade_bestsellers_Desktop.png",
-        "image_picker_mobile": "shopify:\/\/shop_images\/Heade_bestsellers_Mob.png",
-        "featured_products_title": "",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "single-products-offer",
-        "slider_featured_limit_all": 6,
-        "shop_now_button": "view more",
-        "link1": "shopify:\/\/collections\/single-products-offer",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
     "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
       "type": "home-game-banner",
       "settings": {
@@ -284,22 +255,6 @@
         "banner-class": ""
       }
     },
-    "954b5c4b-c198-4894-928c-c5a114a9a6e1": {
-      "type": "home-featured-products",
-      "settings": {
-        "featured_products_title": "",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "winter-moisturisation",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "view more",
-        "link1": "shopify:\/\/collections\/winter-moisturisation",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
       "type": "home-game-banner",
       "settings": {
@@ -307,65 +262,6 @@
         "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
         "link": "",
         "banner-class": ""
-      }
-    },
-    "7ac60142-d97e-48da-b3ec-aefb32d99903": {
-      "type": "home-featured-products",
-      "settings": {
-        "featured_products_title": "skincare",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "skincare",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "view more",
-        "link1": "https:\/\/plumgoodness.com\/collections\/skincare",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
-    "1660732889a3929fc1": {
-      "type": "home-featured-products",
-      "settings": {
-        "featured_products_title": "buy 2 get 1 free",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "makeup",
-        "slider_featured_limit_all": 6,
-        "shop_now_button": "view more",
-        "link1": "shopify:\/\/collections\/makeup",
-        "collection_results_per_row1": "4",
-        "margin_bottom_mb": 50,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
-    "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
-      "type": "home-game-banner",
-      "disabled": true,
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
-        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
-        "banner-class": ""
-      }
-    },
-    "0fd8eb31-9fba-4705-9ea6-0d80f9301689": {
-      "type": "home-featured-products",
-      "disabled": true,
-      "settings": {
-        "featured_products_title": "",
-        "featured_products_des": "",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "plum-bodylovin-all-in-stock",
-        "slider_featured_limit_all": 10,
-        "shop_now_button": "view more",
-        "link1": "",
-        "collection_results_per_row1": "5",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
       }
     },
     "3db694fd-7636-4497-9460-50a299545216": {
@@ -451,8 +347,120 @@
         "banner_heading": "find solutions for"
       }
     },
+    "19c7a6bf-9227-4880-8db6-73cccba4fab6": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
+        "link": "",
+        "banner-class": ""
+      }
+    },
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
+      "type": "home-game-banner",
+      "disabled": true,
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
+        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
+        "banner-class": ""
+      }
+    },
+    "d54ce796-9ef4-4208-b3be-50e95f142574": {
+      "type": "home-game-banner",
+      "disabled": true,
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
+        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
+        "banner-class": ""
+      }
+    },
+    "8022e621-2fde-4c43-a376-0c58de4cd5ae": {
+      "type": "collection-caraousel",
+      "blocks": {
+        "dc5d77ce-d4d1-4d68-a0a4-5f9ec86dab94": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Acne_Concern-Images_Desktop_224X224_1.jpg",
+            "title": "",
+            "collection": "acne-treatment"
+          }
+        },
+        "3799a664-46b9-474c-857f-1a7794a9f377": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dull-skin_Concern-Images_Desktop_224X224_4889ee96-a88e-4f3c-9951-1df358f92e24.jpg",
+            "title": "",
+            "collection": "dull-skin"
+          }
+        },
+        "ab77b8ac-5d96-4a3d-9012-a087eb689cd7": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dry-Skin_Concern-Images_Desktop_224X224_1.jpg",
+            "title": "",
+            "collection": "dry-skin"
+          }
+        },
+        "2c31efa1-887d-4573-b525-536037803b8d": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dandruff_Concern-Images_Desktop_224X224_2b7b577e-cdf4-4220-bee7-b7b2a27d9d1e.jpg",
+            "title": "",
+            "collection": "dandruff"
+          }
+        },
+        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Ageing_Concern-Images_Desktop_224X224_5d971d4d-cd73-4fa6-8901-bd5b8a31a4f4.jpg",
+            "title": "",
+            "collection": "ageing-skin"
+          }
+        },
+        "325a89ca-bf47-4951-8a7a-4f2c2a8cfc62": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Dry-lips_Real-images_170X170_abc25453-4088-4763-9326-af0a66408a89.png",
+            "title": "dry lips",
+            "collection": "lip-balms"
+          }
+        },
+        "391dc11a-ccb0-4e03-bbac-a5e43a7b4f6d": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Frizzy-Hair_Concern-Images_Desktop_224X224_06a96101-2b08-43ad-8c1a-6dc33ab35d50.jpg",
+            "title": "",
+            "collection": "frizz"
+          }
+        },
+        "abe4550b-045b-43dc-92a4-e7fdf4d8d0ef": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Hair-fall_Concern-Images_Desktop_224X224_2d3db98d-37b0-417b-acae-10320022b05f.jpg",
+            "title": "",
+            "collection": "hairfall"
+          }
+        }
+      },
+      "block_order": [
+        "dc5d77ce-d4d1-4d68-a0a4-5f9ec86dab94",
+        "3799a664-46b9-474c-857f-1a7794a9f377",
+        "ab77b8ac-5d96-4a3d-9012-a087eb689cd7",
+        "2c31efa1-887d-4573-b525-536037803b8d",
+        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35",
+        "325a89ca-bf47-4951-8a7a-4f2c2a8cfc62",
+        "391dc11a-ccb0-4e03-bbac-a5e43a7b4f6d",
+        "abe4550b-045b-43dc-92a4-e7fdf4d8d0ef"
+      ],
+      "settings": {
+        "banner_heading": "find solutions for"
+      }
+    },
     "165848513210ac1823": {
       "type": "bodylovin-custom-content",
+      "disabled": true,
       "settings": {
         "code": "<div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n          \n<span>\n  watch &amp; buy\n<\/span>\n\n        <\/span>\n      <\/h3>\n      \n    <\/div>\n<div class=\"widget-plum\" style=\"padding-top:20px;\">\n\n    <fw-embed-feed channel=\"plum_goodness\" playlist=\"5aMdk5\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\" player_placement=\"bottom-right\"><\/fw-embed-feed>\n<\/div>\n<style>\n.gl_custom_162979546848c9e2fa.gl_content_html {\n    min-height: 400px !important;\n}\n<\/style>",
         "section_margin_top": "",
@@ -462,78 +470,6 @@
         "section_padding_bottom": "",
         "section_padding_left": "",
         "hidden_section": false
-      }
-    },
-    "1658490722f9e82fc3": {
-      "type": "home-spotlight-slider",
-      "blocks": {
-        "16584907220bd4bb17-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beauty_that_is.png",
-            "title": "beauty <br> that is",
-            "link_text": ""
-          }
-        },
-        "16584907220bd4bb17-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/clean_38d9c868-276b-4dd5-a26a-e2d169df6ab7.png",
-            "title": "Clean",
-            "link_text": "no nasties, <br> no animal<br> ingredients"
-          }
-        },
-        "16584907220bd4bb17-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/real_0f1a7377-89e4-4568-9543-7a658ac07883.png",
-            "title": "real",
-            "link_text": "no lies, <br> no beauty<br> standards"
-          }
-        },
-        "4744bf0e-b7dd-45c5-b411-1df8de8cc83c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/good-min-updated_new.png",
-            "title": "good",
-            "link_text": "for you <br> and <br> the planet"
-          }
-        }
-      },
-      "block_order": [
-        "16584907220bd4bb17-0",
-        "16584907220bd4bb17-1",
-        "16584907220bd4bb17-2",
-        "4744bf0e-b7dd-45c5-b411-1df8de8cc83c"
-      ],
-      "settings": {
-        "layout": "default",
-        "display_padding": true,
-        "bg_color": "#d9c4e3",
-        "spotlight_block_title": "",
-        "spotlight_block_des": "",
-        "spotlight_block_btn": "#cleanrealgood >",
-        "spotlight_block_url": "https:\/\/plumgoodness.com\/pages\/cleanrealgood",
-        "title_style": "style_2",
-        "margin_bottom_mb": 40,
-        "margin_bottom": 0
-      }
-    },
-    "16607344139c06e896": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "show_homepage_videos_section": true,
-        "video_title": "Rashmika recommends",
-        "description": "",
-        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
-        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
-        "video_link1": "sxCoJPealQI",
-        "read_more_button_name": "",
-        "read_more_button_link": "",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
       }
     },
     "1658485170941c47bc": {
@@ -585,25 +521,38 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "16607344139c06e896": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "show_homepage_videos_section": true,
+        "video_title": "Rashmika recommends",
+        "description": "",
+        "image_slide": "shopify:\/\/shop_images\/gt-adapt-1920x500.jpg",
+        "image_slide_mb": "shopify:\/\/shop_images\/gt-adapt-768x350.jpg",
+        "video_link1": "sxCoJPealQI",
+        "read_more_button_name": "",
+        "read_more_button_link": "",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "home-list-collections",
     "1658484860c65081e1",
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
-    "c5183f7b-7b83-4a28-a10a-c3849d483b97",
-    "1658485109ce9a8560",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
-    "954b5c4b-c198-4894-928c-c5a114a9a6e1",
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
-    "7ac60142-d97e-48da-b3ec-aefb32d99903",
-    "1660732889a3929fc1",
-    "2ca55de6-9a05-45ee-984b-4dbe44160faa",
-    "0fd8eb31-9fba-4705-9ea6-0d80f9301689",
     "3db694fd-7636-4497-9460-50a299545216",
+    "19c7a6bf-9227-4880-8db6-73cccba4fab6",
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa",
+    "d54ce796-9ef4-4208-b3be-50e95f142574",
+    "8022e621-2fde-4c43-a376-0c58de4cd5ae",
     "165848513210ac1823",
-    "1658490722f9e82fc3",
-    "16607344139c06e896",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "16607344139c06e896"
   ]
 }
