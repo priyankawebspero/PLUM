@@ -120,7 +120,6 @@
 
 
 <body id="{{ page_title | handle }}" class="{{ header_class }} {{ layout_class }} {% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if template.suffix == 'bodylovin' %} bodylovin{% endif %}{% if template.suffix == 'bday_offer' %} bday_offer{% endif %}{% if template.suffix == 'teaser' %} teaser{% endif %}" {% if settings.enable_rtl_lang_1 or settings.enable_rtl_lang_2 %}style="opacity: 0"{% endif %}>
-{% include 'mc-limit' %}
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7N3BVB"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -129,53 +128,16 @@
       {% section 'searchtap' %}
       {% section 'searchtap_autocomplete' %}
 
-
       {% if template.suffix != 'unsubscribe'%}
       {% include 'wrapper-header' %} 
       {% endif %} 
 
     <div class="wrapper-container wrapper-body">  
       <main class="main-content" role="main"> 
-        <!-- or template == "index" -->
-         {%comment%}{% if template == "index"  %}
-         {% include 'crm_user_validation' %}
-        {% endif %} {%endcomment%}
-      {% if product.handle == "green-tea-minis-duo-toner-moisturizer" or product.handle == "free-green-tea-minis-duo-toner-moisturizer" or product.handle == "free-green-tea-mini-duo-face-wash-night-gel" or product.handle == "best-bodycare-mini-trio" %}
-              {% include 'user-valisation' %}
-      {% endif %}
-        {% if template contains 'index' or  template contains 'all-collection'%}
-        {% else %}
-        {% if settings.image_promo1 != blank %}
-        <div id="slider-promo-wrap" style="display:none">
-          <div class="header-promo-banner-slider">
-            {% if settings.image_promo1 != blank %}
-            <div class="slide">
-              <a href="{{settings.image_promo_url}}">
-              <img class="desktop" src="{{ settings.image_promo1 | img_url: 'master' }}" alt="{{ settings.image_promo1.alt}}">
-              <img class="mobile" src="{{ settings.image_promo_mob1 | img_url: 'master' }}" alt="{{ settings.image_promo_mob1 .alt}}" style="display:none;">
-              </a>
-             </div>
-            {% endif %}
-            {% if settings.image_promo2 != blank %}
-            <div class="slide">
-               <a href="{{settings.image_promo_url1}}">
-              <img class="desktop"  src="{{ settings.image_promo2 | img_url: 'master' }}" alt="{{ settings.image_promo2.alt}}">
-              <img class="mobile" src="{{ settings.image_promo_mob2 | img_url: 'master' }}" alt="{{ settings.image_promo_mob2.alt}}" style="display:none;">
-              </a>
-                 </div>
-            {% endif %}
-            {% if settings.image_promo3 != blank %}
-            <div class="slide">
-               <a href="{{settings.image_promo_url2}}">
-              <img class="desktop" src="{{ settings.image_promo3 | img_url: 'master' }}" alt="{{ settings.image_promo3.alt}}">
-              <img class="mobile" src="{{ settings.image_promo_mob3 | img_url: 'master' }}" alt="{{ settings.image_promo_mob3.alt}}" style="display:none;">
-              </a>
-                 </div>
-            {% endif %}            
-          </div>
-        </div>
-        {% endif %}
-        {% endif %} 
+         {% comment %}{% if template == "index"  %}{% include 'crm_user_validation' %}{% endif %} {% endcomment %}
+          {% if product.handle == "green-tea-minis-duo-toner-moisturizer" or product.handle == "free-green-tea-minis-duo-toner-moisturizer" or product.handle == "free-green-tea-mini-duo-face-wash-night-gel" or product.handle == "best-bodycare-mini-trio" %}
+            {% include 'user-valisation' %}
+          {% endif %}
         {{ content_for_layout }}
       </main> 
     
@@ -193,10 +155,6 @@
         </a>
       </div>  
     </div>
-  {% if product.tags contains 'custom_offer'  %}
-  {% else %}
-  {% comment %}{% include 'search-autocomplete' %}{% endcomment %}
-  {% endif %}
   {% if settings.header_layout == 'default' %}
   {% else %}
   <div class="translate-header" data-translate-header>
