@@ -1,12 +1,97 @@
+<div class="featured-testimonials" id="featured-testimonial-{{section.id}}" >
+  <div class="container-padd60">
+            {% if section.settings.banner_heading != blank %}
+            <h3 class="banner-heading"
+                style="{% if section.settings.font_size_banner_heading != blank %}
+                       font-size: {{ section.settings.font_size_banner_heading }};
+                       {% endif %}
+                       {% if section.settings.color_banner_heading != blank %}
+                       color:{{ section.settings.color_banner_heading }};
+                       {% endif %}">
+              {% include 'multilang' with section.settings.banner_heading  %}
+            </h3>
+            {% endif %}
+          <div class="widget-product">
+          <div class="products-grid row" data-brands-slider data-row="3">
+            {% for block in section.blocks %}
+            <div class="grid-item col-6 col-md-4 col-lg-4">
+             <div class="block-wrapper">
+              <a href="{{ block.settings.link  }}">
+                {%- assign img_url = block.settings.image_desk | img_url: '400x' , format: 'pjpg'-%}
+                {% if img_url != blank %}
+                <img data-src="{{ img_url }}"
+                     src="{{ img_url }}" alt="{{ block.settings.image_desk.alt | default: shop.name }}" itemprop="logo"
+                     class="lazyautosizes lazyload" data-sizes="auto">
+                {% else %}
+                <div class="not_img">
+                  725 x 640px
+                </div>   
+                {% endif %}
+              </a>
+              <span class="title_block">{{ block.settings.title }}</span>         
+            </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Testimonials Carousel",
+	"class": "home-testimonials-carousel",
+    "max_blocks": 10,
+    "settings": [ 
+	  {
+		"type": "header",
+		"content": "Banner Image"
+      }, 	  
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label" : "Select Image"
+      },
+      {
+        "type" : "text",
+        "id" : "banner_heading",
+        "label" : "Banner Heading",
+        "default" : "Testimonials"
+      },
+	  {
+		"type": "header",
+		"content": "testimonials"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "image",
+        "settings": [		  	
+          {
+            "type": "image_picker",
+            "id": "image_desk",
+            "label": "Image Desktop",
+            "info":  "Small(370X240) / large(770x240)"
+          },
+           {
+            "type": "url",
+            "id": "link",
+            "label": "Product/Collection Link"
+          }
+        ]
+      }
+    ],
+	"presets": [
+      {
+        "name": "Testimonials Carousel",
+        "category": "testimonials",
+          "blocks": [
+          {
+            "type": "image"
+          }
+        ]
+      }
+      
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
