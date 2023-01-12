@@ -180,14 +180,13 @@
     
   {% include 'social-login' %}
 
-     {% if template contains 'product' %}
+  {% if template contains 'product' %}
       <!-- share button  -->
     <span id='mobile-share-button'><i class="fa fa-share-alt" aria-hidden="true"></span>
     <script type="text/javascript">
     $('#mobile-share-button').on('click', () => {
     console.log('touch');  
     if (navigator.share) {
-    console.log('saddddddd');
       navigator.share({
           title: '{{ product.title }}',
           url: '{{ canonical_url }}'
@@ -199,7 +198,7 @@
     }
     });
     </script>
-   {% endif %}
+  {% endif %}
 
      
 </body>
