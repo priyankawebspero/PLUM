@@ -617,6 +617,10 @@ a.pro_shop_feature {
     background-size: auto,cover;
 }
 
+.vedio-box {
+    margin-bottom: -7px;
+}
+
 /*--------------media-css-start-----------*/
 
 @media only screen and (min-width: 1400px){
