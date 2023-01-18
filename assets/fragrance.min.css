@@ -210,11 +210,11 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
 }
 
 .home-sub-banner-sections h3 {
-    font-family: 'serifabold';
-    letter-spacing: 1px;
-    font-size: 50px;
+    letter-spacing: 0;
+    font-size: 57px;
     margin-bottom: 30px;
     color: #d6006d;
+    font-family: "DINNextRoundedLTPro-Bold";
 }
 
 .phy-videos-sections .phy-video-section .row {
