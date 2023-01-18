@@ -9,42 +9,6 @@ $slideshow = $('.header-top-slider').slick({
       slidesToScroll:1
     });
 
-  $(document).ready(function() {
-      $("label.cstm-in_label").click(function(e) {
-        e.preventDefault();
-        var variantID = $(this).attr("data-variant");
-        var productID = $(this).closest("form.variants").attr("data-product");
-        if ($(this).closest("form.variants").find(".qty-group.newtab").hasClass("variant-" + variantID))
-         {
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").hide();
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab.variant-" + variantID).show();
-         } 
-         else {
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").show();
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
-        }
-        $(this).closest(".srting_it").find("input").prop("checked", false).removeAttr("checked");
-        $(this).closest(".products-grid").find("input[value=" + variantID + "]").attr("checked", true).prop("checked", true);
-
-        var price = $(this).data('price');
-        var comparePrice = $(this).data('compare');
-        var img = $(this).data('image');
-
-        if (comparePrice != '0') {
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("₹ " + comparePrice);
-        } else {
-          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("");
-        }
-        $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .special-price .money").text("₹ " + price);
-        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("src", img);
-        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-src", img);
-        var currentUrl = $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image").attr('href');
-        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-grid-image').attr("href", currentUrl + '?variant=' + variantID);
-        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-bottom .product-title').attr("href", currentUrl + '?variant=' + variantID);
-      });
-    });
-
 if((typeof Shopify.getCart) === 'undefined'){
   Shopify.getCart = function(callback, cart){
     if(!cart){
@@ -1017,7 +981,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
 
             speed: 1000,
             centerMode: false,
-            infinite: false,
+            infinite: true,
             get dots() {
               if(self.hasClass('has-banner')) {
                 return this.dots = true;
@@ -1693,26 +1657,23 @@ if ((typeof Shopify.getCart) === 'undefined') {
       };
     },
 
-  removeItemDropdownCart: function (cart) {
+    removeItemDropdownCart: function (cart) {
       /* cart remove button */
       var btnRemove = dropdownCart.find('.btn-remove');
       btnRemove.off('click.removeCartItem').on('click.removeCartItem', function (e) {
         e.preventDefault();
         e.stopPropagation();
         var productId = $(this).parents('.item').attr('id').match(/\d+/g);
-        var productpr = $(this).parents('.item').find('.price').attr("data-price");
-        var variantID = $(this).parents('.item').attr('data-variant');
+        var productpr = $(this).parents('.item').find('.price').attr("data-price");       
         if (productpr <=0){}else{ $(this).html('removing');}        
         Shopify.removeItem(productId, function (cart) {
           ella.doUpdateDropdownCart(cart);       
         });
          /* Product remove button */
         var productIdNew = $(this).parents('.item').attr('data-id');
-         $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+variantID).remove();
-        if ($('.variants.grid-product-form--'+productIdNew).hasClass('single-variant') || $('.variants.grid-product-form--'+productIdNew+' .srting_it input.cstm-in[value='+variantID+']').prop('checked')) {
+        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
         $('.variants.grid-product-form--'+productIdNew+' .cart').show();
         $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
-        }
          setTimeout(function() {
             $('.added_product.modal').html('Product removed from cart!').show(); 
           }, 2000);
@@ -1737,7 +1698,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
         // console.log(productIdNew);
         setTimeout(function() {
         rmcart.parents('form').removeClass('loading');
-        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+productIdE).remove();
+        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
         $('.variants.grid-product-form--'+productIdNew+' .cart').show();
         $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
         $('.added_product.modal').html('Product removed from cart!').show();         
@@ -1760,7 +1721,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
            
           productIdNew = productIdNew.replace("product-actions-","");
           console.log(productIdNew);
-           $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+productIdE).remove();
+          $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
           $('.variants.grid-product-form--'+productIdNew+' .cart').show();
           $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
         }
@@ -1982,7 +1943,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
             },
             success: function(i) {
               Shopify.getCart(function(cart){
-                ella.updateDropdownCart(),$('body').find('.grid-product-form--'+productIDCart+' .quantity[data-qtt-id=quantity__'+varientid+']').val(newVal);
+                ella.updateDropdownCart(),$('body').find('.grid-product-form--'+productIDCart+' .quantity').val(newVal);
                 checkcart.closest('.item').addClass('loading');
               });
             },
@@ -1996,12 +1957,10 @@ if ((typeof Shopify.getCart) === 'undefined') {
       });
     },
     
-  changeQuantityAddToCartNew: function() { 
+    changeQuantityAddToCartNew: function() { 
       $(document).on('click', '.button.quantity', function(e){
-        var a = $(this).parent().find(".product_id").attr("data-id");
-        // var a = $(this).closest('form').find(".product_id").attr("data-id");
-        var oldValue = $('body').find('#cart-item-'+a+' .quantity').val();
-        // var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
+        var a = $(this).closest('form').find(".product_id").attr("data-id");
+        var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
         console.log(oldValue);
         if ($(this).hasClass('plus') ){
           var newVal = parseInt(oldValue) + 1;
@@ -2011,11 +1970,9 @@ if ((typeof Shopify.getCart) === 'undefined') {
           newVal = parseInt(oldValue);
         }
         console.log('newValnew', newVal);
-        // $(this).closest('form').find(".quantity").val(newVal);  
-        $(this).parent().find(".quantity").val(newVal);
+        $(this).closest('form').find(".quantity").val(newVal);        
         a = a.match(/\d+/g);
-        // var quantity = $(this).closest('form').find(".quantity").val(); 
-        var quantity = $(this).parent().find(".quantity").val();
+        var quantity = $(this).closest('form').find(".quantity").val(); 
          var checkk = $(this);
          checkk.closest('form').addClass('loading');
           $.ajax({
@@ -2038,6 +1995,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
               console.log(e);
             }
           });
+
       });
            
     },
