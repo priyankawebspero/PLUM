@@ -7,35 +7,132 @@
     {% break %}
   {% endif %}
 {% endfor %}
-<form action="/cart/add" method="post" class="variants grid-product-form--{{ product.id }}" class="grid-product-form--{{ product.id }}" id="grid-product-form--{{ product.id }}" data-id="product-actions-{{ product.id }}" enctype="multipart/form-data">
+
+<form action="/cart/add" method="post" class="variants grid-product-form--{{ product.id }} product-{{ product.id }} {% if variantCount <= 1 %} single-variant{% endif %}" data-product="{{ product.id }}" id="grid-product-form--{{ product.id }}" data-id="product-actions-{{ product.id }}" enctype="multipart/form-data">
   {% if sold_out %}
   <button class="btn add-to-cart-btn" type="submit" disabled="disabled" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}>
     {{ 'products.product.unavailable' | t }}
   </button>
   {% else %}
+  {% if sizeOption and variantCount > 1 %}
+    <div class="srting_it">
+      {% for product_option in product.options_with_values %}
+        {% if productOption == "size" %} 
+          {% for variant in sorted_variants %}
+            {% if variant.available %}
+              <div class="form-cstm" data-sort="{{ variant.price | money_without_currency }}">
+                <input class="cstm-in"  name="id" value="{{ variant.id }}"  type="radio" {% if lastVariant.title == variant.title %} checked{% endif %}>
+                <label class="cstm-in_label" for="{{ variant.id }}" data-price="{{ variant.price | money_without_currency }}" data-variant="{{ variant.id }}" data-compare="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | money_without_currency }}{% else %}0{% endif %}" data-image="{{ variant.image | default: product.featured_image | image_url  }}">{{ variant.title }}</label>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>  
+  {% endif %}
+
+    {% if colorOption and variantCount > 1 %}
+    <div class="srting_it color">
+      {% for product_option in product.options_with_values %}
+        {% if productOption == "color" or productOption == "Color" %} 
+          {% for variant in sorted_variants_rev limit:4 %}
+            {% if variant.available %}
+              <div class="form-cstm" data-sort="{{ variant.price | money_without_currency }}">
+                <input class="cstm-in"  name="id" value="{{ variant.id }}"  type="radio" {% if lastVariant.title == variant.title %} checked{% endif %}>
+                <label class="cstm-in_label" for="{{ variant.id }}" data-price="{{ variant.price | money_without_currency }}" data-variant="{{ variant.id }}" data-compare="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | money_without_currency }}{% else %}0{% endif %}" data-image="{{ variant.image | default: product.featured_image | image_url  }}"><img src="{{ variant.title | handle | prepend: 'swatch-' | append: '.' | append: 'png' | file_url }}" width="20px" height="20px"></label>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% if sorted_variants_rev.size > 4 %}
+       <span class="rest_count">+{{ sorted_variants_rev.size | minus:4 | link_to : product.url}}</span>
+      {% endif %}
+    </div>  
+  {% endif %}
+    
+    <div class="price-box">              
+      <div class="price-sale">
+        <span class="old-price">{% if on_sale %}{{ lastVariant.compare_at_price | money }}{% else %}<span class="money"></span>{% endif %}</span>
+        <span class="special-price">{{ lastVariant.price | money }}</span>
+      </div>
+    </div>
+
+  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+  
   {% if not_in_cart and variantCount <= 1 %}
-    <div class="qty-group newtab">
-    <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ product.variants[0].id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
-    <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
-    <input type="hidden" class="product_id" data-id="{{ product.variants[0].id }}">
-    <input type="text" class="quantity" data-qtt-id="quantity__{{ product.variants[0].id }}" name="quantity" value="{{cart_value}}">
-    <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
-  </div>
+    <div class="qty-group newtab variant-{{ product.variants[0].id }}">
+      <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ product.variants[0].id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+      <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+      <input type="hidden" class="product_id" data-id="{{ product.variants[0].id }}">
+      <input type="text" class="quantity" data-qtt-id="quantity__{{ product.variants[0].id }}" name="quantity" value="{{cart_value}}">
+      <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+    </div>
    {% endif %}
-  {% if variantCount <= 1 %}
-  <div class="cart {% if not_in_cart %}disable{% endif %}">
-  <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
-  <input type="hidden" name="quantity" value="1" />
-  <button data-btn-addToCart class="btn add-to-cart-btn cartbutton" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
-    {{ 'products.product.add_to_cart' | t }}
-  </button>
-  </div>
-   {% else %} 
+    
+    {% if sizeOption and not_in_cart and variantCount > 1 %}
+      {% for variant in sorted_variants %}
+        {% for item in cart.items %}
+          {% if item.id == variant.id  %}
+            <div class="qty-group newtab variant-{{ variant.id }}" {% if lastVariant.id != variant.id %}style="display:none;"{% endif %}>
+              <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ variant.id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+              <input type="hidden" class="product_id" data-id="{{ variant.id }}">
+              <input type="text" class="quantity" data-qtt-id="quantity__{{ variant.id }}" name="quantity" value="{{item.quantity}}">
+              <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+
+        {% if colorOption and not_in_cart and variantCount > 1 %}
+      {% for variant in sorted_variants_rev %}
+        {% for item in cart.items %}
+          {% if item.id == variant.id  %}
+            <div class="qty-group newtab variant-{{ variant.id }}" {% if lastVariant.id != variant.id %}style="display:none;"{% endif %}>
+              <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ variant.id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+              <input type="hidden" class="product_id" data-id="{{ variant.id }}">
+              <input type="text" class="quantity" data-qtt-id="quantity__{{ variant.id }}" name="quantity" value="{{item.quantity}}">
+              <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    
+    {% if variantCount <= 1 %}
+      <div class="cart {% if not_in_cart %}disable{% endif %}">
+        <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn cartbutton add-to-cart-btnload" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+        </button>
+      </div>
+  
+    {% elsif sizeOption and variantCount > 1 %}
+      <div class="cart {% if last_variant_in_cart %}disable{% endif %}">
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn add-to-cart-btnload cartbutton" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+      </button>
+      </div>
+      
+    {% elsif colorOption and variantCount > 1 %}
+      <div class="cart {% if last_variant_in_cart %}disable{% endif %}">
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn add-to-cart-btnload cartbutton" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+      </button>
+      </div>
+  
+    {% else %}
   <a class="btn" href="{{ product.url }}" title="{{ product.title }}" {% if settings.enable_multilang %}data-translate="products.product.select_options"{% endif %}>
     {{ 'products.product.select_options' | t }}
   </a> 
-    {% endif %}
-  {% endif %}
+   {% endif %}
+{% endif %}
   
 </form>
 <script>
@@ -44,32 +141,17 @@
     clevertap.event.push("User Bonus Offer Clicks", {
       Click: "Click"
     }); 
+    (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+    {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+    a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+    r.src=n;var u=t.getElementsByTagName(s)[0];
+    u.parentNode.insertBefore(r,u);})(window,document,
+    'https://sc-static.net/scevent.min.js');
+    
+    snaptr('init', '8eb01cf9-83ba-4d67-8805-7e071ff8bd7b', {
+    'user_email': '{{customer.email}}'
+    });
+    
+    snaptr('track', 'ADD_CART');
   }    
 </script>
-
-
-<style>
-.added_product {
-    display: none;
-    width: 200px;
-    height: 40px;
-    background-color: rgb(94 92 95 / 59%);
-    top: 90%;
-    left: 50%;
-    -moz-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
-    -ms-border-radius: 1px;
-    -o-border-radius: 1px;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center;
-    padding: 8px;
-}.cart.disable {
-    display: none;
-}
-</style>
