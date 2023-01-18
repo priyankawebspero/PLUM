@@ -1818,10 +1818,10 @@ if ((typeof Shopify.getCart) === 'undefined') {
           
           // SCA here
           if(cart.items[i].price < 2){
-          var template = '<li class="item freegi" id="cart-item-{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
+          var template = '<li class="item freegi" id="cart-item-{ID}" data-variant="{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
           }
           else {
-          var template = '<li class="item" id="cart-item-{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
+          var template = '<li class="item" id="cart-item-{ID}" data-variant="{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
   
           }
             if(cart.items[i].price > 0 && cart.items[i].title.indexOf('% off)') == -1){
