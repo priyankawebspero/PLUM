@@ -1303,6 +1303,14 @@ span#mobile-share-button {
     display: none;
 }
 
+.template-product .product-upper-section .product-photos {
+    margin-bottom: 0;
+}
+
+.product-img-box .p-slider-s {
+    margin-bottom: 0;
+}
+
 }
 
 
