@@ -39,8 +39,6 @@ $slideshow = $('.header-top-slider').slick({
         $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .special-price .money").text("₹ " + price);
         $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("src", img);
         $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-src", img);
-        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcie", img);
-        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcief", img);
         var currentUrl = $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image").attr('href');
         $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-grid-image').attr("href", currentUrl + '?variant=' + variantID);
         $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-bottom .product-title').attr("href", currentUrl + '?variant=' + variantID);
