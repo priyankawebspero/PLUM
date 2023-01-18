@@ -1705,6 +1705,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                 var productpr = $(this).parents('.item').find('.price').attr("data-price");
                 var variantID = $(this).parents('.item').attr('data-variant');
                 if (productpr <=0){}else{ $(this).html('removing');}
+              console.log('variantID', variantID);
                 Shopify.removeItem(productId, function (cart) {
                     ella.doUpdateDropdownCart(cart);
                 });
