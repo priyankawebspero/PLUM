@@ -1707,7 +1707,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                 if (productpr <=0){}else{ $(this).html('removing');}
               console.log('productId', productId);
               console.log('variantID', variantID);
-                Shopify.removeItem(productId[0], function (cart) {
+                Shopify.removeItem(productId, function (cart) {
                     ella.doUpdateDropdownCart(cart);
                 });
                 /* Product remove button */
