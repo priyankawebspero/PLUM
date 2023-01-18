@@ -119,7 +119,7 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 .product-item .product-bottom .product-title,.product-item .product-bottom .product-name{padding-bottom:15px}
 .featured-products .price-box{font-size:16px;font-weight:500}
 .featured-products .price-box .special-price{color:#000}
-.featured-products .product-item .action{order:6;max-width:100%;width:100%;margin-top:10px;margin-bottom:5px}
+.featured-products .product-item .action{order:6;max-width:100%;width:100%;margin-top:10px;margin-bottom:0px}
 .featured-products .product-item .product-bottom{text-align:center;min-height:220px;padding-bottom:15px;position:relative;padding-left:20px;padding-right:20px;align-items:center;justify-content:flex-end}
 .featured-products .inner.product-item{margin-bottom:20px}
 .range-link{margin-top:5px;text-transform:capitalize;font-size:25px;line-height:1;font-weight:400;padding-bottom:10px}
