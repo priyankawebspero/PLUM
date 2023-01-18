@@ -5032,6 +5032,10 @@ span.plum-friday i.fa {
 
 /*-------------------------color-swatch-18-11-2022------------------*/
 
+.product-bottom .title_h3 {
+    margin-bottom: 0 !important;
+}
+
 .template-index .featured-products .product-item .product-bottom {
     justify-content: space-between;
 }
