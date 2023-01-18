@@ -365,7 +365,7 @@ div.how-to-use-steps-section{margin-bottom:0}
 @media (max-width: 501px) {
 .mrp{font-size:20px}
 .product-shop div#product-variants .quantity_varients .selector-wrapper .single-option-selector{background-position:96% 14px}
-.product-shop .price_info_box .price-manufacturer .compare-price{width:100%;display:block}
+/*.product-shop .price_info_box .price-manufacturer .compare-price{width:100%;display:block}*/
 .products-grid div.grid-item{min-height:inherit;display:flex;max-width:100%;flex-direction:column}
 .product-shop .prices span.price .money{font-size:20px!important}
 .product-related-outer .product-item .product-bottom{padding:0 15px!important}
