@@ -437,5 +437,21 @@ span.select2-results .select2-results__options li[aria-selected="true"] {
 .product_form_desciption #add-to-cart-form .mobile-cart input#product-add-to-cart[value=Unavailable] {
     padding-right: 20px !important;
 }
+
+.product-shop .price_info_box {
+    position: relative;
+}
+  .product-shop .price-manufacturer .prices .tooltip {
+    padding-left: 0;
+    position: static;
+}
+.product-shop .price-manufacturer .prices .tooltip .tooltiptext {
+    right: auto;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    top: 60px;
+}
   
 }
