@@ -5119,6 +5119,10 @@ span.plum-friday i.fa {
     line-height: 1;
 }
 
+.cart.disable {
+    display: none;
+}
+
 /*-------------------------color-swatch-18-11-2022-end------------------*/
 @media only screen and (max-width:767px){
 
