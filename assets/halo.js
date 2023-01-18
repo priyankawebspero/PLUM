@@ -1709,7 +1709,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                     ella.doUpdateDropdownCart(cart);
                 });
                 /* Product remove button */
-                var productIdNew = $(this).parents('.item').attr('data-id');
+                 var productIdNew = $(this).parents('.item').attr('data-id');
                 $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+variantID).remove();
                 if ($('.variants.grid-product-form--'+productIdNew).hasClass('single-variant') || $('.variants.grid-product-form--'+productIdNew+' .srting_it input.cstm-in[value='+variantID+']').prop('checked')) {
                     $('.variants.grid-product-form--'+productIdNew+' .cart').show();
