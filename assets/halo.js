@@ -1960,10 +1960,12 @@ if ((typeof Shopify.getCart) === 'undefined') {
       });
     },
     
-    changeQuantityAddToCartNew: function() { 
+  changeQuantityAddToCartNew: function() { 
       $(document).on('click', '.button.quantity', function(e){
-        var a = $(this).closest('form').find(".product_id").attr("data-id");
-        var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
+        var a = $(this).parent().find(".product_id").attr("data-id");
+        // var a = $(this).closest('form').find(".product_id").attr("data-id");
+        var oldValue = $('body').find('#cart-item-'+a+' .quantity').val();
+        // var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val(); 
         console.log(oldValue);
         if ($(this).hasClass('plus') ){
           var newVal = parseInt(oldValue) + 1;
@@ -1973,9 +1975,11 @@ if ((typeof Shopify.getCart) === 'undefined') {
           newVal = parseInt(oldValue);
         }
         console.log('newValnew', newVal);
-        $(this).closest('form').find(".quantity").val(newVal);        
+        // $(this).closest('form').find(".quantity").val(newVal);  
+        $(this).parent().find(".quantity").val(newVal);
         a = a.match(/\d+/g);
-        var quantity = $(this).closest('form').find(".quantity").val(); 
+        // var quantity = $(this).closest('form').find(".quantity").val(); 
+        var quantity = $(this).parent().find(".quantity").val();
          var checkk = $(this);
          checkk.closest('form').addClass('loading');
           $.ajax({
@@ -1998,7 +2002,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
               console.log(e);
             }
           });
-
       });
            
     },
