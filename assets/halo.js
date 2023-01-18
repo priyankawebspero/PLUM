@@ -981,7 +981,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
 
             speed: 1000,
             centerMode: false,
-            infinite: true,
+            infinite: false,
             get dots() {
               if(self.hasClass('has-banner')) {
                 return this.dots = true;
@@ -1657,23 +1657,26 @@ if ((typeof Shopify.getCart) === 'undefined') {
       };
     },
 
-    removeItemDropdownCart: function (cart) {
+  removeItemDropdownCart: function (cart) {
       /* cart remove button */
       var btnRemove = dropdownCart.find('.btn-remove');
       btnRemove.off('click.removeCartItem').on('click.removeCartItem', function (e) {
         e.preventDefault();
         e.stopPropagation();
         var productId = $(this).parents('.item').attr('id').match(/\d+/g);
-        var productpr = $(this).parents('.item').find('.price').attr("data-price");       
+        var productpr = $(this).parents('.item').find('.price').attr("data-price");
+        var variantID = $(this).parents('.item').attr('data-variant');
         if (productpr <=0){}else{ $(this).html('removing');}        
         Shopify.removeItem(productId, function (cart) {
           ella.doUpdateDropdownCart(cart);       
         });
          /* Product remove button */
         var productIdNew = $(this).parents('.item').attr('data-id');
-        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
+         $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+variantID).remove();
+        if ($('.variants.grid-product-form--'+productIdNew).hasClass('single-variant') || $('.variants.grid-product-form--'+productIdNew+' .srting_it input.cstm-in[value='+variantID+']').prop('checked')) {
         $('.variants.grid-product-form--'+productIdNew+' .cart').show();
         $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
+        }
          setTimeout(function() {
             $('.added_product.modal').html('Product removed from cart!').show(); 
           }, 2000);
