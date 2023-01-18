@@ -179,6 +179,13 @@ span.play_li_video_top {
     display: block !important;
 }
 
+.product-shop .price_info_box .price-manufacturer .compare-price .money {
+    text-decoration: line-through !important;
+}
+.product-shop .price_info_box .price-manufacturer .compare-price {
+    text-decoration: none;
+}
+
 /*-------------color-swatches-css-new----------*/
 
 .product-shop div#product-variants .quantity_varients.color .selector-wrapper>label {
