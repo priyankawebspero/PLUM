@@ -1701,7 +1701,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
         // console.log(productIdNew);
         setTimeout(function() {
         rmcart.parents('form').removeClass('loading');
-        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
+        $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+productIdE).remove();
         $('.variants.grid-product-form--'+productIdNew+' .cart').show();
         $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
         $('.added_product.modal').html('Product removed from cart!').show();         
@@ -1724,7 +1724,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
            
           productIdNew = productIdNew.replace("product-actions-","");
           console.log(productIdNew);
-          $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab').remove();
+           $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+productIdE).remove();
           $('.variants.grid-product-form--'+productIdNew+' .cart').show();
           $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
         }
@@ -1946,7 +1946,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
             },
             success: function(i) {
               Shopify.getCart(function(cart){
-                ella.updateDropdownCart(),$('body').find('.grid-product-form--'+productIDCart+' .quantity').val(newVal);
+                ella.updateDropdownCart(),$('body').find('.grid-product-form--'+productIDCart+' .quantity[data-qtt-id=quantity__'+varientid+']').val(newVal);
                 checkcart.closest('.item').addClass('loading');
               });
             },
