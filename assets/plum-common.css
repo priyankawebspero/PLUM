@@ -5131,4 +5131,8 @@ span.plum-friday i.fa {
     height: 38px;
 }
 
+.home-product-tabs .product-tabs-content .inner.product-item .product-bottom {
+    min-height: 220px;
+}
+
 }
