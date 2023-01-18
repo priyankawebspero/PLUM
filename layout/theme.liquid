@@ -149,6 +149,47 @@
     </script>
   {% endif %} 
 </body>
+ <script type="text/javascript">  
+    $(document).ready(function() {
+      $("label.cstm-in_label").click(function(e) {
+        console.log('check')
+        e.preventDefault();
+        var variantID = $(this).attr("data-variant");
+        var productID = $(this).closest("form.variants").attr("data-product");
+
+        if ($(this).closest("form.variants").find(".qty-group.newtab").hasClass("variant-" + variantID))
+         {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").hide();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab.variant-" + variantID).show();
+         } 
+         else {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").show();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
+        }
+        $(this).closest(".srting_it").find("input").prop("checked", false).removeAttr("checked");
+        $(this).closest(".products-grid").find("input[value=" + variantID + "]").attr("checked", true).prop("checked", true);
+
+        var price = $(this).data('price');
+        var comparePrice = $(this).data('compare');
+        var img = $(this).data('image');
+
+        if (comparePrice != '0') {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("₹ " + comparePrice);
+        } else {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("");
+        }
+        $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .special-price .money").text("₹ " + price);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("src", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-src", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcie", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcief", img);
+        var currentUrl = $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image").attr('href');
+        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-grid-image').attr("href", currentUrl + '?variant=' + variantID);
+        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-bottom .product-title').attr("href", currentUrl + '?variant=' + variantID);
+      });
+    });
+  </script>     
 <script type="text/javascript">    
 $(".st-search-bar input").on("keypress",(function(){var e=this.value;e.length>2&&clevertap.event.push("Searched Product",{Terms:e,Date:new Date})}));
 $(".clear_cart").on("click",(function(){$.ajax({type:"POST",url:"/cart/clear.js",data:"",dataType:"json",success:function(){location.reload()},error:function(a,c){}})}));
