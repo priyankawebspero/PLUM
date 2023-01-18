@@ -9,6 +9,44 @@ $slideshow = $('.header-top-slider').slick({
       slidesToScroll:1
     });
 
+  $(document).ready(function() {
+      $("label.cstm-in_label").click(function(e) {
+        e.preventDefault();
+        var variantID = $(this).attr("data-variant");
+        var productID = $(this).closest("form.variants").attr("data-product");
+        if ($(this).closest("form.variants").find(".qty-group.newtab").hasClass("variant-" + variantID))
+         {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").hide();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab.variant-" + variantID).show();
+         } 
+         else {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .cart").show();
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
+        }
+        $(this).closest(".srting_it").find("input").prop("checked", false).removeAttr("checked");
+        $(this).closest(".products-grid").find("input[value=" + variantID + "]").attr("checked", true).prop("checked", true);
+
+        var price = $(this).data('price');
+        var comparePrice = $(this).data('compare');
+        var img = $(this).data('image');
+
+        if (comparePrice != '0') {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("₹ " + comparePrice);
+        } else {
+          $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .old-price .money").text("");
+        }
+        $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .special-price .money").text("₹ " + price);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("src", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-src", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcie", img);
+        $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image .images-one").attr("data-srcief", img);
+        var currentUrl = $(this).closest(".products-grid").find(".product-item[data-product-id=product-" + productID + "] .product-grid-image").attr('href');
+        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-grid-image').attr("href", currentUrl + '?variant=' + variantID);
+        $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-bottom .product-title').attr("href", currentUrl + '?variant=' + variantID);
+      });
+    });
+
 if((typeof Shopify.getCart) === 'undefined'){
   Shopify.getCart = function(callback, cart){
     if(!cart){
