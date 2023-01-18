@@ -260,13 +260,13 @@ span.play_li_video_top {
 }
 
 .product-shop div#product-variants .quantity_varients.color .selector-wrapper span.select2 span.select2-selection .select2-selection__rendered p {
-    text-align: left !important;
+    text-align: left!important;
     margin-left: 1.875rem;
-    font-size: 13px !important;
-    font-family: 'Segoe Pro' !important;
-    color: #000 !important;
-    letter-spacing: .025em !important;
-    /* font-weight: 600 !important; */
+    font-size: 14px!important;
+    color: #000!important;
+    letter-spacing: .025em!important;
+    font-family: "DINNextRoundedLTPro-Regular";
+    font-weight: normal !important;
 }
 
 span.select2-dropdown.select2-dropdown--above .select2-search--dropdown {
