@@ -5112,10 +5112,11 @@ span.plum-friday i.fa {
 
 .product-bottom .action .srting_it.color span.rest_count {
     position: relative;
-    top: -2px;
+    top: 3px;
     padding-left: 2px;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1;
 }
 
 /*-------------------------color-swatch-18-11-2022-end------------------*/
