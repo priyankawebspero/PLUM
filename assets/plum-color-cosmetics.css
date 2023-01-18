@@ -276,7 +276,7 @@ span.play_li_video_top {
     font-size: 14px!important;
     color: #000!important;
     letter-spacing: .025em!important;
-    font-family: "DINNextRoundedLTPro-Regular";
+    font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal !important;
 }
 
@@ -333,7 +333,7 @@ span.select2-results .select2-results__options li p {
     text-align: left!important;
     margin-left: .7rem;
     font-size: 14px!important;
-     font-family: "DINNextRoundedLTPro-Regular";
+    font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal !important;
     color: #000!important;
     letter-spacing: .025em!important;
