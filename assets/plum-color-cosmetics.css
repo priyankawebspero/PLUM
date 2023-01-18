@@ -181,6 +181,10 @@ span.play_li_video_top {
 
 /*-------------color-swatches-css-new----------*/
 
+.product-shop div#product-variants .quantity_varients.color .selector-wrapper>label {
+    display: none;
+}
+
 .product-shop #product-variants .swatch .swatch-element.color.sold-out label:after {
     top: 3px;
     height: 44px;
