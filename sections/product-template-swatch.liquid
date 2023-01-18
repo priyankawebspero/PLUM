@@ -74,12 +74,6 @@
                     <div data-image-id="{{image.id}}" data-thumnail-color="{{ image.alt | handle }}" class="item filter-{{ image.alt | handle }}">
                       <a href="javascript:void(0)" data-image="{{ image.src | product_img_url: 'original' }}" data-zoom-image="{{ image.src | product_img_url: 'original' }}">
                         <img  src="{{ image.src | product_img_url: 'compact' }}" alt="{{ media.alt }}" class="lazyautosizes lazyloaded">
-                        <script>
-//                         function onVideoClickStop(elem){
-//                           var youTubeId = $(elem).children('img').attr('alt');
-//                           $('.listVideoFrame').attr('src', '');
-//                           }
-                      </script>
                       </a>
                     </div>
                 {% endif %}
