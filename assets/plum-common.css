@@ -5140,3 +5140,26 @@ span.plum-friday i.fa {
 }
 
 }
+
+span.discount-tag-col {
+    position: absolute;
+    background: #5c0f8b;
+    color: #fff;
+    top: 0;
+    left: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 4px 10px 5px;
+    line-height: normal;
+    font-size: 12px;
+    border-radius: 3px;
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+span.discount-tag-col.pink {
+    background: #d6006b;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: inherit;
+}
