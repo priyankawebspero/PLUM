@@ -186,6 +186,10 @@ span.play_li_video_top {
     text-decoration: none;
 }
 
+.product-shop .groups-btn {
+    padding-bottom: 1em;
+}
+
 /*-------------color-swatches-css-new----------*/
 
 .product-shop div#product-variants .quantity_varients.color .selector-wrapper>label {
