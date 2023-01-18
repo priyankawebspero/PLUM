@@ -1327,6 +1327,11 @@ span#mobile-share-button {
     top: 60px;
 }
 
+.product-shop .price_info_box .price-manufacturer .price-review {
+    border-right: none;
+    padding-right: 0;
+}
+
 }
 
 
