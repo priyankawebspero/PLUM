@@ -66,8 +66,26 @@
         if (a && a.length) {
             for (var r = 0; r < a.length; r++) {
                 var n = a[r],
-                    s = $("<option></option>").val(n).html(n);
-                e.append(s);
+                  {% if product.template_suffix == 'swatch'%}
+                   s = $("<option data-img_src='//cdn.shopify.com/s/files/1/0390/2985/files/swatch-"+n.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '')+".png'></option>").val(n).html(n);
+                   function custom_template(obj){
+                        	var data = $(obj.element).data();
+                        	var text = $(obj.element).text();
+                        	if(data && data['img_src']){
+                	        	img_src = data['img_src'];
+                	        	template = $("<div><img src=\"" + img_src + "\" style=\"width:100%;height:150px;\"/><p style=\"font-weight: 700;font-size:14pt;text-align:center;\">" + text + "</p></div>");
+                	        	return template;
+                	        }
+                        }
+                	var options = {
+                		'templateSelection': custom_template,
+                		'templateResult': custom_template,
+                	}
+                	$('.single-option-selector').select2(options);
+                    {% else %}
+                   s = $("<option></option>").val(n).html(n);
+                    {% endif %}
+              e.append(s);
             }
             $(i + ' .swatch[data-option-index="' + o + '"] .swatch-element').each(function () {
                 -1 !== $.inArray($(this).attr("data-value"), a)
