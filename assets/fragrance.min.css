@@ -68,6 +68,7 @@
     padding-right: 20px;
     align-items: center;
     justify-content: flex-end;
+  min-height: 220px;
 }
 
 .featured-products a.product-title {
