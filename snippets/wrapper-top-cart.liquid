@@ -45,7 +45,7 @@
   <div class="has-items">
     <ol class="mini-products-list">
       {% for item in cart.items %}
-      <li class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} " id="cart-item-{{item.id}}" data-price="{{item.price}}">
+      <li class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} " id="cart-item-{{item.id}}" data-variant="{{ item.id }}" data-id="{{ item.product.id }}" data-price="{{item.price}}">
         <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
           <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
         {% if item.product.tags contains 'supersaver' %}<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>{% endif %} 
