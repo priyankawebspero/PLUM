@@ -275,7 +275,7 @@ span.play_li_video_top {
     margin-left: 1.875rem;
     font-size: 14px!important;
     color: #000!important;
-    letter-spacing: .025em!important;
+    letter-spacing: 0 !important;
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal !important;
 }
@@ -336,7 +336,7 @@ span.select2-results .select2-results__options li p {
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal !important;
     color: #000!important;
-    letter-spacing: .025em!important;
+    letter-spacing: 0 !important;
     line-height: 18px;
 }
 
