@@ -22,7 +22,8 @@
       domain: '{{ shop.permanent_domain }}',
       currency: '{{ shop.currency }}',
       money_format: {{ shop.money_format | replace: "'", '"' | replace: "$", "&#36;" | json }},
-      money_format_with_currency: {{ shop.money_with_currency_format | replace: "'", '"' | replace: "$", "&#36;"  | json }}
+      money_format_with_currency: {{ shop.money_with_currency_format | replace: "'", '"' | replace: "$", "&#36;"  | json }},
+      money_format_without_currency: {{ shop| json }}
     },
     general: {
       file_url: "{{ '' | file_url }}",
@@ -99,6 +100,10 @@ default_sort_order: {{ shop.metafields.boostpfs-settings.default-sort-order | js
   <script defer src="{{ 'boost-pfs-vendor.js' | asset_url }}"></script>
   <script defer src="{{ 'boost-pfs-core.js' | asset_url }}"></script>
   <script defer src="{{ 'boost-pfs-filter.js' | asset_url }}"></script>
+  <script defer src="{{ 'boost-pfs-instant-search.js' | asset_url }}"></script>
+{%- else -%}
+  <script defer src="{{ 'boost-pfs-core-instant-search.js' | asset_url }}"></script>
+  <script defer src="{{ 'boost-pfs-instant-search.js' | asset_url }}"></script>
 {%- endif -%}
 
 <!-- Initialize App -->
@@ -114,3 +119,4 @@ default_sort_order: {{ shop.metafields.boostpfs-settings.default-sort-order | js
  {%- if boost_pfs_is_initfilter == true -%}
    <script defer src="{{ 'boost-pfs-integration.js' | asset_url }}"></script>
  {%- endif -%}
+ 
