@@ -1,0 +1,51 @@
+{% assign sorted_variants = product.variants | sort: "price"  %}
+{% assign sorted_variants_rev = product.variants | sort: "price" | reverse  %}
+{% assign last_variant_in_cart = false %}
+{% assign sizeOption = false %}
+{% assign colorOption = false %}
+  {% for variant in sorted_variants_rev %}
+    {% if variant.available %}{% assign lastVariant = variant %}{% break %}{% endif %}
+  {% endfor %}
+  {% for variant in sorted_variants %}
+    {% for item in cart.items %}{% if item.id == lastVariant.id %}{% assign last_variant_in_cart = true %}{% endif %}{% endfor %}
+  {% endfor %}
+{% for product_option in product.options_with_values %}
+  {% assign productOption = product_option.name | downcase  %}
+  {% if productOption == "size" %}
+    {% assign sizeOption = true %}
+  {% elsif productOption == "color" %}
+    {% assign colorOption = true %}
+  {% endif %}
+{% endfor %}
+{% assign variantCount = product.variants | size %}
+  
+    {% if variantCount <= 1 %}
+      <div class="cart {% if not_in_cart %}disable{% endif %}">
+        <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn cartbutton add-to-cart-btnload" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+        </button>
+      </div>
+  
+    {% elsif sizeOption and variantCount > 1 %}
+      <div class="cart {% if last_variant_in_cart %}disable{% endif %}">
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn add-to-cart-btnload cartbutton" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+      </button>
+      </div>
+      
+    {% elsif colorOption and variantCount > 1 %}
+      <div class="cart {% if last_variant_in_cart %}disable{% endif %}">
+        <input type="hidden" name="quantity" value="1" />
+        <button data-btn-addToCart class="btn add-to-cart-btn add-to-cart-btnload cartbutton" type="submit" data-form-id="#{{id}}-{{ product.id }}" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %} onclick="quoraPixel(); scq('Add to cart', 'pre_defined'); pixelCode();">
+          {{ 'products.product.add_to_cart' | t }}
+      </button>
+      </div>
+  
+    {% else %}
+  <a class="btn" href="{{ product.url }}" title="{{ product.title }}" {% if settings.enable_multilang %}data-translate="products.product.select_options"{% endif %}>
+    {{ 'products.product.select_options' | t }}
+  </a> 
+   {% endif %}
