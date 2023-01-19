@@ -13,9 +13,19 @@
           "id":{{ product.id | json }},          
           "custom_html": 
             {%- capture custom_html -%}
-            {%- include 'boost-custom-html' -%}
+            {%- include 'boost-custom-ATC-elements' -%}
             {%- endcapture -%}
-            {{ custom_html | json }}
+            {{ custom_html | json }},
+          "color_selections": 
+            {%- capture color_selections -%}
+            {%- include 'boost-custom-ATC-colors' -%}
+            {%- endcapture -%}
+            {{ color_selections | json }},
+           "color_ATC": 
+            {%- capture color_ATC -%}
+            {%- include 'boost-custom-ATC-colors-button' -%}
+            {%- endcapture -%}
+            {{ color_ATC | json }}
 
         }
         {%- unless forloop.last -%},{%- endunless -%}
