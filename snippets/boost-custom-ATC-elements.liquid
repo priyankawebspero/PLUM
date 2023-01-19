@@ -1,0 +1,78 @@
+{% assign sorted_variants = product.variants | sort: "price"  %}
+{% assign sorted_variants_rev = product.variants | sort: "price" | reverse  %}
+{% assign last_variant_in_cart = false %}
+{% assign sizeOption = false %}
+{% assign colorOption = false %}
+  {% for variant in sorted_variants_rev %}
+    {% if variant.available %}
+      {% assign lastVariant = variant %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% for variant in sorted_variants %}
+  {% for item in cart.items %}
+    {% if item.id == lastVariant.id %}
+      {% assign last_variant_in_cart = true %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for product_option in product.options_with_values %}
+  {% assign productOption = product_option.name | downcase  %}
+  {% if productOption == "size" %}
+    {% assign sizeOption = true %}
+  {% elsif productOption == "color" %}
+    {% assign colorOption = true %}
+  {% endif %}
+{% endfor %}
+{% assign variantCount = product.variants | size %}
+
+{% assign not_in_cart = false %}
+{% for item in cart.items %}
+  {% if item.product.id == product.id  %}
+    {% assign not_in_cart = true %}
+    {% assign cart_value = item.quantity %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+ {% if not_in_cart and variantCount <= 1 %}
+    <div class="qty-group newtab variant-{{ product.variants[0].id }}">
+      <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ product.variants[0].id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+      <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+      <input type="hidden" class="product_id" data-id="{{ product.variants[0].id }}">
+      <input type="text" class="quantity" data-qtt-id="quantity__{{ product.variants[0].id }}" name="quantity" value="{{cart_value}}">
+      <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+    </div>
+   {% endif %}
+    
+    {% if sizeOption and not_in_cart and variantCount > 1 %}
+      {% for variant in sorted_variants %}
+        {% for item in cart.items %}
+          {% if item.id == variant.id  %}
+            <div class="qty-group newtab variant-{{ variant.id }}" {% if lastVariant.id != variant.id %}style="display:none;"{% endif %}>
+              <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ variant.id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+              <input type="hidden" class="product_id" data-id="{{ variant.id }}">
+              <input type="text" class="quantity" data-qtt-id="quantity__{{ variant.id }}" name="quantity" value="{{item.quantity}}">
+              <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+
+        {% if colorOption and not_in_cart and variantCount > 1 %}
+      {% for variant in sorted_variants_rev %}
+        {% for item in cart.items %}
+          {% if item.id == variant.id  %}
+            <div class="qty-group newtab variant-{{ variant.id }}" {% if lastVariant.id != variant.id %}style="display:none;"{% endif %}>
+              <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ variant.id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+              <a href="javascript:void(0)" data-minus-qtt="" class="minus button quantity"></a>
+              <input type="hidden" class="product_id" data-id="{{ variant.id }}">
+              <input type="text" class="quantity" data-qtt-id="quantity__{{ variant.id }}" name="quantity" value="{{item.quantity}}">
+              <a href="javascript:void(0)" data-plus-qtt="" class="plus button quantity"></a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
