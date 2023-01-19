@@ -1,0 +1,40 @@
+{% assign sorted_variants = product.variants | sort: "price"  %}
+{% assign sorted_variants_rev = product.variants | sort: "price" | reverse  %}
+{% assign last_variant_in_cart = false %}
+{% assign sizeOption = false %}
+{% assign colorOption = false %}
+  {% for variant in sorted_variants_rev %}
+    {% if variant.available %}{% assign lastVariant = variant %}{% break %}{% endif %}
+  {% endfor %}
+  {% for variant in sorted_variants %}
+    {% for item in cart.items %}{% if item.id == lastVariant.id %}{% assign last_variant_in_cart = true %}{% endif %}{% endfor %}
+  {% endfor %}
+{% for product_option in product.options_with_values %}
+  {% assign productOption = product_option.name | downcase  %}
+  {% if productOption == "size" %}
+    {% assign sizeOption = true %}
+  {% elsif productOption == "color" %}
+    {% assign colorOption = true %}
+  {% endif %}
+{% endfor %}
+{% assign variantCount = product.variants | size %}
+
+    {% if colorOption and variantCount > 1 %}
+    <div class="srting_it color">
+      {% for product_option in product.options_with_values %}
+        {% if productOption == "color" or productOption == "Color" %} 
+          {% for variant in sorted_variants_rev limit:4 %}
+            {% if variant.available %}
+              <div class="form-cstm" data-sort="{{ variant.price | money_without_currency }}">
+                <input class="cstm-in"  name="id" value="{{ variant.id }}"  type="radio" {% if lastVariant.title == variant.title %} checked{% endif %}>
+                <label class="cstm-in_label" for="{{ variant.id }}" data-price="{{ variant.price | money_without_currency }}" data-variant="{{ variant.id }}" data-compare="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | money_without_currency }}{% else %}0{% endif %}" data-image="{{ variant.image | default: product.featured_image | image_url  }}"><img src="{{ variant.title | handle | prepend: 'swatch-' | append: '.' | append: 'png' | file_url }}" width="20px" height="20px"></label>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% if sorted_variants_rev.size > 4 %}
+       <span class="rest_count">+{{ sorted_variants_rev.size | minus:4 | link_to : product.url}}</span>
+      {% endif %}
+    </div>  
+  {% endif %}
