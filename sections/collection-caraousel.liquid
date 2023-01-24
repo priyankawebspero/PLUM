@@ -29,7 +29,7 @@
                 </div>   
                 {% endif %}
               </a>
-              <span class="title_block">{{ block.settings.title }}</span>         
+              {% if block.settings.title != blank %}<span class="title_block">{{ block.settings.title }}</span>  {% endif %}       
             </div>
             </div>
             {% endfor %}
