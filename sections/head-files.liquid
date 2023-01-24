@@ -1,7 +1,15 @@
+{{ section.settings.top_file }}
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "head-files",
+    "settings": [
+      {
+      "type": "textarea",
+      "id": "top_file",
+      "label": "Enter CSS/JS files"
+      }
+      
+    ]
   }
 {% endschema %}
 
