@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main-about-us": {
-      "type": "main-about-us",
+    "head-files": {
+      "type": "head-files",
       "settings": {
       }
     }
   },
   "order": [
-    "main-about-us"
+    "head-files"
   ]
 }
