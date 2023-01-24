@@ -113,7 +113,7 @@
           "type": "collection",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-4.jpg",
-            "title": "Lorem De Dorus",
+            "title": "",
             "collection": ""
           }
         },
@@ -121,7 +121,7 @@
           "type": "collection",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-2.jpg",
-            "title": "Lorem De Dorus",
+            "title": "",
             "collection": ""
           }
         },
@@ -129,7 +129,7 @@
           "type": "collection",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-1.jpg",
-            "title": "Lorem De Dorus",
+            "title": "",
             "collection": ""
           }
         },
@@ -137,7 +137,7 @@
           "type": "collection",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-5.jpg",
-            "title": "Lorem De Dorus",
+            "title": "",
             "collection": ""
           }
         },
@@ -145,7 +145,7 @@
           "type": "collection",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-3.jpg",
-            "title": "Lorem De Dorus",
+            "title": "",
             "collection": ""
           }
         }
