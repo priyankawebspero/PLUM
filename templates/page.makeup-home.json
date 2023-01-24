@@ -46,35 +46,35 @@
         "auto_playvideo": true
       }
     },
-    "ca43ef03-9a07-4ffa-a4c0-2d59348a65f3": {
-      "type": "home-ajax-tabs",
+    "0dadeaf7-2a7d-44bc-920e-2f25349e6f5c": {
+      "type": "home-product-tabs",
       "blocks": {
-        "97dffe4f-9058-4a11-ab5a-0d1a2153f4f8": {
-          "type": "ProductTabs",
-          "settings": {
-            "title": "lips",
-            "collection": "lips"
-          }
-        },
-        "cbfe33b4-ae84-4085-b5ac-a828118402fc": {
-          "type": "ProductTabs",
-          "settings": {
-            "title": "nail",
-            "collection": "nail"
-          }
-        },
-        "280f8511-7ba1-4c54-824e-ae6b8f5cfecc": {
+        "43b14bd2-e46b-4d74-8376-be2c09178390": {
           "type": "ProductTabs",
           "settings": {
             "title": "kajal",
             "collection": "eye-make-up"
           }
+        },
+        "88997e63-78bc-411c-89aa-5476798ec3e1": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "nails",
+            "collection": "nail"
+          }
+        },
+        "0ac81442-5882-404b-9b65-697f1861dfc1": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "lips",
+            "collection": "lips"
+          }
         }
       },
       "block_order": [
-        "97dffe4f-9058-4a11-ab5a-0d1a2153f4f8",
-        "cbfe33b4-ae84-4085-b5ac-a828118402fc",
-        "280f8511-7ba1-4c54-824e-ae6b8f5cfecc"
+        "43b14bd2-e46b-4d74-8376-be2c09178390",
+        "88997e63-78bc-411c-89aa-5476798ec3e1",
+        "0ac81442-5882-404b-9b65-697f1861dfc1"
       ],
       "settings": {
         "product_tabs_title": "New Arrivals",
@@ -146,7 +146,7 @@
   "order": [
     "head-files",
     "ab4af3bb-28ab-457c-aad1-2c67d27cb32f",
-    "ca43ef03-9a07-4ffa-a4c0-2d59348a65f3",
+    "0dadeaf7-2a7d-44bc-920e-2f25349e6f5c",
     "af027cc7-5ce6-4a7c-80b5-62c33eadf199"
   ]
 }
