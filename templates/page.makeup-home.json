@@ -56,7 +56,7 @@
         "dots_opacity": false,
         "arrow_color": "#666d6d",
         "arrow_border_color": "#666d6d",
-        "arrow_bg_color": "#fff",
+        "arrow_bg_color": "#ffffff",
         "position_slick_arrow": "10%",
         "min_width_banner_button": "",
         "bg_video": "#866965",
@@ -219,6 +219,56 @@
       "settings": {
         "banner_heading": "Testimonials"
       }
+    },
+    "695321e1-0c02-4154-8705-2fac8c16409e": {
+      "type": "home-brands",
+      "blocks": {
+        "7554ab7a-a7c7-44cb-8c9b-6746bb24f8e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_200x.progressive_e1aafd65-5309-486e-bbda-7bed933e33b9.png",
+            "title": "",
+            "description_band": "We love the fact that these formulations are vegan, cruelty-free & paraben-free",
+            "link": "shopify:\/\/pages\/plum-feature"
+          }
+        },
+        "cc607e39-4fa9-462c-8f83-a213fe89e4fe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.progressive_c0cbcda1-b89c-4a05-b6bc-8f989be49527.jpg",
+            "title": "",
+            "description_band": "Your hair needs a boost & there's no better candidate that the Plum Mega Moisturizing Hair Mask",
+            "link": "shopify:\/\/pages\/plum-feature"
+          }
+        },
+        "ab625de7-9555-421c-87c4-c6f799d32bc3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_f1e3b604-b098-49e6-9ca0-c3a094732227_200x.progressive_1.png",
+            "title": "",
+            "description_band": "This clay-based face mask has AHAs to exfoliate and Green Tea to heal and prevent acne",
+            "link": "shopify:\/\/pages\/plum-feature"
+          }
+        }
+      },
+      "block_order": [
+        "7554ab7a-a7c7-44cb-8c9b-6746bb24f8e2",
+        "cc607e39-4fa9-462c-8f83-a213fe89e4fe",
+        "ab625de7-9555-421c-87c4-c6f799d32bc3"
+      ],
+      "settings": {
+        "layout": "default",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "display_brand_border": false,
+        "brand_title": "",
+        "brand_des": "",
+        "banner_button": "view all",
+        "btn_link": "shopify:\/\/pages\/plum-feature",
+        "title_style": "style_1",
+        "brand_rows": "3"
+      }
     }
   },
   "order": [
@@ -227,6 +277,7 @@
     "0dadeaf7-2a7d-44bc-920e-2f25349e6f5c",
     "af027cc7-5ce6-4a7c-80b5-62c33eadf199",
     "cd7c187f-ac75-4815-b653-5e4dc030705a",
-    "55dba336-f2d9-4b51-a62c-c19895bbc34f"
+    "55dba336-f2d9-4b51-a62c-c19895bbc34f",
+    "695321e1-0c02-4154-8705-2fac8c16409e"
   ]
 }
