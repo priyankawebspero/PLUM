@@ -3043,8 +3043,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/Intro-banner-bigger.jpg",
-              "alignment": "left"
+              "image_slide": "shopify:\/\/shop_images\/Intro-banner-bigger.jpg"
             }
           }
         },
@@ -3446,8 +3445,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/Pimple-Care_HP-banner_1.jpg",
               "image_slide_mb": "shopify:\/\/shop_images\/Pimple-Care_HP-Mobile-banner_1.jpg",
-              "link": "shopify:\/\/collections\/green-tea",
-              "alignment": "left"
+              "link": "shopify:\/\/collections\/green-tea"
             }
           },
           "a58eed73-1da8-4f70-ab4a-0d5808150be2": {
@@ -3456,8 +3454,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/Avocado-Shampoo_HP-Desk-Banner.jpg",
               "image_slide_mb": "shopify:\/\/shop_images\/Avocado-Shampoo_HP-Mobile-Banner.jpg",
-              "link": "shopify:\/\/collections\/frizz",
-              "alignment": "left"
+              "link": "shopify:\/\/collections\/frizz"
             }
           },
           "5de9de34-4279-4d57-9d25-aea16dbed3ab": {
@@ -3466,8 +3463,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_3.jpg",
               "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_3.jpg",
-              "link": "shopify:\/\/collections\/minions-goin-bananas",
-              "alignment": "left"
+              "link": "shopify:\/\/collections\/minions-goin-bananas"
             }
           },
           "a0eafc1d-606a-43f0-b3e1-6eee109a5544": {
@@ -3476,8 +3472,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/1920x500_copy_1.jpg",
               "image_slide_mb": "shopify:\/\/shop_images\/homepage_mob_copy_2_97e0669f-ce0f-435f-a0c1-35ac447ed99d.jpg",
-              "link": "shopify:\/\/products\/matterrific-lipstick",
-              "alignment": "left"
+              "link": "shopify:\/\/products\/matterrific-lipstick"
             }
           },
           "0232ebe0-1d79-445b-96cc-ca11b4ac1b03": {
@@ -3487,8 +3482,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/HP-Banner_Desktop_Vit-C-Range_11a633ee-2d57-473e-be61-36da9676a94d.gif",
               "image_slide_mb": "shopify:\/\/shop_images\/HP-Banner_Mobile_Vit-C-Range_e666ca7c-7b5c-46d2-b928-5217d80f10d3.gif",
-              "link": "https:\/\/plumgoodness.com\/collections\/vitamin-c",
-              "alignment": "left"
+              "link": "https:\/\/plumgoodness.com\/collections\/vitamin-c"
             }
           },
           "6b78ebcb-2f4e-4b1e-98e1-c124efc70399": {
@@ -3498,8 +3492,7 @@
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/HP_Last-day-today_Desktop_8thBirthday.gif",
               "image_slide_mb": "shopify:\/\/shop_images\/HP_Last-day-today_Mobile_8thBirthday.gif",
-              "link": "",
-              "alignment": "left"
+              "link": ""
             }
           }
         },
