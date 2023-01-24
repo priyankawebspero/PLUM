@@ -5,9 +5,148 @@
       "settings": {
         "top_file": "<link rel=\"preload stylesheet\" href=\"\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/t\/225\/assets\/index.min.css\" as=\"style\">"
       }
+    },
+    "ab4af3bb-28ab-457c-aad1-2c67d27cb32f": {
+      "type": "home-slideshow",
+      "blocks": {
+        "template--15084546588732__ab4af3bb-28ab-457c-aad1-2c67d27cb32f-16745410409d69ec60-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/landing-page--banner-1553x300.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/landing-page--banner-1553x300.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15084546588732__ab4af3bb-28ab-457c-aad1-2c67d27cb32f-16745410409d69ec60-0"
+      ],
+      "settings": {
+        "layout": "full",
+        "heading_slider": "",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#fff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 40,
+        "video_height": "41.7%",
+        "auto_playvideo": true
+      }
+    },
+    "ca43ef03-9a07-4ffa-a4c0-2d59348a65f3": {
+      "type": "home-ajax-tabs",
+      "blocks": {
+        "97dffe4f-9058-4a11-ab5a-0d1a2153f4f8": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "lips",
+            "collection": "lips"
+          }
+        },
+        "cbfe33b4-ae84-4085-b5ac-a828118402fc": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "nail",
+            "collection": "nail"
+          }
+        },
+        "280f8511-7ba1-4c54-824e-ae6b8f5cfecc": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "kajal",
+            "collection": "eye-make-up"
+          }
+        }
+      },
+      "block_order": [
+        "97dffe4f-9058-4a11-ab5a-0d1a2153f4f8",
+        "cbfe33b4-ae84-4085-b5ac-a828118402fc",
+        "280f8511-7ba1-4c54-824e-ae6b8f5cfecc"
+      ],
+      "settings": {
+        "product_tabs_title": "New Arrivals",
+        "product_tabs_des": "",
+        "title_style": "style_1",
+        "collection_results_per_row": "5",
+        "tabs_style": "style_1",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 10
+      }
+    },
+    "af027cc7-5ce6-4a7c-80b5-62c33eadf199": {
+      "type": "collection-caraousel",
+      "blocks": {
+        "template--15084546588732__af027cc7-5ce6-4a7c-80b5-62c33eadf199-1674541228bbf39265-0": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-4.jpg",
+            "title": "Lorem De Dorus",
+            "collection": ""
+          }
+        },
+        "03e9b867-af3a-4846-96e7-03568b94983c": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-2.jpg",
+            "title": "Lorem De Dorus",
+            "collection": ""
+          }
+        },
+        "4a1102b0-d4e4-4862-b909-a7bdd002b11d": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-1.jpg",
+            "title": "Lorem De Dorus",
+            "collection": ""
+          }
+        },
+        "e359de4a-1c8b-41d6-834c-d393f2106b0d": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-5.jpg",
+            "title": "Lorem De Dorus",
+            "collection": ""
+          }
+        },
+        "7d5cf89a-0f71-4d0e-b7e1-b3c6d856aa8d": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Landing-page-tiles-3.jpg",
+            "title": "Lorem De Dorus",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15084546588732__af027cc7-5ce6-4a7c-80b5-62c33eadf199-1674541228bbf39265-0",
+        "03e9b867-af3a-4846-96e7-03568b94983c",
+        "4a1102b0-d4e4-4862-b909-a7bdd002b11d",
+        "e359de4a-1c8b-41d6-834c-d393f2106b0d",
+        "7d5cf89a-0f71-4d0e-b7e1-b3c6d856aa8d"
+      ],
+      "settings": {
+        "banner_heading": "#CAMPAIGNS"
+      }
     }
   },
   "order": [
-    "head-files"
+    "head-files",
+    "ab4af3bb-28ab-457c-aad1-2c67d27cb32f",
+    "ca43ef03-9a07-4ffa-a4c0-2d59348a65f3",
+    "af027cc7-5ce6-4a7c-80b5-62c33eadf199"
   ]
 }
