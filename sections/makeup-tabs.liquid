@@ -1,12 +1,84 @@
+<div class="home-product-tabs" id="product-tabs-{{section.id}}" data-home-product-tabs>
+    <div class="container">
+        {% if section.settings.product_tabs_title != blank %}
+        <div class="widget-title{% if section.settings.title_style == 'style_2' %} not-before{% endif %}">   
+            <h3 class="box-title">
+                <span class="title"> 
+                {% include 'multilang' with section.settings.product_tabs_title %}
+                </span>
+            </h3>
+            {% if section.settings.product_tabs_des != blank %}
+            <p>
+                {% include 'multilang' with section.settings.product_tabs_des %}
+            </p>        
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        <div class="widget-product">
+            <ul class="list-product-tabs{% if section.settings.tabs_style == 'style_2' %} product-tabs-style2{% elsif section.settings.tabs_style == 'style_3' %} product-tabs-style3{% endif %}">
+                {% for block in section.blocks %}
+                <li>
+                <a href="#" data-target="#product-tab-{{ block.id }}" data-product-tabTop class="tab-links{% if forloop.first %} active{% endif %}">
+                    {% include 'multilang' with block.settings.title %}
+                </a>
+                </li>
+                {% endfor %}
+            </ul>
+            
+            <div class="product-tabs-content">
+                {% for block in section.blocks %}
+                <div class="tab-content{% if forloop.first %} active{% endif %}" data-product-TabContent id="product-tab-{{ block.id }}">                    
+                  <div class="products-grid row">
+                        <div class="products-grid row four-items">
+                         {% for product in collections[block.settings.collection].products limit:4 %} 
+                          <div class="col-3">
+                            {% include 'product-grid-item' %}
+                           </div>
+                         {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "makeup Tabs",
+	"class": "makeup-product-tabs-sections",
+    "settings": [  
+        {
+            "type": "header",
+            "content": "Header"
+        }	  
+	],
+    "blocks" : [
+        {
+            "type" : "ProductTabs",
+            "name" : "Product Tabs",
+            "settings":[
+            {
+                "type" : "text",
+                "id" : "title",
+                "label" : "Title Tabs"
+            },
+            {
+                "type" : "collection",
+                "id" : "collection",
+                "label" : "Collection to use"
+            }          
+            ]
+        }
+    ],
+	"presets": [
+        {
+            "name": "Product Tabs",
+            "category": "Collection"     
+        }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
