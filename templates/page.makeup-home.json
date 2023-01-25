@@ -224,7 +224,7 @@
     "03ddf2a0-389c-462e-852c-c0c7c2e87923": {
       "type": "bodylovin-custom-content",
       "settings": {
-        "code": "<h3 class=\"banner-heading\">\n<span>\nwatch and buy\n<\/span>\n<\/h3>",
+        "code": "<div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n          \n<span>\n  watch &amp; buy\n<\/span>\n\n        <\/span>\n      <\/h3>\n      \n    <\/div>\n<div class=\"widget-plum\" style=\"padding-top:20px;\">\n\n    <fw-embed-feed channel=\"plum_goodness\" playlist=\"5aMdk5\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\" player_placement=\"bottom-right\"><\/fw-embed-feed>\n<\/div>\n<style>\n.gl_custom_162979546848c9e2fa.gl_content_html {\n    min-height: 400px !important;\n}\n<\/style>",
         "section_margin_top": "",
         "section_margin_bottom": "",
         "section_padding_top": "",
