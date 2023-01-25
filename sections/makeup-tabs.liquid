@@ -20,7 +20,7 @@
                 {% for block in section.blocks %}
                 <li>
                 <a href="#" data-target="#product-tab-{{ block.id }}" data-product-tabTop class="tab-links{% if forloop.first %} active{% endif %}">
-                  <img class="lazyload" src="{{ block.settings.title_image | img_url: 'master' }}" data-src="{{ block.settings.title_image | img_url: 'master' }}"  alt="{{block.settings.title_image.alt}}"> 
+                  <img class="lazyload" src="{{ block.settings.title_image | img_url: '150x' }}" data-src="{{ block.settings.title_image | img_url: '150x' }}"  alt="{{block.settings.title_image.alt}}"> 
                   {% if block.settings.title != blank %}{% include 'multilang' with block.settings.title %}{% endif %}
                 </a>
                 </li>
