@@ -3,6 +3,10 @@ main.main-content {
 }
 
 /*-----------banner-section--------*/
+.home-slideshow-sections .home-slideshow {
+    margin-top: 0 !important;
+}
+
 .home-slideshow-sections .home-slideshow .slick-arrow {
     width: 36px;
     height: 36px;
