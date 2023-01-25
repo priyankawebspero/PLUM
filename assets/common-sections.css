@@ -156,7 +156,7 @@ section {
 
 .makeup-product-tabs-sections {
   margin: 30px 0;
-    padding: 40px 0 20px;
+    padding: 30px 0 20px;
 }
 
 .makeup-product-tabs-sections .home-product-tabs .widget-product .list-product-tabs li {
@@ -188,6 +188,10 @@ h3.banner-heading {
 
 .home-brands-new-sections .brand_div {
     margin-bottom: 35px;
+}
+
+.home-collection-carousel {
+    margin-bottom: -10px !important;
 }
   
 }
