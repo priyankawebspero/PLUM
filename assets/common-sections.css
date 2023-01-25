@@ -140,9 +140,6 @@ section {
     margin: 30px 0 !important;
 }
 
-.makeup-product-tabs-sections {
-    margin: 30px 0;
-}
 
 .home-game-banner-section {
     padding: 0px 15px 0 15px;
@@ -152,6 +149,11 @@ section {
     top: -30px;
     position: relative;
     margin-top: -10px!important;
+}
+
+.makeup-product-tabs-sections {
+  margin: 30px 0;
+    padding: 40px 0 20px;
 }
   
 }
