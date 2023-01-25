@@ -14,7 +14,6 @@ $slideshow = $('.header-top-slider').slick({
         e.preventDefault();
         var variantID = $(this).attr("data-variant");
         var productID = $(this).closest("form.variants").attr("data-product");
-
         if ($(this).closest("form.variants").find(".qty-group.newtab").hasClass("variant-" + variantID))
          {
           $(this).closest(".products-grid").find("form.variants[data-product=" + productID + "] .qty-group.newtab").hide();
@@ -224,7 +223,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
         this.initBrandsSlider();
       };
 
-      if(body.hasClass('template-index')) {
+      if(body.hasClass('template-index') || body.hasClass('template-page')) {
         this.initInfiniteScrollingHomepage();
         this.clickedActiveProductTabs();
         this.initCollectionBannerSlider();
