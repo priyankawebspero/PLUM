@@ -180,6 +180,11 @@ h3.banner-heading {
 .home-brands-new-sections .slick-dots li button {
     border: 2px solid #7806ac;
 }
+
+.brand_div .tooltip {
+    min-height: 135px;
+    font-size: 16px;
+}
   
 }
 
