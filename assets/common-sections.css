@@ -47,6 +47,10 @@ main.main-content {
 }
 /*-----------banner-section-end--------*/
 
+.home-product-tabs .product-tabs-content .products-grid .products-grid {
+    width: 100%;
+}
+
 .home-product-tabs-sections .home-product-tabs {
     margin: 50px 0 50px!important;
 }
