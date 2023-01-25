@@ -1,0 +1,38 @@
+  {%- if collection.description != blank or collection.metafields.bottomdescription.bottomdescription != blank -%}
+    <div class="collection-des"> 
+        <div class="bottom description collection">      
+           <div>{%- if collection.metafields.bottomdescription.bottomdescription != blank -%}{{ collection.metafields.bottomdescription.bottomdescription }}{%- endif -%}</div>     
+         {%- if collection.description != blank -%}
+            <div id="collectionbottomdescription" class="append-content-custom"  {%- if collection.description != blank -%} style="display: none;"{%- endif -%}>    
+               {{ collection.description}}
+            </div>
+         {%- endif -%}
+         {%- if collection.description != blank and collection.metafields.bottomdescription.bottomdescription != blank -%}
+           <span class="moreless-button btn">read more</span>
+         {%- endif -%}
+      <br/>
+      <div>{%- if collection.metafields.global.description_tag != blank -%}{{ collection.metafields.global.description_tag }}{%- endif -%}</div>     
+      </div>
+    </div>
+ {%- endif -%}  
+<script>
+  $(document).ready(function(){
+ $('.append-content-custom').hide();
+  $('.moreless-button').click(function () {
+    $(this).parent().find('.append-content-custom').slideToggle();
+    if ($(this).text() == "read less") {
+      $(this).text("read more about skincare");
+    } else {
+      $(this).text("read less");
+    }
+  });
+    $('.toggle-inner').hide();
+	jQuery(".toggle .toggle-title").click(function(){
+		if( jQuery(this).hasClass('active') ){
+			jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner').slideUp(200);
+		}
+		else{	jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner').slideDown(200);
+		}
+	});
+  });
+</script>
