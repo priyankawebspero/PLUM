@@ -1,4 +1,28 @@
+main.main-content {
+    padding-bottom: 10px;
+}
+
 /*-----------banner-section--------*/
+.home-slideshow-sections .home-slideshow .slick-arrow {
+    width: 36px;
+    height: 36px;
+    opacity: 1!important;
+    background-color: #5e0d8b!important;
+    color: #fff!important;
+    padding-top: 4px;
+}
+
+.home-slideshow-sections .home-slideshow .slick-arrow svg {
+    width: 14px;
+    height: 14px;
+    stroke-width: 4px;
+}
+
+.home-slideshow-sections .slick-prev.slick-arrow {
+    left: 15px!important;
+}
+
+
 .home-slideshow-sections .home-slideshow .slick-arrow {
     width: 36px;
     height: 36px;
@@ -72,31 +96,8 @@ h3.banner-heading {
     font-family: "DINNextRoundedLTPro-Bold" !important;
 }
 
-.home-slideshow-sections .home-slideshow .slick-arrow {
-    width: 36px;
-    height: 36px;
-    opacity: 1!important;
-    background-color: #5e0d8b!important;
-    color: #fff!important;
-    padding-top: 4px;
-}
-
-.home-slideshow-sections .home-slideshow .slick-arrow svg {
-    width: 14px;
-    height: 14px;
-    stroke-width: 4px;
-}
-
-.home-slideshow-sections .slick-prev.slick-arrow {
-    left: 15px!important;
-}
-
 .home-brands-new-sections .brand_div {
     margin-bottom: 15px;
-}
-
-main.main-content {
-    padding-bottom: 10px;
 }
 
 .brand_div .tooltip {
