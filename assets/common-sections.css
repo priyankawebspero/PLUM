@@ -69,7 +69,7 @@ h3.banner-heading {
 }
 
 .home-game-banner-section img {
-    width: 100%;
+    width: 100% !important;
     max-width: 1240px !important;
 }
 
