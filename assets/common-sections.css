@@ -45,6 +45,9 @@ main.main-content {
 .home-slideshow-sections .slick-prev.slick-arrow {
     left: 15px!important;
 }
+.home-slideshow-sections .slick-next.slick-arrow {
+    right: 15px !important;
+}
 
 /*-----------banner-section-end--------*/
 
