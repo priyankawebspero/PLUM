@@ -115,13 +115,6 @@ h3.banner-heading {
     font-weight: 300;
 }
 
-@media only screen and (min-width: 768px){
-  
-.home-slideshow-sections ul.slick-dots {
-    display: none !important;
-}
-
-}
 
 @media only screen and (max-width:767px){
 
@@ -145,3 +138,12 @@ section {
 }
   
 }
+
+@media only screen and (min-width: 768px){
+  
+.home-slideshow-sections ul.slick-dots {
+    display: none !important;
+}
+
+}
+
