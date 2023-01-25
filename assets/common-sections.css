@@ -99,6 +99,21 @@ main.main-content {
     padding-bottom: 10px;
 }
 
+.brand_div .tooltip {
+    display: flex;
+    align-items: center;
+    min-height: 155px;
+    font-family: "DINNextRoundedLTPro-Regular";
+    width: 100%;
+    padding: 20px 30px 25px;
+    margin-bottom: 40px;
+    background: #ebe0f0;
+    max-width: 300px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
 @media (min-width: 768px){
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
