@@ -116,10 +116,19 @@ h3.banner-heading {
 }
 
 
+@media only screen and (min-width: 768px){
+  
+.home-slideshow-sections ul.slick-dots {
+    display: none !important;
+}
+
+}
+
 @media only screen and (max-width:767px){
 
 .home-slideshow-sections .home-slideshow {
     margin-bottom: 30px !important;
+}
 
 .home-product-tabs-sections .home-product-tabs {
     margin: 30px 0 30px!important;
@@ -137,13 +146,5 @@ section {
     padding: 0px 15px 0 15px;
 }
   
-}
-
-@media only screen and (min-width: 768px){
-  
-.home-slideshow-sections ul.slick-dots {
-    display: none !important;
-}
-
 }
 
