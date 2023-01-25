@@ -145,6 +145,12 @@ section {
 .home-game-banner-section {
     padding: 0px 15px 0 15px;
 }
+
+.home-slideshow-sections .home-slideshow .slick-dots{ 
+    top: -30px;
+    position: relative;
+    margin-top: -10px!important;
+}
   
 }
 
