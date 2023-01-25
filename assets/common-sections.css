@@ -62,9 +62,6 @@ main.main-content {
 section {
     margin: 50px 0 !important;
 }
-.makeup-product-tabs-sections {
-    margin: 70px 0 50px 0;
-}
 
 h3.banner-heading {
     text-align: center;
@@ -79,7 +76,8 @@ h3.banner-heading {
 
 .makeup-product-tabs-sections {
     background: #f1e6f6;
-    padding: 50px 0 20px 0;
+    padding: 60px 0 30px;
+  margin: 70px 0 50px 0;
 }
 
 .makeup-product-tabs-sections .list-product-tabs li {
