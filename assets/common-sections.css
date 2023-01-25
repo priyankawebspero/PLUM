@@ -95,6 +95,10 @@ h3.banner-heading {
     margin-bottom: 15px;
 }
 
+main.main-content {
+    padding-bottom: 10px;
+}
+
 @media (min-width: 768px){
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
