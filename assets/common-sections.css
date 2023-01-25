@@ -91,6 +91,10 @@ h3.banner-heading {
     left: 15px!important;
 }
 
+.home-brands-new-sections .brand_div {
+    margin-bottom: 15px;
+}
+
 @media (min-width: 768px){
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
