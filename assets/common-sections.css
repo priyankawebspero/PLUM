@@ -18,6 +18,12 @@ section {
     margin-bottom: 0 !important;
 }
 
+h3.banner-heading {
+    text-align: center;
+    font-family: "DINNextRoundedLTPro-Bold" !important;
+    margin-bottom: 20px !important;
+}
+
 @media only screen and (max-width:767px){
 
 .home-slideshow-sections .home-slideshow {
