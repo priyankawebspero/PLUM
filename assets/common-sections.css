@@ -48,6 +48,10 @@ h3.banner-heading {
     background: #fff;
 }
 
+.widget-title .box-title {
+    font-family: "DINNextRoundedLTPro-Bold" !important;
+}
+
 @media only screen and (max-width:767px){
 
 .home-slideshow-sections .home-slideshow {
