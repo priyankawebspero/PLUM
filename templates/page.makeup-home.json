@@ -283,6 +283,42 @@
         "title_style": "style_1",
         "brand_rows": "3"
       }
+    },
+    "81bd57b5-9f87-47fe-a08a-ae511d25e34b": {
+      "type": "makeup-tabs",
+      "blocks": {
+        "2012ac74-de4a-46cc-9efa-b1fd5c1c09c8": {
+          "type": "makeuptabs",
+          "settings": {
+            "title": "",
+            "title_image": "shopify:\/\/shop_images\/landing-page_-shop-in-look-1.jpg",
+            "collection": "skin-loving-makeup"
+          }
+        },
+        "89ce65f8-5249-4b07-8a45-00c6888ba1c3": {
+          "type": "makeuptabs",
+          "settings": {
+            "title": "",
+            "title_image": "shopify:\/\/shop_images\/landing-page_-shop-in-look-3.jpg",
+            "collection": "skin-loving-makeup"
+          }
+        },
+        "653feafa-ffb8-4d19-b692-f719900f0968": {
+          "type": "makeuptabs",
+          "settings": {
+            "title": "",
+            "title_image": "shopify:\/\/shop_images\/landing-page_-shop-in-look2.jpg",
+            "collection": "skin-loving-makeup"
+          }
+        }
+      },
+      "block_order": [
+        "2012ac74-de4a-46cc-9efa-b1fd5c1c09c8",
+        "89ce65f8-5249-4b07-8a45-00c6888ba1c3",
+        "653feafa-ffb8-4d19-b692-f719900f0968"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -293,6 +329,7 @@
     "cd7c187f-ac75-4815-b653-5e4dc030705a",
     "55dba336-f2d9-4b51-a62c-c19895bbc34f",
     "03ddf2a0-389c-462e-852c-c0c7c2e87923",
-    "695321e1-0c02-4154-8705-2fac8c16409e"
+    "695321e1-0c02-4154-8705-2fac8c16409e",
+    "81bd57b5-9f87-47fe-a08a-ae511d25e34b"
   ]
 }
