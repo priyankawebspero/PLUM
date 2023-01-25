@@ -3,7 +3,7 @@
     "head-files": {
       "type": "head-files",
       "settings": {
-        "top_file": "<link rel=\"preload stylesheet\" href=\"\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/t\/225\/assets\/index.min.css\" as=\"style\">"
+        "top_file": "<link rel=\"preload stylesheet\" href=\"\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/t\/225\/assets\/index.min.css\" as=\"style\">\n<link rel=\"preload stylesheet\" href=\"\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/t\/225\/assets\/common-sections.css\" as=\"style\">"
       }
     },
     "ab4af3bb-28ab-457c-aad1-2c67d27cb32f": {
