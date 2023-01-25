@@ -14,6 +14,10 @@ section {
     margin: 50px 0 50px 0;
 }
 
+.makeup-product-tabs-sections .inner.product-item {
+    margin-bottom: 0 !important;
+}
+
 @media only screen and (max-width:767px){
 
 .home-slideshow-sections .home-slideshow {
