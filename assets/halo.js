@@ -419,7 +419,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
       $('.pop-out_main_cd_inner .close').click(function(){
         $('.pop-out_main_cd').removeClass('user_not_vaild').addClass('user_vaild');
         $('.pop-out_main_cd').remove('.message');
-          console.log('close');
+        //  console.log('close');
       });                     
     },
     closeHeaderTop: function () {
@@ -1704,8 +1704,8 @@ if ((typeof Shopify.getCart) === 'undefined') {
                 var productpr = $(this).parents('.item').find('.price').attr("data-price");
                 var variantID = $(this).parents('.item').attr('data-variant');
                 if (productpr <=0){}else{ $(this).html('removing');}
-              console.log('productId', productId);
-              console.log('variantID', variantID);
+              //console.log('productId', productId);
+             // console.log('variantID', variantID);
                 Shopify.removeItem(productId, function (cart) {
                     ella.doUpdateDropdownCart(cart);
                 });
@@ -1762,7 +1762,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                     });
 
                     productIdNew = productIdNew.replace("product-actions-","");
-                    console.log(productIdNew);
+                    // console.log(productIdNew);
                     $('.variants.grid-product-form--'+productIdNew+' .qty-group.newtab.variant-'+productIdE).remove();
                     $('.variants.grid-product-form--'+productIdNew+' .cart').show();
                     $('.variants.grid-product-form--'+productIdNew+' .cart').removeClass('disable');
@@ -1838,7 +1838,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
                 //if (variant.compare_at_price != null && variant.id == cart.items[i].id)
                 if (variant.compare_at_price != null && variant.compare_at_price > variant.price && variant.id == cart.items[i].id)
                 { 
-                 console.log("variant", variant); 
+                 // console.log("variant", variant); 
                   item = item.replace(/\{COMPRICE\}/g, Shopify.formatMoney((variant.compare_at_price)*cart.items[i].quantity, window.money_format));
                   saving = ((variant.compare_at_price - variant.price)*cart.items[i].quantity);
                   total_saving = total_saving + ((variant.compare_at_price - variant.price)*cart.items[i].quantity);                  
@@ -1956,7 +1956,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
     changeQuantity: function() {        
       var count = 0;  
       $("#dropdown-cart").on("click",".item .button", function(i) { 
-         console.log('countchangeQuantity', this);  
+         //console.log('countchangeQuantity', this);  
         count = count +1; 
         if(count%2 != 0){ 
           var oldValue = $(this).closest('.item').find(".quantity").val(),  
@@ -1971,7 +1971,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
           $(this).closest('.item').find(".quantity").val(newVal); 
           var a = $(this).parents(".item").attr("id");  
           var productIDCart = $(this).parents(".item").attr("data-id"); 
-          console.log(productIDCart); 
+          //console.log(productIDCart); 
           var varientid = a.match(/\d+/g);  
           var quantity = $(this).closest('.item').find(".quantity").val();  
           var checkcart = $(this);  
@@ -2004,7 +2004,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
         // var a = $(this).closest('form').find(".product_id").attr("data-id"); 
         var oldValue = $('body').find('#cart-item-'+a+' .quantity').val();  
         // var oldValue = $(this).closest('form').find('input[data-qtt-id="quantity__'+a+'"]').val();   
-        console.log(oldValue);  
+        //console.log(oldValue);  
         if ($(this).hasClass('plus') ){ 
           var newVal = parseInt(oldValue) + 1;  
         } else if (oldValue > 1) {  
@@ -2012,7 +2012,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
         } else if (oldValue == 1) { 
           newVal = parseInt(oldValue);  
         } 
-        console.log('newValnew', newVal); 
+        // console.log('newValnew', newVal); 
         // $(this).closest('form').find(".quantity").val(newVal);   
         $(this).parent().find(".quantity").val(newVal); 
         a = a.match(/\d+/g);  
@@ -2062,7 +2062,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
               },
               success: function(data){
                 ella.showLoading();
-                console.log(data,count);
+                // console.log(data,count);
                 if(count == inputLength){
                   ella.updateDropdownCart();
                   setTimeout(function(){
@@ -3461,7 +3461,7 @@ initBlogPostSlider: function() {
 
               //                         var top = elm.offset().top;
 
-              console.log(top);
+             //  console.log(top);
               $('body,html').animate({
                 scrollTop: 0
               }, 600);
@@ -3476,22 +3476,15 @@ initBlogPostSlider: function() {
     changeQuantityAddToCart: function () {
       var buttonSlt = '[data-minus-quantity], [data-plus-quantity]',
           buttonElm = $(buttonSlt);
-
       doc.on('click', buttonSlt, function (e) {
         e.preventDefault();
         e.stopPropagation();
-
         var self = $(this),
             input = self.siblings('input[name="quantity"]').length > 0 ? self.siblings('input[name="quantity"]') : self.siblings('input[name="group_quantity"]');
-
-
-
         if (input.length < 1) {
           input = self.siblings('input[name="updates[]"]');
         }
-
         var val = parseInt(input.val());
-
         switch (true) {
           case (self.hasClass('plus')):
             {
@@ -3504,7 +3497,6 @@ initBlogPostSlider: function() {
               break;
             }
         }
-
         input.val(val);
       });
     },
