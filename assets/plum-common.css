@@ -5437,7 +5437,7 @@ body .EmptyState .error_page .content-infos a.btn {
     height: 55px;
     letter-spacing: 0;
     border-radius: 30px;
-    padding: 7px 80px 10px 25px;
+    padding: 7px 80px 7px 25px;
     color: #000;
     width: 100%;
 }
