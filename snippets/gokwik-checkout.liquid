@@ -1,31 +1,47 @@
-<script async>
-   function onCheckoutClick(e){
-                const loader = e.children[2];
-                loader.setAttribute("id","btn-loader");
-                e.disabled = true
-                e.style.cursor = "not-allowed";
-    		    initiateGokwik();
-                loader.style.display = "flex";
-        setTimeout(() =>{
-                 loader.style.display = "none";
-  				  e.disabled = false
-                  e.style.cursor = "pointer";
-        loader.removeAttribute("id")
-       },3000)
-  }
-</script>
+
 {% if settings.goEnable %}
-<div class="gokwik-checkout"{% if settings.hideFlow %} style="display:none !important;" {% endif %}>
-  <button {%if cart.total_price >=1400000%} disabled {% else %}{%endif %}  type='button' onclick="onCheckoutClick(this)">
-            <span class="btn-text">
+
+<div class="gokwik-checkout" {% if settings.hideFlow %} style="display:none !important;" {% endif %}>
+  <button {%if cart.total_price >=1400000%} disabled {% else %}{%endif %} type='button' id= "gokwik-btn" class="" onclick="GokwikCheckoutClick(this)">
+            <span class="btn-text" >
                 <span>{{ settings.main-titile }}</span>
                 <span>{{ settings.sub-titile }}</span>
             </span>
           <span class="pay-opt-icon">
-             <img src="https://cdn.gokwik.co/v4/images/upi-icons.svg">
-             <img src="https://cdn.gokwik.co/v4/images/right-arrow.svg">
+<!--              <img src="https://cdn.gokwik.co/v4/images/upi-icons.svg">
+             <img src="https://cdn.gokwik.co/v4/images/right-arrow.svg"> -->
           </span>
-    <div style="display:none"  ><div class="cir-loader">Loading..</div></div>
+    <div style="display:none" id="gokwik-loader"><div class="cir-loader">Loading..</div></div>
   </button>
 </div>
-{% endif %} 
+
+
+  <script>
+  function GokwikCheckoutClick(param){
+    onCheckoutClick(param)
+    var st= {
+    "Item_count" : {{ cart.item_count }},
+    "Total_price" :  {{ cart.total_price | divided_by: 100.0 }},
+    "items" : [
+      {% for product in cart.items %}
+        {
+    "prid" : {{product.product_id}},
+    "variant": {{product.variant_id}},
+    "brand": '{{product.vendor}}',
+    "prname": '{{product.title}}',
+    "Price": '{{product.price | divided_by: 100 | remove: ","}}',
+    "prqt": {{ product.quantity }},
+    "producturl": '{{ shop.url }}{{product.url}}',
+    "product_type": '{{cart.product_type}}',
+    "Currency": 'INR',
+    "productimage" : 'https:{{product.image | img_url : 'master'}}'
+        },
+        {% endfor %}
+    ]          
+    }
+       //  console.log(st);
+   smartech('dispatch', 'custom checkout',st);
+  
+} 
+</script>
+{% endif %}
