@@ -5374,3 +5374,343 @@ section.popup .popup__content p {
     font-family: DINNextRoundedLTPro-Medium;
     color: #5e0d8b;
 }
+
+
+/*------------blog-search-bar-design----------------*/
+
+.EmptyState {
+    margin-top: 4vw;
+    min-height: 500px;
+    text-align: center;
+}
+
+.EmptyState h2 {
+    font-size: 45px;
+    color: #5e248c;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.EmptyState p {
+    font-size: 18px;
+}
+
+body .EmptyState .error_page .content-infos a.btn {
+    width: auto;
+    max-width: inherit;
+    min-width: 175px;
+    padding: 12px 15px;
+}
+
+.EmptyState .btn {
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 10px 14px 13px 14px;
+    min-width: 175px;
+    font-weight: 700;
+    background: #5e0d8b !important;
+    color: #fff !important;
+    border: 2px solid #5e0d8b !important;
+    line-height: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.EmptyState .btn:hover {
+    background: #8901bd!important;
+    color: #fff !important;
+    border-color: #8901bd!important;
+}
+
+.blog-page-info .page-top-sec form, .search-div-on-error form, .article_search .article_list form {
+    width: 100%;
+    max-width: 560px;
+    margin: 10px auto 20px auto;
+    position: relative;
+}
+
+.blog-page-info .page-top-sec form input[type="search"], .article_search .article_list form [type="search"] {
+    outline: 0;
+    border: 1px solid #5a5a5a;
+    font-size: 16px;
+    height: 55px;
+    letter-spacing: 0;
+    border-radius: 30px;
+    padding: 7px 80px 10px 25px;
+    color: #000;
+    width: 100%;
+}
+.blog-page-info .page-top-sec form button.btn .icon__fallback-text, .search-div-on-error form button.btn .icon__fallback-text {
+    display: none;
+}
+
+.blog-page-info .page-top-sec form button.btn, .article_search .article_list form button.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 30px 30px 0;
+    min-width: 80px;
+    height: 100%;
+    padding: 0;
+    border: none !important;
+    background: #5e248c;
+    color: #fff; margin-bottom: 0;
+  margin-top: 0;
+}
+
+.search-div-on-error form input[type="search"] {
+   outline: 0;
+    border: 1px solid #5a5a5a;
+    font-size: 16px;
+    height: 55px;
+    letter-spacing: 0;
+    border-radius: 10px;
+    padding: 7px 60px 10px 25px;
+    color: #000;
+    width: 100%;
+}
+
+.search-div-on-error form button.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px !important;
+    min-width: 60px;
+    height: 100%;
+    padding: 0;
+    border: none !important;
+    background: none !important;
+    color: #000 !important;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.search-div-on-error form button.btn:hover{background:none !important;color: #000 !important;}
+
+.search-div-on-error {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.EmptyState .error_page .img-data img {
+    margin: 0 auto;
+    /* max-width: 250px; */
+}
+
+.article_search li.blog-item {
+    list-style: none;
+}
+
+.article_search .article_list {
+    margin-top: 40px;
+}
+.article_search .article_list .article_grid {
+    padding-left: 0;
+    padding-right: 0;
+    -ms-flex: inherit;
+    flex: inherit;
+    max-width: inherit;
+    width: auto;
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-title {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    min-height: 40px;
+    margin: 15px 0;
+    text-transform: inherit;
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-title a {
+    color: #000;
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .des {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-transform: none;
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .actions a {
+    background: #5b0c8b!important;
+    padding: 10px 25px;
+    font-size: 14px;
+    /* text-transform: lowercase; */
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .actions a:hover {
+    background: #9000c5!important;
+    color: #fff;
+}
+
+.article_search li.blog-item {
+    margin-bottom: 35px;
+}
+
+.article_search h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5e0c8c;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: serifabold!important;
+}
+
+.article_search .article_list {
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.article_search .article_list + a.btn {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+    margin: 0 auto;
+    font-size: 18px!important;
+    padding: 15px;
+    border-radius: 5px!important;
+    background: #5b0c8b!important;
+}
+
+.article_search .article_list + a.btn:hover{
+
+  background: #9000c5!important;
+    color: #fff;
+}
+
+.article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .actions a {
+    margin-bottom: 0;
+}
+
+.article_search .article_list form .input-group__btn span.icon__fallback-text {
+    display: none;
+}
+
+.article_search .article_list form {
+    margin: 0 auto 50px auto;
+}
+
+@media only screen and (min-width:768px){
+.EmptyState .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.EmptyState .container .error_page .img-data img {
+    width: 100%;
+    display: block !important;
+}
+
+.EmptyState .container .error_page .img-data img + img {
+    display: none !important;
+}
+
+.EmptyState .container .error_page .content-infos {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 400px;
+}
+
+.EmptyState .container .error_page .content-infos a.btn {
+    width: 100%;
+    max-width: 300px;
+}
+
+.EmptyState {
+    margin-top: 0;
+}
+
+
+  
+}
+
+@media only screen and (max-width:767px){
+
+.article_search h2 {
+    margin-bottom: 10px;
+}
+
+.article_search h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.EmptyState .error_page .img-data img {
+    display: none !important;
+}
+
+.EmptyState .error_page .img-data img + img {
+    display: block !important;
+    width: 100%;
+}
+.EmptyState .error_page .content-infos {
+    padding: 0 15px;
+}
+
+.EmptyState .container {
+    padding: 0;
+}
+
+  .EmptyState .error_page .img-data img + img {
+    display: block !important;
+}
+
+.EmptyState {
+    margin-top: 0;
+}
+
+.article_search .article_list {
+    margin-top: 20px;
+}
+
+  .article_search li.blog-item {
+    margin-bottom: 25px;
+}
+
+.article_search .article_list .col-4.col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.blog-page-info .page-top-sec form, .search-div-on-error form {
+    margin: 10px auto 0px auto;
+}
+  
+.blog-page-info .page-top-sec form input[type="search"], .article_search .article_list form [type="search"]{
+    height: 45px;
+    padding: 10px 70px 10px 15px;
+}
+
+.search-div-on-error form input[type="search"] {
+    height: 45px;
+    padding: 10px 50px 10px 15px;
+}
+
+.blog-page-info .page-top-sec form button.btn, .search-div-on-error form button.btn, .article_search .article_list form button.btn {
+    min-width: 60px;
+   
+}
+
+.blog-page-info .page-top-sec form button.btn svg, .search-div-on-error form button.btn svg, .article_search .article_list form button.btn svg {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+.article_search .article_list form {
+    margin: 0 auto 27px auto;
+}
+
+}
+
