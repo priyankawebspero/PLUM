@@ -1,4 +1,13 @@
-    <div class="special_offer_p">   
+    <div class="special_offer_p">
+        {% if cart.total_price > 59800 and cart.total_price < 99900%}
+      <div class="offer_congrats"><p class="first_color">Coupon unlocked - Flat 150 off ,use code : <b>PLUM150</b> at checkout</p> </div> 
+      {% elsif cart.total_price > 99900 and cart.total_price < 179900 %}
+        <div class="offer_congrats"><p class="sec_color">Coupon unlocked - Get lip n cheek tint worth Rs 499 for free , use code : <b>BLUSH</b> at checkout</p> </div> 
+      {% elsif cart.total_price > 179900 and cart.total_price < 249800 %}
+        <div class="offer_congrats"><p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p></div>  
+      {% elsif cart.total_price > 249800  %}
+        <div class="offer_congrats"><p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p></div>  
+      {% endif %}
       {% assign cartprice1 = settings.cart_price | plus: 0 | times: 100%}
       {% assign cartprice2 = settings.cart_price_second | plus: 0 | times: 100%}
       {% assign cartprice3 = settings.cart_price_third | plus: 0 | times: 100%}
@@ -12,7 +21,7 @@
       {% assign cartproducttext4 = settings.cart_copy_fourth %}
       {% assign cartproducttext5 = settings.cart_copy_fifth %}
       {% assign specialoffertext = settings.special_text_offer %}
-      
+      <div class="special_offer_outer_layer">
       {% if cart.total_price >= special_offer_price and special_offer_price != blank and specialoffertext != blank %}
       <div class="special_offer">
         {{specialoffertext}}
@@ -20,32 +29,32 @@
       {% else %}   
       {% if cart.total_price < cartprice1 and cartprice1 != blank and cartproducttext1 != blank  %}
       <div class="special_offer">
-        Pick plums worth {{ cartprice1 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext1}}</span> <i class="fa fa-heart" aria-hidden="true"></i></div>
+        Pick plums worth {{ cartprice1 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext1}}</span></div>
 
       {% elsif cart.total_price < cartprice2  and cartprice2 != blank and cartproducttext2 != blank  %}
       <div class="special_offer">
-        Pick plums worth {{ cartprice2 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext2}}</span> <i class="fa fa-heart" aria-hidden="true"></i>
+        Pick plums worth {{ cartprice2 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext2}}</span>
       </div>
 
       {% elsif cart.total_price < cartprice3  and cartprice3 != blank and cartproducttext3 != blank  %}
       <div class="special_offer">
-        Pick plums worth {{ cartprice3 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext3}}</span> <i class="fa fa-heart" aria-hidden="true"></i>
+        Pick plums worth {{ cartprice3 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext3}}</span>
       </div>
 
       {% elsif cart.total_price < cartprice4  and cartprice4 != blank and cartproducttext4 != blank  %}
       <div class="special_offer">
-        Pick plums worth {{ cartprice4 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext4}}</span> <i class="fa fa-heart" aria-hidden="true"></i>
+        Pick plums worth {{ cartprice4 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext4}}</span>
       </div>
 
       {% elsif cart.total_price < cartprice5  and cartprice5 != blank and cartproducttext5 != blank  %}
       <div class="special_offer">
-        Pick plums worth {{ cartprice5 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext5}}</span> <i class="fa fa-heart" aria-hidden="true"></i>
+        Pick plums worth {{ cartprice5 | minus: cart.total_price | money | replace: "₹", "Rs" }} more & get <span>{{cartproducttext5}}</span>
       </div>
 
       {% endif %}
       {% endif %}      
     </div>
-
+    </div>
 <script>
   var cartprice1 = {{cartprice1}}; 
   var cartprice2 = {{cartprice2}}; 
@@ -77,7 +86,7 @@ window.cartSpecialUpdate = function(cart) {
   {% if specialoffertext != blank  and special_offer_price != blank%} 
     if(cart.total_price > special_offer_price) {      
     $(".special_offer").show();
-    $('.special_offer_p').html('<div class="special_offer">'+ specialoffertext +'</div>');     
+    $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer">'+ specialoffertext +'</div>');     
     } 
   {% endif %}
  {% if cartprice1 != blank  and cartproducttext1 != blank%} 
@@ -85,7 +94,7 @@ window.cartSpecialUpdate = function(cart) {
       {      
       var actu_price = cartprice1 - cart.total_price;
       $(".special_offer").show();
-      $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext1+'</span>  <i class="fa fa-heart"></i> </div>');      
+      $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext1+'</span>  <i class="fa fa-heart"></i> </div>');      
       }
   {% endif %}
  {% if cartprice2 != blank  and cartproducttext2 != blank%}
@@ -93,28 +102,28 @@ window.cartSpecialUpdate = function(cart) {
     {  
       var actu_price = cartprice2 - cart.total_price;
       $(".special_offer").show();
-      $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext2+'</span>  <i class="fa fa-heart"></i> </div>');      
+      $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext2+'</span>  <i class="fa fa-heart"></i> </div>');      
     }
   {% endif %}
   {% if cartprice3 != blank  and cartproducttext3 != blank%}                       
     else if(cart.total_price < cartprice3){  
       var actu_price = cartprice3 - cart.total_price;
       $(".special_offer").show();
-      $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext3+'</span>  <i class="fa fa-heart"></i> </div>');      
+      $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext3+'</span>  <i class="fa fa-heart"></i> </div>');      
       }
     {% endif %}
  {% if cartprice4 != blank  and cartproducttext4 != blank%}                        
       else if(cart.total_price < cartprice4){  
       var actu_price = cartprice4 - cart.total_price;
       $(".special_offer").show();
-      $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext4+'</span>  <i class="fa fa-heart"></i> </div>');      
+      $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext4+'</span>  <i class="fa fa-heart"></i> </div>');      
       }
  {% endif %}
  {% if cartprice5 != blank  and cartproducttext5 != blank%}                          
       else if(cart.total_price < cartprice5){  
       var actu_price = cartprice5 - cart.total_price;
       $(".special_offer").show();
-      $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext5+'</span>  <i class="fa fa-heart"></i> </div>');      
+      $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext5+'</span>  <i class="fa fa-heart"></i> </div>');      
       }
   {% endif %}
   {% if cartprice1 != blank  and cartproducttext1 != blank%}
@@ -122,8 +131,18 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-
+  if(cart.total_price > 59900 && cart.total_price < 99900){ 
+     $('.special_offer_p .offer_congrats').html('<p class="first_color">Coupon unlocked - Flat 150 off ,use code : <b>PLUM150</b> at checkout</p>');
+   }
+  else if (cart.total_price > 99900 && cart.total_price < 179900){
+      $('.special_offer_p .offer_congrats').html('<p class="sec_color">Coupon unlocked - Get lip n cheek tint worth Rs 499 for free , use code : <b>BLUSH</b> at checkout</p>');
+   }
+  else if (cart.total_price > 179900 && cart.total_price < 249800){
+      $('.special_offer_p .offer_congrats').html('<p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p>');
+   }
+  else if (cart.total_price > 249800){
+        $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p>');
+  }
 }  
-
 
 </script>
