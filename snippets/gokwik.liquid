@@ -236,6 +236,10 @@ function xhrPostCall(url, body) {
   }
   
 /* additional */
+
+  #engagebud .z-max {
+    z-index: 9 !important;
+}
   .cart-template .wrapper-cart-template .btn-actions .btn-checkout{
     font-size:14px;
     text-transform:uppercase;
@@ -253,8 +257,13 @@ form#cart {
 .discountify_discount_wrap {
     order: 1!important;
 }
+ 
+    .btn.btn-checkout#btncheckout{
+    display:none;
+  }
   .hide-gokwik .btn.btn-checkout#btncheckout{
-    margin-top: 10px
+    margin-top: 10px;
+    display:block;
   }
 .gokwik-checkout button:hover{
   box-shadow: 0 0 0 0.2rem var(--color-button-border);
@@ -366,18 +375,19 @@ form#cart {
 }
 </style> 
 <script>
-   function onCheckoutClick(e){
-                const loader = e.children[2];
-                loader.setAttribute("id","btn-loader");
-                e.disabled = true
-                e.style.cursor = "not-allowed";
+         function onCheckoutClick(e){
+                const gkbutton = document.getElementById('gokwik-btn');
+                const loader = document.getElementById('gokwik-loader');
+                loader && loader.setAttribute("id","btn-loader");
+                gkbutton.disabled = true
+                gkbutton.style.cursor = "not-allowed";
     		    initiateGokwik();
                 loader.style.display = "flex";
-        setTimeout(() =>{
-                 loader.style.display = "none";
-  				  e.disabled = false
-                  e.style.cursor = "pointer";
-        loader.removeAttribute("id")
-       },3000)
-  }
+                setTimeout(() =>{
+                   loader.style.display = "none";
+    			   gkbutton.disabled = false
+                   gkbutton.style.cursor = "pointer";
+                   loader.removeAttribute("id")
+               },3000)
+          }
 </script>
