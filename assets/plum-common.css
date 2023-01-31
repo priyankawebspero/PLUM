@@ -5689,12 +5689,12 @@ body .EmptyState .error_page .content-infos a.btn {
   
 .blog-page-info .page-top-sec form input[type="search"], .article_search .article_list form [type="search"]{
     height: 45px;
-    padding: 10px 70px 10px 15px;
+    padding: 12px 70px 10px 15px;
 }
 
 .search-div-on-error form input[type="search"] {
     height: 45px;
-    padding: 10px 50px 10px 15px;
+    padding: 12px 50px 10px 15px;
 }
 
 .blog-page-info .page-top-sec form button.btn, .search-div-on-error form button.btn, .article_search .article_list form button.btn {
