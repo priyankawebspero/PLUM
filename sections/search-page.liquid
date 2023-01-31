@@ -1,3 +1,76 @@
+<section data-section-id="search" data-section-type="search" class="{%- if search.types contains 'article' -%}article_search{%- endif -%}">
+  {%- if search.performed == false or search.results_count == 0 -%}
+<div class="EmptyState">
+  <div class="container">
+<div class="error_page">
+  <div class="img-data">
+    <img data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/bg_69936004-d654-40c0-8c52-1c690a5c5c7e.jpg?v=1581488610" src="https://cdn.shopify.com/s/files/1/0390/2985/files/bg_69936004-d654-40c0-8c52-1c690a5c5c7e.jpg?v=1581488610" class="hidden-xs lazyautosizes lazyloaded">
+    <img data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/bg_mob_e8aaf062-d574-4372-8a64-a09c00f1244e.jpg?v=1581488628" src="https://cdn.shopify.com/s/files/1/0390/2985/files/bg_mob_e8aaf062-d574-4372-8a64-a09c00f1244e.jpg?v=1581488628" class="visible-xs lazyautosizes lazyloaded">
+  </div>
+  <div class="content-infos">
+    <div class="infos_data">
+      <h2>Oops!</h2>
+            <p style="margin-bottom:0;">looks like we don't find blog you are searching for.</p>
+            <p class="hide-in-mob">why not try with our popular blogs.</p>
+    </div>
+    <div class="search-div-on-error">
+     <form action="/search" method="get" role="search">
+          <input type="hidden" name="type" value="article" />
+          <div class="input-group--underline">
+            <input class="input-group__field" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" aria-label="{{ 'general.search.placeholder' | t }}">
+            <div class="input-group__btn">
+              <button type="submit" class="btn btn--clear btn--square">
+                {% include 'icon-search' %}
+                <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
+              </button>
+            </div>
+          </div>
+      </form>
+    </div>
+    <p> {%- if search.types contains 'article' -%}
+      <a href="pages/blog/" class="btn">view all blogs  </a>
+      {%- endif -%}</p>
+  </div>
+</div>
+    </div>
+    </div>
+  {%- else -%}
+  <div class="container">
+    {%- paginate search.results by 250 -%}
+      {%- if search.types contains 'article' -%}
+        <div class="article_list">
+          <h2> Search Results : {{ search.terms | escape }}</h2>
+          <form action="/search" method="get" role="search">
+          <input type="hidden" name="type" value="article" />
+          <div class="input-group--underline">
+            <input class="input-group__field" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" aria-label="{{ 'general.search.placeholder' | t }}">
+            <div class="input-group__btn">
+              <button type="submit" class="btn btn--clear btn--square">
+                {% include 'icon-search' %}
+                <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
+              </button>
+            </div>
+          </div>
+          </form>
+          <div class="article_grid row col-12">
+            {%- for result in search.results -%}
+              <div class="col-4 col-md-4">
+                  {%- include 'blog-item', article: result -%}
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endpaginate -%}
+        {%- if search.types contains 'article' -%}
+      <a href="pages/blog/" class="btn">view all blogs  </a>
+      {%- endif -%}
+  {%- endif -%}
+
+      </div>
+</section>
+
+
 {% schema %}
 {
 "name": "search-page",
