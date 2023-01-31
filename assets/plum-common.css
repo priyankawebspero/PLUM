@@ -5182,3 +5182,15 @@ span.discount-tag-col.pink {
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
+#dropdown-cart .total .label {
+    font-size: 14px;
+}
+
+#dropdown-cart .total_cs_custom_dropcart .sub.total .price {
+    font-size: 16px;
+}
+
+#dropdown-cart .drop-cart_discount .savings_label {
+    font-size: 14px;
+}
