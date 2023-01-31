@@ -336,15 +336,15 @@ var boostPFSTemplate = {
           itemLabelsHtml += '</div>';
         }
 		else {
-            if(data.tags.includes('bestseller') || data.tags.includes('Bestseller')) {
-              itemLabelsHtml += '<span class="discount-tag-col"> bestseller </span>';
-            }
-            if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
-              itemLabelsHtml += '<span class="discount-tag-col"> recommended </span>';
-            }
-            if(data.tags.includes('just launched') || data.tags.includes('Just launched')) {
-              itemLabelsHtml += '<span class="discount-tag-col"> just launched </span>';
-            }
+            // if(data.tags.includes('bestseller') || data.tags.includes('Bestseller')) {
+            //   itemLabelsHtml += '<span class="discount-tag-col"> bestseller </span>';
+            // }
+            // if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
+            //   itemLabelsHtml += '<span class="discount-tag-col"> recommended </span>';
+            // }
+            // if(data.tags.includes('just launched') || data.tags.includes('Just launched')) {
+            //   itemLabelsHtml += '<span class="discount-tag-col"> just launched </span>';
+            // }
         }
         if (soldOut) {
 		  itemLabelsHtml += '<strong class="label sold-out-label">' + boostPFSConfig.label.sold_out + '</strong>';

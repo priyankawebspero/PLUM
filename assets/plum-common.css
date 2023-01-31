@@ -5200,3 +5200,7 @@ span.discount-tag-col.pink {
 #dropdown-cart .drop-cart_discount .savings_price {
     font-size: 15px;
 }
+
+#dropdown-cart .drop-cart_discount {
+    padding-bottom: 3px;
+}
