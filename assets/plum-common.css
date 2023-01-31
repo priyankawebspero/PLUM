@@ -5177,3 +5177,8 @@ span.discount-tag-col.pink {
     display: block;
     line-height: 1.2;
 }
+
+#dropdown-cart .total_cs_custom_dropcart .total {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

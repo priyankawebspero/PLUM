@@ -181,7 +181,7 @@
     "show_shipping_calculator": false,
     "shipping_calculator_heading": "الحصول على تقديرات الشحن | Get shipping estimates",
     "shipping_calculator_default_country": "United States",
-    "show_cart_best_sellers_product": true,
+    "show_cart_best_sellers_product": false,
     "title_b": "Bonus Offers",
     "show_slider_featured_collection": "bonus-offer",
     "slider_featured_limit_all": "4",
