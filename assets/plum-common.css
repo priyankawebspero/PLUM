@@ -5233,6 +5233,10 @@ span.discount-tag-col.pink {
     margin-bottom: 0;
 }
 
+#dropdown-cart .total .label {
+    font-family: DINNextRoundedLTPro-Regular;
+}
+
 #dropdown-cart .special_offer {
     margin-left: 0;
     margin-right: 0;
