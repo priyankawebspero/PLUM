@@ -5204,3 +5204,9 @@ span.discount-tag-col.pink {
 #dropdown-cart .drop-cart_discount {
     padding-bottom: 3px;
 }
+#dropdown-cart .drop-cart-shipping {
+    padding: 0 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+}
