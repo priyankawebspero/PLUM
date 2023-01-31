@@ -5222,3 +5222,11 @@ span.discount-tag-col.pink {
     font-size: 13px;
   cursor: pointer;
 }
+
+#dropdown-cart .total {
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
