@@ -2421,6 +2421,11 @@ div#dropdown-cart {
     padding-bottom: 0;
 }*/
 
+#dropdown-cart .product-details .title_and_variant .product-name {
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
 #dropdown-cart .product-details .title_and_variant span.variant_title {
     font-size: 12px;
     display: block;
