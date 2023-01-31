@@ -5210,3 +5210,8 @@ span.discount-tag-col.pink {
     justify-content: space-between;
     line-height: 1.2;
 }
+
+#dropdown-cart .drop-cart-shipping .shipping_label {
+    font-size: 14px;
+    font-family: DINNextRoundedLTPro-Regular;
+}
