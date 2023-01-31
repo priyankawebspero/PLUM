@@ -238,6 +238,88 @@
         "margin_bottom": 10
       }
     },
+    "3db694fd-7636-4497-9460-50a299545216": {
+      "type": "collection-caraousel",
+      "blocks": {
+        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_PBL_Mob_03_7477529e-43a4-46ff-8b31-b8ab16261e24.webp",
+            "title": "fragrances",
+            "collection": "acne-treatment"
+          }
+        },
+        "42af8d86-d39e-4301-ad7d-2336ad526529": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_Serum_Mob_ccd10770-f6f1-46f2-be3d-94870820ca70.webp",
+            "title": "specialist serums",
+            "collection": "face-serums"
+          }
+        },
+        "97ce33a4-8328-48ea-8f69-401172cbaf30": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_PBL_Mob_02_0002d23a-f7c5-4ff6-9436-1e507e4aaeac.webp",
+            "title": "moisturising body oils",
+            "collection": "bodylovin-body-oils"
+          }
+        },
+        "8c1ada3a-111c-48ef-a960-197d07d05689": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/tiles_moodshoot_200X200_d5245e11-9269-413b-b3eb-24044c548a1c.webp",
+            "title": "spf and moisturizers",
+            "collection": "facial-moisturizers"
+          }
+        },
+        "f2287042-0ecb-4a92-a8c9-c6769f473ff2": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_1187943a-eb76-4f41-8021-b694dfe56c32.jpg",
+            "title": "face wash",
+            "collection": "foaming-cleansers-face-washes"
+          }
+        },
+        "03f3cfb7-1933-4e43-8453-4f1da766c109": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_4_f2027077-5a5c-4c99-9a1f-450e008a8693.jpg",
+            "title": "eye makeup",
+            "collection": "eyes"
+          }
+        },
+        "4c37f1fc-3ac7-4288-899e-1485e79ebd58": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_fdf28a4f-f2b3-4da4-b268-30caa6a2b1c0.jpg",
+            "title": "set the base",
+            "collection": "face"
+          }
+        },
+        "00c6b304-f23c-43ca-8114-37e053d09c62": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_Onion_Oil_Mob_1e634082-804d-4d2b-84a8-e52878eb084d.webp",
+            "title": "haircare",
+            "collection": "hair-offers"
+          }
+        }
+      },
+      "block_order": [
+        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0",
+        "42af8d86-d39e-4301-ad7d-2336ad526529",
+        "97ce33a4-8328-48ea-8f69-401172cbaf30",
+        "8c1ada3a-111c-48ef-a960-197d07d05689",
+        "f2287042-0ecb-4a92-a8c9-c6769f473ff2",
+        "03f3cfb7-1933-4e43-8453-4f1da766c109",
+        "4c37f1fc-3ac7-4288-899e-1485e79ebd58",
+        "00c6b304-f23c-43ca-8114-37e053d09c62"
+      ],
+      "settings": {
+        "banner_heading": "now trending"
+      }
+    },
     "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
       "type": "home-game-banner",
       "settings": {
@@ -254,89 +336,6 @@
         "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
         "link": "",
         "banner-class": ""
-      }
-    },
-    "3db694fd-7636-4497-9460-50a299545216": {
-      "type": "collection-caraousel",
-      "blocks": {
-        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Acne_Concern-Images_Desktop_224X224_1.jpg",
-            "title": "",
-            "collection": "acne-treatment"
-          }
-        },
-        "42af8d86-d39e-4301-ad7d-2336ad526529": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Dull-skin_Concern-Images_Desktop_224X224_4889ee96-a88e-4f3c-9951-1df358f92e24.jpg",
-            "title": "",
-            "collection": "dull-skin"
-          }
-        },
-        "97ce33a4-8328-48ea-8f69-401172cbaf30": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Dry-Skin_Concern-Images_Desktop_224X224_1.jpg",
-            "title": "",
-            "collection": "dry-skin"
-          }
-        },
-        "8c1ada3a-111c-48ef-a960-197d07d05689": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Dandruff_Concern-Images_Desktop_224X224_2b7b577e-cdf4-4220-bee7-b7b2a27d9d1e.jpg",
-            "title": "",
-            "collection": "dandruff"
-          }
-        },
-        "f2287042-0ecb-4a92-a8c9-c6769f473ff2": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Ageing_Concern-Images_Desktop_224X224_5d971d4d-cd73-4fa6-8901-bd5b8a31a4f4.jpg",
-            "title": "",
-            "collection": "ageing-skin"
-          }
-        },
-        "03f3cfb7-1933-4e43-8453-4f1da766c109": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Dry-lips_Real-images_170X170_abc25453-4088-4763-9326-af0a66408a89.png",
-            "title": "dry lips",
-            "collection": "lip-balms"
-          }
-        },
-        "4c37f1fc-3ac7-4288-899e-1485e79ebd58": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Frizzy-Hair_Concern-Images_Desktop_224X224_06a96101-2b08-43ad-8c1a-6dc33ab35d50.jpg",
-            "title": "",
-            "collection": "frizz"
-          }
-        },
-        "00c6b304-f23c-43ca-8114-37e053d09c62": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Hair-fall_Concern-Images_Desktop_224X224_2d3db98d-37b0-417b-acae-10320022b05f.jpg",
-            "title": "",
-            "collection": "hairfall"
-          }
-        }
-      },
-      "block_order": [
-        "template--14835773440060__3db694fd-7636-4497-9460-50a299545216-1667046442b9675b36-0",
-        "42af8d86-d39e-4301-ad7d-2336ad526529",
-        "97ce33a4-8328-48ea-8f69-401172cbaf30",
-        "8c1ada3a-111c-48ef-a960-197d07d05689",
-        "f2287042-0ecb-4a92-a8c9-c6769f473ff2",
-        "03f3cfb7-1933-4e43-8453-4f1da766c109",
-        "4c37f1fc-3ac7-4288-899e-1485e79ebd58",
-        "00c6b304-f23c-43ca-8114-37e053d09c62"
-      ],
-      "settings": {
-        "banner_heading": "find solutions for"
       }
     },
     "19c7a6bf-9227-4880-8db6-73cccba4fab6": {
@@ -519,9 +518,9 @@
     "home-list-collections",
     "1658484860c65081e1",
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
+    "3db694fd-7636-4497-9460-50a299545216",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
-    "3db694fd-7636-4497-9460-50a299545216",
     "19c7a6bf-9227-4880-8db6-73cccba4fab6",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "d54ce796-9ef4-4208-b3be-50e95f142574",
