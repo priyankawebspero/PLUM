@@ -5289,3 +5289,9 @@ span.discount-tag-col.pink {
     font-weight: 700;
     font-size: 16px;
 }
+
+#dropdown-cart .gokwik-checkout button {
+    /* line-height: 20px; */
+    padding-bottom: 7px !important;
+    padding-top: 11px !important;
+}
