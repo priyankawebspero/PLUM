@@ -912,7 +912,7 @@ input.shopify-challenge__button.btn{border-radius:5px;background:#5b0c8b!importa
 .tags-share{display:block!important;float:right}
 span.share{font-style:italic;color:#5e248c;padding-bottom:10px}
 .tags-share{text-align:right;border:none!important}
-.blog-page-info .list-blog li.blog-item a.btn{border-radius:5px;background:#5b0c8b!important;padding:10px 25px}
+.blog-page-info .list-blog li.blog-item a.btn{border-radius:5px;background:#5b0c8b!important;padding:12px 25px 10px 25px}
 .blog-page-info .list-blog li.blog-item a.btn:hover,.blog-page-info .list-blog li.blog-item a.btn:focus{background:#9000c5!important;color:#fff}
 div#pagination-container{border-top:1px solid #e6e6e6;padding-top:30px;text-align:center}
 div#pagination-container li{display:inline-block;margin:0 10px}
