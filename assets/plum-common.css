@@ -2422,7 +2422,9 @@ div#dropdown-cart {
 }
 
 #dropdown-cart .product-details .title_and_variant span.variant_title {
-    display: none !important;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 #dropdown-cart .has-items {
