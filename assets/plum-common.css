@@ -5171,10 +5171,11 @@ span.discount-tag-col.pink {
     border-bottom: none;
 }
 #dropdown-cart .total_cs_custom_dropcart span.price_summary {
-    padding: 5px 15px 5px;
-    font-weight: 600;
+    padding: 5px 15px;
+   font-weight: 500; 
     display: block;
     line-height: 1.2;
+    font-family: DINNextRoundedLTPro-Medium;
 }
 
 #dropdown-cart .total_cs_custom_dropcart .total {
