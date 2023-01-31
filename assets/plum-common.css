@@ -5299,3 +5299,43 @@ span.discount-tag-col.pink {
     padding-bottom: 7px !important;
     padding-top: 11px !important;
 }
+
+section.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 15px;
+}
+
+section.popup .popup__content {
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+section.popup .popup__content .close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background: #5e0d8b;
+    border-radius: 30px;
+}
+
+section.popup .popup__content p {
+    margin-bottom: 5px;
+    font-family: DINNextRoundedLTPro-Medium;
+    color: #5e0d8b;
+}
