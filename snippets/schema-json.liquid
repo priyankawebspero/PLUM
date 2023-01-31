@@ -1,0 +1,241 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "plumgoodness",
+        "Description": "Get offers on Skincare, Haircare, Personal Care, Bodycare, Makeup & more for all skin & hair types",
+        "url": "https://plumgoodness.com/",
+        "Logo": "https://cdn.shopify.com/s/files/1/0390/2985/files/Plum-Logo_199x70_da06b642-013f-4039-ba22-5660a5082cf0.png?v=1656583695",
+        "sameAs": [
+            "https://twitter.com/plumspeak?lang=en",
+            "hhttps://www.youtube.com/channel/UC6tQtwAuADVKuxIRKfwMZfw",
+            "https://www.facebook.com/PlumGoodness/",
+            "https://www.instagram.com/plumgoodness/"
+        ],
+        "Founder": [{ "@type": "Person", "name": "Shankar Prasad" }],
+        "foundingDate": "2013",
+        "contactPoint": [{ "@type": "ContactPoint", "telephone": "+91-750-649-6604", "contactType": "customer service", "email": "hello@plumgoodness.com" }],
+        "Address": { "type": "PostalAddress", "streetAddress": "1st Floor, Lodha i-Think Techno Campus, A Wing, Chirak Nagar", "addressLocality": "Thane", "addressRegion": "Maharashtra", "postalCode": "400607 ", "addressCountry": "INDIA" }
+    }
+</script>
+{%- if template == 'index' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Plum Goodness | 100% Vegan & Toxin-Free Products | For Men & Women",
+    "description": "Get offers on Skincare, Haircare, Personal Care, Bodycare, Makeup & more for all skin & hair types",
+    "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0390/2985/files/gt-adapt-768x350.jpg?v=1659357544",
+    "uploadDate": "2022-08-09",
+    "duration": "PT0M35S",
+    "embedUrl": "https://www.youtube.com/embed/sxCoJPealQI"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.plumgoodness.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://plumgoodness.com/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+{%- endif -%}
+
+
+{%- if template == 'collection' -%}
+
+<script type="application/ld+json">{
+      "@graph": [{
+        "@context": "https://schema.org/",
+        "@graph": [
+         {% for product in collection.products %}
+          {
+            "@type": "ItemList",
+            "@id" : "{{ collection.title | strip_html | escape | truncatewords: 20}}", 
+            "itemListElement":[{
+                "@type":"ListItem",
+                "position": {{ forloop.index }} ,
+                "url":"{{ product.url }}",
+                "name":"{{ product.title | strip_html | remove:'"' }}"
+              }]
+          {% if forloop.last %}
+          }
+          {% else %}
+          },
+          {%- endif -%}
+       {% endfor %}
+        ]
+     }]
+     }
+</script>
+
+<script type="application/ld+json">{
+  
+      "@graph": [{
+        "@context": "https://schema.org/",
+ 
+        "@graph": [
+         {% for product in collection.products %}
+          {
+           
+            "@type": "ImageObject",
+            "author": "{{ product.vendor }}",
+            "datePublished": "{{ product.published_at }}",
+            "name": "{{ product.images[0].alt }}",
+            "exifData": [
+              {% for image in product.images %}
+                {
+                  "@type": "PropertyValue",
+                  "name": "{{ image.alt }}",
+                  "url": "{{ image.src }}"
+                {% if forloop.last %}
+                }
+                {% else %}
+                },
+                {%- endif -%}
+                {% endfor %}
+             ]
+          {% if forloop.last %}
+    	  }
+    	  {% else %}
+    	  },
+    	  {%- endif -%}
+
+       {% endfor %}
+        ]
+
+     }]
+  
+     }
+</script>
+
+<script type="application/ld+json">{
+  
+   	  "@graph": [{
+   	   	"@context": "https://schema.org/",
+ 
+   	   	"@graph": [
+         {% for product in collection.products %}
+	        {
+	   	       	"@type": "Product",
+	   	       	"@id": "{{ product.id }}",
+	   	       	"url": "{{ product.url }}",
+	   	       	"name": "{{ product.title | strip_html | escape | truncatewords: 15 }}",
+	   		   	"image": "{{ product.images[0] }}",
+	   		   	"brand": {
+                	"@type": "Brand",
+                	"name": "Plumgoodness"
+                 },
+	   			"description": {{ product.description | strip_html | json}},
+	   		   	"sku": "{{ product.selected_or_first_available_variant.product.sku }}",
+	   		   	"offers": [
+	   	     	{
+		   	       	"@type": "Offer",
+		            "priceValidUntil" :"{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | uri_encode | replace:'+','%20' }}",
+		   	       	"price": "{{ product.selected_or_first_available_variant.price | money_without_currency  | strip_html | remove: ',' }}",
+		   	       	"priceCurrency": "{{ cart.currency.iso_code }}",
+		   	       	"availability": "http://schema.org/{% if product.selected_or_first_available_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+		   	       	"url": "{{ product.url }}",
+		   	       	"seller": {
+		   	         	"@type": "Organization",
+		   	         	"name": "{{ product.vendor }}",
+		   	         	"url": "{{ shop.url }}"
+		   	       	}
+	   	     	}
+	   	     	]
+            {% if forloop.last %}
+            }
+            {% else %}
+            },
+            {%- endif -%}
+	   	    
+  		 {% endfor %}
+        ]
+
+   	 }]
+  
+   	 }</script>
+
+  {%- endif -%}
+  
+{%- if canonical_url == 'https://plumgoodness.com/blogs/skincare/skin-care-routine' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": "Face wash as per skin type with benefits"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": "Toners as per skin type with benefits"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": "Face Serums as per skin type with benefits"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": "Moisturizers as per skin type with benefits"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": "Sunscreens as per skin type with benefits"
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    "Cleanse",
+    "Tone",
+    "Treat",
+    "Moisturize",
+    "Protect"
+  ],
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "name": "Daytime Skin Care Routine"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+    "@type": "Brand",
+    "name": "Plumgoodness"
+  }
+}
+</script>
+
+
+
+{%- endif -%}
+
+ 
