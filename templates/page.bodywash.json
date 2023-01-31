@@ -14,8 +14,7 @@
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Desktop_without-offer_7dc31413-05bd-49c1-8b10-4894bffe4420.jpg",
             "image_slide_mb": "shopify:\/\/shop_images\/Everything-Plum_HomePage_Mobile_without-offer.jpg",
-            "link": "",
-            "alignment": "left"
+            "link": ""
           }
         },
         "4f955b9b-59c3-460d-9e5e-83fe602dec24": {
@@ -24,8 +23,7 @@
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
             "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
-            "link": "",
-            "alignment": "left"
+            "link": ""
           }
         },
         "1658491656e56f97db-0": {
@@ -35,8 +33,7 @@
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Desktop_60578468-e940-43ea-ac38-21805ccca861.jpg",
             "image_slide_mb": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Mobile_8710c13e-5add-4def-bd70-8a8886829fab.jpg",
-            "link": "shopify:\/\/products\/plum-bodylovin-himalayan-caramel-popcorn-snack-pack",
-            "alignment": "left"
+            "link": "shopify:\/\/products\/plum-bodylovin-himalayan-caramel-popcorn-snack-pack"
           }
         },
         "fa47f221-d80c-47f2-a262-f01cf96649f6": {
@@ -46,8 +43,7 @@
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Desktop_V2_2_872212d8-b202-4175-bb2b-3801c501e2bc.jpg",
             "image_slide_mb": "shopify:\/\/shop_images\/MGB_HomePage-Slider_Mobile_V2_2_05c5c13f-a81d-4fa0-9544-11f870553822.jpg",
-            "link": "shopify:\/\/collections\/minions-goin-bananas",
-            "alignment": "left"
+            "link": "shopify:\/\/collections\/minions-goin-bananas"
           }
         }
       },
@@ -163,10 +159,10 @@
         "featured_products_title": "bestsellers",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "bodycare",
+        "show_slider_featured_collection": "plum-bodylovin-all-in-stock",
         "slider_featured_limit_all": 10,
         "shop_now_button": "view more",
-        "link1": "https:\/\/plumgoodness.com\/collections\/bodycare",
+        "link1": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
@@ -177,13 +173,13 @@
       "type": "home-featured-products",
       "settings": {
         "image": "shopify:\/\/shop_images\/BG_1_copy_a5736540-6147-418e-bccd-749ab73e632e.jpg",
-        "featured_products_title": "what's new",
+        "featured_products_title": "fragrances",
         "featured_products_des": "",
         "title_style": "style_1",
-        "show_slider_featured_collection": "pbl-new-launches",
+        "show_slider_featured_collection": "bodylovin-body-mists",
         "slider_featured_limit_all": 10,
         "shop_now_button": "view more",
-        "link1": "shopify:\/\/collections\/pbl-new-launches",
+        "link1": "shopify:\/\/collections\/bodylovin-body-mists",
         "collection_results_per_row1": "4",
         "margin_bottom_mb": 40,
         "margin_bottom_tab": 40,
@@ -192,6 +188,7 @@
     },
     "1658491814eed6d5bf": {
       "type": "bodylovin-custom-content",
+      "disabled": true,
       "settings": {
         "code": "<div class=\"row\">\n    <div class=\"col-sm-12\"> <div class=\"widget-title no-des\">   \n      <h3 class=\"box-title\">\n        <span class=\"title\"> \n\n          <span>\n            Watch &amp; Buy\n          <\/span>\n\n        <\/span>\n      <\/h3>\n\n      <\/div>\n\n      <fw-embed-feed channel=\"plum_goodness\" playlist=\"oNNdlo\" mode=\"row\" open_in=\"default\" max_videos=\"0\" placement=\"middle\" branding=\"false\" pip=\"true\"><\/fw-embed-feed>\n    <\/div>\n  <\/div>",
         "section_margin_top": "",
