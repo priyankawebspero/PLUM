@@ -1056,7 +1056,9 @@ a.btn, .content .btn{
 }
 
 
-
+.featured-collection .products-grid.row {
+    justify-content: center;
+}
 
 
 
