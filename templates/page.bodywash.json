@@ -83,8 +83,8 @@
         "1658491757cabdd493-0": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/1_400x_1e0f4b78-06c3-48a7-9aca-fef7e1aef603.png",
-            "image_mob": "shopify:\/\/shop_images\/shower_gels_mobile_400x_8a479d62-7d55-453d-ab63-2f0f72f8cb9b.jpg",
+            "image_desk": "shopify:\/\/shop_images\/Landing_Page_Body_Washes_c8870732-56f4-4adc-9579-413e7d0c30fb.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Landing_Page_Body_Washes_03822b6b-e12e-4c21-93f4-e1d626b2c4a3.jpg",
             "title": "",
             "sub_title": "",
             "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-shower-gels",
@@ -94,19 +94,19 @@
         "1658491757cabdd493-1": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/2_400x_26c9cd51-3868-49ed-b320-b5d7f562d5ad.png",
-            "image_mob": "shopify:\/\/shop_images\/body_mists_mobile_400x_22032998-5913-48b7-8074-4f4a8be72c3f.jpg",
+            "image_desk": "shopify:\/\/shop_images\/Landing_Page_Hand_Foot_Care_e863db87-b29b-4cb4-babd-6e4e1af5d52e.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Landing_Page_Hand_Foot_Care_4be087c2-274c-4d6e-8894-3ddfb2d90694.jpg",
             "title": "",
             "sub_title": "",
-            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists",
+            "link": "shopify:\/\/collections\/hand-foot-care",
             "columns": "one fourth size"
           }
         },
         "1658491757cabdd493-2": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/3_400x_fda490ac-7ee2-4d27-b7e8-881b0f3824e9.png",
-            "image_mob": "shopify:\/\/shop_images\/body_oils_mobile_400x_1ed277e2-1b8e-41bf-9f00-002e46e1fc87.jpg",
+            "image_desk": "shopify:\/\/shop_images\/Landing_Page_Body_Moisturizers_c75abe11-c9e5-46c4-afd4-ed290e713d37.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Landing_Page_Body_Moisturizers_c91814c7-9d6d-4363-a2ff-430d03293ccf.jpg",
             "title": "",
             "sub_title": "",
             "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-lotions",
@@ -116,8 +116,8 @@
         "efbec7f0-aa34-4ef4-8017-435428f807b7": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/4_400x_6af1887a-baf3-4a57-bb5b-c065ae5c5fda.png",
-            "image_mob": "shopify:\/\/shop_images\/pit_creams_mobile_400x_b5a7ec39-209d-4db8-b2d3-1986fb486acd.jpg",
+            "image_desk": "shopify:\/\/shop_images\/Landing_Page_Deodorant_Creams_eb442a2e-f9ca-4048-9b81-228a6a8fd3ca.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Landing_Page_Deodorant_Creams_ee7f1ad2-290f-4a58-ae82-8d6349309023.jpg",
             "title": "",
             "sub_title": "",
             "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-de-odorizing-pit-creams",
@@ -127,11 +127,11 @@
         "8f404b86-f33e-4104-92c5-5dd49ff5d245": {
           "type": "image",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/gift_sets_tile_-_home_page_1_770x_655fbf1a-9e2b-4344-9eba-3be1b879843a.png",
-            "image_mob": "shopify:\/\/shop_images\/gift_sets_mobile_800x_976caf91-cd80-437d-94dc-4519ae503fb2.jpg",
+            "image_desk": "shopify:\/\/shop_images\/Landing_Page_Body_Mist_e4edcac8-889c-4e31-990c-e63e5b98b30d.jpg",
+            "image_mob": "shopify:\/\/shop_images\/Landing_Page_Body_Mists_e9234050-06cf-4014-95ca-abe29b348819.jpg",
             "title": "",
             "sub_title": "",
-            "link": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin-gift-sets",
+            "link": "https:\/\/plumgoodness.com\/collections\/bodylovin-body-mists",
             "columns": "one half size"
           }
         }
