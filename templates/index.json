@@ -323,14 +323,15 @@
     "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
       "type": "home-game-banner",
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/winter_store_Slider_Desk.webp",
-        "image_mobile": "shopify:\/\/shop_images\/winter_store_Slider_Mob.webp",
-        "link": "",
+        "banner-id": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Desk_0d2197c4-3a6c-4dbc-85da-421d33bd06a5.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Mob_c13f2686-1c05-4e18-a804-79f8d004fc7d.jpg",
+        "link": "shopify:\/\/collections\/deal-of-the-day",
         "banner-class": ""
       }
     },
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
       "type": "home-game-banner",
+      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
         "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
@@ -340,6 +341,7 @@
     },
     "19c7a6bf-9227-4880-8db6-73cccba4fab6": {
       "type": "home-game-banner",
+      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
         "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
@@ -357,13 +359,28 @@
         "banner-class": ""
       }
     },
+    "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe": {
+      "type": "home-featured-products",
+      "settings": {
+        "featured_products_title": "",
+        "featured_products_des": "",
+        "title_style": "style_1",
+        "show_slider_featured_collection": "deal-of-the-day",
+        "slider_featured_limit_all": 6,
+        "shop_now_button": "Shop Now",
+        "link1": "shopify:\/\/collections\/deal-of-the-day",
+        "collection_results_per_row1": "4",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 0
+      }
+    },
     "d54ce796-9ef4-4208-b3be-50e95f142574": {
       "type": "home-game-banner",
-      "disabled": true,
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
-        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
+        "banner-id": "shopify:\/\/shop_images\/PBB-slider_desk_3415bb55-57e1-4572-89d7-80bae1128ffd.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/PBB-slider_mob_56401d5d-b7e2-4448-8192-baca6984ce5f.jpg",
+        "link": "https:\/\/plumgoodness.com\/pages\/project-blackboard",
         "banner-class": ""
       }
     },
@@ -512,6 +529,56 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "55cec032-0355-4ccb-8d1f-f05b762e4dc6": {
+      "type": "testimonial-carousel",
+      "blocks": {
+        "template--14835773440060__55cec032-0355-4ccb-8d1f-f05b762e4dc6-1675170946bbae87d9-0": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/AARTHI-KOTHARI_Plum-Website_8e0c65f3-c5e9-4085-8bea-ff38cbb59ea6.png",
+            "link": "shopify:\/\/products\/onion-bhringraj-hair-growth-oil-for-all-hair-types-contains-onion-bhringraj-curry-leaf-oil-and-amla-oil-sulphate-free-paraben-free"
+          }
+        },
+        "6e0efbac-172e-47fe-9dbb-4254f97fe43d": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/SHIRIN-PODDAR_Plum-Website_272d0c54-1dc6-40de-9b9e-528fbcec7fe9.png",
+            "link": ""
+          }
+        },
+        "3784e441-37e9-4f1b-898d-48efbb5cb1b1": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Ruhi-Hanifa-Quazi_Plum-Website_1f60afc2-1a3d-4169-98a6-6e91d970c70b.png",
+            "link": ""
+          }
+        },
+        "fffee26e-1b3e-4808-a165-4c097a807db3": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Shweta-Ughrejiya_Plum-Website_a83eec41-0c47-45bf-8763-cada81741222.png",
+            "link": ""
+          }
+        },
+        "87d37be2-ce58-4586-9fe6-010eedd2830c": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Surbhi-Rani_Plum-Website_3b0bfa9e-ce94-44ec-be8e-ab7e7602812f.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14835773440060__55cec032-0355-4ccb-8d1f-f05b762e4dc6-1675170946bbae87d9-0",
+        "6e0efbac-172e-47fe-9dbb-4254f97fe43d",
+        "3784e441-37e9-4f1b-898d-48efbb5cb1b1",
+        "fffee26e-1b3e-4808-a165-4c097a807db3",
+        "87d37be2-ce58-4586-9fe6-010eedd2830c"
+      ],
+      "settings": {
+        "banner_heading": "plumster reviews"
+      }
     }
   },
   "order": [
@@ -523,9 +590,11 @@
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "19c7a6bf-9227-4880-8db6-73cccba4fab6",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
+    "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe",
     "d54ce796-9ef4-4208-b3be-50e95f142574",
     "8022e621-2fde-4c43-a376-0c58de4cd5ae",
     "165848513210ac1823",
-    "1658485170941c47bc"
+    "1658485170941c47bc",
+    "55cec032-0355-4ccb-8d1f-f05b762e4dc6"
   ]
 }
