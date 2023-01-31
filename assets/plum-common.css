@@ -5246,3 +5246,40 @@ span.discount-tag-col.pink {
     line-height: 1.4;
   text-align: center;
 }
+
+#dropdown-cart .offer_congrats {
+    margin: 15px 0px;
+}
+
+#dropdown-cart .offer_congrats p{
+ line-height: 1;
+    margin: 0;
+    padding: 9px 5px;
+    text-align: center;
+    font-size: 14px;
+  
+}
+
+#dropdown-cart .offer_congrats .first_color {
+    background: #d6006b;
+    color: #fff;  
+}
+#dropdown-cart .offer_congrats .sec_color {
+    background: #ffbd3d;
+    color: #000 !important;
+}
+
+#dropdown-cart .offer_congrats .sec_color {
+    background: #ffbd3d;
+    color: #fff;
+}
+
+#dropdown-cart .offer_congrats .third_color {
+    background: #8756da;
+    color: #fff;
+}
+
+#dropdown-cart .offer_congrats .fourth_color {
+    background: green;
+    color: #fff;
+}
