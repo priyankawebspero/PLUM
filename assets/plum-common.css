@@ -5163,3 +5163,17 @@ span.discount-tag-col.pink {
     font-size: 11px;
     text-transform: inherit;
 }
+
+/*-----------drawer-css-start----*/
+
+#dropdown-cart .total_cs_custom_dropcart {
+    background: #fff;
+    border-bottom: none;
+}
+#dropdown-cart .total_cs_custom_dropcart span.price_summary {
+    padding: 5px 15px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.2;
+}
