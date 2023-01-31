@@ -5215,3 +5215,10 @@ span.discount-tag-col.pink {
     font-size: 14px;
     font-family: DINNextRoundedLTPro-Regular;
 }
+
+#dropdown-cart .drop-cart-shipping .shipping_price {
+    color: #5e0c8c;
+   font-family: DINNextRoundedLTPro-Medium;
+    font-size: 13px;
+  cursor: pointer;
+}
