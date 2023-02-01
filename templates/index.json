@@ -578,6 +578,70 @@
       "settings": {
         "banner_heading": "plumster reviews"
       }
+    },
+    "356ed8d8-c83d-4baa-8047-1c9ce898ded4": {
+      "type": "custom-carousel",
+      "blocks": {
+        "template--14835773440060__356ed8d8-c83d-4baa-8047-1c9ce898ded4-167525499388a261d9-0": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_1187943a-eb76-4f41-8021-b694dfe56c32.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "2f484b72-0342-43e2-8670-6d7de5d121c8": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_Onion_Oil_Mob_1e634082-804d-4d2b-84a8-e52878eb084d.webp",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "77d1d7a2-a7d7-4dc5-bdca-3a9b6415e89a": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_fdf28a4f-f2b3-4da4-b268-30caa6a2b1c0.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "77a30279-6b7b-4e10-a9c3-b84152d5125d": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_4_f2027077-5a5c-4c99-9a1f-450e008a8693.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "aff5eab1-26a5-48df-a2bc-c4cb11659831": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/tiles_moodshoot_200X200_d5245e11-9269-413b-b3eb-24044c548a1c.webp",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "d6edd57c-2d6b-492f-a68d-365965569400": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_PBL_Mob_02_0002d23a-f7c5-4ff6-9436-1e507e4aaeac.webp",
+            "title": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14835773440060__356ed8d8-c83d-4baa-8047-1c9ce898ded4-167525499388a261d9-0",
+        "2f484b72-0342-43e2-8670-6d7de5d121c8",
+        "77d1d7a2-a7d7-4dc5-bdca-3a9b6415e89a",
+        "77a30279-6b7b-4e10-a9c3-b84152d5125d",
+        "aff5eab1-26a5-48df-a2bc-c4cb11659831",
+        "d6edd57c-2d6b-492f-a68d-365965569400"
+      ],
+      "settings": {
+        "banner_heading": "#CAMPAIGNS"
+      }
     }
   },
   "order": [
@@ -594,6 +658,7 @@
     "8022e621-2fde-4c43-a376-0c58de4cd5ae",
     "165848513210ac1823",
     "1658485170941c47bc",
-    "55cec032-0355-4ccb-8d1f-f05b762e4dc6"
+    "55cec032-0355-4ccb-8d1f-f05b762e4dc6",
+    "356ed8d8-c83d-4baa-8047-1c9ce898ded4"
   ]
 }
