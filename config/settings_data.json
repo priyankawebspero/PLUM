@@ -651,26 +651,25 @@
           "f8370303-ebc3-4080-899a-5102d92552ab": {
             "type": "style_1",
             "settings": {
-              "promo_image": "shopify:\/\/shop_images\/Untitled_design_d4ea20f4-df16-42f8-9e9f-478496608589.png",
-              "promotext": "<p>Get Shower Gel & Body Oil duo worth Rs 200 FREE on orders above Rs 600<\/p>",
-              "promotext_code": "",
+              "promo_image": "shopify:\/\/shop_images\/PROMO-BAR_2ee5efb2-3cd0-4c25-bf94-a2c5e7974867.jpg",
+              "promotext": "<p>Flat Rs 500 off on orders above Rs 1799 , use code : PLUM500 <\/p>",
+              "promotext_code": "<p>PLUM500 <\/p>",
               "promo_link": "shopify:\/\/collections\/all-in-stock"
             }
           },
           "db9de841-3201-4355-bca0-cb461ec71671": {
             "type": "style_1",
             "settings": {
-              "promo_image": "shopify:\/\/shop_images\/Untitled_design_1.png",
-              "promotext": "<p>Get Beauty Organizer worth Rs 999 FREE on orders above Rs 1000<\/p>",
-              "promotext_code": "",
-              "promo_link": "shopify:\/\/collections\/all-in-stock"
+              "promo_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-11_at_6.33.08_PM_bc98c74c-18ff-49db-b2d8-1bee05924cc9.jpg",
+              "promotext": "<p>FLAT Rs 150 Off on orders above 599<\/p>",
+              "promotext_code": "<p>PLUM150<\/p>",
+              "promo_link": "shopify:\/\/collections\/single-special-offer"
             }
           },
           "2857311f-4835-4582-968b-4301f0cda5c8": {
             "type": "style_1",
-            "disabled": true,
             "settings": {
-              "promo_image": "shopify:\/\/shop_images\/Promo_Bar_200x200_bb4e3282-244b-47e0-98ea-baf150336c97.jpg",
+              "promo_image": "shopify:\/\/shop_images\/Promo-images_mix_a06614f9-d9d3-4a58-8501-d863c5ecd4a4.jpg",
               "promotext": "<p>Birthday exclusive new launches at Upto 40% OFF 😄<\/p>",
               "promotext_code": "",
               "promo_link": "shopify:\/\/collections\/just-launched"
@@ -678,9 +677,8 @@
           },
           "80b85be7-6e93-47fc-ae5e-fe531137a472": {
             "type": "style_1",
-            "disabled": true,
             "settings": {
-              "promo_image": "shopify:\/\/shop_images\/PROMO-Banner_200X200_1.jpg",
+              "promo_image": "shopify:\/\/shop_images\/Untitled_design_2_b81717b7-527c-43e2-8423-04eedf887b8f.png",
               "promotext": "<p>Vitamin C Toner + Moisturizer worth Rs 975 FREE on orders above Rs 1299<\/p>",
               "promotext_code": "",
               "promo_link": "https:\/\/plumgoodness.com\/pages\/8-birthday-offer"
@@ -688,9 +686,8 @@
           },
           "4b765011-fa7a-452d-8bf5-b2bc1c9691e5": {
             "type": "style_1",
-            "disabled": true,
             "settings": {
-              "promo_image": "shopify:\/\/shop_images\/iPhone_PROMO-Banner_200X200_570b82fb-28a3-4d7d-b52e-0810cb9a3fbc.jpg",
+              "promo_image": "shopify:\/\/shop_images\/Cashback_promo-image_200X200_a612042c-13de-4656-9032-999200c53473.jpg",
               "promotext": "<p>1 Lucky Winner each day gets a chance to win an iPhone 13❤️<\/p>",
               "promotext_code": "",
               "promo_link": "https:\/\/plumgoodness.com\/pages\/8-birthday-offer"
