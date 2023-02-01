@@ -1086,6 +1086,9 @@ a.btn, .content .btn{
 	.home-testimonials-carousel .slick-next.slick-arrow {
     right: -40px;
 }
+.home-testimonials-carousel .slick-prev.slick-arrow {
+    left: -40px;
+}
 }
 /*-01-02-2023-*/
 
