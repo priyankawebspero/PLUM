@@ -238,6 +238,15 @@
         "margin_bottom": 10
       }
     },
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/150-OFF_CP_BAU_Desk_1270X300_d274df9a-4b09-449f-8115-28887ec24e46.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/150-OFF_CP_BAU_Mob_680X300_c46330ec-d7e0-4ebc-b33f-48572a3c3d56.jpg",
+        "link": "https:\/\/plumgoodness.com\/collections\/single-products-offer",
+        "banner-class": ""
+      }
+    },
     "3db694fd-7636-4497-9460-50a299545216": {
       "type": "collection-caraousel",
       "blocks": {
@@ -326,16 +335,6 @@
         "banner-id": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Desk_0d2197c4-3a6c-4dbc-85da-421d33bd06a5.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Mob_c13f2686-1c05-4e18-a804-79f8d004fc7d.jpg",
         "link": "shopify:\/\/collections\/deal-of-the-day",
-        "banner-class": ""
-      }
-    },
-    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
-      "type": "home-game-banner",
-      "disabled": true,
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Skin_Slider_1_78dd9340-d956-4723-bb87-4b5f97f22d45.webp",
-        "image_mobile": "shopify:\/\/shop_images\/Skin_Slider_Mob_7acd32fc-945a-4669-ae29-fed21d065126.webp",
-        "link": "",
         "banner-class": ""
       }
     },
@@ -585,9 +584,9 @@
     "home-list-collections",
     "1658484860c65081e1",
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
+    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "3db694fd-7636-4497-9460-50a299545216",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
-    "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "19c7a6bf-9227-4880-8db6-73cccba4fab6",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe",
