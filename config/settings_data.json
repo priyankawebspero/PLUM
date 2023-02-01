@@ -654,7 +654,7 @@
               "promo_image": "shopify:\/\/shop_images\/PROMO-BAR_2ee5efb2-3cd0-4c25-bf94-a2c5e7974867.jpg",
               "promotext": "<p>Flat Rs 500 off on orders above Rs 1799 , use code : PLUM500 <\/p>",
               "promotext_code": "<p>PLUM500 <\/p>",
-              "promo_link": "shopify:\/\/collections\/all-in-stock"
+              "promo_link": "https:\/\/plumgoodness.com\/collections\/single-products-offer"
             }
           },
           "db9de841-3201-4355-bca0-cb461ec71671": {
@@ -670,27 +670,27 @@
             "type": "style_1",
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/Promo-images_mix_a06614f9-d9d3-4a58-8501-d863c5ecd4a4.jpg",
-              "promotext": "<p>Birthday exclusive new launches at Upto 40% OFF 😄<\/p>",
-              "promotext_code": "",
-              "promo_link": "shopify:\/\/collections\/just-launched"
+              "promotext": "<p>Flat 40% off on orders above Rs 2499<\/p>",
+              "promotext_code": "<p>VEGAN40<\/p>",
+              "promo_link": "https:\/\/plumgoodness.com\/collections\/single-products-offer"
             }
           },
           "80b85be7-6e93-47fc-ae5e-fe531137a472": {
             "type": "style_1",
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/Untitled_design_2_b81717b7-527c-43e2-8423-04eedf887b8f.png",
-              "promotext": "<p>Vitamin C Toner + Moisturizer worth Rs 975 FREE on orders above Rs 1299<\/p>",
+              "promotext": "<p>FREE full size plum on orders above Rs 1299<\/p>",
               "promotext_code": "",
-              "promo_link": "https:\/\/plumgoodness.com\/pages\/8-birthday-offer"
+              "promo_link": "https:\/\/plumgoodness.com\/collections\/single-products-offer"
             }
           },
           "4b765011-fa7a-452d-8bf5-b2bc1c9691e5": {
             "type": "style_1",
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/Cashback_promo-image_200X200_a612042c-13de-4656-9032-999200c53473.jpg",
-              "promotext": "<p>1 Lucky Winner each day gets a chance to win an iPhone 13❤️<\/p>",
+              "promotext": "<p>10% cashback via reward points, on all orders<\/p>",
               "promotext_code": "",
-              "promo_link": "https:\/\/plumgoodness.com\/pages\/8-birthday-offer"
+              "promo_link": "shopify:\/\/collections\/all-in-stock"
             }
           },
           "1579868902146": {
