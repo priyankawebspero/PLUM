@@ -1080,6 +1080,9 @@ a.btn, .content .btn{
     text-transform: initial;
     position: relative;
 }
+.home-collection-carousel .products-grid.row .grid-item:nth-child(6) {
+    display: none;
+}
 
 @media only screen and (min-width: 1400px)
 {
