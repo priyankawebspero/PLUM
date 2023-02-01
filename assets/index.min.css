@@ -1083,16 +1083,7 @@ a.btn, .content .btn{
 .home-collection-carousel .products-grid.row .grid-item:nth-child(6) {
     display: none;
 }
-.home-collection-carousel .widget-product .block-wrapper span.title_block {
-    display: block;
-    text-align: center;
-    background: #ebe0f0;
-    padding: 10px 7px;
-    font-weight: 600;
-    border-top: 1px solid #5b0c8b;
-    text-transform: lowercase;
-    color: #5b0c8b;
-}
+
 
 @media only screen and (min-width: 1400px)
 {
