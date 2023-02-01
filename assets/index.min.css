@@ -1085,9 +1085,11 @@ a.btn, .content .btn{
 {
 	.home-testimonials-carousel .slick-next.slick-arrow {
     right: -40px;
+	top: 45%;
 }
 .home-testimonials-carousel .slick-prev.slick-arrow {
     left: -40px;
+	top: 45%;
 }
 }
 @media only screen and (max-width: 767px)
