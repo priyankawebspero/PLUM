@@ -428,6 +428,7 @@
         },
         "325a89ca-bf47-4951-8a7a-4f2c2a8cfc62": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Dry-lips_Real-images_170X170_abc25453-4088-4763-9326-af0a66408a89.png",
             "title": "dry lips",
