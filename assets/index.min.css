@@ -1080,13 +1080,14 @@ a.btn, .content .btn{
     text-transform: initial;
     position: relative;
 }
-/*-01-02-2023-*/
 
-
-
-@media screen only (max-width:1400px)
+@media only screen and (min-width: 1400px)
 {
 	.home-testimonials-carousel .slick-next.slick-arrow {
     right: -40px;
 }
 }
+/*-01-02-2023-*/
+
+
+
