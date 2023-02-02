@@ -278,6 +278,12 @@ h3.banner-heading {
     text-transform: lowercase;
     margin-bottom: 20px;
 }
+.home-collection-carousel .products-grid .block-wrapper {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #00000059;
+}
 /*-02-02-2023-*/
 
 
