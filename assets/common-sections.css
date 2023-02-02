@@ -283,6 +283,9 @@ h3.banner-heading {
     overflow: hidden;
     box-shadow: 0 0 5px #00000059;
 }
+.home-collection-carousel ul.slick-dots {
+    margin-bottom: 10px;
+}
 /*-02-02-2023-*/
 
 
