@@ -304,6 +304,17 @@ h3.banner-heading {
 	top: 45%;
 }
 }
+
+
+@media only screen and (max-width:991px)
+{
+  .brands-style-2 .slick-dots li.slick-active button, .widget-product .slick-dots li.slick-active button {
+    border-color: transparent;
+    background: #620c92;
+}
+}
+
+
 @media only screen and (max-width: 767px)
 {
 	.home-testimonials-carousel .banner-heading {
@@ -311,6 +322,8 @@ h3.banner-heading {
     letter-spacing: 0;
 }
 }
+
+
 /*-01-02-2023-*/
 
 
