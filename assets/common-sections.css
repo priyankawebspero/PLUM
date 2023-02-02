@@ -244,6 +244,20 @@ h3.banner-heading {
     position: relative;
 }
 
+/*-02-02-2023-*/
+.home-collection-carousel .widget-product .block-wrapper span.title_block {
+    display: block;
+    text-align: center;
+    background: #ebe0f0;
+    padding: 10px 7px;
+    font-family: "DINNextRoundedLTPro-Medium";
+    border-top: 1px solid #5b0c8b;
+    text-transform: capitalize;
+    color: #5b0c8b;
+    font-size: 17px;
+}
+/*-02-02-2023-*/
+
 
 @media only screen and (min-width: 1400px)
 {
@@ -266,16 +280,3 @@ h3.banner-heading {
 /*-01-02-2023-*/
 
 
-/*-02-02-2023-*/
-.home-collection-carousel .widget-product .block-wrapper span.title_block {
-    display: block;
-    text-align: center;
-    background: #ebe0f0;
-    padding: 10px 7px;
-    font-family: "DINNextRoundedLTPro-Medium";
-    border-top: 1px solid #5b0c8b;
-    text-transform: capitalize;
-    color: #5b0c8b;
-    font-size: 17px;
-}
-/*-02-02-2023-*/
