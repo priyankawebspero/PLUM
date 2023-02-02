@@ -328,6 +328,9 @@ h3.banner-heading {
     font-size: 27px;
     letter-spacing: 0;
 }
+  .home-collection-carousel .slick-list.draggable {
+    padding: 0 !important;
+}
 }
 
 
