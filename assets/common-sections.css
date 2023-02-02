@@ -312,6 +312,13 @@ h3.banner-heading {
     border-color: transparent;
     background: #620c92;
 }
+  .brands-style-2 .slick-dots li button, .widget-product .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    background: none;
+    border-color: #a0a0a0;
+    border: 2px solid #620c92;
+}
 }
 
 
