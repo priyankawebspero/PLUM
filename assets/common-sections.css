@@ -269,6 +269,15 @@ h3.banner-heading {
     display: block;
     overflow: hidden;
 }
+.home-collection-carousel .banner-heading {
+    text-align: center;
+    font-family: "DINNextRoundedLTPro-Bold";
+    font-size: 57px;
+    letter-spacing: 1px;
+    color: #5f258a;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
 /*-02-02-2023-*/
 
 
