@@ -256,6 +256,13 @@ h3.banner-heading {
     color: #5b0c8b;
     font-size: 17px;
 }
+.home-collection-carousel .products-grid .block-wrapper>a img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
 /*-02-02-2023-*/
 
 
