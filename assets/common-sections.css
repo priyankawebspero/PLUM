@@ -331,6 +331,10 @@ h3.banner-heading {
   .home-collection-carousel .slick-list.draggable {
     padding: 0 !important;
 }
+  .home-collection-carousel ul.slick-dots li button {
+    width: 12px;
+    height: 12px;
+}
 }
 
 
