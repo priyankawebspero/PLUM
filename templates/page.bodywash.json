@@ -246,58 +246,6 @@
         "margin_bottom": 0
       }
     },
-    "1658491933c6609cea": {
-      "type": "home-spotlight-slider",
-      "disabled": true,
-      "blocks": {
-        "165849193388c38449-0": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "165849193388c38449-1": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "165849193388c38449-2": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        },
-        "1d00ade4-c06f-4b90-bab3-07aedc5e2da4": {
-          "type": "image",
-          "settings": {
-            "title": "Lorem De Dorus",
-            "link_text": "Shop Now"
-          }
-        }
-      },
-      "block_order": [
-        "165849193388c38449-0",
-        "165849193388c38449-1",
-        "165849193388c38449-2",
-        "1d00ade4-c06f-4b90-bab3-07aedc5e2da4"
-      ],
-      "settings": {
-        "layout": "default",
-        "display_padding": true,
-        "bg_color": "#f5f5f5",
-        "spotlight_block_title": "#Spotlight",
-        "spotlight_block_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
-        "spotlight_block_btn": "",
-        "spotlight_block_url": "",
-        "title_style": "style_2",
-        "margin_bottom_mb": 0,
-        "margin_bottom": 0
-      }
-    },
     "165849199828298fc8": {
       "type": "home-brands",
       "blocks": {
@@ -347,6 +295,70 @@
         "title_style": "style_2",
         "brand_rows": "3"
       }
+    },
+    "d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc": {
+      "type": "custom-carousel",
+      "blocks": {
+        "template--14835923320892__d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc-1675312248a9b15eac-0": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_1187943a-eb76-4f41-8021-b694dfe56c32.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "2c7f5b00-60d1-4570-ac04-91d1b8f8648e": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_Onion_Oil_Mob_1e634082-804d-4d2b-84a8-e52878eb084d.webp",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "aea0d4a6-c30c-4477-9824-5666f4fbb2bb": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_fdf28a4f-f2b3-4da4-b268-30caa6a2b1c0.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "70b1602d-d423-44cc-9453-0367f87168e5": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_4_f2027077-5a5c-4c99-9a1f-450e008a8693.jpg",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "2aaa8726-5712-41db-8e1e-44813edb989c": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/tiles_moodshoot_200X200_d5245e11-9269-413b-b3eb-24044c548a1c.webp",
+            "title": "",
+            "collection": ""
+          }
+        },
+        "17b91028-5324-43f1-b39b-7a6b60f030fd": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Tiles_PBL_Mob_02_0002d23a-f7c5-4ff6-9436-1e507e4aaeac.webp",
+            "title": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14835923320892__d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc-1675312248a9b15eac-0",
+        "2c7f5b00-60d1-4570-ac04-91d1b8f8648e",
+        "aea0d4a6-c30c-4477-9824-5666f4fbb2bb",
+        "70b1602d-d423-44cc-9453-0367f87168e5",
+        "2aaa8726-5712-41db-8e1e-44813edb989c",
+        "17b91028-5324-43f1-b39b-7a6b60f030fd"
+      ],
+      "settings": {
+        "banner_heading": "#CAMPAIGNS"
+      }
     }
   },
   "order": [
@@ -357,7 +369,7 @@
     "16584918030acc40e3",
     "1658491814eed6d5bf",
     "165849166859714bea",
-    "1658491933c6609cea",
-    "165849199828298fc8"
+    "165849199828298fc8",
+    "d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc"
   ]
 }
