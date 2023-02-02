@@ -1062,46 +1062,7 @@ a.btn, .content .btn{
 
 
 
-/*-01-02-2023-*/
-.home-testimonials-carousel .block-wrapper {
-    padding: 0;
-    background: #fff;
-    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-.home-testimonials-carousel .banner-heading {
-    font-size: 57px;
-       font-family: "DINNextRoundedLTPro-Bold";
-    text-align: center;
-    color: #5f258a;
-    margin-bottom: 15px;
-    font-weight: 400;
-    text-transform: initial;
-    position: relative;
-}
 
-
-@media only screen and (min-width: 1400px)
-{
-	.home-testimonials-carousel .slick-next.slick-arrow {
-    right: -40px;
-	top: 45%;
-}
-.home-testimonials-carousel .slick-prev.slick-arrow {
-    left: -40px;
-	top: 45%;
-}
-}
-@media only screen and (max-width: 767px)
-{
-	.home-testimonials-carousel .banner-heading {
-    font-size: 27px;
-    letter-spacing: 0;
-}
-}
-
-/*-01-02-2023-*/
 
 
 
