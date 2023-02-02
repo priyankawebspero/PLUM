@@ -334,6 +334,7 @@ h3.banner-heading {
   .home-collection-carousel ul.slick-dots li button {
     width: 12px;
     height: 12px;
+    margin-top: 20px;
 }
 }
 
