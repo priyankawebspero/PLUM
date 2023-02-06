@@ -1898,6 +1898,9 @@ if ((typeof Shopify.getCart) === 'undefined') {
       if ($("body").hasClass("template-cart")) {
         location.reload();
       }
+
+      if(window.searchtapGlobal)
+        window.searchtapGlobal.searchtapProdQuantity();
       
     },
 
@@ -4073,6 +4076,9 @@ initBlogPostSlider: function() {
 
         ella.doAjaxUpdatePopupCart(0, id);
       });
+
+      if(window.searchtapGlobal)
+        window.searchtapGlobal.searchtapProdQuantity();
     },
 
     initSoldOutProductShop: function () {
