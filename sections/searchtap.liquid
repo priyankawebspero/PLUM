@@ -260,7 +260,7 @@
 
                                                             <div id="sizz14" class="wight_swatch varient_class colsize" v-if="item.size && item.size.length && item.variants && item.variants.length > 1">
                                                                 <form>
-                                                                <span class="st-size-swatch" v-for="size in item.variants" :key="size.id">
+                                                                <span class="st-size-swatch" v-for="size in getInStockVariants(item)" :key="size.id">
                                                                     <label name="product-variant-option">
                                                                         <input type="radio" name="product-variant-option" class="product-variant" v-model="item.activeVariant" :value="size" @change="changeActiveVariant(item.id)">
                                                                         <span class="st-product-variant-label">{{ size.title }}</span>
@@ -270,7 +270,7 @@
                                                             </div>
 
                                                             <div class="st-swatches" v-if="item.options[0].name === 'Color'">
-                                                                <div class="st-color-swatch" v-for="(variant, index) in item.variants" v-if="index < 4 && item.variants.length > 1">
+                                                                <div class="st-color-swatch" v-for="(variant, index) in getInStockVariants(item)" v-if="index < 4">
                                                                     <span class="st-swatch" @click="changeVariant(variant, item)" :class="{'st-active-swatch' : variant.id === item.activeVariant.id}">
                                                                         <img :src="getSwatchImage(variant)" width="20px" height="20px">
                                                                     </span>
@@ -295,7 +295,7 @@
                                                                         <input type="hidden" name="id" :value="item.activeVariant.id">
                                                                         <input type="hidden" name="quantity" value="1">
                                                                         <div v-if="item.isActive === 1">
-                                                                            <button data-btn-addtocart="" class="btn add-to-cart-btn" type="submit" :data-form-id=`#grid-product-form--${item.id}` v-if="item.isActive === 1 && (item.activeVariant.inventory_quantity > 0 || item.activeVariant.inventory_management === null)" @click="addToCart(item,'ATC')" v-show="!item.addingMsg">
+                                                                            <button data-btn-addtocart="" class="btn add-to-cart-btn" type="submit" :data-form-id=`#grid-product-form--${item.id}` v-if="item.isActive === 1 && item.activeVariant.inventory_quantity > 0" @click="addToCart(item,'ATC')" v-show="!item.addingMsg">
                                                                                 Add to bag
                                                                             </button>
                                                                             <button data-btn-addtocart="" class="btn add-to-cart-btn st-sold-out-button" type="submit" :data-form-id=`#grid-product-form--${item.id}` v-else>
