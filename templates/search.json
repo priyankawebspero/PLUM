@@ -1,14 +1,13 @@
 {
-    "sections": {
-      "search-page": {
-        "type": "search-page",
-        "settings": {
-        }
+  "sections": {
+    "search-page": {
+      "type": "search-page",
+      "disabled": true,
+      "settings": {
       }
-    },
-    "order": [
-      "search-page"
-    ]
-  }
-  
-  
+    }
+  },
+  "order": [
+    "search-page"
+  ]
+}
