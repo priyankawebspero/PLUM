@@ -128,6 +128,11 @@ h3.banner-heading {
     display: none !important;
 }
 
+.home-game-banner-section {
+    padding: 0px 15px 0px 15px;
+    margin: 50px 0 !important;
+}
+
 }
 
 @media only screen and (max-width:767px){
