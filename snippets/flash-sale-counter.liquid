@@ -26,8 +26,8 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("cart_cc").innerHTML =  "<span class='days countdown'><span class='ocount'>" + days + "</span><span class='inner'> DAYS </span> : </span><hr/>" + "<span class='hours countdown'><span class='ocount'>" + hours + "</span><span class='inner'> HOURS</span> : </span><hr/> <span class='minutes countdown'><span class='ocount'>"
-    + minutes + "</span><span class='inner'> MINUTES</span> : </span><hr><span class='seconds countdown'><span class='ocount'>" + seconds + "</span><span class='inner'>  SECONDS</span></span><hr> ";
+    document.getElementById("cart_cc").innerHTML =  "<span class='days countdown'><span class='ocount'>" + days + "</span><span class='inner'> D </span> : </span><hr/>" + "<span class='hours countdown'><span class='ocount'>" + hours + "</span><span class='inner'> H</span> : </span><hr/> <span class='minutes countdown'><span class='ocount'>"
+    + minutes + "</span><span class='inner'> M</span> : </span><hr><span class='seconds countdown'><span class='ocount'>" + seconds + "</span><span class='inner'>  S</span></span><hr> ";
 
     // If the count down is over, write some text 
     if (distance < 0) {
