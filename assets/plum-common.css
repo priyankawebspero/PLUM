@@ -5814,6 +5814,10 @@ div#dropdown-cart .counter_text span.side_text {
 
 /*--------------------product-watches-css-----*/
 
+.home-product-tabs .product-tabs-content .inner.product-item {
+    margin-top: 20px;
+}
+
 span.discount-tag-col.right {
     left: auto;
     right: 0;
