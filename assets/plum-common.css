@@ -5823,4 +5823,31 @@ span.discount-tag-col.right {
     display: none !important;
 }
 
-
+span.discount-tag-col.left.pink {
+    background: url('https://cdn.shopify.com/s/files/1/0390/2985/files/tag_new_pattern.png');
+    position: absolute;
+    left: -12px;
+    width: 115px;
+    height: 112px;
+    z-index: 21;
+    display: inline-block;
+    background-size: 100%;
+    top: -13px;
+    color: #fff;
+    background-repeat: no-repeat!important;
+}
+span.discount-tag-col.left.pink span {
+    transform: rotate(-45deg);
+    display: inline-block;
+    left: -18px;
+    top: 28px;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    width: auto;
+    font-size: 11px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+}
