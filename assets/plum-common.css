@@ -5596,7 +5596,7 @@ body .EmptyState .error_page .content-infos a.btn {
     margin: 0 auto 50px auto;
 }
 #searchModal .filter-container h4 {
-    font-family: "DINNextRoundedLTPro-Regular";
+    font-family: "DINNextRoundedLTPro-Regular" !important;
 }
 
 @media only screen and (min-width:768px){
