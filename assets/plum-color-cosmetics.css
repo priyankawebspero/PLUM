@@ -42,6 +42,10 @@ content:"";border-bottom:solid 2px #000;border-left:solid 2px #000;display:block
 .quantity_varients .swatch_top_class{padding-left:5px}
 .swatches .items.slick-slide{float:left}
 .swatch {position: relative; width: 100%;}
+.quantity_varients .swatch_top_class .swatch_selected {
+    display: none;
+}
+
 @media only screen and (min-width:768px) {
 .product-shop .price_info_box .price-manufacturer .sezzle-shopify-info-button{max-width:190px}
 }
