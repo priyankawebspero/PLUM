@@ -1345,6 +1345,14 @@ span#mobile-share-button {
 .product-related-outer .slick-list {
     padding: 0 !important;
 } 
+.related-products .product-item .action .btn, div#slider-related .action a.btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    min-width: inherit;
+    width: 100%;
+    max-width: 100% !important;
+}
+  
 }
 
 @media only screen and (max-width:501px) {
