@@ -5814,6 +5814,11 @@ div#dropdown-cart .counter_text span.side_text {
 
 /*--------------------product-watches-css-----*/
 
+
+.grid-item .product-item, .st-products .product-item {
+    overflow: visible;
+}
+
 .home-product-tabs .product-tabs-content .inner.product-item {
     margin-top: 20px;
 }
