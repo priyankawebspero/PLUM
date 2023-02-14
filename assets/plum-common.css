@@ -5616,6 +5616,10 @@ div#dropdown-cart .counter_text {
   padding: 15px 10px;
 }
 
+div#dropdown-cart .counter_text span.side_text {
+    font-family: "DINNextRoundedLTPro-Regular" !important;
+}
+
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
     margin-bottom: 30px !important;
