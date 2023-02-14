@@ -10,7 +10,7 @@
 .product-shop #product-variants .swatch .slick-next.slick-arrow:after{content:"\f0da";display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:block;font-size:35px;color:#5e0c8c;position:absolute;top:4px;line-height:20px;left:3px;bottom:0;margin:auto}
 .product-shop #product-variants .swatch .slick-prev.slick-arrow:after{content:"\f0d9";display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:block;font-size:35px;color:#5e0c8c;position:absolute;top:4px;line-height:20px;left:3px;bottom:0;margin:auto}
 .product-shop #product-variants .swatch .slick-arrow{font-size:0;border-radius:0;background:none;width:30px;height:30px}
-.product-shop #product-variants .swatch .swatch-element input:checked+label{transform:scale(1.2)}
+/*.product-shop #product-variants .swatch .swatch-element input:checked+label{transform:scale(1.2)}*/
 .product-shop #product-variants .swatch .swatch-element.color label{position:relative;transition:all .5s ease-in-out}
 .product-shop #product-variants .swatch .slick-list{padding-top:10px}
 .product-shop div#product-variants .quantity_varients.color label:before{content:"";border-bottom:solid 2px #000;border-left:solid 2px #000;display:block!important;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);border-radius:0!important;width:16px;height:10px;position:absolute;left:0;right:0;bottom:0;top:-8px;display:flex;justify-content:center;align-items:center;margin:auto;transition:all .5s ease-in-out;opacity:0;visibility:hidden}
