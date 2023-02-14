@@ -345,7 +345,7 @@ var boostPFSTemplate = {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> just launched </span>';
             }
             if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
-              itemLabelsHtml += '<span class="discount-tag-col left pink"> BUY 2 GET 2 FREE </span>';
+              itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
             }
         }
 		else {
@@ -359,7 +359,7 @@ var boostPFSTemplate = {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> just launched </span>';
             }
           if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
-              itemLabelsHtml += '<span class="discount-tag-col left pink"> BUY 2 GET 2 FREE </span>';
+              itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
             }
         }
         if (soldOut) {
