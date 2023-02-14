@@ -5654,7 +5654,11 @@ div#dropdown-cart .counter_text p .countdown span.ocount {
     vertical-align: middle;
     line-height: 25px;
     margin: 0 5px;
-    border: 1px solid #5f258a;
+    /* border: 1px solid rgb(95 37 138); */
+    color: #d6006d;
+    border-radius: 3px;
+    letter-spacing: 0;
+    box-shadow: 0 0 3px rgb(95 37 138 / 50%);
 }
 
 @media only screen and (min-width:768px){
