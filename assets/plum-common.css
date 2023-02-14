@@ -728,7 +728,7 @@ body.searchtap .wrapper-header.wrapper_header_parallax{min-height:82px!important
 }
 @media (max-width: 767px) {
 .login-register-page-info h2.main-title-name{font-size:40px}
-.cart-icon .cartCount,.iwish-icon .iWishCount{line-height:19px;padding-left:1px}
+.cart-icon .cartCount,.iwish-icon .iWishCount{line-height:20px;padding-left:0px}
 .iwish-icon.svg-mb.mobile-wishlist span.iWishCount{padding-left:2px}
 .icon-search img{max-height:25px}
 .cart-icon img{max-height:26px}
