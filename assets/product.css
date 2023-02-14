@@ -380,7 +380,7 @@ p.manufact-text,p.manufact-add{font-size:12px}
 .tooltip .tooltiptext{right:auto;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);top:60px}
 .product-template.product-template-default .melt_goodness{min-height:180px!important;background-position:center center!important;height:auto;background-size:140%!important;background-repeat:no-repeat;background-color:#e5d8ec}
 }
-@media (max-width: 360px) {
+@media (max-width: 350px) {
 .product-shop .price_info_box .price-manufacturer .sezzle-shopify-info-button{max-width:165px}
 .tooltip .tooltiptext{right:-179px;width:290px}
 .product-shop .prices span.price .money{font-size:16px!important}
