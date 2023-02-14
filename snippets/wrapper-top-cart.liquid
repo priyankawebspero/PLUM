@@ -111,7 +111,8 @@
       {% include 'flash-sale-counter'%}
     {%endif%}    
     <div class="actions">
-    <div class="summary">      
+    <div class="summary">   
+            {% include 'special_offer' %}
         <div class="total_cs_custom_dropcart">
          <span class="price_summary">Price Summary</span> 
       <div class="sub total">
@@ -144,7 +145,7 @@
           {{cart.total_price | money}}
         </span>
       </div>
-      {% include 'special_offer' %}
+
     </div>
     
     
