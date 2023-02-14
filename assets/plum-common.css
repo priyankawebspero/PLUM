@@ -5860,3 +5860,20 @@ span.discount-tag-col.left.pink span {
     text-transform: uppercase;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 991px){
+
+span.discount-tag-col.left.pink span {
+    left: -14px;
+    top: 20px;
+    font-size: 9px;
+}
+
+span.discount-tag-col.left.pink {
+    left: -9px;
+    width: 90px;
+    height: 90px;
+    top: -12px;
+}
+
+}
