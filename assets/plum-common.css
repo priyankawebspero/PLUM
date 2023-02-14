@@ -5613,6 +5613,7 @@ div#dropdown-cart .counter_text {
     align-items: center;
     background: #fdf6f7;
     margin: 10px 0;
+  padding: 15px 10px;
 }
 
 @media only screen and (min-width:768px){
