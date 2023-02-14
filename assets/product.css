@@ -1331,6 +1331,12 @@ span#mobile-share-button {
     padding-right: 0;
 }
 
+.product-shop div#product-variants .review_div {
+    border-right: inherit !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
 }
 
 
