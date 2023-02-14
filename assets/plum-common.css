@@ -5607,6 +5607,10 @@ body .EmptyState .error_page .content-infos a.btn {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
+
+.template-search #searchModal .product-item .product-bottom .price-box {
+    font-size: 16px;
+}
   
 .EmptyState .container {
     max-width: 100%;
