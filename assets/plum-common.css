@@ -5601,6 +5601,11 @@ body .EmptyState .error_page .content-infos a.btn {
 
 #searchModal .filter-header h4.filter-title{ font-family: "DINNextRoundedLTPro-Regular" !important;}
 
+#searchModal div#noResults {
+    font-size: 17px!important;
+    border: none !important;
+}
+
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
     margin-bottom: 30px !important;
