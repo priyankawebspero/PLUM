@@ -5604,6 +5604,7 @@ body .EmptyState .error_page .content-infos a.btn {
 #searchModal div#noResults {
     font-size: 17px!important;
     border: none !important;
+  padding: 14px 18px 14px!important;
 }
 
 @media only screen and (min-width:768px){
