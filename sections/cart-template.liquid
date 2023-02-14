@@ -37,11 +37,16 @@
       <li data-product_id="{{item.product_id}}" id="dta-{{item.product_id}}">
         <div class="details">
           <div class="cart-thumb">
-            <a class="product-img {% if item.product.tags contains 'Plum 999' %} plum_999{% endif %} {% if item.product.tags contains 'b1g1' %} b1g1{% endif %}  {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}" href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{ item.url | within: collections.all }}{%endif%}">
+            <a class="product-img" href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{ item.url | within: collections.all }}{%endif%}">
               <img data-src="{{ item | img_url: '160x' , format: 'pjpg'}}" src="{{ item | img_url: '160x' , format: 'pjpg'}}"  alt="{{ item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', ''  | escape }}" class="lazyautosizes lazyloaded"/>
                        {% if item.product.tags contains 'supersaver' %}<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>{% endif %}
-                       {% if item.product.tags contains 'gurleen' %}<span class="discount-tag-col pink">Any 3 at 1099</span>{% endif %}
-                       {% comment %}{% if item.product.tags contains 'b2g1' or item.product.tags contains 'B2G1'%}<span class="discount-tag-col pink">buy 2 get 1 free</span>{% endif %} {% endcomment %}
+                       {% if product.tags contains 'b2g2' or product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>{% endif %}
+                        <span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>
+                        {% if product.tags contains 'febnewlaunch' %}
+                          <span class="discount-tag-col right blue">newlaunch</span>
+                         {% elsif product.tags contains 'febbestseller' %} 
+                           <span class="discount-tag-col right blue">bestseller</span>
+                        {% endif %}
         </a>
           </div>
 
