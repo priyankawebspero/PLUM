@@ -1,12 +1,504 @@
 {
   "sections": {
-    "main-page": {
-      "type": "main-page",
+    "about-us": {
+      "type": "about-us",
       "settings": {
+      }
+    },
+    "1b21583a-c5a2-4de5-8d16-09ef525bad76": {
+      "type": "section_image_text_about",
+      "blocks": {
+        "template--15078076809276__1b21583a-c5a2-4de5-8d16-09ef525bad76-16734331153336edec-1": {
+          "type": "text",
+          "settings": {
+            "text_title": "MEET INDIA'S 1<sup>st<\/sup> <br> <span class=\"vegan\">100% VEGAN<\/span> <br>BEAUTY BRAND",
+            "text_heading": "We believe in <span class=\"vegan_nml\">goodness that delivers<\/span>",
+            "content": "Our cruelty-free skincare, makeup, haircare, and bodycare products  are made with formulations that are all about 'good science' that pairs natural ingredients with science-backed actives for goodness that truly does deliver.",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15078076809276__1b21583a-c5a2-4de5-8d16-09ef525bad76-16734331153336edec-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/meet-india_began_min.png",
+            "image_alignment_one": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15078076809276__1b21583a-c5a2-4de5-8d16-09ef525bad76-16734331153336edec-1",
+        "template--15078076809276__1b21583a-c5a2-4de5-8d16-09ef525bad76-16734331153336edec-0"
+      ],
+      "settings": {
+        "head_title": "",
+        "class": "top-section",
+        "block_image1": "shopify:\/\/shop_images\/No-animal-ingredients.png",
+        "head_title1": "We're 100% vegan which means we don't use any animal ingredients",
+        "block_image2": "shopify:\/\/shop_images\/No-harmful-chemicals.png",
+        "head_title2": "We only use well-researched natural and active ingredients",
+        "block_image3": "shopify:\/\/shop_images\/Recycle-with-us.png",
+        "head_title3": "We believe in sustainability and have our own recycling program <a href=\"https:\/\/plumgoodness.com\/pages\/recycle\">here<\/a>",
+        "block_image4": "shopify:\/\/shop_images\/animal-test-free.png",
+        "head_title4": "We don't test any of our products on animals and are PETA certified for being animal test-free"
+      }
+    },
+    "5cafdad2-4c83-4be4-b03b-9c8c9ff6a639": {
+      "type": "home-custom-block-spotlight-even-odd",
+      "blocks": {
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/extension-research_min.png",
+            "title": "We go deep when It comes to researching Ingredients to ensure they are not animal by-products",
+            "sub_title": "Extensive Research",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INNOVATIVE-FORMULATIONS-min.png",
+            "title": "Vegan alternatives may have different chemical compositions and reactions than regular ones and need innovative solutions",
+            "sub_title": "Innovative formulations",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no-ami-testing_min.png",
+            "title": "Neither the ingredients nor our products are tested on animals and we're PETA certified for being animal-test free",
+            "sub_title": "No animal testing",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        },
+        "31d65408-6213-45a7-97d2-e8ecf19d09cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cruelty-free-packaging-min.png",
+            "title": "Our packaging materials, limited edition bags, pouches, and more are all vegan and free of any animal ingredients",
+            "sub_title": "Cruelty-free packaging",
+            "link": "",
+            "columns": "one fourth size"
+          }
+        }
+      },
+      "block_order": [
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-0",
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-1",
+        "template--15078076809276__5cafdad2-4c83-4be4-b03b-9c8c9ff6a639-167343776268ee0cb9-2",
+        "31d65408-6213-45a7-97d2-e8ecf19d09cf"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "HOW WE MAKE<br> OUR PRODUCTS<br><b> VEGAN<\/b>",
+        "spotlight_block_des": "",
+        "title_style": "style_1",
+        "margin_bottom": 0
+      }
+    },
+    "656b3f57-d845-4c86-bec2-4320383b5aa5": {
+      "type": "timer-slider-about",
+      "blocks": {
+        "30d21a7b-6f51-4011-912c-7c311a923f9f": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2013_text.png",
+            "text": "Our journey begins towards building India’s 1st 100% vegan beauty brand!",
+            "image_bottom": "shopify:\/\/shop_images\/2013_journey-text.png",
+            "image_desk": "shopify:\/\/shop_images\/about_im_2013.jpg",
+            "year": "2013",
+            "link": ""
+          }
+        },
+        "template--15078076809276__656b3f57-d845-4c86-bec2-4320383b5aa5-16734366674282b070-0": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2014_text.png",
+            "text": "Our first ever product Hello Aloe Moisturiser came to life!",
+            "image_bottom": "shopify:\/\/shop_images\/hello_aloe_text_2014.png",
+            "image_desk": "shopify:\/\/shop_images\/about_2014_img.jpg",
+            "year": "2014",
+            "link": ""
+          }
+        },
+        "f2c8cabf-46bc-48be-a63d-70381ad773d6": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2017_text.png",
+            "text": "we took our first steps into the retail world and met you offline In Pune - fast forward to today and we're now In 300+ cities and towns!",
+            "image_bottom": "shopify:\/\/shop_images\/relate-world_2017_text.png",
+            "image_desk": "shopify:\/\/shop_images\/about_2017_slide_img.jpg",
+            "year": "2017",
+            "link": ""
+          }
+        },
+        "94eea45c-5cc1-486b-a38a-9e51314366cd": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2018_text.png",
+            "text": "We got our Series A funding! <br><br>After tons of requests from Plumsters, haircare plums were finally brought to life to give your hair a dose of goodness <br><br> We also launched our dedicated men’s care range - PHY",
+            "image_bottom": "shopify:\/\/shop_images\/hair_care_2018.png",
+            "image_desk": "shopify:\/\/shop_images\/about_im_2018_new.jpg",
+            "year": "2018",
+            "link": ""
+          }
+        },
+        "096fadde-f051-4b23-bd6a-e98542b40f5b": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2019-text.png",
+            "text": "Plum products started their international journey. We are now present in 15 countries worldwide",
+            "image_bottom": "shopify:\/\/shop_images\/going_international_im_2019.png",
+            "image_desk": "shopify:\/\/shop_images\/about_im_2019.jpg",
+            "year": "2019",
+            "link": ""
+          }
+        },
+        "7ee723af-7a17-440a-8350-13b1680b10e3": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2020_text.png",
+            "text": "We got our Series B funding! <br><br> You met our lockdown baby - Plum Bodylovin' for the first time ever and the love affair with fun fragrances began!",
+            "image_bottom": "shopify:\/\/shop_images\/body-loving_slide-2020.png",
+            "image_desk": "shopify:\/\/shop_images\/about_2020_img.jpg",
+            "year": "2020",
+            "link": ""
+          }
+        },
+        "0d0ee1c2-3db2-405c-8f29-bf48785fccff": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2021_text.png",
+            "text": "Our first ever exclusive store opened its doors at R City mall in Mumbai. We are now 10 stores old!",
+            "image_bottom": "shopify:\/\/shop_images\/store_launch_im_2021.png",
+            "image_desk": "shopify:\/\/shop_images\/about_2021_img.jpg",
+            "year": "2021",
+            "link": ""
+          }
+        },
+        "c216706f-7346-4aed-b6d1-290cda925206": {
+          "type": "image",
+          "settings": {
+            "image_top": "shopify:\/\/shop_images\/2022_text.png",
+            "text": "<ul>\n<li>We got our Series C funding!<\/li>\n<li>Plum brought skin loving makeup to your makeup kits<\/li>\n<li>We became a family of 250+ Plum People!<\/li>\n<\/ul>",
+            "image_bottom": "shopify:\/\/shop_images\/skin-loving-makeup-text.png",
+            "image_desk": "shopify:\/\/shop_images\/about_2022_img.jpg",
+            "year": "2022",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "30d21a7b-6f51-4011-912c-7c311a923f9f",
+        "template--15078076809276__656b3f57-d845-4c86-bec2-4320383b5aa5-16734366674282b070-0",
+        "f2c8cabf-46bc-48be-a63d-70381ad773d6",
+        "94eea45c-5cc1-486b-a38a-9e51314366cd",
+        "096fadde-f051-4b23-bd6a-e98542b40f5b",
+        "7ee723af-7a17-440a-8350-13b1680b10e3",
+        "0d0ee1c2-3db2-405c-8f29-bf48785fccff",
+        "c216706f-7346-4aed-b6d1-290cda925206"
+      ],
+      "settings": {
+        "heading_video": "",
+        "video_link1": ""
+      }
+    },
+    "5804b6d1-f588-4538-a3dc-2ff118346ff0": {
+      "type": "section_image_text",
+      "blocks": {
+        "template--15073256439868__5804b6d1-f588-4538-a3dc-2ff118346ff0-1672395838969402b0-1": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text_heading": "When a little girl can read this,  <b> she can write a better future.<\/b>",
+            "content": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/project_blackborad_logo_min.png?v=1670396187\">\n<span class=\"advance\">Advancing a million lives by educating the girl child.<\/span>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/project-blackboard",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        },
+        "template--15073256439868__5804b6d1-f588-4538-a3dc-2ff118346ff0-1672395838969402b0-0": {
+          "type": "image",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/girls_smile_image.png",
+            "block_image_mob": "shopify:\/\/shop_images\/updated-girl_samile_mobile_im.png",
+            "image_alignment_one": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15073256439868__5804b6d1-f588-4538-a3dc-2ff118346ff0-1672395838969402b0-1",
+        "template--15073256439868__5804b6d1-f588-4538-a3dc-2ff118346ff0-1672395838969402b0-0"
+      ],
+      "settings": {
+        "head_title": "",
+        "class": "left_dshboard",
+        "section_bg_image": "shopify:\/\/shop_images\/blackboardtop_bg_main.jpg",
+        "section_bg_color": "",
+        "section_margin_top": "",
+        "section_margin_bottom": "",
+        "section_padding_top": "",
+        "section_padding_right": "",
+        "section_padding_bottom": "",
+        "section_padding_left": ""
+      }
+    },
+    "ee7c9848-1b6b-4571-860c-98356cc12b1e": {
+      "type": "offer-slider",
+      "blocks": {
+        "template--15078076809276__ee7c9848-1b6b-4571-860c-98356cc12b1e-167342203768566ec3-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/country_hundred_plus_im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/country_hundred_plus_im.png",
+            "link": ""
+          }
+        },
+        "c9d404c4-9829-46b8-b724-1e13eb7925d2": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/fifteen_country_world_im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/fifteen_country_world_im.png",
+            "link": ""
+          }
+        },
+        "c67f9dae-fd62-47c0-a6cf-041acb10162e": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/eleven_brand_outlets_im.png",
+            "image_slide_mb": "shopify:\/\/shop_images\/eleven_brand_outlets_im.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15078076809276__ee7c9848-1b6b-4571-860c-98356cc12b1e-167342203768566ec3-0",
+        "c9d404c4-9829-46b8-b724-1e13eb7925d2",
+        "c67f9dae-fd62-47c0-a6cf-041acb10162e"
+      ],
+      "settings": {
+        "layout": "default",
+        "heading_slider": "meet us offline",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 30,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "true",
+        "dots_color": "#707979",
+        "dots_active_color": "#505656",
+        "dots_opacity": false,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "position_slick_arrow": "10%",
+        "min_width_banner_button": "",
+        "bg_video": "#866965",
+        "bg_overlay_opacity": 0,
+        "video_height": "",
+        "auto_playvideo": true
+      }
+    },
+    "0db77eab-bce3-47c1-afbb-91d69b832383": {
+      "type": "home-brands",
+      "blocks": {
+        "6b6a3511-4e84-4f6c-a608-1dc83b22075d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-1-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "d5bc8698-3085-45fe-9fe9-d09e14911f41": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-2-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "a0292a3e-973d-4f80-a720-e953d3121464": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-3-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "af3c5a8e-807e-41ef-8473-b7877de04c1f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-4-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "e903f2ca-d745-481c-8bef-61545f8bba2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-5-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "329dc3d7-9b98-4bb7-b4ef-c1d0308abe66": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-6-min.png",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        },
+        "72169729-9d48-4c64-b151-5b65381fe4d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-award-eight_min.jpg",
+            "title": "",
+            "description_band": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6b6a3511-4e84-4f6c-a608-1dc83b22075d",
+        "d5bc8698-3085-45fe-9fe9-d09e14911f41",
+        "a0292a3e-973d-4f80-a720-e953d3121464",
+        "af3c5a8e-807e-41ef-8473-b7877de04c1f",
+        "e903f2ca-d745-481c-8bef-61545f8bba2f",
+        "329dc3d7-9b98-4bb7-b4ef-c1d0308abe66",
+        "72169729-9d48-4c64-b151-5b65381fe4d5"
+      ],
+      "settings": {
+        "layout": "default",
+        "margin_bottom_mb": 0,
+        "margin_bottom_tab": 0,
+        "margin_bottom": 0,
+        "display_brand_border": false,
+        "brand_title": "awards",
+        "brand_des": "",
+        "banner_button": "",
+        "btn_link": "",
+        "title_style": "style_1",
+        "brand_rows": "5"
+      }
+    },
+    "58754020-7882-4abe-aa91-5b39b63cf803": {
+      "type": "home-blog-posts",
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "blog_posts": "concerns",
+        "blog_results_per_row": "2",
+        "post_limit": 9,
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "blog_post_title": "coverages",
+        "blog_post_des": "",
+        "title_style": "style_1",
+        "margin_bottom_mb": 20,
+        "margin_bottom_tab": 20,
+        "margin_bottom": 35
+      }
+    },
+    "78affa8e-ca00-446e-8513-0c2b9c018a4d": {
+      "type": "about-coverage",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/plum_ec3aebf0-5bf5-40be-bc96-3b177e41e7a9.jpg",
+        "title": "Plum unveils ad film with<br>\nBrand Ambassador<br>\nRashmika Mandanna.",
+        "description_band": "In today's fast-moving world,\ninnovation is everywhere, from\ntransportation to technology,\nresulting in faster and better\nsolutions to people's problems.\nBut when it comes to skincare,\nconsumers are still stuck in the past.",
+        "link": "https:\/\/www.financialexpress.com\/brandwagon\/d2c-brand-plum-unveils-ad-film-with-brand-ambassador-rashmika-mandanna\/2601247\/",
+        "image1": "shopify:\/\/shop_images\/ananya.jpg",
+        "title1": "Ananya Panday as<br>\nits brand ambassador",
+        "description_band1": "The actor will promote the brand’s\nbody mists, perfumes, and\ndeodorants in campaigns across\nmedia platforms, the company said",
+        "link1": "https:\/\/www.livemint.com\/industry\/advertising\/plum-bodylovin-appoints-ananya-pandey-as-brand-ambassador-11659543247189.html"
+      }
+    },
+    "8e5ef9f3-bf6f-4330-9a08-d67268dab62b": {
+      "type": "phy-collections-row",
+      "blocks": {
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-0": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/about_insta_one.png",
+            "image_mob": "shopify:\/\/shop_images\/about_insta_one_08808575-2f67-4133-bc99-c7d72636cde5.png",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/www.instagram.com\/reel\/CngPMVvhiuS\/?igshid=YmMyMTA2M2Y%3D"
+          }
+        },
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-1": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/2_8.jpg",
+            "image_mob": "shopify:\/\/shop_images\/2_8_4d5cf5a3-db48-4245-b5de-5b0341c3a91f.jpg",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/www.instagram.com\/reel\/CmqLETWBRcN\/?igshid=YmMyMTA2M2Y="
+          }
+        },
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-2": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/about_insta_three.png",
+            "image_mob": "shopify:\/\/shop_images\/about_insta_three.png",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/www.instagram.com\/reel\/CgOMKcfIERa\/?igshid=YmMyMTA2M2Y="
+          }
+        },
+        "9ffe5214-c799-4b5f-88c3-b1549f4f04fb": {
+          "type": "image",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/about_insta_four.png",
+            "image_mob": "shopify:\/\/shop_images\/about_insta_four.png",
+            "title": "",
+            "sub_title": "",
+            "link": "https:\/\/www.instagram.com\/reel\/CfBw814ogv3\/?igshid=YmMyMTA2M2Y%3D"
+          }
+        }
+      },
+      "block_order": [
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-0",
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-1",
+        "template--15078076809276__8e5ef9f3-bf6f-4330-9a08-d67268dab62b-1673437762cdc73aab-2",
+        "9ffe5214-c799-4b5f-88c3-b1549f4f04fb"
+      ],
+      "settings": {
+        "layout": "default",
+        "display_padding": false,
+        "spotlight_block_title": "come say hi  @plumgoodness",
+        "spotlight_block_des": "& hit follow for tutorials, tips, tricks and hacks!"
       }
     }
   },
   "order": [
-    "main-page"
+    "about-us",
+    "1b21583a-c5a2-4de5-8d16-09ef525bad76",
+    "5cafdad2-4c83-4be4-b03b-9c8c9ff6a639",
+    "656b3f57-d845-4c86-bec2-4320383b5aa5",
+    "5804b6d1-f588-4538-a3dc-2ff118346ff0",
+    "ee7c9848-1b6b-4571-860c-98356cc12b1e",
+    "0db77eab-bce3-47c1-afbb-91d69b832383",
+    "58754020-7882-4abe-aa91-5b39b63cf803",
+    "78affa8e-ca00-446e-8513-0c2b9c018a4d",
+    "8e5ef9f3-bf6f-4330-9a08-d67268dab62b"
   ]
 }
