@@ -458,5 +458,10 @@ span.select2-results .select2-results__options li[aria-selected="true"] {
     -moz-transform: translateX(-50%);
     top: 60px;
 }
+
+.product-shop .short-desc-datas {
+    padding-left: 15px;
+    padding-right: 15px;
+}
   
 }
