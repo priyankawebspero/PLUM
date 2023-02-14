@@ -1362,10 +1362,9 @@ span#mobile-share-button {
 @media only screen and (max-width:501px) {
 .product-related-outer .jdgm-preview-badge .jdgm-star.jdgm-star, .product-related-outer .product-item .jdgm-prev-badge__text {
     font-size: 12px;
-    padding-right: 2px !important;
+    padding-right: 1px !important;
 } 
 .product-related-outer .product-item .jdgm-prev-badge__text {
-  font-size: 11px;
     padding-right: 0 !important;
 }
 
