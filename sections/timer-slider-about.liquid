@@ -1,0 +1,161 @@
+<div class="featured-testimonials" id="featured-testimonial-{{section.id}}" >
+  <div class="container-padd60">
+    <div class="contain_testi_cs">
+      <img class="how_we_get_here" src="https://cdn.shopify.com/s/files/1/0390/2985/files/How-did-we-get-nml-text.png?v=1675856235">
+            {% if section.settings.banner_heading != blank %}
+            <h3 class="banner-heading"
+                style="{% if section.settings.font_size_banner_heading != blank %}
+                       font-size: {{ section.settings.font_size_banner_heading }};
+                       {% endif %}
+                       {% if section.settings.color_banner_heading != blank %}
+                       color:{{ section.settings.color_banner_heading }};
+                       {% endif %}">
+              {% include 'multilang' with section.settings.banner_heading  %}
+            </h3>
+            {% endif %}
+          <div class="widget-product">
+          <div class="products-grid row" data-init-slideshow-about data-row="1" data-dots="true">           
+              {% for block in section.blocks %}
+            <div class="grid-item col-12 col-md-12 col-lg-12">
+               <div class="year" style="display:none">{{ block.settings.year }}</div>
+             <div class="block-wrapper">
+              <div class="left">
+               {% if block.settings.image_top != blank %} <img src="{{ block.settings.image_top | img_url: 'master'  }}"> {% endif %}
+                {% if block.settings.text != blank %} <div>{{ block.settings.text }}</div> {% endif %}
+                {% if block.settings.image_bottom != blank %} <img src="{{ block.settings.image_bottom | img_url: 'master'  }}"> {% endif %}
+              </div>
+               <div class="right">
+                  <a href="{{ block.settings.link  }}">
+                    {%- assign img_url = block.settings.image_desk | img_url: '400x' , format: 'pjpg'-%}
+                    {% if img_url != blank %}
+                    <img data-src="{{ img_url }}"
+                         src="{{ img_url }}" alt="{{ block.settings.image_desk.alt | default: shop.name }}" itemprop="logo"
+                         class="lazyautosizes lazyload" data-sizes="auto">
+                    {% else %}
+                    <div class="not_img">
+                      725 x 640px
+                    </div>   
+                    {% endif %}
+                  </a> 
+               </div>
+            </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+     <div class="row">
+    <div class="col-sm-12">
+      <div class="video_heading">{{ section.settings.heading_video }}</div>
+            <div class="video-popup_main_cs">
+      <div class="video-popup">
+        <button type="button" class="" data-toggle="modal" data-target="#size-chart" style="border: 0; padding: 0;">
+          {% if section.settings.image_slide != blank %}<img data-src="{{section.settings.image_slide | img_url:'master', format: 'pjpg'}}" src="{{section.settings.image_slide | img_url:'master', format: 'pjpg'}}" style="border-radius: 8px;cursor:pointer" class="lazyautosizes lazyload slide-pc">{% endif %} 
+        </button>       
+        <!-- Start here -->
+        <div class="remodal" data-remodal-id="size-chart{{product_id}}" data-remodal-options="hashTracking: false">
+          <a data-remodal-action="close" class="remodal-close"></a>
+          <div class="details-page-size-chart">
+            <div class="modal fade" id="size-chart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="100%" class="youtube_frame" data-video-id="{{ section.settings.video_link1 }}" height="349" src="https://www.youtube.com/embed/{{ section.settings.video_link1 }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "Timer Slider About",
+	"class": "timer-slider",
+    "max_blocks": 10,
+    "settings": [ 
+	  {
+		"type": "header",
+		"content": "Banner Image"
+      },
+       {
+            "type": "text",
+            "id": "heading_video",
+            "label": "Heading Video"
+          },
+        {
+        "type": "image_picker",
+        "id": "image_slide",
+        "label" : "Select Image For Desktop",
+        "info": "Recommended Image: Width x Height (1880 x 720)px"
+        },
+        {
+        "type": "text",
+        "id": "video_link1",
+        "label": "YouTube video ID",
+        "default": "_9VUPq3SxOc",
+        "info": "[Find your YouTube video ID](https://docs.joeworkman.net/rapidweaver/stacks/youtube/video-id)."
+        }
+      
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "image",
+        "settings": [		  	
+          {
+            "type": "image_picker",
+            "id": "image_top",
+            "label": "Image Top",
+            "info":  "Small(370X240)"
+          },
+          {
+            "type": "html",
+            "id": "text",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_bottom",
+            "label": "Image bottom",
+            "info":  "Small(370X240)"
+          },{
+            "type": "image_picker",
+            "id": "image_desk",
+            "label": "Image Right",
+            "info":  "Small(370X240) / large(770x240)"
+          },
+          {
+            "type": "text",
+            "id": "year",
+            "label": "Year"
+          },
+           {
+            "type": "url",
+            "id": "link",
+            "label": "Product/Collection Link"
+          }
+        ]
+      }
+    ],
+	"presets": [
+      {
+        "name": "Timer Slider About",
+        "category": "Slide",
+          "blocks": [
+          {
+            "type": "image"
+          }
+        ]
+      }
+      
+    ]
+  }
+{% endschema %}
