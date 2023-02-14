@@ -5595,6 +5595,9 @@ body .EmptyState .error_page .content-infos a.btn {
 .article_search .article_list form {
     margin: 0 auto 50px auto;
 }
+#searchModal .filter-container h4 {
+    font-family: "DINNextRoundedLTPro-Regular";
+}
 
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
