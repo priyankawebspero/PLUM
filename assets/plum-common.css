@@ -5608,13 +5608,11 @@ body .EmptyState .error_page .content-infos a.btn {
 }
 
 div#dropdown-cart .counter_text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     background: #fdf6f7;
     margin: 10px 0;
   padding: 10px 10px;
-  gap: 5px;
+  text-align: center;
 }
 
 div#dropdown-cart .counter_text span.side_text {
@@ -5625,7 +5623,7 @@ div#dropdown-cart .counter_text span.side_text {
 div#dropdown-cart .counter_text p {
     display: flex;
     align-items: center;
-    /* gap: 10px; */
+    justify-content: center;
 }
 
 div#dropdown-cart .counter_text p hr {
