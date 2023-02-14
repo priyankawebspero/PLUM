@@ -15,22 +15,22 @@
       {% endif %}
     </div>
     {% endif %}
-    
+    <div class="cs-block-outer-ev-odd">
     <div class="row spotlight-{{ section.blocks.size }}-blocks">
        {% for block in section.blocks %}             
      {%- if block.settings.columns == '8'-%}
           {%- assign column_size = 'col-12 col-md-8' -%}
-        {% else %}
+        {% elsif block.settings.columns == '4' %}
           {%- assign column_size = 'col-6 col-md-6 col-lg-4' -%}
+       {%- else -%}
+          {%- assign column_size = 'col-6 col-md-6 col-lg-6' -%}
         {%- endif -%}
       <div class="{{ column_size }}">
         <div class="spotlight-item">
           <div class="img-box">
-            <a href="{{ block.settings.link }}" class="animate-scale">
-              {% if block.settings.image != blank %}
-            
-              {%- assign img_url = block.settings.image | img_url: 'original', crop: 'center' -%}
-
+            <a href="{{ block.settings.link }}">
+              {% if block.settings.image != blank %}            
+              {%- assign img_url = block.settings.image | img_url: 'original', crop: 'center' , format: 'pjpg'-%}
               <img data-src="{{ img_url }}"
                    src="https:{{ img_url }}" alt="{{ block.settings.image.alt | default: shop.name }}" itemprop="logo"
                    class="lazyautosizes lazyloaded" data-sizes="auto">
@@ -62,7 +62,7 @@
       </div>
       {% endfor %}
     </div>
-  </div>
+  </div></div>
 </div>
 
 <style>
@@ -106,7 +106,7 @@
             "default": false
         },
         {
-            "type": "text",
+            "type": "html",
             "id": "spotlight_block_title",
             "label": "Title",
             "default": "#Featured On Ella"
@@ -179,6 +179,9 @@
         "info": "Items columns",
         "options": [
          {
+            "value": "one sixth size",
+            "label": "2"
+          },{
             "value": "one fourth size",
             "label": "4"
           },{
