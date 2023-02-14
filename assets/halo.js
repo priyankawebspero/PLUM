@@ -222,6 +222,9 @@ if ((typeof Shopify.getCart) === 'undefined') {
         this.initSlideshow();
         this.initBrandsSlider();
       };
+     if(body.hasClass('template-page')) {
+        this.initSlideshowAbout();
+      };
 
       if(body.hasClass('template-index') || body.hasClass('template-page')) {
         this.initInfiniteScrollingHomepage();
