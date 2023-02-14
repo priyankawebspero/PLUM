@@ -1352,5 +1352,10 @@ span#mobile-share-button {
     font-size: 12px;
     padding-right: 2px !important;
 } 
+.product-related-outer .product-item .jdgm-prev-badge__text {
+  font-size: 12px;
+    padding-right: 0 !important;
+}
+  
 }
 
