@@ -1,0 +1,242 @@
+{{ 'about-us.min.css' | asset_url | stylesheet_tag }}
+<div class="gl_custom_{{section.id}}"{%- if section.settings.section_bg_image != blank %} data-bgset="{%- include 'bgset', image: section.settings.section_bg_image -%}" data-sizes="auto" data-parent-fit="cover" style="background-image: url('{{ section.settings.section_bg_image | img_url: 'master' }}')"{%- endif -%}>
+	{%- if section.settings.head_title != blank -%}
+		<div class="heading"><h3>{{ section.settings.head_title }}</h3></div>
+	{%- endif -%}
+<div class="container-padd60  {{ section.settings.class }}">
+<div class="row">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'image' -%}
+      <div class="spb_column gl_column_container col-md-6">
+          <div class="gl_column-inner gl_mb_4">
+            <div class="spb_wrapper gl_figure">
+              <div class="spb_single_image gl_mb_0 spb_content_element gl_align_{{ block.settings.image_alignment_one }}">
+                <figure class="spb_wrapper gl_figure">
+                  <div class="pr gl_single_image-wrapper gl_box_border_grey {{ block.settings.image_style_one }}">
+                    {%- if block.settings.block_image != blank -%}
+                    {%- assign image = block.settings.block_image -%}
+                    {%- assign img_url = image | img_url: 'master' -%}
+                    <img data-src="{{ img_url }}" src="{{ img_url }}" alt="{{ block.settings.image.alt | default: shop.name }}" class="lazyautosizes lazyloaded {%- if block.settings.block_image_mob != blank -%} pc-slide{%- endif -%}" data-sizes="auto">
+                    {%- else -%}
+                    <img width="600" height="442" src="https://cdn.shopify.com/s/files/1/1933/6253/files/portfolio-placeholder_555x555_crop_center.jpg?12790048884060573015">                            
+                    {%- endif -%}
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+       </div>
+      {%- when 'text' -%}
+      <div class="spb_column gl_column_container col-md-6">
+      <div class="gl_column-inner gl_mb_4">
+         <div class="spb_wrapper">
+           {%- if block.settings.text_title != blank -%}
+             <p style="font-size: 16px;color: #9b9b9b;line-height: 1;text-align: left" class="gl_custom_heading gl_mb_15">{{block.settings.text_title}}</p>
+            {%- endif -%}
+            {%- if block.settings.text_heading != blank -%}
+              <h2 style="font-size: 80px;color: #333333;line-height: 1;text-align: left" class="gl_custom_heading hidden-sm hidden-xs">{{block.settings.text_heading}}</h2>
+            {%- endif -%}
+            {%- if block.settings.text_heading != blank -%}
+              <h2 style="font-size: 45px;color: #333333;line-height: 1;text-align: left" class="gl_custom_heading hidden-lg hidden-md">{{block.settings.text_heading}}</h2>
+            {%- endif -%}
+            {%- if block.settings.content != blank -%}
+            <div class="spb_text_column spb_content_element gl_mb_25">
+               <div class="spb_wrapper">
+                  <p><span class="text-larger" style="color: #b1b1b1;">{{block.settings.content}}</span></p>
+               </div>
+            </div>
+            {%- endif -%}
+           {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
+           <div class="basel-button-wrapper text-center btn-inline"><a target="" rel="" title="" href="{{block.settings.button_link}}" class="btn btn-color-primary btn-style-default btn-size-default">{{block.settings.button_label}}</a></div>
+           {%- endif -%}
+        </div>
+         <div class="spb_wrapper">
+            {%- for block in section.blocks -%}
+               {%- if block.type == 'text' -%}
+                 {{block.settings.text_block}}
+               {%- endif -%}
+            {%- endfor -%}
+            {%- if section.settings.use_countdown -%}
+            <div class="basel-countdown-timer color-scheme-{{section.settings.countdown_color_scheme}} timer-align-{{section.settings.align}} timer-size-{{section.settings.size}} timer-style-{{section.settings.style}}">
+               <div class="basel-timer" data-end-date="{{section.settings.date}}"></div>
+            </div>
+            {%- endif -%}
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+            <div class="gl_empty_space" style="height: 25px"><span class="gl_empty_space_inner"></span></div>
+             <div class="basel-button-wrapper text-{{ section.settings.text_alignment }}">
+                <a href="{{ section.settings.button_link }}" class="btn btn-color-{{ section.settings.button_color }} btn-style-{{ section.settings.button_style }} btn-size-{{ section.settings.button_size }}">{{ section.settings.button_label }}</a>
+             </div>
+             {%- endif -%}
+         </div>
+      </div>
+   </div>
+      {%- if forloop.first -%}
+      <div class="spb_column gl_column_container gl_col-sm-1 gl_hidden-sm gl_hidden-xs"><div class="gl_column-inner "><div class="spb_wrapper"></div></div></div>
+      {%- endif -%}
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+  <div class="row">
+     <div class="bottom_about_style-sec">
+    {%- if section.settings.block_image1 and section.settings.head_title1 -%}<div class="col-3"><div class="image_block_inner"><div class="image_block_CGS"><img src="{{ section.settings.block_image1  | img_url: 'master' }}"></div><div class="text_block_CGS">{{ section.settings.head_title1 }}</div></div></div>{%- endif -%}
+    {%- if section.settings.block_image2 and section.settings.head_title2 -%}<div class="col-3"><div class="image_block_inner"><div class="image_block_CGS"><img src="{{ section.settings.block_image2  | img_url: 'master'}}"></div><div class="text_block_CGS">{{ section.settings.head_title2 }}</div></div></div>{%- endif -%}
+    {%- if section.settings.block_image3 and section.settings.head_title3 -%}<div class="col-3"><div class="image_block_inner"><div class="image_block_CGS"><img src="{{ section.settings.block_image3  | img_url: 'master'}}"></div><div class="text_block_CGS">{{ section.settings.head_title3 }}</div></div></div>{%- endif -%}
+    {%- if section.settings.block_image4 and section.settings.head_title4 -%}<div class="col-3"><div class="image_block_inner"><div class="image_block_CGS"><img src="{{ section.settings.block_image4  | img_url: 'master'}}"></div><div class="text_block_CGS">{{ section.settings.head_title4 }}</div></div></div>{%- endif -%}
+  </div> </div>
+</div>
+</div>
+{%- unless section.settings.row_stretch == 'default' -%}
+  <div class="gl_row-full-width gl_clearfix"></div>
+{%- endunless -%}
+{%- schema -%}
+  {
+    "name": "Image with text about",
+    "class": "index-section section_image_text_4 top_main-section",
+    "settings": [
+     {
+        "type": "header",
+        "content": "== Design Options"
+     },
+	{
+	  "type": "text",
+	  "id": "head_title",
+	  "label": "Title",
+	  "default":"Heading"
+	},
+	{
+	  "type": "text",
+	  "id": "class",
+	  "label": "Class"
+	},
+      {
+        "type": "image_picker",
+        "id": "block_image1",
+        "label": "Image 1"
+      },
+      {
+	  "type": "html",
+	  "id": "head_title1",
+	  "label": "Title1",
+	  "default":"Heading"
+	 },
+      {
+        "type": "image_picker",
+        "id": "block_image2",
+        "label": "Image 2"
+      },
+      {
+	  "type": "html",
+	  "id": "head_title2",
+	  "label": "Title2",
+	  "default":"Heading"
+	},
+      {
+        "type": "image_picker",
+        "id": "block_image3",
+        "label": "Image 3"
+      },
+      {
+	  "type": "html",
+	  "id": "head_title3",
+	  "label": "Title3",
+	  "default":"Heading"
+	},
+      {
+        "type": "image_picker",
+        "id": "block_image4",
+        "label": "Image 4"
+      },
+      {
+	  "type": "html",
+	  "id": "head_title4",
+	  "label": "Title4",
+	  "default":"Heading"
+	}
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Images gallery",
+        "limit": 1,
+        "settings": [
+             {
+              "type": "image_picker",
+              "id": "block_image",
+              "label": "Image Desktop"
+            },
+            {
+           "type": "select",
+           "id": "image_alignment_one",
+           "options": [
+             {
+               "value": "left",
+               "label": "Left"
+             },
+             {
+               "value": "right",
+               "label": "Right"
+             },
+             {
+               "value": "center",
+               "label": "Center"
+             }
+           ],
+           "label": "___ Image alignment",
+           "default": "center",
+           "info": "Select image alignment."
+         }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "Text Block",
+        "limit": 1,
+        "settings": [
+            {
+              "type": "html",
+              "id": "text_title",
+              "label": "Title",
+              "default":"AN EDIT OF OUR LATEST FAVOURITES"
+            },
+            {
+              "type": "html",
+              "id": "text_heading",
+              "label": "Heading",
+              "default":"Contrasting<br>Red Shirt"
+            },
+            {
+              "type": "textarea",
+              "id": "content",
+              "label": "Content",
+              "default":"There are many variations of passages of lorem ipsum available, but the majority have suffered alteration."
+            },
+            {
+              "type": "text",
+              "id": "button_label",
+              "label": "___ Button label"
+            },
+            {
+              "type": "url",
+              "id": "button_link",
+              "label": "___ Button link"
+            }
+         ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image with text About",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image"
+          },
+          {
+            "type": "text"
+          }
+         ]
+      }
+    ]
+  }
+{% endschema %}
