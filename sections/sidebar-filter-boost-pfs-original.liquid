@@ -9,9 +9,8 @@
 <div class="sidebar">
   <div class="sidebar-filter" data-has-collapse>
     {% if collection.title == 'Skin Care' or collection.handle == 'all-in-stock'  %}
-    <div class="filter-bar">
-	
-    {% for block in section.blocks %}  
+    <div class="filter-bar">	
+    {% for block in section.blocks %} 
 
     {% if block.type == 'filter_color' %}
     {% if block.settings.enable %}
