@@ -1,11 +1,11 @@
     <div class="special_offer_p">
-        {% if cart.total_price > 59800 and cart.total_price < 99900%}
-      <div class="offer_congrats"><p class="first_color">add 1 more products to cart & get the <b>lowest 2 for FREE</b></p></div> 
-      {% elsif cart.total_price > 99900 and cart.total_price < 179900 %}
+        {% if cart.item_count == 1 %}
+      <div class="offer_congrats"><p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p></div> 
+      {% elsif cart.item_count > 1 and cart.item_count <= 2 %}
         <div class="offer_congrats"><p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p> </div> 
-      {% elsif cart.total_price > 179900 and cart.total_price < 249800 %}
-        <div class="offer_congrats"><p class="third_color">add 3 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
-      {% elsif cart.total_price > 249800  %}
+      {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
+        <div class="offer_congrats"><p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
+      {% elsif cart.item_count => 4  %}
         <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
       {% endif %}
       {% assign cartprice1 = settings.cart_price | plus: 0 | times: 100%}
@@ -131,16 +131,16 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-  if(cart.total_price > 59900 && cart.total_price < 99900){ 
-     $('.special_offer_p .offer_congrats').html('<p class="first_color">add 1 more products to cart & get the <b>lowest 2 for FREE</b></p>');
+  if(cart.item_count == 1){ 
+     $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p>');
    }
-  else if (cart.total_price > 99900 && cart.total_price < 179900){
+  else if (cart.item_count > 1 && cart.item_count <= 2){
       $('.special_offer_p .offer_congrats').html('<p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p>');
    }
-  else if (cart.total_price > 179900 && cart.total_price < 249800){
-      $('.special_offer_p .offer_congrats').html('<p class="third_color">add 3 more products to cart <b>get the lowest 2 for FREE</b></p>');
+  else if (cart.item_count > 2 && cart.item_count <= 3){
+      $('.special_offer_p .offer_congrats').html('<p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p>');
    }
-  else if (cart.total_price > 249800){
+  else if (cart.item_count => 4){
         $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
   }
 }  
