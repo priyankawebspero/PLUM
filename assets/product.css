@@ -1352,6 +1352,10 @@ span#mobile-share-button {
     width: 100%;
     max-width: 100% !important;
 }
+
+.product-related-outer .product-item .product-bottom {
+    padding: 0 8px!important;
+}
   
 }
 
@@ -1363,6 +1367,10 @@ span#mobile-share-button {
 .product-related-outer .product-item .jdgm-prev-badge__text {
   font-size: 11px;
     padding-right: 0 !important;
+}
+
+.product-related-outer .product-item .product-bottom {
+    padding: 0 8px!important;
 }
   
 }
