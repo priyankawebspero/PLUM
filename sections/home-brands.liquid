@@ -38,9 +38,11 @@
         </div>
         {% endfor %}
       </div>
+  {% if section.settings.banner_button != blank %}
       <div style="text-align: center; margin-top: 20px;">
         <a href="{{  section.settings.btn_link }}"  class="btn">{{  section.settings.banner_button }}</a>
       </div>
+    {% endif %}
     </div>
   </div>
 </section>
