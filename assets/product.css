@@ -16,7 +16,7 @@ p.manufact-add{text-align:end;width:55%;font-size:14px}
 .tab-content{display:none}
 .tab-content.current{display:block}
 .product-template.product-template-default{margin:0 auto}
-.product-label .label.sale-label{font-weight:600;right:0;left:0;line-height:1.4;font-size:12px}
+.product-label .label.sale-label{font-weight:500;right:0;left:0;line-height:1.4;font-size:12px}
 .product_top .col-md-4.product-shop{margin-top:0}
 .tabs__product-page .list-tabs li.tab-title a{font-family: "DINNextRoundedLTPro-Medium"; min-width:200px;font-size:18px!important;padding:10px 25px!important}
 .product-template.product-template-default .product.row.product-default > .fw-section{width:100%;max-width:100%}
