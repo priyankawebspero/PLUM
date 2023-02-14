@@ -5733,6 +5733,10 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
     padding-right: 10px;
 }
 
+  .home-collection-carousel .banner-heading {
+    margin-bottom: 10px;
+}
+
 .home-collection-carousel .products-grid.row {
     justify-content: center;
     margin-left: -10px;
