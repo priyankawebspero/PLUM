@@ -1275,6 +1275,12 @@ span#mobile-share-button{display:none;}
 
 }
 
+@media only screen and (max-width:575px) {
+.product-related-outer .slick-list {
+    padding: 0 !important;
+} 
+}
+
 @media only screen and (max-width:767px){
 
 .product-shop .share.icons {
