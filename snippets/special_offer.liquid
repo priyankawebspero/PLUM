@@ -5,7 +5,7 @@
         <div class="offer_congrats"><p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p> </div> 
       {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
         <div class="offer_congrats"><p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
-      {% elsif cart.item_count => 4  %}
+      {% elsif cart.item_count > 3  %}
         <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
       {% endif %}
       {% assign cartprice1 = settings.cart_price | plus: 0 | times: 100%}
@@ -140,7 +140,7 @@ window.cartSpecialUpdate = function(cart) {
   else if (cart.item_count > 2 && cart.item_count <= 3){
       $('.special_offer_p .offer_congrats').html('<p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p>');
    }
-  else if (cart.item_count => 4){
+  else if (cart.item_count > 3){
         $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
   }
 }  
