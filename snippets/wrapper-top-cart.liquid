@@ -48,9 +48,13 @@
       <li class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} " id="cart-item-{{item.id}}" data-variant="{{ item.id }}" data-id="{{ item.product.id }}" data-price="{{item.price}}">
         <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
           <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
-        {% comment %}{% if item.product.tags contains 'supersaver' %}<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>{% endif %} 
-          {% if item.product.tags contains 'gurleen' %}<span class="discount-tag-col pink">any 3 at 1099</span>{% endif %}{% endcomment %}
-         {% if item.product.tags contains 'b2g2' or item.product.tags contains 'B2G2'%}<span class="discount-tag-col pink">buy 2 get 2</span>{% endif %}
+            {% if product.tags contains 'b2g2' or product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>{% endif %}
+                        <span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>
+                        {% if product.tags contains 'febnewlaunch' %}
+                          <span class="discount-tag-col right blue">newlaunch</span>
+                         {% elsif product.tags contains 'febbestseller' %} 
+                           <span class="discount-tag-col right blue">bestseller</span>
+                        {% endif %}
         </a>
         <div class="product-details">
           <div class="pro-name-and-price">
