@@ -5646,7 +5646,9 @@ body .EmptyState .error_page .content-infos a.btn {
     margin-top: 0;
 }
 
-
+div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-heading .on_active {
+    font-family: "DINNextRoundedLTPro-Regular" !important;
+}
   
 }
 
