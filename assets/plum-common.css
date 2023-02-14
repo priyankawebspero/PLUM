@@ -5718,7 +5718,7 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
 }
 
 @media only screen and (min-width:1199px){
-.featured-collection .products-grid.row .grid-item {
+.home-collection-carousel .products-grid.row .grid-item {
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -5726,14 +5726,14 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
 
 @media only screen and (max-width:767px){
 
-.featured-collection .products-grid.row .grid-item {
+.home-collection-carousel .products-grid.row .grid-item {
     margin-bottom: 10px;
     margin-top: 10px;
    padding-left: 10px;
     padding-right: 10px;
 }
 
-.featured-collection .products-grid.row {
+.home-collection-carousel .products-grid.row {
     justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
