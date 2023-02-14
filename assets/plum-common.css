@@ -5729,7 +5729,16 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
 .featured-collection .products-grid.row .grid-item {
     margin-bottom: 10px;
     margin-top: 10px;
+   padding-left: 10px;
+    padding-right: 10px;
 }
+
+.featured-collection .products-grid.row {
+    justify-content: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
 
 .article_search h2 {
     margin-bottom: 10px;
