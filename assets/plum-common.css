@@ -5792,3 +5792,18 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
 
 }
 
+@media only screen and (max-width:479px){
+
+div#dropdown-cart .counter_text {
+    align-items: flex-start;
+    gap: 3px;
+    /* white-space: nowrap; */
+}
+
+div#dropdown-cart .counter_text span.side_text {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+}
+
