@@ -5812,3 +5812,11 @@ div#dropdown-cart .counter_text span.side_text {
 
 }
 
+/*--------------------product-watches-css-----*/
+
+span.discount-tag-col.right {
+    left: auto;
+    right: 0;
+}
+
+
