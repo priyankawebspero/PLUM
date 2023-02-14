@@ -5614,10 +5614,26 @@ div#dropdown-cart .counter_text {
     background: #fdf6f7;
     margin: 10px 0;
   padding: 15px 10px;
+  gap: 5px;
 }
 
 div#dropdown-cart .counter_text span.side_text {
     font-family: "DINNextRoundedLTPro-Regular" !important;
+    font-size: 15px;
+}
+
+div#dropdown-cart .counter_text p {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+div#dropdown-cart .counter_text p hr {
+    display: none;
+}
+
+div#dropdown-cart .counter_text p .countdown {
+    font-size: 0;
 }
 
 @media only screen and (min-width:768px){
