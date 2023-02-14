@@ -5717,13 +5717,6 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
   
 }
 
-@media only screen and (min-width:1199px){
-.home-collection-carousel .products-grid.row .grid-item {
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-}
-
 @media only screen and (max-width:767px){
 
 .article_search h2 {
