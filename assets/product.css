@@ -1275,11 +1275,7 @@ span#mobile-share-button{display:none;}
 
 }
 
-@media only screen and (max-width:575px) {
-.product-related-outer .slick-list {
-    padding: 0 !important;
-} 
-}
+
 
 @media only screen and (max-width:767px){
 
@@ -1345,5 +1341,16 @@ span#mobile-share-button {
 
 }
 
+@media only screen and (max-width:575px) {
+.product-related-outer .slick-list {
+    padding: 0 !important;
+} 
+}
 
+@media only screen and (max-width:501px) {
+.product-related-outer .jdgm-preview-badge .jdgm-star.jdgm-star, .product-related-outer .product-item .jdgm-prev-badge__text {
+    font-size: 12px;
+    padding-right: 2px !important;
+} 
+}
 
