@@ -239,6 +239,9 @@ if ((typeof Shopify.getCart) === 'undefined') {
         this.historyAdapter();
         this.initInfiniteScrolling();
         this.initPaginationPage();
+        $('.filter_area .sidebar-heading').on('click', function(){
+            $('.filter_area').toggleClass('active');
+        });
       }
 
       if(body.hasClass('template-collection')) {
