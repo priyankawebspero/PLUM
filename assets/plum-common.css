@@ -662,7 +662,7 @@ div#instafeed{margin:0;display:none}
 .template-search #searchModal .product-item .product-bottom .price-box{font-size:15px;font-weight:500;margin-top:5px;margin-bottom:5px}
 .template-search #searchModal .product-item .product-bottom .price-box:before{content:"";width:70px;height:2px;background:#5c0f8b;display:block;margin:0 auto 10px;bottom:0;left:0;right:0}
 .template-search #searchModal .product-item .product-bottom .action{margin-bottom:0;position:absolute;bottom:0;left:0;width:100%;max-width:100%}
-.template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn{background:#5e0d8b;color:#fff!important;font-size:19px;border-radius:5px;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto;box-shadow:none;margin-top:7px;text-transform:lowercase!important;min-width:165px;margin-bottom:0}
+.template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn{background:#5e0d8b;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto;box-shadow:none;margin-top:7px;text-transform:lowercase!important;min-width:165px;margin-bottom:0}
 .template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn:hover{color:#fff;background:#8901bd}
 .template-search #searchModalContainer{padding-bottom:20px}
 #searchModal .product-label{right:0;top:-15px}
