@@ -5599,6 +5599,8 @@ body .EmptyState .error_page .content-infos a.btn {
     font-family: "DINNextRoundedLTPro-Regular" !important;
 }
 
+#searchModal .filter-header h4.filter-title{ font-family: "DINNextRoundedLTPro-Regular" !important;}
+
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
     margin-bottom: 30px;
