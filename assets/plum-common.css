@@ -2328,9 +2328,10 @@ div#shopify-section-related-blod-sec {
 }
 
 div#dropdown-cart {
-    overflow: auto;
+    /* overflow-x: auto; */
+    overflow: hidden;
+    overflow-y: auto;
 }
-
 #dropdown-cart .best-sell-product .inner-top .product-bottom .jdgm-widget.jdgm-preview-badge {
     display: none !important;
 }
