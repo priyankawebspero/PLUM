@@ -5638,8 +5638,23 @@ div#dropdown-cart .counter_text p .countdown {
 }
 
 div#dropdown-cart .counter_text p .countdown span {
-    font-size: 15px;
+    font-size: 14px;
     font-family: "DINNextRoundedLTPro-Regular" !important;
+    min-height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+div#dropdown-cart .counter_text p .countdown span.ocount {
+    background: #fff;
+    min-width: 25px;
+    min-height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+    margin: 0 5px;
+    border: 1px solid #5f258a;
 }
 
 @media only screen and (min-width:768px){
