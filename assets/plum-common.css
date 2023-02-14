@@ -5597,6 +5597,12 @@ body .EmptyState .error_page .content-infos a.btn {
 }
 
 @media only screen and (min-width:768px){
+.st-col-md-4.st-products {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
 .EmptyState .container {
     max-width: 100%;
     padding-left: 0;
