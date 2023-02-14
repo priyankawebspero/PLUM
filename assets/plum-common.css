@@ -5608,11 +5608,13 @@ body .EmptyState .error_page .content-infos a.btn {
 }
 
 div#dropdown-cart .counter_text {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fdf6f7;
     margin: 10px 0;
   padding: 10px 10px;
-  text-align: center;
+  gap: 5px;
 }
 
 div#dropdown-cart .counter_text span.side_text {
