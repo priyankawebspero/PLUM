@@ -5737,6 +5737,10 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
     margin-bottom: 10px !important;
 }
 
+.home-collection-carousel .widget-product .block-wrapper span.title_block {
+    font-size: 14px;
+}
+
 .home-collection-carousel .products-grid.row {
     justify-content: center;
     margin-left: -10px;
