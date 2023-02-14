@@ -1,12 +1,12 @@
     <div class="special_offer_p">
         {% if cart.total_price > 59800 and cart.total_price < 99900%}
-      <div class="offer_congrats"><p class="first_color">Coupon unlocked - Flat 150 off ,use code : <b>PLUM150</b> at checkout</p> </div> 
+      <div class="offer_congrats"><p class="first_color">add 1 more products to cart & get the <b>lowest 2 for FREE</b></p></div> 
       {% elsif cart.total_price > 99900 and cart.total_price < 179900 %}
-        <div class="offer_congrats"><p class="sec_color">Coupon unlocked - Get lip n cheek tint worth Rs 499 for free , use code : <b>BLUSH</b> at checkout</p> </div> 
+        <div class="offer_congrats"><p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p> </div> 
       {% elsif cart.total_price > 179900 and cart.total_price < 249800 %}
-        <div class="offer_congrats"><p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p></div>  
+        <div class="offer_congrats"><p class="third_color">add 3 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
       {% elsif cart.total_price > 249800  %}
-        <div class="offer_congrats"><p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p></div>  
+        <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
       {% endif %}
       {% assign cartprice1 = settings.cart_price | plus: 0 | times: 100%}
       {% assign cartprice2 = settings.cart_price_second | plus: 0 | times: 100%}
@@ -135,13 +135,13 @@ window.cartSpecialUpdate = function(cart) {
      $('.special_offer_p .offer_congrats').html('<p class="first_color">Coupon unlocked - Flat 150 off ,use code : <b>PLUM150</b> at checkout</p>');
    }
   else if (cart.total_price > 99900 && cart.total_price < 179900){
-      $('.special_offer_p .offer_congrats').html('<p class="sec_color">Coupon unlocked - Get lip n cheek tint worth Rs 499 for free , use code : <b>BLUSH</b> at checkout</p>');
+      $('.special_offer_p .offer_congrats').html('<p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p>');
    }
   else if (cart.total_price > 179900 && cart.total_price < 249800){
-      $('.special_offer_p .offer_congrats').html('<p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p>');
+      $('.special_offer_p .offer_congrats').html('<p class="third_color">add 3 more products to cart <b>get the lowest 2 for FREE</b></p>');
    }
   else if (cart.total_price > 249800){
-        $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p>');
+        $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
   }
 }  
 
