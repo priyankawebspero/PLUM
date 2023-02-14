@@ -5607,6 +5607,14 @@ body .EmptyState .error_page .content-infos a.btn {
   padding: 14px 18px 14px!important;
 }
 
+div#dropdown-cart .counter_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdf6f7;
+    margin: 10px 0;
+}
+
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
     margin-bottom: 30px !important;
