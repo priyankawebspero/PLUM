@@ -413,6 +413,7 @@
         },
         "ab77b8ac-5d96-4a3d-9012-a087eb689cd7": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/Dry-Skin_Concern-Images_Desktop_224X224_1.jpg",
             "title": "",
