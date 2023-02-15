@@ -1443,6 +1443,10 @@ span#mobile-share-button {
 .product_top span.discount-tag-col {
     font-size: 14px;
 }
+
+.product_top span.discount-tag-col.pink {
+    width: 50px;
+}
   
 }
 
