@@ -133,7 +133,7 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-  if(cart.item_count == 1){ 
+  if(cart.item_count === 1){ 
      $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p>');
    }
   else if (cart.item_count > 1 && cart.item_count <= 2){
