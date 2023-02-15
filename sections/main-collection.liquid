@@ -47,10 +47,11 @@
       <img data-src="{{ collection_mobile_banner }}" src="{{ collection_mobile_banner }}" class="lazyautosizes lazyloaded">
       {% if collection.metafields.custom.collection_banner_link %}</a>{% endif %}
       {% endif %}
-    </div>    
+    </div>  
+    {% if section.settings.timer_true %} {% include 'count-down-b2g2' %}{% endif %}
   </div>
 <div class="container">
-     {% if section.settings.timer_true %} {% include 'count-down-b2g2' %}{% endif %}
+     
     <div class="collection_navigation">
     <ul class="collection_nav">
         {%- comment %} 
