@@ -3335,4 +3335,9 @@ span.st-size-swatch {
     top: -9px;
 }
 
+.st-sorting-wrapper .list li button {
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
 }
