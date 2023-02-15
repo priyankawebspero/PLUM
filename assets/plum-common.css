@@ -5670,10 +5670,10 @@ div#dropdown-cart .counter_text p .countdown span.ocount {
 }
 
 
-div#dropdown-cart .freebodywash {
+div#dropdown-cart .freebodywash p {
     background: #fdf6f7;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     font-size: 15px;
     font-family: DINNextRoundedLTPro-Regular!important;
 }
@@ -5919,7 +5919,7 @@ span.discount-tag-col.left.pink span {
 
 @media only screen and (max-width:767px){
 
-div#dropdown-cart .freebodywash {
+div#dropdown-cart .freebodywash p {
     /* line-height: 1; */
     font-size: 14px;
     line-height: 1.2;
