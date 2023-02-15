@@ -665,7 +665,7 @@ div#instafeed{margin:0;display:none}
 .template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn{background:#5e0d8b;color:#fff!important;font-size:18px;border-radius:5px;padding:10px 15px;min-width:inherit;font-weight:700;min-height:inherit;width:auto;box-shadow:none;margin-top:7px;text-transform:lowercase!important;min-width:165px;margin-bottom:0}
 .template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn:hover{color:#fff;background:#8901bd}
 .template-search #searchModalContainer{padding-bottom:20px}
-#searchModal .product-label{right:0;top:-15px}
+#searchModal .product-label{right:0;top:0px}
 #searchModal h2.page-heading{color:#000}
 #searchModal h2.page-heading+h2{color:#5e0c8c;margin-bottom:40px;font-weight:500;text-transform:lowercase}
 body.searchtap .wrapper-header.wrapper_header_parallax{min-height:112px!important}
@@ -762,7 +762,7 @@ a.icon-nav.menu-open{left:303px!important}
 .product-label .label.sale-label{font-size:11px}
 #searchModal .product-label .label{font-size:10px}
 .template-search #searchModalContainer .col-lg-4.st-products{margin-bottom:10px}
-#searchModal .product-label{right:0!important;top:-3px;width:30px;padding-top:0}
+#searchModal .product-label{right:0!important;top:0px;width:30px;padding-top:0}
 .template-search #searchModal .product-item .product-bottom .action .btn.add-to-cart-btn{font-size:16px;width:100%;min-width:inherit;max-width:100%;padding:8px}
 .template-search #searchModal .product-item .product-bottom{padding-bottom:45px}
 .template-search #searchModal .product-item .product-bottom .price-box{font-size:13px;margin-top:5px;margin-bottom:5px}
