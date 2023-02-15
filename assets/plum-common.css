@@ -6006,6 +6006,10 @@ span.discount-tag-col.left.pink span {
     z-index: 0;
 }
 
+span.discount-tag-col.right {
+    display: none!important;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
