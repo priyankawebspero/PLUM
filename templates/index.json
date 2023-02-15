@@ -249,6 +249,15 @@
         "banner-class": ""
       }
     },
+    "19c7a6bf-9227-4880-8db6-73cccba4fab6": {
+      "type": "home-game-banner",
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Slider_Haircare_VBF_B2G2_Desk_d9b1a728-67f4-4cfd-b5cd-238ee7841152.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_Haircare_VBF_B2G2_Mob_56aad171-8bbf-41d9-a779-476cc9c82a66.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/hair",
+        "banner-class": ""
+      }
+    },
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
       "type": "home-game-banner",
       "settings": {
@@ -338,16 +347,6 @@
       ],
       "settings": {
         "banner_heading": "now trending"
-      }
-    },
-    "19c7a6bf-9227-4880-8db6-73cccba4fab6": {
-      "type": "home-game-banner",
-      "disabled": true,
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Slider_Haircare_VBF_B2G2_Desk_d9b1a728-67f4-4cfd-b5cd-238ee7841152.webp",
-        "image_mobile": "shopify:\/\/shop_images\/Slider_Haircare_VBF_B2G2_Mob_56aad171-8bbf-41d9-a779-476cc9c82a66.webp",
-        "link": "https:\/\/plumgoodness.com\/collections\/hair",
-        "banner-class": ""
       }
     },
     "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
@@ -653,9 +652,9 @@
     "1658484860c65081e1",
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
+    "19c7a6bf-9227-4880-8db6-73cccba4fab6",
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "3db694fd-7636-4497-9460-50a299545216",
-    "19c7a6bf-9227-4880-8db6-73cccba4fab6",
     "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe",
     "d54ce796-9ef4-4208-b3be-50e95f142574",
