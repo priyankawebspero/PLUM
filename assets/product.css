@@ -1432,7 +1432,9 @@ span#mobile-share-button {
 .product-related-outer .widget-title h3.box-title {
     margin-bottom: 10px;
 }
-
+#loyaltylion .lion-loyalty-widget_position_left {
+    display: none;
+}
   
 }
 
