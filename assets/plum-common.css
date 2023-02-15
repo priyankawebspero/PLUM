@@ -5881,6 +5881,10 @@ span.discount-tag-col.left.pink span {
     height: 52px;
 }
 
+#dropdown-cart .has-items {
+    padding-top: 12px;
+}
+
 @media only screen and (max-width: 991px){
 
 span.discount-tag-col.left.pink span {
