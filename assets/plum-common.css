@@ -5930,6 +5930,10 @@ span.discount-tag-col.lightpurple {
     padding-right: 15px;
 }
 
+div#dropdown-cart .freebodywash p {
+    margin-bottom: 8px;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
