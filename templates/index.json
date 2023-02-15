@@ -243,9 +243,9 @@
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
       "type": "home-game-banner",
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/150-OFF_CP_BAU_Desk_1270X300_d274df9a-4b09-449f-8115-28887ec24e46.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/150-OFF_CP_BAU_Mob_680X300_c46330ec-d7e0-4ebc-b33f-48572a3c3d56.jpg",
-        "link": "https:\/\/plumgoodness.com\/collections\/single-products-offer",
+        "banner-id": "shopify:\/\/shop_images\/Slider_Bodycare_VBF_B2G2_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_Bodycare_VBF_B2G2_Mob.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/plum-bodylovin-single-product-offer",
         "banner-class": ""
       }
     },
