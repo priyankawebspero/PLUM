@@ -199,14 +199,6 @@
             "collection": "single-products-offer"
           }
         },
-        "a182cbe3-bad8-4303-891d-d9993e718f3c": {
-          "type": "ProductTabs",
-          "disabled": true,
-          "settings": {
-            "title": "super savers",
-            "collection": "deal-of-the-day"
-          }
-        },
         "d425ca12-8863-43a8-bb21-c55ab7e7dfe7": {
           "type": "ProductTabs",
           "disabled": true,
@@ -221,13 +213,20 @@
             "title": "new launches",
             "collection": "new-launches"
           }
+        },
+        "a182cbe3-bad8-4303-891d-d9993e718f3c": {
+          "type": "ProductTabs",
+          "settings": {
+            "title": "combos",
+            "collection": "combos"
+          }
         }
       },
       "block_order": [
         "390f1115-9afa-4b5a-b2f9-1ee0848b3b67",
-        "a182cbe3-bad8-4303-891d-d9993e718f3c",
         "d425ca12-8863-43a8-bb21-c55ab7e7dfe7",
-        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16"
+        "ae8c6ecf-f3fd-413f-9b4a-904a8f475d16",
+        "a182cbe3-bad8-4303-891d-d9993e718f3c"
       ],
       "settings": {
         "product_tabs_title": "best of plum",
