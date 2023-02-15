@@ -1447,6 +1447,10 @@ span#mobile-share-button {
 .product_top span.discount-tag-col.pink {
     width: 53px;
 }
+
+.product-related-outer .widget-title h3.box-title {
+    font-size: 28px!important;
+}
   
 }
 
