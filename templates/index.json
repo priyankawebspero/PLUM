@@ -258,15 +258,6 @@
         "banner-class": ""
       }
     },
-    "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
-      "type": "home-game-banner",
-      "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Desk.webp",
-        "image_mobile": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Mob.webp",
-        "link": "https:\/\/plumgoodness.com\/collections\/phy-x-plum",
-        "banner-class": ""
-      }
-    },
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539": {
       "type": "home-game-banner",
       "settings": {
@@ -356,6 +347,16 @@
       ],
       "settings": {
         "banner_heading": "now trending"
+      }
+    },
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
+      "type": "home-game-banner",
+      "disabled": true,
+      "settings": {
+        "banner-id": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Mob.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/phy-x-plum",
+        "banner-class": ""
       }
     },
     "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe": {
@@ -652,9 +653,9 @@
     "2a52dc9c-dbcc-45cf-a1bd-61707fe17eac",
     "1f788b1a-a711-4b96-9914-c02f0b9316f4",
     "19c7a6bf-9227-4880-8db6-73cccba4fab6",
-    "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "4213f99a-92e9-4fb6-8e4d-d3cad8e77539",
     "3db694fd-7636-4497-9460-50a299545216",
+    "2ca55de6-9a05-45ee-984b-4dbe44160faa",
     "cc668aa1-68cd-4c4d-9f7b-0a7dad9df2fe",
     "d54ce796-9ef4-4208-b3be-50e95f142574",
     "8022e621-2fde-4c43-a376-0c58de4cd5ae",
