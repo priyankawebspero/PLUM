@@ -3324,3 +3324,8 @@ span.st-size-swatch {
 		max-width: 120px !important;
 	}
 }
+
+#searchModalContainer span.discount-tag-col.left.pink {
+    left: -12px;
+    top: -13px;
+}
