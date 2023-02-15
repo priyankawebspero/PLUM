@@ -5950,6 +5950,10 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
+.copy_right_section {
+    text-transform: lowercase;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
