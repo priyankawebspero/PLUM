@@ -5958,6 +5958,12 @@ div#dropdown-cart .freebodywash p {
     color: #ffa430 !important;
 }
 
+
+#dropdown-cart span.discount-tag-col.pink {
+    /* padding: 2px 5px; */
+    line-height: 1;
+}
+
 /*@media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
