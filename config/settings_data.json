@@ -653,6 +653,7 @@
         "blocks": {
           "f8370303-ebc3-4080-899a-5102d92552ab": {
             "type": "style_1",
+            "disabled": true,
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/PROMO-BAR_2ee5efb2-3cd0-4c25-bf94-a2c5e7974867.jpg",
               "promotext": "<p>Flat Rs 500 off on orders above Rs 1799 , use code : PLUM500 <\/p>",
@@ -662,6 +663,7 @@
           },
           "db9de841-3201-4355-bca0-cb461ec71671": {
             "type": "style_1",
+            "disabled": true,
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-11_at_6.33.08_PM_bc98c74c-18ff-49db-b2d8-1bee05924cc9.jpg",
               "promotext": "<p>FLAT Rs 150 Off on orders above 599<\/p>",
@@ -680,6 +682,7 @@
           },
           "80b85be7-6e93-47fc-ae5e-fe531137a472": {
             "type": "style_1",
+            "disabled": true,
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/Untitled_design_2_b81717b7-527c-43e2-8423-04eedf887b8f.png",
               "promotext": "<p>FREE full size plum on orders above Rs 1299<\/p>",
