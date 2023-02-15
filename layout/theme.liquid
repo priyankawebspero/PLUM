@@ -17,6 +17,7 @@
     <!-- Scripts -->
     {% include 'head_scripts' %}    
     <!-- Header hook for plugins ================================ -->
+    
       {% include 'sca.freegifts' %}
       {% assign scripttags = content_for_header | split: 'var urls = ["' %}
       {% if scripttags.size > 1 %}
@@ -44,6 +45,7 @@
   		  {% assign content_for_header = content_for_header | remove: shopifyorderlimits_script_url %}
         {% endif %}  
       {{ content_for_header }}        
+  
   <script async>
     window.mlvedaShopCurrency = "{{ shop.currency }}";
     window.shopCurrency = "{{ shop.currency }}";
@@ -154,6 +156,11 @@
     });
     </script>
   {% endif %} 
+
+      {% if fg_script_url !="" %}    
+        <script src="{{ fg_script_url |remove:'\' }}"></script>    
+      {% endif %}
+      
 </body>
 
 <script type="text/javascript">    
