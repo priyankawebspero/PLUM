@@ -6042,6 +6042,8 @@ span.discount-tag-col.pink {
 .home-product-tabs .product-tabs-content .inner.product-item {
     margin-top: 0;
 }
-
+.home-product-tabs .widget-product .list-product-tabs {
+    justify-content: center;
+}
   
 }
