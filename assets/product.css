@@ -1420,3 +1420,14 @@ span#mobile-share-button {
     margin-top: 10px;
 }
 }
+
+
+.product-related-outer .widget-title {
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.product-related-outer .widget-title h3.box-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
