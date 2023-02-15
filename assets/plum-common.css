@@ -5934,6 +5934,10 @@ div#dropdown-cart .freebodywash p {
     margin-bottom: 8px;
 }
 
+.contact-grid .text-wrap h4 {
+    text-transform: lowercase;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
