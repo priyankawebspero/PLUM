@@ -5938,10 +5938,6 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
-.contact-grid .text-wrap span, .contact-grid .text-wrap a, .contact-grid .text-wrap p {
-    text-transform: lowercase;
-}
-
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
