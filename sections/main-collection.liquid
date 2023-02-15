@@ -2,16 +2,7 @@
      {{ 'best-offer-collection.css' | asset_url | stylesheet_tag }}
   {% else %}
 <header class="collection-header collection-header-sections">
-  <div class="container">
-    <div class="collection_navigation">
-    <ul class="collection_nav">
-      {% for link in linklists['collection-top-menus'].links -%}  
-        <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
-      {%- endfor %}
-    </ul>
-    </div>
-  </div>
-  
+ 
   {% if section.settings.display_collection_image %}
   {% if collection.image %}
   {%- assign img_url = collection.image | img_url: 'master'-%}
@@ -57,6 +48,15 @@
       {% if collection.metafields.custom.collection_banner_link %}</a>{% endif %}
       {% endif %}
     </div>    
+  </div>
+    <div class="container">
+    <div class="collection_navigation">
+    <ul class="collection_nav">
+      {% for link in linklists['collection-top-menus'].links -%}  
+        <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
+      {%- endfor %}
+    </ul>
+    </div>
   </div>
 </header>
 
