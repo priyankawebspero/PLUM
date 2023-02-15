@@ -3335,9 +3335,19 @@ span.st-size-swatch {
     top: -9px;
 }
 
+
+
+}
+
+@media only screen and (max-width: 767px){
+
 .st-sorting-wrapper .list li button {
     padding: 5px 12px;
     font-size: 16px;
 }
-
+.st-sorting-wrapper li.sortby {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: DINNextRoundedLTPro-regular;
+}
 }
