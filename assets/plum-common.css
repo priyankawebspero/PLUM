@@ -5813,7 +5813,9 @@ div#dropdown-cart .counter_text span.side_text {
 }
 
 /*--------------------product-watches-css-----*/
-
+.brand_div .tooltip {
+    flex-direction: column;
+}
 
 .grid-item .product-item, .st-products .product-item {
     overflow: visible;
