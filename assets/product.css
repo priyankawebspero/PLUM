@@ -1452,6 +1452,12 @@ span#mobile-share-button {
 .product-related-outer .widget-title h3.box-title {
     font-size: 28px!important;
 }
+
+
+.template-product .jdgm-rev-widg.jdgm-rev-widg {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
   
 }
 
