@@ -14,7 +14,7 @@
     {{ 'products.product.unavailable' | t }}
   </button>
   {% else %}
-  {% if sizeOption and variantCount => 1 %}
+  {% if sizeOption and variantCount >= 1 %}
     <div class="srting_it">
       {% for product_option in product.options_with_values %}
         {% if productOption == "size" %} 
@@ -31,7 +31,7 @@
     </div>  
   {% endif %}
 
-    {% if colorOption and variantCount => 1 %}
+    {% if colorOption and variantCount >= 1 %}
     <div class="srting_it color">
       {% for product_option in product.options_with_values %}
         {% if productOption == "color" or productOption == "Color" %} 
