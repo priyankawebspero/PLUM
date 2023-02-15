@@ -1472,6 +1472,10 @@ span#mobile-share-button {
     position: relative;
     top: 0;
 }
+
+.product-shop .product_gift_bx {
+    margin-top: 10px;
+}
   
 }
 
