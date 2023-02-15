@@ -656,8 +656,8 @@
             "disabled": true,
             "settings": {
               "promo_image": "shopify:\/\/shop_images\/PROMO-BAR_2ee5efb2-3cd0-4c25-bf94-a2c5e7974867.jpg",
-              "promotext": "<p>Flat Rs 500 off on orders above Rs 1799 , use code : PLUM500 <\/p>",
-              "promotext_code": "<p>PLUM500 <\/p>",
+              "promotext": "<p>Full size Shower gel FREE on purchase of 5 or more products<\/p>",
+              "promotext_code": "",
               "promo_link": "https:\/\/plumgoodness.com\/collections\/single-products-offer"
             }
           },
