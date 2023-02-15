@@ -334,9 +334,9 @@
     "1f788b1a-a711-4b96-9914-c02f0b9316f4": {
       "type": "home-game-banner",
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Desk_0d2197c4-3a6c-4dbc-85da-421d33bd06a5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Bestselling-Combos-up-to-40_-OFF_Mob_c13f2686-1c05-4e18-a804-79f8d004fc7d.jpg",
-        "link": "shopify:\/\/collections\/deal-of-the-day",
+        "banner-id": "shopify:\/\/shop_images\/Slider_Makeup_VBF_B2G2_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_Makeup_VBF_B2G2_Mob.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/makeup",
         "banner-class": ""
       }
     },
