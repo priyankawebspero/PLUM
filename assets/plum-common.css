@@ -5993,6 +5993,15 @@ span.discount-tag-col.left.pink span {
 
 }*/
 
+span.discount-tag-col.right {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.product-item .product-top {
+    margin-bottom: 5px;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
@@ -6035,13 +6044,6 @@ span.discount-tag-col.pink {
 .home-product-tabs .widget-product .list-product-tabs {
     justify-content: center;
 }
-span.discount-tag-col.right {
-    position: relative;
-    margin-bottom: 10px;
-}
 
-.product-item .product-top {
-    margin-bottom: 5px;
-}
   
 }
