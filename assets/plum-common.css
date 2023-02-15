@@ -5908,6 +5908,11 @@ span.discount-tag-col.left.pink span {
     height: 75px;
 }
 
+
+span.discount-tag-col.lightpurple {
+    background: #c175ef;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
