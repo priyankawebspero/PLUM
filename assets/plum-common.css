@@ -6064,7 +6064,7 @@ span.discount-tag-col.pink {
 }
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
-  display: none;
+  display: none !important;
 }
 
   
