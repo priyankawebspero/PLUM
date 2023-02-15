@@ -4505,10 +4505,6 @@ body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
     right: 0;
 }
 
-.home-product-tabs .product-tabs-content .inner.product-item .product-bottom .jdgm-widget.jdgm-preview-badge .jdgm-prev-badge__text {
-    display: none;
-}
-
 .home-product-tabs .product-tabs-content span.jdgm-star {
     font-size: 15px;
 }

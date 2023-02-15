@@ -32,9 +32,9 @@
     <h5 class="clear_cart{% if cart.total_price > 100 %} active {%endif%}">clear cart</h5>
   </div>
   {% if cart.item_count > 3 and cart.item_count < 5 %}
-   <div class="freebodywash"><p>📢 <span>add one more product</span> to get a <span>FREE shower gel</span></p></div>
+<!--    <div class="freebodywash"><p>📢 <span>add one more product</span> to get a <span>FREE shower gel</span></p></div> -->
   {% else %} 
-    <div class="freebodywash"></div>
+<!--     <div class="freebodywash"></div> -->
   {% endif %} 
   <div class="no-items">
     <p class="cart_empty" {% if settings.enable_multilang %}data-translate="cart.general.empty"{% endif %} >
