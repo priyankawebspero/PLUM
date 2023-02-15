@@ -201,6 +201,7 @@
         },
         "a182cbe3-bad8-4303-891d-d9993e718f3c": {
           "type": "ProductTabs",
+          "disabled": true,
           "settings": {
             "title": "super savers",
             "collection": "deal-of-the-day"
@@ -411,6 +412,14 @@
             "collection": "dull-skin"
           }
         },
+        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35": {
+          "type": "collection",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/Ageing_Concern-Images_Desktop_224X224_5d971d4d-cd73-4fa6-8901-bd5b8a31a4f4.jpg",
+            "title": "",
+            "collection": "ageing-skin"
+          }
+        },
         "ab77b8ac-5d96-4a3d-9012-a087eb689cd7": {
           "type": "collection",
           "disabled": true,
@@ -426,14 +435,6 @@
             "image_desk": "shopify:\/\/shop_images\/Dandruff_Concern-Images_Desktop_224X224_2b7b577e-cdf4-4220-bee7-b7b2a27d9d1e.jpg",
             "title": "",
             "collection": "dandruff"
-          }
-        },
-        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35": {
-          "type": "collection",
-          "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Ageing_Concern-Images_Desktop_224X224_5d971d4d-cd73-4fa6-8901-bd5b8a31a4f4.jpg",
-            "title": "",
-            "collection": "ageing-skin"
           }
         },
         "325a89ca-bf47-4951-8a7a-4f2c2a8cfc62": {
@@ -465,9 +466,9 @@
       "block_order": [
         "dc5d77ce-d4d1-4d68-a0a4-5f9ec86dab94",
         "3799a664-46b9-474c-857f-1a7794a9f377",
+        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35",
         "ab77b8ac-5d96-4a3d-9012-a087eb689cd7",
         "2c31efa1-887d-4573-b525-536037803b8d",
-        "7be9bcfb-64bd-45b7-9cd1-3aeeb296fb35",
         "325a89ca-bf47-4951-8a7a-4f2c2a8cfc62",
         "391dc11a-ccb0-4e03-bbac-a5e43a7b4f6d",
         "abe4550b-045b-43dc-92a4-e7fdf4d8d0ef"
