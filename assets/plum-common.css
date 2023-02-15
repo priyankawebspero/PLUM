@@ -5908,6 +5908,10 @@ span.discount-tag-col.left.pink span {
     font-size: 7px;
 }
 
+span.discount-tag-col.left.pink span {
+    transform: rotate(-46deg);
+}
+
 }
 
 @media only screen and (max-width:767px){
