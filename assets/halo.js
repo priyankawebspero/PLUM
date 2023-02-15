@@ -1829,7 +1829,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
     updateDropdownCart: function () {
       Shopify.getCart(function (cart) {
         ella.doUpdateDropdownCart(cart);
-        cartSpecialUpdate(cart);
       });
     },
 
@@ -1948,9 +1947,8 @@ if ((typeof Shopify.getCart) === 'undefined') {
        $('.clear_cart').removeClass('active');
        $('.best-sell-product').addClass('disable');
       }
-      
-      ella.checkItemsInDropdownCart();
       cartSpecialUpdate(cart);
+      ella.checkItemsInDropdownCart();
       if ($("body").hasClass("template-cart")) {
         location.reload();
       }
