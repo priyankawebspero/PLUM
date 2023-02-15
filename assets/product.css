@@ -1398,3 +1398,13 @@ span#mobile-share-button {
 .icon-upper-row.visible_desktop img {
     max-width: 100%;
 }
+
+@media only screen and (max-width:767px){
+
+.product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile .image_section {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+}
+  
+}
