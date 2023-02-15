@@ -644,7 +644,7 @@ div#solus-trending-plum {
     padding: 10px 7px;
     font-family: "DINNextRoundedLTPro-Medium";
     border-top: 1px solid #5b0c8b;
-    text-transform: capitalize;
+    text-transform: lowercase;
     color: #5b0c8b;
   font-size: 17px;
 }
