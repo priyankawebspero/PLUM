@@ -6002,6 +6002,10 @@ span.discount-tag-col.left.pink span {
     font-size: 14px;
 }
 
+.cart-show span.discount-tag-col.pink {
+    z-index: 0;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
