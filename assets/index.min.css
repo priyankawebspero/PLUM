@@ -1131,6 +1131,14 @@ a.btn, .content .btn{
     font-size: 27px;
     letter-spacing: 0;
 }
+.home-product-tabs .product-tabs-content span.jdgm-star {
+    font-size: 12px;
+    padding: 0 0 0 1px !important;
+}
+span.jdgm-prev-badge__text {
+    font-size: 12px;
+}
+  
 }
 
 
