@@ -185,7 +185,7 @@
     "title_b": "Bonus Offers",
     "show_slider_featured_collection": "bonus-offer",
     "slider_featured_limit_all": "4",
-    "show_flash_sale": false,
+    "show_flash_sale": true,
     "time_flash_text": "free facewash ends in",
     "time_flash": "Feb 16 2023, 12:30:00",
     "register_text_desc": "Ella Boutique. | Sign up for a free account at Ella Boutique.",
