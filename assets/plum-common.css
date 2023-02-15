@@ -5677,11 +5677,11 @@ div#dropdown-cart .freebodywash p {
     font-size: 14px;
     font-family: DINNextRoundedLTPro-Regular!important;
   background: green;
-    color: #ffbd3d;
+    color: #fff;
 }
 
 div#dropdown-cart .freebodywash p span {
-    color: green;
+    color: #ffbd3d;
 }
 
 @media only screen and (min-width:768px){
