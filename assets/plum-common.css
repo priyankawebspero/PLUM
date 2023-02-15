@@ -5993,7 +5993,7 @@ span.discount-tag-col.left.pink span {
 
 }*/
 
-span.discount-tag-col.right {
+.product-top span.discount-tag-col.right {
     position: absolute;
     margin-bottom: 10px;
     bottom: -22px;
@@ -6004,7 +6004,8 @@ span.discount-tag-col.right {
 }
 
 .product-item .product-top {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    min-height: 140px;
 }
 
 @media only screen and (max-width:767px){
@@ -6042,9 +6043,5 @@ span.discount-tag-col.pink {
     margin-top: 0;
 }
 
-.product-item .product-top {
-    margin-bottom: 5px;
-    min-height: 140px;
-}
   
 }

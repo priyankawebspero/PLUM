@@ -3,7 +3,7 @@
     {% if collection.image %}
     {%- assign img_url = collection.image | img_url: 'master' -%}{%- assign img_url_mobile = collection.image | img_url: '768x'-%}{% elsif collection.description contains 'img' %}{%- assign img_url = collection.description | split: '<img' | last | split: '>' | first -%}{%- assign img_url_mobile = collection.description | split: '<img' | last | split: '>' | first -%}
     {% endif %}
-    <div class="collection-image">
+    <div class="collection-image ggjgh">
       <div class="collection-desktop-img">
         {% if collection.image or collection.description contains 'img' or section.settings.collection_image != blank  %}
           {% if collection.image %}
