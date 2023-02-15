@@ -1,11 +1,11 @@
     <div class="special_offer_p">
       <div class="offer_congrats"></div>
         {% if cart.item_count == 1 %}
-      <div class="offer_congrats"><p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p></div> 
+      <div class="offer_congrats"><p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p></div> 
       {% elsif cart.item_count > 1 and cart.item_count <= 2 %}
-        <div class="offer_congrats"><p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p> </div> 
+        <div class="offer_congrats"><p class="sec_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p> </div> 
       {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
-        <div class="offer_congrats"><p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
+        <div class="offer_congrats"><p class="third_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p></div>  
       {% elsif cart.item_count > 3  %}
         <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
       {% endif %}
@@ -134,13 +134,13 @@ window.cartSpecialUpdate = function(cart) {
   }
  {% endif %}
   if(cart.item_count == 1){ 
-     $('.special_offer_p .offer_congrats').html('<p class="first_color">Add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
+     $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
   else if (cart.item_count > 1 && cart.item_count <= 2){
-      $('.special_offer_p .offer_congrats').html('<p class="sec_color">Add 2 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
+      $('.special_offer_p .offer_congrats').html('<p class="sec_color">add 2 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
   else if (cart.item_count > 2 && cart.item_count <= 3){
-      $('.special_offer_p .offer_congrats').html('<p class="third_color">Add 1 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
+      $('.special_offer_p .offer_congrats').html('<p class="third_color">add 1 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
   else if (cart.item_count > 3){
         $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
