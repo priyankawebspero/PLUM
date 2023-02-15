@@ -6012,5 +6012,10 @@ span.discount-tag-col.pink {
     padding-right: 5px;
     text-align: center !important;
 }
+
+.home-product-tabs .widget-product .list-product-tabs li a.tab-links {
+    padding: 4px 10px 4px;
+    font-size: 14px;
+}
   
 }
