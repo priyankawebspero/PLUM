@@ -6044,6 +6044,9 @@ span.discount-tag-col.pink {
 .home-product-tabs .widget-product .list-product-tabs {
     justify-content: center;
 }
-
+.product-item .product-top {
+    margin-bottom: 5px;
+    min-height: 140px;
+}
   
 }
