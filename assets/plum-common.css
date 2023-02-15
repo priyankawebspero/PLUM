@@ -5942,6 +5942,14 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
+.site-footer .foot-link>span {
+    text-transform: lowercase;
+}
+
+.site-footer .foot-title.newsletter-title {
+    text-transform: lowercase;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
