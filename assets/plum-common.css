@@ -5999,5 +5999,9 @@ div#dropdown-cart .freebodywash p {
 #searchModal .product-item .product-image {
     padding-top: 7px;
 }
+
+span.discount-tag-col.pink {
+    width: 48px;
+}
   
 }
