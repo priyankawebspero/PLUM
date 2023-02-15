@@ -1101,6 +1101,15 @@ a.btn, .content .btn{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+.home-product-tabs .product-tabs-content span.jdgm-star {
+    font-size: 14px;
+    padding: 0 0 0 1px !important;
+}
+span.jdgm-prev-badge__text {
+    font-size: 14px;
+}
+  
 }
 
 @media only screen and (max-width: 767px)
