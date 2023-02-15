@@ -260,7 +260,6 @@
     },
     "2ca55de6-9a05-45ee-984b-4dbe44160faa": {
       "type": "home-game-banner",
-      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Desk.webp",
         "image_mobile": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Mob.webp",
