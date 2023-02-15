@@ -5867,6 +5867,20 @@ span.discount-tag-col.left.pink span {
     white-space: nowrap;
 }
 
+#dropdown-cart span.discount-tag-col.left.pink span {
+    font-size: 6px;
+    top: 8px;
+    left: -7px;
+    white-space: normal;
+    transform: rotate(-48deg);
+    line-height: 1.1;
+}
+
+#dropdown-cart span.discount-tag-col.left.pink {
+    width: 55px;
+    height: 52px;
+}
+
 @media only screen and (max-width: 991px){
 
 span.discount-tag-col.left.pink span {
