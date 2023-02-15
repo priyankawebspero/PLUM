@@ -5893,3 +5893,13 @@ span.discount-tag-col.left.pink span {
 #dropdown-cart .has-items {
     padding-top: 12px;
 }
+
+@media only screen and (max-width:767px){
+
+div#dropdown-cart .freebodywash {
+    /* line-height: 1; */
+    font-size: 14px;
+    line-height: 1.2;
+}
+  
+}
