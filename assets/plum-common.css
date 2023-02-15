@@ -6032,18 +6032,11 @@ span.discount-tag-col.pink {
     text-align: center !important;
 }
 
-.home-product-tabs .widget-product .list-product-tabs li a.tab-links {
-    padding: 4px 10px 4px;
-    font-size: 14px;
-}
 
 .home-product-tabs .product-tabs-content .inner.product-item {
     margin-top: 0;
 }
 
-.home-product-tabs .widget-product .list-product-tabs {
-    justify-content: center;
-}
 .product-item .product-top {
     margin-bottom: 5px;
     min-height: 140px;
