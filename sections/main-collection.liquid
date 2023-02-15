@@ -49,12 +49,25 @@
       {% endif %}
     </div>    
   </div>
-    <div class="container">
+      <div class="container">
     <div class="collection_navigation">
     <ul class="collection_nav">
-      {% for link in linklists['collection-top-menus'].links -%}  
-        <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
-      {%- endfor %}
+        {%- comment %} 
+          {% if collection.handle == "single-special-offer" or collection.handle == "trio" or collection.handle == "bestselling-combos" or collection.handle == "combos" or collection.handle == "gifting"  %}
+           {% for link in linklists['collection-menu-1'].links -%}  
+                  <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
+                {%- endfor %}  
+             {% else  %}
+                 {% for link in linklists['collection-menu-2'].links -%}  
+                  <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
+              {%- endfor %} 
+           {% endif  %}            
+          {%- endcomment %}
+            
+              {% for link in linklists['collection-top-menus'].links -%}  
+                <li {% if link.url contains collection.handle %} class="active"{% endif %}>{{ link.title | link_to: link.url }}</li>      
+              {%- endfor %}    
+
     </ul>
     </div>
   </div>
