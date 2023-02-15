@@ -5651,6 +5651,7 @@ div#dropdown-cart .counter_text p .countdown span {
     display: inline-block;
     line-height: 25px;
     vertical-align: middle;
+  color: #fff;
 }
 
 div#dropdown-cart .counter_text p .countdown span.ocount {
