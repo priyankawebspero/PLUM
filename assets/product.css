@@ -1379,3 +1379,7 @@ span#mobile-share-button {
   
 }
 
+
+.product-photos .product-label {
+    display: none !important;
+}
