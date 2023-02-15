@@ -5849,7 +5849,7 @@ span.discount-tag-col.left.pink span {
     transform: rotate(-45deg);
     display: inline-block;
     left: -15px;
-    top: 22px;
+    top: 19px;
     right: 0;
     margin: auto;
     text-align: center;
@@ -5859,6 +5859,7 @@ span.discount-tag-col.left.pink span {
     line-height: normal;
     text-transform: uppercase;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 991px){
