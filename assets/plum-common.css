@@ -5966,6 +5966,8 @@ div#dropdown-cart .freebodywash p {
 
 div#loyaltylion {display:none !important;}
 
+body#refer-your-friend div#loyaltylion, body#account div#loyaltylion{display:block !important;}
+
 /*@media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
