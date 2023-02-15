@@ -3373,3 +3373,7 @@ span.st-size-swatch label {
 }
   
 }
+
+#searchModalContainer span.discount-tag-col.right {
+    display: none !important;
+}
