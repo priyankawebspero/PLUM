@@ -84,6 +84,7 @@
 
 window.cartSpecialUpdate = function(cart) {
   console.log("cartSpecialUpdate", cart);
+      console.log("cartSpecialUpdate", cart.item_count);
   {% if specialoffertext != blank  and special_offer_price != blank%} 
     if(cart.total_price > special_offer_price) {      
     $(".special_offer").show();
