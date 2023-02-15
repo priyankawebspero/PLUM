@@ -1435,6 +1435,10 @@ span#mobile-share-button {
 #loyaltylion .lion-loyalty-widget_position_left {
     display: none;
 }
+
+span#mobile-share-button {
+    background: #959292;
+}
   
 }
 
