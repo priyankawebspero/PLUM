@@ -261,9 +261,9 @@
     "1bbcc962-35de-4098-8a62-02ffd686a0cc": {
       "type": "home-game-banner",
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Slider_Makeup_VBF_B2G2_Desk_3676c98b-f1ee-46dd-84b0-21fa53fe0eba.webp",
-        "image_mobile": "shopify:\/\/shop_images\/Slider_Makeup_VBF_B2G2_Mob_7a25123b-e6fb-427e-b2ba-68c8d8a02774.webp",
-        "link": "https:\/\/plumgoodness.com\/collections\/makeup",
+        "banner-id": "shopify:\/\/shop_images\/Slider_Skin_VBF_B2G2_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_Skin_VBF_B2G2_Mob.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/skincare",
         "banner-class": ""
       }
     },
