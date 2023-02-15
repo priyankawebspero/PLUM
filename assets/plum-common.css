@@ -5940,7 +5940,7 @@ span.discount-tag-col.left.pink {
 
 span.discount-tag-col.left.pink span {
     left: -13px;
-    top: 12px;
+    letter-spacing: -.8px;
     font-size: 7px;
 }
 
