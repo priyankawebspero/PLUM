@@ -1829,6 +1829,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
     updateDropdownCart: function () {
       Shopify.getCart(function (cart) {
         ella.doUpdateDropdownCart(cart);
+        cartSpecialUpdate(cart);
       });
     },
 
