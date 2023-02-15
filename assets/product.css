@@ -1390,3 +1390,11 @@ span#mobile-share-button {
     margin-bottom: 0;
     border-bottom: 1px solid #ccc;
 }
+
+.product-template.product-template-default .product.row.product-default>.fw-section.tabs__product-page {
+    margin-top: 0;
+}
+
+.icon-upper-row.visible_desktop img {
+    max-width: 100%;
+}
