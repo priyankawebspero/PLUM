@@ -6043,5 +6043,30 @@ span.discount-tag-col.pink {
     margin-top: 0;
 }
 
+
+.home-product-tabs .widget-product .list-product-tabs {
+   overflow-x: scroll;
+  scrollbar-color: #d5ac68 #f1db9d;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+}
+  
+.home-list-collections .row::-webkit-scrollbar {
+  height: 5px;
+}
+
+.home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar-thumb {
+  height: 5px;
+  background-color: #fff;
+}
+
+.home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
+  display: none;
+}
+
   
 }
