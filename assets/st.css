@@ -3337,12 +3337,22 @@ span.st-size-swatch label {
 }
 
 @media only screen and (max-width: 991px){
+
 #searchModalContainer span.discount-tag-col.left.pink {
     left: -9px;
     top: -9px;
 }
 
+#searchModalContainer span.discount-tag-col.left.pink span {
+    left: -13px;
+    letter-spacing: -.8px;
+    font-size: 7px;
+  top: 14px;
+}
 
+#searchModalContainer span.discount-tag-col.left.pink span {
+    transform: rotate(-46deg);
+}
 
 }
 

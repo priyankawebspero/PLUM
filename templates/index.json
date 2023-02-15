@@ -5,7 +5,6 @@
       "blocks": {
         "e26a98f9-c74a-486d-aa60-835b82ee495b": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Sale_icon_200X200_a8bc25d7-0330-427c-a30d-a8716b9d1662.png",
             "collection": "all-in-stock",
