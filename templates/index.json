@@ -91,13 +91,14 @@
           "type": "image",
           "settings": {
             "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/Orders-above-999_Lip-_-cheek-tint-_-Shoer-gel_HP_Desk_50748d7e-6cdc-468b-83e5-fa644e215bf7.gif",
-            "image_slide_mb": "shopify:\/\/shop_images\/Orders-above-999_Lip-_-cheek-tint_HP_Mob_1_0aeceb4a-2985-48ab-8dae-cb8044ad669f.gif",
-            "link": "https:\/\/plumgoodness.com\/collections\/all-in-stock"
+            "image_slide": "shopify:\/\/shop_images\/HP_01_VBF_B2G2_Desk.webp",
+            "image_slide_mb": "shopify:\/\/shop_images\/HP_01_VBF_B2G2_Mob.webp",
+            "link": "https:\/\/plumgoodness.com\/collections\/single-products-offer"
           }
         },
         "954be5d8-b6dc-41fd-afb6-9997a2b99974": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/500OFF_Payday_Desk_1_6ef81ef9-9121-4d06-a7c6-8db310d7c07a.webp",
@@ -107,6 +108,7 @@
         },
         "165848486091642f98-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/40_OFF_Payday_Desk_V2_492dbc3e-f2c9-4370-b7c7-4d809ef2c90c.webp",
