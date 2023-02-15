@@ -49,7 +49,8 @@
       {% endif %}
     </div>    
   </div>
-      <div class="container">
+<div class="container">
+     {% if section.settings.timer_true %} {% include 'count-down-b2g2' %}{% endif %}
     <div class="collection_navigation">
     <ul class="collection_nav">
         {%- comment %} 
@@ -82,7 +83,6 @@
     </h1>
     {% endif %}
   </div>
- {% if section.settings.timer_true %} {% include 'count-down-b2g2' %}{% endif %}
 </div>
 
 {% endif %} 
