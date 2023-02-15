@@ -143,7 +143,7 @@ window.cartSpecialUpdate = function(cart) {
   else if (cart.item_count > 3){
         $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
   }
-    if (cart.item_count > 3 && cart.item_count < 5){ $('.freebodywash').html('<p>📢 add one more product to get a FREE shower gel</p>');} else {$('.freebodywash').html('');}
+    if (cart.item_count > 3 && cart.item_count < 5){ $('.freebodywash').html('<p>📢 <span>add one more product</span> to get a <span>FREE shower gel</span></p>');} else {$('.freebodywash').html('');}
 }  
 
 </script>
