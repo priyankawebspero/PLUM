@@ -2053,6 +2053,10 @@ div#new_tags {
 #searchModalContainer a.btn-remove-item {
 	cursor: pointer;
 }
+#searchModalContainer span.discount-tag-col.right {
+    left: auto;
+}
+
 /**********************End nuumber of results*********************************/
 
 #searchModalContainer .wight_swatch.varient_class.colsize {
