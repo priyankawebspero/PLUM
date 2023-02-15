@@ -1,13 +1,16 @@
     <div class="special_offer_p">
-        {% if cart.item_count == 1 %}
-      <div class="offer_congrats"><p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p></div> 
-      {% elsif cart.item_count > 1 and cart.item_count <= 2 %}
-        <div class="offer_congrats"><p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p> </div> 
-      {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
-        <div class="offer_congrats"><p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p></div>  
-      {% elsif cart.item_count > 3  %}
-        <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
+   
+        {% if cart.total_price > 100 and cart.total_price < 59900%}
+      <div class="offer_congrats"><p class="first_color">Coupon unlocked - Flat 10% off ,use code : <b>PLUM10</b> at checkout</p> </div> 
+      {% elsif cart.total_price > 59900 and cart.total_price < 159900 %}
+        <div class="offer_congrats"><p class="sec_color">Coupon unlocked - Flat 150 off , use code : <b>PLUM150</b> at checkout</p> </div>
+      {% elsif cart.total_price > 159900 and cart.total_price < 249800 %}
+        <div class="offer_congrats"><p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p></div>
+      {% elsif cart.total_price > 2499  %}
+        <div class="offer_congrats"><p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p></div>  
       {% endif %}
+     
+      
       {% assign cartprice1 = settings.cart_price | plus: 0 | times: 100%}
       {% assign cartprice2 = settings.cart_price_second | plus: 0 | times: 100%}
       {% assign cartprice3 = settings.cart_price_third | plus: 0 | times: 100%}
@@ -101,7 +104,7 @@ window.cartSpecialUpdate = function(cart) {
     else if(cart.total_price < cartprice2)
     {  
       var actu_price = cartprice2 - cart.total_price;
-      $(".special_offer").show();
+      $(".special_offer").show();Flat
       $('.special_offer_p .special_offer_outer_layer').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>'+cartproducttext2+'</span>  <i class="fa fa-heart"></i> </div>');      
     }
   {% endif %}
@@ -131,19 +134,20 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-  if(cart.item_count == 1){ 
-     $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to cart & get the <b>lowest 2 for FREE</b></p>');
+
+  if(cart.total_price > 59900 && cart.total_price < 99900){ 
+     $('.special_offer_p .offer_congrats').html('<p class="first_color">Coupon unlocked -Flat 10% off ,use code : <b>PLUM10</b> at checkout</p>');
    }
-  else if (cart.item_count > 1 && cart.item_count <= 2){
-      $('.special_offer_p .offer_congrats').html('<p class="sec_color">add 2 more products to cart <b>get the lowest 2 for FREE</b></p>');
+  else if (cart.total_price > 99900 && cart.total_price < 179900){
+      $('.special_offer_p .offer_congrats').html('<p class="sec_color">Coupon unlocked - Flat 150 off , use code : <b>PLUM150</b> at checkout</p>');
    }
-  else if (cart.item_count > 2 && cart.item_count <= 3){
-      $('.special_offer_p .offer_congrats').html('<p class="third_color">add 1 more products to cart <b>get the lowest 2 for FREE</b></p>');
+  else if (cart.total_price > 179900 && cart.total_price < 249800){
+      $('.special_offer_p .offer_congrats').html('<p class="third_color">Coupon unlocked - Flat 500 off, use code : <b>PLUM500</b> at checkout</p>');
    }
-  else if (cart.item_count > 3){
-        $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
+  else if (cart.total_price > 249800){
+        $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Coupon unlocked - Flat 40% off , use code : <b>VEGAN40</b> at checkout</p>');
   }
-    // if (cart.item_count > 3 && cart.item_count < 5){ $('.freebodywash').html('<p>📢 <span>add one more product</span> to get a <span>FREE shower gel</span></p>');} else {$('.freebodywash').html('');}
+ 
 }  
 
 </script>
