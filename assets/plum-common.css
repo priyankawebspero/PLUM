@@ -5955,5 +5955,9 @@ div#dropdown-cart .freebodywash p {
 #searchModal .st-product .st-products {
     margin-bottom: 20px;
 }
+
+#searchModal .product-item .product-image {
+    padding-top: 7px;
+}
   
 }
