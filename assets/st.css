@@ -3357,4 +3357,10 @@ span.st-size-swatch label {
     font-size: 16px;
     font-family: DINNextRoundedLTPro-regular;
 }
+
+.st-size-swatch .st-product-variant-label {
+    font-size: 12px;
+    padding: 3px 5px;
+}
+  
 }
