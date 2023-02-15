@@ -5994,8 +5994,13 @@ span.discount-tag-col.left.pink span {
 }*/
 
 span.discount-tag-col.right {
-    position: relative;
+    position: absolute;
     margin-bottom: 10px;
+    bottom: -22px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
 }
 
 .product-item .product-top {
