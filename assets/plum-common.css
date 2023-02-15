@@ -6003,9 +6003,8 @@ span.discount-tag-col.left.pink span {
     right: auto;
 }
 
-.product-item .product-top {
-    margin-bottom: 15px;
-    min-height: 140px;
+.product-top span.discount-tag-col.right {
+    display: none !important;
 }
 
 @media only screen and (max-width:767px){
