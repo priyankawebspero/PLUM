@@ -3,9 +3,9 @@
         {% if cart.item_count == 1 %}
       <div class="offer_congrats"><p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p></div> 
       {% elsif cart.item_count > 1 and cart.item_count <= 2 %}
-        <div class="offer_congrats"><p class="sec_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p> </div> 
+        <div class="offer_congrats"><p class="sec_color">add 2 more products to the cart to  <b>get 2 lowest-priced products for free</b></p> </div> 
       {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
-        <div class="offer_congrats"><p class="third_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p></div>  
+        <div class="offer_congrats"><p class="third_color">add 1 more products to the cart to  <b>get 2 lowest-priced products for free</b></p></div>  
       {% elsif cart.item_count > 3  %}
         <div class="offer_congrats"><p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p></div>  
       {% endif %}
