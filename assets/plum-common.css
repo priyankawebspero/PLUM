@@ -6017,5 +6017,9 @@ span.discount-tag-col.pink {
     padding: 4px 10px 4px;
     font-size: 14px;
 }
+
+.home-product-tabs .product-tabs-content .inner.product-item {
+    margin-top: 0;
+}
   
 }
