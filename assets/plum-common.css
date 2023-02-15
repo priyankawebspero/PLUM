@@ -5950,7 +5950,7 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
-.copy_right_section {
+.copy_right_section, .home-collection-carousel .widget-product .block-wrapper span.title_block {
     text-transform: lowercase;
 }
 
