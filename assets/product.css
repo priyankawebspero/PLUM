@@ -1383,3 +1383,10 @@ span#mobile-share-button {
 .product-photos .product-label {
     display: none !important;
 }
+
+/*--------new-css-added-----------*/
+
+.product-template.product-template-default .product.row.product-default>.fw-section.icon-upper-row {
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
