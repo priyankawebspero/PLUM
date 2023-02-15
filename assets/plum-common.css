@@ -5998,6 +5998,10 @@ span.discount-tag-col.left.pink span {
     display: none !important;
 }
 
+.added_product.modal {
+    font-size: 14px;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
