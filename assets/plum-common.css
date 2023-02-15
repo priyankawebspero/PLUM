@@ -5897,6 +5897,17 @@ span.discount-tag-col.left.pink span {
     display: none;
 }
 
+.cart-template .wrapper-cart-template span.discount-tag-col.left.pink span {
+    top: 13px;
+    font-size: 7px;
+    left: -12px;
+}
+
+.cart-template .wrapper-cart-template span.discount-tag-col.left.pink {
+    width: 75px;
+    height: 75px;
+}
+
 @media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
