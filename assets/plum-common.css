@@ -5953,6 +5953,10 @@ span.discount-tag-col.left.pink span {
     transform: rotate(-46deg);
 }
 
+#dropdown-cart span.discount-tag-col.left.pink span {
+    letter-spacing: -.5px;
+}
+
 }
 
 @media only screen and (max-width:767px){
