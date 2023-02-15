@@ -2081,7 +2081,10 @@ span.st-size-swatch {
 .product-bottom .srting_it .form-cstm label {
    
 }
-
+span.st-size-swatch label {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
 .st-size-swatch .st-product-variant-label {
 	 margin-bottom: 0!important;
     font-size: 14px;
