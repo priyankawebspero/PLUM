@@ -353,9 +353,9 @@
       "type": "home-game-banner",
       "disabled": true,
       "settings": {
-        "banner-id": "shopify:\/\/shop_images\/Desktop_Fab-smellin_-bodycare_slider.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Mobile-Fab-smellin_-bodycare_slider.jpg",
-        "link": "shopify:\/\/collections\/plum-bodylovin-all-in-stock",
+        "banner-id": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Desk.webp",
+        "image_mobile": "shopify:\/\/shop_images\/Slider_PHY_VBF_B2G2_Mob.webp",
+        "link": "https:\/\/plumgoodness.com\/collections\/phy-x-plum",
         "banner-class": ""
       }
     },
