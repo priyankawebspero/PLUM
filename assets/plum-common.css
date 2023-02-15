@@ -5954,7 +5954,7 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
-@media only screen and (max-width: 991px){
+/*@media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
     width: 70px;
@@ -5977,7 +5977,7 @@ span.discount-tag-col.left.pink span {
     letter-spacing: -.5px;
 }
 
-}
+}*/
 
 @media only screen and (max-width:767px){
 
