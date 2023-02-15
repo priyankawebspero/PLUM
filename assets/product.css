@@ -1409,6 +1409,10 @@ span#mobile-share-button {
     margin-top: 20px;
 }
 
+.product-shop .planet_div {
+    display: none !important;
+}
+
 @media only screen and (max-width:767px){
 
 .product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile .image_section {
