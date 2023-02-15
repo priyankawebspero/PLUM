@@ -5951,5 +5951,9 @@ div#dropdown-cart .freebodywash p {
     padding-left: 9px;
     padding-right: 9px;
 }
+
+#searchModal .st-product .st-products {
+    margin-bottom: 20px;
+}
   
 }
