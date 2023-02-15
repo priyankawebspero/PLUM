@@ -4676,16 +4676,7 @@ body .blog-page-info .blog-tab-sec-data .list-blog li.blog-item .actions a.btn {
     margin: 30px 0 !important;
 }
 
-.home-product-tabs .widget-product .list-product-tabs {
-    margin-left: 0;
-    margin-right: 0;
-    -webkit-flex-wrap: initial;
-    -moz-flex-wrap: initial;
-    -ms-flex-wrap: initial;
-    flex-wrap: initial;
-    justify-content: flex-start;
-    overflow-x: auto;
-}
+
 
 .home-product-tabs .widget-product .list-product-tabs li {
     margin-left: 0;
@@ -6043,8 +6034,15 @@ span.discount-tag-col.pink {
 }
 
 
-.home-product-tabs .widget-product .list-product-tabs {
-   overflow-x: scroll;
+  .home-product-tabs .widget-product .list-product-tabs {
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-flex-wrap: initial;
+    -moz-flex-wrap: initial;
+    -ms-flex-wrap: initial;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    overflow-x: scroll;
   scrollbar-color: #d5ac68 #f1db9d;
     scrollbar-width: thin;
     -ms-overflow-style: none;
