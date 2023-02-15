@@ -1458,6 +1458,20 @@ span#mobile-share-button {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.product-shop .product_gift_bx .free-shipping-top {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.product-shop .free-shipping-top p.offers_sec {
+    font-size: 35px;
+    padding: 0px 0 30px;
+    margin-top: 0;
+    position: relative;
+    top: 0;
+}
   
 }
 
