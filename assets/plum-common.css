@@ -5964,6 +5964,8 @@ div#dropdown-cart .freebodywash p {
     line-height: 1;
 }
 
+div#loyaltylion {display:none !important;}
+
 /*@media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
