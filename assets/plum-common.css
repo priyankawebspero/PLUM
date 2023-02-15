@@ -5954,6 +5954,10 @@ div#dropdown-cart .freebodywash p {
     text-transform: lowercase;
 }
 
+.jdgm-preview-badge .jdgm-star {
+    color: #ffa32c !important;
+}
+
 /*@media only screen and (max-width: 991px){
 span.discount-tag-col.left.pink {
     left: -9px;
