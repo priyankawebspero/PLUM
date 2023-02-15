@@ -41,7 +41,7 @@
               <img data-src="{{ item | img_url: '160x' , format: 'pjpg'}}" src="{{ item | img_url: '160x' , format: 'pjpg'}}"  alt="{{ item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', ''  | escape }}" class="lazyautosizes lazyloaded"/>
                        {% if item.product.tags contains 'supersaver' %}<span class="plum-friday"><i class="fa fa-bolt" aria-hidden="true"></i> super saver</span>{% endif %}
                        {% if product.tags contains 'b2g2' or product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>{% endif %}
-                        <span class="discount-tag-col left pink">BUY 2 GET 2 FREE</span>
+                        <span class="discount-tag-col left pink"><span>BUY 2 GET 2 FREE</span></span>
                         {% if product.tags contains 'febnewlaunch' %}
                           <span class="discount-tag-col right blue">newlaunch</span>
                          {% elsif product.tags contains 'febbestseller' %} 
