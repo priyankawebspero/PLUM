@@ -335,28 +335,28 @@ var boostPFSTemplate = {
           }
           itemLabelsHtml += '</div>';
           
-          if(data.tags.includes('bestseller') || data.tags.includes('Bestseller')) {
+            if(data.tags.includes('febbestseller') || data.tags.includes('febbestseller')) {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> bestseller </span>';
             }
-            if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
-              itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
+            // if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
+            //   itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
+            // }
+            if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
+              itemLabelsHtml += '<span class="discount-tag-col right blue"> new launched </span>';
             }
-            if(data.tags.includes('just launched') || data.tags.includes('Just launched')) {
-              itemLabelsHtml += '<span class="discount-tag-col right blue"> just launched </span>';
-            }
-            if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
+          if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
               itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
             }
         }
 		else {
-            if(data.tags.includes('bestseller') || data.tags.includes('Bestseller')) {
+            if(data.tags.includes('febbestseller') || data.tags.includes('febbestseller')) {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> bestseller </span>';
             }
-            if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
-              itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
-            }
-            if(data.tags.includes('just launched') || data.tags.includes('Just launched')) {
-              itemLabelsHtml += '<span class="discount-tag-col right blue"> just launched </span>';
+            // if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
+            //   itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
+            // }
+            if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
+              itemLabelsHtml += '<span class="discount-tag-col right blue"> new launched </span>';
             }
           if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
               itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
