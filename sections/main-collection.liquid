@@ -75,16 +75,18 @@
 
 <div class="collection-wrapper page-header">
   <div class="{% if settings.category_layout == "full_with" or template.suffix == 'fullwidth' %}container-padd60{% else %}container{% endif %}" style="text-align: center;">
-    <h1 class="collection_title">
+    {% if collection.handle == "single-special-offer" or collection.handle == "trio" or collection.handle == "bestselling-combos" or collection.handle == "phy-offers" or collection.handle == "combos" or collection.handle == "single-products-offer" or collection.handle == "gifting" or collection.handle == "bestsellers" or collection.handle == "all-in-stock" %}
+   {% else %}
+      <h1 class="collection_title">
       {% include 'multilang' with collection.title %}
     </h1>
-  </div>    
+    {% endif %}
+  </div>
+ {% if section.settings.timer_true %} {% include 'count-down-b2g2' %}{% endif %}
 </div>
+
 {% endif %} 
 <div id="{{collection.handle}}" class="collection-template collection-template-default">
-    {% if collection.handle == 'all-in-stock' or collection.handle == 'all-in-stock-pbl' %}
-        {% include 'count-down-b2g2' %}
-     {% endif %}
     <div class="container collection_inner_content">
         <div class="halo-collection-content">
         <div class="row">
