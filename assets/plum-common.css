@@ -5617,6 +5617,7 @@ div#dropdown-cart .counter_text {
     justify-content: center;
     align-items: center;
     background: #fdf6f7;
+  background: #e75095;
     margin: 10px 0 0 0;
   padding: 10px 10px;
   gap: 5px;
@@ -5624,7 +5625,8 @@ div#dropdown-cart .counter_text {
 
 div#dropdown-cart .counter_text span.side_text {
     font-family: "DINNextRoundedLTPro-Regular" !important;
-    font-size: 15px;
+     font-size: 17px;
+    color: #fff;
 }
 
 div#dropdown-cart .counter_text p {
