@@ -5669,6 +5669,15 @@ div#dropdown-cart .counter_text p .countdown span.ocount {
     box-shadow: 0 0 3px rgb(95 37 138 / 50%);
 }
 
+
+div#dropdown-cart .freebodywash {
+    background: #fdf6f7;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-family: DINNextRoundedLTPro-Regular!important;
+}
+
 @media only screen and (min-width:768px){
 .st-col-md-4.st-products {
     margin-bottom: 30px !important;
