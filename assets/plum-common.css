@@ -5528,7 +5528,7 @@ body .EmptyState .error_page .content-infos a.btn {
 }
 
 .article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .des {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     padding-bottom: 20px;
@@ -5538,8 +5538,10 @@ body .EmptyState .error_page .content-infos a.btn {
 .article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .actions a {
     background: #5b0c8b!important;
     padding: 10px 25px;
-    font-size: 14px;
-    /* text-transform: lowercase; */
+    font-size: 17px;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-family: "DINNextRoundedLTPro-Medium";
 }
 
 .article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .actions a:hover {
