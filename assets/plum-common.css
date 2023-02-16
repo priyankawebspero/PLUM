@@ -5999,7 +5999,7 @@ span.discount-tag-col.left.pink span {
 
 }*/
 
-.product-top span.discount-tag-col.right {
+/*.product-top span.discount-tag-col.right {
     position: absolute;
     margin-bottom: 10px;
     bottom: -8px;
@@ -6012,7 +6012,7 @@ span.discount-tag-col.left.pink span {
 
 .product-item .product-top {
     padding-bottom: 25px;
-}
+}*/
 
 /*span.discount-tag-col.right {
     display: none!important;
