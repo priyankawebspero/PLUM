@@ -1285,3 +1285,22 @@ div#categoryxconcern .collection_inner_content .boost-pfs-filter-load-more-total
     text-transform: lowercase;
     margin-top: 0;
 }
+
+.template-collection .boost-pfs-filter-load-more-button-container button.boost-pfs-filter-load-more-button {
+    background: #5e0d8b!important;
+    color: #fff!important;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 12px 15px;
+    min-width: inherit;
+    font-weight: 700;
+    min-height: inherit;
+    width: auto;
+    box-shadow: none;
+    margin-top: 0;
+    text-transform: lowercase!important;
+    min-width: 175px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border: none!important;
+}
