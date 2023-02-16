@@ -6368,11 +6368,13 @@ span.discount-tag-col.pink {
 .inner-top span.discount-tag-col.right {
     width: 50px;
     font-size: 13px;
+  text-align: center;
 }
 
 .inner-top span.discount-tag-col.lightpurple {
     width: 55px !important;
     padding: 6px 3px !important;
+  text-align: center;
 }
   
 }
