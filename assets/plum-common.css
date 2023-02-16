@@ -6031,6 +6031,8 @@ span.discount-tag-col.right {
     background-size: 18px;
     background-position-x: 12px;
     background-position-y: center;
+  text-transform: lowercase;
+    color: #000;
 }
 
 /*------------cart-page-design-----*/
