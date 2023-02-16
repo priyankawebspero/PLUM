@@ -6007,6 +6007,7 @@ span.discount-tag-col.left.pink span {
     left: 50%;
     transform: translate(-50%);
     right: auto;
+  border-radius: 30px;
 }
 
 .product-item .product-top {
