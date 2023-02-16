@@ -6023,7 +6023,7 @@ span.discount-tag-col.right {
 
 .toggle-inner p a:hover{text-decoration: none;}
 
-.product-bottom a.product-title{ font-family: "DINNextRoundedLTPro-Regular";}
+.product-bottom a.product-title, .template-search #searchModal .product-item .product-bottom .product-title{ font-family: "DINNextRoundedLTPro-Regular";}
 
 .st-search-bar input[type="text"] {
     border: 1px solid #5e0c8c;
