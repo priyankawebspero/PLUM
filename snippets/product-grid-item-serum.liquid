@@ -118,11 +118,10 @@
         </div>
         {% endif %}
       </div>
-<a class="game_offer_grid" href="/collections/single-products-offer">+ game offers</a>
       {% if settings.display_button %}
       {% assign prodtemplate =  product.template_suffix %}
       <div class="action">
-        {% include 'add-to-cart-form', id: 'grid-product-form-' %}
+        {% include 'add-to-cart-form-serum', id: 'grid-product-form-' %}
       </div>
        {% endif %}
       
