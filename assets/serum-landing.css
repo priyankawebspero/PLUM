@@ -1955,12 +1955,14 @@ div#concern-spotlight-slider-concern-flipbox>.widget-title h3.box-title {
 .product-item .action, .product-item .sizes-list {
     margin-bottom: 0;
 }
-  
+
 .featured-products .product-item .product-bottom {
-    min-height: 185px;
+    min-height: 215px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
+
   
  .inner.product-item .price-box:before {
     margin: 0 auto 3px;
