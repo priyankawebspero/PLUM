@@ -725,8 +725,8 @@ body .right_area .inner.product-item .inner-top .product-image .product-grid-ima
     overflow: hidden;
     text-overflow: ellipsis;
     position: relative;
-    max-height: 52px;
-    min-height: 52px!important;
+    max-height: 40px;
+    min-height: 40px!important;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
