@@ -458,6 +458,12 @@ span.jdgm-prev-badge__text {
 .featured-products .inner.product-item {
     margin-bottom: 0;
 }
+
+.product-item .action{
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+}
   
 }
 
