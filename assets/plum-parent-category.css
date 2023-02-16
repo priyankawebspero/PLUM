@@ -877,6 +877,11 @@ div#parent_class .product-collection.products-grid .grid-item {
     padding: 0 12px;
 }
 
+#categoryxconcern.collection-template div#shopify-section-sidebar-filter {
+    width: 100%;
+    max-width: 100% !important;
+}
+
 }
 
 @media only screen and (max-width: 768px){
