@@ -3944,8 +3944,8 @@ initBlogPostSlider: function() {
            $('body').find('.variants.grid-product-form--'+productID+' .cart').hide();
           // ella.changeQuantityAddToCartNew();
            setTimeout(function(){ 
-            $('body').find('#grid-product-form--'+productID+' .add-to-cart-btnload').text('Add to Cart'); 
-            $('body').find('#product-add-to-cart').val('Add to Cart');
+            $('body').find('.product_form_desciption .add-to-cart-btnload').text('Add to Cart'); 
+            $('body').find('.product_form_desciption').val('Add to Cart');
             $('.added_product.modal').html('Product added to cart!').show(); 
             },1000); 
              setTimeout(function() {
