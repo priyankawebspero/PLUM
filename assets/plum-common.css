@@ -5936,8 +5936,8 @@ span.discount-tag-col.lightpurple {
 }
 
 span.discount-tag-col.right.lowstock {
-    width: 45px;
     background: #a7a6ad;
+  color: #000 !important;
 }
 
 .template-search #searchModal .product-item .product-bottom {
