@@ -5931,7 +5931,7 @@ span.discount-tag-col.right {
 span.discount-tag-col.lightpurple {
     background: #d9c5e3;
     color: #5e248c !important;
-    font-family: "DINNextRoundedLTPro-Bold" !important;
+    /*font-family: "DINNextRoundedLTPro-Bold" !important;*/
 }
 
 span.discount-tag-col.right.lowstock {
