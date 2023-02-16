@@ -595,6 +595,10 @@ div#shopify-section-footer-phy {
 .widget-title .box-title .title {
     padding: 0 15px;
 }
+
+.sub-page-banner-section .widget-title .box-title {
+    font-size: 26px;
+}
   
 }
 @media screen and (max-width: 540px) {
