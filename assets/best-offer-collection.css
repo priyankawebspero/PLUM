@@ -119,6 +119,10 @@ span.shade-sizes {
 .home-list-collections .row::-webkit-scrollbar:vertical {
   display: none;
 }
+
+.home-list-collections {
+    display: none;
+}
   
 }
 
