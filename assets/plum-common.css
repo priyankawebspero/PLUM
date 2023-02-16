@@ -6299,7 +6299,7 @@ span.discount-tag-col.pink {
 } 
 
 .blog-page-info .page-top-sec .page-header h2 {
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
   
 }
