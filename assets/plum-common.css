@@ -6261,7 +6261,10 @@ span.discount-tag-col.pink {
     margin-left: auto;
     margin-right: auto;
 }
-
+.cart-template .free_delivery {
+    font-size: 16px;
+    padding: 10px !important;
+}
   
 }
 
