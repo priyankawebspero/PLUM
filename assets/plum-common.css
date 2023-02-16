@@ -6025,6 +6025,14 @@ span.discount-tag-col.right {
 
 .product-bottom a.product-title{ font-family: "DINNextRoundedLTPro-Regular";}
 
+.st-search-bar input[type="text"] {
+    border: 1px solid #5e0c8c;
+    background-image: url('https://cdn.shopify.com/s/files/1/0390/2985/files/seach_icon.svg');
+    background-size: 18px;
+    background-position-x: 12px;
+    background-position-y: center;
+}
+
 /*------------cart-page-design-----*/
 
 .wrapper-cart-template .offer_congrats p{
