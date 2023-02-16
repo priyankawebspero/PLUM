@@ -6043,6 +6043,22 @@ span.discount-tag-col.right {
     z-index: 1 !important;
 }
 
+.product-bottom a.product-title {
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    max-height: 40px;
+    min-height: 40px;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: 16px;
+    padding-bottom: 0;
+  font-family: DINNextRoundedLTPro-Regular;
+}
+
 /*------------cart-page-design-----*/
 
 .wrapper-cart-template .offer_congrats p{
