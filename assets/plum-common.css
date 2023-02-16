@@ -518,7 +518,7 @@ div.site-header .header-top .header-pramotion{margin-right:80px}
 img.visible_mobile{display:block!important}
 img.visible_desktop{display:none}
 .product-label .label.sale-label{font-size:18px;color:#5e0c8c;text-align:center;text-transform:uppercase}
-.product-photos .product-label{background:#DBC3E7;padding-top:25px;border-radius:0 0 10px 10px;left:0;right:unset;padding-bottom:10px}
+.product-photos .product-label{background:#DBC3E7;padding-top:25px;border-radius:0 0 10px 10px;right:0;padding-bottom:10px}
 .product-shop div#product-variants label{width:90px}
 .product.row.product-default{width:100%;max-width:100%;margin:0}
 .product-shop .delivery-time-infos ul .check-pincode{justify-content:center}
