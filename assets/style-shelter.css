@@ -1853,6 +1853,10 @@ p.limited {
   text-align:center;
 }
 
+main.main-content {
+    overflow: hidden;
+}
+
 }
 
 @media only screen and (max-width:414px){
