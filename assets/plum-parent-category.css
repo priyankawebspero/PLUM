@@ -1180,6 +1180,10 @@ div#categoryxconcern .boost-pfs-filter-tree-v .boost-pfs-filter-option-title-hea
     padding-bottom: 0;
     margin-top: 4px;
 }
+
+.boost-pfs-filter-option.boost-pfs-filter-has-scrollbar .boost-pfs-filter-option-content .boost-pfs-filter-option-content-inner {
+    margin-top: 0;
+}
   
 }
 @media only screen and (max-width:575px){
