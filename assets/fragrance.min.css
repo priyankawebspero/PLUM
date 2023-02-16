@@ -8,7 +8,7 @@
   font-size: 20px;
 }
 .featured-products .box-title {
-    font-family: 'serifabold';
+   font-family: "DINNextRoundedLTPro-Bold";
     letter-spacing: 1px;
     font-size: 50px;
     margin-bottom: 20px;
@@ -148,13 +148,10 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
     margin: 0 0 8px 0;
 }
 
-.product-item .product-bottom .jdgm-widget.jdgm-preview-badge .jdgm-prev-badge__text {
-    display: none !important;
-}
 
 .product-item .product-bottom  .jdgm-prev-badge__stars .jdgm-star.jdgm-star {
     /*color: #d6006d !important;*/
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .content .btn {
