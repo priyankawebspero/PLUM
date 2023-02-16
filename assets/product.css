@@ -1489,6 +1489,15 @@ span#mobile-share-button {
 .product-shop div#product-variants .quantity_varients .selector-wrapper:first-child .single-option-selector {
     min-width: 123px;
 }
+
+.product-shop div#product-variants .quantity_varients {
+    margin: 5px 0;
+    /* width: 100%; */
+}
+
+.product-shop .shopify-product-form .quantity {
+    margin: 5px 0;
+}
   
 }
 
