@@ -6139,6 +6139,12 @@ span.discount-tag-col.right {
 .cart-template .wrapper-cart-template .right-col-infos .btn-actions {
     margin-bottom: 25px;
 }
+.cart-template .free_delivery {
+    font-size: 18px;
+    text-align: center;
+    font-family: DINNextRoundedLTPro-Regular;
+    font-weight: normal;
+}
 
 @media only screen and (max-width:767px){
 
