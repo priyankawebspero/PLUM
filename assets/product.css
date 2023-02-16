@@ -1419,6 +1419,17 @@ span#mobile-share-button {
     display: none;
 }
 
+.product-photos .product-label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    /* word-break: break-all; */
+}
+
+.product-label .label.sale-label {
+    width: 100%;
+}
+
 }
 
 @media only screen and (max-width:767px){
