@@ -646,6 +646,15 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
 .featured-products .product-item .action .btn[disabled="disabled"] {
     padding: 9px 10px;
 }
+
+.product-item .product-bottom  .jdgm-prev-badge__stars .jdgm-star.jdgm-star {
+    font-size: 11px;
+    padding-right: 1px !important;
+}
+
+.product-bottom  .jdgm-prev-badge__text {
+    font-size: 12px;
+}
   
 }
 
