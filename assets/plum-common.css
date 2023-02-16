@@ -681,6 +681,12 @@ span.st-brand-outer{display:none}
 .page-orders .yellow_btn:hover,.template-customers-account .yellow_btn:hover,.template-customers-addresses .yellow_btn:hover,.template-customers-order .yellow_btn:hover{color:#fff!important;background:#8901bd!important}
 #lion-loyalty-panel-custom-css span.lion-loyalty-widget__points{display:none!important}
 .price-box{font-family: "DINNextRoundedLTPro-Medium";}
+.login-register-page-info input[type="date"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #3c3c3c;
+}
+
 @media (min-width: 780px) {
 .header-bottom .header-mb{height:auto!important;transition:all .5s ease-in-out}
 }
