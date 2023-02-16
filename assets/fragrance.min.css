@@ -593,6 +593,10 @@ body .featured-products .product-item .action .btn:hover, body .featured-product
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.featured-products {
+    margin-bottom: 30px !important;
+}
   
 }
 

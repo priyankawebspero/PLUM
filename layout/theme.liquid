@@ -177,8 +177,8 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     $('#mobile-share-button').on('click', () => {
    if (navigator.share) {
       navigator.share({
-          title: '{{ product.title }}',
-          url: '{{ canonical_url }}'
+          title: "{{ product.title }}",
+          url: "{{ canonical_url }}"
         })
         .then(() => console.log('Successful share'))
         .catch((error) => console.log('Error sharing', error));
