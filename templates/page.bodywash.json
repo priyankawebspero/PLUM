@@ -298,6 +298,7 @@
     },
     "d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc": {
       "type": "custom-carousel",
+      "disabled": true,
       "blocks": {
         "template--14835923320892__d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc-1675312248a9b15eac-0": {
           "type": "custom",

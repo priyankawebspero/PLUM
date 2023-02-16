@@ -174,7 +174,21 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
 }
-
+.product-bottom a.product-title {
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    max-height: 40px;
+    min-height: 40px !important;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: 16px;
+    padding-bottom: 0;
+    font-family: "DINNextRoundedLTPro-Regular";
+}
 
 @media (min-width: 786px) {
 
