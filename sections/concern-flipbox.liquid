@@ -117,6 +117,7 @@
       </div>    
      </div>
         {% include 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: product %}
+    {% if block.settings.show_slider_featured_collection!= blank %}
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="concern-products" id="featured-products-{{block.id}}">
           <div class="container-padd60">
@@ -145,10 +146,11 @@
             </div>
           </div>
         </div>        
-      </div>
-     
+      </div> 
+             {% endif %}
     </div>
     {% endfor %}
+
   </div>
 </div>
 

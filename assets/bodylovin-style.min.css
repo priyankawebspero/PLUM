@@ -433,8 +433,9 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     padding: 0 3px;
 }
   
-#bodylovin .product-item .product-bottom .jdgm-preview-badge .jdgm-star.jdgm-star {
-    font-size: 13px;
+#bodylovin .product-item .product-bottom .jdgm-preview-badge .jdgm-star.jdgm-star, .jdgm-preview-badge .jdgm-star.jdgm-star {
+    font-size: 12px;
+    padding-right: 1px !important;
 }
   
 #bodylovin #shopify-section-bodylovin-featured-product .slick-list {
