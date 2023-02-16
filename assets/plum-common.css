@@ -6014,6 +6014,55 @@ span.discount-tag-col.right {
     display: none!important;
 }
 
+
+.toggle-inner p a {
+    font-weight: 600;
+    color: #5f258a;
+    text-decoration: underline;
+}
+
+.toggle-inner p a:hover{text-decoration: none;}
+
+/*------------cart-page-design-----*/
+
+.wrapper-cart-template .offer_congrats {
+    margin: 10px 0 15px 0px;
+}
+
+.wrapper-cart-template .offer_congrats p{
+ line-height: 1;
+    margin: 20px 0;
+    padding: 9px 5px;
+    text-align: center;
+  
+}
+
+.wrapper-cart-template .offer_congrats .first_color {
+    background: #d6006b;
+    color: #fff;  
+}
+.wrapper-cart-template .offer_congrats .sec_color {
+    background: #ffbd3d;
+    color: #000 !important;
+}
+
+.wrapper-cart-template .offer_congrats .sec_color {
+    background: #ffbd3d;
+    color: #fff;
+}
+
+.wrapper-cart-template .offer_congrats .third_color {
+    background: #8756da;
+    color: #fff;
+}
+
+.wrapper-cart-template .offer_congrats .fourth_color {
+    background: green;
+    color: #fff;
+}
+
+
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
@@ -6082,7 +6131,5 @@ span.discount-tag-col.pink {
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
   display: none !important;
-}
-
-  
+} 
 }
