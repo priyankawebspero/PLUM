@@ -1,5 +1,5 @@
 {% assign freeb = 0 | times:0%}
-{% for items in cart.items %}
+ {% for item in cart.items %}
   {%if item.variant.metafields.secomapp.freegifts%}
    {% assign freeb = freeb | plus:1 %}
   {% endif %}
