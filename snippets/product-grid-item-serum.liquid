@@ -1,26 +1,8 @@
-{% assign sorted_variants = product.variants | sort: "price"  %}
-{% assign sorted_variants_rev = product.variants | sort: "price" | reverse  %}
-{% assign last_variant_in_cart = false %}
-{% assign sizeOption = false %}
-{% assign colorOption = false %}
-  {% for variant in sorted_variants_rev %}
-    {% if variant.available %}{% assign lastVariant = variant %}{% break %}{% endif %}
-  {% endfor %}
-  {% for variant in sorted_variants %}
-    {% for item in cart.items %}{% if item.id == lastVariant.id %}{% assign last_variant_in_cart = true %}{% endif %}{% endfor %}
-  {% endfor %}
-{% for product_option in product.options_with_values %}
-  {% assign productOption = product_option.name | downcase  %}
-  {% if productOption == "size" %}
-    {% assign sizeOption = true %}
-  {% elsif productOption == "color" %}
-    {% assign colorOption = true %}
-  {% endif %}
-{% endfor %}
-{% assign variantCount = product.variants | size %}
-<div class="inner product-item{% if sold_out %} sold-out{% endif %}{% if on_sale %} on-sale{% endif %} {% if product.tags contains 'b1g1' %}  b1g1{% endif %} {% if product.tags contains 'birthday40' %} birthday40{% endif %} {% if product.tags contains 'birthday50' %} birthday50{% endif %}{% if product.tags contains 'Plum 999' %} plum_999{% endif %}{% if product.tags contains 'plum850' %} plum850{% endif %}{% if product.tags contains 'Lipstick' %} plum-Lipstick{% endif %}" data-product-id="product-{{ product.id }}">
+<div class="inner product-item {% if sold_out %} sold-out{% endif %}{% if on_sale %} on-sale{% endif %} {% if product.tags contains 'b1g1' %}  b1g1{% endif %} {% if product.tags contains 'birthday40' %} birthday40{% endif %} {% if product.tags contains 'birthday50' %} birthday50{% endif %}{% if product.tags contains 'Plum 999' %} plum_999{% endif %}{% if product.tags contains 'plum850' %} plum850{% endif %}{% if product.tags contains 'Lipstick' %} plum-Lipstick{% endif %}" data-product-id="product-{{ product.id }}">
   <div class="inner-top">
     <div class="product-top">
+      
+      <label class="offer_label" ><a href="{{ product.url  }}"></a></label>
       <div class="product-image{% if product.images.size > 1 and settings.image_swap %} image-swap{% endif %}">
         <span id="secomapp-fg-image-{{ product.id }}" style="display: none;"> {{ "icon-freegift.png" | asset_url | img_tag: "", "sca-fg-img-collect" }} </span>
         <span class="sca-fg-cat-list prod-show-list" style="display:none;" id="secomapp-fg-data-{{ product.id }}"> </span>
@@ -37,32 +19,8 @@
           {%- assign img_11 = product.images[1].src | product_img_url: '277x' , format: 'pjpg'-%}
           {%- assign img_12 = product.images[1].src | product_img_url: '277x' , format: 'pjpg'-%}
 
-          {%- assign featured_image = lastVariant.image.src | default: product.featured_image | product_img_url: '277x' , format: 'pjpg' -%}
-
           {% if product.images.size > 1 and settings.image_swap %}
-            {% if sizeOption and variantCount > 1 %}
-              <img alt="{{ product.images[0].alt | escape }}"
-               class="images-one lazyautosizes lazyload"
-               data-src="{{ featured_image }}"
-               data-srcie="{{ featured_image }}"
-               data-srcief="{{ featured_image }}"
-               data-widths="[180 , 220, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-               data-aspectratio="{{ product.featured_image.aspect_ratio }}"
-               data-sizes="auto">
-              
-            <span class="images-two">
-              <img alt="{{ product.images[1].alt | escape }}"
-                 class="lazyautosizes lazyload"
-                 data-src="{{ img_1 }}"
-                 data-srcie="{{ img_11 }}"
-                 data-srcief="{{ img_12 }}"
-                 data-widths="[180, 220 , 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                 data-aspectratio="{{ product.featured_image.aspect_ratio }}"
-                 data-sizes="auto">
-
-            </span>
-            {% else %}
-            <img alt="{{ product.images[0].alt | escape }}"
+          <img alt="{{ product.images[0].alt | escape }} {% if product.tags contains 'b2g1' %}  b2g1{% endif %} "
                class="images-one lazyautosizes lazyload"
                data-src="{{ img_0 }}"
                data-srcie="{{ img_01 }}"
@@ -71,8 +29,8 @@
                data-aspectratio="{{ product.featured_image.aspect_ratio }}"
                data-sizes="auto">
 
-            <span class="images-two">
-            <img alt="{{ product.images[1].alt | escape }}"
+          <span class="images-two">
+            <img alt="{{ product.images[1].alt | escape }}  {% if product.tags contains 'b2g1' %}  b2g1{% endif %}"
                  class="lazyautosizes lazyload"
                  data-src="{{ img_1 }}"
                  data-srcie="{{ img_11 }}"
@@ -82,9 +40,8 @@
                  data-sizes="auto">
 
           </span>
-          {% endif %}
           {% else %}
-          <img alt="{{ product.featured_image.alt | escape }}"
+          <img alt="{{ product.featured_image.alt | escape }}  {% if product.tags contains 'b2g1' %}  b2g1{% endif %}"
                data-src="{{ img_pr }}"
                data-srcie="{{ img_pr_1 }}"
                data-srcief="{{ img_pr_2 }}"
@@ -97,7 +54,6 @@
       </div>
 
       {% include 'product-label' %}
-
     </div>
 
     {% comment %} Use for productGrid {% endcomment %}
@@ -125,17 +81,48 @@
       {% endif %}
       {% endif %}
       
-     {% comment %}{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}{% endcomment %}
+     {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
       
       <h3 class="title_h3"><a class="product-title" href="{{ product.url }}">
         <span class="lang1">
           {{ product.title }}
         </span>
       </a></h3>
+      {% if product.metafields.Product["advantages"] != blank %}      
+         <span class="advantages">{{ product.metafields.Product["advantages"] }}</span>
+        {% else %}
+         <span class="advantages"></span>
+      {% endif %}
+      {% assign variantCounts = product.variants | size %}
+      {% if variantCounts > 1 %}
+      {% assign producTemplate =  product.template_suffix %}
+      {% if producTemplate == 'swatch' %}
+      <span class="shade-list">{{variantCounts}} shades</span>
+      {% else %}
+      <span class="shade-sizes">{{variantCounts}} sizes</span>      
+      {% endif %}
+      {%else%}
+      <span class="shade-sizes deative_shades"></span>
+      {% endif %}
+      <div class="price-box">              
+        {% if on_sale %}
+        
+        <div class="price-sale">
+         <span class="price-mrp test"></span> <span class="old-price">{{ product.variants[0].compare_at_price | money }}</span>
+          <span class="price-mrp test"></span><span class="special-price">{{ product.variants[0].price | money }}</span>
+        </div>
+        
+        {% else %}
+        <div class="price-regular">
+          <span class="price-mrp test"></span><span>{{ product.variants[0].price | money }}</span>
+        </div>
+        {% endif %}
+      </div>
+<a class="game_offer_grid" href="/collections/single-products-offer">+ game offers</a>
       {% if settings.display_button %}
       {% assign prodtemplate =  product.template_suffix %}
       <div class="action">
-        {% include 'add-to-cart-form-serum', id: 'grid-product-form-' %}
+        {% include 'add-to-cart-form', id: 'grid-product-form-' %}
       </div>
        {% endif %}
       
@@ -146,3 +133,4 @@
   {% render 'hextom_usb_coll', product: product %}
   <!-- **END** Hextom USB Integration // Collection Include - DO NOT MODIFY -->
 </div>
+
