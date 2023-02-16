@@ -126,17 +126,7 @@ p.iWishLoginMsg a{color:#5e248c}
     padding-left: 0;
     padding-right: 0;
 }          
-.product-pge-tabs .tabs {margin-top: 0;}
-.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
-    display: block!important;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-    line-height: normal;
-    color: #5b0f8b;
-    text-transform: lowercase;
-    font-family: 'DINNextRoundedLTPro-Medium';
-}
+
 @media only screen and (max-device-width: 480px) {
 .img-responsive{display:none}
 .img-responsive.mobile{display:block}
@@ -1494,6 +1484,10 @@ span#mobile-share-button {
 .product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile .image_section img {
     display: block;
     margin: 0 auto;
+}
+
+.product-shop div#product-variants .quantity_varients .selector-wrapper:first-child .single-option-selector {
+    min-width: 123px;
 }
   
 }

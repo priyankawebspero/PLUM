@@ -342,7 +342,7 @@ var boostPFSTemplate = {
             //   itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
             // }
             if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
-              itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> new launched </span>';
+              itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> new </span>';
             }
           if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
               itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
@@ -356,7 +356,7 @@ var boostPFSTemplate = {
             //   itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
             // }
             if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
-              itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> new launched </span>';
+              itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> new </span>';
             }
           if(data.tags.includes('b2g2') || data.tags.includes('B2G2')) {
               itemLabelsHtml += '<span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span>';
