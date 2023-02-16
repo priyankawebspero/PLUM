@@ -1488,4 +1488,8 @@ span#mobile-share-button {
   
 }
 
-
+.product-shop .delivery-time-infos ul li .check-pincode {
+    max-width: 380px;
+    margin: 0 auto;
+    width: 100%;
+}
