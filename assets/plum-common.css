@@ -6131,6 +6131,11 @@ span.discount-tag-col.right {
     margin-bottom: 25px;
 }
 
+.cart-template .wrapper-cart-template .right-col .right-col-infos .total_saving span.price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
