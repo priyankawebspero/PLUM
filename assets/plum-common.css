@@ -5820,8 +5820,8 @@ div#dropdown-cart .counter_text {
 }
 
 div#dropdown-cart .counter_text span.side_text {
-    font-size: 14px;
-    white-space: nowrap;
+    font-size: 16px;
+    white-space: normal;
 }
 
 }
