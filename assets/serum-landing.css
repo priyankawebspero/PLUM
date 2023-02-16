@@ -1547,6 +1547,10 @@ a.range-link {
 
 
 @media (max-width: 767px){
+
+  .inner.product-item .jdgm-widget.jdgm-widget {
+    margin-bottom: 10px !important;
+}
   
   .concern_tabs_cs a#scroll_top img {
     width: 100%;
