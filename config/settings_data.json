@@ -730,8 +730,8 @@
           "7dc8e2eb-5c3d-4761-b574-6dffb4d7e29a"
         ],
         "settings": {
-          "display_header_top": true,
-          "top_message_text": "Buy 2 Get 2 FREE Sale is LIVE",
+          "display_header_top": false,
+          "top_message_text": "⚡Flash Sale : Free toners on all orders",
           "top_message_text1": "",
           "top_message_text2": "",
           "top_message_text3": "",
