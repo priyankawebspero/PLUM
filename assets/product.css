@@ -126,6 +126,7 @@ p.iWishLoginMsg a{color:#5e248c}
     padding-left: 0;
     padding-right: 0;
 }          
+.product-pge-tabs .tabs {margin-top: 0;}
 
 @media only screen and (max-device-width: 480px) {
 .img-responsive{display:none}
