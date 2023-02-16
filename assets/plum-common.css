@@ -6035,6 +6035,10 @@ span.discount-tag-col.right {
     color: #000;
 }
 
+.template-search .jdgm-prev-badge__text {
+    visibility: visible;
+}
+
 /*------------cart-page-design-----*/
 
 .wrapper-cart-template .offer_congrats p{
