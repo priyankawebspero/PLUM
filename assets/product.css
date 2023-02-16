@@ -167,7 +167,7 @@ a.jdgm-paginate__page.jdgm-paginate__next-page,a.jdgm-paginate__page.jdgm-pagina
 .product-shop .delivery-time-infos{width:100%;max-width:50%}
 .short-desc-datas{border-top:1px solid #c3c3c3;padding:0;max-width:100%;margin:0 auto;border-bottom:1px solid #c3c3c3;padding:25px 20px;width:100%}
 .product-shop .section-3 .planet_div{width:50%;float:left;padding:15px 1rem}
-.product-shop .section-3 .delivery-time-infos{background:#D9C4E3;width:100%;max-width:50%;padding:15px 2rem 10px;display:flex;align-items:center}
+.product-shop .section-3 .delivery-time-infos{background:#D9C4E3;width:100%;max-width:100%;padding:15px 2rem 10px;display:flex;align-items:center}
 .product-shop .section-3 .delivery-time-infos ul{margin-bottom:0;width:100%}
 .free-shipping-top ul li{width:50%;float:none;padding:0 20px 9px 50px !important;display:inline-block;line-height:initial;margin:7px -2px;vertical-align:top}
 .col-md-5.product-photos{padding-bottom:40px}
