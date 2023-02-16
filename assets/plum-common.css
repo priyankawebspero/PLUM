@@ -6369,6 +6369,11 @@ span.discount-tag-col.pink {
     width: 50px;
     font-size: 13px;
 }
+
+.product-top span.discount-tag-col.lightpurple {
+    width: 55px !important;
+    padding: 6px 3px !important;
+}
   
 }
 
