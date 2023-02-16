@@ -587,6 +587,10 @@ div#shopify-section-footer-phy {
     margin-bottom: 30px;
   font-size: 22px;
 }
+
+.phy-collection-boxes {
+    padding-top: 10px;
+}
   
 }
 @media screen and (max-width: 540px) {
