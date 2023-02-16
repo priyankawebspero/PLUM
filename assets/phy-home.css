@@ -582,6 +582,11 @@ div#shopify-section-footer-phy {
     padding-left: 13px;
     padding-right: 13px;
 }
+
+#phy-home h3.box-title, .widget-title h3.box-title {
+    margin-bottom: 30px;
+  font-size: 22px;
+}
   
 }
 @media screen and (max-width: 540px) {
