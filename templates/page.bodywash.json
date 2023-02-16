@@ -311,41 +311,73 @@
         "2c7f5b00-60d1-4570-ac04-91d1b8f8648e": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Tiles_Onion_Oil_Mob_1e634082-804d-4d2b-84a8-e52878eb084d.webp",
-            "title": "",
-            "collection": ""
+            "image_desk": "shopify:\/\/shop_images\/CW_Collections_tile_for_Bodycare_landing_page_210x210_97d5712e-102d-400a-879c-060a6b5aa0ab.jpg",
+            "title": "coffe wake-a-ccino",
+            "collection": "shopify:\/\/collections\/coffee-wake-a-ccino"
           }
         },
         "aea0d4a6-c30c-4477-9824-5666f4fbb2bb": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_2_fdf28a4f-f2b3-4da4-b268-30caa6a2b1c0.jpg",
-            "title": "",
-            "collection": ""
+            "image_desk": "shopify:\/\/shop_images\/DMC_Collections_tile_for_Bodycare_landing_page_210x210_8cb825b3-ef4b-4dc8-93d4-8b7604ab528d.jpg",
+            "title": "drivin' me cherry",
+            "collection": "shopify:\/\/collections\/drivin-me-cherry"
           }
         },
         "70b1602d-d423-44cc-9453-0367f87168e5": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Face-wash_Tiles_4_f2027077-5a5c-4c99-9a1f-450e008a8693.jpg",
-            "title": "",
-            "collection": ""
+            "image_desk": "shopify:\/\/shop_images\/EP_Collections_tile_for_Bodycare_landing_page_210x210_5e9a4f24-421a-4bb4-85e1-591f1bc8245c.jpg",
+            "title": "everythin' plum",
+            "collection": "shopify:\/\/collections\/everything-plum"
           }
         },
         "2aaa8726-5712-41db-8e1e-44813edb989c": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/tiles_moodshoot_200X200_d5245e11-9269-413b-b3eb-24044c548a1c.webp",
-            "title": "",
-            "collection": ""
+            "image_desk": "shopify:\/\/shop_images\/FSR_Collections_tile_for_Bodycare_landing_page_210x210_e5c1e4f3-0ead-4e7f-963c-7cb3b474fe74.jpg",
+            "title": "feelin' so rose",
+            "collection": "shopify:\/\/collections\/feelin-so-rose"
           }
         },
         "17b91028-5324-43f1-b39b-7a6b60f030fd": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/Tiles_PBL_Mob_02_0002d23a-f7c5-4ff6-9436-1e507e4aaeac.webp",
-            "title": "",
-            "collection": ""
+            "image_desk": "shopify:\/\/shop_images\/HR_Collections_tile_for_Bodycare_landing_page_210x210_a2874988-57f7-45cd-82ea-cebfa403b137.jpg",
+            "title": "hawaiian rumba",
+            "collection": "shopify:\/\/collections\/hawaiian-rumba"
+          }
+        },
+        "720f589e-50f6-4e8e-b542-c6db937212b2": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/LL_Collections_tile_for_Bodycare_landing_page_210x210_cbdb3157-0579-40af-81e4-2ed3d3b85e1d.jpg",
+            "title": "lemme lemon",
+            "collection": "shopify:\/\/collections\/lemme-lemon"
+          }
+        },
+        "c3cec1f1-236d-4163-8a04-d00ff3e60e69": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/MGB_Collections_tile_for_Bodycare_landing_page_210x210_f6b198a6-a5a5-4121-94de-c76676cf9cfe.jpg",
+            "title": "minions goin' bananas",
+            "collection": "shopify:\/\/collections\/minions-goin-bananas"
+          }
+        },
+        "def4b623-5e6f-4585-b365-2e850ac47ca5": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/OYN_Collections_tile_for_Bodycare_landing_page_210x210_5b9903a2-7687-460f-8539-74900e1098d7.jpg",
+            "title": "orchid-you-not",
+            "collection": "shopify:\/\/collections\/orchid-you-not"
+          }
+        },
+        "99366e12-9606-4cbd-9743-5f96bc6f4e03": {
+          "type": "custom",
+          "settings": {
+            "image_desk": "shopify:\/\/shop_images\/RVL_Collections_tile_for_Bodycare_landing_page_210x210_7c460f6a-81a4-4578-95f0-a6235da0272e.jpg",
+            "title": "red velvet love",
+            "collection": "shopify:\/\/collections\/red-velvet-love"
           }
         }
       },
@@ -355,7 +387,11 @@
         "aea0d4a6-c30c-4477-9824-5666f4fbb2bb",
         "70b1602d-d423-44cc-9453-0367f87168e5",
         "2aaa8726-5712-41db-8e1e-44813edb989c",
-        "17b91028-5324-43f1-b39b-7a6b60f030fd"
+        "17b91028-5324-43f1-b39b-7a6b60f030fd",
+        "720f589e-50f6-4e8e-b542-c6db937212b2",
+        "c3cec1f1-236d-4163-8a04-d00ff3e60e69",
+        "def4b623-5e6f-4585-b365-2e850ac47ca5",
+        "99366e12-9606-4cbd-9743-5f96bc6f4e03"
       ],
       "settings": {
         "banner_heading": "#CAMPAIGNS"
