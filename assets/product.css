@@ -1413,6 +1413,14 @@ span#mobile-share-button {
     display: none !important;
 }
 
+
+@media only screen and (min-width:768px){
+.product_form_desciption .mobile-cart {
+    display: none;
+}
+
+}
+
 @media only screen and (max-width:767px){
 
 .product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile .image_section {
