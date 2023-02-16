@@ -303,7 +303,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/CP_Collections_tile_for_Bodycare_landing_page_210x210_b7df31f1-cbc3-4df8-81fb-46ede67bb8a3.jpg",
-            "title": "caramel popcorn",
+            "title": "",
             "collection": "shopify:\/\/collections\/caramel-popcorn"
           }
         },
@@ -311,7 +311,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/TM_Collections_tile_for_Bodycare_landing_page_210x210_aa2982d7-fdb0-4d22-9f55-de3e4d751b27.jpg",
-            "title": "trippin' mimosas",
+            "title": "",
             "collection": "shopify:\/\/collections\/trippin-mimosas"
           }
         },
@@ -319,7 +319,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/DMC_Collections_tile_for_Bodycare_landing_page_210x210_8cb825b3-ef4b-4dc8-93d4-8b7604ab528d.jpg",
-            "title": "drivin' me cherry",
+            "title": "",
             "collection": "shopify:\/\/collections\/drivin-me-cherry"
           }
         },
@@ -327,7 +327,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/EP_Collections_tile_for_Bodycare_landing_page_210x210_5e9a4f24-421a-4bb4-85e1-591f1bc8245c.jpg",
-            "title": "everythin' plum",
+            "title": "",
             "collection": "shopify:\/\/collections\/everything-plum"
           }
         },
@@ -335,7 +335,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/FSR_Collections_tile_for_Bodycare_landing_page_210x210_e5c1e4f3-0ead-4e7f-963c-7cb3b474fe74.jpg",
-            "title": "feelin' so rose",
+            "title": "",
             "collection": "shopify:\/\/collections\/feelin-so-rose"
           }
         },
@@ -343,7 +343,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/HR_Collections_tile_for_Bodycare_landing_page_210x210_a2874988-57f7-45cd-82ea-cebfa403b137.jpg",
-            "title": "hawaiian rumba",
+            "title": "",
             "collection": "shopify:\/\/collections\/hawaiian-rumba"
           }
         },
@@ -351,7 +351,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/VV_Collections_tile_for_Bodycare_landing_page_210x210_850bfe27-97cf-4af3-a00a-0fb674e19bfc.jpg",
-            "title": "vanilla vibes",
+            "title": "",
             "collection": "shopify:\/\/collections\/vanilla-vibes"
           }
         },
@@ -359,7 +359,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/MGB_Collections_tile_for_Bodycare_landing_page_210x210_f6b198a6-a5a5-4121-94de-c76676cf9cfe.jpg",
-            "title": "minions goin' bananas",
+            "title": "",
             "collection": "shopify:\/\/collections\/minions-goin-bananas"
           }
         },
@@ -367,7 +367,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/OYN_Collections_tile_for_Bodycare_landing_page_210x210_5b9903a2-7687-460f-8539-74900e1098d7.jpg",
-            "title": "orchid-you-not",
+            "title": "",
             "collection": "shopify:\/\/collections\/orchid-you-not"
           }
         },
@@ -375,7 +375,7 @@
           "type": "custom",
           "settings": {
             "image_desk": "shopify:\/\/shop_images\/RVL_Collections_tile_for_Bodycare_landing_page_210x210_7c460f6a-81a4-4578-95f0-a6235da0272e.jpg",
-            "title": "red velvet love",
+            "title": "",
             "collection": "shopify:\/\/collections\/red-velvet-love"
           }
         }
