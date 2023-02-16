@@ -1929,11 +1929,11 @@ if ((typeof Shopify.getCart) === 'undefined') {
        // if(typeof ACSCurrency !== "undefined" && typeof ACSCurrency.moneyFormats !== "undefined") {mlvedaload();}  
       $('.clear_cart').addClass('active');
       $('.best-sell-product').removeClass('disable');      
-       $('#flash-sale-new').hide();
+       // $('#flash-sale-new').hide();
       }else{
        $('.clear_cart').removeClass('active');
        $('.best-sell-product').addClass('disable');
-        $('#flash-sale-new').hide();
+        // $('#flash-sale-new').hide();
       }
       cartSpecialUpdate(cart);
       ella.checkItemsInDropdownCart();
