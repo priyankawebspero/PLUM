@@ -1423,6 +1423,10 @@ span#mobile-share-button {
 
 @media only screen and (max-width:767px){
 
+iframe#expertips_iframe {
+    bottom: 50px !important;
+}
+
 .product_form_desciption #add-to-cart-form .mobile-cart input#product-add-to-cart {
     color: #fff;
     padding: 13px 50px 13px 20px !important;
