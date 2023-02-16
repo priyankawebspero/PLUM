@@ -6254,3 +6254,7 @@ span.discount-tag-col.pink {
   display: none !important;
 } 
 }
+
+  .product-label.deactive {
+    display: none !important;
+}
