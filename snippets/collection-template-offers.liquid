@@ -20,7 +20,11 @@
 		{%- assign rows = 'products-grid' -%}
 
 	{% when '4' %}
+   {% if collection.handle == "categoryxconcern" %}
+        {%- assign grid_item_width = 'col-6 col-md-4 col-lg-3' -%}
+     {% else %}
 		{%- assign grid_item_width = 'col-6 col-md-3 col-lg-3' -%}
+  {% endif %}
 		{%- assign rows = 'products-grid' -%}
 
 	{% when '5' %}
