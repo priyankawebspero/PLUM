@@ -6098,6 +6098,10 @@ span.discount-tag-col.right {
     float: none;
 }
 
+.cart-template .wrapper-cart-template .cart-list a.product-name {
+    font-family: "DINNextRoundedLTPro-Regular";
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
