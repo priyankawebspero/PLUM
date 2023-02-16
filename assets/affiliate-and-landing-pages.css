@@ -1102,7 +1102,14 @@ main.main-content {
 
 
 
+@media (max-width: 360px){
 
+ .sale-products .inner.product-item .btn, .deal-of-the-day .inner.product-item .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+}
 
 @media (max-width: 345px){
   
@@ -1113,11 +1120,6 @@ main.main-content {
 .product-item .jdgm-widget.jdgm-widget {
     margin-bottom: 5px;
     margin-top: -5px;
-}
-
-  .sale-products .inner.product-item .btn, .deal-of-the-day .inner.product-item .btn {
-    font-size: 14px;
-    padding: 8px 12px;
 }
 
 }
