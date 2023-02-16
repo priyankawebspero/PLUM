@@ -6337,6 +6337,10 @@ span.discount-tag-col.pink {
     font-size: 26px;
     padding-bottom: 20px;
 }
+
+.product-shop div#product-variants .review_qtn {
+    width: 100%;
+}
   
 }
 
