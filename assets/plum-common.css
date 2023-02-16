@@ -6297,6 +6297,10 @@ span.discount-tag-col.pink {
  .homepage-blog-tab-sec .blog-tab-sec-data .tab_container .list-blog li.blog-item {
     display: block;
 } 
+
+.blog-page-info .page-top-sec .page-header h2 {
+    padding-top: 10px;
+}
   
 }
 
