@@ -3050,7 +3050,7 @@ span.st-size-swatch label {
 
 	.sortFilterCon div {
 		width: 49%;
-		font-family: 'Nunito', sans-serif;
+		/*font-family: 'Nunito', sans-serif;*/
 		float: left;
 		position: relative;
 		box-sizing: border-box;
