@@ -9,11 +9,6 @@
 {% endfor %}
 
 <form action="/cart/add" method="post" class="variants grid-product-form--{{ product.id }} product-{{ product.id }} {% if variantCount <= 1 %} single-variant{% endif %}" data-product="{{ product.id }}" id="grid-product-form--{{ product.id }}" data-id="product-actions-{{ product.id }}" enctype="multipart/form-data">
-  {% if sold_out %}
-  <button class="btn add-to-cart-btn" type="submit" disabled="disabled" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}>
-    {{ 'products.product.unavailable' | t }}
-  </button>
-  {% else %}
   {% if sizeOption and variantCount >= 1 %}
     <div class="srting_it">
       {% for product_option in product.options_with_values %}
@@ -59,7 +54,11 @@
     </div>
 
   {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
-  
+    {% if sold_out %}
+  <button class="btn add-to-cart-btn" type="submit" disabled="disabled" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}>
+    {{ 'products.product.unavailable' | t }}
+  </button>
+ {% else %}
   {% if not_in_cart and variantCount <= 1 %}
     <div class="qty-group newtab variant-{{ product.variants[0].id }}">
       <a href="javascript:void(0)" title="remove" class="btn-remove-item" data-id="{{ product.variants[0].id }}"><i class="fa fa-trash" aria-hidden="true"></i></a>
@@ -132,7 +131,7 @@
     {{ 'products.product.select_options' | t }}
   </a> 
    {% endif %}
-{% endif %}
+ {% endif %}
   
 </form>
 <script>
