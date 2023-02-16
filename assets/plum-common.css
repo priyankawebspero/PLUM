@@ -6281,7 +6281,7 @@ span.discount-tag-col.pink {
 }
   
 .home-list-collections .row::-webkit-scrollbar {
-  height: 0px;
+  height: 5px;
 }
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar-track {
@@ -6289,7 +6289,7 @@ span.discount-tag-col.pink {
 }
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar-thumb {
-  height: 0px;
+  height: 5px;
   background-color: #fff;
 }
 
