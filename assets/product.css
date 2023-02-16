@@ -1413,6 +1413,14 @@ span#mobile-share-button {
     display: none !important;
 }
 
+.product-shop .price_info_box .price-manufacturer .compare-price {
+    text-decoration: none;
+}
+.product-shop .prices .compare-price span.money {
+    /* text-decoration: none !important; */
+    text-decoration: line-through !important;
+}
+
 
 @media only screen and (min-width:768px){
 .product_form_desciption .mobile-cart {
