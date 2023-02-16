@@ -6255,6 +6255,14 @@ span.discount-tag-col.pink {
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
   display: none !important;
 } 
+
+.wrapper-cart-template .offer_congrats p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
 }
 
   .product-label.deactive {
