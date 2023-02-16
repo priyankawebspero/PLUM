@@ -875,6 +875,10 @@ img.mobile {display: none !important;}
     font-size: 30px;
     letter-spacing: 0;
 }
+
+  a.pro_shop_feature {
+    font-size: 18px;
+}
     
   }
 
