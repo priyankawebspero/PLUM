@@ -207,14 +207,24 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     snaptr('track', 'ADD_CART');
   }    
 </script> 
+
+<script type="text/javascript">    
+$(".st-search-bar input").on("keypress", function() {
+	var e = this.value;
+	e.length > 3 && clevertap.event.push("Searched Product", {
+		Terms: e,
+		Date: new Date
+	})
+    smartech('dispatch', 'custom product search', {
+      'searchterm': e
+  });
+});
+$(".clear_cart").on("click",(function(){$.ajax({type:"POST",url:"/cart/clear.js",data:"",dataType:"json",success:function(){location.reload()},error:function(a,c){}})}));
+</script>      
       {% if fg_script_url !="" %}    
         <script src="{{ fg_script_url |remove:'\' }}"></script>    
       {% endif %}
       
 </body>
 
-<script type="text/javascript">    
-$(".st-search-bar input").on("keypress",(function(){var e=this.value;e.length>2&&clevertap.event.push("Searched Product",{Terms:e,Date:new Date})}));
-$(".clear_cart").on("click",(function(){$.ajax({type:"POST",url:"/cart/clear.js",data:"",dataType:"json",success:function(){location.reload()},error:function(a,c){}})}));
-</script>
 </html>
