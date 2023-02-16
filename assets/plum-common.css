@@ -5816,7 +5816,7 @@ div#shopify-section-sidebar-filter .sidebar .filter_area.active h3.sidebar-headi
 div#dropdown-cart .counter_text {
     align-items: flex-start;
     gap: 3px;
-    /* white-space: nowrap; */
+   flex-wrap: wrap;
 }
 
 div#dropdown-cart .counter_text span.side_text {
