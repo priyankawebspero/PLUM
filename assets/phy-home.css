@@ -680,9 +680,9 @@ body#phy-home main.main-content {
     line-height: 1;
 }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 350px) {
 #phy-home h3.box-title, .widget-title h3.box-title {
-    font-size: 15px;
+    font-size: 18px;
 }
   
 }
