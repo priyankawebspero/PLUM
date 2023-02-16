@@ -6184,7 +6184,10 @@ span.discount-tag-col.right {
     font-family: DINNextRoundedLTPro-Regular;
     font-weight: normal;
 }
-
+.cart-template .wrapper-cart-template .cart-list .quantity label {
+    margin-bottom: 5px;
+    text-transform: lowercase;
+}
 
 @media only screen and (max-width:767px){
 
