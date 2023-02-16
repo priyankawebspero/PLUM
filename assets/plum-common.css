@@ -6039,7 +6039,7 @@ span.discount-tag-col.right {
     visibility: visible;
 }
 
-.cart-show iframe#expertips_iframe {
+.cart-show iframe#expertips_iframe, html.translate-overlay iframe#expertips_iframe {
     z-index: 1 !important;
 }
 
