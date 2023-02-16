@@ -32,10 +32,12 @@ body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swa
 .translate-overlay .doubly-wrapper{pointer-events:none}
 .melt_goodness .image_section{width:100%;display:flex;flex-wrap:wrap;height:100%;align-items:center;justify-content:center}
 .melt_goodness .image_section p{font-size:65px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;line-height:normal;color:#5b0f8b;width:100%;max-width:100%;margin:0 auto;display:block;text-align:center;padding:50px 0;line-height:1.1}
+.product-pge-tabs .tabs{margin-top:-52px;border:none}
 .product-pge-tabs .tabs ul.tabs{margin-top:0;margin-top:0;text-align:center}
 .product-pge-tabs .tabs ul.tabs li{float:none;display:inline-block;vertical-align:middle;background:#e0e0e0;color:#000;font-family: "DINNextRoundedLTPro-Medium" !important; font-display:swap;font-size:18px;padding:14px 10px;width:auto;min-width:165px;overflow:visible;margin:0 6px;border-radius:10px 10px 0 0;}
 .product-pge-tabs .tabs ul.tabs li.current{background:#fff}
 .product-pge-tabs .jdgm-rev-widg{border:none}
+.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title{display:none}
 .product-pge-tabs .jdgm-histogram.jdgm-temp-hidden{display:none}
 .product-pge-tabs .jdgm-rev-widg .jdgm-star{color:#5e0d8b}
 .product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__summary-stars{display:inline-block;vertical-align:middle}
@@ -48,7 +50,7 @@ body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swa
 .product-pge-tabs .jdgm-rev-widg__reviews .jdgm-rev{display:flex;flex-wrap:wrap;align-items:center}
 .product-pge-tabs .jdgm-rev-widg__reviews .jdgm-rev .jdgm-rev__content{float:left;padding-left:45px;width:75%;border-left:1px solid #ccc}
 .product-pge-tabs .jdgm-rev-widg__reviews .jdgm-rev .jdgm-rev__header{float:left;width:25%}
-.product-related-outer {position:relative;background:#E0E0E0;margin-top:4px;padding-bottom:25px}
+.product-related-outer{position:relative;background:#E0E0E0;margin-top:4px;padding-bottom:25px}
 .product-related-outer .widget-title{padding-top:0;margin-top:-38px}
 .product-related-outer .widget-title h3.box-title{font-weight:bold;font-size:50px;font-family: "DINNextRoundedLTPro-Bold";font-display:swap;line-height:normal;color:#5b0f8b}
 .product-related-outer .inner.product-item{padding-bottom:15px;border-radius:10px;background:#fff}
@@ -6288,6 +6290,11 @@ span.discount-tag-col.pink {
     font-size: 16px;
     padding: 10px !important;
 }
+.blog-tab-sec-data p.text-center a.btn {
+    font-size: 18px!important;
+    padding: 13px;
+}
+  
   
 }
 
