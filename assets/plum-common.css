@@ -6002,16 +6002,24 @@ span.discount-tag-col.left.pink span {
 .product-top span.discount-tag-col.right {
     position: absolute;
     margin-bottom: 10px;
-    bottom: -22px;
+    bottom: -8px;
     top: auto;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
     right: auto;
+}
+
+.product-item .product-top {
+    padding-bottom: 25px;
+}
+
+/*span.discount-tag-col.right {
+    display: none!important;
 }
 
 .product-top span.discount-tag-col.right {
     display: none !important;
-}
+}*/
 
 .added_product.modal {
     font-size: 14px;
@@ -6020,11 +6028,6 @@ span.discount-tag-col.left.pink span {
 .cart-show span.discount-tag-col.pink {
     z-index: 0;
 }
-
-span.discount-tag-col.right {
-    display: none!important;
-}
-
 
 .toggle-inner p a {
     font-weight: 600;
