@@ -8,7 +8,13 @@
       {% assign total_saving = saving | plus: total_saving %}
     {% endif %}
 {% endfor %}
-
+ {% assign freebv = 0 %}
+ {% for item in cart.items %}
+  {% if item.price < 200 %}
+   {% assign freebv = freebv | plus:1 %}
+  {% endif %}
+{% endfor %} 
+{% assign totalCountv =  cart.item_count | minus: freebv%}
 {% if settings.header_layout == 'default' %}
 <a href="javascript:void(0)" title="Cart" class="cart-icon" data-cart-toggle>
   {% include 'icon-cart' %}
@@ -31,7 +37,7 @@
     </h5>
     <h5 class="clear_cart{% if cart.total_price > 100 %} active {%endif%}">clear cart</h5>
   </div>
-  {% if cart.item_count > 3 and cart.item_count < 5 %}
+  {% if totalCountv > 3 and totalCountv < 5 %}
    <div class="freebodywash"><p>📢 add one more product to get a <span>FREE shower gel</span></p></div>
   {% else %} 
     <div class="freebodywash"></div>
