@@ -445,6 +445,11 @@
     font-size:13px;
 }
 
+.inner.product-item .jdgm-widget.jdgm-widget {
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
 .products-grid .grid-item {
     height: auto !important;
 }
