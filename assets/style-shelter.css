@@ -1869,7 +1869,7 @@ p.limited {
     left: 15px;
     width: auto;
     max-width: 360px;
-    top: -257px;
+    top: -277px;
     right: 15px;
     text-align: center;
     margin: 0 auto;
@@ -1877,13 +1877,5 @@ p.limited {
   
 }
 
-
-@media only screen and (max-width:350px){
-  
-p.limited {
-    top: -252px;
-}
-  
-}
 
 
