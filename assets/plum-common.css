@@ -6197,6 +6197,10 @@ span.discount-tag-col.right {
 
 @media only screen and (max-width:767px){
 
+#affiliate-program-faqs .rte * {
+    padding-left: 0 !important;
+}
+
 div#dropdown-cart .freebodywash p {
     /* line-height: 1; */
     font-size: 14px;
