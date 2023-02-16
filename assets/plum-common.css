@@ -6093,6 +6093,11 @@ span.discount-tag-col.right {
     width: calc(100% - 105px);
 }
 
+.cart-template .wrapper-cart-template .cart-list .cart-details .pro-name-and-price-infos .price-box .qb-price-item span {
+    width: auto;
+    float: none;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
