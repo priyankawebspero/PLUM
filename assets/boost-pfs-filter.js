@@ -338,9 +338,9 @@ var boostPFSTemplate = {
             if(data.tags.includes('febbestseller') || data.tags.includes('febbestseller')) {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> bestseller </span>';
             }
-            // if(data.tags.includes('recommended') || data.tags.includes('Recommended')) {
-            //   itemLabelsHtml += '<span class="discount-tag-col right blue"> recommended </span>';
-            // }
+            if(data.tags.includes('lowstock') || data.tags.includes('lowstock')) {
+              itemLabelsHtml += '<span class="discount-tag-col right lowstock"> LOW ON STOCK </span>';
+            }
             if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
               itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> new </span>';
             }
