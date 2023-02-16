@@ -6280,7 +6280,7 @@ span.discount-tag-col.pink {
     margin-right: 8px;
 }
   
-.home-list-collections .row::-webkit-scrollbar {
+.home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar {
   height: 5px;
 }
 
