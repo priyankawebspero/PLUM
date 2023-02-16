@@ -450,7 +450,7 @@ input:focus-visible {
 }
 .we-did-it-text-style {
   font-size: 31px;
-  font-family:'candy_chicksregular';
+  font-family: "DINNextRoundedLTPro-Medium";
   color: rgb(91, 16, 139);
   font-weight: bold;
   line-height: 1;
@@ -510,7 +510,7 @@ input:focus-visible {
 }
 .step_1 {
   font-size: 51px;
- font-family:'candy_chicksregular';
+ font-family: "DINNextRoundedLTPro-Medium";
   color: rgb(255, 255, 255);
   line-height: 0.853;
   text-align: center;
@@ -525,7 +525,7 @@ input:focus-visible {
 }
 .step_2 {
  font-size: 51px;
-  font-family:'candy_chicksregular';
+  font-family: "DINNextRoundedLTPro-Medium";
   color: rgb(255, 255, 255);
   line-height: 0.853;
   text-align: center;
@@ -540,7 +540,7 @@ input:focus-visible {
 }
 .step_3 {
  font-size: 51px;
- font-family:'candy_chicksregular';
+ font-family: "DINNextRoundedLTPro-Medium";
   color: rgb(255, 255, 255);
   line-height: 0.853;
   text-align: center;
@@ -555,7 +555,7 @@ input:focus-visible {
 }
 .step_4 {
  font-size: 51px;
- font-family:'candy_chicksregular';
+ font-family: "DINNextRoundedLTPro-Medium";
   color: rgb(255, 255, 255);
   line-height: 0.853;
   text-align: center;
