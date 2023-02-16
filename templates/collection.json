@@ -5,7 +5,7 @@
       "settings": {
         "display_sidebar": true,
         "sidebar_heading": "",
-        "timer_true": false,
+        "timer_true": true,
         "display_collection_image": true,
         "display_collection_des": true,
         "limited_view": true,
