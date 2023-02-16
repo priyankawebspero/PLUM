@@ -1,4 +1,11 @@
-   <div class="special_offer_p">
+ {% assign freeb = 0 %}
+ {% for item in cart.items %}
+  {% if item.price < 200 %}
+   {% assign freeb = freeb | plus:1 %}
+  {% endif %}
+{% endfor %} 
+{% assign totalCount =  cart.item_count | minus: freeb%}
+<div class="special_offer_p">
       <div class="offer_congrats">
         {% if totalCount == 1 %}
       <p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>
