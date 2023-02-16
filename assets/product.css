@@ -1437,10 +1437,11 @@ span#mobile-share-button {
     margin: 0 !important;
 }
 
-  .product_form_desciption .mobile-cart {
+ .product_form_desciption .mobile-cart {
     display: inline-block;
     width: 100%;
-    margin: 10px 0px 15px;
+    margin: 10px 0 5px;
+    text-align: center;
 }
 
 .product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile .image_section {
