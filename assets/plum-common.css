@@ -6357,6 +6357,10 @@ span.discount-tag-col.pink {
     width: 100%;
 }
 
+  .product-item .product-label {
+    padding-top: 6px !important;
+}
+
 #plum-rewards main.main-content {
     padding-bottom: 0;
 }
