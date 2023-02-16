@@ -256,11 +256,11 @@
          <div class="groups-btn visible-xs">           
             
            {% if current_variant.inventory_quantity>0 %}
-              <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+              <input data-btn-addToCart type="submit" name="add" class="add-to-cart-btnload btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
               {% elsif current_variant.inventory_management != "shopify"  %}  
-               <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+               <input data-btn-addToCart type="submit" name="add" class="add-to-cart-btnload btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
               {% else %}
-              <input type="submit" name="add" class="btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
+              <input type="submit" name="add" class="add-to-cart-btnload btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
               {% endif %} 
            
              
@@ -280,11 +280,11 @@
             <div class="cart2">
                
               {% if current_variant.inventory_quantity>0 or current_variant.inventory_management == "shopify"  %}
-              <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+              <input data-btn-addToCart type="submit" name="add" class="add-to-cart-btnload btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
               {% elsif current_variant.inventory_management == "shopify"  %}  
-               <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+               <input data-btn-addToCart type="submit" name="add" class="add-to-cart-btnload btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
               {% else %}
-              <input type="submit" name="add" class="btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
+              <input type="submit" name="add" class="add-to-cart-btnload btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
               {% endif %} 
              
             </div>
