@@ -5921,10 +5921,11 @@ span.discount-tag-col.left.pink span {
     height: 75px;
 }*/
 
-
+span.discount-tag-col.right {
+    background: green;
+}
 span.discount-tag-col.lightpurple {
-  background: #cf9fff;
-    background: #c175ef;
+ background: #5c0f8b;
 }
 
 .template-search #searchModal .product-item .product-bottom {
@@ -6220,6 +6221,8 @@ span.discount-tag-col.right {
     font-size: 11px;
     font-family: DINNextRoundedLTPro-Regular;
 }
+
+
 
 @media only screen and (max-width:767px){
 
