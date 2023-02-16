@@ -6322,6 +6322,13 @@ span.discount-tag-col.pink {
     font-size: 17px;
     line-height: 1.4;
 }
+
+.blog-page-info .page-top-sec .page-header h2 {
+    margin-bottom: 0 !important;
+    padding-top: 10px !important;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
   
 }
 
