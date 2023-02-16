@@ -187,8 +187,7 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     });
     </script>
   {% endif %} 
-              <script>window.addEventListener('load', function () { var el = document.createElement('script'); el.setAttribute('src', 'https://client.consolto.com/iframeApp/iframeApp.js'); el.id = 'et-iframe'; el.async = true; el.setAttribute('data-widgetId', '63ad2783c0265915401e0814'); el.setAttribute('data-version', 0.5); el.setAttribute('data-test', false); document.body.appendChild(el); }); </script>
-
+  <script>window.addEventListener('load', function () { var el = document.createElement('script'); el.setAttribute('src', 'https://client.consolto.com/iframeApp/iframeApp.js'); el.id = 'et-iframe'; el.async = true; el.setAttribute('data-widgetId', '63ad2783c0265915401e0814'); el.setAttribute('data-version', 0.5); el.setAttribute('data-test', false); document.body.appendChild(el); }); </script>
       {% if fg_script_url !="" %}    
         <script src="{{ fg_script_url |remove:'\' }}"></script>    
       {% endif %}
