@@ -1363,15 +1363,9 @@ a.range-link {
     margin-right: -7px;
 }
   
-  .featured-products .inner.product-item {
-    margin-left: 7px;
-    margin-right: 7px;
-}
-  
-  
-  .concern-products .inner.product-item {
-    margin-left: 7px;
-    margin-right: 7px;
+  .featured-products .inner.product-item, .concern-products .inner.product-item {
+    margin-left: 0px;
+    margin-right: 0px;
 }
   
   .concern-products .widget-product .slick-list.draggable {
