@@ -442,7 +442,7 @@
 {display:none !important;}
 
 .featured-products .jdgm-prev-badge__text {
-    display: none;
+    font-size:13px;
 }
 
 .products-grid .grid-item {
