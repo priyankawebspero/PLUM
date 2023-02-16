@@ -6102,6 +6102,10 @@ span.discount-tag-col.right {
     font-family: "DINNextRoundedLTPro-Regular";
 }
 
+.cart-template .wrapper-cart-template .cart-list li:last-child {
+    border-bottom: 1px solid #e6e6e6;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
