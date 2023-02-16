@@ -96,7 +96,7 @@
       <div class="right_area col-lg-6 col-md-6 col-sm-12">
         {% if block.settings.product != blank%}
         {% assign product = block.settings.product %}
-        {% include 'product-grid-item' id:product%}
+        {% include 'product-grid-item-serum' id:product%}
         {% endif %}
         {% if block.settings.image_video != blank %}
         <div class="popup_video_link">
@@ -136,7 +136,7 @@
                   <div class="products-grid row four-items" data-row="4" slider-featured-products>
                     {% for product in collections[block.settings.show_slider_featured_collection].products limit:8 %}
                     <div class="grid-item col-6 col-md-4 col-lg-3">
-                      {% include 'product-grid-item' %}
+                      {% include 'product-grid-item-serum' %}
                     </div>
                     {% else %}
                     {% endfor %}
