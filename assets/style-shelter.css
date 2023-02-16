@@ -1860,11 +1860,11 @@ main.main-content {
 
 @media only screen and (max-width:414px){
   
-  p.limited {
+p.limited {
     left: 15px;
     width: auto;
-    max-width: 270px;
-    top: -297px;
+    max-width: 360px;
+    top: -257px;
     right: 15px;
     text-align: center;
     margin: 0 auto;
