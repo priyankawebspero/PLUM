@@ -36,8 +36,8 @@
 
 
 {%- if tag_list_swatches != blank or tag_list_options != blank -%}
-      <div class="options_bodywash">
-        <p>Fab fragrances to choose from : <span class="flavour_tooltip_info"></span></p>        
+      <div class="options_bodywash cl_{{ product.id }}">
+        <p><span class="bodywash_ss">Fab fragrances to choose from : </span><span class="flavour_tooltip_info"></span></p>        
         {% comment %}
         {%- if tag_list_options != blank -%}
           <select class="swatches_select" id="swatch_ins">
@@ -58,9 +58,7 @@
         {% endif %}
       </div>
 
-<script>
-  
-  
+<script> 
     // Adding the Active box Info
     var flavour_image = $('.swatch-options ul').find('.active_li .image_box_min').html();
     var flavour_info = $('.swatch-options ul').find('.active_li .flavour_tooltip').html();
@@ -114,14 +112,14 @@
               
               $('.product_title_box').replaceWith(Title);
               $('#product-variants').replaceWith(productVariants);
-              $('.price_info_box').replaceWith(priceInfoBox);
+              $('.price_info_box').html(priceInfoBox);
               $('.cart_wish').replaceWith(wishList);
               $('.product-photos').replaceWith(gallery);
               $('.visible_mobile .short-desc-datas').replaceWith(mobileDesacription);
               $('#collapse-tab1 .inside_tab').replaceWith(tab1);
               $('#collapse-tab2 .inside_tab').replaceWith(tab2);
               $('#collapse-tab3 .inside_tab').replaceWith(tab3);
-              $('.tab-content #judgeme_product_reviews').replaceWith(reviews);
+              $('.tab-content #judgeme_product_reviews').html(reviews);
               $('.tab-content #simpAskQuestion').replaceWith(qusetionBlcok);
               
 
@@ -156,11 +154,30 @@
                              }
                             ]
               });
-
+              var customerView = $('.product-shop [data-customer-view]');   
+                  if (customerView.length) {
+                    customerView.each(function () {
+                      var self = $(this);
+                      var views = self.data('customer-view').split(","),
+                       i = Math.floor(Math.random() * views.length);          
+                       self.find('label').text(views[i]);                      
+                      setInterval(function () {
+                        var views = self.data('customer-view').split(","),
+                            i = Math.floor(Math.random() * views.length);
+              
+                        self.find('label').text(views[i]);
+                      }, 100000);
+                    });
+                  }
               
              // ella.doAddOrRemoveWishlish();
-              jdgm.initializeWidgets();
-              
+              setTimeout(() => {
+            console.log('jdgInit');
+          setTimeout(() => {
+                     jdgmCacheServer.reloadAll();
+                }, 1000)
+              jdgmCacheServer.reloadAll();
+            }, 100);
             },
             complete: function() {
               $('.loading-modal').hide();
@@ -180,6 +197,16 @@
 <style>
   li.swatch_list.active_li {
     pointer-events: none;
+}.price_info_box .price_info_box {
+    border: none !important;
+    margin: 0;
+    padding: 0;
 }
-
+.jdgm-paginate__last-page:before {
+    content: '\e006';
+    font-size: 0;
+}.jdgm-paginate__first-page:before {
+    content: '\e004';
+    font-size: 0;
+}
   </style>
