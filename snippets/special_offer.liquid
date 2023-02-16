@@ -1,12 +1,19 @@
-    <div class="special_offer_p">
+ {% assign freeb = 0 %}
+ {% for item in cart.items %}
+  {% if item.price < 200 %}
+   {% assign freeb = freeb | plus:1 %}
+  {% endif %}
+{% endfor %} 
+{% assign totalCount =  cart.item_count | minus: freeb%}
+   <div class="special_offer_p">
       <div class="offer_congrats">
-        {% if cart.item_count == 1 %}
+        {% if totalCount == 1 %}
       <p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>
-      {% elsif cart.item_count > 1 and cart.item_count <= 2 %}
+      {% elsif totalCount > 1 and totalCount <= 2 %}
         <p class="sec_color">add 2 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>
-      {% elsif cart.item_count > 2 and cart.item_count <= 3 %}
+      {% elsif totalCount > 2 and totalCount <= 3 %}
         <p class="third_color">add 1 more product to the cart to  <b>get 2 lowest-priced products for free</b></p>
-      {% elsif cart.item_count > 3  %}
+      {% elsif totalCount > 3  %}
         <p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>
       {% endif %}
       </div>
@@ -134,19 +141,26 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-  if(cart.item_count == 1){ 
+var totalCount = 0;
+for (var i = 0; i < cart.items.length; i++) {
+if(cart.items[i].price < 2){
+ totalCount = totalCount + 1; 
+}
+}
+        console.log('totalCount', totalCount)
+  if(totalCount == 1){ 
      $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
-  else if (cart.item_count > 1 && cart.item_count <= 2){
+  else if (totalCount > 1 && totalCount <= 2){
       $('.special_offer_p .offer_congrats').html('<p class="sec_color">add 2 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
-  else if (cart.item_count > 2 && cart.item_count <= 3){
+  else if (totalCount > 2 && totalCount <= 3){
       $('.special_offer_p .offer_congrats').html('<p class="third_color">add 1 more product to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
-  else if (cart.item_count > 3){
+  else if (totalCount > 3){
         $('.special_offer_p .offer_congrats').html('<p class="fourth_color">Congratulations!! Use code <b>B2G2</b> at checkout to avail the offer</p>');
   }
-  if (cart.item_count > 3 && cart.item_count < 5){ $('.freebodywash').html('<p>📢 add one more product to get a <span>FREE</span> shower gel</p>');} else {$('.freebodywash').html('');}
+  if (totalCount > 3 && totalCount < 5){ $('.freebodywash').html('<p>📢 add one more product to get a <span>FREE</span> shower gel</p>');} else {$('.freebodywash').html('');}
 }  
 
 </script>
