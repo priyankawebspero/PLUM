@@ -128,14 +128,14 @@ p.iWishLoginMsg a{color:#5e248c}
 }          
 .product-pge-tabs .tabs {margin-top: 0;}
 .product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
-    display: block !important;
+    display: block!important;
     text-align: center;
     margin-bottom: 30px;
     font-size: 40px;
-    font-family: 'serifabold';
     line-height: normal;
     color: #5b0f8b;
     text-transform: lowercase;
+    font-family: 'DINNextRoundedLTPro-Medium';
 }
 @media only screen and (max-device-width: 480px) {
 .img-responsive{display:none}
