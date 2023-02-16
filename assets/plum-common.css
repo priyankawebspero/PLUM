@@ -6201,6 +6201,10 @@ span.discount-tag-col.right {
     padding-left: 0 !important;
 }
 
+#affiliate-program-faqs .rte ul ul {
+    margin-left: 0;
+}
+
 div#dropdown-cart .freebodywash p {
     /* line-height: 1; */
     font-size: 14px;
