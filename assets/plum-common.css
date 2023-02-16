@@ -36,7 +36,6 @@ body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swa
 .product-pge-tabs .tabs ul.tabs li{float:none;display:inline-block;vertical-align:middle;background:#e0e0e0;color:#000;font-family: "DINNextRoundedLTPro-Medium" !important; font-display:swap;font-size:18px;padding:14px 10px;width:auto;min-width:165px;overflow:visible;margin:0 6px;border-radius:10px 10px 0 0;}
 .product-pge-tabs .tabs ul.tabs li.current{background:#fff}
 .product-pge-tabs .jdgm-rev-widg{border:none}
-.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title{display:none}
 .product-pge-tabs .jdgm-histogram.jdgm-temp-hidden{display:none}
 .product-pge-tabs .jdgm-rev-widg .jdgm-star{color:#5e0d8b}
 .product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__summary-stars{display:inline-block;vertical-align:middle}
