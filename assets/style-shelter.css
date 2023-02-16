@@ -1856,6 +1856,11 @@ main.main-content {
     overflow: hidden;
 }
 
+.text-style {
+    font-size: 32px;
+    
+}
+
 }
 
 @media only screen and (max-width:414px){
