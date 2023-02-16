@@ -1525,7 +1525,11 @@ a.product-img {
 }*/
 
 /*---countdown-text-------------*/
-
+.home-product-tabs .product-tabs-content .inner.product-item .product-bottom .action .btn[disabled="disabled"] {
+    background: #cd97df !important;
+    border-color: #cd97df !important;
+    pointer-events: none;
+}
 #flash-sale .counter_text {
     background: #5e248c;
     display: flex;
