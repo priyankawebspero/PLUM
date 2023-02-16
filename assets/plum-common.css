@@ -6294,7 +6294,9 @@ span.discount-tag-col.pink {
     font-size: 18px!important;
     padding: 13px;
 }
-  
+ .homepage-blog-tab-sec .blog-tab-sec-data .tab_container .list-blog li.blog-item {
+    display: block;
+} 
   
 }
 

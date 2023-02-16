@@ -207,7 +207,9 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     snaptr('track', 'ADD_CART');
   }    
 </script> 
-
+	<!-- SMARTECH TRACKING START -->
+	{% include 'smartech_config' %}
+	<!-- SMARTECH TRACKING END -->
 <script type="text/javascript">    
 $(".st-search-bar input").on("keypress", function() {
 	var e = this.value;
