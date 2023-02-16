@@ -1275,3 +1275,13 @@ div#categoryxconcern .collection_inner_content .boost-pfs-filter-load-more-total
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.template-collection .boost-pfs-filter-load-more-total {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-size: 15px;
+    text-transform: lowercase;
+    margin-top: 0;
+}
