@@ -6301,6 +6301,11 @@ span.discount-tag-col.pink {
 .blog-page-info .page-top-sec .page-header h2 {
     padding-top: 10px !important;
 }
+
+.faqs-page .panel-group .panel-title {
+    font-size: 17px;
+    line-height: 1.4;
+}
   
 }
 
