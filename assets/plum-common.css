@@ -6200,6 +6200,10 @@ span.discount-tag-col.right {
     padding-right: 0;
 }
 
+.blog-page-info .list-blog li.blog-item .actions a.btn {
+    max-width: 100%;
+}
+
 @media only screen and (max-width:767px){
 
 #affiliate-program-faqs .rte h4 {
