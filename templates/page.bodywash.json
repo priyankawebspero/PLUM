@@ -298,7 +298,6 @@
     },
     "d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc": {
       "type": "custom-carousel",
-      "disabled": true,
       "blocks": {
         "template--14835923320892__d5f9ecd2-3c09-4c19-92ea-c09a2a98c6dc-1675312248a9b15eac-0": {
           "type": "custom",
@@ -311,9 +310,9 @@
         "2c7f5b00-60d1-4570-ac04-91d1b8f8648e": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/CW_Collections_tile_for_Bodycare_landing_page_210x210_97d5712e-102d-400a-879c-060a6b5aa0ab.jpg",
-            "title": "coffe wake-a-ccino",
-            "collection": "shopify:\/\/collections\/coffee-wake-a-ccino"
+            "image_desk": "shopify:\/\/shop_images\/TM_Collections_tile_for_Bodycare_landing_page_210x210_aa2982d7-fdb0-4d22-9f55-de3e4d751b27.jpg",
+            "title": "trippin' mimosas",
+            "collection": "shopify:\/\/collections\/trippin-mimosas"
           }
         },
         "aea0d4a6-c30c-4477-9824-5666f4fbb2bb": {
@@ -351,9 +350,9 @@
         "720f589e-50f6-4e8e-b542-c6db937212b2": {
           "type": "custom",
           "settings": {
-            "image_desk": "shopify:\/\/shop_images\/LL_Collections_tile_for_Bodycare_landing_page_210x210_cbdb3157-0579-40af-81e4-2ed3d3b85e1d.jpg",
-            "title": "lemme lemon",
-            "collection": "shopify:\/\/collections\/lemme-lemon"
+            "image_desk": "shopify:\/\/shop_images\/VV_Collections_tile_for_Bodycare_landing_page_210x210_850bfe27-97cf-4af3-a00a-0fb674e19bfc.jpg",
+            "title": "vanilla vibes",
+            "collection": "shopify:\/\/collections\/vanilla-vibes"
           }
         },
         "c3cec1f1-236d-4163-8a04-d00ff3e60e69": {
@@ -394,7 +393,7 @@
         "99366e12-9606-4cbd-9743-5f96bc6f4e03"
       ],
       "settings": {
-        "banner_heading": "#CAMPAIGNS"
+        "banner_heading": ""
       }
     }
   },
