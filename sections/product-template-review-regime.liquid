@@ -164,7 +164,15 @@
               {% endif %}
             <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
             {% endif %}
-
+            <div class="mobile-cart">
+            {% if current_variant.inventory_quantity>0 %}
+              <input data-btn-addToCart type="submit" name="add" class="btn add-to-cart-btnload" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="snaptr('track', 'ADD_CART');">
+              {% elsif current_variant.inventory_management != "shopify"  %}  
+               <input data-btn-addToCart type="submit" name="add" class="btn add-to-cart-btnload" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="snaptr('track', 'ADD_CART');">
+              {% else %}
+              <input type="submit" name="add" class="btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="snaptr('track', 'ADD_CART');">
+            {% endif %}
+          </div> 
            
           </div>
           <div class="price_info_box">
