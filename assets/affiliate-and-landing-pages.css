@@ -2,6 +2,10 @@ div#shopify-section-affiliate-offers #affiliate_top_banner {
     padding: 0;
 }
 
+.deal-of-the-day p:empty {
+    display: none;
+}
+
 #shopify-section-slide-section-crm img {
     width: 100%;
 }
