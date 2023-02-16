@@ -6195,6 +6195,11 @@ span.discount-tag-col.right {
     font-weight: normal;
 }
 
+#shipping-amp-returns section#faqs_page {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media only screen and (max-width:767px){
 
 #affiliate-program-faqs .rte h4 {
