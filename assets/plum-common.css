@@ -5522,6 +5522,9 @@ body .EmptyState .error_page .content-infos a.btn {
 
 .article_search .article_list .article_grid li.blog-item .article-details .article-title a {
     color: #000;
+   font-family: "DINNextRoundedLTPro-Bold";
+    font-size: 20px;
+    line-height: normal;
 }
 
 .article_search .article_list .article_grid li.blog-item .article-details .article-excerpt .des {
@@ -5554,7 +5557,7 @@ body .EmptyState .error_page .content-infos a.btn {
     color: #5e0c8c;
     font-weight: 400;
     font-size: 40px;
-    font-family: serifabold!important;
+     font-family: "DINNextRoundedLTPro-Bold";
 }
 
 .article_search .article_list {
