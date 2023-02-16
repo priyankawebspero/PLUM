@@ -225,10 +225,6 @@ div#parent_class .product-collection.products-grid.row {
 
 
 
-div#parent_class .product-collection.products-grid .grid-item .jdgm-prev-badge__text {
-    display: none;
-}
-
 div#parent_class .product-collection.products-grid .grid-item .product-item {
     padding: 0;
 }
