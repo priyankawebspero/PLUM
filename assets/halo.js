@@ -1838,26 +1838,14 @@ if ((typeof Shopify.getCart) === 'undefined') {
       dropdownCart.find('.summary .price').html(' '+Shopify.formatMoney(cart.total_price, window.money_format));
       var compare_value = 129900;
       var compare_value2 = 199900;
-       if(cart.total_price < 109900){  
-          $('#dropdown-cart .freegift').html('Pick any 2 products for FREE on orders above Rs 1099 from the gift popup');
-       }
-      else
-       {
-         $('#dropdown-cart .freegift').html('To change the gift please click on remove');
-       }
-
-      if(cart.total_price < 129900){      
-//         var quantity=0
-//         var actu_price = 129900 - cart.total_price;
-
-//         $(".special_offer").show();
-//         $('.special_offer_p').html('<div class="special_offer"> Pick plums worth '+Shopify.formatMoney(actu_price, window.money_format)+' more & get <span>FREE vanilla vibes shower cream</span>  <img src="https://cdn.shopify.com/s/files/1/0390/2985/files/like_1.png?v=1589371393"> </div>');      
-
-       }
-      else{  
-          $(".special_offer").hide();
-       }
-        
+      //  if(cart.total_price < 109900){  
+      //     $('#dropdown-cart .freegift').html('Pick any 2 products for FREE on orders above Rs 1099 from the gift popup');
+      //  }
+      // else
+      //  {
+      //    $('#dropdown-cart .freegift').html('To change the gift please click on remove');
+      //  }
+       
       if(cart.total_price > 1400000 ){
            $('button#btncheckout').addClass('disable');
       }else{
@@ -1868,8 +1856,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
       if (cart.item_count > 0) {
         var total_saving = 0 ;
         var saving = 0 ;
-        for (var i = 0; i < cart.items.length; i++) {
-          
+        for (var i = 0; i < cart.items.length; i++) {          
           // SCA here
           if(cart.items[i].price < 2){
           var template = '<li class="item freegi" id="cart-item-{ID}" data-variant="{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
@@ -1942,10 +1929,11 @@ if ((typeof Shopify.getCart) === 'undefined') {
        // if(typeof ACSCurrency !== "undefined" && typeof ACSCurrency.moneyFormats !== "undefined") {mlvedaload();}  
       $('.clear_cart').addClass('active');
       $('.best-sell-product').removeClass('disable');      
-
+       $('#flash-sale-new').hide();
       }else{
        $('.clear_cart').removeClass('active');
        $('.best-sell-product').addClass('disable');
+        $('#flash-sale-new').hide();
       }
       cartSpecialUpdate(cart);
       ella.checkItemsInDropdownCart();
