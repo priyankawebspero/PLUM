@@ -6350,6 +6350,10 @@ span.discount-tag-col.pink {
 .product-shop div#product-variants .review_qtn {
     width: 100%;
 }
+
+#plum-rewards main.main-content {
+    padding-bottom: 0;
+}
   
 }
 
