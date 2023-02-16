@@ -464,6 +464,10 @@ span.jdgm-prev-badge__text {
     width: 100%;
     margin-top: 5px;
 }
+
+#bodylovin .product-item .product-bottom {
+    min-height: 200px;
+}
   
 }
 
