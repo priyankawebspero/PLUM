@@ -32,7 +32,6 @@ body{  font-family: "DINNextRoundedLTPro-Light";font-weight:400;font-display:swa
 .translate-overlay .doubly-wrapper{pointer-events:none}
 .melt_goodness .image_section{width:100%;display:flex;flex-wrap:wrap;height:100%;align-items:center;justify-content:center}
 .melt_goodness .image_section p{font-size:65px;font-family: "DINNextRoundedLTPro-Regular";font-display:swap;line-height:normal;color:#5b0f8b;width:100%;max-width:100%;margin:0 auto;display:block;text-align:center;padding:50px 0;line-height:1.1}
-.product-pge-tabs .tabs{margin-top:-52px;border:none}
 .product-pge-tabs .tabs ul.tabs{margin-top:0;margin-top:0;text-align:center}
 .product-pge-tabs .tabs ul.tabs li{float:none;display:inline-block;vertical-align:middle;background:#e0e0e0;color:#000;font-family: "DINNextRoundedLTPro-Medium" !important; font-display:swap;font-size:18px;padding:14px 10px;width:auto;min-width:165px;overflow:visible;margin:0 6px;border-radius:10px 10px 0 0;}
 .product-pge-tabs .tabs ul.tabs li.current{background:#fff}
