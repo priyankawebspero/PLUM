@@ -6181,7 +6181,7 @@ span.discount-tag-col.right {
 .cart-template .free_delivery {
     font-size: 18px;
     text-align: center;
-    font-family: DINNextRoundedLTPro-Regular;
+    font-family: "DINNextRoundedLTPro-Regular";
     font-weight: normal;
 }
 .cart-template .wrapper-cart-template .cart-list .quantity label {
@@ -6190,12 +6190,16 @@ span.discount-tag-col.right {
 }
 
 #affiliate-program-faqs .rte h4 {
-    font-family: DINNextRoundedLTPro-Regular;
+    font-family: "DINNextRoundedLTPro-Regular";
     font-size: 20px;
     font-weight: normal;
 }
 
 @media only screen and (max-width:767px){
+
+#affiliate-program-faqs .rte h4 {
+    font-size: 18px;
+}
 
 #affiliate-program-faqs .rte * {
     padding-left: 0 !important;
