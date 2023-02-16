@@ -6083,6 +6083,16 @@ span.discount-tag-col.right {
     padding: 10px 0 15px;
 }
 
+.cart-template .wrapper-cart-template .cart-list li .details {
+    width: 100%;
+}
+.cart-template .wrapper-cart-template .cart-list .cart-details {
+    width: -moz-calc(100% - 105px);
+    width: -webkit-calc(100% - 105px);
+    width: -ms-calc(100% - 105px);
+    width: calc(100% - 105px);
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
