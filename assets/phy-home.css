@@ -591,6 +591,10 @@ div#shopify-section-footer-phy {
 .phy-collection-boxes {
     padding-top: 10px;
 }
+
+.widget-title .box-title .title {
+    padding: 0 15px;
+}
   
 }
 @media screen and (max-width: 540px) {
