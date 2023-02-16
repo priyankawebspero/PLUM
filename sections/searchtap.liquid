@@ -196,7 +196,7 @@
                                                          <span v-show="item.tags.indexOf('b2g2') >= 0" class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span> 
                                                          <span class="discount-tag-col left pink"><span> BUY 2 GET 2 FREE </span></span> 
                                                         <span v-if="item.tags.indexOf('febbestseller') >= 0" v-show="item.tags.indexOf('febbestseller') >= 0" class="discount-tag-col right blue"> bestseller </span>
-<!--                                                         <span v-else-if="item.tags.indexOf('recommended') >= 0" v-show="item.tags.indexOf('recommended') >= 0" class="discount-tag-col"> recommended </span> -->
+                                                        <span v-else-if="item.tags.indexOf('lowstock') >= 0" v-show="item.tags.indexOf('lowstock') >= 0" class="discount-tag-col right lowstock"> low on stock </span> 
                                                         <span v-else="item.tags.indexOf('febnewlaunch') >= 0" v-show="item.tags.indexOf('febnewlaunch') >= 0" class="discount-tag-col right lightpurple"> new </span>
 
                                                         <div class="product-top">
