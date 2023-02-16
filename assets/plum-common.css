@@ -6039,6 +6039,10 @@ span.discount-tag-col.right {
     visibility: visible;
 }
 
+.cart-show iframe#expertips_iframe {
+    z-index: 1 !important;
+}
+
 /*------------cart-page-design-----*/
 
 .wrapper-cart-template .offer_congrats p{
@@ -6145,6 +6149,7 @@ span.discount-tag-col.right {
     font-family: DINNextRoundedLTPro-Regular;
     font-weight: normal;
 }
+
 
 @media only screen and (max-width:767px){
 
