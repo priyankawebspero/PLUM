@@ -5,7 +5,7 @@
   {% endif %}
 {% endfor %} 
 {% assign totalCount =  cart.item_count | minus: freeb%}
-<div class="special_offer_p">
+   <div class="special_offer_p">
       <div class="offer_congrats">
         {% if totalCount == 1 %}
       <p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>
@@ -141,13 +141,15 @@ window.cartSpecialUpdate = function(cart) {
   $(".special_offer").hide();
   }
  {% endif %}
-var totalCount = 0;
+var totalCount = 0
+var freeb = 0;
 for (var i = 0; i < cart.items.length; i++) {
 if(cart.items[i].price < 2){
- totalCount = totalCount + 1; 
+ freeb = freeb + 1; 
 }
 }
-        console.log('totalCount', totalCount)
+totalCount = cart.item_count - freeb;
+  console.log(totalCount);
   if(totalCount == 1){ 
      $('.special_offer_p .offer_congrats').html('<p class="first_color">add 3 more products to the cart to  <b>get 2 lowest-priced products for free</b></p>');
    }
