@@ -437,6 +437,10 @@ div#shopify-section-bodylovin-block-banner-5 .img-box img{width:100%}
     font-size: 12px;
     padding-right: 1px !important;
 }
+
+span.jdgm-prev-badge__text {
+    font-size: 11px;
+}
   
 #bodylovin #shopify-section-bodylovin-featured-product .slick-list {
     padding: 0 !important;
