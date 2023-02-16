@@ -1205,11 +1205,11 @@ div#categoryxconcern .boost-pfs-filter-tree-v .boost-pfs-filter-option-title-hea
     color: #000;
 }
 div#parent_class .product-collection.products-grid.row {
-    margin-left: -25px;
-    margin-right: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 div#categoryxconcern div#shopify-section-collection-template-parent .inner.product-item .product-image .product-grid-image {
-    padding-bottom: 92.66%;
+    padding-bottom: 80%;
 }
   div#categoryxconcern div#shopify-section-collection-template-parent .product-item .product-bottom .product-title {
     padding: 0;
