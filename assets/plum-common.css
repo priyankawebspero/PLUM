@@ -5922,10 +5922,22 @@ span.discount-tag-col.left.pink span {
 }*/
 
 span.discount-tag-col.right {
-    background: green;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #f1df06;
+    color: #000;
+    font-family: "DINNextRoundedLTPro-Medium" !important;
 }
 span.discount-tag-col.lightpurple {
- background: #5c0f8b;
+    background: #d9c5e3;
+    color: #5e248c !important;
+    font-family: "DINNextRoundedLTPro-Bold" !important;
+    padding: 6px 0 !important;
+}
+
+span.discount-tag-col.right.lowstock {
+    width: 45px;
+    background: #a7a6ad;
 }
 
 .template-search #searchModal .product-item .product-bottom {
