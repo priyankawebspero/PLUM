@@ -6023,6 +6023,8 @@ span.discount-tag-col.right {
 
 .toggle-inner p a:hover{text-decoration: none;}
 
+.product-bottom a.product-title{font-weight: 600;}
+
 /*------------cart-page-design-----*/
 
 .wrapper-cart-template .offer_congrats p{
