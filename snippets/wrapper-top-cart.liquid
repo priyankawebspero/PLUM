@@ -61,7 +61,7 @@
           <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
             {% if item.product.tags contains 'b2g2' or item.product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">B2G2</span>{% endif %}
                         {% if item.product.tags contains 'febnewlaunch' %}
-                          <span class="discount-tag-col right lightpurple">new</span>
+                          <span class="discount-tag-col right lightpurple">NEW LAUNCH</span>
                          {% elsif item.product.tags contains 'febbestseller' %} 
                            <span class="discount-tag-col right blue">bestseller</span>
                           {% elsif item.product.tags contains 'lowstock' %} 
