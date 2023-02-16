@@ -840,6 +840,10 @@ div#parent_class .product-collection.products-grid .grid-item {
 }
 }
 @media only screen and (max-width:1100px){
+.jdgm-prev-badge__text {
+    font-size: 13px;
+}
+  
   .boost-pfs-filter-option-pick-a-product-for-your-skin-concern ul.boost-pfs-filter-option-item-list {
     margin: 0;
 }
@@ -1223,8 +1227,14 @@ div#categoryxconcern div#shopify-section-collection-template-parent .inner.produ
     width: 100%;
     max-width: 100%;
 }
+
+.jdgm-prev-badge__text {
+    font-size: 12px;
+}
   
 }
+
+
 #parent_class .home-slideshow .slick-arrow {
     background: #5c0d8c;
 }
