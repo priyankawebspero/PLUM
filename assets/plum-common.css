@@ -6136,6 +6136,10 @@ span.discount-tag-col.right {
     font-weight: 600;
 }
 
+.cart-template .wrapper-cart-template .right-col-infos .btn-actions {
+    margin-bottom: 25px;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
