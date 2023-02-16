@@ -6075,7 +6075,9 @@ span.discount-tag-col.right {
 .cart-template .page-header .continue {
     font-family: DINNextRoundedLTPro-Light;
 }
-
+.cart-template .wrapper-cart-template .cart-list li {
+    padding: 10px 0 15px;
+}
 
 @media only screen and (max-width:767px){
 
