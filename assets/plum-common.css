@@ -6360,6 +6360,11 @@ span.discount-tag-col.pink {
 #plum-rewards main.main-content {
     padding-bottom: 0;
 }
+
+.product-top span.discount-tag-col.right {
+    width: 50px;
+    font-size: 12px;
+}
   
 }
 
