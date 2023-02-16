@@ -6189,6 +6189,12 @@ span.discount-tag-col.right {
     text-transform: lowercase;
 }
 
+#affiliate-program-faqs .rte h4 {
+    font-family: DINNextRoundedLTPro-Regular;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 @media only screen and (max-width:767px){
 
 div#dropdown-cart .freebodywash p {
