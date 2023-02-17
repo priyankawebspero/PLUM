@@ -98,6 +98,7 @@
         },
         "d0bd4ccf-369a-440a-a025-762b6159e58a": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HP-banner_Master_World-Vegan-Day_V02_1.jpg",
@@ -137,6 +138,7 @@
     },
     "eea272a2-a949-4b89-875c-fa6eeeaaf4e5": {
       "type": "home-game-banner",
+      "disabled": true,
       "settings": {
         "banner-id": "shopify:\/\/shop_images\/Slider_play-to-win_Desk.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Slider_play-to-win_Mob.jpg",
