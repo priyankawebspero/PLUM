@@ -61,8 +61,8 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/Phy_Category_Icons_small_8068dedb-3f98-46cd-9f0b-ceda48cbb90e_1.png",
-            "collection": "phy-face",
-            "url": "#",
+            "collection": "",
+            "url": "https:\/\/plumgoodness.com\/pages\/phy",
             "title": "phy"
           }
         }
