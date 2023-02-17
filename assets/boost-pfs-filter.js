@@ -339,7 +339,7 @@ var boostPFSTemplate = {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> MUST TRY </span>';
             }
             if(data.tags.includes('lowstock') || data.tags.includes('lowstock')) {
-              itemLabelsHtml += '<span class="discount-tag-col right lowstock"> LOW STOCK </span>';
+              itemLabelsHtml += '<span class="discount-tag-col right lowstock"> SELLING FAST </span>';
             }
             if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
               itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> NEW LAUNCH </span>';
@@ -353,7 +353,7 @@ var boostPFSTemplate = {
               itemLabelsHtml += '<span class="discount-tag-col right blue"> MUST TRY </span>';
             }
             if(data.tags.includes('lowstock') || data.tags.includes('lowstock')) {
-              itemLabelsHtml += '<span class="discount-tag-col right lowstock"> LOW STOCK </span>';
+              itemLabelsHtml += '<span class="discount-tag-col right lowstock"> SELLING FAST </span>';
             }
             if(data.tags.includes('febnewlaunch') || data.tags.includes('febnewlaunch')) {
               itemLabelsHtml += '<span class="discount-tag-col right lightpurple"> NEW LAUNCH </span>';
