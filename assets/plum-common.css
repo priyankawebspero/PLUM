@@ -3465,12 +3465,12 @@ div#slider-related .action a.btn {
 .new-label {
     display: none;
 }
-a[href="https://docs.google.com/forms/d/e/1FAIpQLSc8ybju8sdRJNLnm2la7gFRv_ua3v74j4hWFa04MUYUv_P2dA/viewform"] {
+/* a[href="https://docs.google.com/forms/d/e/1FAIpQLSc8ybju8sdRJNLnm2la7gFRv_ua3v74j4hWFa04MUYUv_P2dA/viewform"] {
     display: none !important;
 }
 a[href="https://plumgoodness.com/pages/recycle"] {
     display: none !important;
-}
+} */
 .home-list-collections .grid-item.col-3:last-child p.title-collection a span {
     text-transform: uppercase !important;
 }
