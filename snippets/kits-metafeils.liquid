@@ -1,0 +1,265 @@
+{% assign file_extension = 'png' %}
+{% assign first_feild =  product.metafields.custom.first_feild.value %}
+{% if first_feild != blank %}
+<ul class="first_selection variants_list"> 
+   {% if product.metafields.custom.first_text_feild != blank %}<span class="title">{{ product.metafields.custom.first_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in first_feild  %} 
+    {% if product.available %}  
+    <li>        
+        <input type="radio" class="variants" name="first_selection" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+         {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+ {% assign second_feild =  product.metafields.custom.second_feild.value %}
+ {% if second_feild != blank %}
+<ul class="second_selection variants_list">
+     {% if product.metafields.custom.second_text_feild != blank %}<span class="title">{{ product.metafields.custom.second_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in second_feild  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="second_selection" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign single_first_option =  product.metafields.custom.single_first_option.value %}
+ {% if single_first_option != blank %}
+<ul class="single_first_selection variants_list">
+     {% if product.metafields.custom.single_first_text_feild != blank %}<span class="title">{{ product.metafields.custom.single_first_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in single_first_option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="single_first_option" data-title="{{product.title}}" value="{{product.variants[0].id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.featured_image | image_url: width: 50 }}<" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign third-option =  product.metafields.custom.third_option.value %}
+{% if third-option != blank %}
+<ul class="third_selection variants_list">
+    {% if product.metafields.custom.third_text_feild != blank %}<span class="title">{{ product.metafields.custom.third_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in third-option  %} 
+  {% if product.available %}  
+    <li>      
+         <input type="radio" class="variants" name="third-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign fourth-option =  product.metafields.custom.fourth_option.value %} 
+{% if fourth-option != blank %}
+<ul class="fourth-option variants_list">
+   {% if product.metafields.custom.fourth_text_feild != blank %}<span class="title">{{ product.metafields.custom.fourth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in fourth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="fourth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign single-second-option =  product.metafields.custom.single_second_option.value %}
+{% if single-second-option != blank %}
+<ul class="single-second-option variants_list">
+  {% if product.metafields.custom.single_second_text_feild != blank %}<span class="title">{{ product.metafields.custom.single_second_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in single-second-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="single-second-option" data-title="{{product.title}}" value="{{product.variants[0].id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.featured_image | image_url: width: 50 }}<" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+
+{% assign fifth-option =  product.metafields.custom.fifth_option.value %}
+{% if fifth-option != blank %}
+<ul class="fifth_selection variants_list">
+   {% if product.metafields.custom.fifth_text_feild != blank %}<span class="title">{{ product.metafields.custom.fifth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in fifth-option  %} 
+  {% if product.available %}  
+    <li>      
+         <input type="radio" class="variants" name="fifth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign sixth-option =  product.metafields.custom.sixth_option.value %}
+{% if sixth-option != blank %}
+<ul class="sixth-option variants_list
+   {% if product.metafields.custom.sixth_text_feild != blank %}<span class="title">{{ product.metafields.custom.sixth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in sixth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="sixth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign single-third-option =  product.metafields.custom.single_third_option.value %} 
+{% if single-third-option != blank %}
+<ul class="single-third-option variants_list">
+    {% if product.metafields.custom.single_third_text_feild != blank %}<span class="title">{{ product.metafields.custom.single_third_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in single-third-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="single-third-option" data-title="{{product.title}}" value="{{product.variants[0].id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.featured_image | image_url: width: 50 }}<" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign seventh-option =  product.metafields.custom.seventh_option.value %}
+{% if seventh-option != blank %}
+<ul class="seventh_selection variants_list">
+   {% if product.metafields.custom.seventh_text_feild != blank %}<span class="title">{{ product.metafields.custom.seventh_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in seventh-option  %} 
+  {% if product.available %}  
+    <li>      
+         <input type="radio" class="variants" name="seventh-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign eighth-option =  product.metafields.custom.eighth_option.value %}
+{% if eighth-option != blank %}
+<ul class="eighth-option variants_list">  
+    {% if product.metafields.custom.eighth_text_feild != blank %}<span class="title">{{ product.metafields.custom.eighth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in eighth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="eighth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+  
+{% assign single-foruth-option =  product.metafields.custom.single_foruth_option.value %}
+{% if single-foruth-option != blank %}  
+<ul class="single-foruth-option variants_list"> 
+    {% if product.metafields.custom.single_fourth_text_feild != blank %}<span class="title">{{ product.metafields.custom.single_fourth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in single-foruth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="single-foruth-option" data-title="{{product.title}}" value="{{product.variants[0].id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.featured_image | image_url: width: 50 }}<" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+{% assign ninth-option =  product.metafields.custom.ninth_option.value %}
+{% if ninth-option != blank %}
+<ul class="ninth_selection variants_list">
+   {% if product.metafields.custom.ninth_text_feild != blank %}<span class="title">{{ product.metafields.custom.ninth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in ninth-option  %} 
+  {% if product.available %}  
+    <li>      
+         <input type="radio" class="variants" name="ninth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign tenth-option =  product.metafields.custom.tenth_option.value %}
+{% if tenth-option != blank %}
+<ul class="tenth-option variants_list">  
+    {% if product.metafields.custom.tenth_text_feild != blank %}<span class="title">{{ product.metafields.custom.tenth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in tenth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="tenth-option" data-title="{{product.title}}" value="{{product.id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.title | handle | prepend: 'swatch-' | append: '.' | append: file_extension | file_url }}" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+  
+{% assign single-fifth-option =  product.metafields.custom.single_fifth_option.value %}
+{% if single-fifth-option != blank %}  
+<ul class="single-fifth-option variants_list"> 
+    {% if product.metafields.custom.single_fifth_text_feild != blank %}<span class="title">{{ product.metafields.custom.single_fifth_text_feild }}</span>{% endif %}
+  <span class="select_box">- select varaiant -</span>
+  {% for product in single-fifth-option  %} 
+  {% if product.available %}  
+    <li>      
+        <input type="radio" class="variants" name="single-fifth-option" data-title="{{product.title}}" value="{{product.variants[0].id}}" required>
+        {% if product.featured_image != blank %}<span class="swatch_image"><img src="{{ product.featured_image | image_url: width: 50 }}<" class="swatches" data-src="{{ product.featured_image | image_url: width: 50 }}"></span>{% endif %}
+    </li>
+     {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+  <div class='cart_wish gb'>
+          <div class="groups-btn visible-xs">           
+              <input type="submit" class="btn" id="kit-product-add-to-cart" value="Add to Cart">            
+              {% include 'iwish_v2' with 'iwishproduct' %}
+              {% include 'wishlist-product' %}
+              <div class="share icons">
+                {% include 'share' %}
+            </div> 
+          </div>
+            {% include 'iwish_v2' with 'iWish_Login_Msgs' %}   
+  
+        </div>  
+<script>
+$('input.variants').on('change', function(){
+   var featureImages = $(this).closest('li').find('img').data('src');
+   var selectBox = $(this).closest('ul').find('span.select_box');
+   var datatitle = $(this).data('title');
+    selectBox.html(datatitle);
+    featureImages = featureImages.substring(0, featureImages.indexOf('?v'));
+    $('.product-img-box img').attr('src', featureImages);
+})
+</script>
