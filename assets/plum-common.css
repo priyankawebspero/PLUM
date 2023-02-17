@@ -6230,7 +6230,9 @@ span.discount-tag-col.left.pink span {
 #dropdown-cart span.discount-tag-col.right {
     display: none !important;
 }
-
+.cart-template .wrapper-cart-template .cart-list .cart-thumb span.discount-tag-col.right {
+    display: none !important;
+}
 
 
 @media only screen and (max-width:767px){
