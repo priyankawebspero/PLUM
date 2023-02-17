@@ -1,21 +1,21 @@
 {
   "sections": {
-    "product-template-default": {
-      "type": "product-template-default",
+    "product-template-kit": {
+      "type": "product-template-kit",
       "settings": {
         "style_moreview": "horizontal",
         "enable_payment_button": true,
         "image_planet_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.svg",
         "image_planet_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.png?v=1620658181",
         "display-free-text": true,
-        "offer_1": "<a href=\"https:\/\/plumgoodness.com\/collections\/single-products-offer\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Buy 2 Get 2 FREE Sale is LIVE | Use code : B2G2<\/a>",
-        "offer_2": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Full size Shower gel FREE on purchase of 5 or more products<\/a>",
+        "offer_1": "<a href=\"https:\/\/plumgoodness.com\/products\/new-test-dummy-kit-party-time\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Flat 1000₹ off on  party time bundle use code : BYOBTEST<\/a>",
+        "offer_2": "",
         "offer_3": "",
         "offer_4": "",
         "offer_5": "",
         "display_crg_image": true,
-        "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/White_Bg_icons_1.svg?v=1675408842",
-        "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/White_Bg_icons_1_2.svg?v=1676444288",
+        "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/4_icons_1.svg?v=1646131912",
+        "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/Mobile_version.svg?v=1623045215",
         "show_desc": "short",
         "show_tab": "horizontal_center",
         "display_product_detail_description": true,
@@ -34,6 +34,6 @@
     }
   },
   "order": [
-    "product-template-default"
+    "product-template-kit"
   ]
 }
