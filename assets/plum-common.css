@@ -6227,6 +6227,9 @@ span.discount-tag-col.left.pink span {
     color: #000;
 }
 
+#dropdown-cart span.discount-tag-col.right {
+    display: none !important;
+}
 
 
 
