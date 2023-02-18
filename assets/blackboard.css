@@ -604,6 +604,10 @@ main.main-content {
     font-size: 18px;
 }
 
+.index-section.video .bottom_content {
+    font-size: 0;
+}
+
 @media only screen and (min-width:1450px){
 
 .shopify-section.index-section .container-padd60 {
