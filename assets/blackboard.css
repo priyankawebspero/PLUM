@@ -1783,4 +1783,7 @@ main.main-content {
     z-index: 99999;
     right:0;
 }
-.modal-header .close{position:absolute;right:0;top:0;background:#5e0c8c;width:35px!important;height:35px!important;color:#fff!important;text-shadow:none!important;padding:0;line-height:35px;margin:0}
+.modal-header .close{
+  position:absolute;right:0;top:0;
+  background:#5e0c8c;width:35px!important;height:35px!important;
+  color:#fff!important;text-shadow:none!important;padding:0;line-height:35px;margin:0}
