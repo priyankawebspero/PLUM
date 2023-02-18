@@ -28,7 +28,7 @@ main.main-content .section_image_text_4 .gl_custom_template--15037447045180__fff
     padding-top: 4vw;
     color: #fff;
     text-align: center;
-    font-family: 'Justaword', sans-serif;
+   /* font-family: 'Justaword', sans-serif;*/
     font-size: 51px;
     line-height: normal;
 }
@@ -55,7 +55,7 @@ h2.gl_custom_heading.hidden-lg.hidden-md {
     margin-bottom: 10px;
     font-size: 48px!important;
     padding-top: 7px;
-    font-family: "Justaword";
+   /* font-family: "Justaword";*/
     text-transform: uppercase;
 }
 
@@ -88,7 +88,7 @@ h2.gl_custom_heading.hidden-lg.hidden-md {
     height: 100%;
     top: 6px;
     /* bottom: 0; */
-    font-family: "Justaword";
+     /*font-family: "Justaword";*/
     font-size: 35px;
     color: #fff;
 }
@@ -105,7 +105,7 @@ h2.gl_custom_heading.hidden-lg.hidden-md {
 .index-section .buttons .basel-button-wrapper a.btn {
     background: none !important;
     font-size: 27px;
-    font-family: "Justaword";
+    /* font-family: "Justaword";*/
     max-width: 100%;
     width: auto;
     padding-left: 0;
@@ -231,7 +231,7 @@ main.main-content {
 .testimonal-slideshow-sections .home-slideshow h3.box-title {
     font-size: 51px;
     color: #000;
-    font-family: Justaword,sans-serif;
+    /*font-family: Justaword,sans-serif;*/
     text-transform: uppercase;
 }
 
@@ -508,7 +508,7 @@ main.main-content {
 
 .home-slideshow-sections .widget-title .box-title {
     font-size: 51px!important;
-   font-family: "Justaword";
+   /*font-family: "Justaword";*/
     color: #000 !important;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -537,7 +537,7 @@ main.main-content {
 }
 
 .bottom_content + .bottom_content h3 {
-    font-family: "Justaword";
+   /* font-family: "Justaword";*/
     color: #fff;
     font-size: 51px;
     margin-top: 3vw;
@@ -590,7 +590,7 @@ main.main-content {
     border-radius: 8px;
     font-size: 35px;
     cursor: pointer;
-    font-family: "Justaword";
+    /*font-family: "Justaword";*/
 }
 
 .bottom_content {
