@@ -61,13 +61,6 @@
         <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
           <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
             {% if item.product.tags contains 'b2g2' or item.product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">B2G2</span>{% endif %}
-                        {% if item.product.tags contains 'febnewlaunch' %}
-                          <span class="discount-tag-col right lightpurple">NEW LAUNCH</span>
-                         {% elsif item.product.tags contains 'febbestseller' %} 
-                           <span class="discount-tag-col right blue">MUST TRY</span>
-                          {% elsif item.product.tags contains 'lowstock' %} 
-                           <span class="discount-tag-col right lowstock">LOW STOCK</span>
-                        {% endif %}
         </a>
         <div class="product-details">
           <div class="pro-name-and-price">
