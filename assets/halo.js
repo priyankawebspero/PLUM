@@ -1903,26 +1903,26 @@ if ((typeof Shopify.getCart) === 'undefined') {
             $(".shipping_price").click(function() {
               $(".popup").fadeIn(500);
               $(".popup").addclass('active');
-              $(".body").addclass('shipping_price_popup');
-              $(".orderDelay").show();
+              $(".body").addclass('shipping_price_popup');             
               });
               $(".close").click(function() {
                 $(".popup").fadeOut(500);
                  $(".popup").removeClass('active');
-                $(".body").removeClass('shipping_price_popup');
-                $(".orderDelay").hide();
+                $(".body").removeClass('shipping_price_popup');                
               });
         if (ella.checkNeedToConvertCurrency()) {
           Currency.convertAll(window.shop_currency, $('#currencies .active').attr('data-currency'), '#dropdown-cart span.money', 'money_format');
         }
        // if(typeof ACSCurrency !== "undefined" && typeof ACSCurrency.moneyFormats !== "undefined") {mlvedaload();}  
-      $('.clear_cart').addClass('active');
-      $('.best-sell-product').removeClass('disable');      
-       $('#flash-sale-new').show();
+        $('.clear_cart').addClass('active');
+        $('.best-sell-product').removeClass('disable');      
+        $('#flash-sale-new').show();
+        $(".orderDelay").show();
       }else{
-       $('.clear_cart').removeClass('active');
-       $('.best-sell-product').addClass('disable');
-        $('#flash-sale-new').hide();
+         $('.clear_cart').removeClass('active');
+         $('.best-sell-product').addClass('disable');
+         $('#flash-sale-new').hide();
+         $(".orderDelay").hide();
       }
       cartSpecialUpdate(cart);
       ella.checkItemsInDropdownCart();
