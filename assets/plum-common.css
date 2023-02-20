@@ -6394,4 +6394,8 @@ span.discount-tag-col.pink {
     font-weight: 600;
     text-align: center;
     padding: 7px 10px;
+    display: none;
+}
+.orderDelay.active{
+  display:block !important;
 }
