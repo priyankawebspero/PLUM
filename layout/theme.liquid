@@ -167,6 +167,9 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
       {% render 'boost-pfs' %}
     <!--end-boost-pfs-js-->
    {% endif %} 
+  	<!-- SMARTECH TRACKING START -->
+	{% include 'smartech_config' %}
+	<!-- SMARTECH TRACKING END -->
   {% include 'mc-limit' %}
   {% include 'social-login' %}
   {% render 'schema-json' %}
@@ -189,7 +192,7 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     </script>
   {% endif %} 
   <script>window.addEventListener('load', function () { var el = document.createElement('script'); el.setAttribute('src', 'https://client.consolto.com/iframeApp/iframeApp.js'); el.id = 'et-iframe'; el.async = true; el.setAttribute('data-widgetId', '63ad2783c0265915401e0814'); el.setAttribute('data-version', 0.5); el.setAttribute('data-test', false); document.body.appendChild(el); }); </script>
-    <script>
+<script type="text/javascript">   
   function quoraPixel(){
     qp('track', 'AddToCart'); 
     clevertap.event.push("User Bonus Offer Clicks", {
@@ -206,11 +209,7 @@ navigator.serviceWorker.getRegistrations().then(function(registrations) {
     });    
     snaptr('track', 'ADD_CART');
   }    
-</script> 
-	<!-- SMARTECH TRACKING START -->
-	{% include 'smartech_config' %}
-	<!-- SMARTECH TRACKING END -->
-<script type="text/javascript">    
+
 $(".st-search-bar input").on("keypress", function() {
 	var e = this.value;
 	e.length > 3 && clevertap.event.push("Searched Product", {
