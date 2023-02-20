@@ -1917,13 +1917,13 @@ if ((typeof Shopify.getCart) === 'undefined') {
         $('.clear_cart').addClass('active');
         $('.best-sell-product').removeClass('disable');      
         $('#flash-sale-new').show();
-        $(".orderDelay").hide();
+        $(".orderDelay").addClass('active');
       }else{
          $('.clear_cart').removeClass('active');
          $('.best-sell-product').addClass('disable');
          $('#flash-sale-new').hide();
          $(".orderDelay").hide();
-         $(".orderDelay").show();
+         $(".orderDelay").removeClass('active'); 
       }
       cartSpecialUpdate(cart);
       ella.checkItemsInDropdownCart();
