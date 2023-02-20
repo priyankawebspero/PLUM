@@ -6387,3 +6387,11 @@ span.discount-tag-col.pink {
   .product-label.deactive {
     display: none !important;
 }
+.orderDelay {
+    font-size: 14px;
+    line-height: 17px;
+    background: antiquewhite;
+    font-weight: 600;
+    text-align: center;
+    padding: 7px 10px;
+}
