@@ -1837,10 +1837,22 @@ if ((typeof Shopify.getCart) === 'undefined') {
       $('[data-cart-count]').text(cart.item_count);
       dropdownCart.find('.summary .price').html(' '+Shopify.formatMoney(cart.total_price, window.money_format));
       var compare_value = 129900;
-      var compare_value2 = 199900;     
-      if(cart.total_price > 1400000 ){$('button#btncheckout').addClass('disable');}
-      else{$('button#btncheckout').removeClass('disable');}
+      var compare_value2 = 199900;
+      //  if(cart.total_price < 109900){  
+      //     $('#dropdown-cart .freegift').html('Pick any 2 products for FREE on orders above Rs 1099 from the gift popup');
+      //  }
+      // else
+      //  {
+      //    $('#dropdown-cart .freegift').html('To change the gift please click on remove');
+      //  }
+       
+      if(cart.total_price > 1400000 ){
+           $('button#btncheckout').addClass('disable');
+      }else{
+         $('button#btncheckout').removeClass('disable');
+      }
       miniProductList.html('');
+
       if (cart.item_count > 0) {
         var total_saving = 0 ;
         var saving = 0 ;
@@ -1851,6 +1863,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
           }
           else {
           var template = '<li class="item" id="cart-item-{ID}" data-variant="{ID}" data-id="{PRODUCTID}"><a href="{URL}" title="{TITLE}" class="product-image {TAG}"><img src="{IMAGE}" alt="{TITLE}"></a><div class="product-details"><div class="pro-name-and-price"><div class="title_and_variant"><a class="product-name" href="{URL}">{TITLE}</a><span class="variant_title">{VARIANT}</span></div><span class="price dgdfdh"><span style="text-decoration: line-through;">{COMPRICE}</span> {PRICE}</span></div><div class="cart-collateral">';
+  
           }
             if(cart.items[i].price > 0 && cart.items[i].title.indexOf('% off)') == -1){
             template += '<div class="quantity-data"><div class="option quantity-box text-center"><div class="dec button">-</div><input type="text" class="quantity" name="quantity" value="{QUANTITY}"><div class="inc button">+</div></div></div>';
@@ -1903,27 +1916,24 @@ if ((typeof Shopify.getCart) === 'undefined') {
             $(".shipping_price").click(function() {
               $(".popup").fadeIn(500);
               $(".popup").addclass('active');
-              $(".body").addclass('shipping_price_popup');             
+                $(".body").addclass('shipping_price_popup');
               });
               $(".close").click(function() {
                 $(".popup").fadeOut(500);
                  $(".popup").removeClass('active');
-                $(".body").removeClass('shipping_price_popup');                
+                $(".body").removeClass('shipping_price_popup');
               });
         if (ella.checkNeedToConvertCurrency()) {
           Currency.convertAll(window.shop_currency, $('#currencies .active').attr('data-currency'), '#dropdown-cart span.money', 'money_format');
         }
        // if(typeof ACSCurrency !== "undefined" && typeof ACSCurrency.moneyFormats !== "undefined") {mlvedaload();}  
-        $('.clear_cart').addClass('active');
-        $('.best-sell-product').removeClass('disable');      
-        $('#flash-sale-new').show();
-        $(".orderDelay").addClass('active');
+      $('.clear_cart').addClass('active');
+      $('.best-sell-product').removeClass('disable');      
+       $('#flash-sale-new').show();
       }else{
-         $('.clear_cart').removeClass('active');
-         $('.best-sell-product').addClass('disable');
-         $('#flash-sale-new').hide();
-         $(".orderDelay").hide();
-         $(".orderDelay").removeClass('active'); 
+       $('.clear_cart').removeClass('active');
+       $('.best-sell-product').addClass('disable');
+        $('#flash-sale-new').hide();
       }
       cartSpecialUpdate(cart);
       ella.checkItemsInDropdownCart();
@@ -3934,8 +3944,8 @@ initBlogPostSlider: function() {
            $('body').find('.variants.grid-product-form--'+productID+' .cart').hide();
           // ella.changeQuantityAddToCartNew();
            setTimeout(function(){ 
-            $('body').find('.add-to-cart-btnload').text('Add to Cart'); 
-             $('body').find('.add-to-cart-btnload').val('Add to Cart');
+            $('body').find('.product_form_desciption .add-to-cart-btnload').text('Add to Cart'); 
+             $('body').find('.product_form_desciption .add-to-cart-btnload').val('Add to Cart');
             $('.added_product.modal').html('Product added to cart!').show(); 
             },1000); 
              setTimeout(function() {
