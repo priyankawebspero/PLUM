@@ -269,7 +269,7 @@
     "main-titile": "PLACE ORDER",
     "sub-titile": "",
     "btnBClr": "#5e0c8c",
-    "timer_enable": true,
+    "timer_enable": false,
     "Timer_date": "feb 17, 2023 19:30:00",
     "Timer_text": "Free shower gel on all orders ends in",
     "Timer_text_after": "Sale Over!!",
@@ -731,7 +731,7 @@
         ],
         "settings": {
           "display_header_top": true,
-          "top_message_text": "Buy 2 Get 2 FREE Sale is LIVE",
+          "top_message_text": "Buy 2 Get 2 Free Sale ENDS Tonight",
           "top_message_text1": "",
           "top_message_text2": "",
           "top_message_text3": "",
