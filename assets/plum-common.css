@@ -6399,3 +6399,6 @@ span.discount-tag-col.pink {
 .orderDelay.active{
   display:block !important;
 }
+.footer-newsletter section.newsletter {
+    margin: 0 !important;
+}
