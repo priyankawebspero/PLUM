@@ -74,6 +74,7 @@
 
      // Fetching the url of product 
     let active_option = $(this).data('id'); 
+   
 
     // Changing the Info of the active swatch
      var flavour_image = $('.swatch-options ul').find('.active_li .image_box_min').html();
@@ -83,7 +84,8 @@
      
     // Changing the product url
          window.history.pushState("Plumgoodness", active_option, "/products/" + active_option);
-
+     
+     
      // Fetching and replacing the product url
          (function worker() {
           $.ajax({
@@ -104,8 +106,10 @@
               let tab2 = $(data).find('#collapse-tab2 .inside_tab');
               let tab3 = $(data).find('#collapse-tab3 .inside_tab');
               let reviews = $(data).find('.tab-content #judgeme_product_reviews');
-              let qusetionBlcok = $(data).find('.tab-content #simpAskQuestion');            
-
+              let qusetionBlcok = $(data).find('.tab-content #simpAskQuestion');
+              
+              
+              
               $('.product_title_box').replaceWith(Title);
               $('#product-variants').replaceWith(productVariants);
               $('.price_info_box').html(priceInfoBox);
@@ -167,12 +171,13 @@
                   }
               
              // ella.doAddOrRemoveWishlish();
-            if (document.querySelector('.jdgm-preview-badge')) {
-            document.querySelector('.tabs #judgeme_product_reviews').dataset.id = document.querySelector('.review_div .jdgm-preview-badge').dataset.id;
-                setTimeout(() => {
+              setTimeout(() => {
+            console.log('jdgInit');
+          setTimeout(() => {
                      jdgmCacheServer.reloadAll();
                 }, 1000)
-               }
+              jdgmCacheServer.reloadAll();
+            }, 100);
             },
             complete: function() {
               $('.loading-modal').hide();
