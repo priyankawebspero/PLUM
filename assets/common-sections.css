@@ -259,6 +259,28 @@ a.btn:hover {
     margin: 50px 0;
 }
 
+.inner-top .product-image .product-grid-image {
+    min-height: inherit;
+    padding-bottom: 66.66%;
+    overflow: hidden;
+}
+
+.inner-top .product-image .product-grid-image img{
+  position: absolute;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    object-fit: contain!important;
+    height: 100%!important;
+    min-height: inherit!important;
+    -moz-transform: inherit!important;
+    -o-transform: inherit!important;
+    -ms-transform: inherit!important;
+    -webkit-transform: inherit!important;
+    transform: inherit!important;
+  
+}
+
 /*-02-02-2023-*/
 
 @media only screen and (min-width: 1400px)
