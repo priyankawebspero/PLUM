@@ -261,6 +261,18 @@ a.btn:hover {
 
 /*-02-02-2023-*/
 
+@media only screen and (min-width: 1400px)
+{
+	.home-testimonials-carousel .slick-next.slick-arrow {
+    right: -40px;
+	top: 45%;
+}
+.home-testimonials-carousel .slick-prev.slick-arrow {
+    left: -40px;
+	top: 45%;
+}
+}
+
 
 @media only screen and (min-width: 768px){
 
@@ -290,6 +302,21 @@ a.btn:hover {
 }
 
 
+}
+
+@media only screen and (max-width:991px)
+{
+  .brands-style-2 .slick-dots li.slick-active button, .widget-product .slick-dots li.slick-active button {
+    border-color: transparent;
+    background: #620c92;
+}
+  .brands-style-2 .slick-dots li button, .widget-product .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    background: none;
+    border-color: #a0a0a0;
+    border: 2px solid #620c92;
+}
 }
 
 @media only screen and (max-width:767px){
@@ -437,6 +464,23 @@ h3.banner-heading {
 .bodylin_videos_inner {
     margin: 30px 0;
 }
+
+.home-testimonials-carousel .banner-heading {
+    margin-bottom: 10px !important;
+}
+
+.home-testimonials-carousel .banner-heading {
+    font-size: 27px;
+    letter-spacing: 0;
+}
+  .home-collection-carousel .slick-list.draggable {
+    padding: 0 !important;
+}
+  .home-collection-carousel ul.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+}
   
 }
 
@@ -452,50 +496,7 @@ h3.banner-heading {
 
 
 
-@media only screen and (min-width: 1400px)
-{
-	.home-testimonials-carousel .slick-next.slick-arrow {
-    right: -40px;
-	top: 45%;
-}
-.home-testimonials-carousel .slick-prev.slick-arrow {
-    left: -40px;
-	top: 45%;
-}
-}
 
-
-@media only screen and (max-width:991px)
-{
-  .brands-style-2 .slick-dots li.slick-active button, .widget-product .slick-dots li.slick-active button {
-    border-color: transparent;
-    background: #620c92;
-}
-  .brands-style-2 .slick-dots li button, .widget-product .slick-dots li button {
-    width: 16px;
-    height: 16px;
-    background: none;
-    border-color: #a0a0a0;
-    border: 2px solid #620c92;
-}
-}
-
-
-@media only screen and (max-width: 767px)
-{
-	.home-testimonials-carousel .banner-heading {
-    font-size: 27px;
-    letter-spacing: 0;
-}
-  .home-collection-carousel .slick-list.draggable {
-    padding: 0 !important;
-}
-  .home-collection-carousel ul.slick-dots li button {
-    width: 12px;
-    height: 12px;
-    margin-top: 20px;
-}
-}
 
 
 /*-01-02-2023-*/
