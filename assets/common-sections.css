@@ -547,6 +547,14 @@ h3.banner-heading {
     min-height: 135px;
     font-size: 16px;
 }
+
+.home-brands-new-sections .brands-slider {
+    padding-bottom: 20px;
+}
+
+.home-brands-new-sections .brands-slider .slick-dots {
+    padding: 0 15px;
+}
   
 }
 
