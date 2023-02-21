@@ -150,21 +150,21 @@
                              }
                             ]
               });
-              var customerView = $('.product-shop [data-customer-view]');   
-                  if (customerView.length) {
-                    customerView.each(function () {
-                      var self = $(this);
-                      var views = self.data('customer-view').split(","),
-                       i = Math.floor(Math.random() * views.length);          
-                       self.find('label').text(views[i]);                      
-                      setInterval(function () {
-                        var views = self.data('customer-view').split(","),
-                            i = Math.floor(Math.random() * views.length);
+              // var customerView = $('.product-shop [data-customer-view]');   
+              //     if (customerView.length) {
+              //       customerView.each(function () {
+              //         var self = $(this);
+              //         var views = self.data('customer-view').split(","),
+              //          i = Math.floor(Math.random() * views.length);          
+              //          self.find('label').text(views[i]);                      
+              //         setInterval(function () {
+              //           var views = self.data('customer-view').split(","),
+              //               i = Math.floor(Math.random() * views.length);
               
-                        self.find('label').text(views[i]);
-                      }, 100000);
-                    });
-                  }
+              //           self.find('label').text(views[i]);
+              //         }, 100000);
+              //       });
+              //     }
               
              // ella.doAddOrRemoveWishlish();
             // if (document.querySelector('.jdgm-preview-badge')) {
