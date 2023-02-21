@@ -191,6 +191,17 @@ a.btn:hover {
     color: #000;
 }
 
+.brand_div .tooltip:after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #EBE0F0;
+    transform: translateX(-50%);
+}
+
 .widget-product .slick-arrow {
     background: #5C0F8B;
     color: #fff;
