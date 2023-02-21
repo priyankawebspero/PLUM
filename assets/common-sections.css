@@ -427,12 +427,12 @@ h3.banner-heading {
 
 .slick-dots li {
     margin: 0 5px;
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 }
 
-.home-brands-new-sections .slick-dots li button{width: 16px;
-    height: 16px;}
+.home-brands-new-sections .slick-dots li button{width: 14px;
+    height: 14px;}
 
 .bodylin_videos_inner {
     margin: 30px 0;
