@@ -210,6 +210,15 @@ a.btn:hover {
 
 @media only screen and (max-width:767px){
 
+span.jdgm-prev-badge__text {
+    font-size: 12px;
+}
+
+span.jdgm-star {
+    font-size: 12px !important;
+    padding: 0 0 0 1px !important;
+}
+
 .widget-title .box-title {
     font-size: 27px;
 }
