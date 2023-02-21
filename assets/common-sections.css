@@ -307,6 +307,10 @@ h3.banner-heading {
     text-align: center;
     margin-bottom: 12px;
 }
+
+.home-collection-carousel .banner-heading {
+    letter-spacing: 0;
+}
   
 }
 
