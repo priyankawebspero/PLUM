@@ -154,6 +154,22 @@ h3.banner-heading {
     justify-content: center;
 }
 
+a.btn {
+    background: #5e0d8b;
+    color: #fff!important;
+    font-size: 22px;
+    border-radius: 7px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    min-width: 195px;
+    font-weight: 500;
+}
+
+a.btn:hover {
+    background: #9000c5;
+    background-image: inherit!important;
+}
+
 @media only screen and (min-width: 768px){
 
 .home-testimonials-carousel, .home-collection-carousel {
