@@ -521,6 +521,11 @@ h3.banner-heading {
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
   display: none !important;
 } 
+
+.brand_div .tooltip {
+    min-height: 135px;
+    font-size: 16px;
+}
   
 }
 
