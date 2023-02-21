@@ -8,6 +8,15 @@
     "16584916565597b9d2": {
       "type": "home-slideshow",
       "blocks": {
+        "1658491656e56f97db-0": {
+          "type": "image",
+          "settings": {
+            "dpl_slide_img": true,
+            "image_slide": "shopify:\/\/shop_images\/HomePage-Banner-Desktop_116df140-ceee-457a-8f45-d352e715fb4b.jpg",
+            "image_slide_mb": "shopify:\/\/shop_images\/Homepage_Mobile_e7333210-69ac-4045-9a4f-df5be74a6ec9.jpg",
+            "link": "https:\/\/plumgoodness.com\/collections\/eau-de-parfum"
+          }
+        },
         "8f169b0e-2280-43d8-b645-0cb17b1ba10f": {
           "type": "image",
           "settings": {
@@ -26,16 +35,6 @@
             "link": ""
           }
         },
-        "1658491656e56f97db-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "dpl_slide_img": true,
-            "image_slide": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Desktop_60578468-e940-43ea-ac38-21805ccca861.jpg",
-            "image_slide_mb": "shopify:\/\/shop_images\/PBLx4700BC_HomePage_Mobile_8710c13e-5add-4def-bd70-8a8886829fab.jpg",
-            "link": "shopify:\/\/products\/plum-bodylovin-himalayan-caramel-popcorn-snack-pack"
-          }
-        },
         "fa47f221-d80c-47f2-a262-f01cf96649f6": {
           "type": "image",
           "disabled": true,
@@ -48,9 +47,9 @@
         }
       },
       "block_order": [
+        "1658491656e56f97db-0",
         "8f169b0e-2280-43d8-b645-0cb17b1ba10f",
         "4f955b9b-59c3-460d-9e5e-83fe602dec24",
-        "1658491656e56f97db-0",
         "fa47f221-d80c-47f2-a262-f01cf96649f6"
       ],
       "settings": {
