@@ -210,6 +210,10 @@ a.btn:hover {
 
 @media only screen and (max-width:767px){
 
+.widget-title .box-title {
+    font-size: 27px;
+}
+
 .home-slideshow-sections .home-slideshow {
     margin-bottom: 30px !important;
 }
