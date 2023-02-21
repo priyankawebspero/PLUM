@@ -515,7 +515,7 @@ h3.banner-heading {
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar-thumb {
   height: 5px;
-  background-color: #fff;
+  background-color:inherit;
 }
 
 .home-product-tabs .widget-product .list-product-tabs::-webkit-scrollbar:vertical {
