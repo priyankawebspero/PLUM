@@ -260,7 +260,7 @@ a.btn:hover {
 
 @media only screen and (min-width: 768px){
 
-.home-testimonials-carousel, .home-collection-carousel {
+.home-testimonials-carousel, .home-collection-carousel, .home-brands-new-sections {
     margin: 50px 0;
 }
 
@@ -284,7 +284,8 @@ a.btn:hover {
     margin-top: 15px;
 }
 
-.home-product-tabs-sections {
+
+.home-product-tabs-sections, .home-brands-new-sections {
     margin: 30px 0;
 }
 
