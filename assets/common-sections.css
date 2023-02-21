@@ -185,6 +185,11 @@ a.btn:hover {
     font-weight: 300;
 }
 
+.widget-product .slick-arrow {
+    background: #5C0F8B;
+    color: #fff;
+}
+
 @media only screen and (min-width: 768px){
 
 .home-testimonials-carousel, .home-collection-carousel {
