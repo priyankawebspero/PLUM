@@ -1152,6 +1152,10 @@ span.jdgm-prev-badge__text {
 span.jdgm-prev-badge__text {
     font-size: 12px;
 }
+
+.home-slideshow-sections .slick-arrow {
+    display: none !important;
+}
   
 }
 
