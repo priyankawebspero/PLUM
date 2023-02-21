@@ -146,6 +146,10 @@ h3.banner-heading {
   margin-bottom: 30px;
 }
 
+.product-bottom .shopify-product-reviews-badge {
+    display: none;
+}
+
 @media only screen and (min-width: 768px){
 
 .home-testimonials-carousel {
