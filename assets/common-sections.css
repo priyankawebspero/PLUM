@@ -150,6 +150,10 @@ h3.banner-heading {
     display: none;
 }
 
+.products-grid {
+    justify-content: center;
+}
+
 @media only screen and (min-width: 768px){
 
 .home-testimonials-carousel {
