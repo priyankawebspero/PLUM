@@ -548,6 +548,10 @@ h3.banner-heading {
 .home-brands-new-sections .brands-slider .slick-dots {
     padding: 0 15px;
 }
+
+  .product-tabs-content .products-grid {
+    justify-content: flex-start;
+}
   
 }
 
