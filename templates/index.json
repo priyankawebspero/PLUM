@@ -97,7 +97,6 @@
         },
         "954be5d8-b6dc-41fd-afb6-9997a2b99974": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/HomePage-Banner-Desktop_3812ef22-c780-477c-a6cf-754477dd280b.jpg",
