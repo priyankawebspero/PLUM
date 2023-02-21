@@ -93,6 +93,8 @@ h3.banner-heading {
 
 .makeup-product-tabs-sections .home-product-tabs .widget-product .list-product-tabs li img {
     border-radius: 8px;
+  width: 100%;
+    max-width: 160px;
 }
 
 .makeup-product-tabs-sections .home-product-tabs .inner {
