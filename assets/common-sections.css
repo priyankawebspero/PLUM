@@ -264,7 +264,9 @@ a.btn:hover {
     margin: 50px 0;
 }
 
- 
+ .home-product-tabs-sections {
+    margin: 50px 0;
+}
   
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
@@ -277,6 +279,10 @@ a.btn:hover {
 }
 
 @media only screen and (max-width:767px){
+
+.home-product-tabs-sections {
+    margin: 30px 0;
+}
 
 .home-slideshow-sections .home-slideshow .slick-arrow {
     display: none !important;
