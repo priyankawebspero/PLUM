@@ -374,7 +374,7 @@ h3.banner-heading {
     letter-spacing: 1px;
     color: #5f258a;
     text-transform: lowercase;
-    margin-top: 25PX;
+   margin-top: 0;
 }
 .home-collection-carousel .products-grid .block-wrapper {
     border-radius: 5px;
