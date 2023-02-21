@@ -127,7 +127,7 @@ h3.banner-heading {
     margin: 30px 0 !important;
 }
 
-.home-testimonials-carousel {
+.home-testimonials-carousel, .home-collection-carousel {
     margin: 30px 0;
 }
 
@@ -156,9 +156,11 @@ h3.banner-heading {
 
 @media only screen and (min-width: 768px){
 
-.home-testimonials-carousel {
+.home-testimonials-carousel, .home-collection-carousel {
     margin: 50px 0;
 }
+
+ 
   
 .home-slideshow-sections ul.slick-dots {
     display: none !important;
