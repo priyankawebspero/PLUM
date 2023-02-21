@@ -135,6 +135,12 @@ h3.banner-heading {
     border: 1px solid #ccc;
 }
 
+.widget-title .box-title .title {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media only screen and (min-width: 768px){
 
 .home-testimonials-carousel {
