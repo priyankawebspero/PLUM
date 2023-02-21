@@ -420,6 +420,15 @@ h3.banner-heading {
     width: 16px;
     height: 16px;
 }
+
+.slick-dots li {
+    margin: 0 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.home-brands-new-sections .slick-dots li button{width: 16px;
+    height: 16px;}
   
 }
 
