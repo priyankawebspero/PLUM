@@ -299,7 +299,7 @@
 
                     <div class="section-3">
                       <div class="delivery-time-infos">
-                        <ul>
+                        <ul class="list">
                           <li class="checker-combine">
                             <div class="check-pincode">
                               <input
@@ -320,6 +320,7 @@
                           </li>
                           <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
                         </ul>
+                        <button id="read-more">Read more</button>
                       </div>
                     </div>
 
@@ -609,13 +610,20 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                    {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                            {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
     });
   </script>
   <script>
+    $('#read-more').click(function() {
+      $('.list li:hidden').slice(0, 6).show(); // show the next 3 hidden <li> elements
+      if ($('.list li:hidden').length == 0) {
+        $('#read-more').hide(); // hide the button when all elements are visible
+      }
+    });
+
     $(document).ready(function() {
       $("ul.tabs li").click(function() {
         var t = $(this).attr("data-tab");
