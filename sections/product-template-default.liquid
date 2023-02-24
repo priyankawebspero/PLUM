@@ -297,6 +297,32 @@
                       {% include 'iwish_v2' with 'iWish_Login_Msgs' %}
                     </div>
 
+                    <div class="section-3">
+                      <div class="delivery-time-infos">
+                        <ul>
+                          <li class="checker-combine">
+                            <div class="check-pincode">
+                              <input
+                                type="tel"
+                                id="pincode_input"
+                                class="check-delivery-pincode"
+                                placeholder="Enter pincode"
+                                pattern="[0-9]*"
+                                onkeypress="return numbersOnly(this, event);"
+                                onpaste="return false;"
+                                maxlength="6"
+                                minlength="6"
+                                name="pincode">
+                              <span class="check-delivery-submit" id="check-delivery-submit">
+                                <b>Check</b>
+                              </span>
+                            </div>
+                          </li>
+                          <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
+                        </ul>
+                      </div>
+                    </div>
+
                     <div class="col-md-12 product_info">
                       {% assign bestSuited = product.metafields.Product['Best Suited For'] | split: "," %}
                       {% assign notRecommended = product.metafields.Product['Not Recommended'] | split: "," %}
@@ -327,36 +353,6 @@
                       </div>
                     </div>
 
-                    <div class="section-3">
-                      <div class="delivery-time-infos">
-                        <ul>
-                          <li class="checker-combine">
-                            <div class="check-pincode">
-                              <input
-                                type="tel"
-                                id="pincode_input"
-                                class="check-delivery-pincode"
-                                placeholder="Enter pincode"
-                                pattern="[0-9]*"
-                                onkeypress="return numbersOnly(this, event);"
-                                onpaste="return false;"
-                                maxlength="6"
-                                minlength="6"
-                                name="pincode">
-                              <span class="check-delivery-submit" id="check-delivery-submit">
-                                <b>Check</b>
-                              </span>
-                            </div>
-                          </li>
-                          <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
-                        </ul>
-                      </div>
-                      <!--         <div class="planet_div">
-                      <img data-src="{{ section.settings.image_planet_desktop}}"  src="{{ section.settings.image_planet_desktop}}" alt="planet" class="lazyautosizes lazyloaded visible_desktop">
-                      <img data-src="{{ section.settings.image_planet_mobile}}" src="{{ section.settings.image_planet_mobile}}"  alt="planet" class="lazyautosizes lazyloaded visible_mobile">
-                      <p style="color:rgb(92, 16, 140);font-weight:bold">1% of every sale goes towards the planet.</p>
-                      </div> -->
-                    </div>
                   {% endform %}
                 </div>
 
@@ -613,7 +609,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>               {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                    {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
