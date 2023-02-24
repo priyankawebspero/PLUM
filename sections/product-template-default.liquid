@@ -320,7 +320,6 @@
                           </li>
                           <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
                         </ul>
-                        <button id="read-more">Read more</button>
                       </div>
                     </div>
 
@@ -394,7 +393,7 @@
                       <br>
                       <div class="free-shipping-top" style="list-style-type: none;">
                         <p class="offers_sec">offers</p>
-                        <ul style="list-style-type: none;">
+                        <ul class="list" style="list-style-type: none;">
                           {% if section.settings.offer_1 != blank %}
                             <li style="list-style-type: none;">{{ section.settings.offer_1 }}</li>
                           {% endif %}
@@ -412,6 +411,7 @@
                             <li style="list-style-type: none;">{{ section.settings.offer_5 }}</li>
                           {% endif %}
                         </ul>
+                        <button id="read-more">Read more</button>
                       </div>
                     {% endif %}
                     <!--Free shipping offer text end -->
@@ -610,7 +610,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                            {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                             {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
