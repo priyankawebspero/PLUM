@@ -2052,7 +2052,7 @@ div#new_tags {
 	cursor: pointer;
 }
 #searchModalContainer span.discount-tag-col.right {
-    left: auto;
+    left: 0;
 }
 
 /**********************End nuumber of results*********************************/
