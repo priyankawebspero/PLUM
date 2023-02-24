@@ -67,72 +67,42 @@
                     {% endfor %}
                   </div>
                 </div>
-                <div class="col-md-12 visible_desktop">
-                  <div class="row">
-                    <div class="short-desc-datas">
-                      {% if product.metafields.Product['Short Description'] != blank %}
-                        {{ product.metafields.Product['Short Description'] }}
-                      {% else %}
-                        {{ product.metafields.Product['Short Description'] }}
+                {% comment %} <div class="col-md-12 visible_desktop">
+                <div class="row">
+                <div class="short-desc-datas">
+                {% if product.metafields.Product['Short Description'] != blank %}
+                {{ product.metafields.Product['Short Description'] }}
+                {% else %}
+                {{ product.metafields.Product['Short Description'] }}
 
-                      {% endif %}
-                    </div>
-                  </div>
+                {% endif %}
                 </div>
+                </div>
+                </div> {% endcomment %}
               </div>
-              {% assign productMetafields = product.metafields.Product %}
               <div class="col-md-7 product-shop">
-                <div class="product_title_box" style="position:relative;">
-                  {% assign Range_url = product.metafields.Product['Range_url'] %}
-                  {% assign rangeText = product.metafields.Product["Range"] %}
-                  {% if rangeText == blank %}
-                    {% assign rangeText = product.metafields.Product["Range"] %}
-                  {% endif %}
-                  {% if Range_url != blank %}
-                    {% if rangeText != blank %}
-                      <a href="{{ Range_url }}" class="range-link">{{ rangeText }}</a>
-                    {% endif %}
-                  {% else %}
-                    {% if rangeText != blank %}
-                      <span href="{{ Range_url }}" class="range-link">{{ rangeText }}</span>
-                    {% endif %}
-                  {% endif %}
+                <div class="product_title_box">
                   <h1 class="product-title">
-                    <span class="lang1">
-                      {{ product.title }}
-                    </span>
-                    <div class="grammage">
-                      {% assign Grammage = product.metafields.product['grammage'] %}
-                      {% if Grammage != 0 and Grammage != blank %}
-                        <label>Available in: {{ Grammage }}</label>
-                      {% endif %}
-                    </div>
+                    <span class="lang1">{{ product.title }}</span>
                   </h1>
+                  {% if product.metafields.Product["advantages"] != blank %}
+                    <div class="advantages">{{ product.metafields.Product["advantages"] }}</div>
+                  {% endif %}
+                  <div class="grammage">
+                    {% assign Grammage = product.metafields.product['grammage'] %}
+                    {% if Grammage != 0 and Grammage != blank %}
+                      <label>Available in: {{ Grammage }}</label>
+                    {% endif %}
+                  </div>
                 </div>
 
                 <div class="product_form_desciption">
                   {% form 'product', product, id: "add-to-cart-form", novalidate: 'novalidate' %}
-                    {% if settings.display_size_chart %}
-                      <a
-                        data-toggle="modal"
-                        data-target="#size_chart"
-                        class="size-chart-open-popup">
-                        {% include 'multilang' with settings.size_guide_text %}
-                      </a>
-                    {% endif %}
-
                     <div id="product-variants" class="varient_  {% if product.options.size == 1 and product.variants[0].title == 'Default Title' %}without_variant{% endif %}{% for option in product.options %}{% if forloop.index >= 2 %}addBreak{% endif %}{% endfor %}">
-                      <div class="review_div">
-                        {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+                      <div class="review_div">{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
                       </div>
                       {% if variantCount > 1 or product.variants[0].title != 'Default Title' %}
-                        <div class="quantity_varients{% for option in product.options %}{% if option contains 'Color' %} color{% endif %}{% endfor %}">
-                          {% for option in product.options %}
-                            {% if option contains 'Color' %}
-                              <label for="product-selectors-option-0">Colours<em></em>
-                              </label>
-                            {% endif %}
-                          {% endfor %}
+                        <div class="quantity_varients">
                           <select
                             id="product-selectors"
                             name="id"
@@ -207,167 +177,76 @@
                           name="id"
                           value="{{ product.variants[0].id }}" />
                       {% endif %}
-                      <div class="mobile-cart">
-                        {% if current_variant.inventory_quantity > 0 %}
-                          <input
-                            data-btn-addToCart
-                            type="submit"
-                            name="add"
-                            class="btn add-to-cart-btnload"
-                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
-                            id="product-add-to-cart"
-                            value="{{ 'products.product.add_to_cart' | t }}"
-                            data-form-id="#add-to-cart-form"
-                            onclick="snaptr('track', 'ADD_CART');">
-                        {% elsif current_variant.inventory_management != "shopify" %}
-                          <input
-                            data-btn-addToCart
-                            type="submit"
-                            name="add"
-                            class="btn add-to-cart-btnload"
-                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
-                            id="product-add-to-cart"
-                            value="{{ 'products.product.add_to_cart' | t }}"
-                            data-form-id="#add-to-cart-form"
-                            onclick="snaptr('track', 'ADD_CART');">
-                        {% else %}
-                          <input
-                            type="submit"
-                            name="add"
-                            class="btn cart"
-                            {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}
-                            id="product-add-to-cart"
-                            disabled
-                            value="{{ 'products.product.unavailable' | t }}"
-                            onclick="snaptr('track', 'ADD_CART');">
-                        {% endif %}
-                      </div>
-
                     </div>
                     <div class="price_info_box">
-                      <div class="price-manufacturer">
-                        <div class="price-review price-manufacturer1" style="display:block">
-                          <div class="prices" style="display:block">
-
-                            <span class="mrp {% if compare_at_price_max == blank %}color_black{% endif %}">MRP</span>
-                            {% if sca_compare_at_price > sca_price %}
-                              {% if compare_at_price_max != blank %}
-                                <span class="compare-price">
-                                  {{ product.variants[0].compare_at_price | money }}
-                                </span>
-                              {% else %}
-                                <span class="compare-price">
-                                  {{ product.variants[0].compare_at_price | money }}</span>
-                              {% endif %}
-                              <p class="now_at">
-                                <span class="price on-sale" itemprop="price">
-                                  {{ product.variants[0].price | money }}
-                                </span>
-                              </p>
-
-
-                            {% else %}
-                              <span class="price" itemprop="price">{{ product.variants[0].price | money }}</span>
+                      <div class="price-review price-manufacturer1" style="display:block">
+                        <div class="prices" style="display:block">
+                          <span class="mrp">MRP</span>
+                          {% if sca_compare_at_price > sca_price %}
+                            {% if compare_at_price_max != blank %}
+                              <span class="compare-price">{{ product.variants[0].compare_at_price | money }}</span>
                             {% endif %}
-                            <!--        Information icon        -->
-                            {% assign name_address_of_manufacturer = product.metafields.product['name address of manufacturer'] %}
-                            {% if name_address_of_manufacturer != 0 and name_address_of_manufacturer != blank %}
-                              <div class="tooltip price-manufacturer2">
-                                <img
-                                  class="lazyautosizes lazyload"
-                                  data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
-                                  src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
-                                  class="info-icon">
-                                <span class="tooltiptext">
-
+                            <p class="now_at">
+                              <span class="price on-sale" itemprop="price">{{ product.variants[0].price | money }}</span>
+                            </p>
+                          {% else %}
+                            <span class="price" itemprop="price">{{ product.variants[0].price | money }}</span>
+                          {% endif %}
+                          <!--        Information icon        -->
+                          {% assign name_address_of_manufacturer = product.metafields.product['name address of manufacturer'] %}
+                          {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
+                          {% assign category = product.metafields.product['category'] %}
+                          {% assign number_of_items = product.metafields.product['number of items'] %}
+                          {% assign expiry_date = product.metafields.product['expiry date'] %}
+                          {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
+                          {% if name_address_of_manufacturer != 0 and name_address_of_manufacturer != blank %}
+                            <div class="tooltip price-manufacturer2">
+                              <img
+                                class="lazyautosizes lazyload"
+                                data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
+                                src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
+                                class="info-icon">
+                              <span class="tooltiptext">
+                                <div class="manufacturer-box">
+                                  <p class="manufact-text">Name & address of manufacturer</p>
+                                  <p class="manufact-add">{{ name_address_of_manufacturer }}</p>
+                                </div>
+                                {% if countries_of_origin != 0 and countries_of_origin != blank %}
                                   <div class="manufacturer-box">
-                                    <p class="manufact-text">Name & address of manufacturer</p>
-                                    <p class="manufact-add">{{ name_address_of_manufacturer }}</p>
+                                    <p class="manufact-text">Country of origin</p>
+                                    <p class="manufact-add">{{ countries_of_origin }}</p>
                                   </div>
-
-
-                                  {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
-                                  {% if countries_of_origin != 0 and countries_of_origin != blank %}
-                                    <div class="manufacturer-box">
-                                      <p class="manufact-text">Country of origin</p>
-                                      <p class="manufact-add">{{ countries_of_origin }}</p>
-                                    </div>
-                                  {% endif %}
-
-                                  {% assign category = product.metafields.product['category'] %}
-                                  {% if category != 0 and category != blank %}
-                                    <div class="manufacturer-box">
-                                      <p class="manufact-text">Category</p>
-                                      <p class="manufact-add">{{ category }}</p>
-                                    </div>
-                                  {% endif %}
-
-                                  {% assign number_of_items = product.metafields.product['number of items'] %}
-                                  {% if number_of_items != 0 and number_of_items != blank %}
-                                    <div class="manufacturer-box">
-                                      <p class="manufact-text">No of items</p>
-                                      <p class="manufact-add">{{ number_of_items }}</p>
-                                    </div>
-                                  {% endif %}
-
-                                  {% assign expiry_date = product.metafields.product['expiry date'] %}
-                                  {% if expiry_date != 0 and expiry_date != blank %}
-                                    <div class="manufacturer-box">
-                                      <p class="manufact-text">Best Before Date</p>
-                                      <p class="manufact-add">{{ expiry_date }}</p>
-                                    </div>
-                                  {% endif %}
-
-                                  {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
-                                  {% if dimension_of_product != 0 and dimension_of_product != blank %}
-                                    <div class="manufacturer-box">
-                                      <p class="manufact-text">Product dimensions</p>
-                                      <p class="manufact-add">{{ dimension_of_product }}</p>
-                                    </div>
-                                  {% endif %}
-                                </span>
-                              </div>
-                            {% endif %}
-                            <!--        Information icon        -->
-                            <span class="span_taxes">
-                              (inclusive of taxes)</span>
-                          </div>
+                                {% endif %}
+                                {% if category != 0 and category != blank %}
+                                  <div class="manufacturer-box">
+                                    <p class="manufact-text">Category</p>
+                                    <p class="manufact-add">{{ category }}</p>
+                                  </div>
+                                {% endif %}
+                                {% if number_of_items != 0 and number_of_items != blank %}
+                                  <div class="manufacturer-box">
+                                    <p class="manufact-text">No of items</p>
+                                    <p class="manufact-add">{{ number_of_items }}</p>
+                                  </div>
+                                {% endif %}
+                                {% if expiry_date != 0 and expiry_date != blank %}
+                                  <div class="manufacturer-box">
+                                    <p class="manufact-text">Best Before Date</p>
+                                    <p class="manufact-add">{{ expiry_date }}</p>
+                                  </div>
+                                {% endif %}
+                                {% if dimension_of_product != 0 and dimension_of_product != blank %}
+                                  <div class="manufacturer-box">
+                                    <p class="manufact-text">Product dimensions</p>
+                                    <p class="manufact-add">{{ dimension_of_product }}</p>
+                                  </div>
+                                {% endif %}
+                              </span>
+                            </div>
+                          {% endif %}
+                          <span class="span_taxes">
+                            (inclusive of taxes)</span>
                         </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-12 product_info">
-                      {% assign bestSuited = product.metafields.Product['Best Suited For'] | split: "," %}
-                      {% assign notRecommended = product.metafields.Product['Not Recommended'] | split: "," %}
-                      {% if notRecommended == blank %}
-                        {% assign notRecommended = product.metafields.Product['Not Recommended '] | split: "," %}
-                      {% endif %}
-                      <div class="product-infor {% if bestSuited != 0 and bestSuited != blank or notRecommended != 0 and notRecommended != blank %}{% else %}no-border{% endif %}">
-
-                        {% if bestSuited != 0 and bestSuited != blank %}
-                          <div class="product-type">
-                            <label>Best suited for</label>
-                            {% for i in bestSuited %}
-                              <span>{{ i }}</span>
-                              {% if forloop.last %}
-                            {% else %}
-                              {% endif %}
-                            {% endfor %}
-                          </div>
-                        {% endif %}
-
-
-                        {% if notRecommended != 0 and notRecommended != blank %}
-                          <div class="product-type no-recom">
-                            <label>Not advised for</label>
-                            {% for j in notRecommended %}
-                              <span>{{ j }}</span>
-                              {% if forloop.last %}
-                            {% else %}
-                              {% endif %}
-                            {% endfor %}
-                          </div>
-                        {% endif %}
                       </div>
                     </div>
 
@@ -411,13 +290,41 @@
                         <div class="share icons">
                           {% include 'share' %}
                         </div>
-
                         {% if section.settings.enable_payment_button and current_variant.available %}
                           {{ form | payment_button }}
                         {% endif %}
                       </div>
                       {% include 'iwish_v2' with 'iWish_Login_Msgs' %}
+                    </div>
 
+                    <div class="col-md-12 product_info">
+                      {% assign bestSuited = product.metafields.Product['Best Suited For'] | split: "," %}
+                      {% assign notRecommended = product.metafields.Product['Not Recommended'] | split: "," %}
+                      <div class="product-infor {% if bestSuited != 0 and bestSuited != blank or notRecommended != 0 and notRecommended != blank %}{% else %}no-border{% endif %}">
+                        {% if bestSuited != 0 and bestSuited != blank %}
+                          <div class="product-type">
+                            <label>Best suited for</label>
+                            {% for i in bestSuited %}
+                              <span>{{ i }}</span>
+                              {% if forloop.last %}
+                            {% else %}
+                              {% endif %}
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+
+                        {% if notRecommended != 0 and notRecommended != blank %}
+                          <div class="product-type no-recom">
+                            <label>Not advised for</label>
+                            {% for j in notRecommended %}
+                              <span>{{ j }}</span>
+                              {% if forloop.last %}
+                            {% else %}
+                              {% endif %}
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+                      </div>
                     </div>
 
                     <div class="section-3">
@@ -706,7 +613,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>            {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>               {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
