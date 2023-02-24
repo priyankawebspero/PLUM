@@ -1,35 +1,46 @@
-{% assign total_saving = 0 %} 
-{%- for item in cart.items -%} 
+{% assign total_saving = 0 %}
+{%- for item in cart.items -%}
   {% if item.variant.compare_at_price > item.variant.price %}
     {% assign saving = item.variant.compare_at_price | minus: item.variant.price %}
     {% if item.quantity > 1 %}
       {% assign saving = saving | times: item.quantity %}
     {% endif %}
-      {% assign total_saving = saving | plus: total_saving %}
-    {% endif %}
-{% endfor %}
- {% assign freebv = 0 %}
- {% for item in cart.items %}
-  {% if item.price < 200 %}
-   {% assign freebv = freebv | plus:1 %}
+    {% assign total_saving = saving | plus: total_saving %}
   {% endif %}
-{% endfor %} 
-{% assign totalCountv =  cart.item_count | minus: freebv%}
+{% endfor %}
+{% assign freebv = 0 %}
+{% for item in cart.items %}
+  {% if item.price < 200 %}
+    {% assign freebv = freebv | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% assign totalCountv = cart.item_count | minus: freebv %}
 {% if settings.header_layout == 'default' %}
-<a href="javascript:void(0)" title="Cart" class="cart-icon" data-cart-toggle>
-  {% include 'icon-cart' %}
-  <span class="cart-text"{% if settings.enable_multilang %} data-translate="cart.general.shopping_cart"{% endif %}>
-    {{ 'cart.general.shopping_cart' | t }}
-  </span>
-  <span class="cartCount" data-cart-count>
-    {{ cart.item_count }}
-  </span>
-</a>
+  <a
+    href="javascript:void(0)"
+    title="Cart"
+    class="cart-icon"
+    data-cart-toggle>
+    {% include 'icon-cart' %}
+    <span
+      class="cart-text"
+      {% if settings.enable_multilang %}
+      data-translate="cart.general.shopping_cart"
+      {% endif %}>
+      {{ 'cart.general.shopping_cart' | t }}
+    </span>
+    <span class="cartCount" data-cart-count>
+      {{ cart.item_count }}
+    </span>
+  </a>
 {% endif %}
 
 <div id="dropdown-cart" class="aaa">
   <div class="cart-title">
-    <a href="javascript:void(0)" title="{{ 'cart.general.close_cart' | t }}" class="close-cart close">
+    <a
+      href="javascript:void(0)"
+      title="{{ 'cart.general.close_cart' | t }}"
+      class="close-cart close">
       {% include 'icon-close' %}
     </a>
     <h5 {% if settings.enable_multilang %}data-translate="cart.general.shopping_cart"{% endif %}>
@@ -39,16 +50,23 @@
   </div>
   <div class="orderDelay{% if cart.total_price > 100 %} active {%endif%}">Order dispatches might take longer than usual due to high volume of orders</div>
   {% if totalCountv > 3 and totalCountv < 5 %}
-   <div class="freebodywash"><p>📢 add one more product to get a <span>FREE facewash</span></p></div>
-  {% else %} 
+    <div class="freebodywash">
+      <p>📢 add one more product to get a
+        <span>FREE facewash</span>
+      </p>
+    </div>
+  {% else %}
     <div class="freebodywash"></div>
-  {% endif %} 
+  {% endif %}
   <div class="no-items">
-    <p class="cart_empty" {% if settings.enable_multilang %}data-translate="cart.general.empty"{% endif %} >
+    <p class="cart_empty" {% if settings.enable_multilang %}data-translate="cart.general.empty"{% endif %}>
       {{ 'cart.general.empty' | t }}
     </p>
     <div class="text-continue">
-      <a class="btn btn-continue" href="/collections/all-in-stock" {% if settings.enable_multilang %}data-translate="cart.ajax_cart.continue_shopping"{% endif %}>
+      <a
+        class="btn btn-continue"
+        href="/collections/all-in-stock"
+        {% if settings.enable_multilang %}data-translate="cart.ajax_cart.continue_shopping"{% endif %}>
         {{ 'cart.ajax_cart.continue_shopping' | t }}
       </a>
     </div>
@@ -57,90 +75,108 @@
   <div class="has-items">
     <ol class="mini-products-list">
       {% for item in cart.items %}
-      <li class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} " id="cart-item-{{item.id}}" data-variant="{{ item.id }}" data-id="{{ item.product.id }}" data-price="{{item.price}}">
-        <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
-          <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
-            {% if item.product.tags contains 'b2g2' or item.product.tags contains 'B2G2'%}<span class="discount-tag-col left pink">B2G2</span>{% endif %}
-        </a>
-        <div class="product-details">
-          <div class="pro-name-and-price">
-            <div class="title_and_variant">
-            <a class="product-name" href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}">
-              {% include 'multilang' with item.product.title %}
-            </a>
-            {% if item.product.variants.size > 1 %}
+        <li
+          class="item dta-{{item.product_id}}   {% if item.price < 200 %}freegi{% endif %}{% if item.product.tags contains 'Plum 999' %} plum_999{% endif %}{% if item.product.tags contains 'plum850' %} plum850{% endif %}{% if item.product.tags contains 'b1g1' %} b1g1{% endif %} "
+          id="cart-item-{{item.id}}"
+          data-variant="{{ item.id }}"
+          data-id="{{ item.product.id }}"
+          data-price="{{item.price}}">
+          <a href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}" class="product-image {% if item.product.tags contains 'Lipstick' %} Lipstick{% endif %}">
+            <img src="{{ item.image | product_img_url: '160x' }}" alt="{{item.title | remove: '/ Default Title'| remove: 'Default Title' | remove: '/ Default' | remove: 'Default' | replace: '(Freegifts)', '' }}">
+          </a>
+          <div class="product-details">
+            <div class="pro-name-and-price">
+              <div class="title_and_variant">
+                <a class="product-name" href="{%if item.variant.metafields.secomapp.freegifts%}{{ item.product.url }}{%else%}{{item.url}}{%endif%}">
+                  {% include 'multilang' with item.product.title %}
+                </a>
+                {% if item.product.variants.size > 1 %}
                   <span class="variant_title">{{ item.variant.title }}</span>
-                  {% endif %}
-            </div>            
-            {% if item.variant.compare_at_price > item.variant.price %}
-            <span class="price" data-price="{{item.price}}" >
-              <span class="old-price"> {{ item.variant.compare_at_price | money }}</span> {{item.price | money}}
-            </span>
-            {% else %}
-            <span class="price" data-price="{{item.price}}" >
-              {{item.price | money}}
-            </span>
-            {% endif %}
-            
-          </div>
-          <div class="cart-collateral">
-            {% if item.price == 0 %}
-            {% else %}
-            <div class="quantity-data">
-              <div class="option quantity-box text-center">
-                {% unless item.variant.metafields.secomapp.freegifts %}
-                	<div class="dec button">-</div>
-                {% endunless %}
-                
-                <input type="text" class="quantity" name="quantity" value="{{item.quantity}}">
-                
-                {% unless item.variant.metafields.secomapp.freegifts %}
-                	<div class="inc button">+</div>
-                {% endunless %}
+                {% endif %}
               </div>
+              {% if item.variant.compare_at_price > item.variant.price %}
+                <span class="price" data-price="{{item.price}}">
+                  <span class="old-price">
+                    {{ item.variant.compare_at_price | money }}</span>
+                  {{ item.price | money }}
+                </span>
+              {% else %}
+                <span class="price" data-price="{{item.price}}">
+                  {{ item.price | money }}
+                </span>
+              {% endif %}
+
             </div>
-            {% endif %}
-            <a href="javascript:void(0)" title="remove" class="btn-remove remo">
-              Remove
-            </a>
-            <a href="javascript:void(0)" title="remove" class="btn-remove back_up" style="display:none">
-              Removing
-            </a>
+            <div class="cart-collateral">
+              {% if item.price == 0 %}
+                {% else %}
+                  <div class="quantity-data">
+                    <div class="option quantity-box text-center">
+                      {% unless item.variant.metafields.secomapp.freegifts %}
+                        <div class="dec button">-</div>
+                      {% endunless %}
+
+                      <input
+                        type="text"
+                        class="quantity"
+                        name="quantity"
+                        value="{{item.quantity}}">
+
+                      {% unless item.variant.metafields.secomapp.freegifts %}
+                        <div class="inc button">+</div>
+                      {% endunless %}
+                    </div>
+                  </div>
+              {% endif %}
+              <a
+                href="javascript:void(0)"
+                title="remove"
+                class="btn-remove remo">
+                Remove
+              </a>
+              <a
+                href="javascript:void(0)"
+                title="remove"
+                class="btn-remove back_up"
+                style="display:none">
+                Removing
+              </a>
+            </div>
           </div>
-        </div>
-      </li>
+        </li>
       {% endfor %}
     </ol>
   </div>
-    {% if handle contains 'exclusive-deals' %}
-  {%else%}
-  {% include 'cart-best-sellers'%}
-  {%endif%}
-  
-   {% if settings.show_flash_sale %}
-      {% include 'flash-sale-counter'%}
-    {%endif%}    
-    <div class="actions">
-    <div class="summary">   
-            {% include 'special_offer' %}
-        <div class="total_cs_custom_dropcart">
-         <span class="price_summary">Price Summary</span> 
-      <div class="sub total">
-        <span class="label">
-          <span {% if settings.enable_multilang %}data-translate="cart.label.total"{% endif %}>
-            Subtotal
+  {% if handle contains 'exclusive-deals' %}
+    {% else %}
+      {% include 'cart-best-sellers' %}
+  {% endif %}
+
+  {% if settings.show_flash_sale %}
+    {% include 'flash-sale-counter' %}
+  {% endif %}
+  <div class="actions">
+    <div class="summary">
+      {% include 'special_offer' %}
+      <div class="total_cs_custom_dropcart">
+        <span class="price_summary">Price Summary</span>
+        <div class="sub total">
+          <span class="label">
+            <span {% if settings.enable_multilang %}data-translate="cart.label.total"{% endif %}>
+              Subtotal
+            </span>
           </span>
-        </span> 
-        <span class="price" data-subtotal-price="{{ total_saving | plus: cart.total_price}}">
-          <span class="price-cart"> </span>
-          {{ total_saving | plus: cart.total_price | money}}
-        </span>
+          <span class="price" data-subtotal-price="{{ total_saving | plus: cart.total_price}}">
+            <span class="price-cart"></span>
+            {{ total_saving | plus: cart.total_price | money }}
+          </span>
+        </div>
+        <div class="drop-cart_discount">
+          <span class="savings_label">Savings:</span>
+          <span class="savings_price">- {{ total_saving | money }}</span>
+        </div>
       </div>
-      <div class="drop-cart_discount">
-        <span class="savings_label">Savings:</span>
-        <span class="savings_price">- {{ total_saving | money }}</span></div>
-      </div>
-       <div class="drop-cart-shipping">
+      <div class="drop-cart-shipping">
         <span class="shipping_label">Shipping:</span>
         <span class="shipping_price">calculated at checkout</span>
       </div>
@@ -149,28 +185,40 @@
           <span {% if settings.enable_multilang %}data-translate="cart.label.total"{% endif %}>
             Grand Total
           </span>
-        </span> 
-        <span class="price" data-total-price="{{cart.total_price}}" id="total_order_Price">
-          <span class="price-cart"> </span>
-          {{cart.total_price | money}}
+        </span>
+        <span
+          class="price"
+          data-total-price="{{cart.total_price}}"
+          id="total_order_Price">
+          <span class="price-cart"></span>
+          {{ cart.total_price | money }}
         </span>
       </div>
 
     </div>
-    
-    
+
+
     <div class="button">
       <div class="a-button">
-<!--         <a href="/collections/all-in-stock" class="btn btn-view-cart">
-          Continue shopping
+        <!--         <a href="/collections/all-in-stock" class="btn btn-view-cart">
+        Continue shopping
         </a> -->
-        <a class="btn btn-view-cart" href="/cart" {% if settings.enable_multilang %}data-translate="cart.general.view_cart"{% endif %}>
+        <a
+          class="btn btn-view-cart"
+          href="/cart"
+          {% if settings.enable_multilang %}data-translate="cart.general.view_cart"{% endif %}>
           {{ 'cart.general.view_cart' | t }}
         </a>
       </div>
       {% render 'gokwik-checkout' %}
-      <button class="btn btn-checkout {% if cart.total_price > 1400000 %} disable {%- endif -%}" id="btncheckout" name="checkout" onclick="window.location='/checkout'" {% if settings.enable_multilang %}data-translate="cart.general.checkout"{% endif %}>
-        {% if settings.btnTxt%}{{settings.gk-merchant-btnText}}{%else%}Pay Via Cards/Netbanking{%endif%}
+      <button
+        class="btn btn-checkout {% if cart.total_price > 1400000 %} disable {%- endif -%}"
+        id="btncheckout"
+        name="checkout"
+        onclick="window.location='/checkout'"
+        {% if settings.enable_multilang %}data-translate="cart.general.checkout"{% endif %}>
+        {% if settings.btnTxt %}
+          {{ settings.gk-merchant-btnText }}{% else %}Pay Via Cards/Netbanking{% endif %}
       </button>
     </div>
   </div>
@@ -179,19 +227,19 @@
   <div class="popup__content">
     <div class="close">
       <span>X</span>
-    </div><p>FREE Shipping on orders above Rs 299</p>
-     <p>Rs 99 shipping fee is applicable on orders below Rs 299</p>
+    </div>
+    <p>FREE Shipping on orders above Rs 299</p>
+    <p>Rs 99 shipping fee is applicable on orders below Rs 299</p>
   </div>
 </section>
 <script type="text/javascript">
   $(".shipping_price").click(function() {
   $(".popup").fadeIn(500);
-  $(".popup").addClass('active');
-    $(".body").addClass('shipping_price_popup');
-  });
-  $(".close").click(function() {
-    $(".popup").fadeOut(500);
-     $(".popup").removeClass('active');
-    $(".body").removeClass('shipping_price_popup');
-  });
-  </script>
+      $(".popup").addClass('active');
+        $(".body").addClass('shipping_price_popup');
+      });
+      $(".close").click(function() {
+        $(".popup").fadeOut(500);
+         $(".popup").removeClass('active');
+        $(".body").removeClass('shipping_price_popup');
+      });</script>
