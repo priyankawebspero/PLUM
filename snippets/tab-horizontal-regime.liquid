@@ -7,13 +7,13 @@
 {% endif %}
 {% endif %}
 
-{% if section.settings.display_product_detail_description or  section.settings.display_goodness_inside or section.settings.display_how_to_use or show_custom_tab %}
+{% if section.settings.display_product_detail_description or  section.settings.display_expert_tips or section.settings.display_how_to_use or show_custom_tab %}
 <div class="tabs__product-page horizontal-tabs{% if section.settings.show_tab == 'horizontal_center' %} horizontal-tabs-center{% endif %} container-padd60 fw-section">
-  {% if section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == true %}
+  {% if section.settings.display_product_detail_description == false and section.settings.display_expert_tips == true %}
   {% assign tab2_active = true %}
-  {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false %}
+  {% elsif section.settings.display_product_detail_description == false and section.settings.display_expert_tips == false %}
   {% assign tab3_active = true %}
-  {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false and section.settings.display_how_to_use == false %}
+  {% elsif section.settings.display_product_detail_description == false and section.settings.display_expert_tips == false and section.settings.display_how_to_use == false %}
   {% assign tab4_active = true %}
   {% endif %}
   <ul class="list-tabs">
@@ -30,10 +30,10 @@
     </li>
     {% endif %}
 
-    {% if section.settings.display_goodness_inside %}
+    {% if section.settings.display_expert_tips %}
     <li class="tab-title">
       <a href="#" data-tapTop data-target="#collapse-tab2" class="tab-links {% if tab2_active%}active{% endif %}">
-        {% include 'multilang' with section.settings.product_goodness_title %}
+        {% include 'multilang' with section.settings.display_expert_title %}
       </a>
     </li>
     {% endif %}
@@ -135,10 +135,10 @@
     </div>
     {% endif %}
 
-    {% if section.settings.display_goodness_inside %}
+    {% if section.settings.display_expert_tips %}
     <div class="tab-title">
       <a href="#" data-tapTop data-target="#collapse-tab2" class="tab-links {% if tab2_active%}active{% endif %}">
-        {% include 'multilang' with section.settings.product_goodness_title %}
+        {% include 'multilang' with section.settings.display_expert_title %}
         <span class="icon-dropdown">
           <i class="fa fa-angle-down"></i>
         </span>

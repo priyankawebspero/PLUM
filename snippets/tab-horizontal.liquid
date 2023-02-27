@@ -7,13 +7,13 @@
   {% endif %}
 {% endif %}
 
-{% if section.settings.display_product_detail_description or section.settings.display_goodness_inside or section.settings.display_how_to_use or show_custom_tab %}
+{% if section.settings.display_product_detail_description or section.settings.display_expert_tips or section.settings.display_how_to_use or show_custom_tab %}
   <div class="tabs__product-page horizontal-tabs{% if section.settings.show_tab == 'horizontal_center' %} horizontal-tabs-center{% endif %} container-padd60 fw-section">
-    {% if section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == true %}
+    {% if section.settings.display_product_detail_description == false and section.settings.display_expert_tips == true %}
       {% assign tab2_active = true %}
-    {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false %}
+    {% elsif section.settings.display_product_detail_description == false and section.settings.display_expert_tips == false %}
       {% assign tab3_active = true %}
-    {% elsif section.settings.display_product_detail_description == false and section.settings.display_goodness_inside == false and section.settings.display_how_to_use == false %}
+    {% elsif section.settings.display_product_detail_description == false and section.settings.display_expert_tips == false and section.settings.display_how_to_use == false %}
       {% assign tab4_active = true %}
     {% endif %}
 
@@ -55,14 +55,36 @@
         </div>
       {% endif %}
 
-      {% if section.settings.display_goodness_inside %}
+      {% if section.settings.display_how_to_use %}
+      <div class="tab-title">
+        <a
+          href="#"
+          data-tapTop
+          data-target="#collapse-tab3"
+          class="tab-links {% if tab3_active%}active{% endif %}">
+          {% include 'multilang' with section.settings.how_to_use_title %}
+          <span class="icon-dropdown">
+            <i class="fa fa-angle-down"></i>
+          </span>
+        </a>
+      </div>
+
+      <div
+        class="tab-content {% if tab3_active%}active{% endif %}"
+        data-TabContent
+        id="collapse-tab3">
+        {% include "how-to-use" %}
+      </div>
+    {% endif %}
+
+      {% if section.settings.display_expert_tips %}
         <div class="tab-title">
           <a
             href="#"
             data-tapTop
             data-target="#collapse-tab2"
             class="tab-links {% if tab2_active%}active{% endif %}">
-            {% include 'multilang' with section.settings.product_goodness_title %}
+            {% include 'multilang' with section.settings.display_expert_title %}
             <span class="icon-dropdown">
               <i class="fa fa-angle-down"></i>
             </span>
@@ -74,35 +96,8 @@
           data-TabContent
           id="collapse-tab2">
           <!--   metafield start here     -->
-          <div class="three-sections">
-            {% if collection.title == 'Bundles of Goodness' %}
-              {% else %}
-                {% include "goodness-inside" %}
-            {% endif %}
-          </div>
+          
           <!--   metafield start here     -->
-        </div>
-      {% endif %}
-
-      {% if section.settings.display_how_to_use %}
-        <div class="tab-title">
-          <a
-            href="#"
-            data-tapTop
-            data-target="#collapse-tab3"
-            class="tab-links {% if tab3_active%}active{% endif %}">
-            {% include 'multilang' with section.settings.how_to_use_title %}
-            <span class="icon-dropdown">
-              <i class="fa fa-angle-down"></i>
-            </span>
-          </a>
-        </div>
-
-        <div
-          class="tab-content {% if tab3_active%}active{% endif %}"
-          data-TabContent
-          id="collapse-tab3">
-          {% include "how-to-use" %}
         </div>
       {% endif %}
     </div>

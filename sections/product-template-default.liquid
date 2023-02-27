@@ -441,6 +441,9 @@
               {% include 'tab-horizontal' %}
             </div>
           </div>
+          <div class="three-sections">
+            {% include "goodness-inside" %}
+          </div>
           {% include 'Review-question-tab' %}
 
           {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
@@ -843,12 +846,12 @@
         "default": "Description"
       }, {
         "type": "checkbox",
-        "id": "display_goodness_inside",
+        "id": "display_expert_tips",
         "label": "Display Goodness Inside?",
         "default": true
       }, {
         "type": "text",
-        "id": "product_goodness_title",
+        "id": "display_expert_title",
         "label": "Product Goodness Title",
         "default": "Goodness Inside"
       }, {
