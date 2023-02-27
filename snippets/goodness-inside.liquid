@@ -84,6 +84,7 @@
 
       {% if fullIngredintList != 0 and fullIngredintList != blank %}
         <div class="popuping">
+          <span class="closeing">X</span>
           <p class="full-ingredint-list">{{ fullIngredintList }}</p>
         </div>
         <p class="see-full-ingredent">
@@ -95,12 +96,12 @@
   <script async>
     $(document).ready(function(){
     $(".see-full-ingredent").click(function(){
-                $(".popuping").addClass("active");
-              });
-              $(".closeing").click(function(){
-                $(".popuping").removeClass("active");
-              });  
-            });</script>
+      $(".popuping").addClass("active");
+    });
+    $(".closeing").click(function(){
+      $(".popuping").removeClass("active");
+    });  
+    });</script>
   <style>
     .full-ingredint-list {
       padding: 50px;
