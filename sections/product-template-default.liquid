@@ -382,7 +382,6 @@
                           {{ product.metafields.Product['Short Description'] }}
                         {% else %}
                           {{ product.metafields.Product['Short Description'] }}
-
                         {% endif %}
                       </div>
                     </div>
@@ -399,7 +398,6 @@
                           {% endif %}
                           {% if section.settings.offer_2 != blank %}
                             <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
-
                           {% endif %}
                           {% if section.settings.offer_3 != blank %}
                             <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
@@ -423,7 +421,18 @@
 
           </div>
           {% include 'image-product-CRG' %}
-          {% include 'tab-horizontal' %}
+          <div class="row">
+            <div class="col-6">
+              <div class="product-full-description">
+                <div class="description-wrapper">
+                  {{ product.description }}
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              {% include 'tab-horizontal' %}
+            </div>
+          </div>
           {% include 'Review-question-tab' %}
 
           {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
@@ -611,7 +620,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                           {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                   {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
