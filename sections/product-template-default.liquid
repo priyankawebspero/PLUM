@@ -422,13 +422,14 @@
             <div class="col-6">
               <div class="product-full-description">
                 <div class="description-wrapper">
-                  <div class="short-desc-datas">
                     {% if product.metafields.Product['Short Description'] != blank %}
                       {{ product.metafields.Product['Short Description'] }}
-                    {% else %}
-                      {{ product.metafields.Product['Short Description'] }}
                     {% endif %}
-                  </div>
+                    {% if product.metafields.Product['moreinformation'] != blank %}
+                      {{ product.metafields.Product['moreinformation'] }}
+                  {% endif %}
+                  <span class="moreless-button btn">Read more</span>
+
                 </div>
               </div>
             </div>
@@ -659,6 +660,15 @@
       });
     });
 
+  $(document).ready(function(){
+  $('.moreless-button').click(function () {
+    $(this).parent().find('.append-content-custom').slideToggle();
+    if ($(this).text() == "Read Less") {
+      $(this).text("Read More");
+    } else {
+      $(this).text("Read Less");
+    }
+  });
 
     $(document).ready(function() {
       $("ul.tabs li").click(function() {
