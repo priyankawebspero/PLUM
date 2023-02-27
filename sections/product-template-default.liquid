@@ -426,10 +426,9 @@
                       {{ product.metafields.Product['Short Description'] }}
                     {% endif %}
                     {% if product.metafields.Product['moreinformation'] != blank %}
-                      {{ product.metafields.Product['moreinformation'] }}
-                  {% endif %}
-                  <span class="moreless-button btn">Read more</span>
-
+                     <div class="append-content-custom"> {{ product.metafields.Product['moreinformation'] }}</div>
+                     <span class="moreless-button btn">Read more</span>
+                  {% endif %}                
                 </div>
               </div>
             </div>
