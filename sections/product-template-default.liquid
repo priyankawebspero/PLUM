@@ -401,7 +401,7 @@
           {% include 'image-product-CRG' %}
           <div class="row">
             <div class="col-12 widget-title not-before">
-              <ul id="tabs-nav">
+              <ul id="tabs-navm">
                 <li>
                   <a href="#tab1">
                     <h3 class="box-title">
@@ -423,7 +423,7 @@
               </ul>
             </div>
 
-            <div class="discription_outer tab-content" id="tab1">
+            <div class="discription_outer tab-contentm" id="tab1">
               <div class="col-6 col-sm-12">
                 <div class="product-full-description">
                   <div class="description-wrapper">
@@ -442,7 +442,7 @@
                 {% include 'tab-horizontal' %}
               </div>
             </div>
-            <div class="video tab-content" id="tab1">video will go here</div>
+            <div class="video tab-contentm" id="tab1">video will go here</div>
           </div>
           <div class="three-sections">
             {% include "goodness-inside" %}
@@ -634,7 +634,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                                {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                                       {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
@@ -670,6 +670,23 @@
           $(this).text("view less");
         }
       });
+
+      $('#tabs-navm li:first-child').addClass('active');
+      $('.tab-contentm').hide();
+      $('.tab-contentm:first').show();
+
+// Click function
+      $('#tabs-navm li').click(function() {
+        $('#tabs-navm li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-contentm').hide();
+
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+      });
+
+
     });
 
     $(document).ready(function() {
