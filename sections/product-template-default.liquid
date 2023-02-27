@@ -364,17 +364,6 @@
                 {% endif %}
 
                 <div class="wrapper_div">
-                  <div class="visible_mobile" style="display:none;">
-                    <div class="row">
-                      <div class="short-desc-datas">
-                        {% if product.metafields.Product['Short Description'] != blank %}
-                          {{ product.metafields.Product['Short Description'] }}
-                        {% else %}
-                          {{ product.metafields.Product['Short Description'] }}
-                        {% endif %}
-                      </div>
-                    </div>
-                  </div>
                   <div class="col-md-12 product_gift_bx">
                     <!--Free shipping offer text start -->
                     {% if section.settings.display-free-text %}
@@ -412,30 +401,47 @@
           {% include 'image-product-CRG' %}
           <div class="row">
             <div class="col-12 widget-title not-before">
-              <h3 class="box-title">
-                <span class="title">
-                  <span>Description</span>
-                </span>
-              </h3>
+              <ul id="tabs-nav">
+                <li>
+                  <a href="#tab1">
+                    <h3 class="box-title">
+                      <span class="title">
+                        <span>description</span>
+                      </span>
+                    </h3>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tab2">
+                    <h3 class="box-title">
+                      <span class="title">
+                        <span>video</span>
+                      </span>
+                    </h3>
+                  </a>
+                </li>
+              </ul>
             </div>
-
-            <div class="col-6">
-              <div class="product-full-description">
-                <div class="description-wrapper">
-                  {% if product.metafields.Product['Short Description'] != blank %}
-                    {{ product.metafields.Product['Short Description'] }}
-                  {% endif %}
-                  {% if product.metafields.Product['moreinformation'] != blank %}
-                    <div class="append-content-custom">
-                      {{ product.metafields.Product['moreinformation'] }}</div>
-                    <span class="moreless-button btn">Read more</span>
-                  {% endif %}
+            <div class="discription_outer tab-content" id="tab1">
+              <div class="col-6 col-sm-12">
+                <div class="product-full-description">
+                  <div class="description-wrapper">
+                    {% if product.metafields.Product['Short Description'] != blank %}
+                      {{ product.metafields.Product['Short Description'] }}
+                    {% endif %}
+                    {% if product.metafields.Product['moreinformation'] != blank %}
+                      <div class="append-content-custom">
+                        {{ product.metafields.Product['moreinformation'] }}</div>
+                      <span class="moreless-button btn">Read more</span>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
+              <div class="col-6 col-sm-12">
+                {% include 'tab-horizontal' %}
+              </div>
             </div>
-            <div class="col-6">
-              {% include 'tab-horizontal' %}
-            </div>
+            <div class="video tab-content" id="tab1">video will go here</div>
           </div>
           <div class="three-sections">
             {% include "goodness-inside" %}
@@ -627,7 +633,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                            {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                              {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
