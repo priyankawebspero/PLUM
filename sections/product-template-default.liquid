@@ -67,18 +67,7 @@
                     {% endfor %}
                   </div>
                 </div>
-                {% comment %} <div class="col-md-12 visible_desktop">
-                <div class="row">
-                <div class="short-desc-datas">
-                {% if product.metafields.Product['Short Description'] != blank %}
-                {{ product.metafields.Product['Short Description'] }}
-                {% else %}
-                {{ product.metafields.Product['Short Description'] }}
 
-                {% endif %}
-                </div>
-                </div>
-                </div> {% endcomment %}
               </div>
               <div class="col-md-7 product-shop">
                 <div class="product_title_box">
@@ -433,7 +422,13 @@
             <div class="col-6">
               <div class="product-full-description">
                 <div class="description-wrapper">
-                  {{ product.description }}
+                  <div class="short-desc-datas">
+                    {% if product.metafields.Product['Short Description'] != blank %}
+                      {{ product.metafields.Product['Short Description'] }}
+                    {% else %}
+                      {{ product.metafields.Product['Short Description'] }}
+                    {% endif %}
+                  </div>
                 </div>
               </div>
             </div>
@@ -631,7 +626,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                               {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                     {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
