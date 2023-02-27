@@ -76,28 +76,30 @@
           {% include "how-to-use" %}
         </div>
       {% endif %}
-
       {% if section.settings.display_expert_tips %}
-        <div class="tab-title">
-          <a
-            href="#"
-            data-tapTop
-            data-target="#collapse-tab2"
-            class="tab-links {% if tab2_active%}active{% endif %}">
-            {% include 'multilang' with section.settings.display_expert_title %}
-            <span class="icon-dropdown">
-              <i class="fa fa-angle-down"></i>
-            </span>
-          </a>
-        </div>
+        {% if product.metafields.Product['expert_tips'] != blank %}
+          <div class="tab-title">
+            <a
+              href="#"
+              data-tapTop
+              data-target="#collapse-tab2"
+              class="tab-links {% if tab2_active%}active{% endif %}">
+              {% include 'multilang' with section.settings.display_expert_title %}
+              <span class="icon-dropdown">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </a>
+          </div>
 
-        <div
-          class="tab-content {% if tab2_active%}active{% endif %}"
-          data-TabContent
-          id="collapse-tab2"><!--   metafield start here     -->
-
-          <!--   metafield start here     -->
-        </div>
+          <div
+            class="tab-content {% if tab2_active%}active{% endif %}"
+            data-TabContent
+            id="collapse-tab2">
+            <!--   metafield start here     -->
+            {{ product.metafields.Product['expert_tips'] }}
+            <!--   metafield start here     -->
+          </div>
+        {% endif %}
       {% endif %}
     </div>
   {% endif %}
