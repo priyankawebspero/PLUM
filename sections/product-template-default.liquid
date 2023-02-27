@@ -627,7 +627,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                      {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                                                                            {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
@@ -666,13 +666,6 @@
     });
 
     $(document).ready(function() {
-      $("ul.tabs li").click(function() {
-        var t = $(this).attr("data-tab");
-        $("ul.tabs li").removeClass("current"),
-        $(".tab-content").removeClass("current"),
-        $(this).addClass("current"),
-        $("#" + t).addClass("current")
-      }),
       $(".p-slider-s").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
