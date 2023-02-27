@@ -611,7 +611,7 @@
         enableHistoryState: !0
       });
       Shopify.linkOptionSelectors(sca_product_info, '.product');{% if product.options.size == 1 %}{% if product.options.first == 'Title' or product.options.first == 'Default' %}$('.selector-wrapper:eq(0)').prepend('<label>Choose</label>');
-        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                     {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
+        {% else %}$('.selector-wrapper:eq(0)').prepend('<label>                                        {{ product.options.first }} </label>');{% endif %}{% endif %}$('.product-shop .selector-wrapper label').append('<em></em>');
       if (sca_product_info.variants.length === 1 && sca_product_info.variants[0].title.indexOf('Default') !== -1) {
         $('.selector-wrapper').hide();
       }
@@ -620,13 +620,14 @@
   <script>
     $(document).ready(function() {
       var itemsToShow = 1; // number of items to show initially
-      var items = $('ul.list').find('li'); // all li elements in the ul
+      var items = $('.free-shipping-top .list').find('li'); // all li elements in the ul
       var numItems = items.length;
 
 // total number of li elements
 
 // hide any items that are beyond the initial set to show
       items.slice(itemsToShow, numItems).hide();
+      $('.read-less').hide();
 
 // show more items when the "Read More" button is clicked
       $('.read-more').click(function() {
