@@ -24,6 +24,7 @@
           {% assign des = product.description | split: '[/countdown]</p>' | last %}
           {% assign des = des | split: '[custom tab]' | first | split: '<iframe' | first %}
         {% endif %}
+
         <div class="product-full-description">
           <div class="description-wrapper">
             {{ product.description }}
@@ -36,8 +37,8 @@
           <a
             href="#"
             data-tapTop
-            data-target="#collapse-tab1"
-            class="tab-links active>
+            data-target="#collapse-tab3"
+            class="tab-links {% if tab3_active%}active{% endif %}">
             {% include 'multilang' with section.settings.how_to_use_title %}
             <span class="icon-dropdown">
               <i class="fa fa-angle-down"></i>
@@ -46,9 +47,9 @@
         </div>
 
         <div
-          class="tab-content active"
+          class="tab-content {% if tab3_active%}active{% endif %}"
           data-TabContent
-          id="collapse-tab1">
+          id="collapse-tab3">
           {% include "how-to-use" %}
         </div>
       {% endif %}
@@ -75,7 +76,6 @@
             {{ product.metafields.Product['expert_tips'] }}
             <!--   metafield start here     -->
           </div>
-          
         {% endif %}
       {% endif %}
     </div>
