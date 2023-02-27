@@ -83,7 +83,9 @@
       {% endif %}
 
       {% if fullIngredintList != 0 and fullIngredintList != blank %}
-        <p class="full-ingredint-list">{{ fullIngredintList }}</p>
+        <div class="popuping">
+          <p class="full-ingredint-list">{{ fullIngredintList }}</p>
+        </div>
         <p class="see-full-ingredent">
           What's in<i class="fa fa-angle-right" style="padding-left:4px;"></i>
         </p>
@@ -93,9 +95,12 @@
   <script async>
     $(document).ready(function(){
     $(".see-full-ingredent").click(function(){
-          $(".full-ingredint-list").slideToggle("slow").delay(800);
-        });
-      });</script>
+                          $(".popup").addClass("active");
+                        });
+                        $(".closeing").click(function(){
+                          $(".popuping").removeClass("active");
+                        });  
+                      });</script>
   <style>
     .full-ingredint-list {
       padding: 50px;
