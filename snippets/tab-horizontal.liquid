@@ -24,14 +24,21 @@
           {% assign des = product.description | split: '[/countdown]</p>' | last %}
           {% assign des = des | split: '[custom tab]' | first | split: '<iframe' | first %}
         {% endif %}
+        <div class="product-full-description">
+          <div class="description-wrapper">
+            {{ product.description }}
+          </div>
+        </div>
+      {% endif %}
 
+      {% if section.settings.display_how_to_use %}
         <div class="tab-title">
           <a
             href="#"
             data-tapTop
             data-target="#collapse-tab1"
-            class="tab-links">
-            {% include 'multilang' with section.settings.product_description_title %}
+            class="tab-links active>
+            {% include 'multilang' with section.settings.how_to_use_title %}
             <span class="icon-dropdown">
               <i class="fa fa-angle-down"></i>
             </span>
@@ -42,37 +49,6 @@
           class="tab-content active"
           data-TabContent
           id="collapse-tab1">
-          <div class="parduct-page__horizontal-description">
-            <div class="inside_tab flex-display">
-              <div class="product-full-description">
-                <div class="description-wrapper">
-                  {{ product.description }}
-                </div>
-              </div>
-            </div>
-            <div></div>
-          </div>
-        </div>
-      {% endif %}
-
-      {% if section.settings.display_how_to_use %}
-        <div class="tab-title">
-          <a
-            href="#"
-            data-tapTop
-            data-target="#collapse-tab3"
-            class="tab-links {% if tab3_active%}active{% endif %}">
-            {% include 'multilang' with section.settings.how_to_use_title %}
-            <span class="icon-dropdown">
-              <i class="fa fa-angle-down"></i>
-            </span>
-          </a>
-        </div>
-
-        <div
-          class="tab-content {% if tab3_active%}active{% endif %}"
-          data-TabContent
-          id="collapse-tab3">
           {% include "how-to-use" %}
         </div>
       {% endif %}
