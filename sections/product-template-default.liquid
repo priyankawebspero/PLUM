@@ -637,37 +637,31 @@
       var itemsToShow = 1; // number of items to show initially
       var items = $('.free-shipping-top .list').find('li'); // all li elements in the ul
       var numItems = items.length;
-
-// total number of li elements
-
-// hide any items that are beyond the initial set to show
       items.slice(itemsToShow, numItems).hide();
       $('.read-less').hide();
-
 // show more items when the "Read More" button is clicked
       $('.read-more').click(function() {
         items.slice(itemsToShow, numItems).show();
         $(this).hide();
         $('.read-less').show();
       });
-
 // show less items when the "Read Less" button is clicked
       $('.read-less').click(function() {
         items.slice(itemsToShow, numItems).hide();
         $(this).hide();
         $('.read-more').show();
       });
+      $('.moreless-button').click(function () {
+        $(this).parent().find('.append-content-custom').slideToggle();
+        if ($(this).text() == "Read Less") {
+          $(this).text("Read More");
+        } else {
+          $(this).text("Read Less");
+        }
+      });
     });
 
-  $(document).ready(function(){
-  $('.moreless-button').click(function () {
-    $(this).parent().find('.append-content-custom').slideToggle();
-    if ($(this).text() == "Read Less") {
-      $(this).text("Read More");
-    } else {
-      $(this).text("Read Less");
-    }
-  });
+
 
     $(document).ready(function() {
       $("ul.tabs li").click(function() {
