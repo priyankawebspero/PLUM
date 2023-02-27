@@ -24,14 +24,22 @@
           {% assign des = product.description | split: '[/countdown]</p>' | last %}
           {% assign des = des | split: '[custom tab]' | first | split: '<iframe' | first %}
         {% endif %}
-
-        <div class="product-full-description">
-          <div class="description-wrapper">
-            {{ product.description }}
+        <div
+          class="tab-content active"
+          data-TabContent
+          id="collapse-tab1">
+          <div class="parduct-page__horizontal-description">
+            <div class="inside_tab flex-display">
+              <div class="product-full-description">
+                <div class="description-wrapper">
+                  {{ product.description }}
+                </div>
+              </div>
+            </div>
+            <div></div>
           </div>
         </div>
       {% endif %}
-
 
       {% if section.settings.display_how_to_use %}
         <div class="tab-title">
