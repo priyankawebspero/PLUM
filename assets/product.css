@@ -1734,6 +1734,10 @@ span#mobile-share-button {
     padding: 0 20px;
 }
 
+.how-to-use-steps-section .how-to-use-steps .col-sm-6.left-content-sec {
+    padding-top: 5px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
