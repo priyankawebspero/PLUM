@@ -2035,6 +2035,11 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin-top: 0 !important;
 }
 
+.toggle-inner ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
