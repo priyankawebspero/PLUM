@@ -1778,6 +1778,11 @@ span#mobile-share-button {
   transition: all .3s ease-in-out;
 }
 
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links.active .icon-dropdown:before {
+    opacity: 0;
+    visibility: hidden;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
