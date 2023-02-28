@@ -2342,4 +2342,14 @@ body.template-product .product-full-description .moreless-button.btn {
     padding: 10px 10px 0 10px;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page {
+    flex-wrap: inherit;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scrollbar-color: #d5ac68 #f1db9d;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+}
+
 }
