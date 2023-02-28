@@ -1788,6 +1788,14 @@ span#mobile-share-button {
     color: #5e0d8b !important;
 }
 
+.tabs__product-page .tab-content ul li:before {
+    background-color: #5e0d8b!important;
+}
+
+.tabs__product-page .tab-content li, .tabs__product-page .tab-content p, .tabs__product-page .tab-content ul {
+    color: #5e0d8b!important;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
