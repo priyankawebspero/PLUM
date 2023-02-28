@@ -2129,6 +2129,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 }
 
+@media only screen and (max-width:1200px) and (min-width:768px){
+.template-product .main-content>.shopify-section.col-12.col-xl-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+}
+
 @media only screen and (max-width:767px){
 
 .product-template .section_faq h3.box-title span.title {
