@@ -1826,6 +1826,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     max-width: 100% !important;
     background: #f5f0f7;
     padding: 50px 0;
+  margin-bottom: 20px;
 }
 
 .product-template .three-sections .goodness-section {
