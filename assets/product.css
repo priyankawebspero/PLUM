@@ -2355,6 +2355,23 @@ body.template-product .product-full-description .moreless-button.btn {
   align-items: flex-start;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page::-webkit-scrollbar {
+  height: 5px;
+}
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page::-webkit-scrollbar-thumb {
+  height: 5px;
+  background-color: #f5f0f7;
+}
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page::-webkit-scrollbar:vertical {
+  display: none;
+}
+
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
     padding: 0 8px;
     margin-bottom: 0;
@@ -2393,5 +2410,7 @@ body.template-product .product-full-description .moreless-button.btn {
 .three-sections .goodness-section .ingredient {
     margin-bottom: 20px;
 }
+
+
 
 }
