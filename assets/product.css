@@ -1800,7 +1800,7 @@ body.template-product .product-full-description .moreless-button.btn {
     min-width: inherit;
     padding-left: 0;
     background: none!important;
-    font-family: DINNextRoundedLTPro-Bold!important;
+    font-family: "DINNextRoundedLTPro-Bold" !important;
     color: #5e0c8c !important;
     font-size: 17px;
     cursor: pointer;
@@ -1808,6 +1808,18 @@ body.template-product .product-full-description .moreless-button.btn {
     position: relative;
     padding-bottom: 0;
     padding-top: 0;
+}
+
+body.template-product .product-full-description .moreless-button.btn:after {
+    content: "\f107";
+    font: 14px/1 FontAwesome;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
 }
 
 @media only screen and (min-width:768px){
