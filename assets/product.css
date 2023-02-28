@@ -2202,4 +2202,9 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding-right: 0;
 }
 
+.product-shop .free-shipping-top p.offers_sec {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
 }
