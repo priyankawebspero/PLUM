@@ -1600,5 +1600,9 @@ span#mobile-share-button {
 .product-shop .shopify-product-form .without_variant .quantity label {
     margin-top: 2px;
 }
+
+.product-shop .groups-btn {
+    padding-bottom: 1em;
+}
   
 }
