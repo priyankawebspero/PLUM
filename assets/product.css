@@ -2182,4 +2182,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     font-size: 18px;
 }
 
+.product-shop .product_gift_bx {
+    margin-top: 5px;
+    background: #fff;
+    border-bottom: 5px solid #f5f0f7;
+}
+
 }
