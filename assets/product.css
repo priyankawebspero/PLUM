@@ -1849,6 +1849,13 @@ body.template-product .product-full-description .moreless-button.btn:after {
     font-size: 40px;
     color: #5e0d8b;
 }
+.three-sections .goodness-section .ingredient .see-full-ingredent {
+    margin-bottom: 0;
+    font-family: DINNextRoundedLTPro-Bold!important;
+    color: #5e0c8c!important;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 @media only screen and (min-width:768px){
 
