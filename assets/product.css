@@ -1923,6 +1923,21 @@ body.template-product .product-full-description .moreless-button.btn:after {
     /* margin-bottom: 0; */
 }
 
+.goodness-inside .popuping {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 750px;
+    z-index: 99;
+    margin: auto;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
