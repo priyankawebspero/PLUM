@@ -2217,4 +2217,11 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin-top: 20px;
 }
 
+.product ul#tabs-navm li {
+    margin: 0;
+    float: left;
+    flex: 1 1 auto;
+    max-width: 50%;
+}
+
 }
