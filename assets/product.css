@@ -1677,6 +1677,11 @@ span#mobile-share-button {
 .product ul#tabs-navm li h3 {
     margin-bottom: 30px;
 }
+.discription_outer .tabs__product-page {
+    margin-top: 0;
+    background: none !important;
+    padding: 0;
+}
 
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
