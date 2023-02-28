@@ -1655,6 +1655,8 @@ span#mobile-share-button {
     display: inline-block;
     margin-left: 5px;
     vertical-align: middle;
+  position: relative;
+    top: -1px;
 }
 
 .product-shop .product_gift_bx .free-shipping-top button.read-less:after {
