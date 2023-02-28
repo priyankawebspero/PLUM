@@ -1900,6 +1900,22 @@ body.template-product .product-full-description .moreless-button.btn:after {
     color: #5e0d8b!important;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    display: block;
+}
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg:hover p{
+
+ height: auto;
+    overflow: visible;
+    opacity: 1;
+  
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
