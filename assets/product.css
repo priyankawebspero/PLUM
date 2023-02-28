@@ -2188,4 +2188,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
     border-bottom: 5px solid #f5f0f7;
 }
 
+.product-shop .product_gift_bx .free-shipping-top button {
+    position: relative;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #f5f0f7 !important;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
 }
