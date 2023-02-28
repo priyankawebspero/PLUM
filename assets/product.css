@@ -382,7 +382,6 @@ p.manufact-text,p.manufact-add{font-size:12px}
 @media (max-width: 350px) {
 .product-shop .price_info_box .price-manufacturer .sezzle-shopify-info-button{max-width:165px}
 .tooltip .tooltiptext{right:-179px;width:290px}
-.product-shop .prices span.price .money{font-size:16px!important}
 span.compare-price .money{font-size:14px!important}
 #add-to-cart-form .iwishAddWrap a{border-radius:0;padding:12px 5px;min-width:inherit}
 .product-shop .groups-btn .iwishAddWrap a.wishlist:after{margin-right:5px}
