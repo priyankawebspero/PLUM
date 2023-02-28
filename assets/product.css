@@ -1745,10 +1745,10 @@ span#mobile-share-button {
 
 .discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown {
     opacity: 1 !important;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 16px;
     margin-top: 0;
-    right: 10px;
+    right: 15px;
 }
 .discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown i.fa {
     display: none;
