@@ -2377,8 +2377,7 @@ body.template-product .product-full-description .moreless-button.btn {
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
     padding: 0 8px;
     margin-bottom: 0;
-    min-width: 200px;
-    width: 200px;
+    min-width: 47vw;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg {
@@ -2460,4 +2459,13 @@ body.template-product .product-full-description .moreless-button.btn {
     font-family: DINNextRoundedLTPro-Bold;
 }
 
+}
+
+@media only screen and (max-width:479px){
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
+    min-width: 200px;
+    width: 200px;
+}
+  
 }
