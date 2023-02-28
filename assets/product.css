@@ -2020,6 +2020,12 @@ body.template-product .product-full-description .moreless-button.btn:after {
     top: 10px;
 }
 
+.toggle-inner a {
+    color: #5e0c8c;
+  text-decoration:underline;
+  font-weight:600;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
