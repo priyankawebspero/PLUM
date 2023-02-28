@@ -1702,6 +1702,10 @@ span#mobile-share-button {
     font-weight: normal;
 }
 
+.tabs__product-page .tab-content .product-full-description .description-wrapper span {
+    color: #5e0d8b !important;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
