@@ -2207,4 +2207,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
     line-height: 1.2;
 }
 
+ul#tabs-navm {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: center;
+    border-top: 5px solid #f5f0f7;
+    border-bottom: 5px solid #f5f0f7;
+    margin-top: 20px;
+}
+
 }
