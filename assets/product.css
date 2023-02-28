@@ -1709,5 +1709,9 @@ span#mobile-share-button {
 .product ul#tabs-navm li:nth-of-type(2), .product ul#tabs-navm li:nth-of-type(3), .product ul#tabs-navm li:nth-of-type(4) {
     display: none;
 }
+
+.video.tab-contentm {
+    display: none !important;
+}
   
 }
