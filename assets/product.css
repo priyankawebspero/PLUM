@@ -1885,6 +1885,16 @@ body.template-product .product-full-description .moreless-button.btn:after {
     border-radius: 7px;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg h4.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: 400;
+    color: #5e0d8b!important;
+    font-size: 20px;
+    position: relative;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
