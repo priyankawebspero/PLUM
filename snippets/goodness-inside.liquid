@@ -5,7 +5,7 @@
 {% endif %}
 {% if fullIngredintList != blank %}
   <div class="goodness-section inside_tab ">
-  
+         <div class="ingredient">ingredients <p class="see-full-ingredent">view more<i class="fa fa-angle-down" style="padding-left:4px;"></i></p></div>
     {% assign GoodnessInside = product.metafields.Product['Expert tips'] %}
     <div class="goodness-inside">
       {% assign Ingredient1-Description = product.metafields.Product['Ingredient 1 - Description'] %}
@@ -87,9 +87,6 @@
           <span class="closeing">X</span>
           <p class="full-ingredint-list">{{ fullIngredintList }}</p>
         </div>
-        <p class="see-full-ingredent">
-          What's in<i class="fa fa-angle-right" style="padding-left:4px;"></i>
-        </p>
       {% endif %}
     </div>
   </div>
