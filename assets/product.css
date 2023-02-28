@@ -1893,6 +1893,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     color: #5e0d8b!important;
     font-size: 20px;
     position: relative;
+  cursor: pointer;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
