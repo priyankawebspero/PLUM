@@ -1750,6 +1750,9 @@ span#mobile-share-button {
     margin-top: 0;
     right: 10px;
 }
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown i.fa {
+    display: none;
+}
 
 @media only screen and (min-width:768px){
 
