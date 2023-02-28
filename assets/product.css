@@ -1789,7 +1789,11 @@ span#mobile-share-button {
 }
 
 .tabs__product-page .tab-content ul li:before {
-    background-color: #5e0d8b!important;
+    background-color: #5e0d8b;
+}
+
+.tabs__product-page .tab-content ul.description-point li:before {
+    background: none !important;
 }
 
 .tabs__product-page .tab-content li, .tabs__product-page .tab-content p, .tabs__product-page .tab-content ul {
