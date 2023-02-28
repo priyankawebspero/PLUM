@@ -482,6 +482,12 @@
             {% include "goodness-inside" %}
           </div>
           {% include 'Review-question-tab' %}
+          <div class="section_faq">
+            {% if product.metafields.Product['faqs'] != blank %}
+              <div class="append-content-custom">
+                {{ product.metafields.Product['faqs'] }}</div>
+            {% endif %}
+          </div>
 
           {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
             <div class="container-padd60 product-related-outer fw-section">
