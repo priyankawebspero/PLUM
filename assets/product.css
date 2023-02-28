@@ -2407,6 +2407,8 @@ body.template-product .product-full-description .moreless-button.btn {
     margin-bottom: 20px;
 }
 
-
+.product .col-md-12 .product-infor .product-type {
+    width: 50%;
+}
 
 }
