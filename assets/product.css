@@ -2207,7 +2207,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     line-height: 1.2;
 }
 
-ul#tabs-navm {
+.product ul#tabs-navm {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
