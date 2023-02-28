@@ -1688,7 +1688,10 @@ span#mobile-share-button {
     padding-bottom: 20px;
 }
 
-
+.discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description {
+    background: none !important;
+    padding-bottom: 10px;
+}
 
 @media only screen and (min-width:768px){
 
