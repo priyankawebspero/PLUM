@@ -1720,6 +1720,15 @@ span#mobile-share-button {
     margin-bottom: 10px;
 }
 
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links {
+    background: #f5f0f7;
+    border: none;
+    padding: 15px 20px;
+    font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: normal;
+    color: #5e0d8b !important;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
