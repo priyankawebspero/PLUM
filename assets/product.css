@@ -2134,4 +2134,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 30px 0 40px;
 }
 
+.product-template .section_faq h3.box-title {
+    margin-bottom: 20px;
+}
+
 }
