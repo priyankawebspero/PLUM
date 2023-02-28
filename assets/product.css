@@ -1724,10 +1724,11 @@ span#mobile-share-button {
 .discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links {
     background: #f5f0f7;
     border: none;
-    padding: 15px 20px;
+    padding: 15px 40px 15px 20px;
     font-family: "DINNextRoundedLTPro-Medium";
     font-weight: normal;
     color: #5e0d8b !important;
+  position: relative;
 }
 
 .tab-content .col-sm-6.video-sec {
