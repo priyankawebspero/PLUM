@@ -1584,7 +1584,7 @@ span#mobile-share-button {
 .product-shop .product_form_desciption .product_info .product-infor .product-type:first-child {
     border-right: 2px solid #f5f0f7;
 }
-.product-shop .product_form_desciption .product_info .product-infor .product-type:last-child {
+.product-shop .product_form_desciption .product_info .product-infor .product-type:nth-of-type(2) {
     border-left: 2px solid #f5f0f7;
 }
 
