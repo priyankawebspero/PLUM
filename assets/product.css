@@ -1718,6 +1718,7 @@ span#mobile-share-button {
 .discription_outer .tabs__product-page .wrapper-tab-content .tab-title {
     border: none;
     margin-bottom: 10px;
+    margin-right: 0 !important;
 }
 
 .discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links {
