@@ -1607,6 +1607,12 @@ span#mobile-share-button {
     font-size: 15px;
 }
 
+.product-shop .free-shipping-top .offers_sec {
+    text-align: left !important;
+    padding-bottom: 10px !important;
+    font-family: "DINNextRoundedLTPro-Bold" !important;
+}
+
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
     display: inline-block;
