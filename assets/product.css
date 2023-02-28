@@ -2320,4 +2320,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding-top: 0;
 }
 
+.description-wrapper {
+    margin-bottom: 20px;
+}
+
 }
