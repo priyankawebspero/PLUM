@@ -1796,6 +1796,20 @@ span#mobile-share-button {
     color: #5e0d8b!important;
 }
 
+body.template-product .product-full-description .moreless-button.btn {
+    min-width: inherit;
+    padding-left: 0;
+    background: none!important;
+    font-family: DINNextRoundedLTPro-Bold!important;
+    color: #5e0c8c !important;
+    font-size: 17px;
+    cursor: pointer;
+    background-image: none !important;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
