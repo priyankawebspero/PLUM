@@ -2411,4 +2411,8 @@ body.template-product .product-full-description .moreless-button.btn {
     width: 50%;
 }
 
+.product-shop .product_form_desciption .product_info .product-infor .product-type span {
+    font-size: 13px;
+}
+
 }
