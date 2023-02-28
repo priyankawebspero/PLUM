@@ -2264,4 +2264,15 @@ body.template-product .product-full-description .moreless-button.btn:after {
 .product ul#tabs-navm li.active a h3:after{
   width: 100%; opacity:1;}
 
+.tab-contentm .col-6.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.tab-contentm .col-6.col-sm-12:last-child {
+    background: #f5f0f7;
+    /* margin-bottom: 30px; */
+}
+
 }
