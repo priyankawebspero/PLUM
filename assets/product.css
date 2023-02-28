@@ -2352,6 +2352,7 @@ body.template-product .product-full-description .moreless-button.btn {
     scrollbar-width: thin;
     -ms-overflow-style: none;
   padding-bottom: 10px;
+  align-items: flex-start;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
