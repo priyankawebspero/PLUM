@@ -2419,4 +2419,8 @@ body.template-product .product-full-description .moreless-button.btn {
     padding-bottom: 0 !important;
 }
 
+.product_form_desciption .mobile-cart {
+    margin: 10px 0 10px;
+}
+
 }
