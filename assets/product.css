@@ -1936,7 +1936,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 30px;
     border-radius: 10px;
     transition: all .3s ease-in-out;
+  display:none;
 }
+
+.goodness-inside .popuping.active{display:block;}
 
 .goodness-inside .popuping span.closeing {
     position: absolute;
