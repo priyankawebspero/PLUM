@@ -2437,4 +2437,8 @@ body.template-product .product-full-description .moreless-button.btn {
     padding-right: 0;
 }
 
+.product-shop .price_info_box {
+    text-align: center;
+}
+
 }
