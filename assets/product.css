@@ -2375,6 +2375,7 @@ body.template-product .product-full-description .moreless-button.btn {
 
 .product-template .three-sections {
     padding: 20px 0;
+  margin-bottom: 0;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
