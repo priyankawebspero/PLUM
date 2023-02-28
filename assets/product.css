@@ -1927,7 +1927,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: 95%;
     max-width: 750px;
     z-index: 99;
     margin: auto;
