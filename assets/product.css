@@ -1596,5 +1596,9 @@ span#mobile-share-button {
 .product-shop .shopify-product-form .without_variant .quantity {
     margin-top: 3px !important;
 }
+
+.product-shop .shopify-product-form .without_variant .quantity label {
+    margin-top: 2px;
+}
   
 }
