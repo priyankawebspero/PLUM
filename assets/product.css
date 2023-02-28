@@ -1665,6 +1665,11 @@ span#mobile-share-button {
     content: "\f106";
 }
 
+.product-template.product-template-default .product.row.product-default>.fw-section.icon-upper-row {
+    border-bottom: 2px solid #f5f0f7;
+    border-top: 2px solid #f5f0f7;
+}
+
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
     display: inline-block;
