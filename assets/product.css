@@ -2432,4 +2432,9 @@ body.template-product .product-full-description .moreless-button.btn {
     background-position: 90% 13px;
 }
 
+.price-review.price-manufacturer1 {
+    border: none;
+    padding-right: 0;
+}
+
 }
