@@ -2451,4 +2451,8 @@ body.template-product .product-full-description .moreless-button.btn {
     font-size: 15px;
 }
 
+.price_info_box .tooltip {
+    padding-left: 4px;
+}
+
 }
