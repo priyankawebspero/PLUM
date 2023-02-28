@@ -1883,6 +1883,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg {
     background: #fff;
     border-radius: 7px;
+    transition: all .5s ease-in-out;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg h4.text {
