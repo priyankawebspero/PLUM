@@ -1977,6 +1977,12 @@ body.template-product .product-full-description .moreless-button.btn:after {
     /* text-align: center; */
 }
 
+.product-template .section_faq {
+    max-width: 100% !important;
+    background: #f5f0f7;
+    padding: 40px 0;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
