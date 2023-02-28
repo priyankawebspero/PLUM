@@ -2423,4 +2423,9 @@ body.template-product .product-full-description .moreless-button.btn {
     margin: 10px 0 10px;
 }
 
+.product-shop div#product-variants .quantity_varients .selector-wrapper label {
+    text-transform: uppercase;
+    display: flex;
+}
+
 }
