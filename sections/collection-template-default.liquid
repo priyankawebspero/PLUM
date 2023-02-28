@@ -48,8 +48,7 @@
      
       {%comment%}
       {% for product in collection.products %}
-{% if product.handle contains "docapp-free-gift-" %}{% continue %}{% endif %}
-
+      {% if product.handle contains "docapp-free-gift-" %}{% continue %}{% endif %}
         <a href="{{ product.url | within: collection }}" class="boost-pfs-filter-product-skeleton grid-item col-xs-6 {{ grid_item_width }}">
           <div class="boost-pfs-filter-product-skeleton-image" style="padding-top: 80%;"></div>
           <div class="boost-pfs-filter-product-skeleton-meta">
