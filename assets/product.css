@@ -1912,6 +1912,13 @@ body.template-product .product-full-description .moreless-button.btn:after {
     top: -2px;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg:hover h4:after, 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg:focus h4:after {
+    transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+}
+
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
     color: #5e0d8b!important;
 }
