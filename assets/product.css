@@ -2428,4 +2428,8 @@ body.template-product .product-full-description .moreless-button.btn {
     display: flex;
 }
 
+.product-shop div#product-variants .quantity_varients .selector-wrapper .single-option-selector {
+    background-position: 90% 13px;
+}
+
 }
