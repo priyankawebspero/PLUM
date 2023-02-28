@@ -1956,6 +1956,11 @@ body.template-product .product-full-description .moreless-button.btn:after {
     cursor: pointer;
 }
 
+.goodness-inside .popuping p {
+    color: #5e0d8b!important;
+    /* text-align: center; */
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
