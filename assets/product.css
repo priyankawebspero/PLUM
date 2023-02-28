@@ -1840,6 +1840,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+    margin-bottom: 30px;
 }
 
 .three-sections .goodness-section .ingredient h3.box-title {
