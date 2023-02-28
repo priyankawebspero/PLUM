@@ -2314,4 +2314,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     text-align: center;
 }
 
+.tabs__product-page .how-to-use-steps-section .how-to-use-steps.row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+}
+
 }
