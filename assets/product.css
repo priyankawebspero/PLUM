@@ -1572,6 +1572,8 @@ span#mobile-share-button {
     /* font-style: italic; */
 }
 
+
+@media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
     display: inline-block;
     vertical-align: middle;
@@ -1584,6 +1586,7 @@ span#mobile-share-button {
 }
 
 .product-shop div#product-variants .quantity_varients .selector-wrapper select {
-    min-width: 90px;
-    background-position: 90% 15px;
+    min-width: 90px !important;
+    background-position: 90% 15px !important;
+}
 }
