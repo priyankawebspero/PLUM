@@ -1571,7 +1571,9 @@ span#mobile-share-button {
     margin-top: 5px;
     /* font-style: italic; */
 }
-
+.product-shop .product_form_desciption .product_info {
+    background: #fff;
+}
 
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
