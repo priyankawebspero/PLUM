@@ -1990,6 +1990,36 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0 15px;
 }
 
+.product-template .section_faq .faqs .acc-container .toggle-title h3 {
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 9px 25px 9px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 13px 0;
+    position: relative;
+    cursor: pointer;
+    font-family: DINNextRoundedLTPro-Bold !important;
+    color: #5e0c8c;
+}
+.section_faq .faqs .acc-container .toggle-title h3:after {
+    content: "\f107";
+    color: #5e0c8c;
+    font-family: FontAwesome;
+    font-weight: 500;
+    font-size: 20px;
+    text-rendering: auto;
+    margin: 0;
+    z-index: 2;
+    width: 0;
+    float: right;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
