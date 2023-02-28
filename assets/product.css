@@ -2275,4 +2275,13 @@ body.template-product .product-full-description .moreless-button.btn:after {
     /* margin-bottom: 30px; */
 }
 
+.tab-contentm .wrapper-tab-content .tab-content.active {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.tab-contentm .tabs__product-page .wrapper-tab-content {
+    padding: 0;
+}
+
 }
