@@ -2284,9 +2284,9 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0;
 }
 
+
 .tab-contentm .tabs__product-page .wrapper-tab-content .product-full-description {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 }
