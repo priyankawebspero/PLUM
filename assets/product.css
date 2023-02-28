@@ -1885,6 +1885,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     background: #fff;
     border-radius: 7px;
     transition: all .5s ease-in-out;
+    flex-direction: inherit;
+    justify-content: center;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg h4.text {
@@ -1909,6 +1911,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     opacity: 0;
     transition: all .5s ease-in-out;
     display: block;
+  width:100%;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg:hover p{
