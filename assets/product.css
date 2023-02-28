@@ -2296,4 +2296,12 @@ body.template-product .product-full-description .moreless-button.btn:after {
     background: #fff;
 }
 
+.tabs__product-page .how-to-use-steps-section {
+    padding: 0;
+}
+
+.tab-content .col-sm-6.video-sec {
+    padding: 0;
+}
+
 }
