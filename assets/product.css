@@ -1582,3 +1582,8 @@ span#mobile-share-button {
 .product-shop div#product-variants .quantity_varients .selector-wrapper label {
     display: flex;
 }
+
+.product-shop div#product-variants .quantity_varients .selector-wrapper select {
+    min-width: 90px;
+    background-position: 90% 15px;
+}
