@@ -2324,4 +2324,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin-bottom: 20px;
 }
 
+.parduct-page__horizontal-description .product-full-description {
+    margin-bottom: 0;
+}
+
 }
