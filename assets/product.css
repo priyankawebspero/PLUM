@@ -2455,4 +2455,9 @@ body.template-product .product-full-description .moreless-button.btn {
     padding-left: 4px;
 }
 
+.product-shop #add-to-cart-form .iwishAddWrap a.iWishAdd.wishlist {
+    font-weight: 500;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+
 }
