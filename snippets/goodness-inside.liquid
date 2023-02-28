@@ -5,8 +5,8 @@
 {% endif %}
 {% if fullIngredintList != blank %}
   <div class="goodness-section inside_tab ">
+  
     {% assign GoodnessInside = product.metafields.Product['Expert tips'] %}
-
     <div class="goodness-inside">
       {% assign Ingredient1-Description = product.metafields.Product['Ingredient 1 - Description'] %}
       {% if Ingredient1-Description != 0 and Ingredient1-Description != blank %}
@@ -95,17 +95,8 @@
   </div>
   <script async>
     $(document).ready(function(){
-    $(".see-full-ingredent").click(function(){
-      $(".popuping").addClass("active");
+    $(".see-full-ingredent").click(function(){  $(".popuping").addClass("active");});
+    $(".closeing").click(function(){ $(".popuping").removeClass("active");});  
     });
-    $(".closeing").click(function(){
-      $(".popuping").removeClass("active");
-    });  
-    });</script>
-  <style>
-    .full-ingredint-list {
-      padding: 50px;
-      display: none;
-    }
-  </style>
+  </script>
 {% endif %}
