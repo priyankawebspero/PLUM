@@ -1589,4 +1589,8 @@ span#mobile-share-button {
     min-width: 90px !important;
     background-position: 90% 15px !important;
 }
+.product-shop .price_info_box {
+    padding-bottom: 10px;
+}
+  
 }
