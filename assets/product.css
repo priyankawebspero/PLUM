@@ -2116,6 +2116,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
   
 }
 
+@media only screen and (max-width:1399px){
+
+.product-template .three-sections .goodness-section, .product-template .section_faq .faqs {
+    max-width: 1200px;
+}
+
+}
+
 @media only screen and (max-width:767px){
 
 .product-template .section_faq h3.box-title span.title {
