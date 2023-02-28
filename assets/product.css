@@ -1581,6 +1581,13 @@ span#mobile-share-button {
     padding-bottom: 0;
 }
 
+.product-shop .product_form_desciption .product_info .product-infor .product-type:first-child {
+    border-right: 2px solid #f5f0f7;
+}
+.product-shop .product_form_desciption .product_info .product-infor .product-type:last-child {
+    border-left: 2px solid #f5f0f7;
+}
+
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
     display: inline-block;
