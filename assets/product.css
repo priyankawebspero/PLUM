@@ -1842,6 +1842,13 @@ body.template-product .product-full-description .moreless-button.btn:after {
     gap: 15px;
 }
 
+.three-sections .goodness-section .ingredient h3.box-title {
+    margin-bottom: 0;
+    font-family: "DINNextRoundedLTPro-Bold";
+    font-size: 40px;
+    color: #5e0d8b;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
