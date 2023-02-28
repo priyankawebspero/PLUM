@@ -483,6 +483,7 @@
           </div>
           {% include 'Review-question-tab' %}
           <div class="section_faq">
+            <div class="widget-title not-before"><h3 class="box-title"><span class="title"><span>frequently asked questions</span></span></h3></div>
             {% if product.metafields.Product['faqs'] != blank %}
               <div class="append-content-custom">
                 {{ product.metafields.Product['faqs'] }}</div>
