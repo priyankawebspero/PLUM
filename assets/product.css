@@ -1754,6 +1754,30 @@ span#mobile-share-button {
     display: none;
 }
 
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown:after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 2px;
+    background: #5e0d8b;
+    position: absolute;
+    top: 6px;
+    right: 0;
+  transition: all .3s ease-in-out;
+}
+
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown:before {
+    content: "";
+    width: 2px;
+    height: 14px;
+    display: block;
+    background: #5e0d8b;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  transition: all .3s ease-in-out;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
