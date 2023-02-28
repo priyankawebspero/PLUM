@@ -2253,7 +2253,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     content: "";
     display: block;
     width: 0%;
-    height: 5px;
+    height: 3px;
     background: #5e0d8b;
     transition: all .5s ease-in-out;
     position: absolute;
