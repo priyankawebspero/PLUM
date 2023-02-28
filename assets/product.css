@@ -1899,6 +1899,18 @@ body.template-product .product-full-description .moreless-button.btn:after {
     position: relative;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  padding-right: 35px;
+}
+
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg h4.text:after {
+    content: "\f107";
+    font-family: fontawesome;
+    font-size: 23px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 5px;
+    top: -2px;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
