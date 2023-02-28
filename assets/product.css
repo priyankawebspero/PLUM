@@ -1604,6 +1604,7 @@ span#mobile-share-button {
 .product-shop .product_form_desciption .product_info .product-infor .product-type span {
     border-radius: 0;
     color: #5e0c8c;
+    font-size: 15px;
 }
 
 @media only screen and (min-width:768px){
