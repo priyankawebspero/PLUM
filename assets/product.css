@@ -1692,6 +1692,12 @@ span#mobile-share-button {
 
 @media only screen and (min-width:768px){
 
+.discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
+    width: 100%;
+    border: none !important;
+    padding-right: 25px;
+}
+
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab {
     margin-left: 0;
     margin-right: 0;
