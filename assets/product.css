@@ -1876,6 +1876,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin: 0 -15px;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
+    padding: 0 15px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
