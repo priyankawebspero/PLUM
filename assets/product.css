@@ -2463,6 +2463,19 @@ body.template-product .product-full-description .moreless-button.btn {
     text-align: left;
 }
 
+.product-shop div#product-variants .quantity_varients {
+    flex-direction: inherit;
+}
+.product-shop div#product-variants .quantity_varients .selector-wrapper:first-child {
+    margin-right: 12px;
+}
+
+.product-shop div#product-variants .quantity_varients .selector-wrapper:first-child .single-option-selector {
+    min-width: 80px;
+    line-height: 1.5;
+    height: 38px;
+}
+
 }
 
 @media only screen and (max-width:479px){
