@@ -2224,4 +2224,23 @@ body.template-product .product-full-description .moreless-button.btn:after {
     max-width: 50%;
 }
 
+.product ul#tabs-navm li a {
+    padding: 15px;
+    display: block;
+}
+
+.product ul#tabs-navm li a h3 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.product ul#tabs-navm li {
+    border-right: 2.5px solid #f5f0f7;
+}
+
+.product ul#tabs-navm li:last-child {
+    border-left: 2.5px solid #f5f0f7;
+    border-right: inherit;
+}
+
 }
