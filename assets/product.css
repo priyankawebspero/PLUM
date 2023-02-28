@@ -1701,5 +1701,9 @@ span#mobile-share-button {
 .product-shop .groups-btn {
     padding-bottom: 1em;
 }
+
+.product ul#tabs-navm li:nth-of-type(2), .product ul#tabs-navm li:nth-of-type(3), .product ul#tabs-navm li:nth-of-type(4) {
+    display: none;
+}
   
 }
