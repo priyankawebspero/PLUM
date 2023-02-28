@@ -1857,6 +1857,15 @@ body.template-product .product-full-description .moreless-button.btn:after {
     cursor: pointer;
 }
 
+.three-sections .goodness-section .ingredient .see-full-ingredent i.fa {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 0 !important;
+    margin-left: 6px;
+    position: relative;
+    top: 2px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
