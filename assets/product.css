@@ -1822,6 +1822,18 @@ body.template-product .product-full-description .moreless-button.btn:after {
     top: -1px;
 }
 
+.product-template .three-sections {
+    max-width: 100% !important;
+    background: #f5f0f7;
+    padding: 50px 0;
+}
+
+.product-template .three-sections .goodness-section {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
