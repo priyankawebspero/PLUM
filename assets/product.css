@@ -2356,8 +2356,8 @@ body.template-product .product-full-description .moreless-button.btn {
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
     padding: 0 5px;
     margin-bottom: 0;
-    min-width: 47vw;
-    /* max-width: 40%; */
+    min-width: 200px;
+    width: 200px;
 }
 
 .three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg {
