@@ -2249,4 +2249,19 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0;
 }
 
+.product ul#tabs-navm li a h3:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 5px;
+    background: #5e0d8b;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: -6px;
+    left: 0;opacity:0;
+}
+
+.product ul#tabs-navm li.active a h3:after{
+  width: 100%; opacity:1;}
+
 }
