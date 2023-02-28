@@ -1895,6 +1895,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     position: relative;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg p {
+    color: #5e0d8b!important;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
