@@ -2281,12 +2281,19 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0 !important;
 }
 .tab-contentm .tabs__product-page .wrapper-tab-content {
-    padding: 0;
+    padding: 0 0 30px 0;
 }
-
 
 .tab-contentm .tabs__product-page .wrapper-tab-content .product-full-description {
     padding: 0;
+}
+
+.tabs__product-page .wrapper-tab-content .tab-links span {
+    font-weight: 500;
+}
+
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links {
+    background: #fff;
 }
 
 }
