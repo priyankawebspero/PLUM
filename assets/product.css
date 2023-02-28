@@ -1835,6 +1835,13 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0 15px;
 }
 
+.three-sections .goodness-section .ingredient {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
