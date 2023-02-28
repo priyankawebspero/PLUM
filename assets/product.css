@@ -1592,5 +1592,9 @@ span#mobile-share-button {
 .product-shop .price_info_box {
     padding-bottom: 10px;
 }
+
+.product-shop .shopify-product-form .without_variant .quantity {
+    margin-top: 3px !important;
+}
   
 }
