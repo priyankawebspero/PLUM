@@ -1683,6 +1683,11 @@ span#mobile-share-button {
     padding: 0;
 }
 
+.discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description {
+    background: none !important;
+    padding-bottom: 20px;
+}
+
 @media only screen and (min-width:768px){
 .product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
     display: inline-block;
