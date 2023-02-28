@@ -2328,4 +2328,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin-bottom: 0;
 }
 
+.product-shop .product_gift_bx .free-shipping-top ul li i {
+    top: 0;
+}
+
 }
