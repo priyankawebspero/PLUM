@@ -1980,7 +1980,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
 .product-template .section_faq {
     max-width: 100% !important;
     background: #f5f0f7;
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
 }
 
 .product-template .section_faq .faqs {
@@ -2029,6 +2029,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 .section_faq .faqs .toggle-inner {
     margin: 15px 0;
+}
+
+.section_faq + .product-related-outer {
+    margin-top: 0 !important;
 }
 
 @media only screen and (min-width:768px){
