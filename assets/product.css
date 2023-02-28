@@ -1743,6 +1743,14 @@ span#mobile-share-button {
     margin-bottom: 40px;
 }
 
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links .icon-dropdown {
+    opacity: 1 !important;
+    width: 25px;
+    height: 25px;
+    margin-top: 0;
+    right: 10px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
