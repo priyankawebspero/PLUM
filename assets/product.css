@@ -2360,4 +2360,8 @@ body.template-product .product-full-description .moreless-button.btn {
     /* max-width: 40%; */
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg {
+    padding: 15px;
+}
+
 }
