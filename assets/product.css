@@ -2304,4 +2304,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding: 0;
 }
 
+.discription_outer {
+    margin-bottom: 0;
+}
+
+.video.tab-contentm {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
 }
