@@ -1589,9 +1589,9 @@ span#mobile-share-button {
 }
 
 .product-shop .product_form_desciption .product_info .product-infor .product-type {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
 }
 
 .product-shop .product_form_desciption .product_info .product-infor .product-type label {
