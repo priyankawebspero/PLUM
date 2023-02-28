@@ -1616,6 +1616,8 @@ span#mobile-share-button {
 .product-shop .product_gift_bx .free-shipping-top {
     position: relative;
     padding-right: 100px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
 }
 
 .product-shop .product_gift_bx .free-shipping-top ul li {
