@@ -1693,6 +1693,15 @@ span#mobile-share-button {
     padding-bottom: 10px;
 }
 
+.tabs__product-page .tab-content .product-full-description .description-wrapper p {
+    color: #5e0d8b !important;
+}
+
+.tabs__product-page .tab-content .product-full-description .description-wrapper strong {
+    font-family: DINNextRoundedLTPro-Medium;
+    font-weight: normal;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
