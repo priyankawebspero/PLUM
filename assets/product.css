@@ -1729,6 +1729,7 @@ span#mobile-share-button {
     font-weight: normal;
     color: #5e0d8b !important;
   position: relative;
+  font-size: 18px;
 }
 
 .tab-content .col-sm-6.video-sec {
