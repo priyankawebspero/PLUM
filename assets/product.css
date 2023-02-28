@@ -2381,4 +2381,8 @@ body.template-product .product-full-description .moreless-button.btn {
     line-height: 1.2;
 }
 
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block .image__block_inner-blg h4.text:after {
+    top: -3px;
+}
+
 }
