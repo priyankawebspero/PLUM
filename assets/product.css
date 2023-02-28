@@ -1561,3 +1561,13 @@ span#mobile-share-button {
 .product-photos span.discount-tag-col {
     font-size: 14px;
 }
+
+/*-----new-css-28-02-2024----*/
+
+.advantages {
+    color: #5e0c8c;
+    font-size: 18px;
+    font-family: 'DINNextRoundedLTPro-Regular';
+    margin-top: 5px;
+    /* font-style: italic; */
+}
