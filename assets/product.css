@@ -1571,3 +1571,14 @@ span#mobile-share-button {
     margin-top: 5px;
     /* font-style: italic; */
 }
+
+.product-shop div#product-variants .quantity_varients .selector-wrapper label:after {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    padding-left: 2px;
+}
+
+.product-shop div#product-variants .quantity_varients .selector-wrapper label {
+    display: flex;
+}
