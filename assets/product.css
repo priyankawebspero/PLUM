@@ -100,7 +100,6 @@ p.iWishLoginMsg a{color:#5e248c}
 .simPagination a.simp-previous.simp-disabled{display:none!important}
 .simPagination a.simp-previous{display:inline-block!important}
 .simPagination a.simp-previous,.simPagination a.simp-next{font-size:0!important}
-.product-type.no-recom span{background:#e0e0e0}
 .product-shop .delivery-time-infos ul li .check-pincode input#pincode_input{text-transform:lowercase!important}
 .product-shop .delivery-time-infos ul li .check-pincode span#check-delivery-submit{text-transform:lowercase!important}
 .tabs__product-page .list-tabs li.tab-title a span{text-transform:lowercase!important}
