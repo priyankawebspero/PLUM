@@ -1711,6 +1711,10 @@ span#mobile-share-button {
     color: #5e0d8b !important;
 }
 
+.discription_outer .col-6.col-sm-12:first-child .product-full-description {
+    padding-top: 10px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
