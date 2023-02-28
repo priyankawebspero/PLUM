@@ -1727,5 +1727,11 @@ span#mobile-share-button {
     margin-right: -15px;
     margin-left: -15px;
 }
+
+.discription_outer .col-6.col-sm-12 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
   
 }

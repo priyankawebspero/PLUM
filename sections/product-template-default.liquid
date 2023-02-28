@@ -694,7 +694,7 @@
         $(this).hide();
         $('.read-less').show();
       });
-
+      
 // show less items when the "Read Less" button is clicked
       $('.read-less').click(function() {
         items.slice(itemsToShow, numItems).hide();
@@ -715,12 +715,11 @@
       $('.tab-contentm').hide();
       $('.tab-contentm:first').show();
 
-// Click function
+      // Click function
       $('#tabs-navm li').click(function() {
         $('#tabs-navm li').removeClass('active');
         $(this).addClass('active');
         $('.tab-contentm').hide();
-
         var activeTab = $(this).find('a').attr('href');
         $(activeTab).fadeIn();
         return false;
@@ -728,7 +727,16 @@
 
 
     });
-
+    
+    $('.toggle-inner').hide();
+	jQuery(".toggle .Expert tips").click(function(){
+		if( jQuery(this).hasClass('active') ){
+			jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner').slideUp(200);
+		}
+		else{	jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner').slideDown(200);
+		}
+	});
+    
     $(document).ready(function() {
       $(".p-slider-s").slick({
         slidesToShow: 1,
