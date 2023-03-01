@@ -1,55 +1,55 @@
 <script>
   function showStatus(){
   	var number=$('#order_number').val()
-url='https://order.plumgoodness.com/orderDetails/'+number
-$.ajax({
-        url:url ,
-        contentType: "application/json",
-        dataType: 'json',
-  
-        success: function(data){
-          if(!data.status){
-            //alert()
-          	$('#text-error').text("Hey "+data.shipping_address.first_name+"! Your order hasn't shipped yet. Don't worry, we're working hard to get your package of goodness to you ASAP. You'll get an email & SMS as soon as it's on its way")
-          }
-          else if(data.status =='partial'){         
-             window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
-          }
-          else if(data.status=='fulfilled'){
-          	window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
-          }
-          else{
-          	$('#text-error').text('Please check the order id')
-          }
-        },
-  		error:function(){
-        	$('#text-error').text('Please check the order id')
-        }
-    })
-  }
+    url='https://order.plumgoodness.com/orderDetails/'+number
+    $.ajax({
+            url:url ,
+            contentType: "application/json",
+            dataType: 'json',
+      
+            success: function(data){
+              if(!data.status){
+                //alert()
+                  $('#text-error').text("Hey "+data.shipping_address.first_name+"! Your order hasn't shipped yet. Don't worry, we're working hard to get your package of goodness to you ASAP. You'll get an email & SMS as soon as it's on its way")
+              }
+              else if(data.status =='partial'){         
+                 window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
+              }
+              else if(data.status=='fulfilled'){
+                  window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
+              }
+              else{
+                  $('#text-error').text('Please check the order id')
+              }
+            },
+              error:function(){
+              $('#text-error').text('Please check the order id')
+            }
+        })
+      }
   function showStatusMobile(){
   	var number=$('#order_number_mobile').val()
-url='https://order.plumgoodness.com/orderDetails/'+number
-$.ajax({
-        url:url ,
-        contentType: "application/json",
-        dataType: 'json',
-  
-        success: function(data){
-          alert(data.status)
-          if(data.status=='fulfilled'){
+    url='https://order.plumgoodness.com/orderDetails/'+number
+    $.ajax({
+            url:url ,
+            contentType: "application/json",
+            dataType: 'json',
+      
+            success: function(data){
+              alert(data.status)
+              if(data.status=='fulfilled'){
+                
+              	window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
+              }
+              else{
+              	$('#text-error').text('value')
+              }
+            },
+      		error:function(){
             
-          	window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
-          }
-          else{
-          	$('#text-error').text('value')
-          }
-        },
-  		error:function(){
-        
-        }
-    })
-  }
+            }
+        })
+      }
 </script>
 <style>
     .search .input-group .textbox {
