@@ -869,10 +869,12 @@
       }
       checkFrequentlyInput();
       if (variant) { // addToCartbtn
-        if (variant.available) {
+         if (variant.available) {
           addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
+          $('.col-md-7 .add-to-cart-btnload').removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
         } else {
-          addToCartBtn.val(window.inventory_text.sold_out).addClass('disabled').attr('disabled', 'disabled');
+           addToCartBtn.val(window.inventory_text.sold_out).addClass('disabled').attr('disabled', 'disabled');
+         $('.col-md-7 .add-to-cart-btnload').val(window.inventory_text.sold_out).addClass('disabled').attr('disabled', 'disabled');
         };
 
 // Prices
