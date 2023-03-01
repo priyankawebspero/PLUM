@@ -565,10 +565,12 @@
         $(".current-product .priceNew-compare").html(Shopify.formatMoney(variant.compare_at_price, "{{ shop.money_format }}"));
       }
       if (variant) { 
-        if (variant.available) {
+         if (variant.available) {
           addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
+          $('.col-md-7 .add-to-cart-btnload').removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
         } else {
-          addToCartBtn.val(window.inventory_text.sold_out).addClass('disabled').attr('disabled', 'disabled');
+          addToCartBtn.val('Unavailable').addClass('disabled').attr('disabled', 'disabled');
+         $('.col-md-7 .add-to-cart-btnload').val('Unavailable').addClass('disabled').attr('disabled', 'disabled');
         };
 
         // Prices
