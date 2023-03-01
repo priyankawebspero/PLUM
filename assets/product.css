@@ -2484,16 +2484,15 @@ body.template-product .product-full-description .moreless-button.btn {
 
 @media only screen and (max-width:479px){
 
-.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
-    min-width: 200px;
-    width: 200px;
-}
-  
-}
-
 #add-to-cart-form input#product-add-to-cart[value=Unavailable] {
     background: #dedede!important;
     border-color: #dedede!important;
     color: #8e01c3!important;
     padding-right: 0 !important;
+}
+.three-sections .goodness-section .goodness-inside .how-to-use.detil-page .image__block {
+    min-width: 200px;
+    width: 200px;
+}
+  
 }
