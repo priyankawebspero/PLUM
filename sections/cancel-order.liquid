@@ -301,24 +301,19 @@
         $.ajax({
             url:"https://order.plumgoodness.com/updateSheet/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
             contentType: "application/json",
-            dataType: 'json',
-      
-            success: function(data){         
-              
+            dataType: 'json',      
+            success: function(data){       
               var id=$('#order_id').val()
               var cono=$('#cno').val()
-              if(data.message=='Excel sheet updated succesfully'){
-                      
+              if(data.message=='Excel sheet updated succesfully'){                      
                       $('#order_id').val('');
                       $('#cno').val('')
-                      //alert("Cancellation Ticket is successfully generated")
                       modal1.style.display = "none";
                       btn_sub.classList.remove("loading");
                       $('#text-error').text('')
                       $('#text-error1').text('')
                       $('#text-error2').text('')
-                      $('#text-error2').text('Cancellation Ticket is successfully generated')
-    
+                      $('#text-error2').text('Cancellation Ticket is successfully generated')   
                   
               }
               else if(data.message=='Order alredy canceled'){
