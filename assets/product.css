@@ -2490,3 +2490,10 @@ body.template-product .product-full-description .moreless-button.btn {
 }
   
 }
+
+#add-to-cart-form input#product-add-to-cart[value=Unavailable] {
+    background: #dedede!important;
+    border-color: #dedede!important;
+    color: #8e01c3!important;
+    padding-right: 0 !important;
+}
