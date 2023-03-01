@@ -716,8 +716,10 @@
       if (variant) { // addToCartbtn
         if (variant.available) {
           addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
+          $('.col-md-7 .add-to-cart-btnload').removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
         } else {
           addToCartBtn.val('Unavailable').addClass('disabled').attr('disabled', 'disabled');
+         $('.col-md-7 .add-to-cart-btnload').val('Unavailable').addClass('disabled').attr('disabled', 'disabled');
         };
 
 // Prices
