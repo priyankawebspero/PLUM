@@ -315,17 +315,17 @@
                       $('#text-error2').text('')
                       $('#text-error2').text('Cancellation Ticket is successfully generated')
               }
-              else if(data.message=='Order alredy canceled'){
+              else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' ){
                 //alert(data.status)
                 modal1.style.display = "none";
                 btn_sub.classList.remove("loading");
                 $('#text-error').text('')
                 $('#text-error1').text('')
                 $('#text-error2').text('')
-                $('#text-error2').text('Cancellation Ticket is already generated')
+                $('#text-error2').text('Order is already canceled')
               }
               else
-                  modal1.style.display = "none";
+              modal1.style.display = "none";
               btn_sub.classList.remove("loading");
               
             },
