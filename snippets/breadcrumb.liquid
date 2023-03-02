@@ -1,39 +1,80 @@
 {% comment %}
   Documentation - http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-navigation
 {% endcomment %}
+{% capture collections_product %}
+ {% for collection in product.collections%}
+ {{ colection }}
+ {% endfor %}
+{% endcapture %}
+{% assign category = 'false' %}
+ {% for tag in product.tags %}
+   {% if tag contains 'breadcrumb' %}
+    {% assign category = 'true' %}
+   {% endif %}
+ {% endfor %}           
+
 
 {% if settings.display_breadcrumb %}
-
 {% unless template == 'index' %}
 <div class="breadcrumb">
   <div class="bread-crumb">
-    <a href="/" data-translate="general.breadcrumbs.home">{{ 'general.breadcrumbs.home' | t }}</a></div>  
-  {% if template contains 'product' %} 
-  
-    {% if collection %}
-      <span class="arrow">
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-      </span>
-
-      {% if collection.handle %}
-      {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
-        {% if settings.enable_multilang %}
-        <span class="lang1">{{ collection.title | split: '|' | first | link_to: url }}</span>
-        <span class="lang2">{{ collection.title | split: '|' | last | link_to: url }}</span>
-        {% else %}
-        <span>{{ collection.title | split: '|' | first | link_to: url }}</span>
+    <a href="/" data-translate="general.breadcrumbs.home">{{ 'general.breadcrumbs.home' | t | downcase}}</a></div>  
+  {% if template contains 'product' %}    
+  {% assign productCollections = product.collections | map:'handle' %}
+  {% if category == 'true'%}
+   {% for tag in product.tags %}
+      {% if tag contains 'breadcrumb' %}
+        {%  assign bread =  tag | remove_first:'breadcrumb_' %}
+        {% if bread contains '1_' %}
+          {% assign list = bread | remove_first:'1_' | split: '_url_' %}
+          <span class="arrow">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </span>
+           <a class="bread" href="{{ shop.url }}/collections/{{ list[1] }}"><span>{{ list[0]}}</span></a>            
+         {% elsif bread contains '2_' %} 
+          {% assign list2 = bread | remove_first:'2_' | split: '_url_' %}
+            <span class="arrow">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </span>
+            <a class="bread" href="{{ shop.url }}/collections/{{ list2[1] }}"><span>{{ list2[0] }}</span></a>
         {% endif %}
-      {% endif %}
+     {% endif %}
+    {% endfor %}
+    {% else %}
+  {% if productCollections contains "skincare" %}
+  <span class="arrow">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+   <a href="/collections/skincare">skincare</a>
+  {% elsif productCollections contains "haircare" %}
+  <span class="arrow">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+   <a href="/collections/haircare">haircare</a>
+  {% elsif productCollections contains "makeup" %}
+  <span class="arrow">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+   <a href="/collections/makeup">makeup</a>
+  {% elsif productCollections contains "bodycare" %}
+  <span class="arrow">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+   <a href="/collections/bodycare">bodycare</a>
+  {% elsif productCollections contains "phy-x-plum" %}
+  <span class="arrow">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+   <a href="/pages/phy">phy</a>
+  {% endif %}
     {% endif %}
-  
     <span class="arrow">
       <i class="fa fa-angle-right" aria-hidden="true"></i>
   	</span>
   	{% if settings.enable_multilang %}
-    <span class="lang1">{{ product.title | split: '|' | first }}</span>
-    <span class="lang2">{{ product.title | split: '|' | last }}</span>
+     <span>{{ product.title | split: '|' | first | downcase}}</span>
   	{% else %}
-  	<span>{{ product.title | split: '|' | first }}</span>
+  	 <span>{{ product.title | split: '|' | first | downcase}}</span>
     {% endif %}
   
   {% elsif template contains 'collection' and collection.handle %}
@@ -45,10 +86,9 @@
       {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
 	  <span class="bd-title">
         {% if settings.enable_multilang %}
-        <span class="lang1">{{ collection.title | split: '|' | first | link_to: url }}</span>
-        <span class="lang2">{{ collection.title | split: '|' | last | link_to: url }}</span>
-        {% else %}
-        <span>{{ collection.title | split: '|' | first | link_to: url }}</span>
+        <span>{{ collection.title | link_to: url | downcase}}</span>
+         {% else %}
+        <span>{{ collection.title | link_to: url | downcase}}</span>
         {% endif %}
 
         <span class="arrow">
@@ -57,10 +97,9 @@
         
         {% assign bd_tags = current_tags | join: " + " %}
         {% if settings.enable_multilang %}
-        <span class="lang1">{{ bd_tags | split: '|' | first }}</span>
-        <span class="lang2">{{ bd_tags | split: '|' | last }}</span>
+        <span>{{ bd_tags | downcase}}</span>
         {% else %}
-        <span>{{ bd_tags | split: '|' | first }}</span>
+        <span>{{ bd_tags | downcase}}</span>
         {% endif %}
 	  </span>
   
@@ -72,10 +111,9 @@
   
       <span class="bd-title">
         {% if settings.enable_multilang %}
-        <span class="lang1">{{ collection.title | split: '|' | first | link_to: url }}</span>
-        <span class="lang2">{{ collection.title | split: '|' | last | link_to: url }}</span>
+        <span>{{ collection.title | link_to: url | downcase}}</span>
         {% else %}
-        <span>{{ collection.title | split: '|' | first | link_to: url }}</span>
+        <span>{{ collection.title | link_to: url | downcase}}</span>
         {% endif %}
   	  </span>
 
@@ -85,7 +123,7 @@
   	<span class="arrow">
       <i class="fa fa-angle-right" aria-hidden="true"></i>
     </span> 	
-    <span {% if settings.enable_multilang %}data-translate="general.breadcrumbs.cart"{% endif %}>{{ 'general.breadcrumbs.cart' | t }}</span>
+    <span {% if settings.enable_multilang %}data-translate="general.breadcrumbs.cart"{% endif %}>{{ 'general.breadcrumbs.cart' | t | downcase}}</span>
   
   {% elsif template == 'article' %}
 
@@ -94,10 +132,9 @@
     </span> 
   
   	{% if settings.enable_multilang %}
-    <span class="lang1">{{ blog.title | split: '|' | first | link_to: blog.url }}</span>
-    <span class="lang2">{{ blog.title | split: '|' | last | link_to: blog.url }}</span>
+    <span>{{ blog.title | link_to: blog.url | downcase}}</span>
   	{% else %}
-  	<span>{{ blog.title | split: '|' | first | link_to: blog.url }}</span>
+  	<span>{{ blog.title | link_to: blog.url | downcase}}</span>
     {% endif %}
   
     <span class="arrow">
@@ -105,10 +142,9 @@
     </span>
   
   	{% if settings.enable_multilang %}
-    <span class="lang1">{{ article.title | split: '|' | first }}</span>
-    <span class="lang2">{{ article.title | split: '|' | last }}</span>
+    <span>{{ article.title | downcase}}</span>
   	{% else %}
-  	<span>{{ article.title | split: '|' | first }}</span>
+  	<span>{{ article.title | downcase}}</span>
     {% endif %}
 
   {% elsif template contains 'page' %}
@@ -118,10 +154,9 @@
     </span>
   
   	{% if settings.enable_multilang %}
-    <span class="lang1">{{ page.title | split: '|' | first }}</span>
-    <span class="lang2">{{ page.title | split: '|' | last }}</span>
+    <span>{{ page.title | downcase}}</span>
   	{% else %}
-  	<span>{{ page.title | split: '|' | first }}</span>
+  	<span>{{ page.title | downcase}}</span>
     {% endif %}
 
   {% else %}
@@ -130,12 +165,184 @@
     </span>
   
   	{% if settings.enable_multilang %}
-    <span class="lang1">{{ page_title | split: '|' | first }}</span>
-    <span class="lang2">{{ page_title | split: '|' | last }}</span>
+    <span >{{ page_title | downcase}}</span>
   	{% else %}
-  	<span>{{ page_title | split: '|' | first }}</span>
+  	<span>{{ page_title | downcase}}</span>
     {% endif %}
   {% endif %}
 </div>
 {% endunless %}
 {% endif %}
+<script type="application/ld+json">
+    {%- if template.name == 'product' -%}
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ 'general.breadcrumbs.home' | t }}",
+        "item": "{{ shop.url }}"
+      },
+       {% if category == 'true'%}
+      {% for tag in product.tags %}
+        {% if tag contains 'breadcrumb' %}
+          {%  assign bread =  tag | remove_first:'breadcrumb_' %}
+          {% if bread contains '1_' %}
+            {% assign list = bread | remove_first:'1_' | split: '_url_' %}
+             {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ list[0] | downcase}}",
+            "item": "{{ shop.url }}/collections/{{ list[1] }}"          
+            },
+           {% elsif bread contains '2_' %} 
+            {% assign list2 = bread | remove_first:'2_' | split: '_url_' %}
+             {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{{ list2[0] | downcase}}",
+            "item": "{{ shop.url }}/collections/{{ list2[1] }}"          
+            },
+          {% endif %}
+       {% endif %}
+      {% endfor %} 
+        {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "{{ product.title  | split: '|' | first | downcase}}",
+        "item": "{{ shop.url }}{{ product.url }}"
+      }]
+     }
+    {% else %}
+      {% if productCollections contains "skincare" %}
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Skincare",
+            "item": "{{ shop.url }}/collections/skincare"          
+          }, 
+      {% elsif productCollections contains "haircare" %}
+      {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Haircare",
+            "item": "{{ shop.url }}/collections/haircare"
+          
+          },
+      {% elsif productCollections contains "makeup" %}
+      {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Makeup",
+            "item": "{{ shop.url }}/collections/makeup"
+          
+          },
+      {% elsif productCollections contains "bodycare" %}
+      {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bodycare",
+            "item": "{{ shop.url }}/collections/bodycare"
+          
+          },
+      {% elsif productCollections contains "phy-x-plum" %}
+      {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "PHY x Plum",
+            "item": "{{ shop.url }}/collections/phy-x-plum"
+          
+          },
+      {% endif %}
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ product.title  | downcase}}",
+        "item": "{{ shop.url }}{{ product.url }}"
+      }]
+    }
+     {% endif %}
+    {%- elsif template.name == 'collection' -%}
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ 'general.breadcrumbs.home' | t }}",
+          "item": "{{ shop.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ collection.title | strip_html | remove:'"' | downcase}}"
+      
+      }
+     ]
+    }
+      {%- elsif template.name == 'page' -%}
+
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ 'general.breadcrumbs.home' | t }}",
+        "item": "{{ shop.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ page.title | strip_html | remove:'"' | downcase}}"
+      
+      }
+     ]
+    }
+       {%- elsif template.name == 'blog' -%}
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ 'general.breadcrumbs.home' | t }}",
+        "item": "{{ shop.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ blog.title | strip_html | remove:'"' | downcase}}"
+      
+      }
+     ]
+    }
+     {%- elsif template.name == 'article' -%}
+
+
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ 'general.breadcrumbs.home' | t }}",
+        "item": "{{ shop.url }}"
+      },   {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ blog.title  | downcase}}",
+        "item": "{{ shop.url }}{{ blog.url  }}"
+      
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ article.title | strip_html | remove:'"' | downcase}}"
+      
+      }
+     ]
+    }
+    {%- endif -%}
+</script>
