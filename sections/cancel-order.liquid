@@ -275,10 +275,6 @@
         
       });
     
-    
-    
-    
-    
       // Get the modal
       var modal = document.getElementById("myModal");
       var modal1 = document.getElementById("myModalFulfilled");
@@ -318,14 +314,6 @@
                       $('#text-error1').text('')
                       $('#text-error2').text('')
                       $('#text-error2').text('Cancellation Ticket is successfully generated')
-                       // $.ajax({
-                       //    url:"https://order.plumgoodness.com/cancelOrder/"+order_id+"/"+cno,
-                       //    contentType: "application/json",
-                       //    dataType: 'json',                    
-                       //    success: function(data){ 
-                             
-                       //    }
-                       // });
               }
               else if(data.message=='Order alredy canceled'){
                 //alert(data.status)
