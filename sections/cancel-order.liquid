@@ -315,7 +315,7 @@
                       $('#text-error2').text('')
                       $('#text-error2').text('Cancellation Ticket is successfully generated')
               }
-              else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' ){
+              else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
                 //alert(data.status)
                 modal1.style.display = "none";
                 btn_sub.classList.remove("loading");
