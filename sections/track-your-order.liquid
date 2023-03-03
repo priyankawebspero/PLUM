@@ -27,29 +27,6 @@
             }
         })
       }
-  function showStatusMobile(){
-  	var number=$('#order_number_mobile').val()
-    url='https://order.plumgoodness.com/orderDetails/'+number
-    $.ajax({
-            url:url ,ce
-            contentType: "application/json",
-            dataType: 'json',
-      
-            success: function(data){
-              alert(data.status)
-              if(data.status=='fulfilled'){
-                
-              	window.location.href="https://plumgoodness.clickpost.in/?order_id="+number
-              }
-              else{
-              	$('#text-error').text('value')
-              }
-            },
-      		error:function(){
-            
-            }
-        })
-      }
 </script>
 <style>
     .search .input-group .textbox {
