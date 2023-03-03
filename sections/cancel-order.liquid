@@ -298,10 +298,8 @@
         $.ajax({
             url:"https://order.plumgoodness.com/updateSheet/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
             contentType: "application/json",
-            dataType: 'json',
-      
-            success: function(data){         
-              
+            dataType: 'json',      
+            success: function(data){        
               var id=$('#order_id').val()
               var cono=$('#cno').val()
               if(data.message=='Excel sheet updated succesfully'){                      
@@ -312,7 +310,7 @@
                       $('#text-error').text('')
                       $('#text-error1').text('')
                       $('#text-error2').text('')
-                      $('#text-error2').text('Cancellation Ticket is successfully generated')
+                      $('#text-error2').text('Your order has been canceled!')
               }
               else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
                 //alert(data.status)
@@ -389,23 +387,27 @@
               user_name=data.name
     //           alert(payment_status)
     //           alert(financial_status)
-              if(data.status=='unfulfilled'){
-                  
-                //alert(financial_status)
+              if(data.status=='unfulfilled'){                  
                 modal1.style.display = "block";
               }
-              else if(data.status=='fulfilled'){
-                  
-                //alert(financial_status)
+              else if(data.status=='partial' || data.status=='partial fulfilled'){                  
                 $('#order_id').val('');
                 $('#cno').val('')
                 $('#text-error').text('')
                 $('#text-error1').text('')
                 $('#text-error2').text('')
-                $('#text-error1').html('Your order is dispatched. If you want to cancel this order, talk to our support on &nbsp; <a style="color: #5c248c;font-weight: bold;" href="mailto:hello@plumgoodness.com"> hello@plumgoodness.com</a>') 
+                $('#text-error1').html('A part of your order has been shipped for any cancellations please drop us an email to &nbsp; <a style="color: #5c248c;font-weight: bold;" href="mailto:hello@plumgoodness.com"> hello@plumgoodness.com</a>') 
+              }
+              el
+              else if(data.status=='fulfilled'){                  
+                $('#order_id').val('');
+                $('#cno').val('')
+                $('#text-error').text('')
+                $('#text-error1').text('')
+                $('#text-error2').text('')
+                $('#text-error1').html('Your order has already been dispatched for cancellation please drop us an email to &nbsp; <a style="color: #5c248c;font-weight: bold;" href="mailto:hello@plumgoodness.com"> hello@plumgoodness.com</a>') 
               }
               else if(data.status=='Not Valid Order Number'){
-                //alert(data.status)
                 $('#order_id').val('');
                 $('#cno').val('')
                 $('#text-error').text('')
@@ -427,7 +429,7 @@
                 $('#text-error').text('')
                 $('#text-error1').text('')
                 $('#text-error2').text('')
-                $('#text-error2').text('Already Cancelled')
+                $('#text-error2').text('Already Cancelled!')
               }
               else
                   modal.style.display = "block";
