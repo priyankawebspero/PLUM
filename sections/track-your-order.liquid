@@ -144,30 +144,9 @@
         {% include 'multilang' with page.title %}
       </h2>      
     </header>
-
-    {% comment %}
-    Regular page content goes here.
-    {% endcomment %}
-    <!--div class="search">
-      <div class="clear-both"></div>
-    <p class="input-group mrg-top-10">
-      <input type="text" class="textbox" placeholder="Enter Your Tracking ID/AWB">
-      <span class="icon-search" tabindex="0" role="button"></span>
-    </p>
-    </div-->
-    <!--p>
-    	<input id="order_number" type="text">
-      <button onclick="showStatus()">Track</button>
-      
-    </p>
-    <div id="text-error">
-    	abc
-    </div-->
     <div style="display:flex;justify-content:center">
-  <!--lable style="font-size:20px;color:rgb(92, 16, 140)" for="order_id" >Order Id</lable-->
   <br>
     <input id="order_number" style="background:#f8f8f8;border-radius:20px" type="text" value="" name="Order_id" id="first_name" placeholder="Enter Order Id" required="">
-  <!--lable style="font-size:20px;color:rgb(92, 16, 140)" for="cno">Enter Contact Number</lable-->
   <br>
   </div>
     
@@ -179,53 +158,6 @@
       <br>
   <button class="btn" style="background:rgb(92, 16, 140);border-radius:40px;color:white" onclick="showStatus()">Track</button>
 </div>
-    
-    <!--div class="img-responsive">
-    <!--nav class="navbar navbar-expand-sm" style="background-color: #5b128a;height: 56px;">
-      <a class="navbar-brand" href="#"><img
-          src="https://pyck-res-bucket.s3-ap-southeast-1.amazonaws.com/clickpost_assets/logo/plumgoodness_logo_white.png"
-          style="height: 40px;padding-left: 50px;"></a>
-
-    </nav-->
-    <!--div style="text-align: center;">
-      <p>Track your Order</p>
-    </div>
-    <div>
-      <div class="search" style="width: 100%;">
-        <div class="box">
-          <p class="input-group mrg-top-10">
-            <input id="order_number" class="textbox" type="text" placeholder="Enter Your Order No.">
-            
-            <br><button><span class="icon-search" style="cursor: pointer;" onclick="showStatus()">&#128269</span></button>
-          </p>
-          <p id="text-error"></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="img-responsive mobile">
-    <!--nav class="navbar navbar-expand-sm" style="background-color: #5b128a;height: 56px;">
-      <a class="navbar-brand" href="#"><img
-          src="https://pyck-res-bucket.s3-ap-southeast-1.amazonaws.com/clickpost_assets/logo/plumgoodness_logo_white.png"
-          style="height: 40px;padding-left: 50px;"></a>
-
-    </nav-->
-    <!--div style="text-align: center;">
-      <p>Track your Order</p>
-    </div>
-    <div >
-      <div class="search">
-        <div class="box">
-          <p class="input-group mrg-top-10">
-            <input id="order_number_mobile" class="textbox" type="text" placeholder="Enter Your Order No.">
-            <button><span class="icon-search" style="cursor: pointer;" onclick="showStatusMobile()">&#128269</span></button>
-          </p>
-          <p id="text-error"></p>
-        </div>
-      </div>
-    </div>
-    
-  </div-->
     {% if settings.enable_multilang and page.content contains '[lang2]' %}
     <div class="rte lang1">
       {{ page.content | split: '[lang2]' | first }}
