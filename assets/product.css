@@ -2045,6 +2045,17 @@ body.template-product .product-full-description .moreless-button.btn:after {
     padding-left: 20px;
 }
 
+.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
+    display: block;
+    text-align: center;
+    color: #5f258a;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: "DINNextRoundedLTPro-Bold";
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+
 @media only screen and (min-width:768px){
 
 .discription_outer .tabs__product-page .tab-content .parduct-page__horizontal-description .inside_tab .product-full-description {
