@@ -1,14 +1,11 @@
 var bcElla;
-$slideshow = $('.header-top-slider').slick({
-      dots:false,
-      autoplay:true,
-      arrows:true,
-      prevArrow:'<button type="button" class="slick-prev"></button>',
-      nextArrow:'<button type="button" class="slick-next"></button>',
-      slidesToShow:1,
-      slidesToScroll:1
-    });
-  $(document).ready(function() {
+// annoucement slider
+$(".header-top-slider").slick({dots:!1,autoplay:!0,arrows:!0,prevArrow:'<button type="button" class="slick-prev"></button>',nextArrow:'<button type="button" class="slick-next"></button>',slidesToShow:1,slidesToScroll:1});
+// search keypress
+$('input[type="search"]').on("keypress",(function(e){let o=$(".header-search__see-more").attr("href");13==e.which&&(void 0===o||(window.location="https://plumgoodness.com"+o))}));
+
+
+$(document).ready(function() {
       $("label.cstm-in_label").click(function(e) {
         console.log('check')
         e.preventDefault();
@@ -46,35 +43,7 @@ $slideshow = $('.header-top-slider').slick({
         $(this).closest(".products-grid").find('.product-item[data-product-id="product-' + productID + '"] .product-bottom .product-title').attr("href", currentUrl + '?variant=' + variantID);
       });
     });
-if((typeof Shopify.getCart) === 'undefined'){
-  Shopify.getCart = function(callback, cart){
-    if(!cart){
-      return jQuery.getJSON('/cart.js', function(cart, textStatus, xhr){
-        if((typeof callback) === 'function'){
-          callback(cart, textStatus, xhr);
-        } else {
-          Shopify.onCartUpdate(cart);
-        }
-      });
-    } else {
-      if((typeof callback) === 'function'){
-        callback(cart);
-      } else if(typeof Shopify.onCartUpdate === 'function'){
-        Shopify.onCartUpdate(cart);
-      }
-    }
-  };
-}
 
-$('input[type="search"]').on('keypress',function(e) {
-  let searc_url = $('.header-search__see-more').attr('href');
-    if(e.which == 13) {      
-      if(searc_url === undefined){        
-      }else{
-       window.location = 'https://plumgoodness.com' + searc_url;
-      }
-    }
-});
 if ((typeof Shopify) === 'undefined') { window.Shopify = {}; }
 // Get from cart.js returns the cart in JSON
 if ((typeof Shopify.getCart) === 'undefined') {
@@ -108,30 +77,23 @@ if ((typeof Shopify.getCart) === 'undefined') {
       miniProductList;
 
   var wishListsArr = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
-
   localStorage.setItem('items', JSON.stringify(wishListsArr));
-
   if (wishListsArr.length) {
     wishListsArr = JSON.parse(localStorage.getItem('items'));
   };
-
   doc.ready(function () {
-    iconNav = $('[data-menu-mb-toogle]'),
+      iconNav = $('[data-menu-mb-toogle]'),
       dropdownCart = $('#dropdown-cart'),
       miniProductList = dropdownCart.find('.mini-products-list');
-
     doc.ajaxStart(function () {
       ella.isAjaxLoading = true;
     });
-
     doc.ajaxStop(function () {
       ella.isAjaxLoading = false;
     });
 
     ella.init();
-
     bcElla = ella;
-
     doc
     .on('shopify:section:load', ella.initSlideshow)
     .on('shopify:section:unload', ella.initSlideshow)
@@ -158,7 +120,6 @@ if ((typeof Shopify.getCart) === 'undefined') {
     var resizeTimerId;
 
     clearTimeout(resizeTimerId);
-
     resizeTimerId = setTimeout(function() {
       var curWinWidth = win.innerWidth();
       if ((curWinWidth < 1200 && winWidth >= 1200) || (curWinWidth >= 1200 && winWidth < 1200)) {
@@ -186,7 +147,7 @@ if ((typeof Shopify.getCart) === 'undefined') {
     init: function () {
       this.CRMUserVaildation();
       this.UserVaildation();
-      this.closeHeaderTop();
+      //this.closeHeaderTop();
       this.showHideMenuMobile();
       this.closeAllOnMobile();
       this.initToggleMuiltiLangCurrency();
