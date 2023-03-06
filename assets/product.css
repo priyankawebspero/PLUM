@@ -2120,7 +2120,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
 }
 
 .video_outer .video_box {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     position: relative;
     padding-bottom: 55%;
     overflow: hidden;
@@ -2147,6 +2147,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 
 @media only screen and (min-width:768px){
+
+  .video_outer .video_box {
+    margin-bottom: 20px;
+  }
 
 .product-template .product-related-outer .slick-arrow {
     background: #5c0f8b;
