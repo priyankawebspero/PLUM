@@ -2566,6 +2566,10 @@ body.template-product .product-full-description .moreless-button.btn {
     flex-wrap: wrap;
 }
 
+.product-shop .product_form_desciption .product_info .product-infor .product-type:nth-of-type(2) {
+    padding-left: 15px;
+}
+
 }
 
 @media only screen and (max-width:479px){
