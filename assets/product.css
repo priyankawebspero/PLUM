@@ -2754,6 +2754,7 @@ body.template-product .product-full-description .moreless-button.btn {
     font-weight: 600;
     color: #5e0c8c;
     margin-bottom: 15px;
+  font-family: 'DINNextRoundedLTPro-Medium';
 }
 
 .additional_sections .three_blocks .col-4 .text {
@@ -2781,9 +2782,10 @@ body.template-product .product-full-description .moreless-button.btn {
 
 .additional_sections .image_with_text h3 {
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 15px;
     color: #5e0c8c;
+    font-family: 'DINNextRoundedLTPro-Medium';
 }
 
 .additional_sections .image_with_text h4 {
