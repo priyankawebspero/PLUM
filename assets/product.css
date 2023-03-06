@@ -2929,6 +2929,13 @@ body.template-product .product-full-description .moreless-button.btn {
     max-width: 220px;
 }
 
+.key_description>h5 {
+    font-family: 'DINNextRoundedLTPro-Bold';
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
