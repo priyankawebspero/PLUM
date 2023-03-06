@@ -2570,6 +2570,10 @@ body.template-product .product-full-description .moreless-button.btn {
     padding-left: 15px;
 }
 
+.product-shop .product_form_desciption .product_info .product-infor .product-type h3 {
+    font-size: 13px;
+}
+
 }
 
 @media only screen and (max-width:479px){
