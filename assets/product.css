@@ -2121,6 +2121,15 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 @media only screen and (min-width:768px){
 
+.video_outer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 20px;
+    padding: 0 15px;
+    justify-content: center;
+}
+
 .description_outer {
     display: flex;
     flex-wrap: wrap;
