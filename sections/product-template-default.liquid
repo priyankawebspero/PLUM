@@ -480,7 +480,7 @@
               {% assign Howtousevideos = product.metafields.Product['How to use video'] | split: "," %}
               {% if Howtousevideos != 0 and Howtousevideos != blank %}
                   {% for Howtousevideo in Howtousevideos %}
-                  <iframe width="100%" data-video-id="{{ Howtousevideo }}" height="100%" src="https://www.youtube.com/embed/{{ Howtousevideo }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe>
+                  <div class="video_box"><iframe width="100%" data-video-id="{{ Howtousevideo }}" height="100%" src="https://www.youtube.com/embed/{{ Howtousevideo }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe></div>
                   {% endfor %}
               {% endif %}  
             </div>
