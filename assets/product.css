@@ -2087,7 +2087,16 @@ body.template-product .product-full-description .moreless-button.btn:after {
     color: #5e0c8c;
     margin-bottom: 5px;
 }
-
+.product-shop .product_form_desciption .product_info .product-infor .product-type h3 {
+    border-radius: 0;
+    color: #5e0c8c;
+    font-size: 15px;
+    display: inline-block;
+    background: #EBE0F0;
+    padding: 6px 10px 4px;
+    margin: 4px 3px 4px 0;
+    line-height: 1;
+}
 
 @media only screen and (min-width:768px){
 
