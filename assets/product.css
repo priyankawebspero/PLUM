@@ -2119,6 +2119,10 @@ ul#tabs-navm {
     border-top: 3px solid #f5f0f7;
     margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .product ul#tabs-navm li {
@@ -2137,6 +2141,11 @@ ul#tabs-navm {
 
 .product ul#tabs-navm li {
     border-left: 2.5px solid #f5f0f7;
+}
+
+  .product ul#tabs-navm li:first-child {
+    border-left: none;
+    border-right: 2.5px solid #f5f0f7;
 }
 
 .product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
