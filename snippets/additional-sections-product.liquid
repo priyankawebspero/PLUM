@@ -1,0 +1,88 @@
+{% assign regimecontent1 = "" %} {% assign regimecontent2 = "" %}{% assign regimecontent3 = "" %}{% assign regimecontent4 = "" %}{% assign regimecontent5 = "" %}
+  {% for value in product.metafields.product.image_regime1 %}
+    {% if product.metafields.product.regime_content1[forloop.index0] != blank %}{% assign regimecontent1 = regimecontent1 | append:product.metafields.product.regime_content1[forloop.index0] | append: "," | strip_html %}{% endif %}
+    {% if product.metafields.product.regime_content2[forloop.index0] != blank %}{% assign regimecontent2 = regimecontent2 | append:product.metafields.product.regime_content2[forloop.index0] | append: "++++++++++++"  %}{% endif %}
+    {% if product.metafields.product.regime_content3[forloop.index0] != blank %}{% assign regimecontent3 = regimecontent3 | append:product.metafields.product.regime_content3[forloop.index0] | append: "++++++++++++"  %}{% endif %}
+{% if product.metafields.product.regime_content4[forloop.index0] != blank %}{% assign regimecontent4 = regimecontent4 | append:product.metafields.product.regime_content4[forloop.index0] | append: "++++++++++++"  %}{% endif %}
+{% if product.metafields.product.regime_content5[forloop.index0] != blank %}{% assign regimecontent5 = regimecontent5 | append:product.metafields.product.regime_content5[forloop.index0] | append: "++++++++++++" %}{% endif %}
+  {% endfor %}
+{% assign regimecontent1 =  regimecontent1 | split: ","  %}
+{% assign regimecontent2 =  regimecontent2 | split: "++++++++++++"  %}
+{% assign regimecontent3 =  regimecontent3 | split: "++++++++++++"  %}
+{% assign regimecontent4 =  regimecontent4 | split: "++++++++++++"  %}
+{% assign regimecontent5 =  regimecontent5 | split: "++++++++++++"  %}
+<div class="additional_sections">
+{% if product.metafields.product.key_information != blank %}<div class="key_description"> {{product.metafields.product.key_information}}</div> {% endif %}
+{% if product.metafields.product.imageBanner != blank %}<div class="image_section"><img src="{{ product.metafields.product.imageBanner }}"></div>{% endif %} 
+{% if product.metafields.product.first-col-text != blank or product.metafields.product.first-col-image != blank or product.metafields.product.second-col-text != blank or product.metafields.product.second-col-image != blank or product.metafields.product.third-col-text != blank or product.metafields.product.third-col-image != blank %}
+    {% if product.metafields.product.first-col-text!= blank or product.metafields.product.first-col-image!= blank%}     
+     <div class="row three_blocks">
+       {% for value in product.metafields.product.first-col-image %}
+        <div class="col-4">          
+          <div class="image"><img src="{{ value }}"></div>
+          <div class="text"> {{ product.metafields.product.first-col-text[forloop.index0] }}</div>
+        </div>
+       {% endfor %}    
+    </div>
+    {% endif %}
+  {% endif %}
+  {% if product.metafields.product.text-half !=blank or product.metafields.product.image-half !=blank %}
+    <div class="row image_with_text">
+      <div class="col-6 image"><img class="image_left" src="{{product.metafields.product.image-half}}"></div>
+      <div class="col-6 text"><div class="text_right">{{product.metafields.product.text-half}}</div></div>
+    </div>
+  {% endif %}
+ {% if product.metafields.product.image_sec!= blank %}     
+     <div class="row image_sec">
+       {% for value in product.metafields.product.image_sec %}
+          <div class="image"><img src="{{ value }}"></div>
+       {% endfor %}    
+    </div>
+    {% endif %}  
+<div class="row cd-products-comparison-table">
+		<header>
+			<h2>{{product.metafields.product.Head}}</h2>
+		</header>
+		<div class="cd-products-table">
+          <div class="cd-products-wrapper">
+            {% for value in product.metafields.product.image_regime1 %}
+				<ul class="cd-products-columns column_{{ forloop.index0 }}">
+					<li class="product">
+						<div class="top-info">
+							{% if value != blank %}<img src="{{ value }}" alt="product image">{% endif %}
+							{% if product.metafields.product.title_with_link[forloop.index0] != blank %}<div>{{product.metafields.product.title_with_link[forloop.index0]}}</div>{% endif %}
+						</div> <!-- .top-info -->
+						<ul class="cd-features-list">
+							{% if product.metafields.product.regime_content1[forloop.index0] != blank %}<li>{{product.metafields.product.regime_content1[forloop.index0]}}</li>{% endif %}
+							{% if product.metafields.product.regime_content2[forloop.index0] != blank %}<li>{{product.metafields.product.regime_content2[forloop.index0]}}</li>{% endif %}
+							{% if product.metafields.product.regime_content3[forloop.index0] != blank %}<li>{{product.metafields.product.regime_content3[forloop.index0]}}</li>{% endif %}
+							{% if product.metafields.product.regime_content4[forloop.index0] != blank %}<li>{{product.metafields.product.regime_content4[forloop.index0]}}</li>{% endif %}
+                            {% if product.metafields.product.regime_content5[forloop.index0] != blank %}<li>{{product.metafields.product.regime_content5[forloop.index0]}}</li>{% endif %}
+						</ul>
+					</li> <!-- .product -->
+				</ul> <!-- .cd-products-columns -->
+            {% endfor %}
+			</div> <!-- .cd-products-wrapper -->		
+		</div> <!-- .cd-products-table -->
+  <div class="cd-products-custom_table">
+    <table class="cd-products-table-cs">
+      <tbody>
+        <tr>
+        {% for value in product.metafields.product.image_regime1 %}
+       <th>
+      	{% if value != blank %}<img src="{{ value }}" alt="product image">{% endif %}
+        {% if product.metafields.product.title_with_link[forloop.index0] != blank %}<div>{{product.metafields.product.title_with_link[forloop.index0]}}</div>{% endif %}
+        </th>
+      {% endfor %}
+      </tr>
+        
+          {% if regimecontent1 %}<tr>{% for title_1 in regimecontent1 %}<td>{{ title_1 }}</td>{% endfor %}</tr>{% endif %}
+          {% if regimecontent2 %}<tr>{% for title_2 in regimecontent2 %}<td>{{ title_2 }}</td>{% endfor %}</tr>{% endif %}
+          {% if regimecontent3 %}<tr>{% for title_3 in regimecontent3 %}<td>{{ title_3 }}</td>{% endfor %}</tr>{% endif %}
+          {% if regimecontent4 %}<tr>{% for title_4 in regimecontent4 %}<td>{{ title_4 }}</td>{% endfor %}</tr>{% endif %}
+          {% if regimecontent5 %}<tr>{% for title_5 in regimecontent5 %}<td>{{ title_5 }}</td>{% endfor %}</tr>{% endif %}
+      </tbody>
+      </table>
+      </div>  
+	</div> 
+</div>
