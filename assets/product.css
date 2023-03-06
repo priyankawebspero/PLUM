@@ -1675,7 +1675,7 @@ span#mobile-share-button {
     margin-top: 15px;
 }
 
-.product ul#tabs-navm li h3 {
+.product ul#tabs-navm li h3, .product ul#tabs-navm li h2 {
     margin-bottom: 30px;
 }
 .discription_outer .tabs__product-page {
