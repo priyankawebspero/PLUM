@@ -2121,6 +2121,17 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 .video_outer .video_box {
     margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 55%;
+    overflow: hidden;
+}
+
+.video_outer .video_box iframe {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
 }
 
 .product-template .product-related-outer {
@@ -2132,6 +2143,8 @@ body.template-product .product-full-description .moreless-button.btn:after {
     margin-left: 0;
     margin-right: 0;
 }
+
+
 
 @media only screen and (min-width:768px){
 
