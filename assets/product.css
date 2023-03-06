@@ -1733,6 +1733,17 @@ span#mobile-share-button {
   font-size: 18px;
 }
 
+.discription_outer .tabs__product-page .wrapper-tab-content .tab-title .tab-links h3{
+font-family: "DINNextRoundedLTPro-Medium";
+    font-weight: 400;
+    color: #5e0d8b!important;
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 24px;
+  
+}
+
 .tab-content .col-sm-6.video-sec {
     padding: 0 20px;
 }
