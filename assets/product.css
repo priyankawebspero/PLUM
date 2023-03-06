@@ -2230,6 +2230,10 @@ ul#tabs-navm {
 
 @media only screen and (max-width:767px){
 
+.section_faq .box-title {
+    margin-bottom: 20px;
+}
+
 .product-template .section_faq h3.box-title span.title {
     display: block;
     padding: 0 15px;
