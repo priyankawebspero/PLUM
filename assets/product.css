@@ -2869,14 +2869,17 @@ body.template-product .product-full-description .moreless-button.btn {
     padding: 3px 3px 8px 3px;
     vertical-align: top;
 }
+
 .cd-products-custom_table table.cd-products-table-cs tr th a {
     color: #5e0c8c;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.4;
     display: block;
     margin-bottom: 0;
     font-size: 15px;
     text-align: center;
+    font-family: 'DINNextRoundedLTPro-Regular';
+    margin-top: 5px;
 }
 
 .cd-products-custom_table table.cd-products-table-cs td {
