@@ -2113,14 +2113,14 @@ body.template-product .product-full-description .moreless-button.btn:after {
 }
 
 .video.tab-contentm {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 .tab-contentm {
     width: 100%;
 }
 
 .video_outer .video_box {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     position: relative;
     padding-bottom: 55%;
     overflow: hidden;
@@ -2148,9 +2148,9 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 @media only screen and (min-width:768px){
 
-  .video_outer .video_box {
-    margin-bottom: 20px;
-  }
+  .video.tab-contentm {
+    margin-bottom: 30px;
+}
 
 .product-template .product-related-outer .slick-arrow {
     background: #5c0f8b;
