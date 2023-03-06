@@ -2135,6 +2135,15 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 @media only screen and (min-width:768px){
 
+.product-template .product-related-outer .slick-arrow {
+    background: #5c0f8b;
+    color: #fff;
+    top: -moz-calc(50%);
+    top: -webkit-calc(50%);
+    top: -ms-calc(50%);
+    top: calc(50%);
+}
+
 .product-template.product-template-default .product.row.product-default>.fw-section.icon-upper-row {
     border-bottom: none;
 }
