@@ -2112,6 +2112,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
     line-height: 1;
 }
 
+.video.tab-contentm {
+    margin-bottom: 40px;
+}
+
 @media only screen and (min-width:768px){
 
 .description_outer {
