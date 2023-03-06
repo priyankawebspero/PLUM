@@ -2127,6 +2127,12 @@ body.template-product .product-full-description .moreless-button.btn:after {
     background: none !important;
 }
 
+.product-related-outer .inner.product-item {
+    border: 1px solid #ccc;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media only screen and (min-width:768px){
 
 .product-template.product-template-default .product.row.product-default>.fw-section.icon-upper-row {
