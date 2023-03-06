@@ -2059,6 +2059,35 @@ body.template-product .product-full-description .moreless-button.btn:after {
 .discription_outer {
     flex-wrap: wrap;
 }
+/***----------product-css-new-----------------*/
+.advantages h2 {
+    color: #5e0c8c;
+    font-size: 20px;
+    font-family: DINNextRoundedLTPro-Regular;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.grammage h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 0.5rem;
+	margin-top: 0.2rem;
+}
+
+
+.product-infor .product-type h3 {
+    font-family: DINNextRoundedLTPro-Medium;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 18px;
+    color: #5e0c8c;
+    margin-bottom: 5px;
+}
+
 
 @media only screen and (min-width:768px){
 
