@@ -353,7 +353,7 @@
                       <div class="product-infor {% if bestSuited != 0 and bestSuited != blank or notRecommended != 0 and notRecommended != blank %}{% else %}no-border{% endif %}">
                         {% if bestSuited != 0 and bestSuited != blank %}
                           <div class="product-type">
-                            <label>Best suited for</label>
+                            <h3>Best suited for</h3>
                             {% for i in bestSuited %}
                               <span>{{ i }}</span>
                               {% if forloop.last %}
@@ -365,7 +365,7 @@
 
                         {% if notRecommended != 0 and notRecommended != blank %}
                           <div class="product-type no-recom">
-                            <label>Not advised for</label>
+                            <h3>Not advised for</h3>
                             {% for j in notRecommended %}
                               <span>{{ j }}</span>
                               {% if forloop.last %}
