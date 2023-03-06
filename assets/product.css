@@ -2915,8 +2915,8 @@ body.template-product .product-full-description .moreless-button.btn {
 }
 
 .cd-products-custom_table table.cd-products-table-cs tr td:first-child {
-    white-space: initial;
-    max-width: 300pc;
+    white-space: normal;
+    max-width: 300px;
 }
 
 .cd-products-custom_table table.cd-products-table-cs td {
@@ -2959,7 +2959,7 @@ body.template-product .product-full-description .moreless-button.btn {
 
 .cd-products-custom_table table.cd-products-table-cs tr td:first-child {
     white-space: normal;
-    min-width: 90px;
+    min-width: 150px;
 }
 
 .cd-products-custom_table table.cd-products-table-cs {
