@@ -355,7 +355,7 @@
                           <div class="product-type">
                             <h2>Best suited for</h2>
                             {% for i in bestSuited %}
-                              <span>{{ i }}</span>
+                              <h3>{{ i }}</h3>
                               {% if forloop.last %}
                             {% else %}
                               {% endif %}
@@ -367,7 +367,7 @@
                           <div class="product-type no-recom">
                             <h2>Not advised for</h2>
                             {% for j in notRecommended %}
-                              <span>{{ j }}</span>
+                              <h3>{{ j }}</h3>
                               {% if forloop.last %}
                             {% else %}
                               {% endif %}
