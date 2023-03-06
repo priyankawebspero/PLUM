@@ -2179,13 +2179,13 @@ ul#tabs-navm {
     padding-bottom: 1em;
 }
 
-.product ul#tabs-navm li:nth-of-type(2), .product ul#tabs-navm li:nth-of-type(3), .product ul#tabs-navm li:nth-of-type(4) {
+/*.product ul#tabs-navm li:nth-of-type(2), .product ul#tabs-navm li:nth-of-type(3), .product ul#tabs-navm li:nth-of-type(4) {
     display: none;
 }
 
 .video.tab-contentm {
     display: none !important;
-}
+}*/
 
 .discription_outer {
     display: -webkit-box !important;
