@@ -2135,6 +2135,29 @@ ul#tabs-navm {
     font-size: 33px;
 }
 
+.product ul#tabs-navm li .box-title span {
+    background: none;
+    padding: 0;
+}
+
+.product ul#tabs-navm li .box-title:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: #5e0d8b;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    opacity: 0;
+}
+
+.product ul#tabs-navm li.active a .box-title:after {
+    width: 100%;
+    opacity: 1;
+}
+
 .product ul#tabs-navm li a {
     padding: 15px;
     display: block;
