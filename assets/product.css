@@ -2292,7 +2292,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     display: block;
 }
 
-.product ul#tabs-navm li a h3 {
+.product ul#tabs-navm li a h3, .product ul#tabs-navm li a h2 {
     margin-bottom: 0;
     font-size: 20px;
     display: inline-block;
@@ -2308,11 +2308,11 @@ body.template-product .product-full-description .moreless-button.btn:after {
     border-right: inherit;
 }
 
-  .product ul#tabs-navm li a h3 span.title {
+  .product ul#tabs-navm li a h3 span.title,  .product ul#tabs-navm li a h2 span.title {
     padding: 0;
 }
 
-.product ul#tabs-navm li a h3:after {
+.product ul#tabs-navm li a h3:after, .product ul#tabs-navm li a h2:after {
     content: "";
     display: block;
     width: 0%;
@@ -2324,7 +2324,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     left: 0;opacity:0;
 }
 
-.product ul#tabs-navm li.active a h3:after{
+.product ul#tabs-navm li.active a h3:after, .product ul#tabs-navm li.active a h2:after{
   width: 100%; opacity:1;}
 
 .tab-contentm .col-6.col-sm-12 {
