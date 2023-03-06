@@ -2918,6 +2918,10 @@ body.template-product .product-full-description .moreless-button.btn {
     line-height: 1.4;
 }
 
+.cd-products-custom_table table.cd-products-table-cs tr td:first-child {
+    white-space: initial;
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
