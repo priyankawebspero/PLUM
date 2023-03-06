@@ -2125,6 +2125,10 @@ body.template-product .product-full-description .moreless-button.btn:after {
 
 @media only screen and (min-width:768px){
 
+.product-template.product-template-default .product.row.product-default>.fw-section.icon-upper-row {
+    border-bottom: none;
+}
+
 .video_outer {
     display: flex;
     /* flex-wrap: wrap; */
