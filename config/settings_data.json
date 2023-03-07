@@ -269,7 +269,7 @@
     "main-titile": "PLACE ORDER",
     "sub-titile": "",
     "btnBClr": "#5e0c8c",
-    "timer_enable": true,
+    "timer_enable": false,
     "Timer_date": "mar 07, 2023 05:00:00",
     "Timer_text": "Buy 2 Get 2 Free Sale ends in",
     "Timer_text_after": "Sale Over!!",
