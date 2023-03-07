@@ -2936,6 +2936,11 @@ body.template-product .product-full-description .moreless-button.btn {
     margin-top: 20px;
 }
 
+.goodness-inside p.full-ingredint-list {
+    margin-top: 25px;
+    color: #5e0d8b;
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
