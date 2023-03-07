@@ -70,7 +70,7 @@
         <tr>
         {% for value in product.metafields.product.image_regime1 %}
        <th>
-      	{% if value != blank %} <a href="{{ product.metafields.product.productid.url }}"><img src="{{ value }}" alt="product image"></a>{% endif %}
+      	{% if value != blank %} <a href="{{ product.metafields.product.productid }}"><img src="{{ value }}" alt="product image"></a>{% endif %}
         {% if product.metafields.product.title_with_link[forloop.index0] != blank %}<div>{{product.metafields.product.title_with_link[forloop.index0]}}</div>{% endif %}
         </th>
       {% endfor %}
