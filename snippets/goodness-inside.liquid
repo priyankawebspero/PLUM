@@ -15,10 +15,6 @@
           <div class="image__block img-block-1 text-center">
             <div class="image__block_inner-blg">
               {% assign Ingredient1-Image = product.metafields.Product['Ingredient 1 - Image'] %}
-              {% if Ingredient1-Image != 0 and Ingredient1-Image != blank %}
-                <!--          <div class="image-wrapper"><img src="{{ Ingredient1-Image }}"></div>   -->
-              {% endif %}
-
               {% assign Ingredient1-Name = product.metafields.Product['Ingredient 1 - Name'] %}
               {% if Ingredient1-Name != 0 and Ingredient1-Name != blank %}
                 <h4 class="text">{{ Ingredient1-Name }}</h4>
@@ -37,10 +33,6 @@
             <div class="image__block img-block-1 text-center">
               <div class="image__block_inner-blg">
                 {% assign Ingredient2-Image = product.metafields.Product['Ingredient 2 - Image'] %}
-                {% if Ingredient2-Image != 0 and Ingredient2-Image != blank %}
-                  <!--         <div class="image-wrapper"><img src="{{ Ingredient2-Image }}"></div>   -->
-                {% endif %}
-
                 {% assign Ingredient2-Name = product.metafields.Product['Ingredient 2 - Name'] %}
                 {% if Ingredient2-Name != 0 and Ingredient2-Name != blank %}
                   <h4 class="text">{{ Ingredient2-Name }}</h4>
@@ -61,10 +53,6 @@
             <div class="image__block img-block-1 text-center">
               <div class="image__block_inner-blg">
                 {% assign Ingredient3-Image = product.metafields.Product['Ingredient 3 - Image'] %}
-                {% if Ingredient3-Image != 0 and Ingredient3-Image != blank %}
-                  <!--         <div class="image-wrapper"><img src="{{ Ingredient3-Image }}"></div>   -->
-                {% endif %}
-
                 {% assign Ingredient3-Name = product.metafields.Product['Ingredient 3 - Name'] %}
                 {% if Ingredient3-Name != 0 and Ingredient3-Name != blank %}
                   <h4 class="text">{{ Ingredient3-Name }}</h4>
