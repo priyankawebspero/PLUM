@@ -23,7 +23,7 @@
     + minutes_bg + "</span><span class='inner'> MINUTES</span> : </span><hr><span class='seconds countdown'><span class='ocount'>" + seconds_bg + "</span><span class='inner'>  SECONDS</span></span><hr> ";
     // If the count down is over, write some text 
     if (distance_bg < 0) {
-      clearInterval(x);
+       clearInterval(x);
        document.getElementsByClassName("flash-sale-b2g2")[0].remove();
     }
   }, 1000);
