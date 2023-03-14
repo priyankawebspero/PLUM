@@ -204,6 +204,7 @@
       </div>
     
     </div>
+    <div id="order-form">
     <div style="display:flex;justify-content:center">
       <!--lable style="font-size:20px;color:rgb(92, 16, 140)" for="order_id" >Order Id</lable-->
       <br>
@@ -247,7 +248,10 @@
     <div style="display:flex;justify-content:center">
       <button class="btn" style="background:rgb(92, 16, 140);border-radius:5px;color:white" onclick="submit()">Cancel</button>
     </div>
-    
+    </div>
+    <div style="display:flex;justify-content:center;color:red;font-weight:bold" id="text-error-after-cancel">
+            
+        </div>
     <style>
      .hidden {
         display: none !important;
@@ -305,8 +309,8 @@
                       btn_sub.classList.remove("loading");
                       $('#text-error').text('')
                       $('#text-error1').text('')
-                      $('#text-error2').text('')
-                      $('#text-error2').text('Your prepaid order has been cancelled, the refund will be initiated within 24 hours.  It may take up to 3-5 business days for the refund to reflect in your source account.')
+                      $('#text-error-after-cancel').text('')
+                      $('#text-error-after-cancel').text('Your prepaid order has been cancelled, the refund will be initiated within 24 hours.  It may take up to 3-5 business days for the refund to reflect in your source account.')
               }
               else if(data.message=='Excel sheet updated succesfully'){                      
                       $('#order_id').val('');
@@ -315,8 +319,8 @@
                       btn_sub.classList.remove("loading");
                       $('#text-error').text('')
                       $('#text-error1').text('')
-                      $('#text-error2').text('')
-                      $('#text-error2').text('Your order has been canceled!')
+                      $('#text-error-after-cancel).text('')
+                      $('#text-error-after-cancel').text('Your order has been canceled!')
               }
               else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
                 //alert(data.status)
