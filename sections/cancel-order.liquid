@@ -291,44 +291,54 @@
         var cancel_reason = $('#other').val()
         console.log(cancel_reason);
         alert(order_id+cno+status+p_status);
-        // $.ajax({
-        //     url:"https://order.plumgoodness.com/updateSheet/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
-        //     contentType: "application/json",
-        //     dataType: 'json',      
-        //     success: function(data){        
-        //       var id=$('#order_id').val()
-        //       var cono=$('#cno').val()
-        //       if(data.message=='Excel sheet updated succesfully'){                      
-        //               $('#order_id').val('');
-        //               $('#cno').val('')
-        //               modal1.style.display = "none";
-        //               btn_sub.classList.remove("loading");
-        //               $('#text-error').text('')
-        //               $('#text-error1').text('')
-        //               $('#text-error2').text('')
-        //               $('#text-error2').text('Your order has been canceled!')
-        //       }
-        //       else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
-        //         //alert(data.status)
-        //         modal1.style.display = "none";
-        //         btn_sub.classList.remove("loading");
-        //         $('#text-error').text('')
-        //         $('#text-error1').text('')
-        //         $('#text-error2').text('')
-        //         $('#text-error2').text('Order is already canceled!')
-        //       }
-        //       else
-        //       modal1.style.display = "none";
-        //       btn_sub.classList.remove("loading");
+        $.ajax({
+            url:"https://order.plumgoodness.com/updateSheet/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
+            contentType: "application/json",
+            dataType: 'json',      
+            success: function(data){        
+              var id=$('#order_id').val()
+              var cono=$('#cno').val()
+              if((data.message=='Excel sheet updated succesfully') && status=='paid'){                      
+                      $('#order_id').val('');
+                      $('#cno').val('')
+                      modal1.style.display = "none";
+                      btn_sub.classList.remove("loading");
+                      $('#text-error').text('')
+                      $('#text-error1').text('')
+                      $('#text-error2').text('')
+                      $('#text-error2').text('Your prepaid order has been cancelled, the refund will be initiated within 24 hours.  It may take up to 3-5 business days for the refund to reflect in your source account.')
+              }
+              else if(data.message=='Excel sheet updated succesfully'){                      
+                      $('#order_id').val('');
+                      $('#cno').val('')
+                      modal1.style.display = "none";
+                      btn_sub.classList.remove("loading");
+                      $('#text-error').text('')
+                      $('#text-error1').text('')
+                      $('#text-error2').text('')
+                      $('#text-error2').text('Your order has been canceled!')
+              }
+              else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
+                //alert(data.status)
+                modal1.style.display = "none";
+                btn_sub.classList.remove("loading");
+                $('#text-error').text('')
+                $('#text-error1').text('')
+                $('#text-error2').text('')
+                $('#text-error2').text('Order is already canceled!')
+              }
+              else
+              modal1.style.display = "none";
+              btn_sub.classList.remove("loading");
               
-        //     },
-        //       error:function(){
-        //       $('#text-error').text('')
-        //         $('#text-error1').text('')
-        //         $('#text-error2').text('ops, looks like something went wrong! Please double check your order ID & contact number and try again.')
-        //     $('#text-error').text('Please Enter Valid Order Number')
-        //     }
-        // });
+            },
+              error:function(){
+              $('#text-error').text('')
+                $('#text-error1').text('')
+                $('#text-error2').text('ops, looks like something went wrong! Please double check your order ID & contact number and try again.')
+            $('#text-error').text('Please Enter Valid Order Number')
+            }
+        });
       }
       
       var financial_status='';
