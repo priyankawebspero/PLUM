@@ -310,7 +310,7 @@
                       $('#text-error').text('')
                       $('#text-error1').text('')
                       $('#text-error-after-cancel').text('')
-                      $('#order-form').style.display = "none";
+                      document.getElementById('order-form').style.display = 'none';
                       $('#text-error-after-cancel').text('Your prepaid order has been cancelled, the refund will be initiated within 24 hours.  It may take up to 3-5 business days for the refund to reflect in your source account.')
               }
               else if(data.message=='Excel sheet updated succesfully'){                      
@@ -320,7 +320,7 @@
                       btn_sub.classList.remove("loading");
                       $('#text-error').text('')
                       $('#text-error1').text('')
-                      $('#order-form').style.display = "none";
+                      document.getElementById('order-form').style.display = 'none';
                       $('#text-error-after-cancel').text('')
                       $('#text-error-after-cancel').text('Your order has been canceled!')
               }
