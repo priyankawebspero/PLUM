@@ -502,7 +502,7 @@ tabs.forEach((tab) => {
     console.log(cancel_reason);
     //alert(order_id+cno+status+p_status)
     $.ajax({
-        url:"https://order.plumgoodness.com/updateSheet/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
+        url:"https://order.plumgoodness.com/cancelOrder/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
         contentType: "application/json",
         dataType: 'json',
   
@@ -524,20 +524,20 @@ tabs.forEach((tab) => {
 
           	
           }
-          else if(data.message=='Order alredy canceled'){
-            //alert(data.status)
-            modal1.style.display = "none";
-            btn_sub.classList.remove("loading");
-            $('#text-error').text('')
-            $('#text-error1').text('')
-            $('#text-error2').text('')
-            $('#text-error2').text('Cancellation Ticket is already generated')
-          }
-          else
-          	modal1.style.display = "none";
-          btn_sub.classList.remove("loading");
-          
-        },
+           else if(data.status=='already cancel' || data.fulfillment_status =='fulfilled' || data.status=='Already cancelled'){
+                //alert(data.status)
+                modal1.style.display = "none";
+                btn_sub.classList.remove("loading");
+                $('#text-error').text('')
+                $('#text-error1').text('')
+                $('#text-error2').text('')
+                $('#text-error2').text('Order is already canceled!')
+              }
+              else
+              modal1.style.display = "none";
+              btn_sub.classList.remove("loading");
+              
+            },
   		error:function(){
           $('#text-error').text('')
             $('#text-error1').text('')
