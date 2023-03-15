@@ -302,6 +302,7 @@
             success: function(data){        
               var id=$('#order_id').val()
               var cono=$('#cno').val()
+              console.log(data.message);
               if((data.message=='Excel sheet updated succesfully') && status=='paid'){                      
                       $('#order_id').val('');
                       $('#cno').val('')
