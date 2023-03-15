@@ -298,7 +298,8 @@
         $.ajax({
             url:"https://order.plumgoodness.com/cancelOrder/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
             contentType: "application/json",
-            dataType: 'json',      
+            dataType: 'json', 
+            type: "POST",
             success: function(data){        
               var id=$('#order_id').val()
               var cono=$('#cno').val()
