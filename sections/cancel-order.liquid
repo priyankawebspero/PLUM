@@ -293,8 +293,8 @@
         var status=financial_status;
         var p_status=payment_status
         var cancel_reason = $('#other').val()
-        console.log(cancel_reason);
-        alert(order_id+cno+status+p_status);
+        //console.log(cancel_reason);
+        //alert(order_id+cno+status+p_status);
         $.ajax({
             url:"https://order.plumgoodness.com/cancelOrder/"+order_id+"/"+cno+"/"+p_status+"/"+status+"/"+cancel_reason,
             contentType: "application/json",
