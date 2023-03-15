@@ -416,6 +416,14 @@
                 $('#text-error2').text('')
                 $('#text-error1').html('Your order has already been dispatched for cancellation please drop us an email to &nbsp; <a style="color: #5c248c;font-weight: bold;" href="mailto:hello@plumgoodness.com"> hello@plumgoodness.com</a>') 
               }
+              else if(data.status=='Already Cancelled') {
+                $('#order_id').val('');
+                $('#cno').val('')
+                $('#text-error').text('')
+                $('#text-error1').text('')
+                $('#text-error2').text('')
+                $('#text-error2').text('Already Cancelled!')
+              }
               else if(data.status=='Not Valid Order Number'){
                 $('#order_id').val('');
                 $('#cno').val('')
@@ -431,14 +439,6 @@
                 $('#text-error1').text('')
                 $('#text-error2').text('')
                 $('#text-error2').text('ops, looks like something went wrong! Please double check your order ID & contact number and try again.')
-              }
-              else if(data.status=='Already Cancelled') {
-                $('#order_id').val('');
-                $('#cno').val('')
-                $('#text-error').text('')
-                $('#text-error1').text('')
-                $('#text-error2').text('')
-                $('#text-error2').text('Already Cancelled!')
               }
               else
                   modal.style.display = "block";
@@ -481,4 +481,5 @@
 "settings": [
 ]
 }
+  
 {% endschema %}    
