@@ -2941,6 +2941,10 @@ body.template-product .product-full-description .moreless-button.btn {
     color: #5e0d8b;
 }
 
+.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
+    text-align: left;
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
