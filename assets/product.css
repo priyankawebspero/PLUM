@@ -2413,9 +2413,10 @@ ul#tabs-navm {
     top: 0;
     text-align: center;
     width: 100%;
-    border-top: 2px solid #f5f0f7 !important;
+  margin-top: 5px;
+    /*border-top: 2px solid #f5f0f7 !important;
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 10px;*/
 }
 
 .product-shop .product_gift_bx .free-shipping-top {
