@@ -2941,7 +2941,7 @@ body.template-product .product-full-description .moreless-button.btn {
     color: #5e0d8b;
 }
 
-.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title {
+.product-pge-tabs .jdgm-rev-widg .jdgm-rev-widg__title, .product-related-outer .widget-title h3.box-title {
     text-align: left;
 }
 
