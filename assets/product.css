@@ -2945,6 +2945,19 @@ body.template-product .product-full-description .moreless-button.btn {
     text-align: left;
 }
 
+.section_faq h2.box-title span.title {
+    padding: 0;
+}
+
+.section_faq h2.box-title {
+    width: 100%;
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 0 15px;
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
