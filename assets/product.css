@@ -2956,6 +2956,7 @@ body.template-product .product-full-description .moreless-button.btn {
     margin-right: auto;
     text-align: left;
     padding: 0 15px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width:1024px){
