@@ -1871,6 +1871,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     color: #5e0c8c!important;
     font-size: 20px;
     cursor: pointer;
+  margin-top: 20px;
 }
 
 .three-sections .goodness-section .ingredient .see-full-ingredent i.fa, .goodness-inside .see-full-ingredent i.fa {
