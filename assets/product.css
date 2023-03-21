@@ -2970,6 +2970,14 @@ body.template-product .product-full-description .moreless-button.btn {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width:768px){
+
+.goodness-inside .detil-page {
+    justify-content: center;
+}
+
+}
+
 @media only screen and (max-width:1024px){
 
 .additional_sections {
