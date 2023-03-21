@@ -2373,6 +2373,10 @@ ul#tabs-navm {
     margin-top: 0;
 }
 
+.goodness-inside p.full-ingredint-list {
+    margin-top: 10px;
+}
+
 .section_faq .box-title {
     margin-bottom: 20px;
 }
