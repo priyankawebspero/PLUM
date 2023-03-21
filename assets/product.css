@@ -2976,6 +2976,14 @@ body.template-product .product-full-description .moreless-button.btn {
     justify-content: center;
 }
 
+.product ul#tabs-navm li .box-title {
+    display: inline-block;
+}
+
+.product ul#tabs-navm li {
+    width: 50%;
+}
+
 }
 
 @media only screen and (max-width:1024px){
