@@ -2982,6 +2982,7 @@ body.template-product .product-full-description .moreless-button.btn {
 
 .product ul#tabs-navm li {
     width: 50%;
+  float: left;
 }
 
 }
