@@ -1865,7 +1865,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     font-size: 40px;
     color: #5e0d8b;
 }
-.three-sections .goodness-section .ingredient .see-full-ingredent {
+.three-sections .goodness-section .ingredient .see-full-ingredent, .goodness-inside .see-full-ingredent {
     margin-bottom: 0;
     font-family: DINNextRoundedLTPro-Bold!important;
     color: #5e0c8c!important;
@@ -1873,7 +1873,7 @@ body.template-product .product-full-description .moreless-button.btn:after {
     cursor: pointer;
 }
 
-.three-sections .goodness-section .ingredient .see-full-ingredent i.fa {
+.three-sections .goodness-section .ingredient .see-full-ingredent i.fa, .goodness-inside .see-full-ingredent i.fa {
     font-size: 20px;
     font-weight: 600;
     padding-left: 0 !important;
