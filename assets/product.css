@@ -2369,6 +2369,10 @@ ul#tabs-navm {
 
 @media only screen and (max-width:767px){
 
+.three-sections .goodness-section .ingredient .see-full-ingredent, .goodness-inside .see-full-ingredent {
+    margin-top: 0;
+}
+
 .section_faq .box-title {
     margin-bottom: 20px;
 }
