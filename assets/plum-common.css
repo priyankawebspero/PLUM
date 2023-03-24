@@ -2224,6 +2224,7 @@ div#shopify-section-related-blod-sec {
 
 #dropdown-cart .best-sell-product .widget-product .grid-item .inner.product-item {
     display: flex;
+  overflow: hidden;
 }
 
 #dropdown-cart .best-sell-product .widget-product .grid-item .inner.product-item .inner-top {
