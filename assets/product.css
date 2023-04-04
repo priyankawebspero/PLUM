@@ -2791,7 +2791,7 @@ body.template-product .product-full-description .moreless-button.btn {
     align-items: center;
 }
 
-.additional_sections .image_with_text h3 {
+.additional_sections .image_with_text h3, .additional_sections .image_with_text h2 {
     font-size: 23px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -3050,7 +3050,7 @@ body.template-product .product-full-description .moreless-button.btn {
     font-size: 18px;
 }
 
-.additional_sections .image_with_text h3 {
+.additional_sections .image_with_text h3, .additional_sections .image_with_text h2 {
     font-weight: 500;
   font-size: 20px;
 }
