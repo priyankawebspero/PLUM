@@ -25,7 +25,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/02_Category_Icons_Body_small_c9d13915-cef6-4b25-a6a3-8aac572cb169.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/plum-bodylovin",
             "title": "bodycare"
           }
@@ -34,7 +34,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/200x200_c0be22a6-175a-4cfb-b51e-8e5d7d7c6d37.jpg",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/fragrance",
             "title": "fragrance"
           }
@@ -61,7 +61,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/Phy_Category_Icons_small_8068dedb-3f98-46cd-9f0b-ceda48cbb90e.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/phy",
             "title": "phy"
           }

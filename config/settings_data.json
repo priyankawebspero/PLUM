@@ -204,7 +204,7 @@
     "trending_search_item_6": "dinterdum",
     "enable_search_popular_products": false,
     "popular_products_search_title": "Popular Products",
-    "popular_products_collection": "",
+    "popular_products_collection": "red-carpet",
     "popular_products_limit": 3,
     "enable_multiple_currencies": false,
     "currency_1_unit": "AED",
@@ -634,7 +634,7 @@
         "settings": {
           "show_cart_best_sellers_product": false,
           "title": "Best Sellers",
-          "show_slider_featured_collection": "",
+          "show_slider_featured_collection": "red-carpet",
           "slider_featured_limit_all": 10,
           "collection_results_per_row1": "4"
         }
@@ -2304,7 +2304,7 @@
             "settings": {
               "enable": true,
               "title": "منتجات مميزة | Featured Products",
-              "collection": "",
+              "collection": "red-carpet",
               "limit": "3"
             }
           },

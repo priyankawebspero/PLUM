@@ -26,7 +26,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/02_Category_Icons_Body_small_62e009f2-6a79-460f-aa32-3ac65bdd06f9.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/plum-bodylovin",
             "title": "Hydration"
           }
@@ -35,7 +35,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/200x200_559234f8-f11e-4417-94e5-42b143257a4b.jpg",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/fragrance",
             "title": "fragrance"
           }
@@ -44,7 +44,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/04_Make-Up_Category_Icons_small_8f44a037-88e0-469f-a45a-6b558f81a9d5.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "shopify:\/\/collections\/makeup",
             "title": "makeup"
           }
@@ -53,7 +53,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/03_Hair_Category_Icons_small_099459e1-9156-4371-b8b3-588e58f044ad.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "shopify:\/\/collections\/hair-offers",
             "title": "haircare"
           }
@@ -62,7 +62,7 @@
           "type": "collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/Phy_Category_Icons_small_8068dedb-3f98-46cd-9f0b-ceda48cbb90e_1.png",
-            "collection": "",
+            "collection": "red-carpet",
             "url": "https:\/\/plumgoodness.com\/pages\/phy",
             "title": "phy"
           }
