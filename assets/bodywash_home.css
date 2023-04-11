@@ -36,9 +36,6 @@
     right: 15px !important;
 }
 
-.home-spotlight-slider-sections .widget-title.not-before.no-des {
-    margin-bottom: 0;
-}
 .home-spotlight-slider-sections .widget-title h3.box-title {
     font-size: 0;
     margin: 0;
@@ -167,6 +164,22 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 .featured-products .product-item .product-label{background:#fdc8d6}
 .featured-products .product-item .product-label .label{color:#d6006d}
 
+main.main-content {
+    padding-bottom: 60px !important;
+}
+
+body .home-collection-carousel .banner-heading {
+    color: #d6006d;
+}
+
+body .home-slideshow-sections .home-slideshow {
+    margin-bottom: 0!important;
+}
+
+body .home-slideshow-sections .home-slideshow .slick-arrow {
+    background-color: #d6006d !important;
+}
+
 @media (min-width:1024px) {
 .home-brands-new-sections{padding-top:20px}
 .gl_custom_html_home .bodylin_videos_inner img{width:100%;height:auto;object-fit:cover}
@@ -176,13 +189,15 @@ a.btn:hover,a.btn:focus{background:#f36b8f;background-image:inherit!important}
 .featured-products .widget-product .slick-arrow.slick-prev{left:-40px!important}
 .featured-products .widget-product .slick-arrow.slick-next{right:-40px!important}
 .featured-products .widget-product{max-width:1270px;width:100%;max-width:1270px;margin:0 auto;padding:0 15px}
+  .home-spotlight-slider-sections .container {
+    max-width: 1270px !important;
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1250px) {
 div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:-100px}
 }
 @media ( min-width: 768px ) {
 .featured-products .widget-product .slick-arrow{top:-moz-calc(50% - 35px);top:-webkit-calc(50% - 35px);top:-ms-calc(50% - 35px);top:calc(50% - 35px)}
-.featured-products h3.box-title{margin-bottom:0}
 .featured-products .inner.product-item{margin-left:7px;margin-right:7px}
 .featured-products .widget-product .slick-list.draggable{margin-left:-7px;margin-right:-7px}
 }
@@ -247,6 +262,10 @@ a.btn,.content .btn, .home-spotlight-slider-sections a.btn{font-size:18px;border
 .home-brands-new-sections{margin-bottom:10px}
 .home-spotlight-slider-sections .bodywash-crg-block{padding-bottom:30px!important}
 #bodywash main.main-content{padding-bottom:30px}
+.home-collection-carousel ul.slick-dots li button {
+    margin-top: 2px !important;
+}
+  
 }
 @media only screen and (max-width:575px) {
 #bodywash .site-header .header-top .header-pramotion{text-align:center!important}
@@ -440,3 +459,99 @@ div.home-spotlight-slider-sections .row.spotlight-4-blocks{margin-top:0}
   
 }
 
+.bodywash-custom-collection-sections {
+    padding-bottom: 0 !important;
+}
+
+.home-collection-carousel ul.slick-dots {
+    margin-top: 10px;
+}
+
+.home-collection-carousel ul.slick-dots li {
+    width: 16px;
+    height: 16px;
+}
+
+.brands-style-2 .slick-dots li button, .widget-product .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    background: none;
+    border-color: #a0a0a0;
+    border: 2px solid #d6006d !important;
+}
+
+.widget-product .slick-arrow {
+    background: #d6006d !important;
+    color: #fff;
+}
+
+.brands-style-2 .slick-dots li.slick-active button, .widget-product .slick-dots li.slick-active button {
+    border-color: transparent !important;
+    background: #d6006d !important;
+}
+
+a.btn {
+    background: #d6006d !important;
+}
+
+@media only screen and (min-width:768px){
+
+.home-collection-carousel {
+    margin: 30px 0 50px 0 !important;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1199px){
+.featured-products .inner.product-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+
+@media only screen and (max-width: 767px){
+.featured-products .col-12.col-md-12 {
+    padding-bottom: 80px !important;
+}
+body .featured-products ul.slick-dots {
+    display: block !important;
+}
+
+body .featured-products .widget-product .slick-arrow {
+    display: none !important;
+}
+
+.featured-products .product-item .product-bottom {
+    min-height: 220px !important;
+}
+
+.featured-products ul.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.bodywash-custom-collection-sections .col-12.col-md-8 .spotlight-item {
+    margin-bottom: 0;
+}
+
+.home-spotlight-slider-sections .home-spotlight-slider {
+    padding-bottom: 20px!important;
+}
+
+.home-brands-new-sections .slick-dots li button {
+    border: 2px solid #d6006d !important;
+}
+  
+}
+
+@media only screen and (max-width: 549px){
+.featured-products .products-grid.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.featured-products .inner.product-item {
+    margin-bottom: 10px !important;
+}
+}
