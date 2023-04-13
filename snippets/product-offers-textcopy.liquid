@@ -1,0 +1,28 @@
+<div class="col-md-12 product_gift_bx">
+       <!--Free shipping offer text start -->
+        {% if settings.display-free-text %}
+        <br>
+        <div class="free-shipping-top" style="list-style-type: none;">
+          <p class="offers_sec">offers</p>
+          <ul class="list" style="list-style-type: none;">
+            {% if settings.offer_1 != blank %}
+            <li style="list-style-type: none;">{{ settings.offer_1 }}</li>
+            {% endif %}
+            {% if settings.offer_2 != blank %}
+            <li style="list-style-type: none;">{{ settings.offer_2 }}</li>
+
+            {% endif %}
+            {% if settings.offer_3 != blank %}
+            <li style="list-style-type: none;">{{ settings.offer_3 }}</li>
+            {% endif %}
+            {% if settings.offer_4 != blank %}
+            <li style="list-style-type: none;">{{ settings.offer_4 }}</li>
+            {% endif %}
+            {% if settings.offer_5 != blank %}
+            <li style="list-style-type: none;">{{ settings.offer_5 }}</li>
+            {% endif %}
+          </ul>
+        </div>
+        {% endif %}
+        <!--Free shipping offer text end -->
+      </div>
