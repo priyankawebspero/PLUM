@@ -292,45 +292,100 @@
           {% endform %}
       </div> 
 
-          {% if section.settings.display_product_detail_tag %}
-          <div class="tags">
-        
-            <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{%endif%}>{{ 'blogs.article.tags' | t }}:</strong>
-            {% for tag in product.tags %}
-            <span class="separator">/</span>
-            <a href="/collections/all/?constraint={{ tag | handle }}" rel="tag">
-              {% if settings.enable_multilang %}
+      {% if section.settings.display_product_detail_tag %}
+      <div class="tags">
+        <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{% endif %}>{{ 'blogs.article.tags' | t }}:</strong>
+        {% for tag in product.tags %}
+          <span class="separator">/</span>
+          <a href="/collections/all/?constraint={{ tag | handle }}" rel="tag">
+            {% if settings.enable_multilang %}
               <span class="lang1">{{ tag | split: '|' | first }}</span>
               <span class="lang2">{{ tag | split: '|' | last }}</span>
-              {% else %}
+            {% else %}
               <span>{{ tag | split: '|' | first }}</span>
-              {% endif %}
-            </a>
-            {% endfor %}
-          </div>
-          {% endif %}
-          <div class="wrapper_div">
-          <div class="visible_mobile" style="display:none;">
-            <div class="row">
-              <div class="short-desc-datas">
-            {% if product.metafields.Product['Short Description'] != blank %}
-            {{ product.metafields.Product['Short Description'] }}
-            {% else %}           
-              
             {% endif %}
-              </div>
-            </div>
+          </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+          <div class="wrapper_div">
+            {% include 'product-offers-textcopy' %}
           </div>
-         {% include 'product-offers-textcopy' %}
-       </div>
         </div>
       </div>
 
     </div>
-      {% include 'image-product-CRG' %}     
-      {% include 'tab-horizontal' %}
-      {% include 'melt-section-image' %}
-      {% include 'Review-question-tab' %}   
+
+          {% include 'image-product-CRG' %}
+          <div class="row">
+            <div class="col-12 widget-title not-before">
+              <ul id="tabs-navm">
+                <li>
+                  <a href="#tab1">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>description</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tab2">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>video</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="discription_outer tab-contentm" id="tab1">
+              <div class="description_outer">
+              <div class="col-6 col-sm-12">
+                <div class="product-full-description">
+                  <div class="description-wrapper">
+                    {% if product.metafields.Product['Short Description'] != blank %}
+                      {{ product.metafields.Product['Short Description'] }}
+                    {% endif %}
+                    {% if product.metafields.Product['moreinformation'] != blank %}
+                      <div class="append-content-custom">
+                        {{ product.metafields.Product['moreinformation'] }}</div>
+                      <span class="moreless-button btn">view more</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-12">
+                {% include 'tab-horizontal' %}
+              </div>
+              </div>
+            </div>
+            <div class="video tab-contentm" id="tab2">
+              {% assign Howtousevideos = product.metafields.Product['How to use video'] | split: "," %}
+              {% if Howtousevideos != 0 and Howtousevideos != blank %}
+                <div class="video_outer"> 
+                  {% for Howtousevideo in Howtousevideos %}
+                    <div class="video_box"><iframe width="100%" data-video-id="{{ Howtousevideo }}" height="100%" src="https://www.youtube.com/embed/{{ Howtousevideo }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe></div>
+                  {% endfor %}
+                </div>
+              {% endif %}  
+            </div>
+          </div>
+          <div class="three-sections">          
+            {% include "goodness-inside" %}
+          </div>
+          {% include 'additional-sections-product' %} 
+          {% include 'Review-question-tab' %}
+          
+          {% if product.metafields.Product['faqs'] != blank %}
+          <div class="section_faq">
+            <div class="widget-title not-before"><h2 class="box-title"><span class="title"><span>frequently asked questions</span></span></h2></div>            
+              <div class="faqs">{{ product.metafields.Product['faqs'] }}</div>            
+          </div>
+        {% endif %}
     
     {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
       <div class="container-padd60 product-related-outer fw-section">
