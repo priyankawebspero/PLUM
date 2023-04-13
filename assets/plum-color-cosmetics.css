@@ -465,5 +465,14 @@ span.select2-results .select2-results__options li[aria-selected="true"] {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+
+.product_title_box_mob {
+    margin-top: 8px !important;
+}
+
+.product_form_desciption #product-variants .mobile-cart {
+    order: 3;
+}
   
 }
