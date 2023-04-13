@@ -401,7 +401,35 @@
                 {% endif %}
 
                 <div class="wrapper_div">
-             {% include 'product-offers-textcopy' %}
+        <div class="col-md-12 product_gift_bx">
+                    <!--Free shipping offer text start -->
+          {% if section.settings.display-free-text %}
+          <br>
+          <div class="free-shipping-top" style="list-style-type: none;">
+                        <h3 class="offers_sec">offers</h3>
+                        <ul class="list" style="list-style-type: none;">
+              {% if section.settings.offer_1 != blank %}
+              <li style="list-style-type: none;">{{ section.settings.offer_1 }}</li>
+              {% endif %}
+              {% if section.settings.offer_2 != blank %}
+              <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
+              {% endif %}
+              {% if section.settings.offer_3 != blank %}
+              <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
+              {% endif %}
+              {% if section.settings.offer_4 != blank %}
+              <li style="list-style-type: none;">{{ section.settings.offer_4 }}</li>
+              {% endif %}
+              {% if section.settings.offer_5 != blank %}
+              <li style="list-style-type: none;">{{ section.settings.offer_5 }}</li>
+              {% endif %}
+            </ul>
+                        <button class="read-more">view more</button>
+                        <button class="read-less">view less</button>
+          </div>
+          {% endif %}
+          <!--Free shipping offer text end -->
+        </div>
        </div>
         </div>
       </div>
