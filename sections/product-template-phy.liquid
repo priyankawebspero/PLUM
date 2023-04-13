@@ -1,9 +1,9 @@
 {% include 'sca_freegift_price' with product %}
+{{ 'product.css' | asset_url | stylesheet_tag }}
+{{ 'product-phy.css' | asset_url | stylesheet_tag }}
 <div class="product-template product-template-default">
   <div class="halo-product-content">
   <div class="pro-page">
-{{ 'product.css' | asset_url | stylesheet_tag }}
-{{ 'product-phy.css' | asset_url | stylesheet_tag }}
 <div data-section-id="{{ section.id }}" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="/collections/{{collection.handle}}?view=related">
   <div class="product row product-default">
     {%- assign current_variant = product.selected_or_first_available_variant -%}
