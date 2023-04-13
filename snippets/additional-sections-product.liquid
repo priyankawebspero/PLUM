@@ -12,7 +12,7 @@
 {% assign regimecontent4 =  regimecontent4 | split: "++++++++++++"  %}
 {% assign regimecontent5 =  regimecontent5 | split: "++++++++++++"  %}
 <div class="additional_sections">
-  {% if product.metafields.product.short_key_description != blank %}<div class="short_key_description"> {{product.metafields.product.short_key_description}}</div> {% endif %}
+  {% if product.metafields.product.short_key_description != blank %}<div class="key_description"> {{product.metafields.product.short_key_description}}</div> {% endif %}
   {% if product.metafields.product.imageBanner != blank %}<div class="image_section"><img src="{{ product.metafields.product.imageBanner }}"></div>{% endif %} 
 {% if product.metafields.product.key_information != blank %}<div class="short_key_description"> {{product.metafields.product.key_information}}</div> {% endif %}
 {% if product.metafields.product.first-col-text != blank or product.metafields.product.first-col-image != blank or product.metafields.product.second-col-text != blank or product.metafields.product.second-col-image != blank or product.metafields.product.third-col-text != blank or product.metafields.product.third-col-image != blank %}
