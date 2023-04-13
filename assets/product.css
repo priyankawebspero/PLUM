@@ -3014,6 +3014,15 @@ body.template-product .product-full-description .moreless-button.btn {
 
 @media only screen and (max-width:767px){
 
+.product-template.product-template-default .icon-upper-row.visible_desktop.fw-section {
+    display: block;
+    padding: 20px 0 10px 0 !important;
+    border: none !important;
+}
+.product-template.product-template-default .product.row.product-default>div.icon-upper-row.visible_mobile {
+    display: none !important;
+}
+
 .cd-products-custom_table table.cd-products-table-cs td {
     min-width: 150px;
     text-align: center;
