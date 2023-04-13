@@ -1,10 +1,15 @@
 {% include 'sca_freegift_price' with product %}
+{{ 'product.css' | asset_url | stylesheet_tag }}
+{{ 'product-phy.css' | asset_url | stylesheet_tag }}
 <div class="product-template product-template-default">
   <div class="halo-product-content">
   <div class="pro-page">
-{{ 'product.css' | asset_url | stylesheet_tag }}
-{{ 'product-phy.css' | asset_url | stylesheet_tag }}
-<div data-section-id="{{ section.id }}" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="/collections/{{collection.handle}}?view=related">
+      <div
+        data-section-id="{{ section.id }}"
+        data-section-type="product"
+        id="ProductSection-{{ section.id }}"
+        data-enable-history-state="true"
+        data-collections-related="/collections/{{collection.handle}}?view=related">
   <div class="product row product-default">
     {%- assign current_variant = product.selected_or_first_available_variant -%}
     {% assign variantCount = sca_product_variantCount %}
@@ -12,14 +17,26 @@
       {% include 'breadcrumb' %}
       <div class="row product_top{% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' %} horizontal-tabs{% else %} vertical-tabs has-sticky-product-img{% endif %}">
          <div class="col-md-5 product-photos {% if product.tags contains 'birthday20' %} birthday20{% endif %} {% if product.tags contains 'birthday40' %} birthday40{% endif %} {% if product.tags contains 'birthday50' %} birthday50{% endif %} {% if product.tags contains 'Plum 999' %} plum_999{% endif %}" data-more-view-product>
-          <div {% if section.settings.show_tab == 'vertical' %} data-sticky-product-img{% endif %} class="product-img-box{% if section.settings.style_moreview == 'horizontal' %} horizontal-moreview{% elsif section.settings.style_moreview == 'left_vertical' %} left-vertical-moreview vertical-moreview{% else %} right-vertical-moreview vertical-moreview{% endif %}{% if settings.product_image_border%} grid-item-border{% endif %}">
+                <div
+                  {% if section.settings.show_tab == 'vertical' %}
+                  data-sticky-product-img
+                  {% endif %}
+                  class="product-img-box{% if section.settings.style_moreview == 'horizontal' %} horizontal-moreview{% elsif section.settings.style_moreview == 'left_vertical' %} left-vertical-moreview vertical-moreview{% else %} right-vertical-moreview vertical-moreview{% endif %}{% if settings.product_image_border%} grid-item-border{% endif %}">
             <div style="position: relative;" class="wrapper-images">
               <div class="product-photo-container p-slider-s">
                 {% for image in product.images %}
                 <div class="thumb filter-{{ image.alt | handle }}">
-                  <a data-zoom class="fancybox" rel="gallery1" href="{{ image | img_url: 'original' }}" data-fancybox="images">
-                    <img id="product-featured-image-{{image.id}}" src="{{ image | img_url: '750x' }}" alt="{{ image.alt | escape }}"
-                         class="lazyload"
+                          <a
+                            data-zoom
+                            class="fancybox"
+                            rel="gallery1"
+                            href="{{ image | img_url: 'original' }}"
+                            data-fancybox="images">
+                            <img
+                              id="product-featured-image-{{image.id}}"
+                              src="{{ image | img_url: '750x' }}"
+                              alt="{{ image.alt | escape }}"
+                              class="lazyautosizes lazyload"
                          data-src="{{ image | img_url: '750x' }}"
                          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
                          data-aspectratio="{{ image | img_url: '750x' }}"
@@ -42,92 +59,74 @@
               {% endfor %}
             </div>
           </div>
-          <div class="col-md-12 visible_desktop">
-            <div class="row">
-            <div class="short-desc-datas">
-            {% if product.metafields.Product['Short Description'] != blank %}
-            {{ product.metafields.Product['Short Description'] }}
-            {% else %}
-            {{ product.metafields.Product['Short Description '] }}              
-            {% endif %}
+
               </div>
-            </div>
-          </div>
-        </div>
-        {% assign productMetafields = product.metafields.Product %}
         <div class="col-md-7 product-shop">
-          <div class="product_title_box" style="position:relative;">
-            {% assign Range_url = product.metafields.Product['Range_url'] %}
-            {% assign rangeText =  product.metafields.Product["Range"] %}
-            {% if rangeText == blank %}
-            {% assign rangeText =  product.metafields.Product["Range "] %}
-            {% endif %}
-            {% if Range_url != blank %}
-            {% if rangeText != blank %}
-            <a href="{{ Range_url }}" class="range-link">{{ rangeText }}</a>
-            {% endif %}
-            {% else %}
-            {% if rangeText != blank %}
-            <span href="{{ Range_url }}" class="range-link">{{ rangeText }}</span>
-            {% endif %}
-            {% endif %}
+                <div class="product_title_box">
             <h1 class="product-title">
-              <span class="lang1">
-                {{ product.title }}
-              </span>
+                    <span class="lang1">{{ product.title }}</span>
+                  </h1>
+                  {% if product.metafields.Product["advantages"] != blank %}
+                    <div class="advantages"><h2> {{ product.metafields.Product["advantages"] }}</h2></div>
+                  {% endif %}
             <div class="grammage">
               {% assign Grammage = product.metafields.product['grammage'] %}
               {% if Grammage != 0 and Grammage != blank %}
-              <label>Available in: {{ Grammage }}</label>       
+                      <h3>Available in: {{ Grammage }}</h3>
               {% endif %}
             </div>
-            </h1>            
           </div>
 
           <div class="product_form_desciption">       
           {% form 'product', product, id: "add-to-cart-form", novalidate: 'novalidate' %}
-          {% if settings.display_size_chart %}
-          <a data-toggle="modal" data-target="#size_chart" class="size-chart-open-popup">
-            {% include 'multilang' with settings.size_guide_text %}
-          </a>
-          {% endif %}
-
           <div id="product-variants" class="varient_  {% if product.options.size == 1 and product.variants[0].title == 'Default Title' %}without_variant{% endif %}{% for option in product.options %}{% if forloop.index >= 2 %}addBreak{% endif %}{% endfor %}">
-            <div class="review_div">
-            {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+                      <div class="review_div">{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
             </div>
-            {% if variantCount > 1  or product.variants[0].title != 'Default Title'  %}
-            <div class="quantity_varients{% for option in product.options %}{% if option contains 'Color' %} color{% endif %}{% endfor %}">
-               {% for option in product.options %}
-                {% if option contains 'Color' %}
-                 <label for="product-selectors-option-0">Colours<em></em></label>
-               {% endif %} 
-              {% endfor %}
-              <select id="product-selectors" name="id" style="display: none;">
+                      {% if variantCount > 1 or product.variants[0].title != 'Default Title' %}
+                        <div class="quantity_varients">
+                          <select
+                            id="product-selectors"
+                            name="id"
+                            style="display: none;">
                 {% for variant in product.variants %}
                 {% unless variant.metafields.secomapp.freegifts %}
                 {% unless variant.title contains '(Freegifts)' %}
                 {% if variant.available %}
-                <option data-imge="{% if variant.image.size != blank %}{{ variant.image.src | product_img_url: 'compact' }}{% else  %}{{ product.featured_image.src | product_img_url: 'compact' }}{% endif %}" {% if variant == current_variant %} selected="selected" {% endif %} value="{{ variant.id }}">
+                                    <option
+                                      data-imge="{% if variant.image.size != blank %}{{ variant.image.src | product_img_url: 'compact' }}{% else  %}{{ product.featured_image.src | product_img_url: 'compact' }}{% endif %}"
+                                      {% if variant == current_variant %}
+                                      selected="selected"
+                                      {% endif %}
+                                      value="{{ variant.id }}">
                   {{ variant.title }}
                 </option>
                 {% else %}
                 <option value="{{ variant.id }}">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
                 {% endif %}
-                {%endunless%}
-                {%endunless%}
+                                {% endunless %}
+                              {% endunless %}
                 {% endfor %}
               </select>
               
               {% if product.available %}
               <div class="quantity">
-                <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
+                              <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{% endif %}>
                   {{ 'cart.label.quantity' | t }}
                 </label>
                 <div class="qty-group">
-                  <a href="#" data-minus-qtt class="minus button"></a>
-                  <input type="text" data-qtt-id="quantity__{{ product.id }}" name="quantity" value="1">
-                  <a href="#" data-plus-qtt class="plus button"></a>
+                                <a
+                                  href="#"
+                                  data-minus-qtt
+                                  class="minus button"></a>
+                                <input
+                                  type="text"
+                                  data-qtt-id="quantity__{{ product.id }}"
+                                  name="quantity"
+                                  value="1">
+                                <a
+                                  href="#"
+                                  data-plus-qtt
+                                  class="plus button"></a>
                 </div>
               </div>
               {% endif %}
@@ -135,17 +134,30 @@
             {% else %}
              {% if product.available %}
               <div class="quantity">
-                <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
+                            <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{% endif %}>
                   {{ 'cart.label.quantity' | t }}
                 </label>
                 <div class="qty-group">
-                  <a href="#" data-minus-qtt class="minus button"></a>
-                  <input type="text" data-qtt-id="quantity__{{ product.id }}" name="quantity" value="1">
-                  <a href="#" data-plus-qtt class="plus button"></a>
+                              <a
+                                href="#"
+                                data-minus-qtt
+                                class="minus button"></a>
+                              <input
+                                type="text"
+                                data-qtt-id="quantity__{{ product.id }}"
+                                name="quantity"
+                                value="1">
+                              <a
+                                href="#"
+                                data-plus-qtt
+                                class="plus button"></a>
                 </div>
               </div>
               {% endif %}
-            <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
+                        <input
+                          type="hidden"
+                          name="id"
+                          value="{{ product.variants[0].id }}" />
             {% endif %}
             <div class="mobile-cart">
             {% if current_variant.inventory_quantity>0 %}
@@ -159,141 +171,111 @@
            
           </div>
           <div class="price_info_box">
-            <div class="price-manufacturer">
             <div class="price-review price-manufacturer1" style="display:block">
                 <div class="prices" style="display:block">
-                  
-                  <span class="mrp {% if compare_at_price_max == blank %}color_black{% endif %}">MRP</span>             
+                          <span class="mrp">MRP</span>
                   {% if sca_compare_at_price > sca_price %}
                   {% if compare_at_price_max != blank %}
-                  <span class="compare-price">
-                   {{ product.variants[0].compare_at_price | money }}
-                  </span>
-                  {% else %}
-                   <span class="compare-price">  {{ product.variants[0].compare_at_price | money }}</span>                
+                              <span class="compare-price">{{ product.variants[0].compare_at_price | money }}</span>
                 {% endif %}
-                <p class="now_at"><span class="price on-sale" itemprop="price">
-                    {{ product.variants[0].price | money }}
-                  </span>   
+                            <p class="now_at">
+                              <span class="price on-sale" itemprop="price">{{ product.variants[0].price | money }}</span>
                 </p>
-                  
-                  
                 {% else %}
                 <span class="price" itemprop="price">{{ product.variants[0].price | money }}</span>
                 {% endif %}
                   <!--        Information icon        -->
               {% assign name_address_of_manufacturer = product.metafields.product['name address of manufacturer'] %}
+                          {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
+                          {% assign category = product.metafields.product['category'] %}
+                          {% assign number_of_items = product.metafields.product['number of items'] %}
+                          {% assign expiry_date = product.metafields.product['expiry date'] %}
+                          {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
               {% if name_address_of_manufacturer != 0 and name_address_of_manufacturer != blank %}
               <div class="tooltip price-manufacturer2">
-                <img src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/info-basic_ea3ba2.svg" class="info-icon">
+                              <img
+                                class="lazyautosizes lazyload"
+                                data-src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
+                                src="https://cdn.shopify.com/s/files/1/0390/2985/files/info-basic_ea3ba2.svg?v=1645702976"
+                                class="info-icon">
                 <span class="tooltiptext">
-
                   <div class="manufacturer-box">
                     <p class="manufact-text">Name & address of manufacturer</p>
                     <p class="manufact-add">{{ name_address_of_manufacturer }}</p>
                   </div>
-
-
-                  {% assign countries_of_origin = product.metafields.product['countries of origin'] %}
                   {% if countries_of_origin != 0 and countries_of_origin != blank %}
                   <div class="manufacturer-box">
                     <p class="manufact-text">Country of origin</p>
                     <p class="manufact-add">{{ countries_of_origin }}</p>
                   </div>
                   {% endif %}
-
-                  {% assign category = product.metafields.product['category'] %}
                   {% if category != 0 and category != blank %}
                   <div class="manufacturer-box">
                     <p class="manufact-text">Category</p>
                     <p class="manufact-add">{{ category }}</p>
                   </div>
                   {% endif %}
-
-                  {% assign number_of_items = product.metafields.product['number of items'] %}
                   {% if number_of_items != 0 and number_of_items != blank %}
                   <div class="manufacturer-box">
                     <p class="manufact-text">No of items</p>
                     <p class="manufact-add">{{ number_of_items }}</p>
                   </div>
                   {% endif %}
-
-                  {% assign expiry_date = product.metafields.product['expiry date'] %}
                   {% if expiry_date != 0 and expiry_date != blank %}
                   <div class="manufacturer-box">
                     <p class="manufact-text">Best Before Date</p>
                     <p class="manufact-add">{{ expiry_date }}</p>
                   </div>
                   {% endif %}
-
-                  {% assign dimension_of_product = product.metafields.product['dimension of product'] %}
                   {% if dimension_of_product != 0 and dimension_of_product != blank %}
                   <div class="manufacturer-box">
                     <p class="manufact-text">Product dimensions</p>
                     <p class="manufact-add">{{ dimension_of_product }}</p>
                   </div>
                   {% endif %}
-                  {% comment %}
-                  {% if Grammage != 0 and Grammage != blank %}
-                  <div class="manufacturer-box">
-                    <p class="manufact-text">Grammage </p>    
-                    <p class="manufact-add">{{ Grammage }}</p>
-                  </div>
-                  {% endif %}
-                  {% endcomment %}
                 </span>
               </div>
               {% endif %}
-              <!--        Information icon        -->
-                  <span class="span_taxes"> (inclusive of taxes)</span>
+                          <span class="span_taxes">
+                            (inclusive of taxes)</span>
                </div>
               </div>
              </div>  
-          </div>
-          
-          <div class="col-md-12 product_info">
-                  {% assign bestSuited = product.metafields.Product['Best Suited For'] | split:"," %}
-                  {% assign notRecommended = product.metafields.Product['Not Recommended'] | split:"," %}
-                  {% if notRecommended == blank %}
-                  {% assign notRecommended = product.metafields.Product['Not Recommended '] | split:"," %}
-                  {% endif %}
-                <div class="product-infor {% if bestSuited != 0 and bestSuited != blank or notRecommended != 0 and notRecommended != blank %}{% else %}no-border{% endif %}">
-                  
-                  {% if bestSuited != 0 and bestSuited != blank %}
-                  <div class="product-type">
-                    <label>Best suited for</label>
-                    {% for i in bestSuited %}
-                    <span>{{ i }}</span>
-                    {% if forloop.last %}
-                    {% else %}
-                    {% endif %}
-                    {% endfor %}
-                  </div>
-                  {% endif %}
-
-                  
-                  {% if notRecommended != 0 and notRecommended != blank %}
-                  <div class="product-type no-recom">
-                    <label>Not advised for</label>
-                    {% for j in notRecommended %}
-                    <span>{{ j }}</span>
-                    {% if forloop.last %}
-                    {% else %}
-                    {% endif %}
-                    {% endfor %}
-                  </div>
-                  {% endif %}
-                </div>
-            </div>
         
         <div class='cart_wish gb'>
           <div class="groups-btn visible-xs">           
-              {% if current_variant.inventory_quantity>0 %}
-              <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
-              {% elsif current_variant.inventory_management != "shopify"  %}  
-               <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+                        {% if current_variant.inventory_quantity > 0 %}
+                          <input
+                            data-btn-addToCart
+                            type="submit"
+                            name="add"
+                            class="add-to-cart-btnload btn"
+                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
+                            id="product-add-to-cart"
+                            value="{{ 'products.product.add_to_cart' | t }}"
+                            data-form-id="#add-to-cart-form"
+                            onclick="scq('Add to cart', 'pre_defined'); pixelCode();">
+                        {% elsif current_variant.inventory_management != "shopify" %}
+                          <input
+                            data-btn-addToCart
+                            type="submit"
+                            name="add"
+                            class="add-to-cart-btnload btn"
+                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
+                            id="product-add-to-cart"
+                            value="{{ 'products.product.add_to_cart' | t }}"
+                            data-form-id="#add-to-cart-form"
+                            onclick="scq('Add to cart', 'pre_defined'); pixelCode();">
               {% else %}
-              <input type="submit" name="add" class="btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
+                          <input
+                            type="submit"
+                            name="add"
+                            class="add-to-cart-btnload btn cart"
+                            {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}
+                            id="product-add-to-cart"
+                            disabled
+                            value="{{ 'products.product.unavailable' | t }}"
+                            onclick="scq('Add to cart', 'pre_defined'); pixelCode();">
               {% endif %}           
               {% include 'iwish_v2' with 'iwishproduct' %}
               {% include 'wishlist-product' %}
@@ -304,73 +286,133 @@
               {{ form | payment_button }}
               {% endif %}
           </div>
-
-          <div class="groups-btn hidden-xs">          
-            <div class="cart2">              
-              {% if current_variant.inventory_quantity>0 %}
-              <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
-              {% elsif current_variant.inventory_management != "shopify"  %}  
-               <input data-btn-addToCart type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{%endif%} id="product-add-to-cart" value="{{ 'products.product.add_to_cart' | t }}" data-form-id="#add-to-cart-form" onclick="scq('Add to cart', 'pre_defined');">
+                      {% include 'iwish_v2' with 'iWish_Login_Msgs' %}
+                      <div class="mobile-cart">
+                        {% if current_variant.inventory_quantity > 0 %}
+                          <input
+                            data-btn-addToCart
+                            type="submit"
+                            name="add"
+                            class="btn add-to-cart-btnload"
+                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
+                            id="product-add-to-cart"
+                            value="{{ 'products.product.add_to_cart' | t }}"
+                            data-form-id="#add-to-cart-form"
+                            onclick="snaptr('track', 'ADD_CART');">
+                        {% elsif current_variant.inventory_management != "shopify" %}
+                          <input
+                            data-btn-addToCart
+                            type="submit"
+                            name="add"
+                            class="btn add-to-cart-btnload"
+                            {% if settings.enable_multilang %}data-translate="products.product.add_to_cart"{% endif %}
+                            id="product-add-to-cart"
+                            value="{{ 'products.product.add_to_cart' | t }}"
+                            data-form-id="#add-to-cart-form"
+                            onclick="snaptr('track', 'ADD_CART');">
               {% else %}
-              <input type="submit" name="add" class="btn cart" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" onclick="scq('Add to cart', 'pre_defined');">
+                          <input
+                            type="submit"
+                            name="add"
+                            class="btn cart"
+                            {% if settings.enable_multilang %}data-translate="products.product.unavailable"{% endif %}
+                            id="product-add-to-cart"
+                            disabled
+                            value="{{ 'products.product.unavailable' | t }}"
+                            onclick="snaptr('track', 'ADD_CART');">
               {% endif %} 
-
             </div>
-              {% if section.settings.enable_payment_button and current_variant.available %}
-              {{ form | payment_button }}
-              {% endif %}
-        </div>
-            {% include 'iwish_v2' with 'iWish_Login_Msgs' %}   
-
         </div>  
 
           <div class="section-3">
            <div class="delivery-time-infos">
-            <ul>
+                        <ul class="list">
               <li class="checker-combine">
                 <div class="check-pincode">
-                  <input type="tel" id="pincode_input"  class="check-delivery-pincode" placeholder="Enter pincode" pattern="[0-9]*" onkeypress="return numbersOnly(this, event);"  onpaste="return false;" maxlength="6" minlength="6" name="pincode">
-                  <span class="check-delivery-submit"  id="check-delivery-submit"><b>Check</b></span>
+                              <input
+                                type="tel"
+                                id="pincode_input"
+                                class="check-delivery-pincode"
+                                placeholder="Enter pincode"
+                                pattern="[0-9]*"
+                                onkeypress="return numbersOnly(this, event);"
+                                onpaste="return false;"
+                                maxlength="6"
+                                minlength="6"
+                                name="pincode">
+                              <span class="check-delivery-submit" id="check-delivery-submit">
+                                <b>Check</b>
+                              </span>
                 </div>
               </li>
               <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
             </ul>
            </div>
-<!--            <div class="planet_div">
-            <img data-src="{{ section.settings.image_planet_desktop}}"  src="{{ section.settings.image_planet_desktop}}" alt="planet" class="lazyautosizes lazyloaded visible_desktop">
-            <img {{ section.settings.image_planet_mobile}} src="{{ section.settings.image_planet_mobile}}"  alt="planet" class="lazyautosizes lazyloaded visible_mobile">
-           <p style="color:rgb(92, 16, 140);font-weight:bold">1% of every sale goes towards the planet.</p>
-          </div>  -->
           </div>    
-          {% endform %}
-      </div> 
 
-          <div class="wrapper_div">
-          <div class="visible_mobile" style="display:none;">
-            <div class="row">
-              <div class="short-desc-datas">
-            {% if product.metafields.Product['Short Description'] != blank %}
-            {{ product.metafields.Product['Short Description'] }}
+                    <div class="col-md-12 product_info">
+                      {% assign bestSuited = product.metafields.Product['Best Suited For'] | split: "," %}
+                      {% assign notRecommended = product.metafields.Product['Not Recommended'] | split: "," %}
+                      <div class="product-infor {% if bestSuited != 0 and bestSuited != blank or notRecommended != 0 and notRecommended != blank %}{% else %}no-border{% endif %}">
+                        {% if bestSuited != 0 and bestSuited != blank %}
+                          <div class="product-type">
+                            <h2>Best suited for</h2>
+                            {% for i in bestSuited %}
+                              <h3>{{ i }}</h3>
+                              {% if forloop.last %}
+                            {% else %}
+                              {% endif %}
+                            {% endfor %}
+      </div> 
+                        {% endif %}
+
+                        {% if notRecommended != 0 and notRecommended != blank %}
+                          <div class="product-type no-recom">
+                            <h2>Not advised for</h2>
+                            {% for j in notRecommended %}
+                              <h3>{{ j }}</h3>
+                              {% if forloop.last %}
             {% else %}
-            {{ product.metafields.Product['Short Description '] }}
-              
             {% endif %}
+                            {% endfor %}
               </div>
+                        {% endif %}
             </div>
           </div>
+
+                  {% endform %}
+                </div>
+
+                {% if section.settings.display_product_detail_tag %}
+                  <div class="tags">
+                    <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{% endif %}>{{ 'blogs.article.tags' | t }}:</strong>
+                    {% for tag in product.tags %}
+                      <span class="separator">/</span>
+                      <a href="/collections/all/?constraint={{ tag | handle }}" rel="tag">
+                        {% if settings.enable_multilang %}
+                          <span class="lang1">{{ tag | split: '|' | first }}</span>
+                          <span class="lang2">{{ tag | split: '|' | last }}</span>
+                        {% else %}
+                          <span>{{ tag | split: '|' | first }}</span>
+                        {% endif %}
+                      </a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
+                <div class="wrapper_div">
         <div class="col-md-12 product_gift_bx">
                     <!--Free shipping offer text start -->
           {% if section.settings.display-free-text %}
           <br>
           <div class="free-shipping-top" style="list-style-type: none;">
-            <p class="offers_sec">offers</p>
-            <ul style="list-style-type: none;">
+                        <h3 class="offers_sec">offers</h3>
+                        <ul class="list" style="list-style-type: none;">
               {% if section.settings.offer_1 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_1 }}</li>
               {% endif %}
               {% if section.settings.offer_2 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
-
               {% endif %}
               {% if section.settings.offer_3 != blank %}
               <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
@@ -382,6 +424,8 @@
               <li style="list-style-type: none;">{{ section.settings.offer_5 }}</li>
               {% endif %}
             </ul>
+                        <button class="read-more">view more</button>
+                        <button class="read-less">view less</button>
           </div>
           {% endif %}
           <!--Free shipping offer text end -->
@@ -391,11 +435,76 @@
       </div>
 
     </div>
+        {%comment%}  {% include 'image-product-CRG' %}{% endcomment%}  
+          <div class="row">
+            <div class="col-12 widget-title not-before">
+              <ul id="tabs-navm">
+                <li>
+                  <a href="#tab1">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>description</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tab2">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>video</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+              </ul>
+            </div>
     
-      {% include 'tab-horizontal-phy' %}
-      {% include 'melt-section-image' %}
+            <div class="discription_outer tab-contentm" id="tab1">
+              <div class="description_outer">
+              <div class="col-6 col-sm-12">
+                <div class="product-full-description">
+                  <div class="description-wrapper">
+                    {% if product.metafields.Product['Short Description'] != blank %}
+                      {{ product.metafields.Product['Short Description'] }}
+                    {% endif %}
+                    {% if product.metafields.Product['moreinformation'] != blank %}
+                      <div class="append-content-custom">
+                        {{ product.metafields.Product['moreinformation'] }}</div>
+                      <span class="moreless-button btn">view more</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-12">
+                {% include 'tab-horizontal' %}
+              </div>
+              </div>
+            </div>
+            <div class="video tab-contentm" id="tab2">
+              {% assign Howtousevideos = product.metafields.Product['How to use video'] | split: "," %}
+              {% if Howtousevideos != 0 and Howtousevideos != blank %}
+                <div class="video_outer"> 
+                  {% for Howtousevideo in Howtousevideos %}
+                    <div class="video_box"><iframe width="100%" data-video-id="{{ Howtousevideo }}" height="100%" src="https://www.youtube.com/embed/{{ Howtousevideo }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe></div>
+                  {% endfor %}
+                </div>
+              {% endif %}  
+            </div>
+          </div>
+          <div class="three-sections">          
+            {% include "goodness-inside" %}
+          </div>
+          {% include 'additional-sections-product' %} 
       {% include 'Review-question-tab' %}   
     
+          {% if product.metafields.Product['faqs'] != blank %}
+          <div class="section_faq">
+            <div class="widget-title not-before"><h2 class="box-title"><span class="title"><span>frequently asked questions</span></span></h2></div>            
+              <div class="faqs">{{ product.metafields.Product['faqs'] }}</div>            
+          </div>
+        {% endif %}
+        
     {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
       <div class="container-padd60 product-related-outer fw-section">
             {% if section.settings.display_related_products %}
@@ -595,10 +704,6 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 },
 {
 "type": "header",
-"content": "Video Product"
-},
-{
-"type": "header",
 "content": "dynamic checkout button"
 },
 {
@@ -607,51 +712,56 @@ $(document).ready(function(){$("ul.tabs li").click(function(){var t=$(this).attr
 "label": "Show dynamic checkout button",
 "info": "Lets customers check out directly using a familiar payment method. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
 "default": true
-},{   
-"type":"url",
-"id":"image_planet_desktop",
-"label":"Planet For Desktop"
-},{   
-"type":"url",
-"id":"image_planet_mobile",
-"label":"Planet For Mobile"
-},
-{
-"type" : "header",
-"content" : "Offer Text"
-},
-{
-"type" : "checkbox",
-"id" : "display-free-text",
-"label" : "Display offer text",
-"default" : true
-},
-{
-"type" : "html",
-"id" : "offer_1",
-"label" : "First Text"
-},
-{
-"type" : "html",
-"id" : "offer_2",
-"label" : "Second Text"
-},
-{
-"type" : "html",
-"id" : "offer_3",
-"label" : "Third Text"
-},
-{
-"type" : "html",
-"id" : "offer_4",
-"label" : "Fourth Text"
-},
-{
-"type" : "html",
-"id" : "offer_5",
-"label" : "Fifth Text"
-},
-{
+      }, {
+        "type": "url",
+        "id": "image_planet_desktop",
+        "label": "Planet For Desktop"
+      }, {
+        "type": "url",
+        "id": "image_planet_mobile",
+        "label": "Planet For Mobile"
+      }, {
+        "type": "header",
+        "content": "Offer Text"
+      }, {
+        "type": "checkbox",
+        "id": "display-free-text",
+        "label": "Display offer text",
+        "default": true
+      }, {
+        "type": "html",
+        "id": "offer_1",
+        "label": "First Text"
+      }, {
+        "type": "html",
+        "id": "offer_2",
+        "label": "Second Text"
+      }, {
+        "type": "html",
+        "id": "offer_3",
+        "label": "Third Text"
+      }, {
+        "type": "html",
+        "id": "offer_4",
+        "label": "Fourth Text"
+      }, {
+        "type": "html",
+        "id": "offer_5",
+        "label": "Fifth Text"
+      }, {
+        "type": "checkbox",
+        "id": "display_crg_image",
+        "label": "Display CRG Image",
+        "default": true
+      }, {
+        "type": "url",
+        "id": "image_product_svg",
+        "label": "Image For Desktop SVG"
+      }, {
+        "type": "url",
+        "id": "image_product_mob_svg",
+        "label": "Image For Mobile SVG"
+      }, {
 "type": "radio",
 "id": "show_desc",
 "label": "Short description",
