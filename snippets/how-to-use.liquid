@@ -1,10 +1,9 @@
 {% comment %} How to use section  {% endcomment %}
 {% assign Howtousedesc = product.metafields.Product['How to Use - Text'] %}
-
+{% if Howtousedesc != 0 and Howtousedesc != blank %}
 <div class="how-to-use-steps-section">
   <div class="inside_tab ">
     <div class="how-to-use-steps row">
-      {% if Howtousedesc != 0 and Howtousedesc != blank %}
       <div class="{% if Howtousevideo == blank %} col-sm-12 {% else %}col-sm-6{% endif %} left-content-sec">
         
         <!--      how to use title    -->
@@ -19,8 +18,8 @@
         {{ Howtousedesc }}
         {% endif %}
         <!--      how to use description end   -->
-      </div>
-      {% endif %}
+      </div>      
     </div>
   </div>
 </div>
+{% endif %}
