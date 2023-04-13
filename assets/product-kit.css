@@ -393,7 +393,7 @@ span.compare-price .money{font-size:24px!important}
 .template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title{position:relative;transform:inherit;-webkit-transform:inherit;-moz-transform:inherit;transform-origin:inherit;border-radius:10px 0 0 10px!important;min-height:45px;text-align:center;padding:10px!important}
 .template-product #loyaltylion .lion-loyalty-widget_position_left span.lion-loyalty-widget__title .lion-loyalty-widget__icon{width:31px;height:31px;bottom:0;left:0;margin:0 auto;text-align:center;position:relative}
 .template-product .product-upper-section .product-photos{margin-bottom:15px}
-.product_title_box{margin:1rem 1rem 0}
+.product_title_box{margin:1rem 1rem 10px;}
 .product-shop .shopify-product-form .quantity{align-items:center;justify-content:center}
 .product-shop .cart_wish .groups-btn{padding:0 2rem 1.5rem}
 .visible_desktop{display:none;width:100%}
