@@ -129,6 +129,8 @@
     "display_button": true,
     "collection_infinite_scrolling": true,
     "infinity_scroll_feature": false,
+    "offer_1": "<a href=\"https:\/\/plumgoodness.com\/collections\/payday\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i> Any 2 plums at just Rs 699, use code : APRIL<\/a>",
+    "offer_2": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Shower gel FREE on purchase of 3 full size products <\/a>",
     "enable_quick_view": false,
     "qv_display_product_reviews": true,
     "qv_show_sold_in": false,
