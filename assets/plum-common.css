@@ -6234,6 +6234,15 @@ span.discount-tag-col.left.pink span {
 }
 
 
+@media only screen and (min-width:768px){
+.product-shop div#product-variants .review_div {
+    border-right: 1px solid #ccc;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+}
+
 @media only screen and (max-width:767px){
 
   .product-top span.discount-tag-col.right {
