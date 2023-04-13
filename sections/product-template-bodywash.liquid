@@ -1,9 +1,10 @@
 {% include 'sca_freegift_price' with product %}
+{{ 'product.css' | asset_url | stylesheet_tag }}
+{{ 'product-bodywash.css' | asset_url | stylesheet_tag }}
 <div class="product-template product-template-default">
   <div class="halo-product-content">
   <div class="pro-page">
-{{ 'product.css' | asset_url | stylesheet_tag }}
-{{ 'product-bodywash.css' | asset_url | stylesheet_tag }}
+
 <div data-section-id="{{ section.id }}" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="/collections/{{collection.handle}}?view=related">
   <div class="product row product-default">
     {%- assign current_variant = product.selected_or_first_available_variant -%}
@@ -41,60 +42,28 @@
               {% endfor %}
             </div>
           </div>
-          <div class="col-md-12 visible_desktop">
-          <div class="row">
-            <div class="short-desc-datas">
-            {% if product.metafields.Product['Short Description'] != blank %}
-            {{ product.metafields.Product['Short Description'] }}
-            {% else %} 
-               {{ product.metafields.Product['Short Description '] }}
-            {% endif %}
-              </div>
-            </div>
-          </div>
+
         </div>
-        {% assign productMetafields = product.metafields.Product %}
         <div class="col-md-7 product-shop">
-          <div class="product_title_box" style="position:relative;">
-            {% assign Range_url = product.metafields.Product['Range_url'] %}
-            {% assign rangeText =  product.metafields.Product["Range"] %}
-            {% if rangeText == blank %}
-            {% assign rangeText =  product.metafields.Product["Range "] %}
-            {% endif %}
-            {% if Range_url != blank %}
-            {% if rangeText != blank %}
-            <a href="{{ Range_url }}" class="range-link">{{ rangeText }}</a>
-            {% endif %}
-            {% else %}
-            {% if rangeText != blank %}
-            <span href="{{ Range_url }}" class="range-link">{{ rangeText }}</span>
-            {% endif %}
-            {% endif %}
+                <div class="product_title_box">
             <h1 class="product-title">
-              <span class="lang1">
-                {{ product.title }}<span class="varient_tx"></span>
-              </span>
+                    <span class="lang1">{{ product.title }}</span>
+                  </h1>
+                  {% if product.metafields.Product["advantages"] != blank %}
+                    <div class="advantages"><h2> {{ product.metafields.Product["advantages"] }}</h2></div>
+                  {% endif %}
                <div class="grammage">
               {% assign Grammage = product.metafields.product['grammage'] %}
               {% if Grammage != 0 and Grammage != blank %}
-              <label>Available in: {{ Grammage }}</label>       
+                      <h3>Available in: {{ Grammage }}</h3>
               {% endif %}
             </div>
-            </h1>
           </div>
 
           <div class="product_form_desciption">       
           {% form 'product', product, id: "add-to-cart-form", novalidate: 'novalidate' %}
-          {% if settings.display_size_chart %}
-          <a data-toggle="modal" data-target="#size_chart" class="size-chart-open-popup">
-            {% include 'multilang' with settings.size_guide_text %}
-          </a>
-          {% endif %}
-
           <div id="product-variants" class="varient_  {% if product.options.size == 1 and product.variants[0].title == 'Default Title' %}without_variant{% endif %}{% for option in product.options %}{% if forloop.index >= 2 %}addBreak{% endif %}{% endfor %}">
-            <div class="review_qtn">
-              <div class="review_div">
-                {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+                      <div class="review_div">{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
               </div>
               {% if product.available %}
               <div class="quantity">
@@ -244,12 +213,11 @@
                 </span>
               </div>
               {% endif %}
-              <!--        Information icon        -->
-                  <span class="span_taxes"> (inclusive of taxes)</span>
+                          <span class="span_taxes">
+                            (inclusive of taxes)</span>
                </div>
               </div>
              </div>  
-          </div>
           {% include 'bodywash-swatches-snippet' %}
         
         <div class='cart_wish'>
@@ -298,7 +266,7 @@
 
           <div class="section-3">
            <div class="delivery-time-infos">
-            <ul>
+                        <ul class="list">
               <li class="checker-combine">
                 <div class="check-pincode">
                   <input type="tel" id="pincode_input"  class="check-delivery-pincode" placeholder="Enter pincode" pattern="[0-9]*" onkeypress="return numbersOnly(this, event);"  onpaste="return false;" maxlength="6" name="pincode">
@@ -308,19 +276,13 @@
               <li class="availability-text" style="font-size:14px;font-weight:500;"></li>
             </ul>
            </div>
-<!--           <div class="planet_div">
-            <img data-src="{{ section.settings.image_planet_desktop}}"  src="{{ section.settings.image_planet_desktop}}" alt="planet" class="lazyautosizes lazyload visible_desktop">
-            <img {{ section.settings.image_planet_mobile}} src="{{ section.settings.image_planet_mobile}}"  alt="planet" class="lazyautosizes lazyload visible_mobile">
-           <p style="color:rgb(92, 16, 140);font-weight:bold">1% of every sale goes towards the planet.</p>
-          </div> -->
           </div>    
           {% endform %}
       </div> 
 
           {% if section.settings.display_product_detail_tag %}
           <div class="tags">
-        
-            <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{%endif%}>{{ 'blogs.article.tags' | t }}:</strong>
+                    <strong class="icon-tags" {% if settings.enable_multilang %}data-translate="blogs.article.tags"{% endif %}>{{ 'blogs.article.tags' | t }}:</strong>
             {% for tag in product.tags %}
             <span class="separator">/</span>
             <a href="/collections/all/?constraint={{ tag | handle }}" rel="tag">
@@ -334,55 +296,84 @@
             {% endfor %}
           </div>
           {% endif %}
+
           <div class="wrapper_div">
-          <div class="visible_mobile" style="display:none;">
+                  {% include 'product-offers-textcopy' %}
+                </div>
+              </div>
+            </div>
+
+          </div>
+          {% include 'image-product-CRG' %}
             <div class="row">
-              <div class="short-desc-datas">
+            <div class="col-12 widget-title not-before">
+              <ul id="tabs-navm">
+                <li>
+                  <a href="#tab1">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>description</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+                <li>
+                  <a href="#tab2">
+                    <h2 class="box-title">
+                      <span class="title">
+                        <span>video</span>
+                      </span>
+                    </h2>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="discription_outer tab-contentm" id="tab1">
+              <div class="description_outer">
+              <div class="col-6 col-sm-12">
+                <div class="product-full-description">
+                  <div class="description-wrapper">
             {% if product.metafields.Product['Short Description'] != blank %}
             {{ product.metafields.Product['Short Description'] }}
-            {% else %}           
-              
+                    {% endif %}
+                    {% if product.metafields.Product['moreinformation'] != blank %}
+                      <div class="append-content-custom">
+                        {{ product.metafields.Product['moreinformation'] }}</div>
+                      <span class="moreless-button btn">view more</span>
             {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-12">
+                {% include 'tab-horizontal' %}
               </div>
             </div>
           </div>
-        <div class="col-md-12 product_gift_bx">
-                    <!--Free shipping offer text start -->
-          {% if section.settings.display-free-text %}
-          <br>
-          <div class="free-shipping-top" style="list-style-type: none;">
-            <p class="offers_sec">offers</p>
-            <ul style="list-style-type: none;">
-              {% if section.settings.offer_1 != blank %}
-              <li style="list-style-type: none;">{{ section.settings.offer_1 }}</li>
-              {% endif %}
-              {% if section.settings.offer_2 != blank %}
-              <li style="list-style-type: none;">{{ section.settings.offer_2 }}</li>
-
-              {% endif %}
-              {% if section.settings.offer_3 != blank %}
-              <li style="list-style-type: none;">{{ section.settings.offer_3 }}</li>
-              {% endif %}
-              {% if section.settings.offer_4 != blank %}
-              <li style="list-style-type: none;">{{ section.settings.offer_4 }}</li>
-              {% endif %}
-              {% if section.settings.offer_5 != blank %}
-              <li style="list-style-type: none;">{{ section.settings.offer_5 }}</li>
-              {% endif %}
-            </ul>
+            <div class="video tab-contentm" id="tab2">
+              {% assign Howtousevideos = product.metafields.Product['How to use video'] | split: "," %}
+              {% if Howtousevideos != 0 and Howtousevideos != blank %}
+                <div class="video_outer"> 
+                  {% for Howtousevideo in Howtousevideos %}
+                    <div class="video_box"><iframe width="100%" data-video-id="{{ Howtousevideo }}" height="100%" src="https://www.youtube.com/embed/{{ Howtousevideo }}?enablejsapi=1&rel=0&autoplay=0" frameborder="0" allowfullscreen="" volume="0"></iframe></div>
+                  {% endfor %}
           </div>
           {% endif %}
           <!--Free shipping offer text end -->
         </div>
        </div>
+          <div class="three-sections">          
+            {% include "goodness-inside" %}
         </div>
-      </div>
+          {% include 'additional-sections-product' %} 
+          {% include 'Review-question-tab' %}
 
+          {% if product.metafields.Product['faqs'] != blank %}
+          <div class="section_faq">
+            <div class="widget-title not-before"><h2 class="box-title"><span class="title"><span>frequently asked questions</span></span></h2></div>            
+              <div class="faqs">{{ product.metafields.Product['faqs'] }}</div>            
     </div>
-      {% include 'image-product-CRG' %}     
-      {% include 'tab-horizontal' %}
-      {% include 'melt-section-image' %}
-      {% include 'Review-question-tab' %}   
+        {% endif %}
     
     {% if section.settings.show_tab == 'horizontal' or section.settings.show_tab == 'horizontal_center' or section.settings.display_related_products or settings.enable_ask_an_expert %}
       <div class="container-padd60 product-related-outer fw-section">
