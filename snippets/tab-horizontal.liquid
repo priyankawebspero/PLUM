@@ -43,6 +43,7 @@
 
 
       {% if section.settings.display_how_to_use %}
+        {% if Howtousedesc != 0 and Howtousedesc != blank %}
         <div class="tab-title">
           <a
             href="#"
@@ -62,6 +63,7 @@
           id="collapse-tab3">
           {% include "how-to-use" %}
         </div>
+          {% endif %}
       {% endif %}
       {% if section.settings.display_expert_tips %}
         {% if product.metafields.Product['expert_tips'] != blank %}
