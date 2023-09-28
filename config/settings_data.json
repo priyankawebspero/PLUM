@@ -1902,12 +1902,6 @@
           "enable_payment_button": false,
           "image_planet_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.svg",
           "image_planet_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.png?v=1620658181",
-          "display-free-text": true,
-          "offer_1": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Get BodyLovin' Duo + Beauty Organizer worth Rs 1199 FREE on orders above Rs 1199<\/a>",
-          "offer_2": "<a href=\"https:\/\/plumgoodness.com\/collections\/avocado\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>FLAT 20% off on entire avocado haircare range<\/a>",
-          "offer_3": "<a href=\"https:\/\/plumgoodness.com\/collections\/green-tea\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Flat 20% off on acne fighting green tea range<\/a>",
-          "offer_4": "<a href=\"https:\/\/plumgoodness.com\/pages\/refer-your-friend?tab=refer\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Refer a friend and earn 1000 loyalty points<\/a>",
-          "offer_5": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Earn 10% cashback on all orders <\/a>",
           "display_crg_image": true,
           "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/4_icons_1.svg?v=1646131912",
           "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/Mobile_version.svg?v=1623045215",
@@ -3576,7 +3570,6 @@
       },
       "16017992266ee66e02": {
         "type": "home-custom-block-spotlight-2",
-        "disabled": true,
         "blocks": {
           "16017992266ee66e02-0": {
             "type": "image",
@@ -3653,6 +3646,7 @@
           "51ed4ddd-c0a4-44e0-b6fc-ec2e1545b96d",
           "408b9ae6-2a40-42f5-924a-efa0a4651ad2"
         ],
+        "disabled": true,
         "settings": {
           "layout": "default",
           "display_padding": false,
@@ -4540,12 +4534,6 @@
           "enable_payment_button": false,
           "image_planet_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.svg",
           "image_planet_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/For_the_planet.png?v=1620658181",
-          "display-free-text": true,
-          "offer_1": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Get BodyLovin' Duo + Beauty Organizer worth Rs 1199 FREE on orders above Rs 1199<\/a>",
-          "offer_2": "<a href=\"https:\/\/plumgoodness.com\/collections\/avocado\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>FLAT 20% off on entire avocado haircare range<\/a>",
-          "offer_3": "<a href=\"https:\/\/plumgoodness.com\/collections\/green-tea\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Flat 20% off on acne fighting green tea range<\/a>",
-          "offer_4": "<a href=\"https:\/\/plumgoodness.com\/pages\/refer-your-friend?tab=refer\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Refer a friend and earn 1000 loyalty points<\/a>",
-          "offer_5": "<a href=\"https:\/\/plumgoodness.com\/collections\/all-in-stock\" target=\"_blank\" style=\"color:#5e0c8c;font-weight:bold\"><i class=\"fa fa-gift\" style=\"font-size:22px;font-weight:bold\"><\/i>Earn 10% cashback on all orders <\/a>",
           "display_crg_image": true,
           "image_product_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/4_icons.svg?v=1623045215",
           "image_product_mob_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0390\/2985\/files\/Mobile_version.svg?v=1623045215",
@@ -4553,8 +4541,6 @@
           "show_tab": "horizontal_center",
           "display_product_detail_description": true,
           "product_description_title": "Reasons to love",
-          "display_expert_tips": true,
-          "display_expert_title": "Expert tips",
           "display_how_to_use": true,
           "how_to_use_title": "How To Use",
           "display_custom_tab": true,
@@ -5992,7 +5978,6 @@
       },
       "1646893558c77f7d42": {
         "type": "best-deal-tiles",
-        "disabled": true,
         "blocks": {
           "1646893558c77f7d42-0": {
             "type": "image",
@@ -6033,6 +6018,7 @@
           "1752bc3e-b626-4da4-b7e6-cf8d0b46e1e1",
           "1646893558c77f7d42-1"
         ],
+        "disabled": true,
         "settings": {
           "layout": "default",
           "spotlight_block_title": ""
@@ -6227,7 +6213,7 @@
           "cfbbd904-64dd-4a9d-81fe-9d7f42ec8079": {
             "type": "product-slide",
             "settings": {
-              "show_slider_featured_collection": "plum-bodylovin-single-products"
+              "show_slider_featured_collection": "plum-products"
             }
           },
           "8b59cbe6-b77c-4b57-a8a6-23ac3fa721b9": {

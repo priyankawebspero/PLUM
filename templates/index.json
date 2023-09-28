@@ -111,7 +111,7 @@
             "dpl_slide_img": true,
             "image_slide": "shopify:\/\/shop_images\/40_OFF_Payday_Desk_V2_492dbc3e-f2c9-4370-b7c7-4d809ef2c90c.webp",
             "image_slide_mb": "shopify:\/\/shop_images\/40_OFF_Payday_Mob_V2_8e1a2efc-b19b-4719-924d-895ac37283ff.webp",
-            "link": "shopify:\/\/collections\/plum-bodylovin-single-products"
+            "link": "shopify:\/\/collections\/plum-products"
           }
         },
         "419c191a-9d3b-4d3e-95da-f1c5fafe9b17": {
@@ -591,7 +591,6 @@
     },
     "356ed8d8-c83d-4baa-8047-1c9ce898ded4": {
       "type": "custom-carousel",
-      "disabled": true,
       "blocks": {
         "template--14835773440060__356ed8d8-c83d-4baa-8047-1c9ce898ded4-167525499388a261d9-0": {
           "type": "custom",
@@ -650,6 +649,7 @@
         "aff5eab1-26a5-48df-a2bc-c4cb11659831",
         "d6edd57c-2d6b-492f-a68d-365965569400"
       ],
+      "disabled": true,
       "settings": {
         "banner_heading": "#CAMPAIGNS"
       }
