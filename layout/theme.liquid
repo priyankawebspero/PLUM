@@ -56,10 +56,7 @@
   
   {% if template contains 'product' %}
   {% include 'linked-options' %} 
-  <!-- starapps_scripts_start -->
-  {% render "starapps-product-json", product: product, starapps_app: "VIA", starapps_attribute: "sa-product-json" %}   
-   <script type="text/javascript" src="https://bcdn.starapps.studio/apps/via/plumgoodness-2/script-1648025066.js?shop={{shop.permanent_domain}}" async></script>
-<!-- starapps_scripts_end -->  
+    
   {% endif %}
 	<!-- CLEVERTAP INTEGRATION VARIABLES -->
 	{% include 'clevertap_variables_generator' %}
