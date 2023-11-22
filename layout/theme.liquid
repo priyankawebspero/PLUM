@@ -223,7 +223,7 @@ $(".clear_cart").on("click",(function(){$.ajax({type:"POST",url:"/cart/clear.js"
       {% if fg_script_url !="" %}    
         <script src="{{ fg_script_url |remove:'\' }}"></script>    
       {% endif %}
-      
+      <input type="hidden" value="commite">
 </body>
 
 </html>
